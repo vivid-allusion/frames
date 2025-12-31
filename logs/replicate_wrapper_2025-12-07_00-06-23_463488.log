@@ -1,0 +1,1684 @@
+2025-12-07 00:06:23 | INFO     | src.utils.logging:setup_logging:39 - Logging configured (verbose=False, debug=False)
+2025-12-07 00:06:23 | INFO     | __main__:setup_environment:79 - Environment initialized
+2025-12-07 00:06:23 | INFO     | __main__:load_and_validate_config:84 - Loading configuration...
+2025-12-07 00:06:23 | INFO     | src.config.loader:load_config:42 - Loaded configuration from USER-FILES/01.CONFIG/config.yaml
+2025-12-07 00:06:23 | INFO     | __main__:authenticate_for_mode:273 - Authenticating with 1Password...
+2025-12-07 00:06:28 | INFO     | src.auth.session_manager:ensure_op_auth:42 - 🔐 1Password authentication required...
+2025-12-07 00:06:28 | SUCCESS  | src.auth.session_manager:ensure_op_auth:68 - ✅ 1Password authentication successful
+2025-12-07 00:06:29 | DEBUG    | src.auth.session_manager:ensure_op_auth:39 - 1Password session is active
+2025-12-07 00:06:29 | DEBUG    | src.auth.auth:load_auth_config:28 - Using auth config: auth_bites.yaml
+2025-12-07 00:06:31 | DEBUG    | src.auth.auth:get_api_key:77 - Retrieved API key: r8_V...
+2025-12-07 00:06:31 | INFO     | __main__:discover_inputs_and_profiles:92 - Discovering inputs...
+2025-12-07 00:06:31 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 251206_231550_sonnet_RT_temp0.8/processing_log.txt
+2025-12-07 00:06:31 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 251206_231550_sonnet_RT_temp0.8/prompt_24.txt
+2025-12-07 00:06:31 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 251206_231550_sonnet_RT_temp0.8/prompt_30.txt
+2025-12-07 00:06:31 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 251206_231550_sonnet_RT_temp0.8/prompt_18.txt
+2025-12-07 00:06:31 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 251206_231550_sonnet_RT_temp0.8/prompt_19.txt
+2025-12-07 00:06:31 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 251206_231550_sonnet_RT_temp0.8/prompt_25.txt
+2025-12-07 00:06:31 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 251206_231550_sonnet_RT_temp0.8/prompt_27.txt
+2025-12-07 00:06:31 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 251206_231550_sonnet_RT_temp0.8/prompt_26.txt
+2025-12-07 00:06:31 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 251206_231550_sonnet_RT_temp0.8/prompt_22.txt
+2025-12-07 00:06:31 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 251206_231550_sonnet_RT_temp0.8/prompt_23.txt
+2025-12-07 00:06:31 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 251206_231550_sonnet_RT_temp0.8/prompt_09.txt
+2025-12-07 00:06:31 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 251206_231550_sonnet_RT_temp0.8/prompt_21.txt
+2025-12-07 00:06:31 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 251206_231550_sonnet_RT_temp0.8/prompt_20.txt
+2025-12-07 00:06:31 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 251206_231550_sonnet_RT_temp0.8/prompt_08.txt
+2025-12-07 00:06:31 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 251206_231550_sonnet_RT_temp0.8/prompt_05.txt
+2025-12-07 00:06:31 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 251206_231550_sonnet_RT_temp0.8/prompt_11.txt
+2025-12-07 00:06:31 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 251206_231550_sonnet_RT_temp0.8/prompt_10.txt
+2025-12-07 00:06:31 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 251206_231550_sonnet_RT_temp0.8/prompt_04.txt
+2025-12-07 00:06:31 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 251206_231550_sonnet_RT_temp0.8/prompt_12.txt
+2025-12-07 00:06:31 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 251206_231550_sonnet_RT_temp0.8/prompt_06.txt
+2025-12-07 00:06:31 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 251206_231550_sonnet_RT_temp0.8/prompt_07.txt
+2025-12-07 00:06:31 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 251206_231550_sonnet_RT_temp0.8/prompt_13.txt
+2025-12-07 00:06:31 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 251206_231550_sonnet_RT_temp0.8/prompt_17.txt
+2025-12-07 00:06:31 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 251206_231550_sonnet_RT_temp0.8/prompt_03.txt
+2025-12-07 00:06:31 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 251206_231550_sonnet_RT_temp0.8/prompt_02.txt
+2025-12-07 00:06:31 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 251206_231550_sonnet_RT_temp0.8/prompt_16.txt
+2025-12-07 00:06:31 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 251206_231550_sonnet_RT_temp0.8/prompt_28.txt
+2025-12-07 00:06:31 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 251206_231550_sonnet_RT_temp0.8/prompt_14.txt
+2025-12-07 00:06:31 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 251206_231550_sonnet_RT_temp0.8/prompt_15.txt
+2025-12-07 00:06:31 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 251206_231550_sonnet_RT_temp0.8/prompt_01.txt
+2025-12-07 00:06:31 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 251206_231550_sonnet_RT_temp0.8/prompt_29.txt
+2025-12-07 00:06:31 | INFO     | src.processing.discovery:discover_prompt_files:45 - Discovered 31 prompt files
+2025-12-07 00:06:31 | DEBUG    | src.processing.discovery:discover_profiles:93 - Loaded profile: USER-FILES/03.PROFILES/nano-banano-pro_9x16_2k_RUBEN.yaml
+2025-12-07 00:06:31 | INFO     | src.processing.discovery:discover_profiles:97 - Loaded 1 profiles
+2025-12-07 00:06:31 | INFO     | src.processing.discovery:get_active_models:135 - Found profile: nano-banano-pro_9x16_2k_RUBEN
+2025-12-07 00:06:31 | INFO     | src.processing.discovery:get_active_models:140 - Total profiles to process: 1
+2025-12-07 00:06:31 | INFO     | src.config.validator:validate_all:26 - All configuration validation passed
+2025-12-07 00:06:31 | INFO     | __main__:initialize_services:186 - Output directory: USER-FILES/05.OUTPUT/251207_000631_IMAGE
+2025-12-07 00:06:31 | INFO     | __main__:execute_processing:221 - Starting matrix processing...
+2025-12-07 00:06:31 | DEBUG    | src.processing.validator:validate_operational_requirements:23 - Profile 'nano-banano-pro_9x16_2k_RUBEN' operational validation passed
+2025-12-07 00:06:31 | INFO     | src.processing.processor:process_all:60 - Processing 31 combinations (31 files × 1 profiles)
+2025-12-07 00:06:31 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from processing_log.txt
+2025-12-07 00:06:31 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 1/31: 251206_231550_sonnet_RT_temp0.8/processing_log.txt + nano-banano-pro_9x16_2k_RUBEN
+2025-12-07 00:06:31 | DEBUG    | src.processing.processor:_process_single_combination:138 - Added image_input to params: ['https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png']
+2025-12-07 00:06:31 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Provided image shows what Ruben actually looks like.
+2025-12-07 00:06:31 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing 251206_231550_sonnet_RT_temp0.8/processing_log.txt: 23:15:50 | INFO | Authenticating with 1Password CL...
+2025-12-07 00:06:31 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ]
+}
+2025-12-07 00:06:31 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ],
+  "prompt": "23:15:50 | INFO | Authenticating with 1Password CLI...\n23:15:54 | INFO | \u2705 Successfully retrieved API key from 1Password\n23:15:54 | INFO | \ud83d\ude80 Generating prompts from system prompt...\n23:16:23 | INFO | \u2705 Generated JSON response (5815 chars)\n23:16:23 | INFO | Removed markdown code block formatting from response\n23:16:23 | INFO | \u2705 Valid JSON with 30 prompts\n23:16:23 | INFO | \u2705 Successfully parsed JSON response\n23:16:23 | INFO | \u2705 Extracted 30 prompts from JSON\n23:16:23 | SUCCESS | \u2705 Saved 30 prompts to USER-FILES/05.OUTPUT/251206_231550_sonnet_RT_temp0.8\n23:16:23 | SUCCESS | \u2705 Successfully generated 30 prompts!\n23:16:23 | INFO | \ud83d\udcc1 Saved to: USER-FILES/05.OUTPUT/251206_231550_sonnet_RT_temp0.8\n23:16:23 | INFO | \ud83d\udcb0 Cost report saved to USER-FILES/05.OUTPUT/251206_231550_sonnet_RT_temp0.8/COST.md\n23:16:23 | INFO | \ud83d\udcb5 Total Cost: $0.0246 USD\n23:16:23 | INFO | \n23:16:23 | INFO | ==================================================\n23:16:23 | INFO | \u2728 Generation complete!\n23:16:23 | INFO | Prompts generated: 30 | Files saved: 30 Provided image shows what Ruben actually looks like."
+}
+2025-12-07 00:06:31 | DEBUG    | src.api.client:generate_image:89 - Original prompt: 23:15:50 | INFO | Authenticating with 1Password CLI...
+23:15:54 | INFO | ✅ Successfully retrieved API key from 1Password
+23:15:54 | INFO | 🚀 Generating prompts from system prompt...
+23:16:23 | INFO | ✅ Generated JSON response (5815 chars)
+23:16:23 | INFO | Removed markdown code block formatting from response
+23:16:23 | INFO | ✅ Valid JSON with 30 prompts
+23:16:23 | INFO | ✅ Successfully parsed JSON response
+23:16:23 | INFO | ✅ Extracted 30 prompts from JSON
+23:16:23 | SUCCESS | ✅ Saved 30 prompts to USER-FILES/05.OUTPUT/251206_231550_sonnet_RT_temp0.8
+23:16:23 | SUCCESS | ✅ Successfully generated 30 prompts!
+23:16:23 | INFO | 📁 Saved to: USER-FILES/05.OUTPUT/251206_231550_sonnet_RT_temp0.8
+23:16:23 | INFO | 💰 Cost report saved to USER-FILES/05.OUTPUT/251206_231550_sonnet_RT_temp0.8/COST.md
+23:16:23 | INFO | 💵 Total Cost: $0.0246 USD
+23:16:23 | INFO | 
+23:16:23 | INFO | ==================================================
+23:16:23 | INFO | ✨ Generation complete!
+23:16:23 | INFO | Prompts generated: 30 | Files saved: 30 Provided image shows what Ruben actually looks like.
+2025-12-07 00:06:31 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: 23:15:50 | INFO | Authenticating with 1Password CLI...
+23:15:54 | INFO | ✅ Successfully retrieved API key from 1Password
+23:15:54 | INFO | 🚀 Generating prompts from system prompt...
+23:16:23 | INFO | ✅ Generated JSON response (5815 chars)
+23:16:23 | INFO | Removed markdown code block formatting from response
+23:16:23 | INFO | ✅ Valid JSON with 30 prompts
+23:16:23 | INFO | ✅ Successfully parsed JSON response
+23:16:23 | INFO | ✅ Extracted 30 prompts from JSON
+23:16:23 | SUCCESS | ✅ Saved 30 prompts to USER-FILES/05.OUTPUT/251206_231550_sonnet_RT_temp0.8
+23:16:23 | SUCCESS | ✅ Successfully generated 30 prompts!
+23:16:23 | INFO | 📁 Saved to: USER-FILES/05.OUTPUT/251206_231550_sonnet_RT_temp0.8
+23:16:23 | INFO | 💰 Cost report saved to USER-FILES/05.OUTPUT/251206_231550_sonnet_RT_temp0.8/COST.md
+23:16:23 | INFO | 💵 Total Cost: $0.0246 USD
+23:16:23 | INFO | 
+23:16:23 | INFO | ==================================================
+23:16:23 | INFO | ✨ Generation complete!
+23:16:23 | INFO | Prompts generated: 30 | Files saved: 30 Provided image shows what Ruben actually looks like.
+2025-12-07 00:06:31 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: '23:15:50 | INFO | Authenticating with 1Password CLI...\n23:15:54 | INFO | ✅ Successfully retrieved API key from 1Password\n23:15:54 | INFO | 🚀 Generating prompts from system prompt...\n23:16:23 | INFO | ✅ Generated JSON response (5815 chars)\n23:16:23 | INFO | Removed markdown code block formatting from response\n23:16:23 | INFO | ✅ Valid JSON with 30 prompts\n23:16:23 | INFO | ✅ Successfully parsed JSON response\n23:16:23 | INFO | ✅ Extracted 30 prompts from JSON\n23:16:23 | SUCCESS | ✅ Saved 30 prompts to USER-FILES/05.OUTPUT/251206_231550_sonnet_RT_temp0.8\n23:16:23 | SUCCESS | ✅ Successfully generated 30 prompts!\n23:16:23 | INFO | 📁 Saved to: USER-FILES/05.OUTPUT/251206_231550_sonnet_RT_temp0.8\n23:16:23 | INFO | 💰 Cost report saved to USER-FILES/05.OUTPUT/251206_231550_sonnet_RT_temp0.8/COST.md\n23:16:23 | INFO | 💵 Total Cost: $0.0246 USD\n23:16:23 | INFO | \n23:16:23 | INFO | ==================================================\n23:16:23 | INFO | ✨ Generation complete!\n23:16:23 | INFO | Prompts generated: 30 | Files saved: 30 Provided image shows what Ruben actually looks like.'
+2025-12-07 00:06:31 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-07 00:06:31 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ],
+  "prompt": "23:15:50 | INFO | Authenticating with 1Password CLI...\n23:15:54 | INFO | \u2705 Successfully retrieved API key from 1Password\n23:15:54 | INFO | \ud83d\ude80 Generating prompts from system prompt...\n23:16:23 | INFO | \u2705 Generated JSON response (5815 chars)\n23:16:23 | INFO | Removed markdown code block formatting from response\n23:16:23 | INFO | \u2705 Valid JSON with 30 prompts\n23:16:23 | INFO | \u2705 Successfully parsed JSON response\n23:16:23 | INFO | \u2705 Extracted 30 prompts from JSON\n23:16:23 | SUCCESS | \u2705 Saved 30 prompts to USER-FILES/05.OUTPUT/251206_231550_sonnet_RT_temp0.8\n23:16:23 | SUCCESS | \u2705 Successfully generated 30 prompts!\n23:16:23 | INFO | \ud83d\udcc1 Saved to: USER-FILES/05.OUTPUT/251206_231550_sonnet_RT_temp0.8\n23:16:23 | INFO | \ud83d\udcb0 Cost report saved to USER-FILES/05.OUTPUT/251206_231550_sonnet_RT_temp0.8/COST.md\n23:16:23 | INFO | \ud83d\udcb5 Total Cost: $0.0246 USD\n23:16:23 | INFO | \n23:16:23 | INFO | ==================================================\n23:16:23 | INFO | \u2728 Generation complete!\n23:16:23 | INFO | Prompts generated: 30 | Files saved: 30 Provided image shows what Ruben actually looks like."
+}
+2025-12-07 00:07:33 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-07 00:07:33 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-12-07 00:07:33 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana-pro
+2025-12-07 00:07:33 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-12-07 00:07:33 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-12-07 00:07:35 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/processing_log_IMAGE_000733_nano-banano-pro_9x16_2k_RUBEN.png
+2025-12-07 00:07:35 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/processing_log_IMAGE_000733_nano-banano-pro_9x16_2k_RUBEN.md
+2025-12-07 00:07:35 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/processing_log_IMAGE_000733_nano-banano-pro_9x16_2k_RUBEN.png
+2025-12-07 00:07:35 | INFO     | src.processing.processor:_process_with_context:197 - Waiting 1.0 seconds before next request
+2025-12-07 00:07:36 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt_01.txt
+2025-12-07 00:07:36 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 2/31: 251206_231550_sonnet_RT_temp0.8/prompt_01.txt + nano-banano-pro_9x16_2k_RUBEN
+2025-12-07 00:07:36 | DEBUG    | src.processing.processor:_process_single_combination:138 - Added image_input to params: ['https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png']
+2025-12-07 00:07:36 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Provided image shows what Ruben actually looks like.
+2025-12-07 00:07:36 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing 251206_231550_sonnet_RT_temp0.8/prompt_01.txt: Candid shot of Ruben sitting at an outdoor cafe on...
+2025-12-07 00:07:36 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ]
+}
+2025-12-07 00:07:36 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ],
+  "prompt": "Candid shot of Ruben sitting at an outdoor cafe on Rothschild Boulevard in Tel Aviv, an Israeli woman in her late 20s laughing next to him while gesturing with her hands, other Israelis in their 30s chatting at nearby tables. Provided image shows what Ruben actually looks like."
+}
+2025-12-07 00:07:36 | DEBUG    | src.api.client:generate_image:89 - Original prompt: Candid shot of Ruben sitting at an outdoor cafe on Rothschild Boulevard in Tel Aviv, an Israeli woman in her late 20s laughing next to him while gesturing with her hands, other Israelis in their 30s chatting at nearby tables. Provided image shows what Ruben actually looks like.
+2025-12-07 00:07:36 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: Candid shot of Ruben sitting at an outdoor cafe on Rothschild Boulevard in Tel Aviv, an Israeli woman in her late 20s laughing next to him while gesturing with her hands, other Israelis in their 30s chatting at nearby tables. Provided image shows what Ruben actually looks like.
+2025-12-07 00:07:36 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'Candid shot of Ruben sitting at an outdoor cafe on Rothschild Boulevard in Tel Aviv, an Israeli woman in her late 20s laughing next to him while gesturing with her hands, other Israelis in their 30s chatting at nearby tables. Provided image shows what Ruben actually looks like.'
+2025-12-07 00:07:36 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-07 00:07:36 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ],
+  "prompt": "Candid shot of Ruben sitting at an outdoor cafe on Rothschild Boulevard in Tel Aviv, an Israeli woman in her late 20s laughing next to him while gesturing with her hands, other Israelis in their 30s chatting at nearby tables. Provided image shows what Ruben actually looks like."
+}
+2025-12-07 00:08:09 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-07 00:08:09 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-12-07 00:08:09 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana-pro
+2025-12-07 00:08:09 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-12-07 00:08:09 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-12-07 00:08:10 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_01_IMAGE_000809_nano-banano-pro_9x16_2k_RUBEN.png
+2025-12-07 00:08:10 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_01_IMAGE_000809_nano-banano-pro_9x16_2k_RUBEN.md
+2025-12-07 00:08:10 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_01_IMAGE_000809_nano-banano-pro_9x16_2k_RUBEN.png
+2025-12-07 00:08:10 | INFO     | src.processing.processor:_process_with_context:197 - Waiting 1.0 seconds before next request
+2025-12-07 00:08:11 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt_02.txt
+2025-12-07 00:08:11 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 3/31: 251206_231550_sonnet_RT_temp0.8/prompt_02.txt + nano-banano-pro_9x16_2k_RUBEN
+2025-12-07 00:08:11 | DEBUG    | src.processing.processor:_process_single_combination:138 - Added image_input to params: ['https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png']
+2025-12-07 00:08:11 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Provided image shows what Ruben actually looks like.
+2025-12-07 00:08:11 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing 251206_231550_sonnet_RT_temp0.8/prompt_02.txt: Candid photo of Ruben standing on a film set in Sö...
+2025-12-07 00:08:11 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ]
+}
+2025-12-07 00:08:11 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ],
+  "prompt": "Candid photo of Ruben standing on a film set in S\u00f6dermalm holding a light meter, a Swedish cinematographer in his 40s adjusting a camera beside him, Swedish crew members carrying equipment in the background. Provided image shows what Ruben actually looks like."
+}
+2025-12-07 00:08:11 | DEBUG    | src.api.client:generate_image:89 - Original prompt: Candid photo of Ruben standing on a film set in Södermalm holding a light meter, a Swedish cinematographer in his 40s adjusting a camera beside him, Swedish crew members carrying equipment in the background. Provided image shows what Ruben actually looks like.
+2025-12-07 00:08:11 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: Candid photo of Ruben standing on a film set in Södermalm holding a light meter, a Swedish cinematographer in his 40s adjusting a camera beside him, Swedish crew members carrying equipment in the background. Provided image shows what Ruben actually looks like.
+2025-12-07 00:08:11 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'Candid photo of Ruben standing on a film set in Södermalm holding a light meter, a Swedish cinematographer in his 40s adjusting a camera beside him, Swedish crew members carrying equipment in the background. Provided image shows what Ruben actually looks like.'
+2025-12-07 00:08:11 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-07 00:08:11 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ],
+  "prompt": "Candid photo of Ruben standing on a film set in S\u00f6dermalm holding a light meter, a Swedish cinematographer in his 40s adjusting a camera beside him, Swedish crew members carrying equipment in the background. Provided image shows what Ruben actually looks like."
+}
+2025-12-07 00:08:43 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-07 00:08:43 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-12-07 00:08:43 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana-pro
+2025-12-07 00:08:43 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-12-07 00:08:43 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-12-07 00:08:44 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_02_IMAGE_000843_nano-banano-pro_9x16_2k_RUBEN.png
+2025-12-07 00:08:44 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_02_IMAGE_000843_nano-banano-pro_9x16_2k_RUBEN.md
+2025-12-07 00:08:44 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_02_IMAGE_000843_nano-banano-pro_9x16_2k_RUBEN.png
+2025-12-07 00:08:44 | INFO     | src.processing.processor:_process_with_context:197 - Waiting 1.0 seconds before next request
+2025-12-07 00:08:45 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt_03.txt
+2025-12-07 00:08:45 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 4/31: 251206_231550_sonnet_RT_temp0.8/prompt_03.txt + nano-banano-pro_9x16_2k_RUBEN
+2025-12-07 00:08:45 | DEBUG    | src.processing.processor:_process_single_combination:138 - Added image_input to params: ['https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png']
+2025-12-07 00:08:45 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Provided image shows what Ruben actually looks like.
+2025-12-07 00:08:45 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing 251206_231550_sonnet_RT_temp0.8/prompt_03.txt: Candid shot of Ruben accepting a small trophy at a...
+2025-12-07 00:08:45 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ]
+}
+2025-12-07 00:08:45 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ],
+  "prompt": "Candid shot of Ruben accepting a small trophy at an indie film festival in Tribeca, American filmmakers in their 30s clapping behind him, festival staff visible at the side of the stage. Provided image shows what Ruben actually looks like."
+}
+2025-12-07 00:08:45 | DEBUG    | src.api.client:generate_image:89 - Original prompt: Candid shot of Ruben accepting a small trophy at an indie film festival in Tribeca, American filmmakers in their 30s clapping behind him, festival staff visible at the side of the stage. Provided image shows what Ruben actually looks like.
+2025-12-07 00:08:45 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: Candid shot of Ruben accepting a small trophy at an indie film festival in Tribeca, American filmmakers in their 30s clapping behind him, festival staff visible at the side of the stage. Provided image shows what Ruben actually looks like.
+2025-12-07 00:08:45 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'Candid shot of Ruben accepting a small trophy at an indie film festival in Tribeca, American filmmakers in their 30s clapping behind him, festival staff visible at the side of the stage. Provided image shows what Ruben actually looks like.'
+2025-12-07 00:08:45 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-07 00:08:45 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ],
+  "prompt": "Candid shot of Ruben accepting a small trophy at an indie film festival in Tribeca, American filmmakers in their 30s clapping behind him, festival staff visible at the side of the stage. Provided image shows what Ruben actually looks like."
+}
+2025-12-07 00:09:19 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-07 00:09:19 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-12-07 00:09:19 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana-pro
+2025-12-07 00:09:19 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-12-07 00:09:19 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-12-07 00:09:20 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_03_IMAGE_000919_nano-banano-pro_9x16_2k_RUBEN.png
+2025-12-07 00:09:20 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_03_IMAGE_000919_nano-banano-pro_9x16_2k_RUBEN.md
+2025-12-07 00:09:20 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_03_IMAGE_000919_nano-banano-pro_9x16_2k_RUBEN.png
+2025-12-07 00:09:20 | INFO     | src.processing.processor:_process_with_context:197 - Waiting 1.0 seconds before next request
+2025-12-07 00:09:21 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt_04.txt
+2025-12-07 00:09:21 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 5/31: 251206_231550_sonnet_RT_temp0.8/prompt_04.txt + nano-banano-pro_9x16_2k_RUBEN
+2025-12-07 00:09:21 | DEBUG    | src.processing.processor:_process_single_combination:138 - Added image_input to params: ['https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png']
+2025-12-07 00:09:21 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Provided image shows what Ruben actually looks like.
+2025-12-07 00:09:21 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing 251206_231550_sonnet_RT_temp0.8/prompt_04.txt: Candid photo of Ruben longboarding down Dizengoff ...
+2025-12-07 00:09:21 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ]
+}
+2025-12-07 00:09:21 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ],
+  "prompt": "Candid photo of Ruben longboarding down Dizengoff Street in Tel Aviv, Israeli teenagers on skateboards passing him, pedestrians walking along the tree-lined sidewalk. Provided image shows what Ruben actually looks like."
+}
+2025-12-07 00:09:21 | DEBUG    | src.api.client:generate_image:89 - Original prompt: Candid photo of Ruben longboarding down Dizengoff Street in Tel Aviv, Israeli teenagers on skateboards passing him, pedestrians walking along the tree-lined sidewalk. Provided image shows what Ruben actually looks like.
+2025-12-07 00:09:21 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: Candid photo of Ruben longboarding down Dizengoff Street in Tel Aviv, Israeli teenagers on skateboards passing him, pedestrians walking along the tree-lined sidewalk. Provided image shows what Ruben actually looks like.
+2025-12-07 00:09:21 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'Candid photo of Ruben longboarding down Dizengoff Street in Tel Aviv, Israeli teenagers on skateboards passing him, pedestrians walking along the tree-lined sidewalk. Provided image shows what Ruben actually looks like.'
+2025-12-07 00:09:21 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-07 00:09:21 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ],
+  "prompt": "Candid photo of Ruben longboarding down Dizengoff Street in Tel Aviv, Israeli teenagers on skateboards passing him, pedestrians walking along the tree-lined sidewalk. Provided image shows what Ruben actually looks like."
+}
+2025-12-07 00:09:54 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-07 00:09:54 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-12-07 00:09:54 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana-pro
+2025-12-07 00:09:54 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-12-07 00:09:54 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-12-07 00:09:56 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_04_IMAGE_000954_nano-banano-pro_9x16_2k_RUBEN.png
+2025-12-07 00:09:56 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_04_IMAGE_000954_nano-banano-pro_9x16_2k_RUBEN.md
+2025-12-07 00:09:56 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_04_IMAGE_000954_nano-banano-pro_9x16_2k_RUBEN.png
+2025-12-07 00:09:56 | INFO     | src.processing.processor:_process_with_context:197 - Waiting 1.0 seconds before next request
+2025-12-07 00:09:57 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt_05.txt
+2025-12-07 00:09:57 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 6/31: 251206_231550_sonnet_RT_temp0.8/prompt_05.txt + nano-banano-pro_9x16_2k_RUBEN
+2025-12-07 00:09:57 | DEBUG    | src.processing.processor:_process_single_combination:138 - Added image_input to params: ['https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png']
+2025-12-07 00:09:57 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Provided image shows what Ruben actually looks like.
+2025-12-07 00:09:57 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing 251206_231550_sonnet_RT_temp0.8/prompt_05.txt: Candid shot of Ruben sitting cross-legged in a yog...
+2025-12-07 00:09:57 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ]
+}
+2025-12-07 00:09:57 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ],
+  "prompt": "Candid shot of Ruben sitting cross-legged in a yoga class at Park Hayarkon, Israeli women and men in their 30s holding warrior pose around him, the park's green grass visible through the studio windows. Provided image shows what Ruben actually looks like."
+}
+2025-12-07 00:09:57 | DEBUG    | src.api.client:generate_image:89 - Original prompt: Candid shot of Ruben sitting cross-legged in a yoga class at Park Hayarkon, Israeli women and men in their 30s holding warrior pose around him, the park's green grass visible through the studio windows. Provided image shows what Ruben actually looks like.
+2025-12-07 00:09:57 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: Candid shot of Ruben sitting cross-legged in a yoga class at Park Hayarkon, Israeli women and men in their 30s holding warrior pose around him, the park's green grass visible through the studio windows. Provided image shows what Ruben actually looks like.
+2025-12-07 00:09:57 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: "Candid shot of Ruben sitting cross-legged in a yoga class at Park Hayarkon, Israeli women and men in their 30s holding warrior pose around him, the park's green grass visible through the studio windows. Provided image shows what Ruben actually looks like."
+2025-12-07 00:09:57 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-07 00:09:57 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ],
+  "prompt": "Candid shot of Ruben sitting cross-legged in a yoga class at Park Hayarkon, Israeli women and men in their 30s holding warrior pose around him, the park's green grass visible through the studio windows. Provided image shows what Ruben actually looks like."
+}
+2025-12-07 00:10:31 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-07 00:10:31 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-12-07 00:10:31 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana-pro
+2025-12-07 00:10:31 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-12-07 00:10:31 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-12-07 00:10:32 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_05_IMAGE_001031_nano-banano-pro_9x16_2k_RUBEN.png
+2025-12-07 00:10:32 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_05_IMAGE_001031_nano-banano-pro_9x16_2k_RUBEN.md
+2025-12-07 00:10:32 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_05_IMAGE_001031_nano-banano-pro_9x16_2k_RUBEN.png
+2025-12-07 00:10:32 | INFO     | src.processing.processor:_process_with_context:197 - Waiting 1.0 seconds before next request
+2025-12-07 00:10:33 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt_06.txt
+2025-12-07 00:10:33 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 7/31: 251206_231550_sonnet_RT_temp0.8/prompt_06.txt + nano-banano-pro_9x16_2k_RUBEN
+2025-12-07 00:10:33 | DEBUG    | src.processing.processor:_process_single_combination:138 - Added image_input to params: ['https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png']
+2025-12-07 00:10:33 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Provided image shows what Ruben actually looks like.
+2025-12-07 00:10:33 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing 251206_231550_sonnet_RT_temp0.8/prompt_06.txt: Candid photo of Ruben reviewing code on a laptop a...
+2025-12-07 00:10:33 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ]
+}
+2025-12-07 00:10:33 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ],
+  "prompt": "Candid photo of Ruben reviewing code on a laptop at a tech office in Florentin, an Israeli developer in his late 20s pointing at the screen beside him, other programmers working at standing desks behind them. Provided image shows what Ruben actually looks like."
+}
+2025-12-07 00:10:33 | DEBUG    | src.api.client:generate_image:89 - Original prompt: Candid photo of Ruben reviewing code on a laptop at a tech office in Florentin, an Israeli developer in his late 20s pointing at the screen beside him, other programmers working at standing desks behind them. Provided image shows what Ruben actually looks like.
+2025-12-07 00:10:33 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: Candid photo of Ruben reviewing code on a laptop at a tech office in Florentin, an Israeli developer in his late 20s pointing at the screen beside him, other programmers working at standing desks behind them. Provided image shows what Ruben actually looks like.
+2025-12-07 00:10:33 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'Candid photo of Ruben reviewing code on a laptop at a tech office in Florentin, an Israeli developer in his late 20s pointing at the screen beside him, other programmers working at standing desks behind them. Provided image shows what Ruben actually looks like.'
+2025-12-07 00:10:33 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-07 00:10:33 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ],
+  "prompt": "Candid photo of Ruben reviewing code on a laptop at a tech office in Florentin, an Israeli developer in his late 20s pointing at the screen beside him, other programmers working at standing desks behind them. Provided image shows what Ruben actually looks like."
+}
+2025-12-07 00:11:06 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-07 00:11:06 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-12-07 00:11:06 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana-pro
+2025-12-07 00:11:06 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-12-07 00:11:06 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-12-07 00:11:08 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_06_IMAGE_001106_nano-banano-pro_9x16_2k_RUBEN.png
+2025-12-07 00:11:08 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_06_IMAGE_001106_nano-banano-pro_9x16_2k_RUBEN.md
+2025-12-07 00:11:08 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_06_IMAGE_001106_nano-banano-pro_9x16_2k_RUBEN.png
+2025-12-07 00:11:08 | INFO     | src.processing.processor:_process_with_context:197 - Waiting 1.0 seconds before next request
+2025-12-07 00:11:09 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt_07.txt
+2025-12-07 00:11:09 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 8/31: 251206_231550_sonnet_RT_temp0.8/prompt_07.txt + nano-banano-pro_9x16_2k_RUBEN
+2025-12-07 00:11:09 | DEBUG    | src.processing.processor:_process_single_combination:138 - Added image_input to params: ['https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png']
+2025-12-07 00:11:09 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Provided image shows what Ruben actually looks like.
+2025-12-07 00:11:09 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing 251206_231550_sonnet_RT_temp0.8/prompt_07.txt: Candid shot of Ruben at a rooftop party in William...
+2025-12-07 00:11:09 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ]
+}
+2025-12-07 00:11:09 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ],
+  "prompt": "Candid shot of Ruben at a rooftop party in Williamsburg overlooking the Manhattan skyline, an American woman in her early 30s handing him a drink, other guests mingling in small groups. Provided image shows what Ruben actually looks like."
+}
+2025-12-07 00:11:09 | DEBUG    | src.api.client:generate_image:89 - Original prompt: Candid shot of Ruben at a rooftop party in Williamsburg overlooking the Manhattan skyline, an American woman in her early 30s handing him a drink, other guests mingling in small groups. Provided image shows what Ruben actually looks like.
+2025-12-07 00:11:09 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: Candid shot of Ruben at a rooftop party in Williamsburg overlooking the Manhattan skyline, an American woman in her early 30s handing him a drink, other guests mingling in small groups. Provided image shows what Ruben actually looks like.
+2025-12-07 00:11:09 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'Candid shot of Ruben at a rooftop party in Williamsburg overlooking the Manhattan skyline, an American woman in her early 30s handing him a drink, other guests mingling in small groups. Provided image shows what Ruben actually looks like.'
+2025-12-07 00:11:09 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-07 00:11:09 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ],
+  "prompt": "Candid shot of Ruben at a rooftop party in Williamsburg overlooking the Manhattan skyline, an American woman in her early 30s handing him a drink, other guests mingling in small groups. Provided image shows what Ruben actually looks like."
+}
+2025-12-07 00:11:51 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-07 00:11:51 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-12-07 00:11:51 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana-pro
+2025-12-07 00:11:51 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-12-07 00:11:51 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-12-07 00:11:52 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_07_IMAGE_001151_nano-banano-pro_9x16_2k_RUBEN.png
+2025-12-07 00:11:52 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_07_IMAGE_001151_nano-banano-pro_9x16_2k_RUBEN.md
+2025-12-07 00:11:52 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_07_IMAGE_001151_nano-banano-pro_9x16_2k_RUBEN.png
+2025-12-07 00:11:52 | INFO     | src.processing.processor:_process_with_context:197 - Waiting 1.0 seconds before next request
+2025-12-07 00:11:53 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt_08.txt
+2025-12-07 00:11:53 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 9/31: 251206_231550_sonnet_RT_temp0.8/prompt_08.txt + nano-banano-pro_9x16_2k_RUBEN
+2025-12-07 00:11:53 | DEBUG    | src.processing.processor:_process_single_combination:138 - Added image_input to params: ['https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png']
+2025-12-07 00:11:53 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Provided image shows what Ruben actually looks like.
+2025-12-07 00:11:53 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing 251206_231550_sonnet_RT_temp0.8/prompt_08.txt: Candid photo of Ruben ice skating at Kungsträdgård...
+2025-12-07 00:11:53 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ]
+}
+2025-12-07 00:11:53 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ],
+  "prompt": "Candid photo of Ruben ice skating at Kungstr\u00e4dg\u00e5rden rink in Stockholm, Swedish families with children skating around him, the evening lights of the rink glowing in the background. Provided image shows what Ruben actually looks like."
+}
+2025-12-07 00:11:53 | DEBUG    | src.api.client:generate_image:89 - Original prompt: Candid photo of Ruben ice skating at Kungsträdgården rink in Stockholm, Swedish families with children skating around him, the evening lights of the rink glowing in the background. Provided image shows what Ruben actually looks like.
+2025-12-07 00:11:53 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: Candid photo of Ruben ice skating at Kungsträdgården rink in Stockholm, Swedish families with children skating around him, the evening lights of the rink glowing in the background. Provided image shows what Ruben actually looks like.
+2025-12-07 00:11:53 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'Candid photo of Ruben ice skating at Kungsträdgården rink in Stockholm, Swedish families with children skating around him, the evening lights of the rink glowing in the background. Provided image shows what Ruben actually looks like.'
+2025-12-07 00:11:53 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-07 00:11:53 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ],
+  "prompt": "Candid photo of Ruben ice skating at Kungstr\u00e4dg\u00e5rden rink in Stockholm, Swedish families with children skating around him, the evening lights of the rink glowing in the background. Provided image shows what Ruben actually looks like."
+}
+2025-12-07 00:12:38 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-07 00:12:38 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-12-07 00:12:38 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana-pro
+2025-12-07 00:12:38 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-12-07 00:12:38 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-12-07 00:12:40 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_08_IMAGE_001238_nano-banano-pro_9x16_2k_RUBEN.png
+2025-12-07 00:12:40 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_08_IMAGE_001238_nano-banano-pro_9x16_2k_RUBEN.md
+2025-12-07 00:12:40 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_08_IMAGE_001238_nano-banano-pro_9x16_2k_RUBEN.png
+2025-12-07 00:12:40 | INFO     | src.processing.processor:_process_with_context:197 - Waiting 1.0 seconds before next request
+2025-12-07 00:12:41 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt_09.txt
+2025-12-07 00:12:41 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 10/31: 251206_231550_sonnet_RT_temp0.8/prompt_09.txt + nano-banano-pro_9x16_2k_RUBEN
+2025-12-07 00:12:41 | DEBUG    | src.processing.processor:_process_single_combination:138 - Added image_input to params: ['https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png']
+2025-12-07 00:12:41 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Provided image shows what Ruben actually looks like.
+2025-12-07 00:12:41 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing 251206_231550_sonnet_RT_temp0.8/prompt_09.txt: Candid shot of Ruben walking through Carmel Market...
+2025-12-07 00:12:41 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ]
+}
+2025-12-07 00:12:41 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ],
+  "prompt": "Candid shot of Ruben walking through Carmel Market in Tel Aviv carrying a bag of produce, Israeli vendors calling out to customers, other shoppers browsing the colorful stalls. Provided image shows what Ruben actually looks like."
+}
+2025-12-07 00:12:41 | DEBUG    | src.api.client:generate_image:89 - Original prompt: Candid shot of Ruben walking through Carmel Market in Tel Aviv carrying a bag of produce, Israeli vendors calling out to customers, other shoppers browsing the colorful stalls. Provided image shows what Ruben actually looks like.
+2025-12-07 00:12:41 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: Candid shot of Ruben walking through Carmel Market in Tel Aviv carrying a bag of produce, Israeli vendors calling out to customers, other shoppers browsing the colorful stalls. Provided image shows what Ruben actually looks like.
+2025-12-07 00:12:41 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'Candid shot of Ruben walking through Carmel Market in Tel Aviv carrying a bag of produce, Israeli vendors calling out to customers, other shoppers browsing the colorful stalls. Provided image shows what Ruben actually looks like.'
+2025-12-07 00:12:41 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-07 00:12:41 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ],
+  "prompt": "Candid shot of Ruben walking through Carmel Market in Tel Aviv carrying a bag of produce, Israeli vendors calling out to customers, other shoppers browsing the colorful stalls. Provided image shows what Ruben actually looks like."
+}
+2025-12-07 00:13:20 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-07 00:13:20 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-12-07 00:13:20 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana-pro
+2025-12-07 00:13:20 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-12-07 00:13:20 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-12-07 00:13:22 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_09_IMAGE_001320_nano-banano-pro_9x16_2k_RUBEN.png
+2025-12-07 00:13:22 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_09_IMAGE_001320_nano-banano-pro_9x16_2k_RUBEN.md
+2025-12-07 00:13:22 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_09_IMAGE_001320_nano-banano-pro_9x16_2k_RUBEN.png
+2025-12-07 00:13:22 | INFO     | src.processing.processor:_process_with_context:197 - Waiting 1.0 seconds before next request
+2025-12-07 00:13:23 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt_10.txt
+2025-12-07 00:13:23 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 11/31: 251206_231550_sonnet_RT_temp0.8/prompt_10.txt + nano-banano-pro_9x16_2k_RUBEN
+2025-12-07 00:13:23 | DEBUG    | src.processing.processor:_process_single_combination:138 - Added image_input to params: ['https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png']
+2025-12-07 00:13:23 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Provided image shows what Ruben actually looks like.
+2025-12-07 00:13:23 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing 251206_231550_sonnet_RT_temp0.8/prompt_10.txt: Candid photo of Ruben sitting in a director's chai...
+2025-12-07 00:13:23 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ]
+}
+2025-12-07 00:13:23 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ],
+  "prompt": "Candid photo of Ruben sitting in a director's chair on a film set in Brooklyn Navy Yard, an American assistant director in her 20s showing him a shot list, crew members preparing the next scene behind them. Provided image shows what Ruben actually looks like."
+}
+2025-12-07 00:13:23 | DEBUG    | src.api.client:generate_image:89 - Original prompt: Candid photo of Ruben sitting in a director's chair on a film set in Brooklyn Navy Yard, an American assistant director in her 20s showing him a shot list, crew members preparing the next scene behind them. Provided image shows what Ruben actually looks like.
+2025-12-07 00:13:23 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: Candid photo of Ruben sitting in a director's chair on a film set in Brooklyn Navy Yard, an American assistant director in her 20s showing him a shot list, crew members preparing the next scene behind them. Provided image shows what Ruben actually looks like.
+2025-12-07 00:13:23 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: "Candid photo of Ruben sitting in a director's chair on a film set in Brooklyn Navy Yard, an American assistant director in her 20s showing him a shot list, crew members preparing the next scene behind them. Provided image shows what Ruben actually looks like."
+2025-12-07 00:13:23 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-07 00:13:23 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ],
+  "prompt": "Candid photo of Ruben sitting in a director's chair on a film set in Brooklyn Navy Yard, an American assistant director in her 20s showing him a shot list, crew members preparing the next scene behind them. Provided image shows what Ruben actually looks like."
+}
+2025-12-07 00:14:01 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-07 00:14:01 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-12-07 00:14:01 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana-pro
+2025-12-07 00:14:01 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-12-07 00:14:01 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-12-07 00:14:03 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_10_IMAGE_001401_nano-banano-pro_9x16_2k_RUBEN.png
+2025-12-07 00:14:03 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_10_IMAGE_001401_nano-banano-pro_9x16_2k_RUBEN.md
+2025-12-07 00:14:03 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_10_IMAGE_001401_nano-banano-pro_9x16_2k_RUBEN.png
+2025-12-07 00:14:03 | INFO     | src.processing.processor:_process_with_context:197 - Waiting 1.0 seconds before next request
+2025-12-07 00:14:04 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt_11.txt
+2025-12-07 00:14:04 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 12/31: 251206_231550_sonnet_RT_temp0.8/prompt_11.txt + nano-banano-pro_9x16_2k_RUBEN
+2025-12-07 00:14:04 | DEBUG    | src.processing.processor:_process_single_combination:138 - Added image_input to params: ['https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png']
+2025-12-07 00:14:04 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Provided image shows what Ruben actually looks like.
+2025-12-07 00:14:04 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing 251206_231550_sonnet_RT_temp0.8/prompt_11.txt: Candid shot of Ruben riding a fixie bike through G...
+2025-12-07 00:14:04 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ]
+}
+2025-12-07 00:14:04 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ],
+  "prompt": "Candid shot of Ruben riding a fixie bike through Gamla Stan in Stockholm, Swedish tourists taking photos of the cobblestone streets, local Swedes in their 40s walking their dogs. Provided image shows what Ruben actually looks like."
+}
+2025-12-07 00:14:04 | DEBUG    | src.api.client:generate_image:89 - Original prompt: Candid shot of Ruben riding a fixie bike through Gamla Stan in Stockholm, Swedish tourists taking photos of the cobblestone streets, local Swedes in their 40s walking their dogs. Provided image shows what Ruben actually looks like.
+2025-12-07 00:14:04 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: Candid shot of Ruben riding a fixie bike through Gamla Stan in Stockholm, Swedish tourists taking photos of the cobblestone streets, local Swedes in their 40s walking their dogs. Provided image shows what Ruben actually looks like.
+2025-12-07 00:14:04 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'Candid shot of Ruben riding a fixie bike through Gamla Stan in Stockholm, Swedish tourists taking photos of the cobblestone streets, local Swedes in their 40s walking their dogs. Provided image shows what Ruben actually looks like.'
+2025-12-07 00:14:04 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-07 00:14:04 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ],
+  "prompt": "Candid shot of Ruben riding a fixie bike through Gamla Stan in Stockholm, Swedish tourists taking photos of the cobblestone streets, local Swedes in their 40s walking their dogs. Provided image shows what Ruben actually looks like."
+}
+2025-12-07 00:14:35 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-07 00:14:35 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-12-07 00:14:35 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana-pro
+2025-12-07 00:14:35 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-12-07 00:14:35 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-12-07 00:14:37 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_11_IMAGE_001435_nano-banano-pro_9x16_2k_RUBEN.png
+2025-12-07 00:14:37 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_11_IMAGE_001435_nano-banano-pro_9x16_2k_RUBEN.md
+2025-12-07 00:14:37 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_11_IMAGE_001435_nano-banano-pro_9x16_2k_RUBEN.png
+2025-12-07 00:14:37 | INFO     | src.processing.processor:_process_with_context:197 - Waiting 1.0 seconds before next request
+2025-12-07 00:14:38 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt_12.txt
+2025-12-07 00:14:38 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 13/31: 251206_231550_sonnet_RT_temp0.8/prompt_12.txt + nano-banano-pro_9x16_2k_RUBEN
+2025-12-07 00:14:38 | DEBUG    | src.processing.processor:_process_single_combination:138 - Added image_input to params: ['https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png']
+2025-12-07 00:14:38 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Provided image shows what Ruben actually looks like.
+2025-12-07 00:14:38 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing 251206_231550_sonnet_RT_temp0.8/prompt_12.txt: Candid photo of Ruben at a gallery opening in Chel...
+2025-12-07 00:14:38 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ]
+}
+2025-12-07 00:14:38 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ],
+  "prompt": "Candid photo of Ruben at a gallery opening in Chelsea, an American art curator in his 50s discussing a piece with him, other gallery visitors in their 30s viewing the artwork. Provided image shows what Ruben actually looks like."
+}
+2025-12-07 00:14:38 | DEBUG    | src.api.client:generate_image:89 - Original prompt: Candid photo of Ruben at a gallery opening in Chelsea, an American art curator in his 50s discussing a piece with him, other gallery visitors in their 30s viewing the artwork. Provided image shows what Ruben actually looks like.
+2025-12-07 00:14:38 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: Candid photo of Ruben at a gallery opening in Chelsea, an American art curator in his 50s discussing a piece with him, other gallery visitors in their 30s viewing the artwork. Provided image shows what Ruben actually looks like.
+2025-12-07 00:14:38 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'Candid photo of Ruben at a gallery opening in Chelsea, an American art curator in his 50s discussing a piece with him, other gallery visitors in their 30s viewing the artwork. Provided image shows what Ruben actually looks like.'
+2025-12-07 00:14:38 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-07 00:14:38 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ],
+  "prompt": "Candid photo of Ruben at a gallery opening in Chelsea, an American art curator in his 50s discussing a piece with him, other gallery visitors in their 30s viewing the artwork. Provided image shows what Ruben actually looks like."
+}
+2025-12-07 00:15:25 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-07 00:15:25 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-12-07 00:15:25 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana-pro
+2025-12-07 00:15:25 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-12-07 00:15:25 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-12-07 00:15:26 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_12_IMAGE_001525_nano-banano-pro_9x16_2k_RUBEN.png
+2025-12-07 00:15:26 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_12_IMAGE_001525_nano-banano-pro_9x16_2k_RUBEN.md
+2025-12-07 00:15:26 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_12_IMAGE_001525_nano-banano-pro_9x16_2k_RUBEN.png
+2025-12-07 00:15:26 | INFO     | src.processing.processor:_process_with_context:197 - Waiting 1.0 seconds before next request
+2025-12-07 00:15:27 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt_13.txt
+2025-12-07 00:15:27 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 14/31: 251206_231550_sonnet_RT_temp0.8/prompt_13.txt + nano-banano-pro_9x16_2k_RUBEN
+2025-12-07 00:15:27 | DEBUG    | src.processing.processor:_process_single_combination:138 - Added image_input to params: ['https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png']
+2025-12-07 00:15:27 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Provided image shows what Ruben actually looks like.
+2025-12-07 00:15:27 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing 251206_231550_sonnet_RT_temp0.8/prompt_13.txt: Candid shot of Ruben sitting on Gordon Beach in Te...
+2025-12-07 00:15:27 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ]
+}
+2025-12-07 00:15:27 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ],
+  "prompt": "Candid shot of Ruben sitting on Gordon Beach in Tel Aviv at sunset, an Israeli man in his early 30s playing guitar beside him, other beachgoers in their 20s gathered around listening. Provided image shows what Ruben actually looks like."
+}
+2025-12-07 00:15:27 | DEBUG    | src.api.client:generate_image:89 - Original prompt: Candid shot of Ruben sitting on Gordon Beach in Tel Aviv at sunset, an Israeli man in his early 30s playing guitar beside him, other beachgoers in their 20s gathered around listening. Provided image shows what Ruben actually looks like.
+2025-12-07 00:15:27 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: Candid shot of Ruben sitting on Gordon Beach in Tel Aviv at sunset, an Israeli man in his early 30s playing guitar beside him, other beachgoers in their 20s gathered around listening. Provided image shows what Ruben actually looks like.
+2025-12-07 00:15:27 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'Candid shot of Ruben sitting on Gordon Beach in Tel Aviv at sunset, an Israeli man in his early 30s playing guitar beside him, other beachgoers in their 20s gathered around listening. Provided image shows what Ruben actually looks like.'
+2025-12-07 00:15:27 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-07 00:15:27 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ],
+  "prompt": "Candid shot of Ruben sitting on Gordon Beach in Tel Aviv at sunset, an Israeli man in his early 30s playing guitar beside him, other beachgoers in their 20s gathered around listening. Provided image shows what Ruben actually looks like."
+}
+2025-12-07 00:15:58 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-07 00:15:58 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-12-07 00:15:58 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana-pro
+2025-12-07 00:15:58 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-12-07 00:15:58 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-12-07 00:15:59 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_13_IMAGE_001558_nano-banano-pro_9x16_2k_RUBEN.png
+2025-12-07 00:15:59 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_13_IMAGE_001558_nano-banano-pro_9x16_2k_RUBEN.md
+2025-12-07 00:15:59 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_13_IMAGE_001558_nano-banano-pro_9x16_2k_RUBEN.png
+2025-12-07 00:15:59 | INFO     | src.processing.processor:_process_with_context:197 - Waiting 1.0 seconds before next request
+2025-12-07 00:16:00 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt_14.txt
+2025-12-07 00:16:00 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 15/31: 251206_231550_sonnet_RT_temp0.8/prompt_14.txt + nano-banano-pro_9x16_2k_RUBEN
+2025-12-07 00:16:00 | DEBUG    | src.processing.processor:_process_single_combination:138 - Added image_input to params: ['https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png']
+2025-12-07 00:16:00 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Provided image shows what Ruben actually looks like.
+2025-12-07 00:16:00 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing 251206_231550_sonnet_RT_temp0.8/prompt_14.txt: Candid photo of Ruben presenting at a tech confere...
+2025-12-07 00:16:00 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ]
+}
+2025-12-07 00:16:00 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ],
+  "prompt": "Candid photo of Ruben presenting at a tech conference in Sarona Market, Israeli entrepreneurs in their 30s and 40s watching from the audience, a presentation screen visible behind him. Provided image shows what Ruben actually looks like."
+}
+2025-12-07 00:16:00 | DEBUG    | src.api.client:generate_image:89 - Original prompt: Candid photo of Ruben presenting at a tech conference in Sarona Market, Israeli entrepreneurs in their 30s and 40s watching from the audience, a presentation screen visible behind him. Provided image shows what Ruben actually looks like.
+2025-12-07 00:16:00 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: Candid photo of Ruben presenting at a tech conference in Sarona Market, Israeli entrepreneurs in their 30s and 40s watching from the audience, a presentation screen visible behind him. Provided image shows what Ruben actually looks like.
+2025-12-07 00:16:00 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'Candid photo of Ruben presenting at a tech conference in Sarona Market, Israeli entrepreneurs in their 30s and 40s watching from the audience, a presentation screen visible behind him. Provided image shows what Ruben actually looks like.'
+2025-12-07 00:16:00 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-07 00:16:00 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ],
+  "prompt": "Candid photo of Ruben presenting at a tech conference in Sarona Market, Israeli entrepreneurs in their 30s and 40s watching from the audience, a presentation screen visible behind him. Provided image shows what Ruben actually looks like."
+}
+2025-12-07 00:16:40 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-07 00:16:40 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-12-07 00:16:40 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana-pro
+2025-12-07 00:16:40 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-12-07 00:16:40 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-12-07 00:16:42 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_14_IMAGE_001640_nano-banano-pro_9x16_2k_RUBEN.png
+2025-12-07 00:16:42 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_14_IMAGE_001640_nano-banano-pro_9x16_2k_RUBEN.md
+2025-12-07 00:16:42 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_14_IMAGE_001640_nano-banano-pro_9x16_2k_RUBEN.png
+2025-12-07 00:16:42 | INFO     | src.processing.processor:_process_with_context:197 - Waiting 1.0 seconds before next request
+2025-12-07 00:16:43 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt_15.txt
+2025-12-07 00:16:43 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 16/31: 251206_231550_sonnet_RT_temp0.8/prompt_15.txt + nano-banano-pro_9x16_2k_RUBEN
+2025-12-07 00:16:43 | DEBUG    | src.processing.processor:_process_single_combination:138 - Added image_input to params: ['https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png']
+2025-12-07 00:16:43 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Provided image shows what Ruben actually looks like.
+2025-12-07 00:16:43 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing 251206_231550_sonnet_RT_temp0.8/prompt_15.txt: Candid shot of Ruben browsing film equipment at a ...
+2025-12-07 00:16:43 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ]
+}
+2025-12-07 00:16:43 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ],
+  "prompt": "Candid shot of Ruben browsing film equipment at a camera rental house in Dumbo, an American rental technician in his 40s demonstrating a lens to him, shelves of gear visible in the background. Provided image shows what Ruben actually looks like."
+}
+2025-12-07 00:16:43 | DEBUG    | src.api.client:generate_image:89 - Original prompt: Candid shot of Ruben browsing film equipment at a camera rental house in Dumbo, an American rental technician in his 40s demonstrating a lens to him, shelves of gear visible in the background. Provided image shows what Ruben actually looks like.
+2025-12-07 00:16:43 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: Candid shot of Ruben browsing film equipment at a camera rental house in Dumbo, an American rental technician in his 40s demonstrating a lens to him, shelves of gear visible in the background. Provided image shows what Ruben actually looks like.
+2025-12-07 00:16:43 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'Candid shot of Ruben browsing film equipment at a camera rental house in Dumbo, an American rental technician in his 40s demonstrating a lens to him, shelves of gear visible in the background. Provided image shows what Ruben actually looks like.'
+2025-12-07 00:16:43 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-07 00:16:43 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ],
+  "prompt": "Candid shot of Ruben browsing film equipment at a camera rental house in Dumbo, an American rental technician in his 40s demonstrating a lens to him, shelves of gear visible in the background. Provided image shows what Ruben actually looks like."
+}
+2025-12-07 00:18:45 | ERROR    | src.api.client:_call_with_retry:184 - Error on attempt 1: None
+2025-12-07 00:18:45 | INFO     | src.api.client:_call_with_retry:188 - Retrying in 2s...
+2025-12-07 00:18:47 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 2/3
+2025-12-07 00:18:47 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ],
+  "prompt": "Candid shot of Ruben browsing film equipment at a camera rental house in Dumbo, an American rental technician in his 40s demonstrating a lens to him, shelves of gear visible in the background. Provided image shows what Ruben actually looks like."
+}
+2025-12-07 00:19:26 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-07 00:19:26 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-12-07 00:19:26 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana-pro
+2025-12-07 00:19:26 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-12-07 00:19:26 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-12-07 00:19:27 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_15_IMAGE_001926_nano-banano-pro_9x16_2k_RUBEN.png
+2025-12-07 00:19:27 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_15_IMAGE_001926_nano-banano-pro_9x16_2k_RUBEN.md
+2025-12-07 00:19:27 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_15_IMAGE_001926_nano-banano-pro_9x16_2k_RUBEN.png
+2025-12-07 00:19:27 | INFO     | src.processing.processor:_process_with_context:197 - Waiting 1.0 seconds before next request
+2025-12-07 00:19:28 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt_16.txt
+2025-12-07 00:19:28 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 17/31: 251206_231550_sonnet_RT_temp0.8/prompt_16.txt + nano-banano-pro_9x16_2k_RUBEN
+2025-12-07 00:19:28 | DEBUG    | src.processing.processor:_process_single_combination:138 - Added image_input to params: ['https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png']
+2025-12-07 00:19:28 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Provided image shows what Ruben actually looks like.
+2025-12-07 00:19:28 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing 251206_231550_sonnet_RT_temp0.8/prompt_16.txt: Candid photo of Ruben having dinner at a restauran...
+2025-12-07 00:19:28 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ]
+}
+2025-12-07 00:19:28 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ],
+  "prompt": "Candid photo of Ruben having dinner at a restaurant in Neve Tzedek, an Israeli couple in their 30s sitting across from him laughing, waiters serving other tables in the cozy space. Provided image shows what Ruben actually looks like."
+}
+2025-12-07 00:19:28 | DEBUG    | src.api.client:generate_image:89 - Original prompt: Candid photo of Ruben having dinner at a restaurant in Neve Tzedek, an Israeli couple in their 30s sitting across from him laughing, waiters serving other tables in the cozy space. Provided image shows what Ruben actually looks like.
+2025-12-07 00:19:28 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: Candid photo of Ruben having dinner at a restaurant in Neve Tzedek, an Israeli couple in their 30s sitting across from him laughing, waiters serving other tables in the cozy space. Provided image shows what Ruben actually looks like.
+2025-12-07 00:19:28 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'Candid photo of Ruben having dinner at a restaurant in Neve Tzedek, an Israeli couple in their 30s sitting across from him laughing, waiters serving other tables in the cozy space. Provided image shows what Ruben actually looks like.'
+2025-12-07 00:19:28 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-07 00:19:28 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ],
+  "prompt": "Candid photo of Ruben having dinner at a restaurant in Neve Tzedek, an Israeli couple in their 30s sitting across from him laughing, waiters serving other tables in the cozy space. Provided image shows what Ruben actually looks like."
+}
+2025-12-07 00:20:05 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-07 00:20:05 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-12-07 00:20:05 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana-pro
+2025-12-07 00:20:05 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-12-07 00:20:05 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-12-07 00:20:06 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_16_IMAGE_002005_nano-banano-pro_9x16_2k_RUBEN.png
+2025-12-07 00:20:06 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_16_IMAGE_002005_nano-banano-pro_9x16_2k_RUBEN.md
+2025-12-07 00:20:06 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_16_IMAGE_002005_nano-banano-pro_9x16_2k_RUBEN.png
+2025-12-07 00:20:06 | INFO     | src.processing.processor:_process_with_context:197 - Waiting 1.0 seconds before next request
+2025-12-07 00:20:07 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt_17.txt
+2025-12-07 00:20:07 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 18/31: 251206_231550_sonnet_RT_temp0.8/prompt_17.txt + nano-banano-pro_9x16_2k_RUBEN
+2025-12-07 00:20:07 | DEBUG    | src.processing.processor:_process_single_combination:138 - Added image_input to params: ['https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png']
+2025-12-07 00:20:07 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Provided image shows what Ruben actually looks like.
+2025-12-07 00:20:07 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing 251206_231550_sonnet_RT_temp0.8/prompt_17.txt: Candid shot of Ruben walking through Fotografiska ...
+2025-12-07 00:20:07 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ]
+}
+2025-12-07 00:20:07 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ],
+  "prompt": "Candid shot of Ruben walking through Fotografiska museum in Stockholm, a Swedish woman in her late 20s pointing at a photograph beside him, other museum visitors studying the exhibits. Provided image shows what Ruben actually looks like."
+}
+2025-12-07 00:20:07 | DEBUG    | src.api.client:generate_image:89 - Original prompt: Candid shot of Ruben walking through Fotografiska museum in Stockholm, a Swedish woman in her late 20s pointing at a photograph beside him, other museum visitors studying the exhibits. Provided image shows what Ruben actually looks like.
+2025-12-07 00:20:07 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: Candid shot of Ruben walking through Fotografiska museum in Stockholm, a Swedish woman in her late 20s pointing at a photograph beside him, other museum visitors studying the exhibits. Provided image shows what Ruben actually looks like.
+2025-12-07 00:20:07 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'Candid shot of Ruben walking through Fotografiska museum in Stockholm, a Swedish woman in her late 20s pointing at a photograph beside him, other museum visitors studying the exhibits. Provided image shows what Ruben actually looks like.'
+2025-12-07 00:20:07 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-07 00:20:07 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ],
+  "prompt": "Candid shot of Ruben walking through Fotografiska museum in Stockholm, a Swedish woman in her late 20s pointing at a photograph beside him, other museum visitors studying the exhibits. Provided image shows what Ruben actually looks like."
+}
+2025-12-07 00:20:38 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-07 00:20:38 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-12-07 00:20:38 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana-pro
+2025-12-07 00:20:38 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-12-07 00:20:38 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-12-07 00:20:40 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_17_IMAGE_002038_nano-banano-pro_9x16_2k_RUBEN.png
+2025-12-07 00:20:40 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_17_IMAGE_002038_nano-banano-pro_9x16_2k_RUBEN.md
+2025-12-07 00:20:40 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_17_IMAGE_002038_nano-banano-pro_9x16_2k_RUBEN.png
+2025-12-07 00:20:40 | INFO     | src.processing.processor:_process_with_context:197 - Waiting 1.0 seconds before next request
+2025-12-07 00:20:41 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt_18.txt
+2025-12-07 00:20:41 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 19/31: 251206_231550_sonnet_RT_temp0.8/prompt_18.txt + nano-banano-pro_9x16_2k_RUBEN
+2025-12-07 00:20:41 | DEBUG    | src.processing.processor:_process_single_combination:138 - Added image_input to params: ['https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png']
+2025-12-07 00:20:41 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Provided image shows what Ruben actually looks like.
+2025-12-07 00:20:41 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing 251206_231550_sonnet_RT_temp0.8/prompt_18.txt: Candid photo of Ruben at a coffee shop in the Lowe...
+2025-12-07 00:20:41 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ]
+}
+2025-12-07 00:20:41 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ],
+  "prompt": "Candid photo of Ruben at a coffee shop in the Lower East Side working on a laptop, an American barista in her 20s placing a cup next to him, other patrons typing and reading at nearby tables. Provided image shows what Ruben actually looks like."
+}
+2025-12-07 00:20:41 | DEBUG    | src.api.client:generate_image:89 - Original prompt: Candid photo of Ruben at a coffee shop in the Lower East Side working on a laptop, an American barista in her 20s placing a cup next to him, other patrons typing and reading at nearby tables. Provided image shows what Ruben actually looks like.
+2025-12-07 00:20:41 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: Candid photo of Ruben at a coffee shop in the Lower East Side working on a laptop, an American barista in her 20s placing a cup next to him, other patrons typing and reading at nearby tables. Provided image shows what Ruben actually looks like.
+2025-12-07 00:20:41 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'Candid photo of Ruben at a coffee shop in the Lower East Side working on a laptop, an American barista in her 20s placing a cup next to him, other patrons typing and reading at nearby tables. Provided image shows what Ruben actually looks like.'
+2025-12-07 00:20:41 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-07 00:20:41 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ],
+  "prompt": "Candid photo of Ruben at a coffee shop in the Lower East Side working on a laptop, an American barista in her 20s placing a cup next to him, other patrons typing and reading at nearby tables. Provided image shows what Ruben actually looks like."
+}
+2025-12-07 00:21:10 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-07 00:21:10 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-12-07 00:21:10 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana-pro
+2025-12-07 00:21:10 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-12-07 00:21:10 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-12-07 00:21:11 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_18_IMAGE_002110_nano-banano-pro_9x16_2k_RUBEN.png
+2025-12-07 00:21:11 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_18_IMAGE_002110_nano-banano-pro_9x16_2k_RUBEN.md
+2025-12-07 00:21:11 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_18_IMAGE_002110_nano-banano-pro_9x16_2k_RUBEN.png
+2025-12-07 00:21:11 | INFO     | src.processing.processor:_process_with_context:197 - Waiting 1.0 seconds before next request
+2025-12-07 00:21:12 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt_19.txt
+2025-12-07 00:21:12 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 20/31: 251206_231550_sonnet_RT_temp0.8/prompt_19.txt + nano-banano-pro_9x16_2k_RUBEN
+2025-12-07 00:21:12 | DEBUG    | src.processing.processor:_process_single_combination:138 - Added image_input to params: ['https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png']
+2025-12-07 00:21:12 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Provided image shows what Ruben actually looks like.
+2025-12-07 00:21:12 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing 251206_231550_sonnet_RT_temp0.8/prompt_19.txt: Candid shot of Ruben on a boat in the Stockholm ar...
+2025-12-07 00:21:12 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ]
+}
+2025-12-07 00:21:12 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ],
+  "prompt": "Candid shot of Ruben on a boat in the Stockholm archipelago, Swedish friends in their 30s sitting on the deck with him, islands and water visible in the distance. Provided image shows what Ruben actually looks like."
+}
+2025-12-07 00:21:12 | DEBUG    | src.api.client:generate_image:89 - Original prompt: Candid shot of Ruben on a boat in the Stockholm archipelago, Swedish friends in their 30s sitting on the deck with him, islands and water visible in the distance. Provided image shows what Ruben actually looks like.
+2025-12-07 00:21:12 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: Candid shot of Ruben on a boat in the Stockholm archipelago, Swedish friends in their 30s sitting on the deck with him, islands and water visible in the distance. Provided image shows what Ruben actually looks like.
+2025-12-07 00:21:12 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'Candid shot of Ruben on a boat in the Stockholm archipelago, Swedish friends in their 30s sitting on the deck with him, islands and water visible in the distance. Provided image shows what Ruben actually looks like.'
+2025-12-07 00:21:12 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-07 00:21:12 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ],
+  "prompt": "Candid shot of Ruben on a boat in the Stockholm archipelago, Swedish friends in their 30s sitting on the deck with him, islands and water visible in the distance. Provided image shows what Ruben actually looks like."
+}
+2025-12-07 00:21:44 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-07 00:21:44 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-12-07 00:21:44 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana-pro
+2025-12-07 00:21:44 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-12-07 00:21:44 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-12-07 00:21:45 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_19_IMAGE_002144_nano-banano-pro_9x16_2k_RUBEN.png
+2025-12-07 00:21:45 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_19_IMAGE_002144_nano-banano-pro_9x16_2k_RUBEN.md
+2025-12-07 00:21:45 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_19_IMAGE_002144_nano-banano-pro_9x16_2k_RUBEN.png
+2025-12-07 00:21:45 | INFO     | src.processing.processor:_process_with_context:197 - Waiting 1.0 seconds before next request
+2025-12-07 00:21:46 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt_20.txt
+2025-12-07 00:21:46 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 21/31: 251206_231550_sonnet_RT_temp0.8/prompt_20.txt + nano-banano-pro_9x16_2k_RUBEN
+2025-12-07 00:21:46 | DEBUG    | src.processing.processor:_process_single_combination:138 - Added image_input to params: ['https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png']
+2025-12-07 00:21:46 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Provided image shows what Ruben actually looks like.
+2025-12-07 00:21:46 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing 251206_231550_sonnet_RT_temp0.8/prompt_20.txt: Candid photo of Ruben at Habima Square in Tel Aviv...
+2025-12-07 00:21:46 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ]
+}
+2025-12-07 00:21:46 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ],
+  "prompt": "Candid photo of Ruben at Habima Square in Tel Aviv during a cultural event, Israeli performers on stage behind him, families and young people in the crowd around him. Provided image shows what Ruben actually looks like."
+}
+2025-12-07 00:21:46 | DEBUG    | src.api.client:generate_image:89 - Original prompt: Candid photo of Ruben at Habima Square in Tel Aviv during a cultural event, Israeli performers on stage behind him, families and young people in the crowd around him. Provided image shows what Ruben actually looks like.
+2025-12-07 00:21:46 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: Candid photo of Ruben at Habima Square in Tel Aviv during a cultural event, Israeli performers on stage behind him, families and young people in the crowd around him. Provided image shows what Ruben actually looks like.
+2025-12-07 00:21:46 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'Candid photo of Ruben at Habima Square in Tel Aviv during a cultural event, Israeli performers on stage behind him, families and young people in the crowd around him. Provided image shows what Ruben actually looks like.'
+2025-12-07 00:21:46 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-07 00:21:46 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ],
+  "prompt": "Candid photo of Ruben at Habima Square in Tel Aviv during a cultural event, Israeli performers on stage behind him, families and young people in the crowd around him. Provided image shows what Ruben actually looks like."
+}
+2025-12-07 00:22:23 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-07 00:22:23 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-12-07 00:22:23 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana-pro
+2025-12-07 00:22:23 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-12-07 00:22:23 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-12-07 00:22:25 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_20_IMAGE_002223_nano-banano-pro_9x16_2k_RUBEN.png
+2025-12-07 00:22:25 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_20_IMAGE_002223_nano-banano-pro_9x16_2k_RUBEN.md
+2025-12-07 00:22:25 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_20_IMAGE_002223_nano-banano-pro_9x16_2k_RUBEN.png
+2025-12-07 00:22:25 | INFO     | src.processing.processor:_process_with_context:197 - Waiting 1.0 seconds before next request
+2025-12-07 00:22:26 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt_21.txt
+2025-12-07 00:22:26 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 22/31: 251206_231550_sonnet_RT_temp0.8/prompt_21.txt + nano-banano-pro_9x16_2k_RUBEN
+2025-12-07 00:22:26 | DEBUG    | src.processing.processor:_process_single_combination:138 - Added image_input to params: ['https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png']
+2025-12-07 00:22:26 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Provided image shows what Ruben actually looks like.
+2025-12-07 00:22:26 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing 251206_231550_sonnet_RT_temp0.8/prompt_21.txt: Candid shot of Ruben in the editing suite at a pos...
+2025-12-07 00:22:26 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ]
+}
+2025-12-07 00:22:26 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ],
+  "prompt": "Candid shot of Ruben in the editing suite at a post-production facility in \u00d6stermalm, a Swedish editor in his 30s sitting at the console beside him, multiple monitors displaying footage. Provided image shows what Ruben actually looks like."
+}
+2025-12-07 00:22:26 | DEBUG    | src.api.client:generate_image:89 - Original prompt: Candid shot of Ruben in the editing suite at a post-production facility in Östermalm, a Swedish editor in his 30s sitting at the console beside him, multiple monitors displaying footage. Provided image shows what Ruben actually looks like.
+2025-12-07 00:22:26 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: Candid shot of Ruben in the editing suite at a post-production facility in Östermalm, a Swedish editor in his 30s sitting at the console beside him, multiple monitors displaying footage. Provided image shows what Ruben actually looks like.
+2025-12-07 00:22:26 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'Candid shot of Ruben in the editing suite at a post-production facility in Östermalm, a Swedish editor in his 30s sitting at the console beside him, multiple monitors displaying footage. Provided image shows what Ruben actually looks like.'
+2025-12-07 00:22:26 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-07 00:22:26 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ],
+  "prompt": "Candid shot of Ruben in the editing suite at a post-production facility in \u00d6stermalm, a Swedish editor in his 30s sitting at the console beside him, multiple monitors displaying footage. Provided image shows what Ruben actually looks like."
+}
+2025-12-07 00:22:58 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-07 00:22:58 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-12-07 00:22:58 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana-pro
+2025-12-07 00:22:58 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-12-07 00:22:58 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-12-07 00:23:00 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_21_IMAGE_002258_nano-banano-pro_9x16_2k_RUBEN.png
+2025-12-07 00:23:00 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_21_IMAGE_002258_nano-banano-pro_9x16_2k_RUBEN.md
+2025-12-07 00:23:00 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_21_IMAGE_002258_nano-banano-pro_9x16_2k_RUBEN.png
+2025-12-07 00:23:00 | INFO     | src.processing.processor:_process_with_context:197 - Waiting 1.0 seconds before next request
+2025-12-07 00:23:01 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt_22.txt
+2025-12-07 00:23:01 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 23/31: 251206_231550_sonnet_RT_temp0.8/prompt_22.txt + nano-banano-pro_9x16_2k_RUBEN
+2025-12-07 00:23:01 | DEBUG    | src.processing.processor:_process_single_combination:138 - Added image_input to params: ['https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png']
+2025-12-07 00:23:01 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Provided image shows what Ruben actually looks like.
+2025-12-07 00:23:01 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing 251206_231550_sonnet_RT_temp0.8/prompt_22.txt: Candid photo of Ruben at MoMA in New York standing...
+2025-12-07 00:23:01 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ]
+}
+2025-12-07 00:23:01 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ],
+  "prompt": "Candid photo of Ruben at MoMA in New York standing before a large painting, an American museum guide in her 50s explaining the work to a small group including him, other visitors passing by. Provided image shows what Ruben actually looks like."
+}
+2025-12-07 00:23:01 | DEBUG    | src.api.client:generate_image:89 - Original prompt: Candid photo of Ruben at MoMA in New York standing before a large painting, an American museum guide in her 50s explaining the work to a small group including him, other visitors passing by. Provided image shows what Ruben actually looks like.
+2025-12-07 00:23:01 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: Candid photo of Ruben at MoMA in New York standing before a large painting, an American museum guide in her 50s explaining the work to a small group including him, other visitors passing by. Provided image shows what Ruben actually looks like.
+2025-12-07 00:23:01 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'Candid photo of Ruben at MoMA in New York standing before a large painting, an American museum guide in her 50s explaining the work to a small group including him, other visitors passing by. Provided image shows what Ruben actually looks like.'
+2025-12-07 00:23:01 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-07 00:23:01 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ],
+  "prompt": "Candid photo of Ruben at MoMA in New York standing before a large painting, an American museum guide in her 50s explaining the work to a small group including him, other visitors passing by. Provided image shows what Ruben actually looks like."
+}
+2025-12-07 00:23:31 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-07 00:23:31 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-12-07 00:23:31 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana-pro
+2025-12-07 00:23:31 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-12-07 00:23:31 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-12-07 00:23:32 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_22_IMAGE_002331_nano-banano-pro_9x16_2k_RUBEN.png
+2025-12-07 00:23:32 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_22_IMAGE_002331_nano-banano-pro_9x16_2k_RUBEN.md
+2025-12-07 00:23:32 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_22_IMAGE_002331_nano-banano-pro_9x16_2k_RUBEN.png
+2025-12-07 00:23:32 | INFO     | src.processing.processor:_process_with_context:197 - Waiting 1.0 seconds before next request
+2025-12-07 00:23:33 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt_23.txt
+2025-12-07 00:23:33 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 24/31: 251206_231550_sonnet_RT_temp0.8/prompt_23.txt + nano-banano-pro_9x16_2k_RUBEN
+2025-12-07 00:23:33 | DEBUG    | src.processing.processor:_process_single_combination:138 - Added image_input to params: ['https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png']
+2025-12-07 00:23:33 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Provided image shows what Ruben actually looks like.
+2025-12-07 00:23:33 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing 251206_231550_sonnet_RT_temp0.8/prompt_23.txt: Candid shot of Ruben at a street food stand on Dju...
+2025-12-07 00:23:33 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ]
+}
+2025-12-07 00:23:33 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ],
+  "prompt": "Candid shot of Ruben at a street food stand on Djurg\u00e5rden in Stockholm, a Swedish vendor in his 40s handing him food, Swedish families with strollers waiting in line behind him. Provided image shows what Ruben actually looks like."
+}
+2025-12-07 00:23:33 | DEBUG    | src.api.client:generate_image:89 - Original prompt: Candid shot of Ruben at a street food stand on Djurgården in Stockholm, a Swedish vendor in his 40s handing him food, Swedish families with strollers waiting in line behind him. Provided image shows what Ruben actually looks like.
+2025-12-07 00:23:33 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: Candid shot of Ruben at a street food stand on Djurgården in Stockholm, a Swedish vendor in his 40s handing him food, Swedish families with strollers waiting in line behind him. Provided image shows what Ruben actually looks like.
+2025-12-07 00:23:33 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'Candid shot of Ruben at a street food stand on Djurgården in Stockholm, a Swedish vendor in his 40s handing him food, Swedish families with strollers waiting in line behind him. Provided image shows what Ruben actually looks like.'
+2025-12-07 00:23:33 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-07 00:23:33 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ],
+  "prompt": "Candid shot of Ruben at a street food stand on Djurg\u00e5rden in Stockholm, a Swedish vendor in his 40s handing him food, Swedish families with strollers waiting in line behind him. Provided image shows what Ruben actually looks like."
+}
+2025-12-07 00:24:10 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-07 00:24:10 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-12-07 00:24:10 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana-pro
+2025-12-07 00:24:10 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-12-07 00:24:10 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-12-07 00:24:11 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_23_IMAGE_002410_nano-banano-pro_9x16_2k_RUBEN.png
+2025-12-07 00:24:11 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_23_IMAGE_002410_nano-banano-pro_9x16_2k_RUBEN.md
+2025-12-07 00:24:11 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_23_IMAGE_002410_nano-banano-pro_9x16_2k_RUBEN.png
+2025-12-07 00:24:11 | INFO     | src.processing.processor:_process_with_context:197 - Waiting 1.0 seconds before next request
+2025-12-07 00:24:12 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt_24.txt
+2025-12-07 00:24:12 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 25/31: 251206_231550_sonnet_RT_temp0.8/prompt_24.txt + nano-banano-pro_9x16_2k_RUBEN
+2025-12-07 00:24:12 | DEBUG    | src.processing.processor:_process_single_combination:138 - Added image_input to params: ['https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png']
+2025-12-07 00:24:12 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Provided image shows what Ruben actually looks like.
+2025-12-07 00:24:12 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing 251206_231550_sonnet_RT_temp0.8/prompt_24.txt: Candid photo of Ruben at a bar in Bushwick, an Ame...
+2025-12-07 00:24:12 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ]
+}
+2025-12-07 00:24:12 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ],
+  "prompt": "Candid photo of Ruben at a bar in Bushwick, an American DJ in his late 20s talking with him near the turntables, other patrons in their 30s dancing and socializing. Provided image shows what Ruben actually looks like."
+}
+2025-12-07 00:24:12 | DEBUG    | src.api.client:generate_image:89 - Original prompt: Candid photo of Ruben at a bar in Bushwick, an American DJ in his late 20s talking with him near the turntables, other patrons in their 30s dancing and socializing. Provided image shows what Ruben actually looks like.
+2025-12-07 00:24:12 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: Candid photo of Ruben at a bar in Bushwick, an American DJ in his late 20s talking with him near the turntables, other patrons in their 30s dancing and socializing. Provided image shows what Ruben actually looks like.
+2025-12-07 00:24:12 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'Candid photo of Ruben at a bar in Bushwick, an American DJ in his late 20s talking with him near the turntables, other patrons in their 30s dancing and socializing. Provided image shows what Ruben actually looks like.'
+2025-12-07 00:24:12 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-07 00:24:12 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ],
+  "prompt": "Candid photo of Ruben at a bar in Bushwick, an American DJ in his late 20s talking with him near the turntables, other patrons in their 30s dancing and socializing. Provided image shows what Ruben actually looks like."
+}
+2025-12-07 00:24:40 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-07 00:24:40 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-12-07 00:24:40 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana-pro
+2025-12-07 00:24:40 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-12-07 00:24:40 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-12-07 00:24:42 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_24_IMAGE_002440_nano-banano-pro_9x16_2k_RUBEN.png
+2025-12-07 00:24:42 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_24_IMAGE_002440_nano-banano-pro_9x16_2k_RUBEN.md
+2025-12-07 00:24:42 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_24_IMAGE_002440_nano-banano-pro_9x16_2k_RUBEN.png
+2025-12-07 00:24:42 | INFO     | src.processing.processor:_process_with_context:197 - Waiting 1.0 seconds before next request
+2025-12-07 00:24:43 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt_25.txt
+2025-12-07 00:24:43 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 26/31: 251206_231550_sonnet_RT_temp0.8/prompt_25.txt + nano-banano-pro_9x16_2k_RUBEN
+2025-12-07 00:24:43 | DEBUG    | src.processing.processor:_process_single_combination:138 - Added image_input to params: ['https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png']
+2025-12-07 00:24:43 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Provided image shows what Ruben actually looks like.
+2025-12-07 00:24:43 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing 251206_231550_sonnet_RT_temp0.8/prompt_25.txt: Candid shot of Ruben walking through Tel Aviv Muse...
+2025-12-07 00:24:43 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ]
+}
+2025-12-07 00:24:43 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ],
+  "prompt": "Candid shot of Ruben walking through Tel Aviv Museum of Art, an Israeli docent in her 60s gesturing toward a sculpture, other art lovers in their 40s and 50s examining the pieces. Provided image shows what Ruben actually looks like."
+}
+2025-12-07 00:24:43 | DEBUG    | src.api.client:generate_image:89 - Original prompt: Candid shot of Ruben walking through Tel Aviv Museum of Art, an Israeli docent in her 60s gesturing toward a sculpture, other art lovers in their 40s and 50s examining the pieces. Provided image shows what Ruben actually looks like.
+2025-12-07 00:24:43 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: Candid shot of Ruben walking through Tel Aviv Museum of Art, an Israeli docent in her 60s gesturing toward a sculpture, other art lovers in their 40s and 50s examining the pieces. Provided image shows what Ruben actually looks like.
+2025-12-07 00:24:43 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'Candid shot of Ruben walking through Tel Aviv Museum of Art, an Israeli docent in her 60s gesturing toward a sculpture, other art lovers in their 40s and 50s examining the pieces. Provided image shows what Ruben actually looks like.'
+2025-12-07 00:24:43 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-07 00:24:43 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ],
+  "prompt": "Candid shot of Ruben walking through Tel Aviv Museum of Art, an Israeli docent in her 60s gesturing toward a sculpture, other art lovers in their 40s and 50s examining the pieces. Provided image shows what Ruben actually looks like."
+}
+2025-12-07 00:25:17 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-07 00:25:17 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-12-07 00:25:17 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana-pro
+2025-12-07 00:25:17 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-12-07 00:25:17 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-12-07 00:25:18 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_25_IMAGE_002517_nano-banano-pro_9x16_2k_RUBEN.png
+2025-12-07 00:25:18 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_25_IMAGE_002517_nano-banano-pro_9x16_2k_RUBEN.md
+2025-12-07 00:25:18 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_25_IMAGE_002517_nano-banano-pro_9x16_2k_RUBEN.png
+2025-12-07 00:25:18 | INFO     | src.processing.processor:_process_with_context:197 - Waiting 1.0 seconds before next request
+2025-12-07 00:25:19 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt_26.txt
+2025-12-07 00:25:19 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 27/31: 251206_231550_sonnet_RT_temp0.8/prompt_26.txt + nano-banano-pro_9x16_2k_RUBEN
+2025-12-07 00:25:19 | DEBUG    | src.processing.processor:_process_single_combination:138 - Added image_input to params: ['https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png']
+2025-12-07 00:25:19 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Provided image shows what Ruben actually looks like.
+2025-12-07 00:25:19 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing 251206_231550_sonnet_RT_temp0.8/prompt_26.txt: Candid photo of Ruben at a film screening Q&A in S...
+2025-12-07 00:25:19 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ]
+}
+2025-12-07 00:25:19 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ],
+  "prompt": "Candid photo of Ruben at a film screening Q&A in S\u00f6dermalm, Swedish audience members in their 20s and 30s raising hands to ask questions, a moderator sitting beside him on stage. Provided image shows what Ruben actually looks like."
+}
+2025-12-07 00:25:19 | DEBUG    | src.api.client:generate_image:89 - Original prompt: Candid photo of Ruben at a film screening Q&A in Södermalm, Swedish audience members in their 20s and 30s raising hands to ask questions, a moderator sitting beside him on stage. Provided image shows what Ruben actually looks like.
+2025-12-07 00:25:19 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: Candid photo of Ruben at a film screening Q&A in Södermalm, Swedish audience members in their 20s and 30s raising hands to ask questions, a moderator sitting beside him on stage. Provided image shows what Ruben actually looks like.
+2025-12-07 00:25:19 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'Candid photo of Ruben at a film screening Q&A in Södermalm, Swedish audience members in their 20s and 30s raising hands to ask questions, a moderator sitting beside him on stage. Provided image shows what Ruben actually looks like.'
+2025-12-07 00:25:19 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-07 00:25:19 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ],
+  "prompt": "Candid photo of Ruben at a film screening Q&A in S\u00f6dermalm, Swedish audience members in their 20s and 30s raising hands to ask questions, a moderator sitting beside him on stage. Provided image shows what Ruben actually looks like."
+}
+2025-12-07 00:25:59 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-07 00:25:59 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-12-07 00:25:59 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana-pro
+2025-12-07 00:25:59 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-12-07 00:25:59 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-12-07 00:26:00 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_26_IMAGE_002559_nano-banano-pro_9x16_2k_RUBEN.png
+2025-12-07 00:26:00 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_26_IMAGE_002559_nano-banano-pro_9x16_2k_RUBEN.md
+2025-12-07 00:26:00 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_26_IMAGE_002559_nano-banano-pro_9x16_2k_RUBEN.png
+2025-12-07 00:26:00 | INFO     | src.processing.processor:_process_with_context:197 - Waiting 1.0 seconds before next request
+2025-12-07 00:26:01 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt_27.txt
+2025-12-07 00:26:01 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 28/31: 251206_231550_sonnet_RT_temp0.8/prompt_27.txt + nano-banano-pro_9x16_2k_RUBEN
+2025-12-07 00:26:01 | DEBUG    | src.processing.processor:_process_single_combination:138 - Added image_input to params: ['https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png']
+2025-12-07 00:26:01 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Provided image shows what Ruben actually looks like.
+2025-12-07 00:26:01 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing 251206_231550_sonnet_RT_temp0.8/prompt_27.txt: Candid shot of Ruben having breakfast at a cafe in...
+2025-12-07 00:26:01 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ]
+}
+2025-12-07 00:26:01 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ],
+  "prompt": "Candid shot of Ruben having breakfast at a cafe in Tribeca, an American filmmaker in her early 30s showing him something on her phone, morning sunlight coming through the large windows. Provided image shows what Ruben actually looks like."
+}
+2025-12-07 00:26:01 | DEBUG    | src.api.client:generate_image:89 - Original prompt: Candid shot of Ruben having breakfast at a cafe in Tribeca, an American filmmaker in her early 30s showing him something on her phone, morning sunlight coming through the large windows. Provided image shows what Ruben actually looks like.
+2025-12-07 00:26:01 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: Candid shot of Ruben having breakfast at a cafe in Tribeca, an American filmmaker in her early 30s showing him something on her phone, morning sunlight coming through the large windows. Provided image shows what Ruben actually looks like.
+2025-12-07 00:26:01 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'Candid shot of Ruben having breakfast at a cafe in Tribeca, an American filmmaker in her early 30s showing him something on her phone, morning sunlight coming through the large windows. Provided image shows what Ruben actually looks like.'
+2025-12-07 00:26:01 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-07 00:26:01 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ],
+  "prompt": "Candid shot of Ruben having breakfast at a cafe in Tribeca, an American filmmaker in her early 30s showing him something on her phone, morning sunlight coming through the large windows. Provided image shows what Ruben actually looks like."
+}
+2025-12-07 00:26:48 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-07 00:26:48 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-12-07 00:26:48 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana-pro
+2025-12-07 00:26:48 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-12-07 00:26:48 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-12-07 00:26:49 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_27_IMAGE_002648_nano-banano-pro_9x16_2k_RUBEN.png
+2025-12-07 00:26:49 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_27_IMAGE_002648_nano-banano-pro_9x16_2k_RUBEN.md
+2025-12-07 00:26:49 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_27_IMAGE_002648_nano-banano-pro_9x16_2k_RUBEN.png
+2025-12-07 00:26:49 | INFO     | src.processing.processor:_process_with_context:197 - Waiting 1.0 seconds before next request
+2025-12-07 00:26:50 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt_28.txt
+2025-12-07 00:26:50 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 29/31: 251206_231550_sonnet_RT_temp0.8/prompt_28.txt + nano-banano-pro_9x16_2k_RUBEN
+2025-12-07 00:26:50 | DEBUG    | src.processing.processor:_process_single_combination:138 - Added image_input to params: ['https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png']
+2025-12-07 00:26:50 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Provided image shows what Ruben actually looks like.
+2025-12-07 00:26:50 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing 251206_231550_sonnet_RT_temp0.8/prompt_28.txt: Candid photo of Ruben at Moderna Museet in Stockho...
+2025-12-07 00:26:50 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ]
+}
+2025-12-07 00:26:50 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ],
+  "prompt": "Candid photo of Ruben at Moderna Museet in Stockholm sketching in a notebook, Swedish art students in their 20s sitting on the floor around the gallery, contemporary installations filling the space. Provided image shows what Ruben actually looks like."
+}
+2025-12-07 00:26:50 | DEBUG    | src.api.client:generate_image:89 - Original prompt: Candid photo of Ruben at Moderna Museet in Stockholm sketching in a notebook, Swedish art students in their 20s sitting on the floor around the gallery, contemporary installations filling the space. Provided image shows what Ruben actually looks like.
+2025-12-07 00:26:50 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: Candid photo of Ruben at Moderna Museet in Stockholm sketching in a notebook, Swedish art students in their 20s sitting on the floor around the gallery, contemporary installations filling the space. Provided image shows what Ruben actually looks like.
+2025-12-07 00:26:50 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'Candid photo of Ruben at Moderna Museet in Stockholm sketching in a notebook, Swedish art students in their 20s sitting on the floor around the gallery, contemporary installations filling the space. Provided image shows what Ruben actually looks like.'
+2025-12-07 00:26:50 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-07 00:26:50 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ],
+  "prompt": "Candid photo of Ruben at Moderna Museet in Stockholm sketching in a notebook, Swedish art students in their 20s sitting on the floor around the gallery, contemporary installations filling the space. Provided image shows what Ruben actually looks like."
+}
+2025-12-07 00:27:27 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-07 00:27:27 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-12-07 00:27:27 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana-pro
+2025-12-07 00:27:27 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-12-07 00:27:27 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-12-07 00:27:29 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_28_IMAGE_002727_nano-banano-pro_9x16_2k_RUBEN.png
+2025-12-07 00:27:29 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_28_IMAGE_002727_nano-banano-pro_9x16_2k_RUBEN.md
+2025-12-07 00:27:29 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_28_IMAGE_002727_nano-banano-pro_9x16_2k_RUBEN.png
+2025-12-07 00:27:29 | INFO     | src.processing.processor:_process_with_context:197 - Waiting 1.0 seconds before next request
+2025-12-07 00:27:30 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt_29.txt
+2025-12-07 00:27:30 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 30/31: 251206_231550_sonnet_RT_temp0.8/prompt_29.txt + nano-banano-pro_9x16_2k_RUBEN
+2025-12-07 00:27:30 | DEBUG    | src.processing.processor:_process_single_combination:138 - Added image_input to params: ['https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png']
+2025-12-07 00:27:30 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Provided image shows what Ruben actually looks like.
+2025-12-07 00:27:30 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing 251206_231550_sonnet_RT_temp0.8/prompt_29.txt: Candid shot of Ruben riding a fixie bike across a ...
+2025-12-07 00:27:30 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ]
+}
+2025-12-07 00:27:30 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ],
+  "prompt": "Candid shot of Ruben riding a fixie bike across a bridge in Williamsburg, American cyclists in their 30s pedaling alongside him, the East River visible below. Provided image shows what Ruben actually looks like."
+}
+2025-12-07 00:27:30 | DEBUG    | src.api.client:generate_image:89 - Original prompt: Candid shot of Ruben riding a fixie bike across a bridge in Williamsburg, American cyclists in their 30s pedaling alongside him, the East River visible below. Provided image shows what Ruben actually looks like.
+2025-12-07 00:27:30 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: Candid shot of Ruben riding a fixie bike across a bridge in Williamsburg, American cyclists in their 30s pedaling alongside him, the East River visible below. Provided image shows what Ruben actually looks like.
+2025-12-07 00:27:30 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'Candid shot of Ruben riding a fixie bike across a bridge in Williamsburg, American cyclists in their 30s pedaling alongside him, the East River visible below. Provided image shows what Ruben actually looks like.'
+2025-12-07 00:27:30 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-07 00:27:30 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ],
+  "prompt": "Candid shot of Ruben riding a fixie bike across a bridge in Williamsburg, American cyclists in their 30s pedaling alongside him, the East River visible below. Provided image shows what Ruben actually looks like."
+}
+2025-12-07 00:27:59 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-07 00:27:59 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-12-07 00:27:59 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana-pro
+2025-12-07 00:27:59 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-12-07 00:27:59 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-12-07 00:28:00 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_29_IMAGE_002759_nano-banano-pro_9x16_2k_RUBEN.png
+2025-12-07 00:28:00 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_29_IMAGE_002759_nano-banano-pro_9x16_2k_RUBEN.md
+2025-12-07 00:28:00 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_29_IMAGE_002759_nano-banano-pro_9x16_2k_RUBEN.png
+2025-12-07 00:28:00 | INFO     | src.processing.processor:_process_with_context:197 - Waiting 1.0 seconds before next request
+2025-12-07 00:28:01 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt_30.txt
+2025-12-07 00:28:01 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 31/31: 251206_231550_sonnet_RT_temp0.8/prompt_30.txt + nano-banano-pro_9x16_2k_RUBEN
+2025-12-07 00:28:01 | DEBUG    | src.processing.processor:_process_single_combination:138 - Added image_input to params: ['https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png']
+2025-12-07 00:28:01 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Provided image shows what Ruben actually looks like.
+2025-12-07 00:28:01 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing 251206_231550_sonnet_RT_temp0.8/prompt_30.txt: Candid photo of Ruben at an outdoor screening in F...
+2025-12-07 00:28:01 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ]
+}
+2025-12-07 00:28:01 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ],
+  "prompt": "Candid photo of Ruben at an outdoor screening in Florentin at night, Israeli film enthusiasts in their 20s and 30s sitting on blankets around him, the projected film illuminating their faces. Provided image shows what Ruben actually looks like."
+}
+2025-12-07 00:28:01 | DEBUG    | src.api.client:generate_image:89 - Original prompt: Candid photo of Ruben at an outdoor screening in Florentin at night, Israeli film enthusiasts in their 20s and 30s sitting on blankets around him, the projected film illuminating their faces. Provided image shows what Ruben actually looks like.
+2025-12-07 00:28:01 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: Candid photo of Ruben at an outdoor screening in Florentin at night, Israeli film enthusiasts in their 20s and 30s sitting on blankets around him, the projected film illuminating their faces. Provided image shows what Ruben actually looks like.
+2025-12-07 00:28:01 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'Candid photo of Ruben at an outdoor screening in Florentin at night, Israeli film enthusiasts in their 20s and 30s sitting on blankets around him, the projected film illuminating their faces. Provided image shows what Ruben actually looks like.'
+2025-12-07 00:28:01 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-07 00:28:01 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/ruben_montage9x16.png"
+  ],
+  "prompt": "Candid photo of Ruben at an outdoor screening in Florentin at night, Israeli film enthusiasts in their 20s and 30s sitting on blankets around him, the projected film illuminating their faces. Provided image shows what Ruben actually looks like."
+}
+2025-12-07 00:28:42 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-07 00:28:42 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-12-07 00:28:42 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana-pro
+2025-12-07 00:28:42 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-12-07 00:28:42 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-12-07 00:28:44 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_30_IMAGE_002842_nano-banano-pro_9x16_2k_RUBEN.png
+2025-12-07 00:28:44 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_30_IMAGE_002842_nano-banano-pro_9x16_2k_RUBEN.md
+2025-12-07 00:28:44 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251207_000631_IMAGE/251206_231550_sonnet_RT_temp0.8/prompt_30_IMAGE_002842_nano-banano-pro_9x16_2k_RUBEN.png
+2025-12-07 00:28:44 | INFO     | src.processing.processor:_process_with_context:197 - Waiting 1.0 seconds before next request
+2025-12-07 00:28:45 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from processing_log.txt
+2025-12-07 00:28:45 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt_01.txt
+2025-12-07 00:28:45 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt_02.txt
+2025-12-07 00:28:45 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt_03.txt
+2025-12-07 00:28:45 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt_04.txt
+2025-12-07 00:28:45 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt_05.txt
+2025-12-07 00:28:45 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt_06.txt
+2025-12-07 00:28:45 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt_07.txt
+2025-12-07 00:28:45 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt_08.txt
+2025-12-07 00:28:45 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt_09.txt
+2025-12-07 00:28:45 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt_10.txt
+2025-12-07 00:28:45 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt_11.txt
+2025-12-07 00:28:45 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt_12.txt
+2025-12-07 00:28:45 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt_13.txt
+2025-12-07 00:28:45 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt_14.txt
+2025-12-07 00:28:45 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt_15.txt
+2025-12-07 00:28:45 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt_16.txt
+2025-12-07 00:28:45 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt_17.txt
+2025-12-07 00:28:45 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt_18.txt
+2025-12-07 00:28:45 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt_19.txt
+2025-12-07 00:28:45 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt_20.txt
+2025-12-07 00:28:45 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt_21.txt
+2025-12-07 00:28:45 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt_22.txt
+2025-12-07 00:28:45 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt_23.txt
+2025-12-07 00:28:45 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt_24.txt
+2025-12-07 00:28:45 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt_25.txt
+2025-12-07 00:28:45 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt_26.txt
+2025-12-07 00:28:45 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt_27.txt
+2025-12-07 00:28:45 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt_28.txt
+2025-12-07 00:28:45 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt_29.txt
+2025-12-07 00:28:45 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt_30.txt
+2025-12-07 00:28:45 | INFO     | src.output.writer:write_report:293 - Report saved: USER-FILES/05.OUTPUT/251207_000631_IMAGE/SUCCESS.md
+2025-12-07 00:28:45 | INFO     | src.output.writer:write_report:293 - Report saved: USER-FILES/05.OUTPUT/251207_000631_IMAGE/COST-REPORT.md
+2025-12-07 00:28:45 | INFO     | src.output.writer:write_report:293 - Report saved: USER-FILES/05.OUTPUT/251207_000631_IMAGE/PROFILES-WITH-FIXES.md
+2025-12-07 00:28:45 | INFO     | src.output.reporter:_save_success_reports:62 - Reports saved successfully
+2025-12-07 00:28:45 | SUCCESS  | __main__:generate_final_reports:264 - ✅ Completed successfully! Generated 31 images

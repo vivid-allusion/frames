@@ -1,0 +1,563 @@
+2025-12-14 13:21:32 | INFO     | src.utils.logging:setup_logging:39 - Logging configured (verbose=False, debug=False)
+2025-12-14 13:21:32 | INFO     | __main__:setup_environment:79 - Environment initialized
+2025-12-14 13:21:32 | INFO     | __main__:load_and_validate_config:84 - Loading configuration...
+2025-12-14 13:21:32 | INFO     | src.config.loader:load_config:42 - Loaded configuration from USER-FILES/01.CONFIG/config.yaml
+2025-12-14 13:21:32 | INFO     | __main__:authenticate_for_mode:273 - Authenticating with 1Password...
+2025-12-14 13:21:37 | INFO     | src.auth.session_manager:ensure_op_auth:42 - 🔐 1Password authentication required...
+2025-12-14 13:21:40 | SUCCESS  | src.auth.session_manager:ensure_op_auth:68 - ✅ 1Password authentication successful
+2025-12-14 13:21:41 | DEBUG    | src.auth.session_manager:ensure_op_auth:39 - 1Password session is active
+2025-12-14 13:21:41 | DEBUG    | src.auth.auth:load_auth_config:28 - Using auth config: auth_ruben.yaml
+2025-12-14 13:21:42 | DEBUG    | src.auth.auth:get_api_key:77 - Retrieved API key: r8_K...
+2025-12-14 13:21:42 | INFO     | __main__:discover_inputs_and_profiles:92 - Discovering inputs...
+2025-12-14 13:21:42 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: eu-craftsmen/eu-craftsmen_028.txt
+2025-12-14 13:21:42 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: eu-craftsmen/eu-craftsmen_014.txt
+2025-12-14 13:21:42 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: eu-craftsmen/eu-craftsmen_001.txt
+2025-12-14 13:21:42 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: eu-craftsmen/eu-craftsmen_015.txt
+2025-12-14 13:21:42 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: eu-craftsmen/eu-craftsmen_029.txt
+2025-12-14 13:21:42 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: eu-craftsmen/eu-craftsmen_003.txt
+2025-12-14 13:21:42 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: eu-craftsmen/eu-craftsmen_017.txt
+2025-12-14 13:21:42 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: eu-craftsmen/eu-craftsmen_016.txt
+2025-12-14 13:21:42 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: eu-craftsmen/eu-craftsmen_002.txt
+2025-12-14 13:21:42 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: eu-craftsmen/eu-craftsmen_006.txt
+2025-12-14 13:21:42 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: eu-craftsmen/eu-craftsmen_012.txt
+2025-12-14 13:21:42 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: eu-craftsmen/eu-craftsmen_013.txt
+2025-12-14 13:21:42 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: eu-craftsmen/eu-craftsmen_007.txt
+2025-12-14 13:21:42 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: eu-craftsmen/eu-craftsmen_011.txt
+2025-12-14 13:21:42 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: eu-craftsmen/eu-craftsmen_005.txt
+2025-12-14 13:21:42 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: eu-craftsmen/eu-craftsmen_004.txt
+2025-12-14 13:21:42 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: eu-craftsmen/eu-craftsmen_010.txt
+2025-12-14 13:21:42 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: eu-craftsmen/eu-craftsmen_009.txt
+2025-12-14 13:21:42 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: eu-craftsmen/eu-craftsmen_021.txt
+2025-12-14 13:21:42 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: eu-craftsmen/eu-craftsmen_020.txt
+2025-12-14 13:21:42 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: eu-craftsmen/eu-craftsmen_008.txt
+2025-12-14 13:21:42 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: eu-craftsmen/eu-craftsmen_022.txt
+2025-12-14 13:21:42 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: eu-craftsmen/eu-craftsmen_023.txt
+2025-12-14 13:21:42 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: eu-craftsmen/eu-craftsmen_027.txt
+2025-12-14 13:21:42 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: eu-craftsmen/eu-craftsmen_026.txt
+2025-12-14 13:21:42 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: eu-craftsmen/eu-craftsmen_024.txt
+2025-12-14 13:21:42 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: eu-craftsmen/eu-craftsmen_018.txt
+2025-12-14 13:21:42 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: eu-craftsmen/eu-craftsmen_019.txt
+2025-12-14 13:21:42 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: eu-craftsmen/eu-craftsmen_025.txt
+2025-12-14 13:21:42 | INFO     | src.processing.discovery:discover_prompt_files:45 - Discovered 29 prompt files
+2025-12-14 13:21:42 | DEBUG    | src.processing.discovery:discover_profiles:93 - Loaded profile: USER-FILES/03.PROFILES/nano-banano16x9_deakins.yaml
+2025-12-14 13:21:42 | INFO     | src.processing.discovery:discover_profiles:97 - Loaded 1 profiles
+2025-12-14 13:21:42 | INFO     | src.processing.discovery:get_active_models:135 - Found profile: nano-banano16x9_deakins
+2025-12-14 13:21:42 | INFO     | src.processing.discovery:get_active_models:140 - Total profiles to process: 1
+2025-12-14 13:21:42 | INFO     | src.config.validator:validate_all:26 - All configuration validation passed
+2025-12-14 13:21:42 | INFO     | __main__:initialize_services:186 - Output directory: USER-FILES/05.OUTPUT/251214_132142_IMAGE
+2025-12-14 13:21:42 | INFO     | __main__:execute_processing:221 - Starting matrix processing...
+2025-12-14 13:21:42 | DEBUG    | src.processing.validator:validate_operational_requirements:23 - Profile 'nano-banano16x9_deakins' operational validation passed
+2025-12-14 13:21:42 | INFO     | src.processing.processor:process_all:60 - Processing 29 combinations (29 files × 1 profiles)
+2025-12-14 13:21:42 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from eu-craftsmen_001.txt
+2025-12-14 13:21:42 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 1/29: eu-craftsmen/eu-craftsmen_001.txt + nano-banano16x9_deakins
+2025-12-14 13:21:42 | DEBUG    | src.processing.processor:_apply_prompt_fixes:204 - Added prefix to prompt: A cinematic scene from
+2025-12-14 13:21:42 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: As if shot on 35mm film in the style of Roger Deakins. Diagonal room composition. Make the aspect ratio of the generated image the same as provided image
+2025-12-14 13:21:42 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing eu-craftsmen/eu-craftsmen_001.txt: A cinematic scene from late 1700s Sweden, a narrow...
+2025-12-14 13:21:42 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-12-14 13:21:42 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from late 1700s Sweden, a narrow valley iron mine where men descend by rope into darkness, timber supports groaning, water dripping steadily as progress feels vertical, slow, and perilous. As if shot on 35mm film in the style of Roger Deakins. Diagonal room composition. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-12-14 13:21:42 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A cinematic scene from late 1700s Sweden, a narrow valley iron mine where men descend by rope into darkness, timber supports groaning, water dripping steadily as progress feels vertical, slow, and perilous. As if shot on 35mm film in the style of Roger Deakins. Diagonal room composition. Make the aspect ratio of the generated image the same as provided image
+2025-12-14 13:21:42 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A cinematic scene from late 1700s Sweden, a narrow valley iron mine where men descend by rope into darkness, timber supports groaning, water dripping steadily as progress feels vertical, slow, and perilous. As if shot on 35mm film in the style of Roger Deakins. Diagonal room composition. Make the aspect ratio of the generated image the same as provided image
+2025-12-14 13:21:42 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A cinematic scene from late 1700s Sweden, a narrow valley iron mine where men descend by rope into darkness, timber supports groaning, water dripping steadily as progress feels vertical, slow, and perilous. As if shot on 35mm film in the style of Roger Deakins. Diagonal room composition. Make the aspect ratio of the generated image the same as provided image'
+2025-12-14 13:21:42 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-14 13:21:42 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from late 1700s Sweden, a narrow valley iron mine where men descend by rope into darkness, timber supports groaning, water dripping steadily as progress feels vertical, slow, and perilous. As if shot on 35mm film in the style of Roger Deakins. Diagonal room composition. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-12-14 13:21:53 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-14 13:21:53 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-12-14 13:21:53 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-12-14 13:21:53 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-12-14 13:21:53 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-12-14 13:21:54 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251214_132142_IMAGE/eu-craftsmen/eu-craftsmen_001_IMAGE_132153_nano-banano16x9_deakins.png
+2025-12-14 13:21:54 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251214_132142_IMAGE/eu-craftsmen/eu-craftsmen_001_IMAGE_132153_nano-banano16x9_deakins.md
+2025-12-14 13:21:54 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251214_132142_IMAGE/eu-craftsmen/eu-craftsmen_001_IMAGE_132153_nano-banano16x9_deakins.png
+2025-12-14 13:21:54 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from eu-craftsmen_002.txt
+2025-12-14 13:21:54 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 2/29: eu-craftsmen/eu-craftsmen_002.txt + nano-banano16x9_deakins
+2025-12-14 13:21:54 | DEBUG    | src.processing.processor:_apply_prompt_fixes:204 - Added prefix to prompt: A cinematic scene from
+2025-12-14 13:21:54 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: As if shot on 35mm film in the style of Roger Deakins. Diagonal room composition. Make the aspect ratio of the generated image the same as provided image
+2025-12-14 13:21:54 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing eu-craftsmen/eu-craftsmen_002.txt: A cinematic scene from late 1700s Sweden, a rural ...
+2025-12-14 13:21:54 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-12-14 13:21:54 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from late 1700s Sweden, a rural spinning room where a single woman turns a wheel by hand, the rhythm uneven, daylight fading faster than the work. As if shot on 35mm film in the style of Roger Deakins. Diagonal room composition. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-12-14 13:21:54 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A cinematic scene from late 1700s Sweden, a rural spinning room where a single woman turns a wheel by hand, the rhythm uneven, daylight fading faster than the work. As if shot on 35mm film in the style of Roger Deakins. Diagonal room composition. Make the aspect ratio of the generated image the same as provided image
+2025-12-14 13:21:54 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A cinematic scene from late 1700s Sweden, a rural spinning room where a single woman turns a wheel by hand, the rhythm uneven, daylight fading faster than the work. As if shot on 35mm film in the style of Roger Deakins. Diagonal room composition. Make the aspect ratio of the generated image the same as provided image
+2025-12-14 13:21:54 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A cinematic scene from late 1700s Sweden, a rural spinning room where a single woman turns a wheel by hand, the rhythm uneven, daylight fading faster than the work. As if shot on 35mm film in the style of Roger Deakins. Diagonal room composition. Make the aspect ratio of the generated image the same as provided image'
+2025-12-14 13:21:54 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-14 13:21:54 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from late 1700s Sweden, a rural spinning room where a single woman turns a wheel by hand, the rhythm uneven, daylight fading faster than the work. As if shot on 35mm film in the style of Roger Deakins. Diagonal room composition. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-12-14 13:22:04 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-14 13:22:04 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-12-14 13:22:04 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-12-14 13:22:04 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-12-14 13:22:04 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-12-14 13:22:05 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251214_132142_IMAGE/eu-craftsmen/eu-craftsmen_002_IMAGE_132204_nano-banano16x9_deakins.png
+2025-12-14 13:22:05 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251214_132142_IMAGE/eu-craftsmen/eu-craftsmen_002_IMAGE_132204_nano-banano16x9_deakins.md
+2025-12-14 13:22:05 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251214_132142_IMAGE/eu-craftsmen/eu-craftsmen_002_IMAGE_132204_nano-banano16x9_deakins.png
+2025-12-14 13:22:05 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from eu-craftsmen_003.txt
+2025-12-14 13:22:05 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 3/29: eu-craftsmen/eu-craftsmen_003.txt + nano-banano16x9_deakins
+2025-12-14 13:22:05 | DEBUG    | src.processing.processor:_apply_prompt_fixes:204 - Added prefix to prompt: A cinematic scene from
+2025-12-14 13:22:05 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: As if shot on 35mm film in the style of Roger Deakins. Diagonal room composition. Make the aspect ratio of the generated image the same as provided image
+2025-12-14 13:22:05 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing eu-craftsmen/eu-craftsmen_003.txt: A cinematic scene from late 1700s Sweden, a snowbo...
+2025-12-14 13:22:05 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-12-14 13:22:05 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from late 1700s Sweden, a snowbound crossroads with no signposts, traders arguing over directions while time bleeds away in silence. As if shot on 35mm film in the style of Roger Deakins. Diagonal room composition. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-12-14 13:22:05 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A cinematic scene from late 1700s Sweden, a snowbound crossroads with no signposts, traders arguing over directions while time bleeds away in silence. As if shot on 35mm film in the style of Roger Deakins. Diagonal room composition. Make the aspect ratio of the generated image the same as provided image
+2025-12-14 13:22:05 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A cinematic scene from late 1700s Sweden, a snowbound crossroads with no signposts, traders arguing over directions while time bleeds away in silence. As if shot on 35mm film in the style of Roger Deakins. Diagonal room composition. Make the aspect ratio of the generated image the same as provided image
+2025-12-14 13:22:05 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A cinematic scene from late 1700s Sweden, a snowbound crossroads with no signposts, traders arguing over directions while time bleeds away in silence. As if shot on 35mm film in the style of Roger Deakins. Diagonal room composition. Make the aspect ratio of the generated image the same as provided image'
+2025-12-14 13:22:05 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-14 13:22:05 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from late 1700s Sweden, a snowbound crossroads with no signposts, traders arguing over directions while time bleeds away in silence. As if shot on 35mm film in the style of Roger Deakins. Diagonal room composition. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-12-14 13:22:15 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-14 13:22:15 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-12-14 13:22:15 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-12-14 13:22:15 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-12-14 13:22:15 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-12-14 13:22:16 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251214_132142_IMAGE/eu-craftsmen/eu-craftsmen_003_IMAGE_132215_nano-banano16x9_deakins.png
+2025-12-14 13:22:16 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251214_132142_IMAGE/eu-craftsmen/eu-craftsmen_003_IMAGE_132215_nano-banano16x9_deakins.md
+2025-12-14 13:22:16 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251214_132142_IMAGE/eu-craftsmen/eu-craftsmen_003_IMAGE_132215_nano-banano16x9_deakins.png
+2025-12-14 13:22:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from eu-craftsmen_004.txt
+2025-12-14 13:22:16 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 4/29: eu-craftsmen/eu-craftsmen_004.txt + nano-banano16x9_deakins
+2025-12-14 13:22:16 | DEBUG    | src.processing.processor:_apply_prompt_fixes:204 - Added prefix to prompt: A cinematic scene from
+2025-12-14 13:22:16 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: As if shot on 35mm film in the style of Roger Deakins. Diagonal room composition. Make the aspect ratio of the generated image the same as provided image
+2025-12-14 13:22:16 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing eu-craftsmen/eu-craftsmen_004.txt: A cinematic scene from late 1700s Sweden, a small ...
+2025-12-14 13:22:16 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-12-14 13:22:16 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from late 1700s Sweden, a small blast furnace choked with ice along its stone lip, workers hacking frost from iron tools before use. As if shot on 35mm film in the style of Roger Deakins. Diagonal room composition. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-12-14 13:22:16 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A cinematic scene from late 1700s Sweden, a small blast furnace choked with ice along its stone lip, workers hacking frost from iron tools before use. As if shot on 35mm film in the style of Roger Deakins. Diagonal room composition. Make the aspect ratio of the generated image the same as provided image
+2025-12-14 13:22:16 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A cinematic scene from late 1700s Sweden, a small blast furnace choked with ice along its stone lip, workers hacking frost from iron tools before use. As if shot on 35mm film in the style of Roger Deakins. Diagonal room composition. Make the aspect ratio of the generated image the same as provided image
+2025-12-14 13:22:16 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A cinematic scene from late 1700s Sweden, a small blast furnace choked with ice along its stone lip, workers hacking frost from iron tools before use. As if shot on 35mm film in the style of Roger Deakins. Diagonal room composition. Make the aspect ratio of the generated image the same as provided image'
+2025-12-14 13:22:16 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-14 13:22:16 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from late 1700s Sweden, a small blast furnace choked with ice along its stone lip, workers hacking frost from iron tools before use. As if shot on 35mm film in the style of Roger Deakins. Diagonal room composition. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-12-14 13:22:26 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-14 13:22:26 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-12-14 13:22:26 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-12-14 13:22:26 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-12-14 13:22:26 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-12-14 13:22:27 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251214_132142_IMAGE/eu-craftsmen/eu-craftsmen_004_IMAGE_132226_nano-banano16x9_deakins.png
+2025-12-14 13:22:27 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251214_132142_IMAGE/eu-craftsmen/eu-craftsmen_004_IMAGE_132226_nano-banano16x9_deakins.md
+2025-12-14 13:22:27 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251214_132142_IMAGE/eu-craftsmen/eu-craftsmen_004_IMAGE_132226_nano-banano16x9_deakins.png
+2025-12-14 13:22:27 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from eu-craftsmen_005.txt
+2025-12-14 13:22:27 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 5/29: eu-craftsmen/eu-craftsmen_005.txt + nano-banano16x9_deakins
+2025-12-14 13:22:27 | DEBUG    | src.processing.processor:_apply_prompt_fixes:204 - Added prefix to prompt: A cinematic scene from
+2025-12-14 13:22:27 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: As if shot on 35mm film in the style of Roger Deakins. Diagonal room composition. Make the aspect ratio of the generated image the same as provided image
+2025-12-14 13:22:27 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing eu-craftsmen/eu-craftsmen_005.txt: A cinematic scene from late 1700s Sweden, a sawmil...
+2025-12-14 13:22:27 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-12-14 13:22:27 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from late 1700s Sweden, a sawmill powered by a sluggish stream, water barely moving the wheel, logs piling faster than they can be cut. As if shot on 35mm film in the style of Roger Deakins. Diagonal room composition. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-12-14 13:22:27 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A cinematic scene from late 1700s Sweden, a sawmill powered by a sluggish stream, water barely moving the wheel, logs piling faster than they can be cut. As if shot on 35mm film in the style of Roger Deakins. Diagonal room composition. Make the aspect ratio of the generated image the same as provided image
+2025-12-14 13:22:27 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A cinematic scene from late 1700s Sweden, a sawmill powered by a sluggish stream, water barely moving the wheel, logs piling faster than they can be cut. As if shot on 35mm film in the style of Roger Deakins. Diagonal room composition. Make the aspect ratio of the generated image the same as provided image
+2025-12-14 13:22:27 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A cinematic scene from late 1700s Sweden, a sawmill powered by a sluggish stream, water barely moving the wheel, logs piling faster than they can be cut. As if shot on 35mm film in the style of Roger Deakins. Diagonal room composition. Make the aspect ratio of the generated image the same as provided image'
+2025-12-14 13:22:27 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-14 13:22:27 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from late 1700s Sweden, a sawmill powered by a sluggish stream, water barely moving the wheel, logs piling faster than they can be cut. As if shot on 35mm film in the style of Roger Deakins. Diagonal room composition. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-12-14 13:22:37 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-14 13:22:37 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-12-14 13:22:37 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-12-14 13:22:37 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-12-14 13:22:37 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-12-14 13:22:37 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251214_132142_IMAGE/eu-craftsmen/eu-craftsmen_005_IMAGE_132237_nano-banano16x9_deakins.png
+2025-12-14 13:22:37 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251214_132142_IMAGE/eu-craftsmen/eu-craftsmen_005_IMAGE_132237_nano-banano16x9_deakins.md
+2025-12-14 13:22:37 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251214_132142_IMAGE/eu-craftsmen/eu-craftsmen_005_IMAGE_132237_nano-banano16x9_deakins.png
+2025-12-14 13:22:37 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from eu-craftsmen_006.txt
+2025-12-14 13:22:37 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 6/29: eu-craftsmen/eu-craftsmen_006.txt + nano-banano16x9_deakins
+2025-12-14 13:22:37 | DEBUG    | src.processing.processor:_apply_prompt_fixes:204 - Added prefix to prompt: A cinematic scene from
+2025-12-14 13:22:37 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: As if shot on 35mm film in the style of Roger Deakins. Diagonal room composition. Make the aspect ratio of the generated image the same as provided image
+2025-12-14 13:22:37 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing eu-craftsmen/eu-craftsmen_006.txt: A cinematic scene from late 1700s Sweden, a mercha...
+2025-12-14 13:22:37 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-12-14 13:22:37 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from late 1700s Sweden, a merchant\u2019s warehouse of raw timber and tar, exports stacked high while finished goods are conspicuously absent. As if shot on 35mm film in the style of Roger Deakins. Diagonal room composition. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-12-14 13:22:37 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A cinematic scene from late 1700s Sweden, a merchant’s warehouse of raw timber and tar, exports stacked high while finished goods are conspicuously absent. As if shot on 35mm film in the style of Roger Deakins. Diagonal room composition. Make the aspect ratio of the generated image the same as provided image
+2025-12-14 13:22:37 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A cinematic scene from late 1700s Sweden, a merchant’s warehouse of raw timber and tar, exports stacked high while finished goods are conspicuously absent. As if shot on 35mm film in the style of Roger Deakins. Diagonal room composition. Make the aspect ratio of the generated image the same as provided image
+2025-12-14 13:22:37 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A cinematic scene from late 1700s Sweden, a merchant’s warehouse of raw timber and tar, exports stacked high while finished goods are conspicuously absent. As if shot on 35mm film in the style of Roger Deakins. Diagonal room composition. Make the aspect ratio of the generated image the same as provided image'
+2025-12-14 13:22:37 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-14 13:22:37 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from late 1700s Sweden, a merchant\u2019s warehouse of raw timber and tar, exports stacked high while finished goods are conspicuously absent. As if shot on 35mm film in the style of Roger Deakins. Diagonal room composition. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-12-14 13:22:47 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-14 13:22:47 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-12-14 13:22:47 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-12-14 13:22:47 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-12-14 13:22:47 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-12-14 13:22:47 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251214_132142_IMAGE/eu-craftsmen/eu-craftsmen_006_IMAGE_132247_nano-banano16x9_deakins.png
+2025-12-14 13:22:47 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251214_132142_IMAGE/eu-craftsmen/eu-craftsmen_006_IMAGE_132247_nano-banano16x9_deakins.md
+2025-12-14 13:22:47 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251214_132142_IMAGE/eu-craftsmen/eu-craftsmen_006_IMAGE_132247_nano-banano16x9_deakins.png
+2025-12-14 13:22:47 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from eu-craftsmen_007.txt
+2025-12-14 13:22:47 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 7/29: eu-craftsmen/eu-craftsmen_007.txt + nano-banano16x9_deakins
+2025-12-14 13:22:47 | DEBUG    | src.processing.processor:_apply_prompt_fixes:204 - Added prefix to prompt: A cinematic scene from
+2025-12-14 13:22:47 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: As if shot on 35mm film in the style of Roger Deakins. Diagonal room composition. Make the aspect ratio of the generated image the same as provided image
+2025-12-14 13:22:47 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing eu-craftsmen/eu-craftsmen_007.txt: A cinematic scene from late 1700s Sweden, a villag...
+2025-12-14 13:22:47 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-12-14 13:22:47 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from late 1700s Sweden, a village smithy producing nails one by one, sparks brief and weak against the encroaching dusk. As if shot on 35mm film in the style of Roger Deakins. Diagonal room composition. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-12-14 13:22:47 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A cinematic scene from late 1700s Sweden, a village smithy producing nails one by one, sparks brief and weak against the encroaching dusk. As if shot on 35mm film in the style of Roger Deakins. Diagonal room composition. Make the aspect ratio of the generated image the same as provided image
+2025-12-14 13:22:47 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A cinematic scene from late 1700s Sweden, a village smithy producing nails one by one, sparks brief and weak against the encroaching dusk. As if shot on 35mm film in the style of Roger Deakins. Diagonal room composition. Make the aspect ratio of the generated image the same as provided image
+2025-12-14 13:22:47 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A cinematic scene from late 1700s Sweden, a village smithy producing nails one by one, sparks brief and weak against the encroaching dusk. As if shot on 35mm film in the style of Roger Deakins. Diagonal room composition. Make the aspect ratio of the generated image the same as provided image'
+2025-12-14 13:22:47 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-14 13:22:47 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from late 1700s Sweden, a village smithy producing nails one by one, sparks brief and weak against the encroaching dusk. As if shot on 35mm film in the style of Roger Deakins. Diagonal room composition. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-12-14 13:22:57 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-14 13:22:57 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-12-14 13:22:57 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-12-14 13:22:57 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-12-14 13:22:57 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-12-14 13:22:58 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251214_132142_IMAGE/eu-craftsmen/eu-craftsmen_007_IMAGE_132257_nano-banano16x9_deakins.png
+2025-12-14 13:22:58 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251214_132142_IMAGE/eu-craftsmen/eu-craftsmen_007_IMAGE_132257_nano-banano16x9_deakins.md
+2025-12-14 13:22:58 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251214_132142_IMAGE/eu-craftsmen/eu-craftsmen_007_IMAGE_132257_nano-banano16x9_deakins.png
+2025-12-14 13:22:58 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from eu-craftsmen_008.txt
+2025-12-14 13:22:58 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 8/29: eu-craftsmen/eu-craftsmen_008.txt + nano-banano16x9_deakins
+2025-12-14 13:22:58 | DEBUG    | src.processing.processor:_apply_prompt_fixes:204 - Added prefix to prompt: A cinematic scene from
+2025-12-14 13:22:58 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: As if shot on 35mm film in the style of Roger Deakins. Diagonal room composition. Make the aspect ratio of the generated image the same as provided image
+2025-12-14 13:22:58 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing eu-craftsmen/eu-craftsmen_008.txt: A cinematic scene from late 1700s Sweden, a frozen...
+2025-12-14 13:22:58 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-12-14 13:22:58 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from late 1700s Sweden, a frozen harbor where ships wait idle, masts creaking like bones, commerce paused by season alone. As if shot on 35mm film in the style of Roger Deakins. Diagonal room composition. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-12-14 13:22:58 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A cinematic scene from late 1700s Sweden, a frozen harbor where ships wait idle, masts creaking like bones, commerce paused by season alone. As if shot on 35mm film in the style of Roger Deakins. Diagonal room composition. Make the aspect ratio of the generated image the same as provided image
+2025-12-14 13:22:58 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A cinematic scene from late 1700s Sweden, a frozen harbor where ships wait idle, masts creaking like bones, commerce paused by season alone. As if shot on 35mm film in the style of Roger Deakins. Diagonal room composition. Make the aspect ratio of the generated image the same as provided image
+2025-12-14 13:22:58 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A cinematic scene from late 1700s Sweden, a frozen harbor where ships wait idle, masts creaking like bones, commerce paused by season alone. As if shot on 35mm film in the style of Roger Deakins. Diagonal room composition. Make the aspect ratio of the generated image the same as provided image'
+2025-12-14 13:22:58 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-14 13:22:58 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from late 1700s Sweden, a frozen harbor where ships wait idle, masts creaking like bones, commerce paused by season alone. As if shot on 35mm film in the style of Roger Deakins. Diagonal room composition. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-12-14 13:23:08 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-14 13:23:08 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-12-14 13:23:08 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-12-14 13:23:08 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-12-14 13:23:08 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-12-14 13:23:09 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251214_132142_IMAGE/eu-craftsmen/eu-craftsmen_008_IMAGE_132308_nano-banano16x9_deakins.png
+2025-12-14 13:23:09 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251214_132142_IMAGE/eu-craftsmen/eu-craftsmen_008_IMAGE_132308_nano-banano16x9_deakins.md
+2025-12-14 13:23:09 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251214_132142_IMAGE/eu-craftsmen/eu-craftsmen_008_IMAGE_132308_nano-banano16x9_deakins.png
+2025-12-14 13:23:09 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from eu-craftsmen_009.txt
+2025-12-14 13:23:09 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 9/29: eu-craftsmen/eu-craftsmen_009.txt + nano-banano16x9_deakins
+2025-12-14 13:23:09 | DEBUG    | src.processing.processor:_apply_prompt_fixes:204 - Added prefix to prompt: A cinematic scene from
+2025-12-14 13:23:09 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: As if shot on 35mm film in the style of Roger Deakins. Diagonal room composition. Make the aspect ratio of the generated image the same as provided image
+2025-12-14 13:23:09 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing eu-craftsmen/eu-craftsmen_009.txt: A cinematic scene from late 1700s Sweden, a tax co...
+2025-12-14 13:23:09 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-12-14 13:23:09 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from late 1700s Sweden, a tax collector counting coins in a farmhouse kitchen, the sum small, the ledger quickly filled. As if shot on 35mm film in the style of Roger Deakins. Diagonal room composition. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-12-14 13:23:09 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A cinematic scene from late 1700s Sweden, a tax collector counting coins in a farmhouse kitchen, the sum small, the ledger quickly filled. As if shot on 35mm film in the style of Roger Deakins. Diagonal room composition. Make the aspect ratio of the generated image the same as provided image
+2025-12-14 13:23:09 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A cinematic scene from late 1700s Sweden, a tax collector counting coins in a farmhouse kitchen, the sum small, the ledger quickly filled. As if shot on 35mm film in the style of Roger Deakins. Diagonal room composition. Make the aspect ratio of the generated image the same as provided image
+2025-12-14 13:23:09 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A cinematic scene from late 1700s Sweden, a tax collector counting coins in a farmhouse kitchen, the sum small, the ledger quickly filled. As if shot on 35mm film in the style of Roger Deakins. Diagonal room composition. Make the aspect ratio of the generated image the same as provided image'
+2025-12-14 13:23:09 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-14 13:23:09 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from late 1700s Sweden, a tax collector counting coins in a farmhouse kitchen, the sum small, the ledger quickly filled. As if shot on 35mm film in the style of Roger Deakins. Diagonal room composition. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-12-14 13:23:19 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-14 13:23:19 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-12-14 13:23:19 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-12-14 13:23:19 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-12-14 13:23:19 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-12-14 13:23:20 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251214_132142_IMAGE/eu-craftsmen/eu-craftsmen_009_IMAGE_132319_nano-banano16x9_deakins.png
+2025-12-14 13:23:20 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251214_132142_IMAGE/eu-craftsmen/eu-craftsmen_009_IMAGE_132319_nano-banano16x9_deakins.md
+2025-12-14 13:23:20 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251214_132142_IMAGE/eu-craftsmen/eu-craftsmen_009_IMAGE_132319_nano-banano16x9_deakins.png
+2025-12-14 13:23:20 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from eu-craftsmen_010.txt
+2025-12-14 13:23:20 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 10/29: eu-craftsmen/eu-craftsmen_010.txt + nano-banano16x9_deakins
+2025-12-14 13:23:20 | DEBUG    | src.processing.processor:_apply_prompt_fixes:204 - Added prefix to prompt: A cinematic scene from
+2025-12-14 13:23:20 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: As if shot on 35mm film in the style of Roger Deakins. Diagonal room composition. Make the aspect ratio of the generated image the same as provided image
+2025-12-14 13:23:20 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing eu-craftsmen/eu-craftsmen_010.txt: A cinematic scene from late 1700s Sweden, a muddy ...
+2025-12-14 13:23:20 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-12-14 13:23:20 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from late 1700s Sweden, a muddy iron road scarred by ruts, wagons stalled while men shoulder the load themselves. As if shot on 35mm film in the style of Roger Deakins. Diagonal room composition. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-12-14 13:23:20 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A cinematic scene from late 1700s Sweden, a muddy iron road scarred by ruts, wagons stalled while men shoulder the load themselves. As if shot on 35mm film in the style of Roger Deakins. Diagonal room composition. Make the aspect ratio of the generated image the same as provided image
+2025-12-14 13:23:20 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A cinematic scene from late 1700s Sweden, a muddy iron road scarred by ruts, wagons stalled while men shoulder the load themselves. As if shot on 35mm film in the style of Roger Deakins. Diagonal room composition. Make the aspect ratio of the generated image the same as provided image
+2025-12-14 13:23:20 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A cinematic scene from late 1700s Sweden, a muddy iron road scarred by ruts, wagons stalled while men shoulder the load themselves. As if shot on 35mm film in the style of Roger Deakins. Diagonal room composition. Make the aspect ratio of the generated image the same as provided image'
+2025-12-14 13:23:20 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-14 13:23:20 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from late 1700s Sweden, a muddy iron road scarred by ruts, wagons stalled while men shoulder the load themselves. As if shot on 35mm film in the style of Roger Deakins. Diagonal room composition. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-12-14 13:23:29 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-14 13:23:29 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-12-14 13:23:29 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-12-14 13:23:29 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-12-14 13:23:29 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-12-14 13:23:30 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251214_132142_IMAGE/eu-craftsmen/eu-craftsmen_010_IMAGE_132329_nano-banano16x9_deakins.png
+2025-12-14 13:23:30 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251214_132142_IMAGE/eu-craftsmen/eu-craftsmen_010_IMAGE_132329_nano-banano16x9_deakins.md
+2025-12-14 13:23:30 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251214_132142_IMAGE/eu-craftsmen/eu-craftsmen_010_IMAGE_132329_nano-banano16x9_deakins.png
+2025-12-14 13:23:30 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from eu-craftsmen_011.txt
+2025-12-14 13:23:30 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 11/29: eu-craftsmen/eu-craftsmen_011.txt + nano-banano16x9_deakins
+2025-12-14 13:23:30 | DEBUG    | src.processing.processor:_apply_prompt_fixes:204 - Added prefix to prompt: A cinematic scene from
+2025-12-14 13:23:30 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: As if shot on 35mm film in the style of Roger Deakins. Diagonal room composition. Make the aspect ratio of the generated image the same as provided image
+2025-12-14 13:23:30 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing eu-craftsmen/eu-craftsmen_011.txt: A cinematic scene from late 1700s Sweden, a charco...
+2025-12-14 13:23:30 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-12-14 13:23:30 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from late 1700s Sweden, a charcoal pit smoldering in deep forest, months of labor reduced to quiet smoke and blackened earth. As if shot on 35mm film in the style of Roger Deakins. Diagonal room composition. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-12-14 13:23:30 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A cinematic scene from late 1700s Sweden, a charcoal pit smoldering in deep forest, months of labor reduced to quiet smoke and blackened earth. As if shot on 35mm film in the style of Roger Deakins. Diagonal room composition. Make the aspect ratio of the generated image the same as provided image
+2025-12-14 13:23:30 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A cinematic scene from late 1700s Sweden, a charcoal pit smoldering in deep forest, months of labor reduced to quiet smoke and blackened earth. As if shot on 35mm film in the style of Roger Deakins. Diagonal room composition. Make the aspect ratio of the generated image the same as provided image
+2025-12-14 13:23:30 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A cinematic scene from late 1700s Sweden, a charcoal pit smoldering in deep forest, months of labor reduced to quiet smoke and blackened earth. As if shot on 35mm film in the style of Roger Deakins. Diagonal room composition. Make the aspect ratio of the generated image the same as provided image'
+2025-12-14 13:23:30 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-14 13:23:30 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from late 1700s Sweden, a charcoal pit smoldering in deep forest, months of labor reduced to quiet smoke and blackened earth. As if shot on 35mm film in the style of Roger Deakins. Diagonal room composition. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-12-14 13:23:39 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-14 13:23:39 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-12-14 13:23:39 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-12-14 13:23:39 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-12-14 13:23:39 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-12-14 13:23:40 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251214_132142_IMAGE/eu-craftsmen/eu-craftsmen_011_IMAGE_132339_nano-banano16x9_deakins.png
+2025-12-14 13:23:40 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251214_132142_IMAGE/eu-craftsmen/eu-craftsmen_011_IMAGE_132339_nano-banano16x9_deakins.md
+2025-12-14 13:23:40 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251214_132142_IMAGE/eu-craftsmen/eu-craftsmen_011_IMAGE_132339_nano-banano16x9_deakins.png
+2025-12-14 13:23:40 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from eu-craftsmen_012.txt
+2025-12-14 13:23:40 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 12/29: eu-craftsmen/eu-craftsmen_012.txt + nano-banano16x9_deakins
+2025-12-14 13:23:40 | DEBUG    | src.processing.processor:_apply_prompt_fixes:204 - Added prefix to prompt: A cinematic scene from
+2025-12-14 13:23:40 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: As if shot on 35mm film in the style of Roger Deakins. Diagonal room composition. Make the aspect ratio of the generated image the same as provided image
+2025-12-14 13:23:40 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing eu-craftsmen/eu-craftsmen_012.txt: A cinematic scene from late 1700s Sweden, a grain ...
+2025-12-14 13:23:40 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-12-14 13:23:40 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from late 1700s Sweden, a grain mill halted by ice, sacks stacked untouched as hunger waits on the weather. As if shot on 35mm film in the style of Roger Deakins. Diagonal room composition. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-12-14 13:23:40 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A cinematic scene from late 1700s Sweden, a grain mill halted by ice, sacks stacked untouched as hunger waits on the weather. As if shot on 35mm film in the style of Roger Deakins. Diagonal room composition. Make the aspect ratio of the generated image the same as provided image
+2025-12-14 13:23:40 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A cinematic scene from late 1700s Sweden, a grain mill halted by ice, sacks stacked untouched as hunger waits on the weather. As if shot on 35mm film in the style of Roger Deakins. Diagonal room composition. Make the aspect ratio of the generated image the same as provided image
+2025-12-14 13:23:40 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A cinematic scene from late 1700s Sweden, a grain mill halted by ice, sacks stacked untouched as hunger waits on the weather. As if shot on 35mm film in the style of Roger Deakins. Diagonal room composition. Make the aspect ratio of the generated image the same as provided image'
+2025-12-14 13:23:40 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-14 13:23:40 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from late 1700s Sweden, a grain mill halted by ice, sacks stacked untouched as hunger waits on the weather. As if shot on 35mm film in the style of Roger Deakins. Diagonal room composition. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-12-14 13:23:50 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-14 13:23:50 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-12-14 13:23:50 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-12-14 13:23:50 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-12-14 13:23:50 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-12-14 13:23:51 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251214_132142_IMAGE/eu-craftsmen/eu-craftsmen_012_IMAGE_132350_nano-banano16x9_deakins.png
+2025-12-14 13:23:51 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251214_132142_IMAGE/eu-craftsmen/eu-craftsmen_012_IMAGE_132350_nano-banano16x9_deakins.md
+2025-12-14 13:23:51 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251214_132142_IMAGE/eu-craftsmen/eu-craftsmen_012_IMAGE_132350_nano-banano16x9_deakins.png
+2025-12-14 13:23:51 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from eu-craftsmen_013.txt
+2025-12-14 13:23:51 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 13/29: eu-craftsmen/eu-craftsmen_013.txt + nano-banano16x9_deakins
+2025-12-14 13:23:51 | DEBUG    | src.processing.processor:_apply_prompt_fixes:204 - Added prefix to prompt: A cinematic scene from
+2025-12-14 13:23:51 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: As if shot on 35mm film in the style of Roger Deakins. Diagonal room composition. Make the aspect ratio of the generated image the same as provided image
+2025-12-14 13:23:51 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing eu-craftsmen/eu-craftsmen_013.txt: A cinematic scene from late 1700s Sweden, a crown ...
+2025-12-14 13:23:51 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-12-14 13:23:51 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from late 1700s Sweden, a crown workshop assembling muskets by hand, parts mismatched, filing echoing in an empty hall. As if shot on 35mm film in the style of Roger Deakins. Diagonal room composition. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-12-14 13:23:51 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A cinematic scene from late 1700s Sweden, a crown workshop assembling muskets by hand, parts mismatched, filing echoing in an empty hall. As if shot on 35mm film in the style of Roger Deakins. Diagonal room composition. Make the aspect ratio of the generated image the same as provided image
+2025-12-14 13:23:51 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A cinematic scene from late 1700s Sweden, a crown workshop assembling muskets by hand, parts mismatched, filing echoing in an empty hall. As if shot on 35mm film in the style of Roger Deakins. Diagonal room composition. Make the aspect ratio of the generated image the same as provided image
+2025-12-14 13:23:51 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A cinematic scene from late 1700s Sweden, a crown workshop assembling muskets by hand, parts mismatched, filing echoing in an empty hall. As if shot on 35mm film in the style of Roger Deakins. Diagonal room composition. Make the aspect ratio of the generated image the same as provided image'
+2025-12-14 13:23:51 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-14 13:23:51 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from late 1700s Sweden, a crown workshop assembling muskets by hand, parts mismatched, filing echoing in an empty hall. As if shot on 35mm film in the style of Roger Deakins. Diagonal room composition. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-12-14 13:24:01 | WARNING  | __main__:main:350 - Interrupted by user

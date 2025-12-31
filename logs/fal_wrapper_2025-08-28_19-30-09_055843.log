@@ -1,0 +1,250 @@
+2025-08-28 19:30:09 | INFO     | src.utils.logging:setup_logging:39 - Logging configured (verbose=False, debug=False)
+2025-08-28 19:30:09 | INFO     | __main__:main:75 - Loading configuration...
+2025-08-28 19:30:09 | INFO     | src.config.loader:load_config:42 - Loaded configuration from USER-FILES/01.CONFIG/config.yaml
+2025-08-28 19:30:09 | INFO     | __main__:main:80 - Authenticating...
+2025-08-28 19:30:09 | DEBUG    | src.auth.env:get_fal_api_key_from_env:19 - Loaded environment from /Users/ruben/08_-_DEVELOPMENT/ISOF_IMAGE_WORKFLOW/00.fal-text->image-tool/.env
+2025-08-28 19:30:09 | INFO     | src.auth.env:get_fal_api_key_from_env:25 - Successfully retrieved FAL API key from environment
+2025-08-28 19:30:09 | INFO     | __main__:main:84 - Discovering inputs...
+2025-08-28 19:30:09 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 250824_opus-4-1_censored_light/prompt172.txt
+2025-08-28 19:30:09 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 250824_opus-4-1_censored_light/prompt173.txt
+2025-08-28 19:30:09 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 250824_opus-4-1_censored_light/prompt171.txt
+2025-08-28 19:30:09 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 250824_opus-4-1_censored_light/prompt170.txt
+2025-08-28 19:30:09 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 250824_opus-4-1_censored_light/prompt174.txt
+2025-08-28 19:30:09 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 250824_opus-4-1_censored_light/prompt175.txt
+2025-08-28 19:30:09 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 250824_opus-4-1_censored_light/prompt177.txt
+2025-08-28 19:30:09 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 250824_opus-4-1_censored_light/prompt188.txt
+2025-08-28 19:30:09 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 250824_opus-4-1_censored_light/prompt189.txt
+2025-08-28 19:30:09 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 250824_opus-4-1_censored_light/prompt176.txt
+2025-08-28 19:30:09 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 250824_opus-4-1_censored_light/prompt184.txt
+2025-08-28 19:30:09 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 250824_opus-4-1_censored_light/prompt190.txt
+2025-08-28 19:30:09 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 250824_opus-4-1_censored_light/prompt191.txt
+2025-08-28 19:30:09 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 250824_opus-4-1_censored_light/prompt185.txt
+2025-08-28 19:30:09 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 250824_opus-4-1_censored_light/prompt178.txt
+2025-08-28 19:30:09 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 250824_opus-4-1_censored_light/prompt187.txt
+2025-08-28 19:30:09 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 250824_opus-4-1_censored_light/prompt186.txt
+2025-08-28 19:30:09 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 250824_opus-4-1_censored_light/prompt192.txt
+2025-08-28 19:30:09 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 250824_opus-4-1_censored_light/prompt179.txt
+2025-08-28 19:30:09 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 250824_opus-4-1_censored_light/prompt182.txt
+2025-08-28 19:30:09 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 250824_opus-4-1_censored_light/prompt183.txt
+2025-08-28 19:30:09 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 250824_opus-4-1_censored_light/prompt181.txt
+2025-08-28 19:30:09 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 250824_opus-4-1_censored_light/prompt180.txt
+2025-08-28 19:30:09 | INFO     | src.processing.discovery:discover_prompt_files:45 - Discovered 23 prompt files
+2025-08-28 19:30:09 | DEBUG    | src.processing.discovery:discover_profiles:93 - Loaded profile: USER-FILES/03.PROFILES/nano-banano.yaml
+2025-08-28 19:30:09 | INFO     | src.processing.discovery:discover_profiles:97 - Loaded 1 profiles
+2025-08-28 19:30:09 | INFO     | src.processing.discovery:get_active_models:131 - Found profile: nano-banano
+2025-08-28 19:30:09 | INFO     | src.processing.discovery:get_active_models:136 - Total profiles to process: 1
+2025-08-28 19:30:09 | INFO     | src.config.validator:validate_all:26 - All configuration validation passed
+2025-08-28 19:30:09 | INFO     | __main__:main:104 - Output directory: USER-FILES/05.OUTPUT/250828_193009
+2025-08-28 19:30:09 | INFO     | __main__:main:166 - Starting matrix processing...
+2025-08-28 19:30:09 | INFO     | src.processing.processor:process_all:69 - Processing 23 combinations (23 files × 1 profiles)
+2025-08-28 19:30:09 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt170.txt
+2025-08-28 19:30:09 | INFO     | src.processing.processor:process_all:105 - Processing combination 1/23: 250824_opus-4-1_censored_light/prompt170.txt + nano-banano
+2025-08-28 19:30:09 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 250824_opus-4-1_censored_light/prompt170.txt: 1960s Warsaw exterior, foggy winter street at magi...
+2025-08-28 19:30:09 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-28 19:30:20 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-28 19:30:21 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250828_193009/nano-banano/250824_opus-4-1_censored_light/prompt170_193020_nano-banano_unknownxunknown.jpeg
+2025-08-28 19:30:21 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250828_193009/nano-banano/250824_opus-4-1_censored_light/prompt170_193020_nano-banano_unknownxunknown.json
+2025-08-28 19:30:21 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: prompt170_193020_nano-banano_unknownxunknown.jpeg
+2025-08-28 19:30:21 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt171.txt
+2025-08-28 19:30:21 | INFO     | src.processing.processor:process_all:105 - Processing combination 2/23: 250824_opus-4-1_censored_light/prompt171.txt + nano-banano
+2025-08-28 19:30:21 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 250824_opus-4-1_censored_light/prompt171.txt: 1960s Swedish school classroom interior, medium sh...
+2025-08-28 19:30:21 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-28 19:30:30 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-28 19:30:32 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250828_193009/nano-banano/250824_opus-4-1_censored_light/prompt171_193030_nano-banano_unknownxunknown.jpeg
+2025-08-28 19:30:32 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250828_193009/nano-banano/250824_opus-4-1_censored_light/prompt171_193030_nano-banano_unknownxunknown.json
+2025-08-28 19:30:32 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: prompt171_193030_nano-banano_unknownxunknown.jpeg
+2025-08-28 19:30:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt172.txt
+2025-08-28 19:30:32 | INFO     | src.processing.processor:process_all:105 - Processing combination 3/23: 250824_opus-4-1_censored_light/prompt172.txt + nano-banano
+2025-08-28 19:30:32 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 250824_opus-4-1_censored_light/prompt172.txt: 1960s Swedish school classroom interior, close-up ...
+2025-08-28 19:30:32 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-28 19:30:43 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-28 19:30:45 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250828_193009/nano-banano/250824_opus-4-1_censored_light/prompt172_193043_nano-banano_unknownxunknown.jpeg
+2025-08-28 19:30:45 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250828_193009/nano-banano/250824_opus-4-1_censored_light/prompt172_193043_nano-banano_unknownxunknown.json
+2025-08-28 19:30:45 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: prompt172_193043_nano-banano_unknownxunknown.jpeg
+2025-08-28 19:30:45 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt173.txt
+2025-08-28 19:30:45 | INFO     | src.processing.processor:process_all:105 - Processing combination 4/23: 250824_opus-4-1_censored_light/prompt173.txt + nano-banano
+2025-08-28 19:30:45 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 250824_opus-4-1_censored_light/prompt173.txt: 1960s Swedish school classroom interior, wide shot...
+2025-08-28 19:30:45 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-28 19:30:54 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-28 19:30:57 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250828_193009/nano-banano/250824_opus-4-1_censored_light/prompt173_193054_nano-banano_unknownxunknown.jpeg
+2025-08-28 19:30:57 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250828_193009/nano-banano/250824_opus-4-1_censored_light/prompt173_193054_nano-banano_unknownxunknown.json
+2025-08-28 19:30:57 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: prompt173_193054_nano-banano_unknownxunknown.jpeg
+2025-08-28 19:30:57 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt174.txt
+2025-08-28 19:30:57 | INFO     | src.processing.processor:process_all:105 - Processing combination 5/23: 250824_opus-4-1_censored_light/prompt174.txt + nano-banano
+2025-08-28 19:30:57 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 250824_opus-4-1_censored_light/prompt174.txt: Modern 2025 Stockholm exterior, aerial drone persp...
+2025-08-28 19:30:57 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-28 19:31:06 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-28 19:31:08 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250828_193009/nano-banano/250824_opus-4-1_censored_light/prompt174_193106_nano-banano_unknownxunknown.jpeg
+2025-08-28 19:31:08 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250828_193009/nano-banano/250824_opus-4-1_censored_light/prompt174_193106_nano-banano_unknownxunknown.json
+2025-08-28 19:31:08 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: prompt174_193106_nano-banano_unknownxunknown.jpeg
+2025-08-28 19:31:08 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt175.txt
+2025-08-28 19:31:08 | INFO     | src.processing.processor:process_all:105 - Processing combination 6/23: 250824_opus-4-1_censored_light/prompt175.txt + nano-banano
+2025-08-28 19:31:08 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 250824_opus-4-1_censored_light/prompt175.txt: 2025 Stockholm exterior, wide shot of busy Drottni...
+2025-08-28 19:31:08 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-28 19:31:18 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-28 19:31:21 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250828_193009/nano-banano/250824_opus-4-1_censored_light/prompt175_193118_nano-banano_unknownxunknown.jpeg
+2025-08-28 19:31:21 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250828_193009/nano-banano/250824_opus-4-1_censored_light/prompt175_193118_nano-banano_unknownxunknown.json
+2025-08-28 19:31:21 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: prompt175_193118_nano-banano_unknownxunknown.jpeg
+2025-08-28 19:31:21 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt176.txt
+2025-08-28 19:31:21 | INFO     | src.processing.processor:process_all:105 - Processing combination 7/23: 250824_opus-4-1_censored_light/prompt176.txt + nano-banano
+2025-08-28 19:31:21 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 250824_opus-4-1_censored_light/prompt176.txt: 2025 Swedish home interior, medium wide shot of mo...
+2025-08-28 19:31:21 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-28 19:31:29 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-28 19:31:31 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250828_193009/nano-banano/250824_opus-4-1_censored_light/prompt176_193129_nano-banano_unknownxunknown.jpeg
+2025-08-28 19:31:31 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250828_193009/nano-banano/250824_opus-4-1_censored_light/prompt176_193129_nano-banano_unknownxunknown.json
+2025-08-28 19:31:31 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: prompt176_193129_nano-banano_unknownxunknown.jpeg
+2025-08-28 19:31:31 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt177.txt
+2025-08-28 19:31:31 | INFO     | src.processing.processor:process_all:105 - Processing combination 8/23: 250824_opus-4-1_censored_light/prompt177.txt + nano-banano
+2025-08-28 19:31:31 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 250824_opus-4-1_censored_light/prompt177.txt: 2025 modern apartment living room interior, medium...
+2025-08-28 19:31:31 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-28 19:31:40 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-28 19:31:42 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250828_193009/nano-banano/250824_opus-4-1_censored_light/prompt177_193140_nano-banano_unknownxunknown.jpeg
+2025-08-28 19:31:42 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250828_193009/nano-banano/250824_opus-4-1_censored_light/prompt177_193140_nano-banano_unknownxunknown.json
+2025-08-28 19:31:42 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: prompt177_193140_nano-banano_unknownxunknown.jpeg
+2025-08-28 19:31:42 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt178.txt
+2025-08-28 19:31:42 | INFO     | src.processing.processor:process_all:105 - Processing combination 9/23: 250824_opus-4-1_censored_light/prompt178.txt + nano-banano
+2025-08-28 19:31:42 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 250824_opus-4-1_censored_light/prompt178.txt: 2025 Swedish countryside home exterior, summer day...
+2025-08-28 19:31:42 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-28 19:31:50 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-28 19:31:52 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250828_193009/nano-banano/250824_opus-4-1_censored_light/prompt178_193150_nano-banano_unknownxunknown.jpeg
+2025-08-28 19:31:52 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250828_193009/nano-banano/250824_opus-4-1_censored_light/prompt178_193150_nano-banano_unknownxunknown.json
+2025-08-28 19:31:52 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: prompt178_193150_nano-banano_unknownxunknown.jpeg
+2025-08-28 19:31:52 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt179.txt
+2025-08-28 19:31:52 | INFO     | src.processing.processor:process_all:105 - Processing combination 10/23: 250824_opus-4-1_censored_light/prompt179.txt + nano-banano
+2025-08-28 19:31:52 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 250824_opus-4-1_censored_light/prompt179.txt: 2025 Swedish countryside home exterior, summer day...
+2025-08-28 19:31:52 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-28 19:32:02 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-28 19:32:05 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250828_193009/nano-banano/250824_opus-4-1_censored_light/prompt179_193202_nano-banano_unknownxunknown.jpeg
+2025-08-28 19:32:05 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250828_193009/nano-banano/250824_opus-4-1_censored_light/prompt179_193202_nano-banano_unknownxunknown.json
+2025-08-28 19:32:05 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: prompt179_193202_nano-banano_unknownxunknown.jpeg
+2025-08-28 19:32:05 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt180.txt
+2025-08-28 19:32:05 | INFO     | src.processing.processor:process_all:105 - Processing combination 11/23: 250824_opus-4-1_censored_light/prompt180.txt + nano-banano
+2025-08-28 19:32:05 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 250824_opus-4-1_censored_light/prompt180.txt: 2025 modern school cafeteria interior, medium shot...
+2025-08-28 19:32:05 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-28 19:32:13 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-28 19:32:16 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250828_193009/nano-banano/250824_opus-4-1_censored_light/prompt180_193213_nano-banano_unknownxunknown.jpeg
+2025-08-28 19:32:16 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250828_193009/nano-banano/250824_opus-4-1_censored_light/prompt180_193213_nano-banano_unknownxunknown.json
+2025-08-28 19:32:16 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: prompt180_193213_nano-banano_unknownxunknown.jpeg
+2025-08-28 19:32:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt181.txt
+2025-08-28 19:32:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 12/23: 250824_opus-4-1_censored_light/prompt181.txt + nano-banano
+2025-08-28 19:32:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 250824_opus-4-1_censored_light/prompt181.txt: 2025 modern school cafeteria interior, full shot o...
+2025-08-28 19:32:16 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-28 19:32:24 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-28 19:32:26 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250828_193009/nano-banano/250824_opus-4-1_censored_light/prompt181_193224_nano-banano_unknownxunknown.jpeg
+2025-08-28 19:32:26 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250828_193009/nano-banano/250824_opus-4-1_censored_light/prompt181_193224_nano-banano_unknownxunknown.json
+2025-08-28 19:32:26 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: prompt181_193224_nano-banano_unknownxunknown.jpeg
+2025-08-28 19:32:26 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt182.txt
+2025-08-28 19:32:26 | INFO     | src.processing.processor:process_all:105 - Processing combination 13/23: 250824_opus-4-1_censored_light/prompt182.txt + nano-banano
+2025-08-28 19:32:26 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 250824_opus-4-1_censored_light/prompt182.txt: 2025 modern school cafeteria interior, medium shot...
+2025-08-28 19:32:26 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-28 19:32:35 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-28 19:32:37 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250828_193009/nano-banano/250824_opus-4-1_censored_light/prompt182_193235_nano-banano_unknownxunknown.jpeg
+2025-08-28 19:32:37 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250828_193009/nano-banano/250824_opus-4-1_censored_light/prompt182_193235_nano-banano_unknownxunknown.json
+2025-08-28 19:32:37 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: prompt182_193235_nano-banano_unknownxunknown.jpeg
+2025-08-28 19:32:37 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt183.txt
+2025-08-28 19:32:37 | INFO     | src.processing.processor:process_all:105 - Processing combination 14/23: 250824_opus-4-1_censored_light/prompt183.txt + nano-banano
+2025-08-28 19:32:37 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 250824_opus-4-1_censored_light/prompt183.txt: 2025 modern apartment loft interior, medium close-...
+2025-08-28 19:32:37 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-28 19:32:46 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-28 19:32:48 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250828_193009/nano-banano/250824_opus-4-1_censored_light/prompt183_193246_nano-banano_unknownxunknown.jpeg
+2025-08-28 19:32:48 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250828_193009/nano-banano/250824_opus-4-1_censored_light/prompt183_193246_nano-banano_unknownxunknown.json
+2025-08-28 19:32:48 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: prompt183_193246_nano-banano_unknownxunknown.jpeg
+2025-08-28 19:32:48 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt184.txt
+2025-08-28 19:32:48 | INFO     | src.processing.processor:process_all:105 - Processing combination 15/23: 250824_opus-4-1_censored_light/prompt184.txt + nano-banano
+2025-08-28 19:32:48 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 250824_opus-4-1_censored_light/prompt184.txt: 2025 modern bus interior, medium close-up of Jewis...
+2025-08-28 19:32:48 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-28 19:32:56 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-28 19:32:59 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250828_193009/nano-banano/250824_opus-4-1_censored_light/prompt184_193256_nano-banano_unknownxunknown.jpeg
+2025-08-28 19:32:59 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250828_193009/nano-banano/250824_opus-4-1_censored_light/prompt184_193256_nano-banano_unknownxunknown.json
+2025-08-28 19:32:59 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: prompt184_193256_nano-banano_unknownxunknown.jpeg
+2025-08-28 19:32:59 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt185.txt
+2025-08-28 19:32:59 | INFO     | src.processing.processor:process_all:105 - Processing combination 16/23: 250824_opus-4-1_censored_light/prompt185.txt + nano-banano
+2025-08-28 19:32:59 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 250824_opus-4-1_censored_light/prompt185.txt: 2020s Stockholm street exterior, close-up portrait...
+2025-08-28 19:32:59 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-28 19:33:06 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-28 19:33:09 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250828_193009/nano-banano/250824_opus-4-1_censored_light/prompt185_193306_nano-banano_unknownxunknown.jpeg
+2025-08-28 19:33:09 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250828_193009/nano-banano/250824_opus-4-1_censored_light/prompt185_193306_nano-banano_unknownxunknown.json
+2025-08-28 19:33:09 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: prompt185_193306_nano-banano_unknownxunknown.jpeg
+2025-08-28 19:33:09 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt186.txt
+2025-08-28 19:33:09 | INFO     | src.processing.processor:process_all:105 - Processing combination 17/23: 250824_opus-4-1_censored_light/prompt186.txt + nano-banano
+2025-08-28 19:33:09 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 250824_opus-4-1_censored_light/prompt186.txt: 2020s school classroom interior, medium wide shot ...
+2025-08-28 19:33:09 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-28 19:33:18 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-28 19:33:22 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250828_193009/nano-banano/250824_opus-4-1_censored_light/prompt186_193318_nano-banano_unknownxunknown.jpeg
+2025-08-28 19:33:22 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250828_193009/nano-banano/250824_opus-4-1_censored_light/prompt186_193318_nano-banano_unknownxunknown.json
+2025-08-28 19:33:22 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: prompt186_193318_nano-banano_unknownxunknown.jpeg
+2025-08-28 19:33:22 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt187.txt
+2025-08-28 19:33:22 | INFO     | src.processing.processor:process_all:105 - Processing combination 18/23: 250824_opus-4-1_censored_light/prompt187.txt + nano-banano
+2025-08-28 19:33:22 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 250824_opus-4-1_censored_light/prompt187.txt: 2025 modern apartment loft interior, medium wide s...
+2025-08-28 19:33:22 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-28 19:33:31 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-28 19:33:32 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250828_193009/nano-banano/250824_opus-4-1_censored_light/prompt187_193331_nano-banano_unknownxunknown.jpeg
+2025-08-28 19:33:32 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250828_193009/nano-banano/250824_opus-4-1_censored_light/prompt187_193331_nano-banano_unknownxunknown.json
+2025-08-28 19:33:32 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: prompt187_193331_nano-banano_unknownxunknown.jpeg
+2025-08-28 19:33:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt188.txt
+2025-08-28 19:33:32 | INFO     | src.processing.processor:process_all:105 - Processing combination 19/23: 250824_opus-4-1_censored_light/prompt188.txt + nano-banano
+2025-08-28 19:33:32 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 250824_opus-4-1_censored_light/prompt188.txt: 2025 modern apartment loft interior, medium shot o...
+2025-08-28 19:33:32 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-28 19:33:41 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-28 19:33:44 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250828_193009/nano-banano/250824_opus-4-1_censored_light/prompt188_193341_nano-banano_unknownxunknown.jpeg
+2025-08-28 19:33:44 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250828_193009/nano-banano/250824_opus-4-1_censored_light/prompt188_193341_nano-banano_unknownxunknown.json
+2025-08-28 19:33:44 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: prompt188_193341_nano-banano_unknownxunknown.jpeg
+2025-08-28 19:33:44 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt189.txt
+2025-08-28 19:33:44 | INFO     | src.processing.processor:process_all:105 - Processing combination 20/23: 250824_opus-4-1_censored_light/prompt189.txt + nano-banano
+2025-08-28 19:33:44 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 250824_opus-4-1_censored_light/prompt189.txt: 2025 Berzelii park Stockholm exterior, summer day ...
+2025-08-28 19:33:44 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-28 19:33:52 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-28 19:33:55 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250828_193009/nano-banano/250824_opus-4-1_censored_light/prompt189_193352_nano-banano_unknownxunknown.jpeg
+2025-08-28 19:33:55 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250828_193009/nano-banano/250824_opus-4-1_censored_light/prompt189_193352_nano-banano_unknownxunknown.json
+2025-08-28 19:33:55 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: prompt189_193352_nano-banano_unknownxunknown.jpeg
+2025-08-28 19:33:55 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt190.txt
+2025-08-28 19:33:55 | INFO     | src.processing.processor:process_all:105 - Processing combination 21/23: 250824_opus-4-1_censored_light/prompt190.txt + nano-banano
+2025-08-28 19:33:55 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 250824_opus-4-1_censored_light/prompt190.txt: 2025 Berzelii park Stockholm exterior, summer day ...
+2025-08-28 19:33:55 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-28 19:34:03 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-28 19:34:06 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250828_193009/nano-banano/250824_opus-4-1_censored_light/prompt190_193403_nano-banano_unknownxunknown.jpeg
+2025-08-28 19:34:06 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250828_193009/nano-banano/250824_opus-4-1_censored_light/prompt190_193403_nano-banano_unknownxunknown.json
+2025-08-28 19:34:06 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: prompt190_193403_nano-banano_unknownxunknown.jpeg
+2025-08-28 19:34:06 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt191.txt
+2025-08-28 19:34:06 | INFO     | src.processing.processor:process_all:105 - Processing combination 22/23: 250824_opus-4-1_censored_light/prompt191.txt + nano-banano
+2025-08-28 19:34:06 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 250824_opus-4-1_censored_light/prompt191.txt: 2025 Swedish fall forest exterior, medium wide sho...
+2025-08-28 19:34:06 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-28 19:34:16 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-28 19:34:18 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250828_193009/nano-banano/250824_opus-4-1_censored_light/prompt191_193416_nano-banano_unknownxunknown.jpeg
+2025-08-28 19:34:18 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250828_193009/nano-banano/250824_opus-4-1_censored_light/prompt191_193416_nano-banano_unknownxunknown.json
+2025-08-28 19:34:18 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: prompt191_193416_nano-banano_unknownxunknown.jpeg
+2025-08-28 19:34:18 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt192.txt
+2025-08-28 19:34:18 | INFO     | src.processing.processor:process_all:105 - Processing combination 23/23: 250824_opus-4-1_censored_light/prompt192.txt + nano-banano
+2025-08-28 19:34:18 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 250824_opus-4-1_censored_light/prompt192.txt: 2025 Swedish mountain wilderness at dusk, medium w...
+2025-08-28 19:34:18 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-28 19:34:26 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-28 19:34:29 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250828_193009/nano-banano/250824_opus-4-1_censored_light/prompt192_193426_nano-banano_unknownxunknown.jpeg
+2025-08-28 19:34:29 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250828_193009/nano-banano/250824_opus-4-1_censored_light/prompt192_193426_nano-banano_unknownxunknown.json
+2025-08-28 19:34:29 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: prompt192_193426_nano-banano_unknownxunknown.jpeg
+2025-08-28 19:34:29 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt170.txt
+2025-08-28 19:34:29 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt171.txt
+2025-08-28 19:34:29 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt172.txt
+2025-08-28 19:34:29 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt173.txt
+2025-08-28 19:34:29 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt174.txt
+2025-08-28 19:34:29 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt175.txt
+2025-08-28 19:34:29 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt176.txt
+2025-08-28 19:34:29 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt177.txt
+2025-08-28 19:34:29 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt178.txt
+2025-08-28 19:34:29 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt179.txt
+2025-08-28 19:34:29 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt180.txt
+2025-08-28 19:34:29 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt181.txt
+2025-08-28 19:34:29 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt182.txt
+2025-08-28 19:34:29 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt183.txt
+2025-08-28 19:34:29 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt184.txt
+2025-08-28 19:34:29 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt185.txt
+2025-08-28 19:34:29 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt186.txt
+2025-08-28 19:34:29 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt187.txt
+2025-08-28 19:34:29 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt188.txt
+2025-08-28 19:34:29 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt189.txt
+2025-08-28 19:34:29 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt190.txt
+2025-08-28 19:34:29 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt191.txt
+2025-08-28 19:34:29 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from prompt192.txt
+2025-08-28 19:34:29 | INFO     | src.output.writer:write_report:152 - Wrote report: USER-FILES/05.OUTPUT/250828_193009/COST.md
+2025-08-28 19:34:29 | INFO     | src.output.writer:write_report:152 - Wrote report: USER-FILES/05.OUTPUT/250828_193009/SUCCESS.md
+2025-08-28 19:34:29 | INFO     | src.output.reporter:save_reports:236 - Reports generated successfully
+2025-08-28 19:34:29 | SUCCESS  | __main__:main:201 - ✅ Completed successfully! Generated 23 images

@@ -1,0 +1,865 @@
+2025-11-06 00:22:46 | INFO     | src.utils.logging:setup_logging:39 - Logging configured (verbose=False, debug=False)
+2025-11-06 00:22:46 | INFO     | __main__:setup_environment:79 - Environment initialized
+2025-11-06 00:22:46 | INFO     | __main__:load_and_validate_config:84 - Loading configuration...
+2025-11-06 00:22:46 | INFO     | src.config.loader:load_config:42 - Loaded configuration from USER-FILES/01.CONFIG/config.yaml
+2025-11-06 00:22:46 | INFO     | __main__:authenticate_for_mode:273 - Authenticating with 1Password...
+2025-11-06 00:22:47 | DEBUG    | src.auth.session_manager:ensure_op_auth:39 - 1Password session is active
+2025-11-06 00:22:48 | DEBUG    | src.auth.session_manager:ensure_op_auth:39 - 1Password session is active
+2025-11-06 00:22:48 | DEBUG    | src.auth.auth:load_auth_config:28 - Using auth config: auth_ruben.yaml
+2025-11-06 00:22:49 | DEBUG    | src.auth.auth:get_api_key:77 - Retrieved API key: r8_K...
+2025-11-06 00:22:49 | INFO     | __main__:discover_inputs_and_profiles:92 - Discovering inputs...
+2025-11-06 00:22:49 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: danish_jews_017.txt
+2025-11-06 00:22:49 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: danish_jews_003.txt
+2025-11-06 00:22:49 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: danish_jews_002.txt
+2025-11-06 00:22:49 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: danish_jews_016.txt
+2025-11-06 00:22:49 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: danish_jews_014.txt
+2025-11-06 00:22:49 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: danish_jews_015.txt
+2025-11-06 00:22:49 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: danish_jews_001.txt
+2025-11-06 00:22:49 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: danish_jews_005.txt
+2025-11-06 00:22:49 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: danish_jews_011.txt
+2025-11-06 00:22:49 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: danish_jews_010.txt
+2025-11-06 00:22:49 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: danish_jews_004.txt
+2025-11-06 00:22:49 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: danish_jews_012.txt
+2025-11-06 00:22:49 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: danish_jews_006.txt
+2025-11-06 00:22:49 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: danish_jews_007.txt
+2025-11-06 00:22:49 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: danish_jews_013.txt
+2025-11-06 00:22:49 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: danish_jews_009.txt
+2025-11-06 00:22:49 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: danish_jews_020.txt
+2025-11-06 00:22:49 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: danish_jews_008.txt
+2025-11-06 00:22:49 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: danish_jews_018.txt
+2025-11-06 00:22:49 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: danish_jews_019.txt
+2025-11-06 00:22:49 | INFO     | src.processing.discovery:discover_prompt_files:45 - Discovered 20 prompt files
+2025-11-06 00:22:49 | DEBUG    | src.processing.discovery:discover_profiles:93 - Loaded profile: USER-FILES/03.PROFILES/nano-banano16x9_deakins.yaml
+2025-11-06 00:22:49 | INFO     | src.processing.discovery:discover_profiles:97 - Loaded 1 profiles
+2025-11-06 00:22:49 | INFO     | src.processing.discovery:get_active_models:135 - Found profile: nano-banano16x9_deakins
+2025-11-06 00:22:49 | INFO     | src.processing.discovery:get_active_models:140 - Total profiles to process: 1
+2025-11-06 00:22:49 | INFO     | src.config.validator:validate_all:26 - All configuration validation passed
+2025-11-06 00:22:49 | INFO     | __main__:initialize_services:186 - Output directory: USER-FILES/05.OUTPUT/251106_002249_IMAGE
+2025-11-06 00:22:49 | INFO     | __main__:execute_processing:221 - Starting matrix processing...
+2025-11-06 00:22:49 | DEBUG    | src.processing.validator:validate_operational_requirements:23 - Profile 'nano-banano16x9_deakins' operational validation passed
+2025-11-06 00:22:49 | INFO     | src.processing.processor:process_all:60 - Processing 20 combinations (20 files × 1 profiles)
+2025-11-06 00:22:49 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from danish_jews_001.txt
+2025-11-06 00:22:49 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 1/20: danish_jews_001.txt + nano-banano16x9_deakins
+2025-11-06 00:22:49 | DEBUG    | src.processing.processor:_apply_prompt_fixes:204 - Added prefix to prompt: A moody, cinematic scene from the 
+2025-11-06 00:22:49 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-06 00:22:49 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing danish_jews_001.txt: A moody, cinematic scene from the  1943 Copenhagen...
+2025-11-06 00:22:49 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-11-06 00:22:49 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A moody, cinematic scene from the  1943 Copenhagen, German soldiers patrolling Nyhavn as Danish civilians watch silently from the sidewalks. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-06 00:22:49 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A moody, cinematic scene from the  1943 Copenhagen, German soldiers patrolling Nyhavn as Danish civilians watch silently from the sidewalks. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-06 00:22:49 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A moody, cinematic scene from the  1943 Copenhagen, German soldiers patrolling Nyhavn as Danish civilians watch silently from the sidewalks. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-06 00:22:49 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A moody, cinematic scene from the  1943 Copenhagen, German soldiers patrolling Nyhavn as Danish civilians watch silently from the sidewalks. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image'
+2025-11-06 00:22:49 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-11-06 00:22:49 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A moody, cinematic scene from the  1943 Copenhagen, German soldiers patrolling Nyhavn as Danish civilians watch silently from the sidewalks. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-06 00:23:03 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-11-06 00:23:03 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-11-06 00:23:03 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-11-06 00:23:03 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-11-06 00:23:03 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-11-06 00:23:04 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251106_002249_IMAGE/danish_jews_001_IMAGE_002303_nano-banano16x9_deakins.png
+2025-11-06 00:23:04 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251106_002249_IMAGE/danish_jews_001_IMAGE_002303_nano-banano16x9_deakins.md
+2025-11-06 00:23:04 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251106_002249_IMAGE/danish_jews_001_IMAGE_002303_nano-banano16x9_deakins.png
+2025-11-06 00:23:04 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from danish_jews_002.txt
+2025-11-06 00:23:04 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 2/20: danish_jews_002.txt + nano-banano16x9_deakins
+2025-11-06 00:23:04 | DEBUG    | src.processing.processor:_apply_prompt_fixes:204 - Added prefix to prompt: A moody, cinematic scene from the 
+2025-11-06 00:23:04 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-06 00:23:04 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing danish_jews_002.txt: A moody, cinematic scene from the  1943 Copenhagen...
+2025-11-06 00:23:04 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-11-06 00:23:04 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A moody, cinematic scene from the  1943 Copenhagen, a Jewish family hurriedly packing belongings in a dimly lit apartment, shadows falling across worn suitcases. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-06 00:23:04 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A moody, cinematic scene from the  1943 Copenhagen, a Jewish family hurriedly packing belongings in a dimly lit apartment, shadows falling across worn suitcases. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-06 00:23:04 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A moody, cinematic scene from the  1943 Copenhagen, a Jewish family hurriedly packing belongings in a dimly lit apartment, shadows falling across worn suitcases. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-06 00:23:04 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A moody, cinematic scene from the  1943 Copenhagen, a Jewish family hurriedly packing belongings in a dimly lit apartment, shadows falling across worn suitcases. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image'
+2025-11-06 00:23:04 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-11-06 00:23:04 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A moody, cinematic scene from the  1943 Copenhagen, a Jewish family hurriedly packing belongings in a dimly lit apartment, shadows falling across worn suitcases. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-06 00:23:13 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-11-06 00:23:13 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-11-06 00:23:13 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-11-06 00:23:13 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-11-06 00:23:13 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-11-06 00:23:14 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251106_002249_IMAGE/danish_jews_002_IMAGE_002313_nano-banano16x9_deakins.png
+2025-11-06 00:23:14 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251106_002249_IMAGE/danish_jews_002_IMAGE_002313_nano-banano16x9_deakins.md
+2025-11-06 00:23:14 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251106_002249_IMAGE/danish_jews_002_IMAGE_002313_nano-banano16x9_deakins.png
+2025-11-06 00:23:14 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from danish_jews_003.txt
+2025-11-06 00:23:14 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 3/20: danish_jews_003.txt + nano-banano16x9_deakins
+2025-11-06 00:23:14 | DEBUG    | src.processing.processor:_apply_prompt_fixes:204 - Added prefix to prompt: A moody, cinematic scene from the 
+2025-11-06 00:23:14 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-06 00:23:14 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing danish_jews_003.txt: A moody, cinematic scene from the  1943 Copenhagen...
+2025-11-06 00:23:14 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-11-06 00:23:14 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A moody, cinematic scene from the  1943 Copenhagen, a police truck parked outside a synagogue as officers stand guard near the entrance. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-06 00:23:14 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A moody, cinematic scene from the  1943 Copenhagen, a police truck parked outside a synagogue as officers stand guard near the entrance. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-06 00:23:14 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A moody, cinematic scene from the  1943 Copenhagen, a police truck parked outside a synagogue as officers stand guard near the entrance. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-06 00:23:14 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A moody, cinematic scene from the  1943 Copenhagen, a police truck parked outside a synagogue as officers stand guard near the entrance. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image'
+2025-11-06 00:23:14 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-11-06 00:23:14 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A moody, cinematic scene from the  1943 Copenhagen, a police truck parked outside a synagogue as officers stand guard near the entrance. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-06 00:23:23 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-11-06 00:23:23 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-11-06 00:23:23 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-11-06 00:23:23 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-11-06 00:23:23 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-11-06 00:23:24 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251106_002249_IMAGE/danish_jews_003_IMAGE_002323_nano-banano16x9_deakins.png
+2025-11-06 00:23:24 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251106_002249_IMAGE/danish_jews_003_IMAGE_002323_nano-banano16x9_deakins.md
+2025-11-06 00:23:24 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251106_002249_IMAGE/danish_jews_003_IMAGE_002323_nano-banano16x9_deakins.png
+2025-11-06 00:23:24 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from danish_jews_004.txt
+2025-11-06 00:23:24 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 4/20: danish_jews_004.txt + nano-banano16x9_deakins
+2025-11-06 00:23:24 | DEBUG    | src.processing.processor:_apply_prompt_fixes:204 - Added prefix to prompt: A moody, cinematic scene from the 
+2025-11-06 00:23:24 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-06 00:23:24 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing danish_jews_004.txt: A moody, cinematic scene from the  1943 Gilleleje,...
+2025-11-06 00:23:24 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-11-06 00:23:24 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A moody, cinematic scene from the  1943 Gilleleje, Danish fishermen quietly preparing boats under moonlight to help Jewish families escape across the \u00d8resund. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-06 00:23:24 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A moody, cinematic scene from the  1943 Gilleleje, Danish fishermen quietly preparing boats under moonlight to help Jewish families escape across the Øresund. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-06 00:23:24 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A moody, cinematic scene from the  1943 Gilleleje, Danish fishermen quietly preparing boats under moonlight to help Jewish families escape across the Øresund. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-06 00:23:24 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A moody, cinematic scene from the  1943 Gilleleje, Danish fishermen quietly preparing boats under moonlight to help Jewish families escape across the Øresund. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image'
+2025-11-06 00:23:24 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-11-06 00:23:24 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A moody, cinematic scene from the  1943 Gilleleje, Danish fishermen quietly preparing boats under moonlight to help Jewish families escape across the \u00d8resund. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-06 00:23:34 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-11-06 00:23:34 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-11-06 00:23:34 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-11-06 00:23:34 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-11-06 00:23:34 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-11-06 00:23:35 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251106_002249_IMAGE/danish_jews_004_IMAGE_002334_nano-banano16x9_deakins.png
+2025-11-06 00:23:35 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251106_002249_IMAGE/danish_jews_004_IMAGE_002334_nano-banano16x9_deakins.md
+2025-11-06 00:23:35 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251106_002249_IMAGE/danish_jews_004_IMAGE_002334_nano-banano16x9_deakins.png
+2025-11-06 00:23:35 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from danish_jews_005.txt
+2025-11-06 00:23:35 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 5/20: danish_jews_005.txt + nano-banano16x9_deakins
+2025-11-06 00:23:35 | DEBUG    | src.processing.processor:_apply_prompt_fixes:204 - Added prefix to prompt: A moody, cinematic scene from the 
+2025-11-06 00:23:35 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-06 00:23:35 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing danish_jews_005.txt: A moody, cinematic scene from the  1943 Copenhagen...
+2025-11-06 00:23:35 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-11-06 00:23:35 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A moody, cinematic scene from the  1943 Copenhagen, occupied city street with empty shop windows and torn notices, Danish citizens walking past with worried expressions. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-06 00:23:35 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A moody, cinematic scene from the  1943 Copenhagen, occupied city street with empty shop windows and torn notices, Danish citizens walking past with worried expressions. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-06 00:23:35 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A moody, cinematic scene from the  1943 Copenhagen, occupied city street with empty shop windows and torn notices, Danish citizens walking past with worried expressions. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-06 00:23:35 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A moody, cinematic scene from the  1943 Copenhagen, occupied city street with empty shop windows and torn notices, Danish citizens walking past with worried expressions. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image'
+2025-11-06 00:23:35 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-11-06 00:23:35 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A moody, cinematic scene from the  1943 Copenhagen, occupied city street with empty shop windows and torn notices, Danish citizens walking past with worried expressions. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-06 00:23:44 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-11-06 00:23:44 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-11-06 00:23:44 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-11-06 00:23:44 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-11-06 00:23:44 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-11-06 00:23:45 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251106_002249_IMAGE/danish_jews_005_IMAGE_002344_nano-banano16x9_deakins.png
+2025-11-06 00:23:45 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251106_002249_IMAGE/danish_jews_005_IMAGE_002344_nano-banano16x9_deakins.md
+2025-11-06 00:23:45 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251106_002249_IMAGE/danish_jews_005_IMAGE_002344_nano-banano16x9_deakins.png
+2025-11-06 00:23:45 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from danish_jews_006.txt
+2025-11-06 00:23:45 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 6/20: danish_jews_006.txt + nano-banano16x9_deakins
+2025-11-06 00:23:45 | DEBUG    | src.processing.processor:_apply_prompt_fixes:204 - Added prefix to prompt: A moody, cinematic scene from the 
+2025-11-06 00:23:45 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-06 00:23:45 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing danish_jews_006.txt: A moody, cinematic scene from the  1943 Copenhagen...
+2025-11-06 00:23:45 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-11-06 00:23:45 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A moody, cinematic scene from the  1943 Copenhagen, a shop owner painting over the storefront sign with white paint, working anxiously while glancing over his shoulder. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-06 00:23:45 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A moody, cinematic scene from the  1943 Copenhagen, a shop owner painting over the storefront sign with white paint, working anxiously while glancing over his shoulder. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-06 00:23:45 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A moody, cinematic scene from the  1943 Copenhagen, a shop owner painting over the storefront sign with white paint, working anxiously while glancing over his shoulder. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-06 00:23:45 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A moody, cinematic scene from the  1943 Copenhagen, a shop owner painting over the storefront sign with white paint, working anxiously while glancing over his shoulder. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image'
+2025-11-06 00:23:45 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-11-06 00:23:45 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A moody, cinematic scene from the  1943 Copenhagen, a shop owner painting over the storefront sign with white paint, working anxiously while glancing over his shoulder. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-06 00:23:55 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-11-06 00:23:55 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-11-06 00:23:55 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-11-06 00:23:55 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-11-06 00:23:55 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-11-06 00:23:56 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251106_002249_IMAGE/danish_jews_006_IMAGE_002355_nano-banano16x9_deakins.png
+2025-11-06 00:23:56 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251106_002249_IMAGE/danish_jews_006_IMAGE_002355_nano-banano16x9_deakins.md
+2025-11-06 00:23:56 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251106_002249_IMAGE/danish_jews_006_IMAGE_002355_nano-banano16x9_deakins.png
+2025-11-06 00:23:56 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from danish_jews_007.txt
+2025-11-06 00:23:56 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 7/20: danish_jews_007.txt + nano-banano16x9_deakins
+2025-11-06 00:23:56 | DEBUG    | src.processing.processor:_apply_prompt_fixes:204 - Added prefix to prompt: A moody, cinematic scene from the 
+2025-11-06 00:23:56 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-06 00:23:56 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing danish_jews_007.txt: A moody, cinematic scene from the  1943 Helsingør,...
+2025-11-06 00:23:56 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-11-06 00:23:56 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A moody, cinematic scene from the  1943 Helsing\u00f8r, townspeople whispering to one another as a hidden group of refugees is guided toward the harbor. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-06 00:23:56 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A moody, cinematic scene from the  1943 Helsingør, townspeople whispering to one another as a hidden group of refugees is guided toward the harbor. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-06 00:23:56 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A moody, cinematic scene from the  1943 Helsingør, townspeople whispering to one another as a hidden group of refugees is guided toward the harbor. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-06 00:23:56 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A moody, cinematic scene from the  1943 Helsingør, townspeople whispering to one another as a hidden group of refugees is guided toward the harbor. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image'
+2025-11-06 00:23:56 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-11-06 00:23:56 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A moody, cinematic scene from the  1943 Helsing\u00f8r, townspeople whispering to one another as a hidden group of refugees is guided toward the harbor. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-06 00:24:08 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-11-06 00:24:08 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-11-06 00:24:08 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-11-06 00:24:08 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-11-06 00:24:08 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-11-06 00:24:09 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251106_002249_IMAGE/danish_jews_007_IMAGE_002408_nano-banano16x9_deakins.png
+2025-11-06 00:24:09 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251106_002249_IMAGE/danish_jews_007_IMAGE_002408_nano-banano16x9_deakins.md
+2025-11-06 00:24:09 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251106_002249_IMAGE/danish_jews_007_IMAGE_002408_nano-banano16x9_deakins.png
+2025-11-06 00:24:09 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from danish_jews_008.txt
+2025-11-06 00:24:09 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 8/20: danish_jews_008.txt + nano-banano16x9_deakins
+2025-11-06 00:24:09 | DEBUG    | src.processing.processor:_apply_prompt_fixes:204 - Added prefix to prompt: A moody, cinematic scene from the 
+2025-11-06 00:24:09 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-06 00:24:09 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing danish_jews_008.txt: A moody, cinematic scene from the  1943 Copenhagen...
+2025-11-06 00:24:09 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-11-06 00:24:09 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A moody, cinematic scene from the  1943 Copenhagen, the Gestapo entering an apartment building while neighbors peer nervously from behind curtains. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-06 00:24:09 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A moody, cinematic scene from the  1943 Copenhagen, the Gestapo entering an apartment building while neighbors peer nervously from behind curtains. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-06 00:24:09 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A moody, cinematic scene from the  1943 Copenhagen, the Gestapo entering an apartment building while neighbors peer nervously from behind curtains. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-06 00:24:09 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A moody, cinematic scene from the  1943 Copenhagen, the Gestapo entering an apartment building while neighbors peer nervously from behind curtains. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image'
+2025-11-06 00:24:09 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-11-06 00:24:09 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A moody, cinematic scene from the  1943 Copenhagen, the Gestapo entering an apartment building while neighbors peer nervously from behind curtains. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-06 00:24:19 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-11-06 00:24:19 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-11-06 00:24:19 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-11-06 00:24:19 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-11-06 00:24:19 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-11-06 00:24:20 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251106_002249_IMAGE/danish_jews_008_IMAGE_002419_nano-banano16x9_deakins.png
+2025-11-06 00:24:20 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251106_002249_IMAGE/danish_jews_008_IMAGE_002419_nano-banano16x9_deakins.md
+2025-11-06 00:24:20 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251106_002249_IMAGE/danish_jews_008_IMAGE_002419_nano-banano16x9_deakins.png
+2025-11-06 00:24:20 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from danish_jews_009.txt
+2025-11-06 00:24:20 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 9/20: danish_jews_009.txt + nano-banano16x9_deakins
+2025-11-06 00:24:20 | DEBUG    | src.processing.processor:_apply_prompt_fixes:204 - Added prefix to prompt: A moody, cinematic scene from the 
+2025-11-06 00:24:20 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-06 00:24:20 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing danish_jews_009.txt: A moody, cinematic scene from the  1943 Copenhagen...
+2025-11-06 00:24:20 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-11-06 00:24:20 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A moody, cinematic scene from the  1943 Copenhagen, Rabbi Marcus Melchior addressing a small group in a synagogue, warning them of the coming arrests. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-06 00:24:20 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A moody, cinematic scene from the  1943 Copenhagen, Rabbi Marcus Melchior addressing a small group in a synagogue, warning them of the coming arrests. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-06 00:24:20 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A moody, cinematic scene from the  1943 Copenhagen, Rabbi Marcus Melchior addressing a small group in a synagogue, warning them of the coming arrests. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-06 00:24:20 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A moody, cinematic scene from the  1943 Copenhagen, Rabbi Marcus Melchior addressing a small group in a synagogue, warning them of the coming arrests. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image'
+2025-11-06 00:24:20 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-11-06 00:24:20 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A moody, cinematic scene from the  1943 Copenhagen, Rabbi Marcus Melchior addressing a small group in a synagogue, warning them of the coming arrests. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-06 00:24:32 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-11-06 00:24:32 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-11-06 00:24:32 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-11-06 00:24:32 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-11-06 00:24:32 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-11-06 00:24:33 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251106_002249_IMAGE/danish_jews_009_IMAGE_002432_nano-banano16x9_deakins.png
+2025-11-06 00:24:33 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251106_002249_IMAGE/danish_jews_009_IMAGE_002432_nano-banano16x9_deakins.md
+2025-11-06 00:24:33 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251106_002249_IMAGE/danish_jews_009_IMAGE_002432_nano-banano16x9_deakins.png
+2025-11-06 00:24:33 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from danish_jews_010.txt
+2025-11-06 00:24:33 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 10/20: danish_jews_010.txt + nano-banano16x9_deakins
+2025-11-06 00:24:33 | DEBUG    | src.processing.processor:_apply_prompt_fixes:204 - Added prefix to prompt: A moody, cinematic scene from the 
+2025-11-06 00:24:33 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-06 00:24:33 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing danish_jews_010.txt: A moody, cinematic scene from the  1943 Dragør, fi...
+2025-11-06 00:24:33 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-11-06 00:24:33 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A moody, cinematic scene from the  1943 Drag\u00f8r, fishermen covering small boats with nets and crates to conceal hidden passengers. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-06 00:24:33 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A moody, cinematic scene from the  1943 Dragør, fishermen covering small boats with nets and crates to conceal hidden passengers. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-06 00:24:33 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A moody, cinematic scene from the  1943 Dragør, fishermen covering small boats with nets and crates to conceal hidden passengers. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-06 00:24:33 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A moody, cinematic scene from the  1943 Dragør, fishermen covering small boats with nets and crates to conceal hidden passengers. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image'
+2025-11-06 00:24:33 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-11-06 00:24:33 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A moody, cinematic scene from the  1943 Drag\u00f8r, fishermen covering small boats with nets and crates to conceal hidden passengers. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-06 00:24:44 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-11-06 00:24:44 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-11-06 00:24:44 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-11-06 00:24:44 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-11-06 00:24:44 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-11-06 00:24:46 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251106_002249_IMAGE/danish_jews_010_IMAGE_002444_nano-banano16x9_deakins.png
+2025-11-06 00:24:46 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251106_002249_IMAGE/danish_jews_010_IMAGE_002444_nano-banano16x9_deakins.md
+2025-11-06 00:24:46 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251106_002249_IMAGE/danish_jews_010_IMAGE_002444_nano-banano16x9_deakins.png
+2025-11-06 00:24:46 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from danish_jews_011.txt
+2025-11-06 00:24:46 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 11/20: danish_jews_011.txt + nano-banano16x9_deakins
+2025-11-06 00:24:46 | DEBUG    | src.processing.processor:_apply_prompt_fixes:204 - Added prefix to prompt: A moody, cinematic scene from the 
+2025-11-06 00:24:46 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-06 00:24:46 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing danish_jews_011.txt: A moody, cinematic scene from the  1943 Copenhagen...
+2025-11-06 00:24:46 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-11-06 00:24:46 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A moody, cinematic scene from the  1943 Copenhagen, German trucks driving down empty city streets under blackout conditions. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-06 00:24:46 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A moody, cinematic scene from the  1943 Copenhagen, German trucks driving down empty city streets under blackout conditions. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-06 00:24:46 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A moody, cinematic scene from the  1943 Copenhagen, German trucks driving down empty city streets under blackout conditions. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-06 00:24:46 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A moody, cinematic scene from the  1943 Copenhagen, German trucks driving down empty city streets under blackout conditions. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image'
+2025-11-06 00:24:46 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-11-06 00:24:46 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A moody, cinematic scene from the  1943 Copenhagen, German trucks driving down empty city streets under blackout conditions. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-06 00:24:57 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-11-06 00:24:57 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-11-06 00:24:57 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-11-06 00:24:57 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-11-06 00:24:57 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-11-06 00:24:58 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251106_002249_IMAGE/danish_jews_011_IMAGE_002457_nano-banano16x9_deakins.png
+2025-11-06 00:24:58 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251106_002249_IMAGE/danish_jews_011_IMAGE_002457_nano-banano16x9_deakins.md
+2025-11-06 00:24:58 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251106_002249_IMAGE/danish_jews_011_IMAGE_002457_nano-banano16x9_deakins.png
+2025-11-06 00:24:58 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from danish_jews_012.txt
+2025-11-06 00:24:58 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 12/20: danish_jews_012.txt + nano-banano16x9_deakins
+2025-11-06 00:24:58 | DEBUG    | src.processing.processor:_apply_prompt_fixes:204 - Added prefix to prompt: A moody, cinematic scene from the 
+2025-11-06 00:24:58 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-06 00:24:58 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing danish_jews_012.txt: A moody, cinematic scene from the  1943 Copenhagen...
+2025-11-06 00:24:58 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-11-06 00:24:58 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A moody, cinematic scene from the  1943 Copenhagen, Danish resistance members meeting in a basement, studying maps of escape routes. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-06 00:24:58 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A moody, cinematic scene from the  1943 Copenhagen, Danish resistance members meeting in a basement, studying maps of escape routes. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-06 00:24:58 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A moody, cinematic scene from the  1943 Copenhagen, Danish resistance members meeting in a basement, studying maps of escape routes. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-06 00:24:58 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A moody, cinematic scene from the  1943 Copenhagen, Danish resistance members meeting in a basement, studying maps of escape routes. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image'
+2025-11-06 00:24:58 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-11-06 00:24:58 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A moody, cinematic scene from the  1943 Copenhagen, Danish resistance members meeting in a basement, studying maps of escape routes. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-06 00:25:10 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-11-06 00:25:10 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-11-06 00:25:10 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-11-06 00:25:10 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-11-06 00:25:10 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-11-06 00:25:11 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251106_002249_IMAGE/danish_jews_012_IMAGE_002510_nano-banano16x9_deakins.png
+2025-11-06 00:25:11 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251106_002249_IMAGE/danish_jews_012_IMAGE_002510_nano-banano16x9_deakins.md
+2025-11-06 00:25:11 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251106_002249_IMAGE/danish_jews_012_IMAGE_002510_nano-banano16x9_deakins.png
+2025-11-06 00:25:11 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from danish_jews_013.txt
+2025-11-06 00:25:11 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 13/20: danish_jews_013.txt + nano-banano16x9_deakins
+2025-11-06 00:25:11 | DEBUG    | src.processing.processor:_apply_prompt_fixes:204 - Added prefix to prompt: A moody, cinematic scene from the 
+2025-11-06 00:25:11 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-06 00:25:11 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing danish_jews_013.txt: A moody, cinematic scene from the  1943 Copenhagen...
+2025-11-06 00:25:11 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-11-06 00:25:11 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A moody, cinematic scene from the  1943 Copenhagen, a woman handing a forged identification card to a frightened young man at a train station. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-06 00:25:11 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A moody, cinematic scene from the  1943 Copenhagen, a woman handing a forged identification card to a frightened young man at a train station. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-06 00:25:11 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A moody, cinematic scene from the  1943 Copenhagen, a woman handing a forged identification card to a frightened young man at a train station. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-06 00:25:11 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A moody, cinematic scene from the  1943 Copenhagen, a woman handing a forged identification card to a frightened young man at a train station. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image'
+2025-11-06 00:25:11 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-11-06 00:25:11 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A moody, cinematic scene from the  1943 Copenhagen, a woman handing a forged identification card to a frightened young man at a train station. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-06 00:25:20 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-11-06 00:25:20 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-11-06 00:25:20 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-11-06 00:25:20 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-11-06 00:25:20 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-11-06 00:25:21 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251106_002249_IMAGE/danish_jews_013_IMAGE_002520_nano-banano16x9_deakins.png
+2025-11-06 00:25:21 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251106_002249_IMAGE/danish_jews_013_IMAGE_002520_nano-banano16x9_deakins.md
+2025-11-06 00:25:21 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251106_002249_IMAGE/danish_jews_013_IMAGE_002520_nano-banano16x9_deakins.png
+2025-11-06 00:25:21 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from danish_jews_014.txt
+2025-11-06 00:25:21 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 14/20: danish_jews_014.txt + nano-banano16x9_deakins
+2025-11-06 00:25:21 | DEBUG    | src.processing.processor:_apply_prompt_fixes:204 - Added prefix to prompt: A moody, cinematic scene from the 
+2025-11-06 00:25:21 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-06 00:25:21 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing danish_jews_014.txt: A moody, cinematic scene from the  1943 Copenhagen...
+2025-11-06 00:25:21 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-11-06 00:25:21 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A moody, cinematic scene from the  1943 Copenhagen, German officers inspecting papers at a checkpoint as civilians queue under tense silence. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-06 00:25:21 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A moody, cinematic scene from the  1943 Copenhagen, German officers inspecting papers at a checkpoint as civilians queue under tense silence. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-06 00:25:21 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A moody, cinematic scene from the  1943 Copenhagen, German officers inspecting papers at a checkpoint as civilians queue under tense silence. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-06 00:25:21 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A moody, cinematic scene from the  1943 Copenhagen, German officers inspecting papers at a checkpoint as civilians queue under tense silence. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image'
+2025-11-06 00:25:21 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-11-06 00:25:21 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A moody, cinematic scene from the  1943 Copenhagen, German officers inspecting papers at a checkpoint as civilians queue under tense silence. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-06 00:25:31 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-11-06 00:25:31 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-11-06 00:25:31 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-11-06 00:25:31 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-11-06 00:25:31 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-11-06 00:25:32 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251106_002249_IMAGE/danish_jews_014_IMAGE_002531_nano-banano16x9_deakins.png
+2025-11-06 00:25:32 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251106_002249_IMAGE/danish_jews_014_IMAGE_002531_nano-banano16x9_deakins.md
+2025-11-06 00:25:32 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251106_002249_IMAGE/danish_jews_014_IMAGE_002531_nano-banano16x9_deakins.png
+2025-11-06 00:25:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from danish_jews_015.txt
+2025-11-06 00:25:32 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 15/20: danish_jews_015.txt + nano-banano16x9_deakins
+2025-11-06 00:25:32 | DEBUG    | src.processing.processor:_apply_prompt_fixes:204 - Added prefix to prompt: A moody, cinematic scene from the 
+2025-11-06 00:25:32 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-06 00:25:32 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing danish_jews_015.txt: A moody, cinematic scene from the  1943 Gilleleje,...
+2025-11-06 00:25:32 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-11-06 00:25:32 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A moody, cinematic scene from the  1943 Gilleleje, Jewish refugees crouched in the shadows of a boathouse awaiting departure. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-06 00:25:32 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A moody, cinematic scene from the  1943 Gilleleje, Jewish refugees crouched in the shadows of a boathouse awaiting departure. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-06 00:25:32 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A moody, cinematic scene from the  1943 Gilleleje, Jewish refugees crouched in the shadows of a boathouse awaiting departure. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-06 00:25:32 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A moody, cinematic scene from the  1943 Gilleleje, Jewish refugees crouched in the shadows of a boathouse awaiting departure. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image'
+2025-11-06 00:25:32 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-11-06 00:25:32 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A moody, cinematic scene from the  1943 Gilleleje, Jewish refugees crouched in the shadows of a boathouse awaiting departure. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-06 00:25:41 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-11-06 00:25:41 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-11-06 00:25:41 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-11-06 00:25:41 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-11-06 00:25:41 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-11-06 00:25:42 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251106_002249_IMAGE/danish_jews_015_IMAGE_002541_nano-banano16x9_deakins.png
+2025-11-06 00:25:42 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251106_002249_IMAGE/danish_jews_015_IMAGE_002541_nano-banano16x9_deakins.md
+2025-11-06 00:25:42 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251106_002249_IMAGE/danish_jews_015_IMAGE_002541_nano-banano16x9_deakins.png
+2025-11-06 00:25:42 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from danish_jews_016.txt
+2025-11-06 00:25:42 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 16/20: danish_jews_016.txt + nano-banano16x9_deakins
+2025-11-06 00:25:42 | DEBUG    | src.processing.processor:_apply_prompt_fixes:204 - Added prefix to prompt: A moody, cinematic scene from the 
+2025-11-06 00:25:42 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-06 00:25:42 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing danish_jews_016.txt: A moody, cinematic scene from the  1943 Copenhagen...
+2025-11-06 00:25:42 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-11-06 00:25:42 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A moody, cinematic scene from the  1943 Copenhagen, an abandoned apartment with children's toys left scattered after a sudden escape. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-06 00:25:42 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A moody, cinematic scene from the  1943 Copenhagen, an abandoned apartment with children's toys left scattered after a sudden escape. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-06 00:25:42 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A moody, cinematic scene from the  1943 Copenhagen, an abandoned apartment with children's toys left scattered after a sudden escape. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-06 00:25:42 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: "A moody, cinematic scene from the  1943 Copenhagen, an abandoned apartment with children's toys left scattered after a sudden escape. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image"
+2025-11-06 00:25:42 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-11-06 00:25:42 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A moody, cinematic scene from the  1943 Copenhagen, an abandoned apartment with children's toys left scattered after a sudden escape. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-06 00:25:51 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-11-06 00:25:51 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-11-06 00:25:51 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-11-06 00:25:51 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-11-06 00:25:51 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-11-06 00:25:52 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251106_002249_IMAGE/danish_jews_016_IMAGE_002551_nano-banano16x9_deakins.png
+2025-11-06 00:25:52 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251106_002249_IMAGE/danish_jews_016_IMAGE_002551_nano-banano16x9_deakins.md
+2025-11-06 00:25:52 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251106_002249_IMAGE/danish_jews_016_IMAGE_002551_nano-banano16x9_deakins.png
+2025-11-06 00:25:52 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from danish_jews_017.txt
+2025-11-06 00:25:52 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 17/20: danish_jews_017.txt + nano-banano16x9_deakins
+2025-11-06 00:25:52 | DEBUG    | src.processing.processor:_apply_prompt_fixes:204 - Added prefix to prompt: A moody, cinematic scene from the 
+2025-11-06 00:25:52 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-06 00:25:52 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing danish_jews_017.txt: A moody, cinematic scene from the  1943 Copenhagen...
+2025-11-06 00:25:52 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-11-06 00:25:52 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A moody, cinematic scene from the  1943 Copenhagen, Danish clergy gathered in a church discussing how to protect Jewish citizens. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-06 00:25:52 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A moody, cinematic scene from the  1943 Copenhagen, Danish clergy gathered in a church discussing how to protect Jewish citizens. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-06 00:25:52 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A moody, cinematic scene from the  1943 Copenhagen, Danish clergy gathered in a church discussing how to protect Jewish citizens. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-06 00:25:52 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A moody, cinematic scene from the  1943 Copenhagen, Danish clergy gathered in a church discussing how to protect Jewish citizens. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image'
+2025-11-06 00:25:52 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-11-06 00:25:52 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A moody, cinematic scene from the  1943 Copenhagen, Danish clergy gathered in a church discussing how to protect Jewish citizens. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-06 00:26:02 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-11-06 00:26:02 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-11-06 00:26:02 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-11-06 00:26:02 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-11-06 00:26:02 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-11-06 00:26:03 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251106_002249_IMAGE/danish_jews_017_IMAGE_002602_nano-banano16x9_deakins.png
+2025-11-06 00:26:03 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251106_002249_IMAGE/danish_jews_017_IMAGE_002602_nano-banano16x9_deakins.md
+2025-11-06 00:26:03 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251106_002249_IMAGE/danish_jews_017_IMAGE_002602_nano-banano16x9_deakins.png
+2025-11-06 00:26:03 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from danish_jews_018.txt
+2025-11-06 00:26:03 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 18/20: danish_jews_018.txt + nano-banano16x9_deakins
+2025-11-06 00:26:03 | DEBUG    | src.processing.processor:_apply_prompt_fixes:204 - Added prefix to prompt: A moody, cinematic scene from the 
+2025-11-06 00:26:03 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-06 00:26:03 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing danish_jews_018.txt: A moody, cinematic scene from the  1943 Copenhagen...
+2025-11-06 00:26:03 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-11-06 00:26:03 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A moody, cinematic scene from the  1943 Copenhagen, a Danish family concealing frightened refugees in their attic, bringing them food and blankets by candlelight. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-06 00:26:03 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A moody, cinematic scene from the  1943 Copenhagen, a Danish family concealing frightened refugees in their attic, bringing them food and blankets by candlelight. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-06 00:26:03 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A moody, cinematic scene from the  1943 Copenhagen, a Danish family concealing frightened refugees in their attic, bringing them food and blankets by candlelight. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-06 00:26:03 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A moody, cinematic scene from the  1943 Copenhagen, a Danish family concealing frightened refugees in their attic, bringing them food and blankets by candlelight. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image'
+2025-11-06 00:26:03 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-11-06 00:26:03 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A moody, cinematic scene from the  1943 Copenhagen, a Danish family concealing frightened refugees in their attic, bringing them food and blankets by candlelight. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-06 00:26:12 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-11-06 00:26:12 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-11-06 00:26:12 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-11-06 00:26:12 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-11-06 00:26:12 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-11-06 00:26:13 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251106_002249_IMAGE/danish_jews_018_IMAGE_002612_nano-banano16x9_deakins.png
+2025-11-06 00:26:13 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251106_002249_IMAGE/danish_jews_018_IMAGE_002612_nano-banano16x9_deakins.md
+2025-11-06 00:26:13 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251106_002249_IMAGE/danish_jews_018_IMAGE_002612_nano-banano16x9_deakins.png
+2025-11-06 00:26:13 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from danish_jews_019.txt
+2025-11-06 00:26:13 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 19/20: danish_jews_019.txt + nano-banano16x9_deakins
+2025-11-06 00:26:13 | DEBUG    | src.processing.processor:_apply_prompt_fixes:204 - Added prefix to prompt: A moody, cinematic scene from the 
+2025-11-06 00:26:13 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-06 00:26:13 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing danish_jews_019.txt: A moody, cinematic scene from the  1943 Copenhagen...
+2025-11-06 00:26:13 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-11-06 00:26:13 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A moody, cinematic scene from the  1943 Copenhagen, civilians watching quietly as German patrols march past the Royal Palace. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-06 00:26:13 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A moody, cinematic scene from the  1943 Copenhagen, civilians watching quietly as German patrols march past the Royal Palace. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-06 00:26:13 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A moody, cinematic scene from the  1943 Copenhagen, civilians watching quietly as German patrols march past the Royal Palace. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-06 00:26:13 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A moody, cinematic scene from the  1943 Copenhagen, civilians watching quietly as German patrols march past the Royal Palace. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image'
+2025-11-06 00:26:13 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-11-06 00:26:13 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A moody, cinematic scene from the  1943 Copenhagen, civilians watching quietly as German patrols march past the Royal Palace. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-06 00:26:21 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-11-06 00:26:21 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-11-06 00:26:21 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-11-06 00:26:21 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-11-06 00:26:21 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-11-06 00:26:23 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251106_002249_IMAGE/danish_jews_019_IMAGE_002621_nano-banano16x9_deakins.png
+2025-11-06 00:26:23 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251106_002249_IMAGE/danish_jews_019_IMAGE_002621_nano-banano16x9_deakins.md
+2025-11-06 00:26:23 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251106_002249_IMAGE/danish_jews_019_IMAGE_002621_nano-banano16x9_deakins.png
+2025-11-06 00:26:23 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from danish_jews_020.txt
+2025-11-06 00:26:23 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 20/20: danish_jews_020.txt + nano-banano16x9_deakins
+2025-11-06 00:26:23 | DEBUG    | src.processing.processor:_apply_prompt_fixes:204 - Added prefix to prompt: A moody, cinematic scene from the 
+2025-11-06 00:26:23 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-06 00:26:23 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing danish_jews_020.txt: A moody, cinematic scene from the  1943 Snekkerste...
+2025-11-06 00:26:23 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-11-06 00:26:23 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A moody, cinematic scene from the  1943 Snekkersten, small fishing boats disappearing into the fog toward neutral Sweden carrying hidden refugees. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-06 00:26:23 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A moody, cinematic scene from the  1943 Snekkersten, small fishing boats disappearing into the fog toward neutral Sweden carrying hidden refugees. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-06 00:26:23 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A moody, cinematic scene from the  1943 Snekkersten, small fishing boats disappearing into the fog toward neutral Sweden carrying hidden refugees. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-06 00:26:23 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A moody, cinematic scene from the  1943 Snekkersten, small fishing boats disappearing into the fog toward neutral Sweden carrying hidden refugees. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image'
+2025-11-06 00:26:23 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-11-06 00:26:23 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A moody, cinematic scene from the  1943 Snekkersten, small fishing boats disappearing into the fog toward neutral Sweden carrying hidden refugees. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-06 00:26:33 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-11-06 00:26:33 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-11-06 00:26:33 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-11-06 00:26:33 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-11-06 00:26:33 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-11-06 00:26:35 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251106_002249_IMAGE/danish_jews_020_IMAGE_002633_nano-banano16x9_deakins.png
+2025-11-06 00:26:35 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251106_002249_IMAGE/danish_jews_020_IMAGE_002633_nano-banano16x9_deakins.md
+2025-11-06 00:26:35 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251106_002249_IMAGE/danish_jews_020_IMAGE_002633_nano-banano16x9_deakins.png
+2025-11-06 00:26:35 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from danish_jews_001.txt
+2025-11-06 00:26:35 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from danish_jews_002.txt
+2025-11-06 00:26:35 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from danish_jews_003.txt
+2025-11-06 00:26:35 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from danish_jews_004.txt
+2025-11-06 00:26:35 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from danish_jews_005.txt
+2025-11-06 00:26:35 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from danish_jews_006.txt
+2025-11-06 00:26:35 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from danish_jews_007.txt
+2025-11-06 00:26:35 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from danish_jews_008.txt
+2025-11-06 00:26:35 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from danish_jews_009.txt
+2025-11-06 00:26:35 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from danish_jews_010.txt
+2025-11-06 00:26:35 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from danish_jews_011.txt
+2025-11-06 00:26:35 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from danish_jews_012.txt
+2025-11-06 00:26:35 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from danish_jews_013.txt
+2025-11-06 00:26:35 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from danish_jews_014.txt
+2025-11-06 00:26:35 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from danish_jews_015.txt
+2025-11-06 00:26:35 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from danish_jews_016.txt
+2025-11-06 00:26:35 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from danish_jews_017.txt
+2025-11-06 00:26:35 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from danish_jews_018.txt
+2025-11-06 00:26:35 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from danish_jews_019.txt
+2025-11-06 00:26:35 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from danish_jews_020.txt
+2025-11-06 00:26:35 | INFO     | src.output.writer:write_report:293 - Report saved: USER-FILES/05.OUTPUT/251106_002249_IMAGE/SUCCESS.md
+2025-11-06 00:26:35 | INFO     | src.output.writer:write_report:293 - Report saved: USER-FILES/05.OUTPUT/251106_002249_IMAGE/COST-REPORT.md
+2025-11-06 00:26:35 | INFO     | src.output.writer:write_report:293 - Report saved: USER-FILES/05.OUTPUT/251106_002249_IMAGE/PROFILES-WITH-FIXES.md
+2025-11-06 00:26:35 | INFO     | src.output.reporter:_save_success_reports:62 - Reports saved successfully
+2025-11-06 00:26:35 | SUCCESS  | __main__:generate_final_reports:264 - ✅ Completed successfully! Generated 20 images

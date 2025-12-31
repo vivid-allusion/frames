@@ -1,0 +1,202 @@
+2025-10-15 18:17:31 | INFO     | src.utils.logging:setup_logging:39 - Logging configured (verbose=False, debug=False)
+2025-10-15 18:17:31 | INFO     | __main__:setup_environment:79 - Environment initialized
+2025-10-15 18:17:31 | INFO     | __main__:load_and_validate_config:84 - Loading configuration...
+2025-10-15 18:17:31 | INFO     | src.config.loader:load_config:42 - Loaded configuration from USER-FILES/01.CONFIG/config.yaml
+2025-10-15 18:17:31 | INFO     | __main__:authenticate_for_mode:273 - Authenticating with 1Password...
+2025-10-15 18:17:32 | DEBUG    | src.auth.session_manager:ensure_op_auth:39 - 1Password session is active
+2025-10-15 18:17:33 | DEBUG    | src.auth.session_manager:ensure_op_auth:39 - 1Password session is active
+2025-10-15 18:17:34 | DEBUG    | src.auth.auth:get_api_key:70 - Retrieved API key: r8_V...
+2025-10-15 18:17:34 | INFO     | __main__:discover_inputs_and_profiles:92 - Discovering inputs...
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 01 Understanding & Identifying Mats_lines/line_0008.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 01 Understanding & Identifying Mats_lines/line_0009.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 01 Understanding & Identifying Mats_lines/line_0013.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 01 Understanding & Identifying Mats_lines/line_0007.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 01 Understanding & Identifying Mats_lines/line_0006.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 01 Understanding & Identifying Mats_lines/line_0012.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 01 Understanding & Identifying Mats_lines/line_0004.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 01 Understanding & Identifying Mats_lines/line_0010.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 01 Understanding & Identifying Mats_lines/line_0011.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 01 Understanding & Identifying Mats_lines/line_0005.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 01 Understanding & Identifying Mats_lines/line_0001.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 01 Understanding & Identifying Mats_lines/line_0002.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 01 Understanding & Identifying Mats_lines/line_0003.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 04 Hematomas, Shaving Risks & Treatment_lines/line_0008.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 04 Hematomas, Shaving Risks & Treatment_lines/line_0009.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 04 Hematomas, Shaving Risks & Treatment_lines/line_0013.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 04 Hematomas, Shaving Risks & Treatment_lines/line_0007.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 04 Hematomas, Shaving Risks & Treatment_lines/line_0006.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 04 Hematomas, Shaving Risks & Treatment_lines/line_0012.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 04 Hematomas, Shaving Risks & Treatment_lines/line_0004.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 04 Hematomas, Shaving Risks & Treatment_lines/line_0010.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 04 Hematomas, Shaving Risks & Treatment_lines/line_0011.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 04 Hematomas, Shaving Risks & Treatment_lines/line_0005.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 04 Hematomas, Shaving Risks & Treatment_lines/line_0001.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 04 Hematomas, Shaving Risks & Treatment_lines/line_0015.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 04 Hematomas, Shaving Risks & Treatment_lines/line_0014.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 04 Hematomas, Shaving Risks & Treatment_lines/line_0002.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 04 Hematomas, Shaving Risks & Treatment_lines/line_0003.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03 Common Matted Areas & Hidden Risks_lines/line_0008.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03 Common Matted Areas & Hidden Risks_lines/line_0009.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03 Common Matted Areas & Hidden Risks_lines/line_0007.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03 Common Matted Areas & Hidden Risks_lines/line_0006.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03 Common Matted Areas & Hidden Risks_lines/line_0012.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03 Common Matted Areas & Hidden Risks_lines/line_0004.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03 Common Matted Areas & Hidden Risks_lines/line_0010.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03 Common Matted Areas & Hidden Risks_lines/line_0011.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03 Common Matted Areas & Hidden Risks_lines/line_0005.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03 Common Matted Areas & Hidden Risks_lines/line_0001.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03 Common Matted Areas & Hidden Risks_lines/line_0002.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03 Common Matted Areas & Hidden Risks_lines/line_0003.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 05 Communicating With Pet Parents_lines/line_0019.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 05 Communicating With Pet Parents_lines/line_0018.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 05 Communicating With Pet Parents_lines/line_0020.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 05 Communicating With Pet Parents_lines/line_0008.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 05 Communicating With Pet Parents_lines/line_0009.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 05 Communicating With Pet Parents_lines/line_0021.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 05 Communicating With Pet Parents_lines/line_0013.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 05 Communicating With Pet Parents_lines/line_0007.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 05 Communicating With Pet Parents_lines/line_0006.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 05 Communicating With Pet Parents_lines/line_0012.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 05 Communicating With Pet Parents_lines/line_0004.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 05 Communicating With Pet Parents_lines/line_0010.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 05 Communicating With Pet Parents_lines/line_0011.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 05 Communicating With Pet Parents_lines/line_0005.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 05 Communicating With Pet Parents_lines/line_0001.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 05 Communicating With Pet Parents_lines/line_0015.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 05 Communicating With Pet Parents_lines/line_0014.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 05 Communicating With Pet Parents_lines/line_0016.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 05 Communicating With Pet Parents_lines/line_0002.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 05 Communicating With Pet Parents_lines/line_0003.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 05 Communicating With Pet Parents_lines/line_0017.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 06 Service Refusal & Professional Responsibility_lines/line_0008.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 06 Service Refusal & Professional Responsibility_lines/line_0009.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 06 Service Refusal & Professional Responsibility_lines/line_0013.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 06 Service Refusal & Professional Responsibility_lines/line_0007.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 06 Service Refusal & Professional Responsibility_lines/line_0006.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 06 Service Refusal & Professional Responsibility_lines/line_0012.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 06 Service Refusal & Professional Responsibility_lines/line_0004.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 06 Service Refusal & Professional Responsibility_lines/line_0010.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 06 Service Refusal & Professional Responsibility_lines/line_0011.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 06 Service Refusal & Professional Responsibility_lines/line_0005.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 06 Service Refusal & Professional Responsibility_lines/line_0001.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 06 Service Refusal & Professional Responsibility_lines/line_0015.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 06 Service Refusal & Professional Responsibility_lines/line_0014.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 06 Service Refusal & Professional Responsibility_lines/line_0016.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 06 Service Refusal & Professional Responsibility_lines/line_0002.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 06 Service Refusal & Professional Responsibility_lines/line_0003.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 02 Types of Matting & Safe Removal Techniques_lines/line_0008.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 02 Types of Matting & Safe Removal Techniques_lines/line_0009.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 02 Types of Matting & Safe Removal Techniques_lines/line_0013.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 02 Types of Matting & Safe Removal Techniques_lines/line_0007.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 02 Types of Matting & Safe Removal Techniques_lines/line_0006.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 02 Types of Matting & Safe Removal Techniques_lines/line_0012.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 02 Types of Matting & Safe Removal Techniques_lines/line_0004.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 02 Types of Matting & Safe Removal Techniques_lines/line_0010.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 02 Types of Matting & Safe Removal Techniques_lines/line_0011.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 02 Types of Matting & Safe Removal Techniques_lines/line_0005.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 02 Types of Matting & Safe Removal Techniques_lines/line_0001.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 02 Types of Matting & Safe Removal Techniques_lines/line_0015.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 02 Types of Matting & Safe Removal Techniques_lines/line_0014.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 02 Types of Matting & Safe Removal Techniques_lines/line_0002.txt
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 02 Types of Matting & Safe Removal Techniques_lines/line_0003.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:discover_prompt_files:45 - Discovered 92 prompt files
+2025-10-15 18:17:34 | DEBUG    | src.processing.discovery:discover_profiles:93 - Loaded profile: USER-FILES/03.PROFILES/nano-banano_9x16_barkbus.yaml
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:discover_profiles:97 - Loaded 1 profiles
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:get_active_models:135 - Found profile: nano-banano_9x16_barkbus
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:get_active_models:140 - Total profiles to process: 1
+2025-10-15 18:17:34 | INFO     | src.config.validator:validate_all:26 - All configuration validation passed
+2025-10-15 18:17:34 | INFO     | __main__:initialize_services:186 - Output directory: USER-FILES/05.OUTPUT/251015_181734
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0001.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0002.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0003.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0004.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0005.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0006.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0007.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0008.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0009.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0010.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0011.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0012.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0013.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0001.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0002.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0003.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0004.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0005.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0006.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0007.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0008.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0009.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0010.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0011.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0012.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0013.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0014.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0015.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0001.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0002.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0003.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0004.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0005.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0006.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0007.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0008.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0009.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0010.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0011.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0012.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0001.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0002.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0003.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0004.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0005.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0006.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0007.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0008.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0009.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0010.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0011.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0012.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0013.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0014.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0015.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0001.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0002.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0003.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0004.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0005.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0006.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0007.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0008.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0009.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0010.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0011.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0012.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0013.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0014.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0015.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0016.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0017.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0018.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0019.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0020.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0021.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0001.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0002.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0003.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0004.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0005.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0006.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0007.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0008.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0009.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0010.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0011.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0012.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0013.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0014.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0015.txt
+2025-10-15 18:17:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0016.txt
+2025-10-15 18:17:34 | INFO     | src.output.writer:write_report:293 - Report saved: USER-FILES/05.OUTPUT/251015_181734/COST-ESTIMATION.md
+2025-10-15 18:17:34 | INFO     | __main__:estimate_costs:164 - Cost estimation saved. Total: $3.5880

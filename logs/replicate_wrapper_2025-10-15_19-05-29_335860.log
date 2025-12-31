@@ -1,0 +1,9 @@
+2025-10-15 19:05:29 | INFO     | src.utils.logging:setup_logging:39 - Logging configured (verbose=False, debug=False)
+2025-10-15 19:05:29 | INFO     | __main__:setup_environment:79 - Environment initialized
+2025-10-15 19:05:29 | INFO     | __main__:load_and_validate_config:84 - Loading configuration...
+2025-10-15 19:05:29 | INFO     | src.config.loader:load_config:42 - Loaded configuration from USER-FILES/01.CONFIG/config.yaml
+2025-10-15 19:05:29 | INFO     | __main__:authenticate_for_mode:273 - Authenticating with 1Password...
+2025-10-15 19:05:33 | DEBUG    | src.auth.session_manager:ensure_op_auth:39 - 1Password session is active
+2025-10-15 19:05:34 | DEBUG    | src.auth.session_manager:ensure_op_auth:39 - 1Password session is active
+2025-10-15 19:05:34 | ERROR    | src.auth.auth:load_auth_config:20 - Auth configuration not found: /Users/ruben/08_-_DEVELOPMENT/ISOF_IMAGE_WORKFLOW/replicate_text-to-image_tool/USER-FILES/01.CONFIG/auth.yaml
+2025-10-15 19:05:34 | ERROR    | __main__:main:354 - Error: Auth configuration not found: /Users/ruben/08_-_DEVELOPMENT/ISOF_IMAGE_WORKFLOW/replicate_text-to-image_tool/USER-FILES/01.CONFIG/auth.yaml

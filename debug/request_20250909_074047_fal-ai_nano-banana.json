@@ -1,0 +1,8 @@
+{
+  "endpoint": "fal-ai/nano-banana",
+  "payload": {
+    "num_images": 1,
+    "prompt": "Aspect_ratio=\"16:9\" Group of 3 AWS technicians (Middle Eastern man 30s, White woman 20s, Hispanic man 40s) all smiling, wearing complete PPE: long-sleeved shirts, utilitarian pants, gray safety gloves, ear protection muffs, and safety goggles, major data center server room with orange metal cable trays packed with yellow, green, and black fiber optic lines overhead."
+  },
+  "timestamp": "20250909_074047"
+}

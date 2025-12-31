@@ -1,0 +1,524 @@
+2025-09-08 17:14:35 | INFO     | src.utils.logging:setup_logging:39 - Logging configured (verbose=False, debug=False)
+2025-09-08 17:14:35 | INFO     | __main__:main:75 - Loading configuration...
+2025-09-08 17:14:35 | INFO     | src.config.loader:load_config:42 - Loaded configuration from USER-FILES/01.CONFIG/config.yaml
+2025-09-08 17:14:35 | INFO     | __main__:main:80 - Authenticating...
+2025-09-08 17:14:35 | DEBUG    | src.auth.env:get_fal_api_key_from_env:19 - Loaded environment from /Users/ruben/08_-_DEVELOPMENT/ISOF_IMAGE_WORKFLOW/00.fal_text-to-image_tool/.env
+2025-09-08 17:14:35 | INFO     | src.auth.env:get_fal_api_key_from_env:25 - Successfully retrieved FAL API key from environment
+2025-09-08 17:14:35 | INFO     | __main__:main:84 - Discovering inputs...
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 1/line_0026.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 1/line_0027.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 1/line_0019.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 1/line_0025.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 1/line_0024.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 1/line_0018.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 1/line_0020.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 1/line_0008.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 1/line_0009.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 1/line_0021.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 1/line_0023.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 1/line_0022.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 1/line_0013.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 1/line_0007.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 1/line_0006.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 1/line_0012.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 1/line_0004.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 1/line_0010.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 1/line_0011.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 1/line_0005.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 1/line_0001.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 1/line_0015.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 1/line_0014.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 1/line_0016.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 1/line_0002.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 1/line_0003.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 1/line_0017.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 4/line_0026.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 4/line_0027.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 4/line_0019.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 4/line_0025.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 4/line_0024.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 4/line_0018.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 4/line_0020.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 4/line_0008.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 4/line_0009.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 4/line_0021.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 4/line_0023.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 4/line_0022.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 4/line_0013.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 4/line_0007.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 4/line_0006.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 4/line_0012.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 4/line_0004.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 4/line_0010.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 4/line_0011.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 4/line_0005.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 4/line_0001.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 4/line_0015.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 4/line_0014.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 4/line_0016.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 4/line_0002.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 4/line_0003.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 4/line_0017.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 3/line_0026.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 3/line_0027.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 3/line_0019.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 3/line_0025.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 3/line_0024.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 3/line_0018.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 3/line_0020.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 3/line_0008.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 3/line_0009.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 3/line_0021.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 3/line_0023.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 3/line_0022.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 3/line_0013.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 3/line_0007.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 3/line_0006.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 3/line_0012.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 3/line_0004.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 3/line_0010.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 3/line_0011.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 3/line_0005.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 3/line_0001.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 3/line_0015.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 3/line_0029.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 3/line_0028.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 3/line_0014.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 3/line_0016.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 3/line_0002.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 3/line_0003.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 3/line_0017.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 2/line_0026.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 2/line_0027.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 2/line_0019.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 2/line_0025.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 2/line_0024.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 2/line_0018.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 2/line_0020.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 2/line_0008.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 2/line_0009.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 2/line_0021.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 2/line_0023.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 2/line_0022.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 2/line_0013.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 2/line_0007.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 2/line_0006.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 2/line_0012.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 2/line_0004.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 2/line_0010.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 2/line_0011.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 2/line_0005.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 2/line_0001.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 2/line_0015.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 2/line_0028.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 2/line_0014.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 2/line_0016.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 2/line_0002.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 2/line_0003.txt
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 2/line_0017.txt
+2025-09-08 17:14:35 | INFO     | src.processing.discovery:discover_prompt_files:45 - Discovered 111 prompt files
+2025-09-08 17:14:35 | DEBUG    | src.processing.discovery:discover_profiles:93 - Loaded profile: USER-FILES/03.PROFILES/seedream_v3_1080p.yaml
+2025-09-08 17:14:35 | INFO     | src.processing.discovery:discover_profiles:97 - Loaded 1 profiles
+2025-09-08 17:14:35 | INFO     | src.processing.discovery:get_active_models:131 - Found profile: seedream_v3_1080p
+2025-09-08 17:14:35 | INFO     | src.processing.discovery:get_active_models:136 - Total profiles to process: 1
+2025-09-08 17:14:35 | INFO     | src.config.validator:validate_all:26 - All configuration validation passed
+2025-09-08 17:14:35 | INFO     | __main__:main:104 - Output directory: USER-FILES/05.OUTPUT/250908_171435
+2025-09-08 17:14:35 | INFO     | __main__:main:166 - Starting matrix processing...
+2025-09-08 17:14:35 | INFO     | src.processing.processor:process_all:69 - Processing 111 combinations (111 files × 1 profiles)
+2025-09-08 17:14:35 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0001.txt
+2025-09-08 17:14:35 | INFO     | src.processing.processor:process_all:105 - Processing combination 1/111: 1/line_0001.txt + seedream_v3_1080p
+2025-09-08 17:14:35 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-08 17:14:35 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-08 17:14:35 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 1/line_0001.txt: cinematic style shot of  "Clipart-style illustrati...
+2025-09-08 17:14:35 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-08 17:14:47 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-08 17:14:49 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250908_171435/seedream_v3_1080p/1/line_0001_171447_seedream_v3_1080p_1920x1080.jpeg
+2025-09-08 17:14:49 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250908_171435/seedream_v3_1080p/1/line_0001_171447_seedream_v3_1080p_1920x1080.json
+2025-09-08 17:14:49 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: line_0001_171447_seedream_v3_1080p_1920x1080.jpeg
+2025-09-08 17:14:49 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0002.txt
+2025-09-08 17:14:49 | INFO     | src.processing.processor:process_all:105 - Processing combination 2/111: 1/line_0002.txt + seedream_v3_1080p
+2025-09-08 17:14:49 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-08 17:14:49 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-08 17:14:49 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 1/line_0002.txt: cinematic style shot of  Group of 3 AWS employees ...
+2025-09-08 17:14:49 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-08 17:15:00 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-08 17:15:03 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250908_171435/seedream_v3_1080p/1/line_0002_171500_seedream_v3_1080p_1920x1080.jpeg
+2025-09-08 17:15:03 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250908_171435/seedream_v3_1080p/1/line_0002_171500_seedream_v3_1080p_1920x1080.json
+2025-09-08 17:15:03 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: line_0002_171500_seedream_v3_1080p_1920x1080.jpeg
+2025-09-08 17:15:03 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0003.txt
+2025-09-08 17:15:03 | INFO     | src.processing.processor:process_all:105 - Processing combination 3/111: 1/line_0003.txt + seedream_v3_1080p
+2025-09-08 17:15:03 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-08 17:15:03 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-08 17:15:03 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 1/line_0003.txt: cinematic style shot of  Clipart-style illustratio...
+2025-09-08 17:15:03 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-08 17:15:14 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-08 17:15:16 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250908_171435/seedream_v3_1080p/1/line_0003_171514_seedream_v3_1080p_1920x1080.jpeg
+2025-09-08 17:15:16 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250908_171435/seedream_v3_1080p/1/line_0003_171514_seedream_v3_1080p_1920x1080.json
+2025-09-08 17:15:16 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: line_0003_171514_seedream_v3_1080p_1920x1080.jpeg
+2025-09-08 17:15:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0004.txt
+2025-09-08 17:15:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 4/111: 1/line_0004.txt + seedream_v3_1080p
+2025-09-08 17:15:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-08 17:15:16 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-08 17:15:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 1/line_0004.txt: cinematic style shot of  Group of 4 AWS technician...
+2025-09-08 17:15:16 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-08 17:15:27 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-08 17:15:30 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250908_171435/seedream_v3_1080p/1/line_0004_171527_seedream_v3_1080p_1920x1080.jpeg
+2025-09-08 17:15:30 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250908_171435/seedream_v3_1080p/1/line_0004_171527_seedream_v3_1080p_1920x1080.json
+2025-09-08 17:15:30 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: line_0004_171527_seedream_v3_1080p_1920x1080.jpeg
+2025-09-08 17:15:30 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0005.txt
+2025-09-08 17:15:30 | INFO     | src.processing.processor:process_all:105 - Processing combination 5/111: 1/line_0005.txt + seedream_v3_1080p
+2025-09-08 17:15:30 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-08 17:15:30 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-08 17:15:30 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 1/line_0005.txt: cinematic style shot of  "Clipart-style illustrati...
+2025-09-08 17:15:30 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-08 17:15:40 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-08 17:15:43 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250908_171435/seedream_v3_1080p/1/line_0005_171540_seedream_v3_1080p_1920x1080.jpeg
+2025-09-08 17:15:43 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250908_171435/seedream_v3_1080p/1/line_0005_171540_seedream_v3_1080p_1920x1080.json
+2025-09-08 17:15:43 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: line_0005_171540_seedream_v3_1080p_1920x1080.jpeg
+2025-09-08 17:15:43 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0006.txt
+2025-09-08 17:15:43 | INFO     | src.processing.processor:process_all:105 - Processing combination 6/111: 1/line_0006.txt + seedream_v3_1080p
+2025-09-08 17:15:43 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-08 17:15:43 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-08 17:15:43 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 1/line_0006.txt: cinematic style shot of  Dutch angle, off-centered...
+2025-09-08 17:15:43 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-08 17:15:58 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-08 17:16:01 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250908_171435/seedream_v3_1080p/1/line_0006_171558_seedream_v3_1080p_1920x1080.jpeg
+2025-09-08 17:16:01 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250908_171435/seedream_v3_1080p/1/line_0006_171558_seedream_v3_1080p_1920x1080.json
+2025-09-08 17:16:01 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: line_0006_171558_seedream_v3_1080p_1920x1080.jpeg
+2025-09-08 17:16:01 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0007.txt
+2025-09-08 17:16:01 | INFO     | src.processing.processor:process_all:105 - Processing combination 7/111: 1/line_0007.txt + seedream_v3_1080p
+2025-09-08 17:16:01 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-08 17:16:01 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-08 17:16:01 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 1/line_0007.txt: cinematic style shot of  Group of 2 site managers ...
+2025-09-08 17:16:01 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-08 17:16:10 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-08 17:16:13 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250908_171435/seedream_v3_1080p/1/line_0007_171610_seedream_v3_1080p_1920x1080.jpeg
+2025-09-08 17:16:13 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250908_171435/seedream_v3_1080p/1/line_0007_171610_seedream_v3_1080p_1920x1080.json
+2025-09-08 17:16:13 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: line_0007_171610_seedream_v3_1080p_1920x1080.jpeg
+2025-09-08 17:16:13 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0008.txt
+2025-09-08 17:16:13 | INFO     | src.processing.processor:process_all:105 - Processing combination 8/111: 1/line_0008.txt + seedream_v3_1080p
+2025-09-08 17:16:13 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-08 17:16:13 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-08 17:16:13 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 1/line_0008.txt: cinematic style shot of  Group of 3 site managers ...
+2025-09-08 17:16:13 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-08 17:16:25 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-08 17:16:27 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250908_171435/seedream_v3_1080p/1/line_0008_171625_seedream_v3_1080p_1920x1080.jpeg
+2025-09-08 17:16:27 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250908_171435/seedream_v3_1080p/1/line_0008_171625_seedream_v3_1080p_1920x1080.json
+2025-09-08 17:16:27 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: line_0008_171625_seedream_v3_1080p_1920x1080.jpeg
+2025-09-08 17:16:27 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0009.txt
+2025-09-08 17:16:27 | INFO     | src.processing.processor:process_all:105 - Processing combination 9/111: 1/line_0009.txt + seedream_v3_1080p
+2025-09-08 17:16:27 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-08 17:16:27 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-08 17:16:27 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 1/line_0009.txt: cinematic style shot of  Group of 5 operations tea...
+2025-09-08 17:16:27 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-08 17:16:37 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-08 17:16:39 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250908_171435/seedream_v3_1080p/1/line_0009_171637_seedream_v3_1080p_1920x1080.jpeg
+2025-09-08 17:16:39 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250908_171435/seedream_v3_1080p/1/line_0009_171637_seedream_v3_1080p_1920x1080.json
+2025-09-08 17:16:39 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: line_0009_171637_seedream_v3_1080p_1920x1080.jpeg
+2025-09-08 17:16:39 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0010.txt
+2025-09-08 17:16:39 | INFO     | src.processing.processor:process_all:105 - Processing combination 10/111: 1/line_0010.txt + seedream_v3_1080p
+2025-09-08 17:16:39 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-08 17:16:39 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-08 17:16:39 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 1/line_0010.txt: cinematic style shot of  Clipart-style illustratio...
+2025-09-08 17:16:39 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-08 17:16:50 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-08 17:16:53 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250908_171435/seedream_v3_1080p/1/line_0010_171650_seedream_v3_1080p_1920x1080.jpeg
+2025-09-08 17:16:53 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250908_171435/seedream_v3_1080p/1/line_0010_171650_seedream_v3_1080p_1920x1080.json
+2025-09-08 17:16:53 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: line_0010_171650_seedream_v3_1080p_1920x1080.jpeg
+2025-09-08 17:16:53 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0011.txt
+2025-09-08 17:16:53 | INFO     | src.processing.processor:process_all:105 - Processing combination 11/111: 1/line_0011.txt + seedream_v3_1080p
+2025-09-08 17:16:53 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-08 17:16:53 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-08 17:16:53 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 1/line_0011.txt: cinematic style shot of  Group of 2 incident comma...
+2025-09-08 17:16:53 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-08 17:17:03 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-08 17:17:06 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250908_171435/seedream_v3_1080p/1/line_0011_171703_seedream_v3_1080p_1920x1080.jpeg
+2025-09-08 17:17:06 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250908_171435/seedream_v3_1080p/1/line_0011_171703_seedream_v3_1080p_1920x1080.json
+2025-09-08 17:17:06 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: line_0011_171703_seedream_v3_1080p_1920x1080.jpeg
+2025-09-08 17:17:06 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0012.txt
+2025-09-08 17:17:06 | INFO     | src.processing.processor:process_all:105 - Processing combination 12/111: 1/line_0012.txt + seedream_v3_1080p
+2025-09-08 17:17:06 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-08 17:17:06 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-08 17:17:06 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 1/line_0012.txt: cinematic style shot of  Group of 4 people: incide...
+2025-09-08 17:17:06 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-08 17:17:24 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-08 17:17:26 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250908_171435/seedream_v3_1080p/1/line_0012_171724_seedream_v3_1080p_1920x1080.jpeg
+2025-09-08 17:17:26 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250908_171435/seedream_v3_1080p/1/line_0012_171724_seedream_v3_1080p_1920x1080.json
+2025-09-08 17:17:26 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: line_0012_171724_seedream_v3_1080p_1920x1080.jpeg
+2025-09-08 17:17:26 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0013.txt
+2025-09-08 17:17:26 | INFO     | src.processing.processor:process_all:105 - Processing combination 13/111: 1/line_0013.txt + seedream_v3_1080p
+2025-09-08 17:17:26 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-08 17:17:26 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-08 17:17:26 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 1/line_0013.txt: cinematic style shot of  Group of 3 incident comma...
+2025-09-08 17:17:26 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-08 17:17:35 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-08 17:17:38 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250908_171435/seedream_v3_1080p/1/line_0013_171735_seedream_v3_1080p_1920x1080.jpeg
+2025-09-08 17:17:38 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250908_171435/seedream_v3_1080p/1/line_0013_171735_seedream_v3_1080p_1920x1080.json
+2025-09-08 17:17:38 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: line_0013_171735_seedream_v3_1080p_1920x1080.jpeg
+2025-09-08 17:17:38 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0014.txt
+2025-09-08 17:17:38 | INFO     | src.processing.processor:process_all:105 - Processing combination 14/111: 1/line_0014.txt + seedream_v3_1080p
+2025-09-08 17:17:38 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-08 17:17:38 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-08 17:17:38 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 1/line_0014.txt: cinematic style shot of  Group of 2 incident comma...
+2025-09-08 17:17:38 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-08 17:17:48 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-08 17:17:50 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250908_171435/seedream_v3_1080p/1/line_0014_171748_seedream_v3_1080p_1920x1080.jpeg
+2025-09-08 17:17:50 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250908_171435/seedream_v3_1080p/1/line_0014_171748_seedream_v3_1080p_1920x1080.json
+2025-09-08 17:17:50 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: line_0014_171748_seedream_v3_1080p_1920x1080.jpeg
+2025-09-08 17:17:50 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0015.txt
+2025-09-08 17:17:50 | INFO     | src.processing.processor:process_all:105 - Processing combination 15/111: 1/line_0015.txt + seedream_v3_1080p
+2025-09-08 17:17:50 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-08 17:17:50 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-08 17:17:50 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 1/line_0015.txt: cinematic style shot of  Group of 5 diverse AWS te...
+2025-09-08 17:17:50 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-08 17:18:00 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-08 17:18:03 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250908_171435/seedream_v3_1080p/1/line_0015_171800_seedream_v3_1080p_1920x1080.jpeg
+2025-09-08 17:18:03 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250908_171435/seedream_v3_1080p/1/line_0015_171800_seedream_v3_1080p_1920x1080.json
+2025-09-08 17:18:03 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: line_0015_171800_seedream_v3_1080p_1920x1080.jpeg
+2025-09-08 17:18:03 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0016.txt
+2025-09-08 17:18:03 | INFO     | src.processing.processor:process_all:105 - Processing combination 16/111: 1/line_0016.txt + seedream_v3_1080p
+2025-09-08 17:18:03 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-08 17:18:03 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-08 17:18:03 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 1/line_0016.txt: cinematic style shot of  Group of 3 people: incide...
+2025-09-08 17:18:03 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-08 17:18:12 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-08 17:18:15 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250908_171435/seedream_v3_1080p/1/line_0016_171812_seedream_v3_1080p_1920x1080.jpeg
+2025-09-08 17:18:15 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250908_171435/seedream_v3_1080p/1/line_0016_171812_seedream_v3_1080p_1920x1080.json
+2025-09-08 17:18:15 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: line_0016_171812_seedream_v3_1080p_1920x1080.jpeg
+2025-09-08 17:18:15 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0017.txt
+2025-09-08 17:18:15 | INFO     | src.processing.processor:process_all:105 - Processing combination 17/111: 1/line_0017.txt + seedream_v3_1080p
+2025-09-08 17:18:15 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-08 17:18:15 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-08 17:18:15 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 1/line_0017.txt: cinematic style shot of  Group of 4 people: securi...
+2025-09-08 17:18:15 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-08 17:18:24 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-08 17:18:27 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250908_171435/seedream_v3_1080p/1/line_0017_171824_seedream_v3_1080p_1920x1080.jpeg
+2025-09-08 17:18:27 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250908_171435/seedream_v3_1080p/1/line_0017_171824_seedream_v3_1080p_1920x1080.json
+2025-09-08 17:18:27 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: line_0017_171824_seedream_v3_1080p_1920x1080.jpeg
+2025-09-08 17:18:27 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0018.txt
+2025-09-08 17:18:27 | INFO     | src.processing.processor:process_all:105 - Processing combination 18/111: 1/line_0018.txt + seedream_v3_1080p
+2025-09-08 17:18:27 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-08 17:18:27 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-08 17:18:27 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 1/line_0018.txt: cinematic style shot of  Clipart-style illustratio...
+2025-09-08 17:18:27 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-08 17:18:36 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-08 17:18:38 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250908_171435/seedream_v3_1080p/1/line_0018_171836_seedream_v3_1080p_1920x1080.jpeg
+2025-09-08 17:18:38 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250908_171435/seedream_v3_1080p/1/line_0018_171836_seedream_v3_1080p_1920x1080.json
+2025-09-08 17:18:38 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: line_0018_171836_seedream_v3_1080p_1920x1080.jpeg
+2025-09-08 17:18:38 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0019.txt
+2025-09-08 17:18:38 | INFO     | src.processing.processor:process_all:105 - Processing combination 19/111: 1/line_0019.txt + seedream_v3_1080p
+2025-09-08 17:18:38 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-08 17:18:38 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-08 17:18:38 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 1/line_0019.txt: cinematic style shot of  Group of 4 people being l...
+2025-09-08 17:18:38 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-08 17:18:48 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-08 17:18:49 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250908_171435/seedream_v3_1080p/1/line_0019_171848_seedream_v3_1080p_1920x1080.jpeg
+2025-09-08 17:18:49 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250908_171435/seedream_v3_1080p/1/line_0019_171848_seedream_v3_1080p_1920x1080.json
+2025-09-08 17:18:49 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: line_0019_171848_seedream_v3_1080p_1920x1080.jpeg
+2025-09-08 17:18:49 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0020.txt
+2025-09-08 17:18:49 | INFO     | src.processing.processor:process_all:105 - Processing combination 20/111: 1/line_0020.txt + seedream_v3_1080p
+2025-09-08 17:18:49 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-08 17:18:49 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-08 17:18:49 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 1/line_0020.txt: cinematic style shot of  "Clipart-style illustrati...
+2025-09-08 17:18:49 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-08 17:19:00 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-08 17:19:02 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250908_171435/seedream_v3_1080p/1/line_0020_171900_seedream_v3_1080p_1920x1080.jpeg
+2025-09-08 17:19:02 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250908_171435/seedream_v3_1080p/1/line_0020_171900_seedream_v3_1080p_1920x1080.json
+2025-09-08 17:19:02 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: line_0020_171900_seedream_v3_1080p_1920x1080.jpeg
+2025-09-08 17:19:02 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0021.txt
+2025-09-08 17:19:02 | INFO     | src.processing.processor:process_all:105 - Processing combination 21/111: 1/line_0021.txt + seedream_v3_1080p
+2025-09-08 17:19:02 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-08 17:19:02 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-08 17:19:02 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 1/line_0021.txt: cinematic style shot of  Group of 2 incident comma...
+2025-09-08 17:19:02 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-08 17:19:17 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-08 17:19:19 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250908_171435/seedream_v3_1080p/1/line_0021_171917_seedream_v3_1080p_1920x1080.jpeg
+2025-09-08 17:19:19 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250908_171435/seedream_v3_1080p/1/line_0021_171917_seedream_v3_1080p_1920x1080.json
+2025-09-08 17:19:19 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: line_0021_171917_seedream_v3_1080p_1920x1080.jpeg
+2025-09-08 17:19:19 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0022.txt
+2025-09-08 17:19:19 | INFO     | src.processing.processor:process_all:105 - Processing combination 22/111: 1/line_0022.txt + seedream_v3_1080p
+2025-09-08 17:19:19 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-08 17:19:19 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-08 17:19:19 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 1/line_0022.txt: cinematic style shot of  Group of 3 incident comma...
+2025-09-08 17:19:19 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-08 17:19:31 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-08 17:19:33 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250908_171435/seedream_v3_1080p/1/line_0022_171931_seedream_v3_1080p_1920x1080.jpeg
+2025-09-08 17:19:33 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250908_171435/seedream_v3_1080p/1/line_0022_171931_seedream_v3_1080p_1920x1080.json
+2025-09-08 17:19:33 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: line_0022_171931_seedream_v3_1080p_1920x1080.jpeg
+2025-09-08 17:19:33 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0023.txt
+2025-09-08 17:19:33 | INFO     | src.processing.processor:process_all:105 - Processing combination 23/111: 1/line_0023.txt + seedream_v3_1080p
+2025-09-08 17:19:33 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-08 17:19:33 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-08 17:19:33 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 1/line_0023.txt: cinematic style shot of  Group of 5 diverse person...
+2025-09-08 17:19:33 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-08 17:19:44 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-08 17:19:47 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250908_171435/seedream_v3_1080p/1/line_0023_171944_seedream_v3_1080p_1920x1080.jpeg
+2025-09-08 17:19:47 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250908_171435/seedream_v3_1080p/1/line_0023_171944_seedream_v3_1080p_1920x1080.json
+2025-09-08 17:19:47 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: line_0023_171944_seedream_v3_1080p_1920x1080.jpeg
+2025-09-08 17:19:47 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0024.txt
+2025-09-08 17:19:47 | INFO     | src.processing.processor:process_all:105 - Processing combination 24/111: 1/line_0024.txt + seedream_v3_1080p
+2025-09-08 17:19:47 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-08 17:19:47 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-08 17:19:47 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 1/line_0024.txt: cinematic style shot of  Clipart-style illustratio...
+2025-09-08 17:19:47 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-08 17:19:57 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-08 17:20:00 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250908_171435/seedream_v3_1080p/1/line_0024_171957_seedream_v3_1080p_1920x1080.jpeg
+2025-09-08 17:20:00 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250908_171435/seedream_v3_1080p/1/line_0024_171957_seedream_v3_1080p_1920x1080.json
+2025-09-08 17:20:00 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: line_0024_171957_seedream_v3_1080p_1920x1080.jpeg
+2025-09-08 17:20:00 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0025.txt
+2025-09-08 17:20:00 | INFO     | src.processing.processor:process_all:105 - Processing combination 25/111: 1/line_0025.txt + seedream_v3_1080p
+2025-09-08 17:20:00 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-08 17:20:00 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-08 17:20:00 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 1/line_0025.txt: cinematic style shot of  Group of 3 confident inci...
+2025-09-08 17:20:00 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-08 17:20:10 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-08 17:20:12 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250908_171435/seedream_v3_1080p/1/line_0025_172010_seedream_v3_1080p_1920x1080.jpeg
+2025-09-08 17:20:12 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250908_171435/seedream_v3_1080p/1/line_0025_172010_seedream_v3_1080p_1920x1080.json
+2025-09-08 17:20:12 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: line_0025_172010_seedream_v3_1080p_1920x1080.jpeg
+2025-09-08 17:20:12 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0026.txt
+2025-09-08 17:20:12 | INFO     | src.processing.processor:process_all:105 - Processing combination 26/111: 1/line_0026.txt + seedream_v3_1080p
+2025-09-08 17:20:12 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-08 17:20:12 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-08 17:20:12 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 1/line_0026.txt: cinematic style shot of  Group of 5 AWS technician...
+2025-09-08 17:20:12 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-08 17:20:23 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-08 17:20:26 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250908_171435/seedream_v3_1080p/1/line_0026_172023_seedream_v3_1080p_1920x1080.jpeg
+2025-09-08 17:20:26 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250908_171435/seedream_v3_1080p/1/line_0026_172023_seedream_v3_1080p_1920x1080.json
+2025-09-08 17:20:26 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: line_0026_172023_seedream_v3_1080p_1920x1080.jpeg
+2025-09-08 17:20:26 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0027.txt
+2025-09-08 17:20:26 | INFO     | src.processing.processor:process_all:105 - Processing combination 27/111: 1/line_0027.txt + seedream_v3_1080p
+2025-09-08 17:20:26 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-08 17:20:26 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-08 17:20:26 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 1/line_0027.txt: cinematic style shot of  Clipart-style illustratio...
+2025-09-08 17:20:26 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-08 17:20:39 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-08 17:20:41 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250908_171435/seedream_v3_1080p/1/line_0027_172039_seedream_v3_1080p_1920x1080.jpeg
+2025-09-08 17:20:41 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250908_171435/seedream_v3_1080p/1/line_0027_172039_seedream_v3_1080p_1920x1080.json
+2025-09-08 17:20:41 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: line_0027_172039_seedream_v3_1080p_1920x1080.jpeg
+2025-09-08 17:20:41 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0001.txt
+2025-09-08 17:20:41 | INFO     | src.processing.processor:process_all:105 - Processing combination 28/111: 2/line_0001.txt + seedream_v3_1080p
+2025-09-08 17:20:41 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-08 17:20:41 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-08 17:20:41 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 2/line_0001.txt: cinematic style shot of  Group of 2 incident comma...
+2025-09-08 17:20:41 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-08 17:20:52 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-08 17:20:55 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250908_171435/seedream_v3_1080p/2/line_0001_172052_seedream_v3_1080p_1920x1080.jpeg
+2025-09-08 17:20:55 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250908_171435/seedream_v3_1080p/2/line_0001_172052_seedream_v3_1080p_1920x1080.json
+2025-09-08 17:20:55 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: line_0001_172052_seedream_v3_1080p_1920x1080.jpeg
+2025-09-08 17:20:55 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0002.txt
+2025-09-08 17:20:55 | INFO     | src.processing.processor:process_all:105 - Processing combination 29/111: 2/line_0002.txt + seedream_v3_1080p
+2025-09-08 17:20:55 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-08 17:20:55 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-08 17:20:55 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 2/line_0002.txt: cinematic style shot of  Group of 4 diverse team m...
+2025-09-08 17:20:55 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-08 17:21:06 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-08 17:21:09 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250908_171435/seedream_v3_1080p/2/line_0002_172106_seedream_v3_1080p_1920x1080.jpeg
+2025-09-08 17:21:09 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250908_171435/seedream_v3_1080p/2/line_0002_172106_seedream_v3_1080p_1920x1080.json
+2025-09-08 17:21:09 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: line_0002_172106_seedream_v3_1080p_1920x1080.jpeg
+2025-09-08 17:21:09 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0003.txt
+2025-09-08 17:21:09 | INFO     | src.processing.processor:process_all:105 - Processing combination 30/111: 2/line_0003.txt + seedream_v3_1080p
+2025-09-08 17:21:09 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-08 17:21:09 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-08 17:21:09 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 2/line_0003.txt: cinematic style shot of  Group of 3 incident comma...
+2025-09-08 17:21:09 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-08 17:21:22 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-08 17:21:24 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250908_171435/seedream_v3_1080p/2/line_0003_172122_seedream_v3_1080p_1920x1080.jpeg
+2025-09-08 17:21:24 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250908_171435/seedream_v3_1080p/2/line_0003_172122_seedream_v3_1080p_1920x1080.json
+2025-09-08 17:21:24 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: line_0003_172122_seedream_v3_1080p_1920x1080.jpeg
+2025-09-08 17:21:24 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0004.txt
+2025-09-08 17:21:24 | INFO     | src.processing.processor:process_all:105 - Processing combination 31/111: 2/line_0004.txt + seedream_v3_1080p
+2025-09-08 17:21:24 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-08 17:21:24 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-08 17:21:24 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 2/line_0004.txt: cinematic style shot of  Clipart-style illustratio...
+2025-09-08 17:21:24 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-08 17:21:35 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-08 17:21:38 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250908_171435/seedream_v3_1080p/2/line_0004_172135_seedream_v3_1080p_1920x1080.jpeg
+2025-09-08 17:21:38 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250908_171435/seedream_v3_1080p/2/line_0004_172135_seedream_v3_1080p_1920x1080.json
+2025-09-08 17:21:38 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: line_0004_172135_seedream_v3_1080p_1920x1080.jpeg
+2025-09-08 17:21:38 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0005.txt
+2025-09-08 17:21:38 | INFO     | src.processing.processor:process_all:105 - Processing combination 32/111: 2/line_0005.txt + seedream_v3_1080p
+2025-09-08 17:21:38 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-08 17:21:38 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-08 17:21:38 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 2/line_0005.txt: cinematic style shot of  Group of 5 people with in...
+2025-09-08 17:21:38 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-08 17:21:48 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-08 17:21:51 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250908_171435/seedream_v3_1080p/2/line_0005_172148_seedream_v3_1080p_1920x1080.jpeg
+2025-09-08 17:21:51 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250908_171435/seedream_v3_1080p/2/line_0005_172148_seedream_v3_1080p_1920x1080.json
+2025-09-08 17:21:51 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: line_0005_172148_seedream_v3_1080p_1920x1080.jpeg
+2025-09-08 17:21:51 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0006.txt
+2025-09-08 17:21:51 | INFO     | src.processing.processor:process_all:105 - Processing combination 33/111: 2/line_0006.txt + seedream_v3_1080p
+2025-09-08 17:21:51 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-08 17:21:51 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-08 17:21:51 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 2/line_0006.txt: cinematic style shot of  Group of 4: incident comm...
+2025-09-08 17:21:51 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-08 17:22:05 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-08 17:22:08 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250908_171435/seedream_v3_1080p/2/line_0006_172205_seedream_v3_1080p_1920x1080.jpeg
+2025-09-08 17:22:08 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250908_171435/seedream_v3_1080p/2/line_0006_172205_seedream_v3_1080p_1920x1080.json
+2025-09-08 17:22:08 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: line_0006_172205_seedream_v3_1080p_1920x1080.jpeg
+2025-09-08 17:22:08 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0007.txt
+2025-09-08 17:22:08 | INFO     | src.processing.processor:process_all:105 - Processing combination 34/111: 2/line_0007.txt + seedream_v3_1080p
+2025-09-08 17:22:08 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-08 17:22:08 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-08 17:22:08 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 2/line_0007.txt: cinematic style shot of  Group of 3 people reviewi...
+2025-09-08 17:22:08 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-08 17:22:17 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-08 17:22:20 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250908_171435/seedream_v3_1080p/2/line_0007_172217_seedream_v3_1080p_1920x1080.jpeg
+2025-09-08 17:22:20 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250908_171435/seedream_v3_1080p/2/line_0007_172217_seedream_v3_1080p_1920x1080.json
+2025-09-08 17:22:20 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: line_0007_172217_seedream_v3_1080p_1920x1080.jpeg
+2025-09-08 17:22:20 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0008.txt
+2025-09-08 17:22:20 | INFO     | src.processing.processor:process_all:105 - Processing combination 35/111: 2/line_0008.txt + seedream_v3_1080p
+2025-09-08 17:22:20 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-08 17:22:20 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-08 17:22:20 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 2/line_0008.txt: cinematic style shot of  Clipart-style illustratio...
+2025-09-08 17:22:20 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-08 17:22:32 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-08 17:22:35 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250908_171435/seedream_v3_1080p/2/line_0008_172232_seedream_v3_1080p_1920x1080.jpeg
+2025-09-08 17:22:35 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250908_171435/seedream_v3_1080p/2/line_0008_172232_seedream_v3_1080p_1920x1080.json
+2025-09-08 17:22:35 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: line_0008_172232_seedream_v3_1080p_1920x1080.jpeg
+2025-09-08 17:22:35 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0009.txt
+2025-09-08 17:22:35 | INFO     | src.processing.processor:process_all:105 - Processing combination 36/111: 2/line_0009.txt + seedream_v3_1080p
+2025-09-08 17:22:35 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-08 17:22:35 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-08 17:22:35 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 2/line_0009.txt: cinematic style shot of  Group of 2: incident comm...
+2025-09-08 17:22:35 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-08 17:22:45 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-08 17:22:48 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250908_171435/seedream_v3_1080p/2/line_0009_172245_seedream_v3_1080p_1920x1080.jpeg
+2025-09-08 17:22:48 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250908_171435/seedream_v3_1080p/2/line_0009_172245_seedream_v3_1080p_1920x1080.json
+2025-09-08 17:22:48 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: line_0009_172245_seedream_v3_1080p_1920x1080.jpeg
+2025-09-08 17:22:48 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0010.txt
+2025-09-08 17:22:48 | INFO     | src.processing.processor:process_all:105 - Processing combination 37/111: 2/line_0010.txt + seedream_v3_1080p
+2025-09-08 17:22:48 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-08 17:22:48 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-08 17:22:48 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 2/line_0010.txt: cinematic style shot of  "Group of 3 incident comm...
+2025-09-08 17:22:48 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-08 17:22:58 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-08 17:23:00 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250908_171435/seedream_v3_1080p/2/line_0010_172258_seedream_v3_1080p_1920x1080.jpeg
+2025-09-08 17:23:00 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250908_171435/seedream_v3_1080p/2/line_0010_172258_seedream_v3_1080p_1920x1080.json
+2025-09-08 17:23:00 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: line_0010_172258_seedream_v3_1080p_1920x1080.jpeg
+2025-09-08 17:23:00 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0011.txt
+2025-09-08 17:23:00 | INFO     | src.processing.processor:process_all:105 - Processing combination 38/111: 2/line_0011.txt + seedream_v3_1080p
+2025-09-08 17:23:00 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-08 17:23:00 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-08 17:23:00 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 2/line_0011.txt: cinematic style shot of  Group of 2 incident comma...
+2025-09-08 17:23:00 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-08 17:23:12 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-08 17:23:14 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250908_171435/seedream_v3_1080p/2/line_0011_172312_seedream_v3_1080p_1920x1080.jpeg
+2025-09-08 17:23:14 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250908_171435/seedream_v3_1080p/2/line_0011_172312_seedream_v3_1080p_1920x1080.json
+2025-09-08 17:23:14 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: line_0011_172312_seedream_v3_1080p_1920x1080.jpeg
+2025-09-08 17:23:14 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0012.txt
+2025-09-08 17:23:14 | INFO     | src.processing.processor:process_all:105 - Processing combination 39/111: 2/line_0012.txt + seedream_v3_1080p
+2025-09-08 17:23:14 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-08 17:23:14 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-08 17:23:14 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 2/line_0012.txt: cinematic style shot of  Clipart-style illustratio...
+2025-09-08 17:23:14 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-08 17:23:25 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-08 17:23:27 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250908_171435/seedream_v3_1080p/2/line_0012_172325_seedream_v3_1080p_1920x1080.jpeg
+2025-09-08 17:23:27 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250908_171435/seedream_v3_1080p/2/line_0012_172325_seedream_v3_1080p_1920x1080.json
+2025-09-08 17:23:27 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: line_0012_172325_seedream_v3_1080p_1920x1080.jpeg
+2025-09-08 17:23:27 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0013.txt
+2025-09-08 17:23:27 | INFO     | src.processing.processor:process_all:105 - Processing combination 40/111: 2/line_0013.txt + seedream_v3_1080p
+2025-09-08 17:23:27 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-08 17:23:27 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-08 17:23:27 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 2/line_0013.txt: cinematic style shot of  Group of 4 people conduct...
+2025-09-08 17:23:27 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-08 17:23:32 | WARNING  | __main__:main:208 - Interrupted by user

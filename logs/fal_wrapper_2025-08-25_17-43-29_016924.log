@@ -1,0 +1,14 @@
+2025-08-25 17:43:29 | INFO     | src.utils.logging:setup_logging:39 - Logging configured (verbose=False, debug=False)
+2025-08-25 17:43:29 | INFO     | __main__:main:67 - Loading configuration...
+2025-08-25 17:43:29 | INFO     | src.config.loader:load_config:42 - Loaded configuration from USER-FILES/01.CONFIG/config.yaml
+2025-08-25 17:43:29 | INFO     | __main__:main:72 - Authenticating...
+2025-08-25 17:43:29 | DEBUG    | src.auth.env:get_fal_api_key_from_env:19 - Loaded environment from /Users/ruben/08_-_DEVELOPMENT/ISOF_IMAGE_WORKFLOW/00.fal-text->image-tool/.env
+2025-08-25 17:43:29 | INFO     | src.auth.env:get_fal_api_key_from_env:25 - Successfully retrieved FAL API key from environment
+2025-08-25 17:43:29 | INFO     | __main__:main:76 - Discovering inputs...
+2025-08-25 17:43:29 | DEBUG    | src.processing.discovery:discover_prompt_files:38 - Found prompt file: USER-FILES/04.INPUT/prompt01.txt
+2025-08-25 17:43:29 | DEBUG    | src.processing.discovery:discover_prompt_files:38 - Found prompt file: USER-FILES/04.INPUT/prompt03.txt
+2025-08-25 17:43:29 | DEBUG    | src.processing.discovery:discover_prompt_files:38 - Found prompt file: USER-FILES/04.INPUT/prompt02.txt
+2025-08-25 17:43:29 | INFO     | src.processing.discovery:discover_prompt_files:43 - Discovered 3 prompt files
+2025-08-25 17:43:29 | DEBUG    | src.processing.discovery:discover_profiles:92 - Loaded profile: USER-FILES/03.PROFILES/seedream_v3.yaml
+2025-08-25 17:43:29 | INFO     | src.processing.discovery:discover_profiles:96 - Loaded 1 profiles
+2025-08-25 17:43:29 | ERROR    | __main__:main:192 - Fatal error: No active profiles found

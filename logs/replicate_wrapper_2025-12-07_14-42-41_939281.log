@@ -1,0 +1,764 @@
+2025-12-07 14:42:41 | INFO     | src.utils.logging:setup_logging:39 - Logging configured (verbose=False, debug=False)
+2025-12-07 14:42:41 | INFO     | __main__:setup_environment:79 - Environment initialized
+2025-12-07 14:42:41 | INFO     | __main__:load_and_validate_config:84 - Loading configuration...
+2025-12-07 14:42:41 | INFO     | src.config.loader:load_config:42 - Loaded configuration from USER-FILES/01.CONFIG/config.yaml
+2025-12-07 14:42:41 | INFO     | __main__:authenticate_for_mode:273 - Authenticating with 1Password...
+2025-12-07 14:42:45 | DEBUG    | src.auth.session_manager:ensure_op_auth:39 - 1Password session is active
+2025-12-07 14:42:46 | DEBUG    | src.auth.session_manager:ensure_op_auth:39 - 1Password session is active
+2025-12-07 14:42:46 | DEBUG    | src.auth.auth:load_auth_config:28 - Using auth config: auth_bites.yaml
+2025-12-07 14:42:48 | DEBUG    | src.auth.auth:get_api_key:77 - Retrieved API key: r8_V...
+2025-12-07 14:42:48 | INFO     | __main__:discover_inputs_and_profiles:92 - Discovering inputs...
+2025-12-07 14:42:48 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: state_agency_prompts_017.txt
+2025-12-07 14:42:48 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: state_agency_prompts_003.txt
+2025-12-07 14:42:48 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: state_agency_prompts_002.txt
+2025-12-07 14:42:48 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: state_agency_prompts_016.txt
+2025-12-07 14:42:48 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: state_agency_prompts_014.txt
+2025-12-07 14:42:48 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: state_agency_prompts_015.txt
+2025-12-07 14:42:48 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: state_agency_prompts_001.txt
+2025-12-07 14:42:48 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: state_agency_prompts_005.txt
+2025-12-07 14:42:48 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: state_agency_prompts_011.txt
+2025-12-07 14:42:48 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: state_agency_prompts_010.txt
+2025-12-07 14:42:48 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: state_agency_prompts_004.txt
+2025-12-07 14:42:48 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: state_agency_prompts_012.txt
+2025-12-07 14:42:48 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: state_agency_prompts_006.txt
+2025-12-07 14:42:48 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: state_agency_prompts_007.txt
+2025-12-07 14:42:48 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: state_agency_prompts_013.txt
+2025-12-07 14:42:48 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: state_agency_prompts_009.txt
+2025-12-07 14:42:48 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: state_agency_prompts_020.txt
+2025-12-07 14:42:48 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: state_agency_prompts_008.txt
+2025-12-07 14:42:48 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: state_agency_prompts_018.txt
+2025-12-07 14:42:48 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: state_agency_prompts_019.txt
+2025-12-07 14:42:48 | INFO     | src.processing.discovery:discover_prompt_files:45 - Discovered 20 prompt files
+2025-12-07 14:42:48 | DEBUG    | src.processing.discovery:discover_profiles:93 - Loaded profile: USER-FILES/03.PROFILES/nano-banano-pro_2k_9x16.yaml
+2025-12-07 14:42:48 | INFO     | src.processing.discovery:discover_profiles:97 - Loaded 1 profiles
+2025-12-07 14:42:48 | INFO     | src.processing.discovery:get_active_models:135 - Found profile: nano-banano-pro_2k_9x16
+2025-12-07 14:42:48 | INFO     | src.processing.discovery:get_active_models:140 - Total profiles to process: 1
+2025-12-07 14:42:48 | INFO     | src.config.validator:validate_all:26 - All configuration validation passed
+2025-12-07 14:42:48 | INFO     | __main__:initialize_services:186 - Output directory: USER-FILES/05.OUTPUT/251207_144248_IMAGE
+2025-12-07 14:42:48 | INFO     | __main__:execute_processing:221 - Starting matrix processing...
+2025-12-07 14:42:48 | DEBUG    | src.processing.validator:validate_operational_requirements:23 - Profile 'nano-banano-pro_2k_9x16' operational validation passed
+2025-12-07 14:42:48 | INFO     | src.processing.processor:process_all:60 - Processing 20 combinations (20 files × 1 profiles)
+2025-12-07 14:42:48 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from state_agency_prompts_001.txt
+2025-12-07 14:42:48 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 1/20: state_agency_prompts_001.txt + nano-banano-pro_2k_9x16
+2025-12-07 14:42:48 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing state_agency_prompts_001.txt: Des Moines, Iowa, modern state office — licensing ...
+2025-12-07 14:42:48 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high"
+}
+2025-12-07 14:42:48 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "prompt": "Des Moines, Iowa, modern state office \u2014 licensing clerk at a state agency sorting application forms and typing brief notes; camera behind monitor showing only the back of the display, no screen visible; rubber date-stamp, paper stacks, fluorescent lighting, calm weekday morning, photorealistic documentary style."
+}
+2025-12-07 14:42:48 | DEBUG    | src.api.client:generate_image:89 - Original prompt: Des Moines, Iowa, modern state office — licensing clerk at a state agency sorting application forms and typing brief notes; camera behind monitor showing only the back of the display, no screen visible; rubber date-stamp, paper stacks, fluorescent lighting, calm weekday morning, photorealistic documentary style.
+2025-12-07 14:42:48 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: Des Moines, Iowa, modern state office — licensing clerk at a state agency sorting application forms and typing brief notes; camera behind monitor showing only the back of the display, no screen visible; rubber date-stamp, paper stacks, fluorescent lighting, calm weekday morning, photorealistic documentary style.
+2025-12-07 14:42:48 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'Des Moines, Iowa, modern state office — licensing clerk at a state agency sorting application forms and typing brief notes; camera behind monitor showing only the back of the display, no screen visible; rubber date-stamp, paper stacks, fluorescent lighting, calm weekday morning, photorealistic documentary style.'
+2025-12-07 14:42:48 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-07 14:42:48 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "prompt": "Des Moines, Iowa, modern state office \u2014 licensing clerk at a state agency sorting application forms and typing brief notes; camera behind monitor showing only the back of the display, no screen visible; rubber date-stamp, paper stacks, fluorescent lighting, calm weekday morning, photorealistic documentary style."
+}
+2025-12-07 14:43:36 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-07 14:43:37 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251207_144248_IMAGE/state_agency_prompts_001_IMAGE_144336_nano-banano-pro_2k_9x16.png
+2025-12-07 14:43:37 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251207_144248_IMAGE/state_agency_prompts_001_IMAGE_144336_nano-banano-pro_2k_9x16.md
+2025-12-07 14:43:37 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251207_144248_IMAGE/state_agency_prompts_001_IMAGE_144336_nano-banano-pro_2k_9x16.png
+2025-12-07 14:43:37 | INFO     | src.processing.processor:_process_with_context:197 - Waiting 1.0 seconds before next request
+2025-12-07 14:43:38 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from state_agency_prompts_002.txt
+2025-12-07 14:43:38 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 2/20: state_agency_prompts_002.txt + nano-banano-pro_2k_9x16
+2025-12-07 14:43:38 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing state_agency_prompts_002.txt: Harrisburg, Pennsylvania, contemporary workspace —...
+2025-12-07 14:43:38 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high"
+}
+2025-12-07 14:43:38 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "prompt": "Harrisburg, Pennsylvania, contemporary workspace \u2014 benefits caseworker at a state office reviewing a paper file with a coworker while entering a few details; over-the-shoulder from behind the monitor, only the back visible, no screen; manila folders, sticky notes, ballpoint pen, weekday morning, photorealistic documentary style."
+}
+2025-12-07 14:43:38 | DEBUG    | src.api.client:generate_image:89 - Original prompt: Harrisburg, Pennsylvania, contemporary workspace — benefits caseworker at a state office reviewing a paper file with a coworker while entering a few details; over-the-shoulder from behind the monitor, only the back visible, no screen; manila folders, sticky notes, ballpoint pen, weekday morning, photorealistic documentary style.
+2025-12-07 14:43:38 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: Harrisburg, Pennsylvania, contemporary workspace — benefits caseworker at a state office reviewing a paper file with a coworker while entering a few details; over-the-shoulder from behind the monitor, only the back visible, no screen; manila folders, sticky notes, ballpoint pen, weekday morning, photorealistic documentary style.
+2025-12-07 14:43:38 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'Harrisburg, Pennsylvania, contemporary workspace — benefits caseworker at a state office reviewing a paper file with a coworker while entering a few details; over-the-shoulder from behind the monitor, only the back visible, no screen; manila folders, sticky notes, ballpoint pen, weekday morning, photorealistic documentary style.'
+2025-12-07 14:43:38 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-07 14:43:38 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "prompt": "Harrisburg, Pennsylvania, contemporary workspace \u2014 benefits caseworker at a state office reviewing a paper file with a coworker while entering a few details; over-the-shoulder from behind the monitor, only the back visible, no screen; manila folders, sticky notes, ballpoint pen, weekday morning, photorealistic documentary style."
+}
+2025-12-07 14:44:11 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-07 14:44:12 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251207_144248_IMAGE/state_agency_prompts_002_IMAGE_144411_nano-banano-pro_2k_9x16.png
+2025-12-07 14:44:12 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251207_144248_IMAGE/state_agency_prompts_002_IMAGE_144411_nano-banano-pro_2k_9x16.md
+2025-12-07 14:44:12 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251207_144248_IMAGE/state_agency_prompts_002_IMAGE_144411_nano-banano-pro_2k_9x16.png
+2025-12-07 14:44:12 | INFO     | src.processing.processor:_process_with_context:197 - Waiting 1.0 seconds before next request
+2025-12-07 14:44:13 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from state_agency_prompts_003.txt
+2025-12-07 14:44:13 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 3/20: state_agency_prompts_003.txt + nano-banano-pro_2k_9x16
+2025-12-07 14:44:13 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing state_agency_prompts_003.txt: Frankfort, Kentucky, updated government office — r...
+2025-12-07 14:44:13 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high"
+}
+2025-12-07 14:44:13 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "prompt": "Frankfort, Kentucky, updated government office \u2014 records clerk at a public counter window checking signatures and stamping approvals; monitor present but seen only from behind, back of the display visible, no screen; number dispenser, glass partition, soft overhead light, photorealistic documentary style."
+}
+2025-12-07 14:44:13 | DEBUG    | src.api.client:generate_image:89 - Original prompt: Frankfort, Kentucky, updated government office — records clerk at a public counter window checking signatures and stamping approvals; monitor present but seen only from behind, back of the display visible, no screen; number dispenser, glass partition, soft overhead light, photorealistic documentary style.
+2025-12-07 14:44:13 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: Frankfort, Kentucky, updated government office — records clerk at a public counter window checking signatures and stamping approvals; monitor present but seen only from behind, back of the display visible, no screen; number dispenser, glass partition, soft overhead light, photorealistic documentary style.
+2025-12-07 14:44:13 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'Frankfort, Kentucky, updated government office — records clerk at a public counter window checking signatures and stamping approvals; monitor present but seen only from behind, back of the display visible, no screen; number dispenser, glass partition, soft overhead light, photorealistic documentary style.'
+2025-12-07 14:44:13 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-07 14:44:13 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "prompt": "Frankfort, Kentucky, updated government office \u2014 records clerk at a public counter window checking signatures and stamping approvals; monitor present but seen only from behind, back of the display visible, no screen; number dispenser, glass partition, soft overhead light, photorealistic documentary style."
+}
+2025-12-07 14:44:58 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-07 14:45:00 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251207_144248_IMAGE/state_agency_prompts_003_IMAGE_144458_nano-banano-pro_2k_9x16.png
+2025-12-07 14:45:00 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251207_144248_IMAGE/state_agency_prompts_003_IMAGE_144458_nano-banano-pro_2k_9x16.md
+2025-12-07 14:45:00 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251207_144248_IMAGE/state_agency_prompts_003_IMAGE_144458_nano-banano-pro_2k_9x16.png
+2025-12-07 14:45:00 | INFO     | src.processing.processor:_process_with_context:197 - Waiting 1.0 seconds before next request
+2025-12-07 14:45:01 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from state_agency_prompts_004.txt
+2025-12-07 14:45:01 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 4/20: state_agency_prompts_004.txt + nano-banano-pro_2k_9x16
+2025-12-07 14:45:01 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing state_agency_prompts_004.txt: Phoenix, Arizona, modern state office — procuremen...
+2025-12-07 14:45:01 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high"
+}
+2025-12-07 14:45:01 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "prompt": "Phoenix, Arizona, modern state office \u2014 procurement assistant in a state agency cubicle highlighting a printed memo and stapling packets while discussing plans with a neighbor; camera behind the monitor, only the back of the display visible, screen hidden; stapler, highlighters, ring binder, photorealistic documentary style."
+}
+2025-12-07 14:45:01 | DEBUG    | src.api.client:generate_image:89 - Original prompt: Phoenix, Arizona, modern state office — procurement assistant in a state agency cubicle highlighting a printed memo and stapling packets while discussing plans with a neighbor; camera behind the monitor, only the back of the display visible, screen hidden; stapler, highlighters, ring binder, photorealistic documentary style.
+2025-12-07 14:45:01 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: Phoenix, Arizona, modern state office — procurement assistant in a state agency cubicle highlighting a printed memo and stapling packets while discussing plans with a neighbor; camera behind the monitor, only the back of the display visible, screen hidden; stapler, highlighters, ring binder, photorealistic documentary style.
+2025-12-07 14:45:01 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'Phoenix, Arizona, modern state office — procurement assistant in a state agency cubicle highlighting a printed memo and stapling packets while discussing plans with a neighbor; camera behind the monitor, only the back of the display visible, screen hidden; stapler, highlighters, ring binder, photorealistic documentary style.'
+2025-12-07 14:45:01 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-07 14:45:01 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "prompt": "Phoenix, Arizona, modern state office \u2014 procurement assistant in a state agency cubicle highlighting a printed memo and stapling packets while discussing plans with a neighbor; camera behind the monitor, only the back of the display visible, screen hidden; stapler, highlighters, ring binder, photorealistic documentary style."
+}
+2025-12-07 14:45:40 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-07 14:45:41 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251207_144248_IMAGE/state_agency_prompts_004_IMAGE_144540_nano-banano-pro_2k_9x16.png
+2025-12-07 14:45:41 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251207_144248_IMAGE/state_agency_prompts_004_IMAGE_144540_nano-banano-pro_2k_9x16.md
+2025-12-07 14:45:41 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251207_144248_IMAGE/state_agency_prompts_004_IMAGE_144540_nano-banano-pro_2k_9x16.png
+2025-12-07 14:45:41 | INFO     | src.processing.processor:_process_with_context:197 - Waiting 1.0 seconds before next request
+2025-12-07 14:45:42 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from state_agency_prompts_005.txt
+2025-12-07 14:45:42 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 5/20: state_agency_prompts_005.txt + nano-banano-pro_2k_9x16
+2025-12-07 14:45:42 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing state_agency_prompts_005.txt: Madison, Wisconsin, well-maintained office space —...
+2025-12-07 14:45:42 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high"
+}
+2025-12-07 14:45:42 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "prompt": "Madison, Wisconsin, well-maintained office space \u2014 administrative assistant at a state department desk hand-writing notes on a meeting agenda while occasionally typing; angle from behind monitor so only the back of the display is visible, absolutely no screen content; spiral notebook, coffee mug, desk calendar, photorealistic documentary style."
+}
+2025-12-07 14:45:42 | DEBUG    | src.api.client:generate_image:89 - Original prompt: Madison, Wisconsin, well-maintained office space — administrative assistant at a state department desk hand-writing notes on a meeting agenda while occasionally typing; angle from behind monitor so only the back of the display is visible, absolutely no screen content; spiral notebook, coffee mug, desk calendar, photorealistic documentary style.
+2025-12-07 14:45:42 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: Madison, Wisconsin, well-maintained office space — administrative assistant at a state department desk hand-writing notes on a meeting agenda while occasionally typing; angle from behind monitor so only the back of the display is visible, absolutely no screen content; spiral notebook, coffee mug, desk calendar, photorealistic documentary style.
+2025-12-07 14:45:42 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'Madison, Wisconsin, well-maintained office space — administrative assistant at a state department desk hand-writing notes on a meeting agenda while occasionally typing; angle from behind monitor so only the back of the display is visible, absolutely no screen content; spiral notebook, coffee mug, desk calendar, photorealistic documentary style.'
+2025-12-07 14:45:42 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-07 14:45:42 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "prompt": "Madison, Wisconsin, well-maintained office space \u2014 administrative assistant at a state department desk hand-writing notes on a meeting agenda while occasionally typing; angle from behind monitor so only the back of the display is visible, absolutely no screen content; spiral notebook, coffee mug, desk calendar, photorealistic documentary style."
+}
+2025-12-07 14:46:21 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-07 14:46:23 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251207_144248_IMAGE/state_agency_prompts_005_IMAGE_144621_nano-banano-pro_2k_9x16.png
+2025-12-07 14:46:23 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251207_144248_IMAGE/state_agency_prompts_005_IMAGE_144621_nano-banano-pro_2k_9x16.md
+2025-12-07 14:46:23 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251207_144248_IMAGE/state_agency_prompts_005_IMAGE_144621_nano-banano-pro_2k_9x16.png
+2025-12-07 14:46:23 | INFO     | src.processing.processor:_process_with_context:197 - Waiting 1.0 seconds before next request
+2025-12-07 14:46:24 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from state_agency_prompts_006.txt
+2025-12-07 14:46:24 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 6/20: state_agency_prompts_006.txt + nano-banano-pro_2k_9x16
+2025-12-07 14:46:24 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing state_agency_prompts_006.txt: Providence, Rhode Island, contemporary state offic...
+2025-12-07 14:46:24 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high"
+}
+2025-12-07 14:46:24 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "prompt": "Providence, Rhode Island, contemporary state office \u2014 permitting clerk at a shared desk batching forms and applying sticky flags, discussing next steps with a supervisor; camera positioned behind the monitor with only the back of the display visible, no screen shown; ink stamp, paper trays, fluorescent ambience, photorealistic documentary style."
+}
+2025-12-07 14:46:24 | DEBUG    | src.api.client:generate_image:89 - Original prompt: Providence, Rhode Island, contemporary state office — permitting clerk at a shared desk batching forms and applying sticky flags, discussing next steps with a supervisor; camera positioned behind the monitor with only the back of the display visible, no screen shown; ink stamp, paper trays, fluorescent ambience, photorealistic documentary style.
+2025-12-07 14:46:24 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: Providence, Rhode Island, contemporary state office — permitting clerk at a shared desk batching forms and applying sticky flags, discussing next steps with a supervisor; camera positioned behind the monitor with only the back of the display visible, no screen shown; ink stamp, paper trays, fluorescent ambience, photorealistic documentary style.
+2025-12-07 14:46:24 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'Providence, Rhode Island, contemporary state office — permitting clerk at a shared desk batching forms and applying sticky flags, discussing next steps with a supervisor; camera positioned behind the monitor with only the back of the display visible, no screen shown; ink stamp, paper trays, fluorescent ambience, photorealistic documentary style.'
+2025-12-07 14:46:24 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-07 14:46:24 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "prompt": "Providence, Rhode Island, contemporary state office \u2014 permitting clerk at a shared desk batching forms and applying sticky flags, discussing next steps with a supervisor; camera positioned behind the monitor with only the back of the display visible, no screen shown; ink stamp, paper trays, fluorescent ambience, photorealistic documentary style."
+}
+2025-12-07 14:47:04 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-07 14:47:05 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251207_144248_IMAGE/state_agency_prompts_006_IMAGE_144704_nano-banano-pro_2k_9x16.png
+2025-12-07 14:47:05 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251207_144248_IMAGE/state_agency_prompts_006_IMAGE_144704_nano-banano-pro_2k_9x16.md
+2025-12-07 14:47:05 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251207_144248_IMAGE/state_agency_prompts_006_IMAGE_144704_nano-banano-pro_2k_9x16.png
+2025-12-07 14:47:05 | INFO     | src.processing.processor:_process_with_context:197 - Waiting 1.0 seconds before next request
+2025-12-07 14:47:06 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from state_agency_prompts_007.txt
+2025-12-07 14:47:06 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 7/20: state_agency_prompts_007.txt + nano-banano-pro_2k_9x16
+2025-12-07 14:47:06 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing state_agency_prompts_007.txt: Boise, Idaho, modern workspace — payroll clerk in ...
+2025-12-07 14:47:06 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high"
+}
+2025-12-07 14:47:06 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "prompt": "Boise, Idaho, modern workspace \u2014 payroll clerk in a small state office reconciling timesheets and organizing file folders; behind-monitor perspective showing only the back of the display, not the screen; calculator, hole punch, labeled folders, late afternoon light, photorealistic documentary style."
+}
+2025-12-07 14:47:06 | DEBUG    | src.api.client:generate_image:89 - Original prompt: Boise, Idaho, modern workspace — payroll clerk in a small state office reconciling timesheets and organizing file folders; behind-monitor perspective showing only the back of the display, not the screen; calculator, hole punch, labeled folders, late afternoon light, photorealistic documentary style.
+2025-12-07 14:47:06 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: Boise, Idaho, modern workspace — payroll clerk in a small state office reconciling timesheets and organizing file folders; behind-monitor perspective showing only the back of the display, not the screen; calculator, hole punch, labeled folders, late afternoon light, photorealistic documentary style.
+2025-12-07 14:47:06 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'Boise, Idaho, modern workspace — payroll clerk in a small state office reconciling timesheets and organizing file folders; behind-monitor perspective showing only the back of the display, not the screen; calculator, hole punch, labeled folders, late afternoon light, photorealistic documentary style.'
+2025-12-07 14:47:06 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-07 14:47:06 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "prompt": "Boise, Idaho, modern workspace \u2014 payroll clerk in a small state office reconciling timesheets and organizing file folders; behind-monitor perspective showing only the back of the display, not the screen; calculator, hole punch, labeled folders, late afternoon light, photorealistic documentary style."
+}
+2025-12-07 14:47:58 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-07 14:47:59 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251207_144248_IMAGE/state_agency_prompts_007_IMAGE_144758_nano-banano-pro_2k_9x16.png
+2025-12-07 14:47:59 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251207_144248_IMAGE/state_agency_prompts_007_IMAGE_144758_nano-banano-pro_2k_9x16.md
+2025-12-07 14:47:59 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251207_144248_IMAGE/state_agency_prompts_007_IMAGE_144758_nano-banano-pro_2k_9x16.png
+2025-12-07 14:47:59 | INFO     | src.processing.processor:_process_with_context:197 - Waiting 1.0 seconds before next request
+2025-12-07 14:48:00 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from state_agency_prompts_008.txt
+2025-12-07 14:48:00 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 8/20: state_agency_prompts_008.txt + nano-banano-pro_2k_9x16
+2025-12-07 14:48:00 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing state_agency_prompts_008.txt: Raleigh, North Carolina, updated office interior —...
+2025-12-07 14:48:00 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high"
+}
+2025-12-07 14:48:00 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "prompt": "Raleigh, North Carolina, updated office interior \u2014 compliance aide at a state agency conference table passing around printed checklists during a brief meeting; a laptop sits in front but the view is from behind the monitor showing only the back of the display, no screen; clipboards, pens, paper coffee cups, photorealistic documentary style."
+}
+2025-12-07 14:48:00 | DEBUG    | src.api.client:generate_image:89 - Original prompt: Raleigh, North Carolina, updated office interior — compliance aide at a state agency conference table passing around printed checklists during a brief meeting; a laptop sits in front but the view is from behind the monitor showing only the back of the display, no screen; clipboards, pens, paper coffee cups, photorealistic documentary style.
+2025-12-07 14:48:00 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: Raleigh, North Carolina, updated office interior — compliance aide at a state agency conference table passing around printed checklists during a brief meeting; a laptop sits in front but the view is from behind the monitor showing only the back of the display, no screen; clipboards, pens, paper coffee cups, photorealistic documentary style.
+2025-12-07 14:48:00 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'Raleigh, North Carolina, updated office interior — compliance aide at a state agency conference table passing around printed checklists during a brief meeting; a laptop sits in front but the view is from behind the monitor showing only the back of the display, no screen; clipboards, pens, paper coffee cups, photorealistic documentary style.'
+2025-12-07 14:48:00 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-07 14:48:00 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "prompt": "Raleigh, North Carolina, updated office interior \u2014 compliance aide at a state agency conference table passing around printed checklists during a brief meeting; a laptop sits in front but the view is from behind the monitor showing only the back of the display, no screen; clipboards, pens, paper coffee cups, photorealistic documentary style."
+}
+2025-12-07 14:48:46 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-07 14:48:47 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251207_144248_IMAGE/state_agency_prompts_008_IMAGE_144846_nano-banano-pro_2k_9x16.png
+2025-12-07 14:48:47 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251207_144248_IMAGE/state_agency_prompts_008_IMAGE_144846_nano-banano-pro_2k_9x16.md
+2025-12-07 14:48:47 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251207_144248_IMAGE/state_agency_prompts_008_IMAGE_144846_nano-banano-pro_2k_9x16.png
+2025-12-07 14:48:47 | INFO     | src.processing.processor:_process_with_context:197 - Waiting 1.0 seconds before next request
+2025-12-07 14:48:48 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from state_agency_prompts_009.txt
+2025-12-07 14:48:48 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 9/20: state_agency_prompts_009.txt + nano-banano-pro_2k_9x16
+2025-12-07 14:48:48 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing state_agency_prompts_009.txt: Santa Fe, New Mexico, modern government office — f...
+2025-12-07 14:48:48 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high"
+}
+2025-12-07 14:48:48 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "prompt": "Santa Fe, New Mexico, modern government office \u2014 front-desk clerk at a state office answering a corded phone while jotting a message and filing incoming mail; monitor appears only from behind with the back of the display visible, screen entirely hidden; mail bin, desk phone, post-it notes, photorealistic documentary style."
+}
+2025-12-07 14:48:48 | DEBUG    | src.api.client:generate_image:89 - Original prompt: Santa Fe, New Mexico, modern government office — front-desk clerk at a state office answering a corded phone while jotting a message and filing incoming mail; monitor appears only from behind with the back of the display visible, screen entirely hidden; mail bin, desk phone, post-it notes, photorealistic documentary style.
+2025-12-07 14:48:48 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: Santa Fe, New Mexico, modern government office — front-desk clerk at a state office answering a corded phone while jotting a message and filing incoming mail; monitor appears only from behind with the back of the display visible, screen entirely hidden; mail bin, desk phone, post-it notes, photorealistic documentary style.
+2025-12-07 14:48:48 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'Santa Fe, New Mexico, modern government office — front-desk clerk at a state office answering a corded phone while jotting a message and filing incoming mail; monitor appears only from behind with the back of the display visible, screen entirely hidden; mail bin, desk phone, post-it notes, photorealistic documentary style.'
+2025-12-07 14:48:48 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-07 14:48:48 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "prompt": "Santa Fe, New Mexico, modern government office \u2014 front-desk clerk at a state office answering a corded phone while jotting a message and filing incoming mail; monitor appears only from behind with the back of the display visible, screen entirely hidden; mail bin, desk phone, post-it notes, photorealistic documentary style."
+}
+2025-12-07 14:49:20 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-07 14:49:22 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251207_144248_IMAGE/state_agency_prompts_009_IMAGE_144920_nano-banano-pro_2k_9x16.png
+2025-12-07 14:49:22 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251207_144248_IMAGE/state_agency_prompts_009_IMAGE_144920_nano-banano-pro_2k_9x16.md
+2025-12-07 14:49:22 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251207_144248_IMAGE/state_agency_prompts_009_IMAGE_144920_nano-banano-pro_2k_9x16.png
+2025-12-07 14:49:22 | INFO     | src.processing.processor:_process_with_context:197 - Waiting 1.0 seconds before next request
+2025-12-07 14:49:23 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from state_agency_prompts_010.txt
+2025-12-07 14:49:23 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 10/20: state_agency_prompts_010.txt + nano-banano-pro_2k_9x16
+2025-12-07 14:49:23 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing state_agency_prompts_010.txt: Baton Rouge, Louisiana, contemporary state workspa...
+2025-12-07 14:49:23 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high"
+}
+2025-12-07 14:49:23 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "prompt": "Baton Rouge, Louisiana, contemporary state workspace \u2014 program assistant at a state transportation office laying out printed project sheets while typing a short note; camera behind the monitor, only the back of the display visible, screen not visible; rolled plans, highlighters, neutral office tones, photorealistic documentary style."
+}
+2025-12-07 14:49:23 | DEBUG    | src.api.client:generate_image:89 - Original prompt: Baton Rouge, Louisiana, contemporary state workspace — program assistant at a state transportation office laying out printed project sheets while typing a short note; camera behind the monitor, only the back of the display visible, screen not visible; rolled plans, highlighters, neutral office tones, photorealistic documentary style.
+2025-12-07 14:49:23 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: Baton Rouge, Louisiana, contemporary state workspace — program assistant at a state transportation office laying out printed project sheets while typing a short note; camera behind the monitor, only the back of the display visible, screen not visible; rolled plans, highlighters, neutral office tones, photorealistic documentary style.
+2025-12-07 14:49:23 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'Baton Rouge, Louisiana, contemporary state workspace — program assistant at a state transportation office laying out printed project sheets while typing a short note; camera behind the monitor, only the back of the display visible, screen not visible; rolled plans, highlighters, neutral office tones, photorealistic documentary style.'
+2025-12-07 14:49:23 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-07 14:49:23 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "prompt": "Baton Rouge, Louisiana, contemporary state workspace \u2014 program assistant at a state transportation office laying out printed project sheets while typing a short note; camera behind the monitor, only the back of the display visible, screen not visible; rolled plans, highlighters, neutral office tones, photorealistic documentary style."
+}
+2025-12-07 14:50:02 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-07 14:50:03 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251207_144248_IMAGE/state_agency_prompts_010_IMAGE_145002_nano-banano-pro_2k_9x16.png
+2025-12-07 14:50:03 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251207_144248_IMAGE/state_agency_prompts_010_IMAGE_145002_nano-banano-pro_2k_9x16.md
+2025-12-07 14:50:03 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251207_144248_IMAGE/state_agency_prompts_010_IMAGE_145002_nano-banano-pro_2k_9x16.png
+2025-12-07 14:50:03 | INFO     | src.processing.processor:_process_with_context:197 - Waiting 1.0 seconds before next request
+2025-12-07 14:50:04 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from state_agency_prompts_011.txt
+2025-12-07 14:50:04 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 11/20: state_agency_prompts_011.txt + nano-banano-pro_2k_9x16
+2025-12-07 14:50:04 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing state_agency_prompts_011.txt: Helena, Montana, well-maintained state office — cl...
+2025-12-07 14:50:04 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high"
+}
+2025-12-07 14:50:04 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "prompt": "Helena, Montana, well-maintained state office \u2014 clerical assistant at a state wildlife office sorting mail-in forms and typing brief notes; camera behind the monitor showing only the back of the display, no screen visible; rubber date-stamp, paper stacks, laminated desk guide, photorealistic documentary style."
+}
+2025-12-07 14:50:04 | DEBUG    | src.api.client:generate_image:89 - Original prompt: Helena, Montana, well-maintained state office — clerical assistant at a state wildlife office sorting mail-in forms and typing brief notes; camera behind the monitor showing only the back of the display, no screen visible; rubber date-stamp, paper stacks, laminated desk guide, photorealistic documentary style.
+2025-12-07 14:50:04 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: Helena, Montana, well-maintained state office — clerical assistant at a state wildlife office sorting mail-in forms and typing brief notes; camera behind the monitor showing only the back of the display, no screen visible; rubber date-stamp, paper stacks, laminated desk guide, photorealistic documentary style.
+2025-12-07 14:50:04 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'Helena, Montana, well-maintained state office — clerical assistant at a state wildlife office sorting mail-in forms and typing brief notes; camera behind the monitor showing only the back of the display, no screen visible; rubber date-stamp, paper stacks, laminated desk guide, photorealistic documentary style.'
+2025-12-07 14:50:04 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-07 14:50:04 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "prompt": "Helena, Montana, well-maintained state office \u2014 clerical assistant at a state wildlife office sorting mail-in forms and typing brief notes; camera behind the monitor showing only the back of the display, no screen visible; rubber date-stamp, paper stacks, laminated desk guide, photorealistic documentary style."
+}
+2025-12-07 14:50:42 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-07 14:50:43 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251207_144248_IMAGE/state_agency_prompts_011_IMAGE_145042_nano-banano-pro_2k_9x16.png
+2025-12-07 14:50:43 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251207_144248_IMAGE/state_agency_prompts_011_IMAGE_145042_nano-banano-pro_2k_9x16.md
+2025-12-07 14:50:43 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251207_144248_IMAGE/state_agency_prompts_011_IMAGE_145042_nano-banano-pro_2k_9x16.png
+2025-12-07 14:50:43 | INFO     | src.processing.processor:_process_with_context:197 - Waiting 1.0 seconds before next request
+2025-12-07 14:50:44 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from state_agency_prompts_012.txt
+2025-12-07 14:50:44 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 12/20: state_agency_prompts_012.txt + nano-banano-pro_2k_9x16
+2025-12-07 14:50:44 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing state_agency_prompts_012.txt: Richmond, Virginia, modern state office — front-of...
+2025-12-07 14:50:44 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high"
+}
+2025-12-07 14:50:44 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "prompt": "Richmond, Virginia, modern state office \u2014 front-office clerk at a state licensing counter organizing number tickets and updating a paper ledger during a quick huddle; monitor present but seen only from behind, back of the display visible, no screen; glass partition, pen cup, soft fluorescent light, photorealistic documentary style."
+}
+2025-12-07 14:50:44 | DEBUG    | src.api.client:generate_image:89 - Original prompt: Richmond, Virginia, modern state office — front-office clerk at a state licensing counter organizing number tickets and updating a paper ledger during a quick huddle; monitor present but seen only from behind, back of the display visible, no screen; glass partition, pen cup, soft fluorescent light, photorealistic documentary style.
+2025-12-07 14:50:44 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: Richmond, Virginia, modern state office — front-office clerk at a state licensing counter organizing number tickets and updating a paper ledger during a quick huddle; monitor present but seen only from behind, back of the display visible, no screen; glass partition, pen cup, soft fluorescent light, photorealistic documentary style.
+2025-12-07 14:50:44 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'Richmond, Virginia, modern state office — front-office clerk at a state licensing counter organizing number tickets and updating a paper ledger during a quick huddle; monitor present but seen only from behind, back of the display visible, no screen; glass partition, pen cup, soft fluorescent light, photorealistic documentary style.'
+2025-12-07 14:50:44 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-07 14:50:44 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "prompt": "Richmond, Virginia, modern state office \u2014 front-office clerk at a state licensing counter organizing number tickets and updating a paper ledger during a quick huddle; monitor present but seen only from behind, back of the display visible, no screen; glass partition, pen cup, soft fluorescent light, photorealistic documentary style."
+}
+2025-12-07 14:51:18 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-07 14:51:19 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251207_144248_IMAGE/state_agency_prompts_012_IMAGE_145118_nano-banano-pro_2k_9x16.png
+2025-12-07 14:51:19 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251207_144248_IMAGE/state_agency_prompts_012_IMAGE_145118_nano-banano-pro_2k_9x16.md
+2025-12-07 14:51:19 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251207_144248_IMAGE/state_agency_prompts_012_IMAGE_145118_nano-banano-pro_2k_9x16.png
+2025-12-07 14:51:19 | INFO     | src.processing.processor:_process_with_context:197 - Waiting 1.0 seconds before next request
+2025-12-07 14:51:20 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from state_agency_prompts_013.txt
+2025-12-07 14:51:20 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 13/20: state_agency_prompts_013.txt + nano-banano-pro_2k_9x16
+2025-12-07 14:51:20 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing state_agency_prompts_013.txt: Bismarck, North Dakota, updated workspace — benefi...
+2025-12-07 14:51:20 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high"
+}
+2025-12-07 14:51:20 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "prompt": "Bismarck, North Dakota, updated workspace \u2014 benefits intake aide at a state agency cubicle collating applications and entering a few details; angle from behind the monitor so only the back of the display is visible, screen hidden; paper clips, sticky flags, cardigan on chair, photorealistic documentary style."
+}
+2025-12-07 14:51:20 | DEBUG    | src.api.client:generate_image:89 - Original prompt: Bismarck, North Dakota, updated workspace — benefits intake aide at a state agency cubicle collating applications and entering a few details; angle from behind the monitor so only the back of the display is visible, screen hidden; paper clips, sticky flags, cardigan on chair, photorealistic documentary style.
+2025-12-07 14:51:20 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: Bismarck, North Dakota, updated workspace — benefits intake aide at a state agency cubicle collating applications and entering a few details; angle from behind the monitor so only the back of the display is visible, screen hidden; paper clips, sticky flags, cardigan on chair, photorealistic documentary style.
+2025-12-07 14:51:20 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'Bismarck, North Dakota, updated workspace — benefits intake aide at a state agency cubicle collating applications and entering a few details; angle from behind the monitor so only the back of the display is visible, screen hidden; paper clips, sticky flags, cardigan on chair, photorealistic documentary style.'
+2025-12-07 14:51:20 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-07 14:51:20 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "prompt": "Bismarck, North Dakota, updated workspace \u2014 benefits intake aide at a state agency cubicle collating applications and entering a few details; angle from behind the monitor so only the back of the display is visible, screen hidden; paper clips, sticky flags, cardigan on chair, photorealistic documentary style."
+}
+2025-12-07 14:51:58 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-07 14:51:59 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251207_144248_IMAGE/state_agency_prompts_013_IMAGE_145158_nano-banano-pro_2k_9x16.png
+2025-12-07 14:51:59 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251207_144248_IMAGE/state_agency_prompts_013_IMAGE_145158_nano-banano-pro_2k_9x16.md
+2025-12-07 14:51:59 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251207_144248_IMAGE/state_agency_prompts_013_IMAGE_145158_nano-banano-pro_2k_9x16.png
+2025-12-07 14:51:59 | INFO     | src.processing.processor:_process_with_context:197 - Waiting 1.0 seconds before next request
+2025-12-07 14:52:00 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from state_agency_prompts_014.txt
+2025-12-07 14:52:00 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 14/20: state_agency_prompts_014.txt + nano-banano-pro_2k_9x16
+2025-12-07 14:52:00 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing state_agency_prompts_014.txt: Juneau, Alaska, contemporary office space — record...
+2025-12-07 14:52:00 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high"
+}
+2025-12-07 14:52:00 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "prompt": "Juneau, Alaska, contemporary office space \u2014 records technician at a state fisheries office filing documents and typing a date into a form while a coworker discusses plans; camera positioned behind the monitor, only the back of the display visible, absolutely no screen content; file cabinet, winter light, photorealistic documentary style."
+}
+2025-12-07 14:52:00 | DEBUG    | src.api.client:generate_image:89 - Original prompt: Juneau, Alaska, contemporary office space — records technician at a state fisheries office filing documents and typing a date into a form while a coworker discusses plans; camera positioned behind the monitor, only the back of the display visible, absolutely no screen content; file cabinet, winter light, photorealistic documentary style.
+2025-12-07 14:52:00 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: Juneau, Alaska, contemporary office space — records technician at a state fisheries office filing documents and typing a date into a form while a coworker discusses plans; camera positioned behind the monitor, only the back of the display visible, absolutely no screen content; file cabinet, winter light, photorealistic documentary style.
+2025-12-07 14:52:00 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'Juneau, Alaska, contemporary office space — records technician at a state fisheries office filing documents and typing a date into a form while a coworker discusses plans; camera positioned behind the monitor, only the back of the display visible, absolutely no screen content; file cabinet, winter light, photorealistic documentary style.'
+2025-12-07 14:52:00 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-07 14:52:00 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "prompt": "Juneau, Alaska, contemporary office space \u2014 records technician at a state fisheries office filing documents and typing a date into a form while a coworker discusses plans; camera positioned behind the monitor, only the back of the display visible, absolutely no screen content; file cabinet, winter light, photorealistic documentary style."
+}
+2025-12-07 14:52:46 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-07 14:52:48 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251207_144248_IMAGE/state_agency_prompts_014_IMAGE_145246_nano-banano-pro_2k_9x16.png
+2025-12-07 14:52:48 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251207_144248_IMAGE/state_agency_prompts_014_IMAGE_145246_nano-banano-pro_2k_9x16.md
+2025-12-07 14:52:48 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251207_144248_IMAGE/state_agency_prompts_014_IMAGE_145246_nano-banano-pro_2k_9x16.png
+2025-12-07 14:52:48 | INFO     | src.processing.processor:_process_with_context:197 - Waiting 1.0 seconds before next request
+2025-12-07 14:52:49 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from state_agency_prompts_015.txt
+2025-12-07 14:52:49 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 15/20: state_agency_prompts_015.txt + nano-banano-pro_2k_9x16
+2025-12-07 14:52:49 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing state_agency_prompts_015.txt: Honolulu, Hawaii, modern government workspace — pe...
+2025-12-07 14:52:49 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high"
+}
+2025-12-07 14:52:49 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "prompt": "Honolulu, Hawaii, modern government workspace \u2014 permits clerk at a state building services desk stapling packets and hand-writing notes while occasionally typing; behind-monitor perspective showing only the back of the display, not the screen; clipboards, lei-print mug, calm afternoon, photorealistic documentary style."
+}
+2025-12-07 14:52:49 | DEBUG    | src.api.client:generate_image:89 - Original prompt: Honolulu, Hawaii, modern government workspace — permits clerk at a state building services desk stapling packets and hand-writing notes while occasionally typing; behind-monitor perspective showing only the back of the display, not the screen; clipboards, lei-print mug, calm afternoon, photorealistic documentary style.
+2025-12-07 14:52:49 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: Honolulu, Hawaii, modern government workspace — permits clerk at a state building services desk stapling packets and hand-writing notes while occasionally typing; behind-monitor perspective showing only the back of the display, not the screen; clipboards, lei-print mug, calm afternoon, photorealistic documentary style.
+2025-12-07 14:52:49 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'Honolulu, Hawaii, modern government workspace — permits clerk at a state building services desk stapling packets and hand-writing notes while occasionally typing; behind-monitor perspective showing only the back of the display, not the screen; clipboards, lei-print mug, calm afternoon, photorealistic documentary style.'
+2025-12-07 14:52:49 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-07 14:52:49 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "prompt": "Honolulu, Hawaii, modern government workspace \u2014 permits clerk at a state building services desk stapling packets and hand-writing notes while occasionally typing; behind-monitor perspective showing only the back of the display, not the screen; clipboards, lei-print mug, calm afternoon, photorealistic documentary style."
+}
+2025-12-07 14:53:23 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-07 14:53:24 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251207_144248_IMAGE/state_agency_prompts_015_IMAGE_145323_nano-banano-pro_2k_9x16.png
+2025-12-07 14:53:24 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251207_144248_IMAGE/state_agency_prompts_015_IMAGE_145323_nano-banano-pro_2k_9x16.md
+2025-12-07 14:53:24 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251207_144248_IMAGE/state_agency_prompts_015_IMAGE_145323_nano-banano-pro_2k_9x16.png
+2025-12-07 14:53:24 | INFO     | src.processing.processor:_process_with_context:197 - Waiting 1.0 seconds before next request
+2025-12-07 14:53:25 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from state_agency_prompts_016.txt
+2025-12-07 14:53:25 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 16/20: state_agency_prompts_016.txt + nano-banano-pro_2k_9x16
+2025-12-07 14:53:25 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing state_agency_prompts_016.txt: Little Rock, Arkansas, well-maintained office — pa...
+2025-12-07 14:53:25 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high"
+}
+2025-12-07 14:53:25 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "prompt": "Little Rock, Arkansas, well-maintained office \u2014 payroll assistant in a state office verifying timesheets against printed summaries and entering a few numbers; viewpoint from behind the monitor, only the back of the display visible, no screen; calculator, hole punch, paper trays, photorealistic documentary style."
+}
+2025-12-07 14:53:25 | DEBUG    | src.api.client:generate_image:89 - Original prompt: Little Rock, Arkansas, well-maintained office — payroll assistant in a state office verifying timesheets against printed summaries and entering a few numbers; viewpoint from behind the monitor, only the back of the display visible, no screen; calculator, hole punch, paper trays, photorealistic documentary style.
+2025-12-07 14:53:25 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: Little Rock, Arkansas, well-maintained office — payroll assistant in a state office verifying timesheets against printed summaries and entering a few numbers; viewpoint from behind the monitor, only the back of the display visible, no screen; calculator, hole punch, paper trays, photorealistic documentary style.
+2025-12-07 14:53:25 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'Little Rock, Arkansas, well-maintained office — payroll assistant in a state office verifying timesheets against printed summaries and entering a few numbers; viewpoint from behind the monitor, only the back of the display visible, no screen; calculator, hole punch, paper trays, photorealistic documentary style.'
+2025-12-07 14:53:25 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-07 14:53:25 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "prompt": "Little Rock, Arkansas, well-maintained office \u2014 payroll assistant in a state office verifying timesheets against printed summaries and entering a few numbers; viewpoint from behind the monitor, only the back of the display visible, no screen; calculator, hole punch, paper trays, photorealistic documentary style."
+}
+2025-12-07 14:53:58 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-07 14:54:00 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251207_144248_IMAGE/state_agency_prompts_016_IMAGE_145358_nano-banano-pro_2k_9x16.png
+2025-12-07 14:54:00 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251207_144248_IMAGE/state_agency_prompts_016_IMAGE_145358_nano-banano-pro_2k_9x16.md
+2025-12-07 14:54:00 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251207_144248_IMAGE/state_agency_prompts_016_IMAGE_145358_nano-banano-pro_2k_9x16.png
+2025-12-07 14:54:00 | INFO     | src.processing.processor:_process_with_context:197 - Waiting 1.0 seconds before next request
+2025-12-07 14:54:01 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from state_agency_prompts_017.txt
+2025-12-07 14:54:01 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 17/20: state_agency_prompts_017.txt + nano-banano-pro_2k_9x16
+2025-12-07 14:54:01 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing state_agency_prompts_017.txt: Trenton, New Jersey, modern state office — adminis...
+2025-12-07 14:54:01 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high"
+}
+2025-12-07 14:54:01 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "prompt": "Trenton, New Jersey, modern state office \u2014 administrative clerk at a state office organizing legal notices and typing a short memo as colleagues review a binder; camera behind the monitor with only the back of the display visible, screen entirely hidden; binders, highlighters, brass nameplate, photorealistic documentary style."
+}
+2025-12-07 14:54:01 | DEBUG    | src.api.client:generate_image:89 - Original prompt: Trenton, New Jersey, modern state office — administrative clerk at a state office organizing legal notices and typing a short memo as colleagues review a binder; camera behind the monitor with only the back of the display visible, screen entirely hidden; binders, highlighters, brass nameplate, photorealistic documentary style.
+2025-12-07 14:54:01 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: Trenton, New Jersey, modern state office — administrative clerk at a state office organizing legal notices and typing a short memo as colleagues review a binder; camera behind the monitor with only the back of the display visible, screen entirely hidden; binders, highlighters, brass nameplate, photorealistic documentary style.
+2025-12-07 14:54:01 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'Trenton, New Jersey, modern state office — administrative clerk at a state office organizing legal notices and typing a short memo as colleagues review a binder; camera behind the monitor with only the back of the display visible, screen entirely hidden; binders, highlighters, brass nameplate, photorealistic documentary style.'
+2025-12-07 14:54:01 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-07 14:54:01 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "prompt": "Trenton, New Jersey, modern state office \u2014 administrative clerk at a state office organizing legal notices and typing a short memo as colleagues review a binder; camera behind the monitor with only the back of the display visible, screen entirely hidden; binders, highlighters, brass nameplate, photorealistic documentary style."
+}
+2025-12-07 14:54:30 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-07 14:54:31 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251207_144248_IMAGE/state_agency_prompts_017_IMAGE_145430_nano-banano-pro_2k_9x16.png
+2025-12-07 14:54:31 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251207_144248_IMAGE/state_agency_prompts_017_IMAGE_145430_nano-banano-pro_2k_9x16.md
+2025-12-07 14:54:31 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251207_144248_IMAGE/state_agency_prompts_017_IMAGE_145430_nano-banano-pro_2k_9x16.png
+2025-12-07 14:54:31 | INFO     | src.processing.processor:_process_with_context:197 - Waiting 1.0 seconds before next request
+2025-12-07 14:54:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from state_agency_prompts_018.txt
+2025-12-07 14:54:32 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 18/20: state_agency_prompts_018.txt + nano-banano-pro_2k_9x16
+2025-12-07 14:54:32 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing state_agency_prompts_018.txt: Montgomery, Alabama, contemporary workspace — sche...
+2025-12-07 14:54:32 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high"
+}
+2025-12-07 14:54:32 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "prompt": "Montgomery, Alabama, contemporary workspace \u2014 scheduling coordinator at a state agency annotating a wall calendar and confirming appointments on a keyboard; monitor visible only from the back, no screen shown; desk phone, sticky notes, soft overhead lighting, photorealistic documentary style."
+}
+2025-12-07 14:54:32 | DEBUG    | src.api.client:generate_image:89 - Original prompt: Montgomery, Alabama, contemporary workspace — scheduling coordinator at a state agency annotating a wall calendar and confirming appointments on a keyboard; monitor visible only from the back, no screen shown; desk phone, sticky notes, soft overhead lighting, photorealistic documentary style.
+2025-12-07 14:54:32 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: Montgomery, Alabama, contemporary workspace — scheduling coordinator at a state agency annotating a wall calendar and confirming appointments on a keyboard; monitor visible only from the back, no screen shown; desk phone, sticky notes, soft overhead lighting, photorealistic documentary style.
+2025-12-07 14:54:32 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'Montgomery, Alabama, contemporary workspace — scheduling coordinator at a state agency annotating a wall calendar and confirming appointments on a keyboard; monitor visible only from the back, no screen shown; desk phone, sticky notes, soft overhead lighting, photorealistic documentary style.'
+2025-12-07 14:54:32 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-07 14:54:32 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "prompt": "Montgomery, Alabama, contemporary workspace \u2014 scheduling coordinator at a state agency annotating a wall calendar and confirming appointments on a keyboard; monitor visible only from the back, no screen shown; desk phone, sticky notes, soft overhead lighting, photorealistic documentary style."
+}
+2025-12-07 14:55:06 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-07 14:55:08 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251207_144248_IMAGE/state_agency_prompts_018_IMAGE_145506_nano-banano-pro_2k_9x16.png
+2025-12-07 14:55:08 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251207_144248_IMAGE/state_agency_prompts_018_IMAGE_145506_nano-banano-pro_2k_9x16.md
+2025-12-07 14:55:08 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251207_144248_IMAGE/state_agency_prompts_018_IMAGE_145506_nano-banano-pro_2k_9x16.png
+2025-12-07 14:55:08 | INFO     | src.processing.processor:_process_with_context:197 - Waiting 1.0 seconds before next request
+2025-12-07 14:55:09 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from state_agency_prompts_019.txt
+2025-12-07 14:55:09 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 19/20: state_agency_prompts_019.txt + nano-banano-pro_2k_9x16
+2025-12-07 14:55:09 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing state_agency_prompts_019.txt: Hartford, Connecticut, updated office interior — g...
+2025-12-07 14:55:09 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high"
+}
+2025-12-07 14:55:09 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "prompt": "Hartford, Connecticut, updated office interior \u2014 grants assistant in a state office checking boxes on a printed checklist while entering references; behind-monitor angle showing just the back of the display, no screen; three-ring binder, tab dividers, neutral tones, photorealistic documentary style."
+}
+2025-12-07 14:55:09 | DEBUG    | src.api.client:generate_image:89 - Original prompt: Hartford, Connecticut, updated office interior — grants assistant in a state office checking boxes on a printed checklist while entering references; behind-monitor angle showing just the back of the display, no screen; three-ring binder, tab dividers, neutral tones, photorealistic documentary style.
+2025-12-07 14:55:09 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: Hartford, Connecticut, updated office interior — grants assistant in a state office checking boxes on a printed checklist while entering references; behind-monitor angle showing just the back of the display, no screen; three-ring binder, tab dividers, neutral tones, photorealistic documentary style.
+2025-12-07 14:55:09 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'Hartford, Connecticut, updated office interior — grants assistant in a state office checking boxes on a printed checklist while entering references; behind-monitor angle showing just the back of the display, no screen; three-ring binder, tab dividers, neutral tones, photorealistic documentary style.'
+2025-12-07 14:55:09 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-07 14:55:09 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "prompt": "Hartford, Connecticut, updated office interior \u2014 grants assistant in a state office checking boxes on a printed checklist while entering references; behind-monitor angle showing just the back of the display, no screen; three-ring binder, tab dividers, neutral tones, photorealistic documentary style."
+}
+2025-12-07 14:55:43 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-07 14:55:45 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251207_144248_IMAGE/state_agency_prompts_019_IMAGE_145543_nano-banano-pro_2k_9x16.png
+2025-12-07 14:55:45 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251207_144248_IMAGE/state_agency_prompts_019_IMAGE_145543_nano-banano-pro_2k_9x16.md
+2025-12-07 14:55:45 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251207_144248_IMAGE/state_agency_prompts_019_IMAGE_145543_nano-banano-pro_2k_9x16.png
+2025-12-07 14:55:45 | INFO     | src.processing.processor:_process_with_context:197 - Waiting 1.0 seconds before next request
+2025-12-07 14:55:46 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from state_agency_prompts_020.txt
+2025-12-07 14:55:46 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 20/20: state_agency_prompts_020.txt + nano-banano-pro_2k_9x16
+2025-12-07 14:55:46 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing state_agency_prompts_020.txt: Cheyenne, Wyoming, modern state office — motor veh...
+2025-12-07 14:55:46 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high"
+}
+2025-12-07 14:55:46 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "prompt": "Cheyenne, Wyoming, modern state office \u2014 motor vehicle clerk at a state counter stamping renewals and typing receipt details; monitor included but viewed only from behind, back of the display visible, screen not visible; number puller, ink pad, acrylic sign holder, photorealistic documentary style."
+}
+2025-12-07 14:55:46 | DEBUG    | src.api.client:generate_image:89 - Original prompt: Cheyenne, Wyoming, modern state office — motor vehicle clerk at a state counter stamping renewals and typing receipt details; monitor included but viewed only from behind, back of the display visible, screen not visible; number puller, ink pad, acrylic sign holder, photorealistic documentary style.
+2025-12-07 14:55:46 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: Cheyenne, Wyoming, modern state office — motor vehicle clerk at a state counter stamping renewals and typing receipt details; monitor included but viewed only from behind, back of the display visible, screen not visible; number puller, ink pad, acrylic sign holder, photorealistic documentary style.
+2025-12-07 14:55:46 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'Cheyenne, Wyoming, modern state office — motor vehicle clerk at a state counter stamping renewals and typing receipt details; monitor included but viewed only from behind, back of the display visible, screen not visible; number puller, ink pad, acrylic sign holder, photorealistic documentary style.'
+2025-12-07 14:55:46 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-07 14:55:46 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "prompt": "Cheyenne, Wyoming, modern state office \u2014 motor vehicle clerk at a state counter stamping renewals and typing receipt details; monitor included but viewed only from behind, back of the display visible, screen not visible; number puller, ink pad, acrylic sign holder, photorealistic documentary style."
+}
+2025-12-07 14:56:18 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-07 14:56:19 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251207_144248_IMAGE/state_agency_prompts_020_IMAGE_145618_nano-banano-pro_2k_9x16.png
+2025-12-07 14:56:19 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251207_144248_IMAGE/state_agency_prompts_020_IMAGE_145618_nano-banano-pro_2k_9x16.md
+2025-12-07 14:56:19 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251207_144248_IMAGE/state_agency_prompts_020_IMAGE_145618_nano-banano-pro_2k_9x16.png
+2025-12-07 14:56:19 | INFO     | src.processing.processor:_process_with_context:197 - Waiting 1.0 seconds before next request
+2025-12-07 14:56:20 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from state_agency_prompts_001.txt
+2025-12-07 14:56:20 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from state_agency_prompts_002.txt
+2025-12-07 14:56:20 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from state_agency_prompts_003.txt
+2025-12-07 14:56:20 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from state_agency_prompts_004.txt
+2025-12-07 14:56:20 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from state_agency_prompts_005.txt
+2025-12-07 14:56:20 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from state_agency_prompts_006.txt
+2025-12-07 14:56:20 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from state_agency_prompts_007.txt
+2025-12-07 14:56:20 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from state_agency_prompts_008.txt
+2025-12-07 14:56:20 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from state_agency_prompts_009.txt
+2025-12-07 14:56:20 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from state_agency_prompts_010.txt
+2025-12-07 14:56:20 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from state_agency_prompts_011.txt
+2025-12-07 14:56:20 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from state_agency_prompts_012.txt
+2025-12-07 14:56:20 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from state_agency_prompts_013.txt
+2025-12-07 14:56:20 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from state_agency_prompts_014.txt
+2025-12-07 14:56:20 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from state_agency_prompts_015.txt
+2025-12-07 14:56:20 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from state_agency_prompts_016.txt
+2025-12-07 14:56:20 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from state_agency_prompts_017.txt
+2025-12-07 14:56:20 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from state_agency_prompts_018.txt
+2025-12-07 14:56:20 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from state_agency_prompts_019.txt
+2025-12-07 14:56:20 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from state_agency_prompts_020.txt
+2025-12-07 14:56:20 | INFO     | src.output.writer:write_report:293 - Report saved: USER-FILES/05.OUTPUT/251207_144248_IMAGE/SUCCESS.md
+2025-12-07 14:56:20 | INFO     | src.output.writer:write_report:293 - Report saved: USER-FILES/05.OUTPUT/251207_144248_IMAGE/COST-REPORT.md
+2025-12-07 14:56:20 | INFO     | src.output.reporter:_save_success_reports:62 - Reports saved successfully
+2025-12-07 14:56:20 | SUCCESS  | __main__:generate_final_reports:264 - ✅ Completed successfully! Generated 20 images

@@ -1,0 +1,876 @@
+2025-11-05 19:32:29 | INFO     | src.utils.logging:setup_logging:39 - Logging configured (verbose=False, debug=False)
+2025-11-05 19:32:29 | INFO     | __main__:setup_environment:79 - Environment initialized
+2025-11-05 19:32:29 | INFO     | __main__:load_and_validate_config:84 - Loading configuration...
+2025-11-05 19:32:29 | INFO     | src.config.loader:load_config:42 - Loaded configuration from USER-FILES/01.CONFIG/config.yaml
+2025-11-05 19:32:29 | INFO     | __main__:authenticate_for_mode:273 - Authenticating with 1Password...
+2025-11-05 19:32:30 | DEBUG    | src.auth.session_manager:ensure_op_auth:39 - 1Password session is active
+2025-11-05 19:32:31 | DEBUG    | src.auth.session_manager:ensure_op_auth:39 - 1Password session is active
+2025-11-05 19:32:31 | DEBUG    | src.auth.auth:load_auth_config:28 - Using auth config: auth_ruben.yaml
+2025-11-05 19:32:32 | DEBUG    | src.auth.auth:get_api_key:77 - Retrieved API key: r8_K...
+2025-11-05 19:32:32 | INFO     | __main__:discover_inputs_and_profiles:92 - Discovering inputs...
+2025-11-05 19:32:32 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: AaronsFriends_008.txt
+2025-11-05 19:32:32 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: AaronsFriends_020.txt
+2025-11-05 19:32:32 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: AaronsFriends_009.txt
+2025-11-05 19:32:32 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: AaronsFriends_019.txt
+2025-11-05 19:32:32 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: AaronsFriends_018.txt
+2025-11-05 19:32:32 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: AaronsFriends_002.txt
+2025-11-05 19:32:32 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: AaronsFriends_016.txt
+2025-11-05 19:32:32 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: AaronsFriends_017.txt
+2025-11-05 19:32:32 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: AaronsFriends_003.txt
+2025-11-05 19:32:32 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: AaronsFriends_015.txt
+2025-11-05 19:32:32 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: AaronsFriends_001.txt
+2025-11-05 19:32:32 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: AaronsFriends_014.txt
+2025-11-05 19:32:32 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: AaronsFriends_010.txt
+2025-11-05 19:32:32 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: AaronsFriends_004.txt
+2025-11-05 19:32:32 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: AaronsFriends_005.txt
+2025-11-05 19:32:32 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: AaronsFriends_011.txt
+2025-11-05 19:32:32 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: AaronsFriends_007.txt
+2025-11-05 19:32:32 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: AaronsFriends_013.txt
+2025-11-05 19:32:32 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: AaronsFriends_012.txt
+2025-11-05 19:32:32 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: AaronsFriends_006.txt
+2025-11-05 19:32:32 | INFO     | src.processing.discovery:discover_prompt_files:45 - Discovered 20 prompt files
+2025-11-05 19:32:32 | DEBUG    | src.processing.discovery:discover_profiles:93 - Loaded profile: USER-FILES/03.PROFILES/nano-banano16x9_deakins.yaml
+2025-11-05 19:32:32 | INFO     | src.processing.discovery:discover_profiles:97 - Loaded 1 profiles
+2025-11-05 19:32:32 | INFO     | src.processing.discovery:get_active_models:135 - Found profile: nano-banano16x9_deakins
+2025-11-05 19:32:32 | INFO     | src.processing.discovery:get_active_models:140 - Total profiles to process: 1
+2025-11-05 19:32:32 | INFO     | src.config.validator:validate_all:26 - All configuration validation passed
+2025-11-05 19:32:32 | INFO     | __main__:initialize_services:186 - Output directory: USER-FILES/05.OUTPUT/251105_193232_IMAGE
+2025-11-05 19:32:32 | INFO     | __main__:execute_processing:221 - Starting matrix processing...
+2025-11-05 19:32:32 | DEBUG    | src.processing.validator:validate_operational_requirements:23 - Profile 'nano-banano16x9_deakins' operational validation passed
+2025-11-05 19:32:32 | INFO     | src.processing.processor:process_all:60 - Processing 20 combinations (20 files × 1 profiles)
+2025-11-05 19:32:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from AaronsFriends_001.txt
+2025-11-05 19:32:32 | INFO     | src.processing.processor:_process_single_combination:124 - Processing combination 1/20: AaronsFriends_001.txt + nano-banano16x9_deakins
+2025-11-05 19:32:32 | DEBUG    | src.processing.processor:_apply_prompt_fixes:209 - Added prefix to prompt: A cinematic scene from the 
+2025-11-05 19:32:32 | DEBUG    | src.processing.processor:_apply_prompt_fixes:213 - Added suffix to prompt: Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 19:32:32 | DEBUG    | src.processing.processor:_process_with_context:191 - Processing AaronsFriends_001.txt: A cinematic scene from the  Late 1700s Stockholm, ...
+2025-11-05 19:32:32 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-11-05 19:32:32 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  Late 1700s Stockholm, Leyb and Moishe standing side by side on the deck of a wooden sailing ship, their travel bags at their feet, fog hanging low over the water as faint church spires of Stockholm emerge in the distance. Other Swedish travelers stand behind them on the crowded deck. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 19:32:32 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A cinematic scene from the  Late 1700s Stockholm, Leyb and Moishe standing side by side on the deck of a wooden sailing ship, their travel bags at their feet, fog hanging low over the water as faint church spires of Stockholm emerge in the distance. Other Swedish travelers stand behind them on the crowded deck. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 19:32:32 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A cinematic scene from the  Late 1700s Stockholm, Leyb and Moishe standing side by side on the deck of a wooden sailing ship, their travel bags at their feet, fog hanging low over the water as faint church spires of Stockholm emerge in the distance. Other Swedish travelers stand behind them on the crowded deck. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 19:32:32 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A cinematic scene from the  Late 1700s Stockholm, Leyb and Moishe standing side by side on the deck of a wooden sailing ship, their travel bags at their feet, fog hanging low over the water as faint church spires of Stockholm emerge in the distance. Other Swedish travelers stand behind them on the crowded deck. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image'
+2025-11-05 19:32:32 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-11-05 19:32:32 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  Late 1700s Stockholm, Leyb and Moishe standing side by side on the deck of a wooden sailing ship, their travel bags at their feet, fog hanging low over the water as faint church spires of Stockholm emerge in the distance. Other Swedish travelers stand behind them on the crowded deck. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 19:32:44 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-11-05 19:32:44 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-11-05 19:32:44 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-11-05 19:32:44 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-11-05 19:32:44 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-11-05 19:32:46 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251105_193232_IMAGE/nano-banano16x9_deakins/AaronsFriends_001_193244_nano-banano16x9_deakins.png
+2025-11-05 19:32:46 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251105_193232_IMAGE/nano-banano16x9_deakins/AaronsFriends_001_193244_nano-banano16x9_deakins.md
+2025-11-05 19:32:46 | INFO     | src.processing.processor:_generate_and_save_image:253 - Saved image: USER-FILES/05.OUTPUT/251105_193232_IMAGE/nano-banano16x9_deakins/AaronsFriends_001_193244_nano-banano16x9_deakins.png
+2025-11-05 19:32:46 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from AaronsFriends_002.txt
+2025-11-05 19:32:46 | INFO     | src.processing.processor:_process_single_combination:124 - Processing combination 2/20: AaronsFriends_002.txt + nano-banano16x9_deakins
+2025-11-05 19:32:46 | DEBUG    | src.processing.processor:_apply_prompt_fixes:209 - Added prefix to prompt: A cinematic scene from the 
+2025-11-05 19:32:46 | DEBUG    | src.processing.processor:_apply_prompt_fixes:213 - Added suffix to prompt: Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 19:32:46 | DEBUG    | src.processing.processor:_process_with_context:191 - Processing AaronsFriends_002.txt: A cinematic scene from the  Late 1700s Stockholm, ...
+2025-11-05 19:32:46 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-11-05 19:32:46 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  Late 1700s Stockholm, Leyb gripping the ship's railing while Moishe shields his eyes, luggage beside them, both staring ahead as the outlines of Gamla Stan appear through the morning mist. Other Swedish travelers stand behind them on the crowded deck. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 19:32:46 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A cinematic scene from the  Late 1700s Stockholm, Leyb gripping the ship's railing while Moishe shields his eyes, luggage beside them, both staring ahead as the outlines of Gamla Stan appear through the morning mist. Other Swedish travelers stand behind them on the crowded deck. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 19:32:46 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A cinematic scene from the  Late 1700s Stockholm, Leyb gripping the ship's railing while Moishe shields his eyes, luggage beside them, both staring ahead as the outlines of Gamla Stan appear through the morning mist. Other Swedish travelers stand behind them on the crowded deck. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 19:32:46 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: "A cinematic scene from the  Late 1700s Stockholm, Leyb gripping the ship's railing while Moishe shields his eyes, luggage beside them, both staring ahead as the outlines of Gamla Stan appear through the morning mist. Other Swedish travelers stand behind them on the crowded deck. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+2025-11-05 19:32:46 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-11-05 19:32:46 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  Late 1700s Stockholm, Leyb gripping the ship's railing while Moishe shields his eyes, luggage beside them, both staring ahead as the outlines of Gamla Stan appear through the morning mist. Other Swedish travelers stand behind them on the crowded deck. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 19:32:56 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-11-05 19:32:56 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-11-05 19:32:56 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-11-05 19:32:56 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-11-05 19:32:56 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-11-05 19:32:57 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251105_193232_IMAGE/nano-banano16x9_deakins/AaronsFriends_002_193256_nano-banano16x9_deakins.png
+2025-11-05 19:32:57 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251105_193232_IMAGE/nano-banano16x9_deakins/AaronsFriends_002_193256_nano-banano16x9_deakins.md
+2025-11-05 19:32:57 | INFO     | src.processing.processor:_generate_and_save_image:253 - Saved image: USER-FILES/05.OUTPUT/251105_193232_IMAGE/nano-banano16x9_deakins/AaronsFriends_002_193256_nano-banano16x9_deakins.png
+2025-11-05 19:32:57 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from AaronsFriends_003.txt
+2025-11-05 19:32:57 | INFO     | src.processing.processor:_process_single_combination:124 - Processing combination 3/20: AaronsFriends_003.txt + nano-banano16x9_deakins
+2025-11-05 19:32:57 | DEBUG    | src.processing.processor:_apply_prompt_fixes:209 - Added prefix to prompt: A cinematic scene from the 
+2025-11-05 19:32:57 | DEBUG    | src.processing.processor:_apply_prompt_fixes:213 - Added suffix to prompt: Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 19:32:57 | DEBUG    | src.processing.processor:_process_with_context:191 - Processing AaronsFriends_003.txt: A cinematic scene from the  Late 1700s Stockholm, ...
+2025-11-05 19:32:57 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-11-05 19:32:57 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  Late 1700s Stockholm, Leyb and Moishe standing near a stack of wooden crates on deck, their travel bags nearby, as sailors shout commands, preparing to dock at Skeppsbron. Other Swedish travelers stand behind them on the crowded deck. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 19:32:57 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A cinematic scene from the  Late 1700s Stockholm, Leyb and Moishe standing near a stack of wooden crates on deck, their travel bags nearby, as sailors shout commands, preparing to dock at Skeppsbron. Other Swedish travelers stand behind them on the crowded deck. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 19:32:57 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A cinematic scene from the  Late 1700s Stockholm, Leyb and Moishe standing near a stack of wooden crates on deck, their travel bags nearby, as sailors shout commands, preparing to dock at Skeppsbron. Other Swedish travelers stand behind them on the crowded deck. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 19:32:57 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A cinematic scene from the  Late 1700s Stockholm, Leyb and Moishe standing near a stack of wooden crates on deck, their travel bags nearby, as sailors shout commands, preparing to dock at Skeppsbron. Other Swedish travelers stand behind them on the crowded deck. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image'
+2025-11-05 19:32:57 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-11-05 19:32:57 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  Late 1700s Stockholm, Leyb and Moishe standing near a stack of wooden crates on deck, their travel bags nearby, as sailors shout commands, preparing to dock at Skeppsbron. Other Swedish travelers stand behind them on the crowded deck. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 19:33:08 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-11-05 19:33:08 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-11-05 19:33:08 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-11-05 19:33:08 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-11-05 19:33:08 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-11-05 19:33:09 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251105_193232_IMAGE/nano-banano16x9_deakins/AaronsFriends_003_193308_nano-banano16x9_deakins.png
+2025-11-05 19:33:09 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251105_193232_IMAGE/nano-banano16x9_deakins/AaronsFriends_003_193308_nano-banano16x9_deakins.md
+2025-11-05 19:33:09 | INFO     | src.processing.processor:_generate_and_save_image:253 - Saved image: USER-FILES/05.OUTPUT/251105_193232_IMAGE/nano-banano16x9_deakins/AaronsFriends_003_193308_nano-banano16x9_deakins.png
+2025-11-05 19:33:09 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from AaronsFriends_004.txt
+2025-11-05 19:33:09 | INFO     | src.processing.processor:_process_single_combination:124 - Processing combination 4/20: AaronsFriends_004.txt + nano-banano16x9_deakins
+2025-11-05 19:33:09 | DEBUG    | src.processing.processor:_apply_prompt_fixes:209 - Added prefix to prompt: A cinematic scene from the 
+2025-11-05 19:33:09 | DEBUG    | src.processing.processor:_apply_prompt_fixes:213 - Added suffix to prompt: Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 19:33:09 | DEBUG    | src.processing.processor:_process_with_context:191 - Processing AaronsFriends_004.txt: A cinematic scene from the  Late 1700s Stockholm, ...
+2025-11-05 19:33:09 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-11-05 19:33:09 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  Late 1700s Stockholm, Moishe tightening his coat against the cold sea breeze while Leyb watches gulls circle above the ship's mast, luggage at their feet. Other Swedish travelers stand behind them on the crowded deck. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 19:33:09 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A cinematic scene from the  Late 1700s Stockholm, Moishe tightening his coat against the cold sea breeze while Leyb watches gulls circle above the ship's mast, luggage at their feet. Other Swedish travelers stand behind them on the crowded deck. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 19:33:09 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A cinematic scene from the  Late 1700s Stockholm, Moishe tightening his coat against the cold sea breeze while Leyb watches gulls circle above the ship's mast, luggage at their feet. Other Swedish travelers stand behind them on the crowded deck. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 19:33:09 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: "A cinematic scene from the  Late 1700s Stockholm, Moishe tightening his coat against the cold sea breeze while Leyb watches gulls circle above the ship's mast, luggage at their feet. Other Swedish travelers stand behind them on the crowded deck. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+2025-11-05 19:33:09 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-11-05 19:33:09 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  Late 1700s Stockholm, Moishe tightening his coat against the cold sea breeze while Leyb watches gulls circle above the ship's mast, luggage at their feet. Other Swedish travelers stand behind them on the crowded deck. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 19:33:18 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-11-05 19:33:18 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-11-05 19:33:18 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-11-05 19:33:18 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-11-05 19:33:18 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-11-05 19:33:20 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251105_193232_IMAGE/nano-banano16x9_deakins/AaronsFriends_004_193318_nano-banano16x9_deakins.png
+2025-11-05 19:33:20 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251105_193232_IMAGE/nano-banano16x9_deakins/AaronsFriends_004_193318_nano-banano16x9_deakins.md
+2025-11-05 19:33:20 | INFO     | src.processing.processor:_generate_and_save_image:253 - Saved image: USER-FILES/05.OUTPUT/251105_193232_IMAGE/nano-banano16x9_deakins/AaronsFriends_004_193318_nano-banano16x9_deakins.png
+2025-11-05 19:33:20 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from AaronsFriends_005.txt
+2025-11-05 19:33:20 | INFO     | src.processing.processor:_process_single_combination:124 - Processing combination 5/20: AaronsFriends_005.txt + nano-banano16x9_deakins
+2025-11-05 19:33:20 | DEBUG    | src.processing.processor:_apply_prompt_fixes:209 - Added prefix to prompt: A cinematic scene from the 
+2025-11-05 19:33:20 | DEBUG    | src.processing.processor:_apply_prompt_fixes:213 - Added suffix to prompt: Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 19:33:20 | DEBUG    | src.processing.processor:_process_with_context:191 - Processing AaronsFriends_005.txt: A cinematic scene from the  Late 1700s Stockholm, ...
+2025-11-05 19:33:20 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-11-05 19:33:20 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  Late 1700s Stockholm, Leyb and Moishe exchanging a glance of relief as the ship's anchor drops into the water beside the harbor, their belongings packed beside them. Other Swedish travelers stand behind them on the crowded deck. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 19:33:20 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A cinematic scene from the  Late 1700s Stockholm, Leyb and Moishe exchanging a glance of relief as the ship's anchor drops into the water beside the harbor, their belongings packed beside them. Other Swedish travelers stand behind them on the crowded deck. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 19:33:20 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A cinematic scene from the  Late 1700s Stockholm, Leyb and Moishe exchanging a glance of relief as the ship's anchor drops into the water beside the harbor, their belongings packed beside them. Other Swedish travelers stand behind them on the crowded deck. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 19:33:20 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: "A cinematic scene from the  Late 1700s Stockholm, Leyb and Moishe exchanging a glance of relief as the ship's anchor drops into the water beside the harbor, their belongings packed beside them. Other Swedish travelers stand behind them on the crowded deck. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+2025-11-05 19:33:20 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-11-05 19:33:20 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  Late 1700s Stockholm, Leyb and Moishe exchanging a glance of relief as the ship's anchor drops into the water beside the harbor, their belongings packed beside them. Other Swedish travelers stand behind them on the crowded deck. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 19:33:30 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-11-05 19:33:30 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-11-05 19:33:30 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-11-05 19:33:30 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-11-05 19:33:30 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-11-05 19:33:32 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251105_193232_IMAGE/nano-banano16x9_deakins/AaronsFriends_005_193330_nano-banano16x9_deakins.png
+2025-11-05 19:33:32 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251105_193232_IMAGE/nano-banano16x9_deakins/AaronsFriends_005_193330_nano-banano16x9_deakins.md
+2025-11-05 19:33:32 | INFO     | src.processing.processor:_generate_and_save_image:253 - Saved image: USER-FILES/05.OUTPUT/251105_193232_IMAGE/nano-banano16x9_deakins/AaronsFriends_005_193330_nano-banano16x9_deakins.png
+2025-11-05 19:33:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from AaronsFriends_006.txt
+2025-11-05 19:33:32 | INFO     | src.processing.processor:_process_single_combination:124 - Processing combination 6/20: AaronsFriends_006.txt + nano-banano16x9_deakins
+2025-11-05 19:33:32 | DEBUG    | src.processing.processor:_apply_prompt_fixes:209 - Added prefix to prompt: A cinematic scene from the 
+2025-11-05 19:33:32 | DEBUG    | src.processing.processor:_apply_prompt_fixes:213 - Added suffix to prompt: Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 19:33:32 | DEBUG    | src.processing.processor:_process_with_context:191 - Processing AaronsFriends_006.txt: A cinematic scene from the  Late 1700s Stockholm, ...
+2025-11-05 19:33:32 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-11-05 19:33:32 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  Late 1700s Stockholm, Leyb helping a sailor coil thick ropes on the deck while Moishe adjusts his hat, their travel bags ready nearby, preparing to disembark. Other Swedish travelers stand behind them on the crowded deck. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 19:33:32 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A cinematic scene from the  Late 1700s Stockholm, Leyb helping a sailor coil thick ropes on the deck while Moishe adjusts his hat, their travel bags ready nearby, preparing to disembark. Other Swedish travelers stand behind them on the crowded deck. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 19:33:32 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A cinematic scene from the  Late 1700s Stockholm, Leyb helping a sailor coil thick ropes on the deck while Moishe adjusts his hat, their travel bags ready nearby, preparing to disembark. Other Swedish travelers stand behind them on the crowded deck. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 19:33:32 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A cinematic scene from the  Late 1700s Stockholm, Leyb helping a sailor coil thick ropes on the deck while Moishe adjusts his hat, their travel bags ready nearby, preparing to disembark. Other Swedish travelers stand behind them on the crowded deck. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image'
+2025-11-05 19:33:32 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-11-05 19:33:32 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  Late 1700s Stockholm, Leyb helping a sailor coil thick ropes on the deck while Moishe adjusts his hat, their travel bags ready nearby, preparing to disembark. Other Swedish travelers stand behind them on the crowded deck. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 19:33:45 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-11-05 19:33:45 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-11-05 19:33:45 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-11-05 19:33:45 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-11-05 19:33:45 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-11-05 19:33:46 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251105_193232_IMAGE/nano-banano16x9_deakins/AaronsFriends_006_193345_nano-banano16x9_deakins.png
+2025-11-05 19:33:46 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251105_193232_IMAGE/nano-banano16x9_deakins/AaronsFriends_006_193345_nano-banano16x9_deakins.md
+2025-11-05 19:33:46 | INFO     | src.processing.processor:_generate_and_save_image:253 - Saved image: USER-FILES/05.OUTPUT/251105_193232_IMAGE/nano-banano16x9_deakins/AaronsFriends_006_193345_nano-banano16x9_deakins.png
+2025-11-05 19:33:46 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from AaronsFriends_007.txt
+2025-11-05 19:33:46 | INFO     | src.processing.processor:_process_single_combination:124 - Processing combination 7/20: AaronsFriends_007.txt + nano-banano16x9_deakins
+2025-11-05 19:33:46 | DEBUG    | src.processing.processor:_apply_prompt_fixes:209 - Added prefix to prompt: A cinematic scene from the 
+2025-11-05 19:33:46 | DEBUG    | src.processing.processor:_apply_prompt_fixes:213 - Added suffix to prompt: Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 19:33:46 | DEBUG    | src.processing.processor:_process_with_context:191 - Processing AaronsFriends_007.txt: A cinematic scene from the  Late 1700s Stockholm, ...
+2025-11-05 19:33:46 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-11-05 19:33:46 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  Late 1700s Stockholm, Leyb and Moishe standing in line with other passengers, luggage in hand, as the gangplank is lowered to the pier. Other Swedish travelers stand behind them on the crowded deck. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 19:33:46 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A cinematic scene from the  Late 1700s Stockholm, Leyb and Moishe standing in line with other passengers, luggage in hand, as the gangplank is lowered to the pier. Other Swedish travelers stand behind them on the crowded deck. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 19:33:46 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A cinematic scene from the  Late 1700s Stockholm, Leyb and Moishe standing in line with other passengers, luggage in hand, as the gangplank is lowered to the pier. Other Swedish travelers stand behind them on the crowded deck. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 19:33:46 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A cinematic scene from the  Late 1700s Stockholm, Leyb and Moishe standing in line with other passengers, luggage in hand, as the gangplank is lowered to the pier. Other Swedish travelers stand behind them on the crowded deck. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image'
+2025-11-05 19:33:46 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-11-05 19:33:46 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  Late 1700s Stockholm, Leyb and Moishe standing in line with other passengers, luggage in hand, as the gangplank is lowered to the pier. Other Swedish travelers stand behind them on the crowded deck. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 19:33:58 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-11-05 19:33:58 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-11-05 19:33:58 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-11-05 19:33:58 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-11-05 19:33:58 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-11-05 19:33:59 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251105_193232_IMAGE/nano-banano16x9_deakins/AaronsFriends_007_193358_nano-banano16x9_deakins.png
+2025-11-05 19:33:59 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251105_193232_IMAGE/nano-banano16x9_deakins/AaronsFriends_007_193358_nano-banano16x9_deakins.md
+2025-11-05 19:33:59 | INFO     | src.processing.processor:_generate_and_save_image:253 - Saved image: USER-FILES/05.OUTPUT/251105_193232_IMAGE/nano-banano16x9_deakins/AaronsFriends_007_193358_nano-banano16x9_deakins.png
+2025-11-05 19:33:59 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from AaronsFriends_008.txt
+2025-11-05 19:33:59 | INFO     | src.processing.processor:_process_single_combination:124 - Processing combination 8/20: AaronsFriends_008.txt + nano-banano16x9_deakins
+2025-11-05 19:33:59 | DEBUG    | src.processing.processor:_apply_prompt_fixes:209 - Added prefix to prompt: A cinematic scene from the 
+2025-11-05 19:33:59 | DEBUG    | src.processing.processor:_apply_prompt_fixes:213 - Added suffix to prompt: Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 19:33:59 | DEBUG    | src.processing.processor:_process_with_context:191 - Processing AaronsFriends_008.txt: A cinematic scene from the  Late 1700s Stockholm, ...
+2025-11-05 19:33:59 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-11-05 19:33:59 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  Late 1700s Stockholm, Moishe carrying a small leather case and Leyb balancing a trunk on his shoulder as they step onto the wooden gangplank. Swedish travelers pass by with their belongings. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 19:33:59 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A cinematic scene from the  Late 1700s Stockholm, Moishe carrying a small leather case and Leyb balancing a trunk on his shoulder as they step onto the wooden gangplank. Swedish travelers pass by with their belongings. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 19:33:59 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A cinematic scene from the  Late 1700s Stockholm, Moishe carrying a small leather case and Leyb balancing a trunk on his shoulder as they step onto the wooden gangplank. Swedish travelers pass by with their belongings. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 19:33:59 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A cinematic scene from the  Late 1700s Stockholm, Moishe carrying a small leather case and Leyb balancing a trunk on his shoulder as they step onto the wooden gangplank. Swedish travelers pass by with their belongings. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image'
+2025-11-05 19:33:59 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-11-05 19:33:59 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  Late 1700s Stockholm, Moishe carrying a small leather case and Leyb balancing a trunk on his shoulder as they step onto the wooden gangplank. Swedish travelers pass by with their belongings. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 19:34:09 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-11-05 19:34:09 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-11-05 19:34:09 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-11-05 19:34:09 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-11-05 19:34:09 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-11-05 19:34:10 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251105_193232_IMAGE/nano-banano16x9_deakins/AaronsFriends_008_193409_nano-banano16x9_deakins.png
+2025-11-05 19:34:10 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251105_193232_IMAGE/nano-banano16x9_deakins/AaronsFriends_008_193409_nano-banano16x9_deakins.md
+2025-11-05 19:34:10 | INFO     | src.processing.processor:_generate_and_save_image:253 - Saved image: USER-FILES/05.OUTPUT/251105_193232_IMAGE/nano-banano16x9_deakins/AaronsFriends_008_193409_nano-banano16x9_deakins.png
+2025-11-05 19:34:10 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from AaronsFriends_009.txt
+2025-11-05 19:34:10 | INFO     | src.processing.processor:_process_single_combination:124 - Processing combination 9/20: AaronsFriends_009.txt + nano-banano16x9_deakins
+2025-11-05 19:34:10 | DEBUG    | src.processing.processor:_apply_prompt_fixes:209 - Added prefix to prompt: A cinematic scene from the 
+2025-11-05 19:34:10 | DEBUG    | src.processing.processor:_apply_prompt_fixes:213 - Added suffix to prompt: Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 19:34:10 | DEBUG    | src.processing.processor:_process_with_context:191 - Processing AaronsFriends_009.txt: A cinematic scene from the  Late 1700s Stockholm, ...
+2025-11-05 19:34:10 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-11-05 19:34:10 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  Late 1700s Stockholm, Leyb and Moishe walking carefully down the slick gangplank carrying their luggage, surrounded by mist and shouting dockworkers. Swedish travelers pass by with their belongings. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 19:34:10 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A cinematic scene from the  Late 1700s Stockholm, Leyb and Moishe walking carefully down the slick gangplank carrying their luggage, surrounded by mist and shouting dockworkers. Swedish travelers pass by with their belongings. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 19:34:10 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A cinematic scene from the  Late 1700s Stockholm, Leyb and Moishe walking carefully down the slick gangplank carrying their luggage, surrounded by mist and shouting dockworkers. Swedish travelers pass by with their belongings. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 19:34:10 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A cinematic scene from the  Late 1700s Stockholm, Leyb and Moishe walking carefully down the slick gangplank carrying their luggage, surrounded by mist and shouting dockworkers. Swedish travelers pass by with their belongings. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image'
+2025-11-05 19:34:10 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-11-05 19:34:10 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  Late 1700s Stockholm, Leyb and Moishe walking carefully down the slick gangplank carrying their luggage, surrounded by mist and shouting dockworkers. Swedish travelers pass by with their belongings. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 19:34:20 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-11-05 19:34:20 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-11-05 19:34:20 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-11-05 19:34:20 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-11-05 19:34:20 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-11-05 19:34:22 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251105_193232_IMAGE/nano-banano16x9_deakins/AaronsFriends_009_193420_nano-banano16x9_deakins.png
+2025-11-05 19:34:22 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251105_193232_IMAGE/nano-banano16x9_deakins/AaronsFriends_009_193420_nano-banano16x9_deakins.md
+2025-11-05 19:34:22 | INFO     | src.processing.processor:_generate_and_save_image:253 - Saved image: USER-FILES/05.OUTPUT/251105_193232_IMAGE/nano-banano16x9_deakins/AaronsFriends_009_193420_nano-banano16x9_deakins.png
+2025-11-05 19:34:22 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from AaronsFriends_010.txt
+2025-11-05 19:34:22 | INFO     | src.processing.processor:_process_single_combination:124 - Processing combination 10/20: AaronsFriends_010.txt + nano-banano16x9_deakins
+2025-11-05 19:34:22 | DEBUG    | src.processing.processor:_apply_prompt_fixes:209 - Added prefix to prompt: A cinematic scene from the 
+2025-11-05 19:34:22 | DEBUG    | src.processing.processor:_apply_prompt_fixes:213 - Added suffix to prompt: Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 19:34:22 | DEBUG    | src.processing.processor:_process_with_context:191 - Processing AaronsFriends_010.txt: A cinematic scene from the  Late 1700s Stockholm, ...
+2025-11-05 19:34:22 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-11-05 19:34:22 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  Late 1700s Stockholm, Leyb reaching the end of the gangplank and stepping onto the pier with his travel bag, the cobblestones wet and glistening beneath his boots. Swedish travelers pass by with their belongings. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 19:34:22 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A cinematic scene from the  Late 1700s Stockholm, Leyb reaching the end of the gangplank and stepping onto the pier with his travel bag, the cobblestones wet and glistening beneath his boots. Swedish travelers pass by with their belongings. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 19:34:22 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A cinematic scene from the  Late 1700s Stockholm, Leyb reaching the end of the gangplank and stepping onto the pier with his travel bag, the cobblestones wet and glistening beneath his boots. Swedish travelers pass by with their belongings. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 19:34:22 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A cinematic scene from the  Late 1700s Stockholm, Leyb reaching the end of the gangplank and stepping onto the pier with his travel bag, the cobblestones wet and glistening beneath his boots. Swedish travelers pass by with their belongings. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image'
+2025-11-05 19:34:22 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-11-05 19:34:22 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  Late 1700s Stockholm, Leyb reaching the end of the gangplank and stepping onto the pier with his travel bag, the cobblestones wet and glistening beneath his boots. Swedish travelers pass by with their belongings. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 19:34:33 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-11-05 19:34:33 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-11-05 19:34:33 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-11-05 19:34:33 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-11-05 19:34:33 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-11-05 19:34:34 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251105_193232_IMAGE/nano-banano16x9_deakins/AaronsFriends_010_193433_nano-banano16x9_deakins.png
+2025-11-05 19:34:34 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251105_193232_IMAGE/nano-banano16x9_deakins/AaronsFriends_010_193433_nano-banano16x9_deakins.md
+2025-11-05 19:34:34 | INFO     | src.processing.processor:_generate_and_save_image:253 - Saved image: USER-FILES/05.OUTPUT/251105_193232_IMAGE/nano-banano16x9_deakins/AaronsFriends_010_193433_nano-banano16x9_deakins.png
+2025-11-05 19:34:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from AaronsFriends_011.txt
+2025-11-05 19:34:34 | INFO     | src.processing.processor:_process_single_combination:124 - Processing combination 11/20: AaronsFriends_011.txt + nano-banano16x9_deakins
+2025-11-05 19:34:34 | DEBUG    | src.processing.processor:_apply_prompt_fixes:209 - Added prefix to prompt: A cinematic scene from the 
+2025-11-05 19:34:34 | DEBUG    | src.processing.processor:_apply_prompt_fixes:213 - Added suffix to prompt: Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 19:34:34 | DEBUG    | src.processing.processor:_process_with_context:191 - Processing AaronsFriends_011.txt: A cinematic scene from the  Late 1700s Stockholm, ...
+2025-11-05 19:34:34 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-11-05 19:34:34 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  Late 1700s Stockholm, Moishe looking around in awe at the busy harbor filled with ships, barrels, and merchants speaking Swedish, his luggage at his side. Swedish travelers pass by with their belongings. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 19:34:34 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A cinematic scene from the  Late 1700s Stockholm, Moishe looking around in awe at the busy harbor filled with ships, barrels, and merchants speaking Swedish, his luggage at his side. Swedish travelers pass by with their belongings. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 19:34:34 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A cinematic scene from the  Late 1700s Stockholm, Moishe looking around in awe at the busy harbor filled with ships, barrels, and merchants speaking Swedish, his luggage at his side. Swedish travelers pass by with their belongings. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 19:34:34 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A cinematic scene from the  Late 1700s Stockholm, Moishe looking around in awe at the busy harbor filled with ships, barrels, and merchants speaking Swedish, his luggage at his side. Swedish travelers pass by with their belongings. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image'
+2025-11-05 19:34:34 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-11-05 19:34:34 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  Late 1700s Stockholm, Moishe looking around in awe at the busy harbor filled with ships, barrels, and merchants speaking Swedish, his luggage at his side. Swedish travelers pass by with their belongings. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 19:34:45 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-11-05 19:34:45 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-11-05 19:34:45 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-11-05 19:34:45 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-11-05 19:34:45 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-11-05 19:34:46 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251105_193232_IMAGE/nano-banano16x9_deakins/AaronsFriends_011_193445_nano-banano16x9_deakins.png
+2025-11-05 19:34:46 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251105_193232_IMAGE/nano-banano16x9_deakins/AaronsFriends_011_193445_nano-banano16x9_deakins.md
+2025-11-05 19:34:46 | INFO     | src.processing.processor:_generate_and_save_image:253 - Saved image: USER-FILES/05.OUTPUT/251105_193232_IMAGE/nano-banano16x9_deakins/AaronsFriends_011_193445_nano-banano16x9_deakins.png
+2025-11-05 19:34:46 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from AaronsFriends_012.txt
+2025-11-05 19:34:46 | INFO     | src.processing.processor:_process_single_combination:124 - Processing combination 12/20: AaronsFriends_012.txt + nano-banano16x9_deakins
+2025-11-05 19:34:46 | DEBUG    | src.processing.processor:_apply_prompt_fixes:209 - Added prefix to prompt: A cinematic scene from the 
+2025-11-05 19:34:46 | DEBUG    | src.processing.processor:_apply_prompt_fixes:213 - Added suffix to prompt: Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 19:34:46 | DEBUG    | src.processing.processor:_process_with_context:191 - Processing AaronsFriends_012.txt: A cinematic scene from the  Late 1700s Stockholm, ...
+2025-11-05 19:34:46 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-11-05 19:34:46 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  Late 1700s Stockholm, Leyb adjusting his scarf as a dockworker pushes a cart past him while Moishe studies the surrounding buildings, their bags on the ground. Swedish travelers pass by with their belongings. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 19:34:46 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A cinematic scene from the  Late 1700s Stockholm, Leyb adjusting his scarf as a dockworker pushes a cart past him while Moishe studies the surrounding buildings, their bags on the ground. Swedish travelers pass by with their belongings. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 19:34:46 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A cinematic scene from the  Late 1700s Stockholm, Leyb adjusting his scarf as a dockworker pushes a cart past him while Moishe studies the surrounding buildings, their bags on the ground. Swedish travelers pass by with their belongings. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 19:34:46 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A cinematic scene from the  Late 1700s Stockholm, Leyb adjusting his scarf as a dockworker pushes a cart past him while Moishe studies the surrounding buildings, their bags on the ground. Swedish travelers pass by with their belongings. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image'
+2025-11-05 19:34:46 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-11-05 19:34:46 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  Late 1700s Stockholm, Leyb adjusting his scarf as a dockworker pushes a cart past him while Moishe studies the surrounding buildings, their bags on the ground. Swedish travelers pass by with their belongings. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 19:34:56 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-11-05 19:34:56 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-11-05 19:34:56 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-11-05 19:34:56 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-11-05 19:34:56 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-11-05 19:34:57 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251105_193232_IMAGE/nano-banano16x9_deakins/AaronsFriends_012_193456_nano-banano16x9_deakins.png
+2025-11-05 19:34:57 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251105_193232_IMAGE/nano-banano16x9_deakins/AaronsFriends_012_193456_nano-banano16x9_deakins.md
+2025-11-05 19:34:57 | INFO     | src.processing.processor:_generate_and_save_image:253 - Saved image: USER-FILES/05.OUTPUT/251105_193232_IMAGE/nano-banano16x9_deakins/AaronsFriends_012_193456_nano-banano16x9_deakins.png
+2025-11-05 19:34:57 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from AaronsFriends_013.txt
+2025-11-05 19:34:57 | INFO     | src.processing.processor:_process_single_combination:124 - Processing combination 13/20: AaronsFriends_013.txt + nano-banano16x9_deakins
+2025-11-05 19:34:57 | DEBUG    | src.processing.processor:_apply_prompt_fixes:209 - Added prefix to prompt: A cinematic scene from the 
+2025-11-05 19:34:57 | DEBUG    | src.processing.processor:_apply_prompt_fixes:213 - Added suffix to prompt: Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 19:34:57 | DEBUG    | src.processing.processor:_process_with_context:191 - Processing AaronsFriends_013.txt: A cinematic scene from the  Late 1700s Stockholm, ...
+2025-11-05 19:34:57 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-11-05 19:34:57 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  Late 1700s Stockholm, Leyb and Moishe standing side by side at the pier's edge, their travel bags beside them, watching sailors unload goods onto the dock. Swedish travelers pass by with their belongings. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 19:34:57 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A cinematic scene from the  Late 1700s Stockholm, Leyb and Moishe standing side by side at the pier's edge, their travel bags beside them, watching sailors unload goods onto the dock. Swedish travelers pass by with their belongings. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 19:34:57 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A cinematic scene from the  Late 1700s Stockholm, Leyb and Moishe standing side by side at the pier's edge, their travel bags beside them, watching sailors unload goods onto the dock. Swedish travelers pass by with their belongings. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 19:34:57 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: "A cinematic scene from the  Late 1700s Stockholm, Leyb and Moishe standing side by side at the pier's edge, their travel bags beside them, watching sailors unload goods onto the dock. Swedish travelers pass by with their belongings. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+2025-11-05 19:34:57 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-11-05 19:34:57 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  Late 1700s Stockholm, Leyb and Moishe standing side by side at the pier's edge, their travel bags beside them, watching sailors unload goods onto the dock. Swedish travelers pass by with their belongings. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 19:35:09 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-11-05 19:35:09 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-11-05 19:35:09 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-11-05 19:35:09 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-11-05 19:35:09 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-11-05 19:35:10 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251105_193232_IMAGE/nano-banano16x9_deakins/AaronsFriends_013_193509_nano-banano16x9_deakins.png
+2025-11-05 19:35:10 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251105_193232_IMAGE/nano-banano16x9_deakins/AaronsFriends_013_193509_nano-banano16x9_deakins.md
+2025-11-05 19:35:10 | INFO     | src.processing.processor:_generate_and_save_image:253 - Saved image: USER-FILES/05.OUTPUT/251105_193232_IMAGE/nano-banano16x9_deakins/AaronsFriends_013_193509_nano-banano16x9_deakins.png
+2025-11-05 19:35:10 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from AaronsFriends_014.txt
+2025-11-05 19:35:10 | INFO     | src.processing.processor:_process_single_combination:124 - Processing combination 14/20: AaronsFriends_014.txt + nano-banano16x9_deakins
+2025-11-05 19:35:10 | DEBUG    | src.processing.processor:_apply_prompt_fixes:209 - Added prefix to prompt: A cinematic scene from the 
+2025-11-05 19:35:10 | DEBUG    | src.processing.processor:_apply_prompt_fixes:213 - Added suffix to prompt: Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 19:35:10 | DEBUG    | src.processing.processor:_process_with_context:191 - Processing AaronsFriends_014.txt: A cinematic scene from the  Late 1700s Stockholm, ...
+2025-11-05 19:35:10 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-11-05 19:35:10 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  Late 1700s Stockholm, Moishe pointing toward Aaron, who stands waving from the far end of the pier, Leyb smiling in recognition, luggage at their feet. Swedish merchants and travelers move around them in the busy harbor district. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 19:35:10 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A cinematic scene from the  Late 1700s Stockholm, Moishe pointing toward Aaron, who stands waving from the far end of the pier, Leyb smiling in recognition, luggage at their feet. Swedish merchants and travelers move around them in the busy harbor district. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 19:35:10 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A cinematic scene from the  Late 1700s Stockholm, Moishe pointing toward Aaron, who stands waving from the far end of the pier, Leyb smiling in recognition, luggage at their feet. Swedish merchants and travelers move around them in the busy harbor district. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 19:35:10 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A cinematic scene from the  Late 1700s Stockholm, Moishe pointing toward Aaron, who stands waving from the far end of the pier, Leyb smiling in recognition, luggage at their feet. Swedish merchants and travelers move around them in the busy harbor district. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image'
+2025-11-05 19:35:10 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-11-05 19:35:10 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  Late 1700s Stockholm, Moishe pointing toward Aaron, who stands waving from the far end of the pier, Leyb smiling in recognition, luggage at their feet. Swedish merchants and travelers move around them in the busy harbor district. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 19:35:21 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-11-05 19:35:21 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-11-05 19:35:21 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-11-05 19:35:21 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-11-05 19:35:21 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-11-05 19:35:22 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251105_193232_IMAGE/nano-banano16x9_deakins/AaronsFriends_014_193521_nano-banano16x9_deakins.png
+2025-11-05 19:35:22 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251105_193232_IMAGE/nano-banano16x9_deakins/AaronsFriends_014_193521_nano-banano16x9_deakins.md
+2025-11-05 19:35:22 | INFO     | src.processing.processor:_generate_and_save_image:253 - Saved image: USER-FILES/05.OUTPUT/251105_193232_IMAGE/nano-banano16x9_deakins/AaronsFriends_014_193521_nano-banano16x9_deakins.png
+2025-11-05 19:35:22 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from AaronsFriends_015.txt
+2025-11-05 19:35:22 | INFO     | src.processing.processor:_process_single_combination:124 - Processing combination 15/20: AaronsFriends_015.txt + nano-banano16x9_deakins
+2025-11-05 19:35:22 | DEBUG    | src.processing.processor:_apply_prompt_fixes:209 - Added prefix to prompt: A cinematic scene from the 
+2025-11-05 19:35:22 | DEBUG    | src.processing.processor:_apply_prompt_fixes:213 - Added suffix to prompt: Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 19:35:22 | DEBUG    | src.processing.processor:_process_with_context:191 - Processing AaronsFriends_015.txt: A cinematic scene from the  Late 1700s Stockholm, ...
+2025-11-05 19:35:22 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-11-05 19:35:22 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  Late 1700s Stockholm, Leyb raising his hand and waving back enthusiastically as Moishe laughs beside him, their belongings nearby, the fog thinning around them. Swedish merchants and travelers move around them in the busy harbor district. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 19:35:22 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A cinematic scene from the  Late 1700s Stockholm, Leyb raising his hand and waving back enthusiastically as Moishe laughs beside him, their belongings nearby, the fog thinning around them. Swedish merchants and travelers move around them in the busy harbor district. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 19:35:22 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A cinematic scene from the  Late 1700s Stockholm, Leyb raising his hand and waving back enthusiastically as Moishe laughs beside him, their belongings nearby, the fog thinning around them. Swedish merchants and travelers move around them in the busy harbor district. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 19:35:22 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A cinematic scene from the  Late 1700s Stockholm, Leyb raising his hand and waving back enthusiastically as Moishe laughs beside him, their belongings nearby, the fog thinning around them. Swedish merchants and travelers move around them in the busy harbor district. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image'
+2025-11-05 19:35:22 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-11-05 19:35:22 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  Late 1700s Stockholm, Leyb raising his hand and waving back enthusiastically as Moishe laughs beside him, their belongings nearby, the fog thinning around them. Swedish merchants and travelers move around them in the busy harbor district. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 19:35:32 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-11-05 19:35:32 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-11-05 19:35:32 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-11-05 19:35:32 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-11-05 19:35:32 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-11-05 19:35:33 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251105_193232_IMAGE/nano-banano16x9_deakins/AaronsFriends_015_193532_nano-banano16x9_deakins.png
+2025-11-05 19:35:33 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251105_193232_IMAGE/nano-banano16x9_deakins/AaronsFriends_015_193532_nano-banano16x9_deakins.md
+2025-11-05 19:35:33 | INFO     | src.processing.processor:_generate_and_save_image:253 - Saved image: USER-FILES/05.OUTPUT/251105_193232_IMAGE/nano-banano16x9_deakins/AaronsFriends_015_193532_nano-banano16x9_deakins.png
+2025-11-05 19:35:33 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from AaronsFriends_016.txt
+2025-11-05 19:35:33 | INFO     | src.processing.processor:_process_single_combination:124 - Processing combination 16/20: AaronsFriends_016.txt + nano-banano16x9_deakins
+2025-11-05 19:35:33 | DEBUG    | src.processing.processor:_apply_prompt_fixes:209 - Added prefix to prompt: A cinematic scene from the 
+2025-11-05 19:35:33 | DEBUG    | src.processing.processor:_apply_prompt_fixes:213 - Added suffix to prompt: Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 19:35:33 | DEBUG    | src.processing.processor:_process_with_context:191 - Processing AaronsFriends_016.txt: A cinematic scene from the  Late 1700s Stockholm, ...
+2025-11-05 19:35:33 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-11-05 19:35:33 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  Late 1700s Stockholm, Leyb and Moishe walking toward Aaron carrying their travel bags, passing wooden barrels and coiled rope along the busy pier. Swedish merchants and travelers move around them in the busy harbor district. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 19:35:33 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A cinematic scene from the  Late 1700s Stockholm, Leyb and Moishe walking toward Aaron carrying their travel bags, passing wooden barrels and coiled rope along the busy pier. Swedish merchants and travelers move around them in the busy harbor district. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 19:35:33 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A cinematic scene from the  Late 1700s Stockholm, Leyb and Moishe walking toward Aaron carrying their travel bags, passing wooden barrels and coiled rope along the busy pier. Swedish merchants and travelers move around them in the busy harbor district. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 19:35:33 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A cinematic scene from the  Late 1700s Stockholm, Leyb and Moishe walking toward Aaron carrying their travel bags, passing wooden barrels and coiled rope along the busy pier. Swedish merchants and travelers move around them in the busy harbor district. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image'
+2025-11-05 19:35:33 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-11-05 19:35:33 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  Late 1700s Stockholm, Leyb and Moishe walking toward Aaron carrying their travel bags, passing wooden barrels and coiled rope along the busy pier. Swedish merchants and travelers move around them in the busy harbor district. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 19:35:44 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-11-05 19:35:44 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-11-05 19:35:44 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-11-05 19:35:44 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-11-05 19:35:44 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-11-05 19:35:45 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251105_193232_IMAGE/nano-banano16x9_deakins/AaronsFriends_016_193544_nano-banano16x9_deakins.png
+2025-11-05 19:35:45 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251105_193232_IMAGE/nano-banano16x9_deakins/AaronsFriends_016_193544_nano-banano16x9_deakins.md
+2025-11-05 19:35:45 | INFO     | src.processing.processor:_generate_and_save_image:253 - Saved image: USER-FILES/05.OUTPUT/251105_193232_IMAGE/nano-banano16x9_deakins/AaronsFriends_016_193544_nano-banano16x9_deakins.png
+2025-11-05 19:35:45 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from AaronsFriends_017.txt
+2025-11-05 19:35:45 | INFO     | src.processing.processor:_process_single_combination:124 - Processing combination 17/20: AaronsFriends_017.txt + nano-banano16x9_deakins
+2025-11-05 19:35:45 | DEBUG    | src.processing.processor:_apply_prompt_fixes:209 - Added prefix to prompt: A cinematic scene from the 
+2025-11-05 19:35:45 | DEBUG    | src.processing.processor:_apply_prompt_fixes:213 - Added suffix to prompt: Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 19:35:45 | DEBUG    | src.processing.processor:_process_with_context:191 - Processing AaronsFriends_017.txt: A cinematic scene from the  Late 1700s Stockholm, ...
+2025-11-05 19:35:45 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-11-05 19:35:45 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  Late 1700s Stockholm, Leyb's boots splashing in puddles on the pier while Moishe carries both their coats and a bag, Aaron waiting ahead with open arms. Swedish merchants and travelers move around them in the busy harbor district. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 19:35:45 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A cinematic scene from the  Late 1700s Stockholm, Leyb's boots splashing in puddles on the pier while Moishe carries both their coats and a bag, Aaron waiting ahead with open arms. Swedish merchants and travelers move around them in the busy harbor district. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 19:35:45 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A cinematic scene from the  Late 1700s Stockholm, Leyb's boots splashing in puddles on the pier while Moishe carries both their coats and a bag, Aaron waiting ahead with open arms. Swedish merchants and travelers move around them in the busy harbor district. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 19:35:45 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: "A cinematic scene from the  Late 1700s Stockholm, Leyb's boots splashing in puddles on the pier while Moishe carries both their coats and a bag, Aaron waiting ahead with open arms. Swedish merchants and travelers move around them in the busy harbor district. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+2025-11-05 19:35:45 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-11-05 19:35:45 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  Late 1700s Stockholm, Leyb's boots splashing in puddles on the pier while Moishe carries both their coats and a bag, Aaron waiting ahead with open arms. Swedish merchants and travelers move around them in the busy harbor district. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 19:36:46 | ERROR    | src.api.client:_call_with_retry:184 - Error on attempt 1: Prediction interrupted; please retry (code: PA)
+2025-11-05 19:36:46 | INFO     | src.api.client:_call_with_retry:188 - Retrying in 2s...
+2025-11-05 19:36:48 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 2/3
+2025-11-05 19:36:48 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  Late 1700s Stockholm, Leyb's boots splashing in puddles on the pier while Moishe carries both their coats and a bag, Aaron waiting ahead with open arms. Swedish merchants and travelers move around them in the busy harbor district. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 19:36:59 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-11-05 19:36:59 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-11-05 19:36:59 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-11-05 19:36:59 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-11-05 19:36:59 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-11-05 19:37:01 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251105_193232_IMAGE/nano-banano16x9_deakins/AaronsFriends_017_193659_nano-banano16x9_deakins.png
+2025-11-05 19:37:01 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251105_193232_IMAGE/nano-banano16x9_deakins/AaronsFriends_017_193659_nano-banano16x9_deakins.md
+2025-11-05 19:37:01 | INFO     | src.processing.processor:_generate_and_save_image:253 - Saved image: USER-FILES/05.OUTPUT/251105_193232_IMAGE/nano-banano16x9_deakins/AaronsFriends_017_193659_nano-banano16x9_deakins.png
+2025-11-05 19:37:01 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from AaronsFriends_018.txt
+2025-11-05 19:37:01 | INFO     | src.processing.processor:_process_single_combination:124 - Processing combination 18/20: AaronsFriends_018.txt + nano-banano16x9_deakins
+2025-11-05 19:37:01 | DEBUG    | src.processing.processor:_apply_prompt_fixes:209 - Added prefix to prompt: A cinematic scene from the 
+2025-11-05 19:37:01 | DEBUG    | src.processing.processor:_apply_prompt_fixes:213 - Added suffix to prompt: Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 19:37:01 | DEBUG    | src.processing.processor:_process_with_context:191 - Processing AaronsFriends_018.txt: A cinematic scene from the  Late 1700s Stockholm, ...
+2025-11-05 19:37:01 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-11-05 19:37:01 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  Late 1700s Stockholm, Leyb shaking hands warmly with Aaron while Moishe stands beside them smiling, their luggage set down nearby, ships and masts forming the backdrop. Swedish merchants and travelers move around them in the busy harbor district. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 19:37:01 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A cinematic scene from the  Late 1700s Stockholm, Leyb shaking hands warmly with Aaron while Moishe stands beside them smiling, their luggage set down nearby, ships and masts forming the backdrop. Swedish merchants and travelers move around them in the busy harbor district. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 19:37:01 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A cinematic scene from the  Late 1700s Stockholm, Leyb shaking hands warmly with Aaron while Moishe stands beside them smiling, their luggage set down nearby, ships and masts forming the backdrop. Swedish merchants and travelers move around them in the busy harbor district. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 19:37:01 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A cinematic scene from the  Late 1700s Stockholm, Leyb shaking hands warmly with Aaron while Moishe stands beside them smiling, their luggage set down nearby, ships and masts forming the backdrop. Swedish merchants and travelers move around them in the busy harbor district. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image'
+2025-11-05 19:37:01 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-11-05 19:37:01 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  Late 1700s Stockholm, Leyb shaking hands warmly with Aaron while Moishe stands beside them smiling, their luggage set down nearby, ships and masts forming the backdrop. Swedish merchants and travelers move around them in the busy harbor district. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 19:37:10 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-11-05 19:37:10 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-11-05 19:37:10 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-11-05 19:37:10 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-11-05 19:37:10 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-11-05 19:37:12 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251105_193232_IMAGE/nano-banano16x9_deakins/AaronsFriends_018_193710_nano-banano16x9_deakins.png
+2025-11-05 19:37:12 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251105_193232_IMAGE/nano-banano16x9_deakins/AaronsFriends_018_193710_nano-banano16x9_deakins.md
+2025-11-05 19:37:12 | INFO     | src.processing.processor:_generate_and_save_image:253 - Saved image: USER-FILES/05.OUTPUT/251105_193232_IMAGE/nano-banano16x9_deakins/AaronsFriends_018_193710_nano-banano16x9_deakins.png
+2025-11-05 19:37:12 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from AaronsFriends_019.txt
+2025-11-05 19:37:12 | INFO     | src.processing.processor:_process_single_combination:124 - Processing combination 19/20: AaronsFriends_019.txt + nano-banano16x9_deakins
+2025-11-05 19:37:12 | DEBUG    | src.processing.processor:_apply_prompt_fixes:209 - Added prefix to prompt: A cinematic scene from the 
+2025-11-05 19:37:12 | DEBUG    | src.processing.processor:_apply_prompt_fixes:213 - Added suffix to prompt: Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 19:37:12 | DEBUG    | src.processing.processor:_process_with_context:191 - Processing AaronsFriends_019.txt: A cinematic scene from the  Late 1700s Stockholm, ...
+2025-11-05 19:37:12 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-11-05 19:37:12 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  Late 1700s Stockholm, Leyb, Moishe, and Aaron standing together laughing, their travel bags at their feet, the harbor stretching out behind them under pale winter sunlight. Swedish merchants and travelers move around them in the busy harbor district. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 19:37:12 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A cinematic scene from the  Late 1700s Stockholm, Leyb, Moishe, and Aaron standing together laughing, their travel bags at their feet, the harbor stretching out behind them under pale winter sunlight. Swedish merchants and travelers move around them in the busy harbor district. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 19:37:12 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A cinematic scene from the  Late 1700s Stockholm, Leyb, Moishe, and Aaron standing together laughing, their travel bags at their feet, the harbor stretching out behind them under pale winter sunlight. Swedish merchants and travelers move around them in the busy harbor district. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 19:37:12 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A cinematic scene from the  Late 1700s Stockholm, Leyb, Moishe, and Aaron standing together laughing, their travel bags at their feet, the harbor stretching out behind them under pale winter sunlight. Swedish merchants and travelers move around them in the busy harbor district. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image'
+2025-11-05 19:37:12 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-11-05 19:37:12 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  Late 1700s Stockholm, Leyb, Moishe, and Aaron standing together laughing, their travel bags at their feet, the harbor stretching out behind them under pale winter sunlight. Swedish merchants and travelers move around them in the busy harbor district. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 19:37:21 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-11-05 19:37:21 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-11-05 19:37:21 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-11-05 19:37:21 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-11-05 19:37:21 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-11-05 19:37:23 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251105_193232_IMAGE/nano-banano16x9_deakins/AaronsFriends_019_193721_nano-banano16x9_deakins.png
+2025-11-05 19:37:23 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251105_193232_IMAGE/nano-banano16x9_deakins/AaronsFriends_019_193721_nano-banano16x9_deakins.md
+2025-11-05 19:37:23 | INFO     | src.processing.processor:_generate_and_save_image:253 - Saved image: USER-FILES/05.OUTPUT/251105_193232_IMAGE/nano-banano16x9_deakins/AaronsFriends_019_193721_nano-banano16x9_deakins.png
+2025-11-05 19:37:23 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from AaronsFriends_020.txt
+2025-11-05 19:37:23 | INFO     | src.processing.processor:_process_single_combination:124 - Processing combination 20/20: AaronsFriends_020.txt + nano-banano16x9_deakins
+2025-11-05 19:37:23 | DEBUG    | src.processing.processor:_apply_prompt_fixes:209 - Added prefix to prompt: A cinematic scene from the 
+2025-11-05 19:37:23 | DEBUG    | src.processing.processor:_apply_prompt_fixes:213 - Added suffix to prompt: Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 19:37:23 | DEBUG    | src.processing.processor:_process_with_context:191 - Processing AaronsFriends_020.txt: A cinematic scene from the  Late 1700s Stockholm, ...
+2025-11-05 19:37:23 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-11-05 19:37:23 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  Late 1700s Stockholm, Leyb and Moishe walking away from the pier with Aaron, carrying their belongings, their figures blending into the bustle of the harbor district. Swedish merchants and travelers move around them in the busy harbor district. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 19:37:23 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A cinematic scene from the  Late 1700s Stockholm, Leyb and Moishe walking away from the pier with Aaron, carrying their belongings, their figures blending into the bustle of the harbor district. Swedish merchants and travelers move around them in the busy harbor district. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 19:37:23 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A cinematic scene from the  Late 1700s Stockholm, Leyb and Moishe walking away from the pier with Aaron, carrying their belongings, their figures blending into the bustle of the harbor district. Swedish merchants and travelers move around them in the busy harbor district. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 19:37:23 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A cinematic scene from the  Late 1700s Stockholm, Leyb and Moishe walking away from the pier with Aaron, carrying their belongings, their figures blending into the bustle of the harbor district. Swedish merchants and travelers move around them in the busy harbor district. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image'
+2025-11-05 19:37:23 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-11-05 19:37:23 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  Late 1700s Stockholm, Leyb and Moishe walking away from the pier with Aaron, carrying their belongings, their figures blending into the bustle of the harbor district. Swedish merchants and travelers move around them in the busy harbor district. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 19:37:32 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-11-05 19:37:32 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-11-05 19:37:32 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-11-05 19:37:32 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-11-05 19:37:32 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-11-05 19:37:33 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251105_193232_IMAGE/nano-banano16x9_deakins/AaronsFriends_020_193732_nano-banano16x9_deakins.png
+2025-11-05 19:37:33 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251105_193232_IMAGE/nano-banano16x9_deakins/AaronsFriends_020_193732_nano-banano16x9_deakins.md
+2025-11-05 19:37:33 | INFO     | src.processing.processor:_generate_and_save_image:253 - Saved image: USER-FILES/05.OUTPUT/251105_193232_IMAGE/nano-banano16x9_deakins/AaronsFriends_020_193732_nano-banano16x9_deakins.png
+2025-11-05 19:37:33 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from AaronsFriends_001.txt
+2025-11-05 19:37:33 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from AaronsFriends_002.txt
+2025-11-05 19:37:33 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from AaronsFriends_003.txt
+2025-11-05 19:37:33 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from AaronsFriends_004.txt
+2025-11-05 19:37:33 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from AaronsFriends_005.txt
+2025-11-05 19:37:33 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from AaronsFriends_006.txt
+2025-11-05 19:37:33 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from AaronsFriends_007.txt
+2025-11-05 19:37:33 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from AaronsFriends_008.txt
+2025-11-05 19:37:33 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from AaronsFriends_009.txt
+2025-11-05 19:37:33 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from AaronsFriends_010.txt
+2025-11-05 19:37:33 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from AaronsFriends_011.txt
+2025-11-05 19:37:33 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from AaronsFriends_012.txt
+2025-11-05 19:37:33 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from AaronsFriends_013.txt
+2025-11-05 19:37:33 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from AaronsFriends_014.txt
+2025-11-05 19:37:33 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from AaronsFriends_015.txt
+2025-11-05 19:37:33 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from AaronsFriends_016.txt
+2025-11-05 19:37:33 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from AaronsFriends_017.txt
+2025-11-05 19:37:33 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from AaronsFriends_018.txt
+2025-11-05 19:37:33 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from AaronsFriends_019.txt
+2025-11-05 19:37:33 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from AaronsFriends_020.txt
+2025-11-05 19:37:33 | INFO     | src.output.writer:write_report:293 - Report saved: USER-FILES/05.OUTPUT/251105_193232_IMAGE/SUCCESS.md
+2025-11-05 19:37:33 | INFO     | src.output.writer:write_report:293 - Report saved: USER-FILES/05.OUTPUT/251105_193232_IMAGE/COST-REPORT.md
+2025-11-05 19:37:33 | INFO     | src.output.writer:write_report:293 - Report saved: USER-FILES/05.OUTPUT/251105_193232_IMAGE/PROFILES-WITH-FIXES.md
+2025-11-05 19:37:33 | INFO     | src.output.reporter:_save_success_reports:62 - Reports saved successfully
+2025-11-05 19:37:33 | SUCCESS  | __main__:generate_final_reports:264 - ✅ Completed successfully! Generated 20 images

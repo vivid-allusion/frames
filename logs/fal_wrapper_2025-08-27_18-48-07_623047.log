@@ -1,0 +1,850 @@
+2025-08-27 18:48:07 | INFO     | src.utils.logging:setup_logging:39 - Logging configured (verbose=False, debug=False)
+2025-08-27 18:48:07 | INFO     | __main__:main:75 - Loading configuration...
+2025-08-27 18:48:07 | INFO     | src.config.loader:load_config:42 - Loaded configuration from USER-FILES/01.CONFIG/config.yaml
+2025-08-27 18:48:07 | INFO     | __main__:main:80 - Authenticating...
+2025-08-27 18:48:07 | DEBUG    | src.auth.env:get_fal_api_key_from_env:19 - Loaded environment from /Users/ruben/08_-_DEVELOPMENT/ISOF_IMAGE_WORKFLOW/00.fal-text->image-tool/.env
+2025-08-27 18:48:07 | INFO     | src.auth.env:get_fal_api_key_from_env:25 - Successfully retrieved FAL API key from environment
+2025-08-27 18:48:07 | INFO     | __main__:main:84 - Discovering inputs...
+2025-08-27 18:48:07 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/5/5.2.0/5.2.1/5.2.1.txt
+2025-08-27 18:48:07 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/5/5.8.0/5.8.1/5.8.1.txt
+2025-08-27 18:48:07 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/5/5.6.0/5.6.1/5.6.1.txt
+2025-08-27 18:48:07 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/5/5.1.0/5.1.1/5.1.1.txt
+2025-08-27 18:48:07 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/5/5.5.0/5.5.1/5.5.1.txt
+2025-08-27 18:48:07 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/5/5.10.0/5.10.1/5.10.1.txt
+2025-08-27 18:48:07 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/5/5.4.0/5.4.1/5.4.1.txt
+2025-08-27 18:48:07 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/5/5.9.0/5.9.1/5.9.1.txt
+2025-08-27 18:48:07 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/5/5.3.0/5.3.1/5.3.1.txt
+2025-08-27 18:48:07 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/5/5.7.0/5.7.1/5.7.1.txt
+2025-08-27 18:48:07 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/2/2.8.0/2.8.1/2.8.1.txt
+2025-08-27 18:48:07 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/2/2.2.0/2.2.1/2.2.1.txt
+2025-08-27 18:48:07 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/2/2.6.0/2.6.1/2.6.1.txt
+2025-08-27 18:48:07 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/2/2.1.0/2.1.1/2.1.1.txt
+2025-08-27 18:48:07 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/2/2.5.0/2.5.1/2.5.1.txt
+2025-08-27 18:48:07 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/2/2.4.0/2.4.1/2.4.1.txt
+2025-08-27 18:48:07 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/2/2.3.0/2.3.1/2.3.1.txt
+2025-08-27 18:48:07 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/2/2.9.0/2.9.1/2.9.1.txt
+2025-08-27 18:48:07 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/2/2.10.0/2.10.1/2.10.1.txt
+2025-08-27 18:48:07 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/2/2.7.0/2.7.1/2.7.1.txt
+2025-08-27 18:48:07 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/3/3.2.0/3.2.1/3.2.1.txt
+2025-08-27 18:48:07 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/3/3.8.0/3.8.1/3.8.1.txt
+2025-08-27 18:48:07 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/3/3.6.0/3.6.1/3.6.1.txt
+2025-08-27 18:48:07 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/3/3.11.0/3.11.1/3.11.1.txt
+2025-08-27 18:48:07 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/3/3.1.0/3.1.1/3.1.1.txt
+2025-08-27 18:48:07 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/3/3.5.0/3.5.1/3.5.1.txt
+2025-08-27 18:48:07 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/3/3.12.0/3.12.1/3.12.1.txt
+2025-08-27 18:48:07 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/3/3.4.0/3.4.1/3.4.1.txt
+2025-08-27 18:48:07 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/3/3.9.0/3.9.1/3.9.1.txt
+2025-08-27 18:48:07 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/3/3.3.0/3.3.1/3.3.1.txt
+2025-08-27 18:48:07 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/3/3.7.0/3.7.1/3.7.1.txt
+2025-08-27 18:48:07 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/3/3.10.0/3.10.1/3.10.1.txt
+2025-08-27 18:48:07 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/4/4.8.0/4.8.1/4.8.1.txt
+2025-08-27 18:48:07 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/4/4.2.0/4.2.1/4.2.1.txt
+2025-08-27 18:48:07 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/4/4.6.0/4.6.1/4.6.1.txt
+2025-08-27 18:48:07 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/4/4.11.0/4.11.1/4.11.1.txt
+2025-08-27 18:48:07 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/4/4.1.0/4.1.1/4.1.1.txt
+2025-08-27 18:48:07 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/4/4.5.0/4.5.1/4.5.1.txt
+2025-08-27 18:48:07 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/4/4.10.0/4.10.1/4.10.1.txt
+2025-08-27 18:48:07 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/4/4.4.0/4.4.1/4.4.1.txt
+2025-08-27 18:48:07 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/4/4.3.0/4.3.1/4.3.1.txt
+2025-08-27 18:48:07 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/4/4.9.0/4.9.1/4.9.1.txt
+2025-08-27 18:48:07 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/4/4.7.0/4.7.1/4.7.1.txt
+2025-08-27 18:48:07 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/1/1.6.0/1.6.1/1.6.1.txt
+2025-08-27 18:48:07 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/1/1.8.0/1.8.1/1.8.1.txt
+2025-08-27 18:48:07 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/1/1.2.0/1.2.1/1.2.1.txt
+2025-08-27 18:48:07 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/1/1.10.0/1.10.1/1.10.1.txt
+2025-08-27 18:48:07 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/1/1.14.0/1.14.1/1.14.1.txt
+2025-08-27 18:48:07 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/1/1.5.0/1.5.1/1.5.1.txt
+2025-08-27 18:48:07 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/1/1.1.0/1.1.1/1.1.1.txt
+2025-08-27 18:48:07 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/1/1.13.0/1.13.1/1.13.1.txt
+2025-08-27 18:48:07 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/1/1.4.0/1.4.1/1.4.1.txt
+2025-08-27 18:48:07 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/1/1.12.0/1.12.1/1.12.1.txt
+2025-08-27 18:48:07 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/1/1.7.0/1.7.1/1.7.1.txt
+2025-08-27 18:48:07 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/1/1.3.0/1.3.1/1.3.1.txt
+2025-08-27 18:48:07 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/1/1.9.0/1.9.1/1.9.1.txt
+2025-08-27 18:48:07 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/1/1.11.0/1.11.1/1.11.1.txt
+2025-08-27 18:48:07 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/1/1.15.0/1.15.1/1.15.1.txt
+2025-08-27 18:48:07 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/6/6.6.0/6.6.1/6.6.1.txt
+2025-08-27 18:48:07 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/6/6.2.0/6.2.1/6.2.1.txt
+2025-08-27 18:48:07 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/6/6.8.0/6.8.1/6.8.1.txt
+2025-08-27 18:48:07 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/6/6.10.0/6.10.1/6.10.1.txt
+2025-08-27 18:48:07 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/6/6.5.0/6.5.1/6.5.1.txt
+2025-08-27 18:48:07 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/6/6.1.0/6.1.1/6.1.1.txt
+2025-08-27 18:48:07 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/6/6.11.0/6.11.1/6.11.1.txt
+2025-08-27 18:48:07 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/6/6.4.0/6.4.1/6.4.1.txt
+2025-08-27 18:48:07 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/6/6.7.0/6.7.1/6.7.1.txt
+2025-08-27 18:48:07 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/6/6.9.0/6.9.1/6.9.1.txt
+2025-08-27 18:48:07 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/6/6.3.0/6.3.1/6.3.1.txt
+2025-08-27 18:48:07 | INFO     | src.processing.discovery:discover_prompt_files:45 - Discovered 69 prompt files
+2025-08-27 18:48:07 | DEBUG    | src.processing.discovery:discover_profiles:93 - Loaded profile: USER-FILES/03.PROFILES/nano-banana.yaml
+2025-08-27 18:48:07 | INFO     | src.processing.discovery:discover_profiles:97 - Loaded 1 profiles
+2025-08-27 18:48:07 | INFO     | src.processing.discovery:get_active_models:130 - Found profile: nano-banana
+2025-08-27 18:48:07 | INFO     | src.processing.discovery:get_active_models:135 - Total profiles to process: 1
+2025-08-27 18:48:07 | INFO     | src.config.validator:validate_all:26 - All configuration validation passed
+2025-08-27 18:48:07 | INFO     | __main__:main:104 - Output directory: USER-FILES/05.OUTPUT/250827_184807
+2025-08-27 18:48:07 | INFO     | __main__:main:166 - Starting matrix processing...
+2025-08-27 18:48:07 | INFO     | src.processing.processor:process_all:68 - Processing 69 combinations (69 files × 1 profiles)
+2025-08-27 18:48:07 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 1.1.1.txt
+2025-08-27 18:48:07 | INFO     | src.processing.processor:process_all:103 - Processing combination 1/69: 03.layer1_extracted/1/1.1.0/1.1.1/1.1.1.txt + nano-banana
+2025-08-27 18:48:07 | DEBUG    | src.processing.processor:_process_file_model_combination:177 - Added prefix to prompt: cinematic style shot of 
+2025-08-27 18:48:07 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added suffix to prompt: Shot on 35mm film.
+2025-08-27 18:48:07 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/1/1.1.0/1.1.1/1.1.1.txt: cinematic style shot of  A realistic stock-style p...
+2025-08-27 18:48:07 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 18:48:44 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 18:48:47 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/1/1.1.0/1.1.1/1.1.1_184844_nano-banana_unknownxunknown.png
+2025-08-27 18:48:47 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/1/1.1.0/1.1.1/1.1.1_184844_nano-banana_unknownxunknown.json
+2025-08-27 18:48:47 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 1.1.1_184844_nano-banana_unknownxunknown.png
+2025-08-27 18:48:47 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 1.2.1.txt
+2025-08-27 18:48:47 | INFO     | src.processing.processor:process_all:103 - Processing combination 2/69: 03.layer1_extracted/1/1.2.0/1.2.1/1.2.1.txt + nano-banana
+2025-08-27 18:48:47 | DEBUG    | src.processing.processor:_process_file_model_combination:177 - Added prefix to prompt: cinematic style shot of 
+2025-08-27 18:48:47 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added suffix to prompt: Shot on 35mm film.
+2025-08-27 18:48:47 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/1/1.2.0/1.2.1/1.2.1.txt: cinematic style shot of  Realistic stock imagery o...
+2025-08-27 18:48:47 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 18:49:22 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 18:49:25 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/1/1.2.0/1.2.1/1.2.1_184922_nano-banana_unknownxunknown.png
+2025-08-27 18:49:25 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/1/1.2.0/1.2.1/1.2.1_184922_nano-banana_unknownxunknown.json
+2025-08-27 18:49:25 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 1.2.1_184922_nano-banana_unknownxunknown.png
+2025-08-27 18:49:25 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 1.3.1.txt
+2025-08-27 18:49:25 | INFO     | src.processing.processor:process_all:103 - Processing combination 3/69: 03.layer1_extracted/1/1.3.0/1.3.1/1.3.1.txt + nano-banana
+2025-08-27 18:49:25 | DEBUG    | src.processing.processor:_process_file_model_combination:177 - Added prefix to prompt: cinematic style shot of 
+2025-08-27 18:49:25 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added suffix to prompt: Shot on 35mm film.
+2025-08-27 18:49:25 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/1/1.3.0/1.3.1/1.3.1.txt: cinematic style shot of  A realistic scene in a gl...
+2025-08-27 18:49:25 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 18:50:08 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 18:50:11 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/1/1.3.0/1.3.1/1.3.1_185008_nano-banana_unknownxunknown.png
+2025-08-27 18:50:11 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/1/1.3.0/1.3.1/1.3.1_185008_nano-banana_unknownxunknown.json
+2025-08-27 18:50:11 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 1.3.1_185008_nano-banana_unknownxunknown.png
+2025-08-27 18:50:11 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 1.4.1.txt
+2025-08-27 18:50:11 | INFO     | src.processing.processor:process_all:103 - Processing combination 4/69: 03.layer1_extracted/1/1.4.0/1.4.1/1.4.1.txt + nano-banana
+2025-08-27 18:50:11 | DEBUG    | src.processing.processor:_process_file_model_combination:177 - Added prefix to prompt: cinematic style shot of 
+2025-08-27 18:50:11 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added suffix to prompt: Shot on 35mm film.
+2025-08-27 18:50:11 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/1/1.4.0/1.4.1/1.4.1.txt: cinematic style shot of  A neat, realistic office ...
+2025-08-27 18:50:11 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 18:50:45 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 18:50:47 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/1/1.4.0/1.4.1/1.4.1_185045_nano-banana_unknownxunknown.png
+2025-08-27 18:50:47 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/1/1.4.0/1.4.1/1.4.1_185045_nano-banana_unknownxunknown.json
+2025-08-27 18:50:47 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 1.4.1_185045_nano-banana_unknownxunknown.png
+2025-08-27 18:50:47 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 1.5.1.txt
+2025-08-27 18:50:47 | INFO     | src.processing.processor:process_all:103 - Processing combination 5/69: 03.layer1_extracted/1/1.5.0/1.5.1/1.5.1.txt + nano-banana
+2025-08-27 18:50:47 | DEBUG    | src.processing.processor:_process_file_model_combination:177 - Added prefix to prompt: cinematic style shot of 
+2025-08-27 18:50:47 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added suffix to prompt: Shot on 35mm film.
+2025-08-27 18:50:47 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/1/1.5.0/1.5.1/1.5.1.txt: cinematic style shot of  A realistic image of an A...
+2025-08-27 18:50:47 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 18:51:23 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 18:51:26 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/1/1.5.0/1.5.1/1.5.1_185123_nano-banana_unknownxunknown.png
+2025-08-27 18:51:26 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/1/1.5.0/1.5.1/1.5.1_185123_nano-banana_unknownxunknown.json
+2025-08-27 18:51:26 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 1.5.1_185123_nano-banana_unknownxunknown.png
+2025-08-27 18:51:26 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 1.6.1.txt
+2025-08-27 18:51:26 | INFO     | src.processing.processor:process_all:103 - Processing combination 6/69: 03.layer1_extracted/1/1.6.0/1.6.1/1.6.1.txt + nano-banana
+2025-08-27 18:51:26 | DEBUG    | src.processing.processor:_process_file_model_combination:177 - Added prefix to prompt: cinematic style shot of 
+2025-08-27 18:51:26 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added suffix to prompt: Shot on 35mm film.
+2025-08-27 18:51:26 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/1/1.6.0/1.6.1/1.6.1.txt: cinematic style shot of  An over-the-shoulder, rea...
+2025-08-27 18:51:26 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 18:52:11 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 18:52:14 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/1/1.6.0/1.6.1/1.6.1_185211_nano-banana_unknownxunknown.png
+2025-08-27 18:52:14 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/1/1.6.0/1.6.1/1.6.1_185211_nano-banana_unknownxunknown.json
+2025-08-27 18:52:14 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 1.6.1_185211_nano-banana_unknownxunknown.png
+2025-08-27 18:52:14 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 1.7.1.txt
+2025-08-27 18:52:14 | INFO     | src.processing.processor:process_all:103 - Processing combination 7/69: 03.layer1_extracted/1/1.7.0/1.7.1/1.7.1.txt + nano-banana
+2025-08-27 18:52:14 | DEBUG    | src.processing.processor:_process_file_model_combination:177 - Added prefix to prompt: cinematic style shot of 
+2025-08-27 18:52:14 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added suffix to prompt: Shot on 35mm film.
+2025-08-27 18:52:14 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/1/1.7.0/1.7.1/1.7.1.txt: cinematic style shot of  A realistic office scene ...
+2025-08-27 18:52:14 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 18:52:48 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 18:52:50 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/1/1.7.0/1.7.1/1.7.1_185248_nano-banana_unknownxunknown.png
+2025-08-27 18:52:50 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/1/1.7.0/1.7.1/1.7.1_185248_nano-banana_unknownxunknown.json
+2025-08-27 18:52:50 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 1.7.1_185248_nano-banana_unknownxunknown.png
+2025-08-27 18:52:50 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 1.8.1.txt
+2025-08-27 18:52:50 | INFO     | src.processing.processor:process_all:103 - Processing combination 8/69: 03.layer1_extracted/1/1.8.0/1.8.1/1.8.1.txt + nano-banana
+2025-08-27 18:52:50 | DEBUG    | src.processing.processor:_process_file_model_combination:177 - Added prefix to prompt: cinematic style shot of 
+2025-08-27 18:52:50 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added suffix to prompt: Shot on 35mm film.
+2025-08-27 18:52:50 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/1/1.8.0/1.8.1/1.8.1.txt: cinematic style shot of  In a clean, modern office...
+2025-08-27 18:52:50 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 18:53:21 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 18:53:24 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/1/1.8.0/1.8.1/1.8.1_185321_nano-banana_unknownxunknown.png
+2025-08-27 18:53:24 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/1/1.8.0/1.8.1/1.8.1_185321_nano-banana_unknownxunknown.json
+2025-08-27 18:53:24 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 1.8.1_185321_nano-banana_unknownxunknown.png
+2025-08-27 18:53:24 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 1.9.1.txt
+2025-08-27 18:53:24 | INFO     | src.processing.processor:process_all:103 - Processing combination 9/69: 03.layer1_extracted/1/1.9.0/1.9.1/1.9.1.txt + nano-banana
+2025-08-27 18:53:24 | DEBUG    | src.processing.processor:_process_file_model_combination:177 - Added prefix to prompt: cinematic style shot of 
+2025-08-27 18:53:24 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added suffix to prompt: Shot on 35mm film.
+2025-08-27 18:53:24 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/1/1.9.0/1.9.1/1.9.1.txt: cinematic style shot of  A polished boardroom with...
+2025-08-27 18:53:24 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 18:54:02 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 18:54:06 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/1/1.9.0/1.9.1/1.9.1_185402_nano-banana_unknownxunknown.png
+2025-08-27 18:54:06 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/1/1.9.0/1.9.1/1.9.1_185402_nano-banana_unknownxunknown.json
+2025-08-27 18:54:06 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 1.9.1_185402_nano-banana_unknownxunknown.png
+2025-08-27 18:54:06 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 1.10.1.txt
+2025-08-27 18:54:06 | INFO     | src.processing.processor:process_all:103 - Processing combination 10/69: 03.layer1_extracted/1/1.10.0/1.10.1/1.10.1.txt + nano-banana
+2025-08-27 18:54:06 | DEBUG    | src.processing.processor:_process_file_model_combination:177 - Added prefix to prompt: cinematic style shot of 
+2025-08-27 18:54:06 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added suffix to prompt: Shot on 35mm film.
+2025-08-27 18:54:06 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/1/1.10.0/1.10.1/1.10.1.txt: cinematic style shot of  Two Asian analysts in the...
+2025-08-27 18:54:06 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 18:54:54 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 18:55:01 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/1/1.10.0/1.10.1/1.10.1_185454_nano-banana_unknownxunknown.png
+2025-08-27 18:55:01 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/1/1.10.0/1.10.1/1.10.1_185454_nano-banana_unknownxunknown.json
+2025-08-27 18:55:01 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 1.10.1_185454_nano-banana_unknownxunknown.png
+2025-08-27 18:55:01 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 1.11.1.txt
+2025-08-27 18:55:01 | INFO     | src.processing.processor:process_all:103 - Processing combination 11/69: 03.layer1_extracted/1/1.11.0/1.11.1/1.11.1.txt + nano-banana
+2025-08-27 18:55:01 | DEBUG    | src.processing.processor:_process_file_model_combination:177 - Added prefix to prompt: cinematic style shot of 
+2025-08-27 18:55:01 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added suffix to prompt: Shot on 35mm film.
+2025-08-27 18:55:01 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/1/1.11.0/1.11.1/1.11.1.txt: cinematic style shot of  A close-up image of two A...
+2025-08-27 18:55:01 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 18:55:53 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 18:55:55 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/1/1.11.0/1.11.1/1.11.1_185553_nano-banana_unknownxunknown.png
+2025-08-27 18:55:55 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/1/1.11.0/1.11.1/1.11.1_185553_nano-banana_unknownxunknown.json
+2025-08-27 18:55:55 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 1.11.1_185553_nano-banana_unknownxunknown.png
+2025-08-27 18:55:55 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 1.12.1.txt
+2025-08-27 18:55:55 | INFO     | src.processing.processor:process_all:103 - Processing combination 12/69: 03.layer1_extracted/1/1.12.0/1.12.1/1.12.1.txt + nano-banana
+2025-08-27 18:55:55 | DEBUG    | src.processing.processor:_process_file_model_combination:177 - Added prefix to prompt: cinematic style shot of 
+2025-08-27 18:55:55 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added suffix to prompt: Shot on 35mm film.
+2025-08-27 18:55:55 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/1/1.12.0/1.12.1/1.12.1.txt: cinematic style shot of  A conference room setting...
+2025-08-27 18:55:55 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 18:56:42 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 18:56:47 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/1/1.12.0/1.12.1/1.12.1_185642_nano-banana_unknownxunknown.png
+2025-08-27 18:56:47 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/1/1.12.0/1.12.1/1.12.1_185642_nano-banana_unknownxunknown.json
+2025-08-27 18:56:47 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 1.12.1_185642_nano-banana_unknownxunknown.png
+2025-08-27 18:56:47 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 1.13.1.txt
+2025-08-27 18:56:47 | INFO     | src.processing.processor:process_all:103 - Processing combination 13/69: 03.layer1_extracted/1/1.13.0/1.13.1/1.13.1.txt + nano-banana
+2025-08-27 18:56:47 | DEBUG    | src.processing.processor:_process_file_model_combination:177 - Added prefix to prompt: cinematic style shot of 
+2025-08-27 18:56:47 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added suffix to prompt: Shot on 35mm film.
+2025-08-27 18:56:47 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/1/1.13.0/1.13.1/1.13.1.txt: cinematic style shot of  A realistic meeting room ...
+2025-08-27 18:56:47 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 18:57:18 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 18:57:20 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/1/1.13.0/1.13.1/1.13.1_185718_nano-banana_unknownxunknown.png
+2025-08-27 18:57:20 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/1/1.13.0/1.13.1/1.13.1_185718_nano-banana_unknownxunknown.json
+2025-08-27 18:57:20 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 1.13.1_185718_nano-banana_unknownxunknown.png
+2025-08-27 18:57:20 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 1.14.1.txt
+2025-08-27 18:57:20 | INFO     | src.processing.processor:process_all:103 - Processing combination 14/69: 03.layer1_extracted/1/1.14.0/1.14.1/1.14.1.txt + nano-banana
+2025-08-27 18:57:20 | DEBUG    | src.processing.processor:_process_file_model_combination:177 - Added prefix to prompt: cinematic style shot of 
+2025-08-27 18:57:20 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added suffix to prompt: Shot on 35mm film.
+2025-08-27 18:57:20 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/1/1.14.0/1.14.1/1.14.1.txt: cinematic style shot of  An overhead stock-style v...
+2025-08-27 18:57:20 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 18:58:10 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 18:58:14 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/1/1.14.0/1.14.1/1.14.1_185810_nano-banana_unknownxunknown.png
+2025-08-27 18:58:14 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/1/1.14.0/1.14.1/1.14.1_185810_nano-banana_unknownxunknown.json
+2025-08-27 18:58:14 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 1.14.1_185810_nano-banana_unknownxunknown.png
+2025-08-27 18:58:14 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 1.15.1.txt
+2025-08-27 18:58:14 | INFO     | src.processing.processor:process_all:103 - Processing combination 15/69: 03.layer1_extracted/1/1.15.0/1.15.1/1.15.1.txt + nano-banana
+2025-08-27 18:58:14 | DEBUG    | src.processing.processor:_process_file_model_combination:177 - Added prefix to prompt: cinematic style shot of 
+2025-08-27 18:58:14 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added suffix to prompt: Shot on 35mm film.
+2025-08-27 18:58:14 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/1/1.15.0/1.15.1/1.15.1.txt: cinematic style shot of  Wide shot of a joyful Asi...
+2025-08-27 18:58:14 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 18:58:42 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 18:58:44 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/1/1.15.0/1.15.1/1.15.1_185842_nano-banana_unknownxunknown.png
+2025-08-27 18:58:44 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/1/1.15.0/1.15.1/1.15.1_185842_nano-banana_unknownxunknown.json
+2025-08-27 18:58:44 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 1.15.1_185842_nano-banana_unknownxunknown.png
+2025-08-27 18:58:44 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 2.1.1.txt
+2025-08-27 18:58:44 | INFO     | src.processing.processor:process_all:103 - Processing combination 16/69: 03.layer1_extracted/2/2.1.0/2.1.1/2.1.1.txt + nano-banana
+2025-08-27 18:58:44 | DEBUG    | src.processing.processor:_process_file_model_combination:177 - Added prefix to prompt: cinematic style shot of 
+2025-08-27 18:58:44 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added suffix to prompt: Shot on 35mm film.
+2025-08-27 18:58:44 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/2/2.1.0/2.1.1/2.1.1.txt: cinematic style shot of  A realistic stock-style p...
+2025-08-27 18:58:44 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 18:59:27 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 18:59:30 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/2/2.1.0/2.1.1/2.1.1_185927_nano-banana_unknownxunknown.png
+2025-08-27 18:59:30 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/2/2.1.0/2.1.1/2.1.1_185927_nano-banana_unknownxunknown.json
+2025-08-27 18:59:30 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 2.1.1_185927_nano-banana_unknownxunknown.png
+2025-08-27 18:59:30 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 2.2.1.txt
+2025-08-27 18:59:30 | INFO     | src.processing.processor:process_all:103 - Processing combination 17/69: 03.layer1_extracted/2/2.2.0/2.2.1/2.2.1.txt + nano-banana
+2025-08-27 18:59:30 | DEBUG    | src.processing.processor:_process_file_model_combination:177 - Added prefix to prompt: cinematic style shot of 
+2025-08-27 18:59:30 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added suffix to prompt: Shot on 35mm film.
+2025-08-27 18:59:30 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/2/2.2.0/2.2.1/2.2.1.txt: cinematic style shot of  A realistic, well-lit off...
+2025-08-27 18:59:30 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 19:00:02 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 19:00:06 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/2/2.2.0/2.2.1/2.2.1_190002_nano-banana_unknownxunknown.png
+2025-08-27 19:00:06 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/2/2.2.0/2.2.1/2.2.1_190002_nano-banana_unknownxunknown.json
+2025-08-27 19:00:06 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 2.2.1_190002_nano-banana_unknownxunknown.png
+2025-08-27 19:00:06 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 2.3.1.txt
+2025-08-27 19:00:06 | INFO     | src.processing.processor:process_all:103 - Processing combination 18/69: 03.layer1_extracted/2/2.3.0/2.3.1/2.3.1.txt + nano-banana
+2025-08-27 19:00:06 | DEBUG    | src.processing.processor:_process_file_model_combination:177 - Added prefix to prompt: cinematic style shot of 
+2025-08-27 19:00:06 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added suffix to prompt: Shot on 35mm film.
+2025-08-27 19:00:06 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/2/2.3.0/2.3.1/2.3.1.txt: cinematic style shot of  A friendly, modern Japane...
+2025-08-27 19:00:06 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 19:00:41 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 19:00:44 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/2/2.3.0/2.3.1/2.3.1_190041_nano-banana_unknownxunknown.png
+2025-08-27 19:00:44 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/2/2.3.0/2.3.1/2.3.1_190041_nano-banana_unknownxunknown.json
+2025-08-27 19:00:44 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 2.3.1_190041_nano-banana_unknownxunknown.png
+2025-08-27 19:00:44 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 2.4.1.txt
+2025-08-27 19:00:44 | INFO     | src.processing.processor:process_all:103 - Processing combination 19/69: 03.layer1_extracted/2/2.4.0/2.4.1/2.4.1.txt + nano-banana
+2025-08-27 19:00:44 | DEBUG    | src.processing.processor:_process_file_model_combination:177 - Added prefix to prompt: cinematic style shot of 
+2025-08-27 19:00:44 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added suffix to prompt: Shot on 35mm film.
+2025-08-27 19:00:44 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/2/2.4.0/2.4.1/2.4.1.txt: cinematic style shot of  A close-up shot of two As...
+2025-08-27 19:00:44 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 19:01:21 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 19:01:23 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/2/2.4.0/2.4.1/2.4.1_190121_nano-banana_unknownxunknown.png
+2025-08-27 19:01:23 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/2/2.4.0/2.4.1/2.4.1_190121_nano-banana_unknownxunknown.json
+2025-08-27 19:01:23 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 2.4.1_190121_nano-banana_unknownxunknown.png
+2025-08-27 19:01:23 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 2.5.1.txt
+2025-08-27 19:01:23 | INFO     | src.processing.processor:process_all:103 - Processing combination 20/69: 03.layer1_extracted/2/2.5.0/2.5.1/2.5.1.txt + nano-banana
+2025-08-27 19:01:23 | DEBUG    | src.processing.processor:_process_file_model_combination:177 - Added prefix to prompt: cinematic style shot of 
+2025-08-27 19:01:23 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added suffix to prompt: Shot on 35mm film.
+2025-08-27 19:01:23 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/2/2.5.0/2.5.1/2.5.1.txt: cinematic style shot of  A modern, organized Japan...
+2025-08-27 19:01:23 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 19:01:56 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 19:01:59 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/2/2.5.0/2.5.1/2.5.1_190156_nano-banana_unknownxunknown.png
+2025-08-27 19:01:59 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/2/2.5.0/2.5.1/2.5.1_190156_nano-banana_unknownxunknown.json
+2025-08-27 19:01:59 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 2.5.1_190156_nano-banana_unknownxunknown.png
+2025-08-27 19:01:59 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 2.6.1.txt
+2025-08-27 19:01:59 | INFO     | src.processing.processor:process_all:103 - Processing combination 21/69: 03.layer1_extracted/2/2.6.0/2.6.1/2.6.1.txt + nano-banana
+2025-08-27 19:01:59 | DEBUG    | src.processing.processor:_process_file_model_combination:177 - Added prefix to prompt: cinematic style shot of 
+2025-08-27 19:01:59 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added suffix to prompt: Shot on 35mm film.
+2025-08-27 19:01:59 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/2/2.6.0/2.6.1/2.6.1.txt: cinematic style shot of  A bright, minimalist offi...
+2025-08-27 19:01:59 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 19:02:44 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 19:02:46 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/2/2.6.0/2.6.1/2.6.1_190244_nano-banana_unknownxunknown.png
+2025-08-27 19:02:46 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/2/2.6.0/2.6.1/2.6.1_190244_nano-banana_unknownxunknown.json
+2025-08-27 19:02:46 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 2.6.1_190244_nano-banana_unknownxunknown.png
+2025-08-27 19:02:46 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 2.7.1.txt
+2025-08-27 19:02:46 | INFO     | src.processing.processor:process_all:103 - Processing combination 22/69: 03.layer1_extracted/2/2.7.0/2.7.1/2.7.1.txt + nano-banana
+2025-08-27 19:02:46 | DEBUG    | src.processing.processor:_process_file_model_combination:177 - Added prefix to prompt: cinematic style shot of 
+2025-08-27 19:02:46 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added suffix to prompt: Shot on 35mm film.
+2025-08-27 19:02:46 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/2/2.7.0/2.7.1/2.7.1.txt: cinematic style shot of  A modern desk with two As...
+2025-08-27 19:02:46 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 19:03:30 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 19:03:32 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/2/2.7.0/2.7.1/2.7.1_190330_nano-banana_unknownxunknown.png
+2025-08-27 19:03:32 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/2/2.7.0/2.7.1/2.7.1_190330_nano-banana_unknownxunknown.json
+2025-08-27 19:03:32 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 2.7.1_190330_nano-banana_unknownxunknown.png
+2025-08-27 19:03:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 2.8.1.txt
+2025-08-27 19:03:32 | INFO     | src.processing.processor:process_all:103 - Processing combination 23/69: 03.layer1_extracted/2/2.8.0/2.8.1/2.8.1.txt + nano-banana
+2025-08-27 19:03:32 | DEBUG    | src.processing.processor:_process_file_model_combination:177 - Added prefix to prompt: cinematic style shot of 
+2025-08-27 19:03:32 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added suffix to prompt: Shot on 35mm film.
+2025-08-27 19:03:32 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/2/2.8.0/2.8.1/2.8.1.txt: cinematic style shot of  A bright meeting room whe...
+2025-08-27 19:03:32 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 19:04:27 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 19:04:29 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/2/2.8.0/2.8.1/2.8.1_190427_nano-banana_unknownxunknown.png
+2025-08-27 19:04:29 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/2/2.8.0/2.8.1/2.8.1_190427_nano-banana_unknownxunknown.json
+2025-08-27 19:04:29 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 2.8.1_190427_nano-banana_unknownxunknown.png
+2025-08-27 19:04:29 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 2.9.1.txt
+2025-08-27 19:04:29 | INFO     | src.processing.processor:process_all:103 - Processing combination 24/69: 03.layer1_extracted/2/2.9.0/2.9.1/2.9.1.txt + nano-banana
+2025-08-27 19:04:29 | DEBUG    | src.processing.processor:_process_file_model_combination:177 - Added prefix to prompt: cinematic style shot of 
+2025-08-27 19:04:29 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added suffix to prompt: Shot on 35mm film.
+2025-08-27 19:04:29 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/2/2.9.0/2.9.1/2.9.1.txt: cinematic style shot of  Clean, modern office with...
+2025-08-27 19:04:29 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 19:05:13 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 19:05:16 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/2/2.9.0/2.9.1/2.9.1_190513_nano-banana_unknownxunknown.png
+2025-08-27 19:05:16 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/2/2.9.0/2.9.1/2.9.1_190513_nano-banana_unknownxunknown.json
+2025-08-27 19:05:16 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 2.9.1_190513_nano-banana_unknownxunknown.png
+2025-08-27 19:05:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 2.10.1.txt
+2025-08-27 19:05:16 | INFO     | src.processing.processor:process_all:103 - Processing combination 25/69: 03.layer1_extracted/2/2.10.0/2.10.1/2.10.1.txt + nano-banana
+2025-08-27 19:05:16 | DEBUG    | src.processing.processor:_process_file_model_combination:177 - Added prefix to prompt: cinematic style shot of 
+2025-08-27 19:05:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added suffix to prompt: Shot on 35mm film.
+2025-08-27 19:05:16 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/2/2.10.0/2.10.1/2.10.1.txt: cinematic style shot of  A realistic, wide office ...
+2025-08-27 19:05:16 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 19:05:59 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 19:06:03 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/2/2.10.0/2.10.1/2.10.1_190559_nano-banana_unknownxunknown.png
+2025-08-27 19:06:03 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/2/2.10.0/2.10.1/2.10.1_190559_nano-banana_unknownxunknown.json
+2025-08-27 19:06:03 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 2.10.1_190559_nano-banana_unknownxunknown.png
+2025-08-27 19:06:03 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 3.1.1.txt
+2025-08-27 19:06:03 | INFO     | src.processing.processor:process_all:103 - Processing combination 26/69: 03.layer1_extracted/3/3.1.0/3.1.1/3.1.1.txt + nano-banana
+2025-08-27 19:06:03 | DEBUG    | src.processing.processor:_process_file_model_combination:177 - Added prefix to prompt: cinematic style shot of 
+2025-08-27 19:06:03 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added suffix to prompt: Shot on 35mm film.
+2025-08-27 19:06:03 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/3/3.1.0/3.1.1/3.1.1.txt: cinematic style shot of  A warm, modern Japanese o...
+2025-08-27 19:06:03 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 19:06:48 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 19:06:51 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/3/3.1.0/3.1.1/3.1.1_190648_nano-banana_unknownxunknown.png
+2025-08-27 19:06:51 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/3/3.1.0/3.1.1/3.1.1_190648_nano-banana_unknownxunknown.json
+2025-08-27 19:06:51 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 3.1.1_190648_nano-banana_unknownxunknown.png
+2025-08-27 19:06:51 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 3.2.1.txt
+2025-08-27 19:06:51 | INFO     | src.processing.processor:process_all:103 - Processing combination 27/69: 03.layer1_extracted/3/3.2.0/3.2.1/3.2.1.txt + nano-banana
+2025-08-27 19:06:51 | DEBUG    | src.processing.processor:_process_file_model_combination:177 - Added prefix to prompt: cinematic style shot of 
+2025-08-27 19:06:51 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added suffix to prompt: Shot on 35mm film.
+2025-08-27 19:06:51 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/3/3.2.0/3.2.1/3.2.1.txt: cinematic style shot of  A realistic close-up of t...
+2025-08-27 19:06:51 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 19:07:27 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 19:07:32 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/3/3.2.0/3.2.1/3.2.1_190727_nano-banana_unknownxunknown.png
+2025-08-27 19:07:32 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/3/3.2.0/3.2.1/3.2.1_190727_nano-banana_unknownxunknown.json
+2025-08-27 19:07:32 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 3.2.1_190727_nano-banana_unknownxunknown.png
+2025-08-27 19:07:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 3.3.1.txt
+2025-08-27 19:07:32 | INFO     | src.processing.processor:process_all:103 - Processing combination 28/69: 03.layer1_extracted/3/3.3.0/3.3.1/3.3.1.txt + nano-banana
+2025-08-27 19:07:32 | DEBUG    | src.processing.processor:_process_file_model_combination:177 - Added prefix to prompt: cinematic style shot of 
+2025-08-27 19:07:32 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added suffix to prompt: Shot on 35mm film.
+2025-08-27 19:07:32 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/3/3.3.0/3.3.1/3.3.1.txt: cinematic style shot of  A well-lit, contemporary ...
+2025-08-27 19:07:32 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 19:08:44 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 19:08:46 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/3/3.3.0/3.3.1/3.3.1_190844_nano-banana_unknownxunknown.png
+2025-08-27 19:08:46 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/3/3.3.0/3.3.1/3.3.1_190844_nano-banana_unknownxunknown.json
+2025-08-27 19:08:46 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 3.3.1_190844_nano-banana_unknownxunknown.png
+2025-08-27 19:08:46 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 3.4.1.txt
+2025-08-27 19:08:46 | INFO     | src.processing.processor:process_all:103 - Processing combination 29/69: 03.layer1_extracted/3/3.4.0/3.4.1/3.4.1.txt + nano-banana
+2025-08-27 19:08:46 | DEBUG    | src.processing.processor:_process_file_model_combination:177 - Added prefix to prompt: cinematic style shot of 
+2025-08-27 19:08:46 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added suffix to prompt: Shot on 35mm film.
+2025-08-27 19:08:46 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/3/3.4.0/3.4.1/3.4.1.txt: cinematic style shot of  A realistic shot of two A...
+2025-08-27 19:08:46 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 19:09:34 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 19:09:36 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/3/3.4.0/3.4.1/3.4.1_190934_nano-banana_unknownxunknown.png
+2025-08-27 19:09:36 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/3/3.4.0/3.4.1/3.4.1_190934_nano-banana_unknownxunknown.json
+2025-08-27 19:09:36 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 3.4.1_190934_nano-banana_unknownxunknown.png
+2025-08-27 19:09:36 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 3.5.1.txt
+2025-08-27 19:09:36 | INFO     | src.processing.processor:process_all:103 - Processing combination 30/69: 03.layer1_extracted/3/3.5.0/3.5.1/3.5.1.txt + nano-banana
+2025-08-27 19:09:36 | DEBUG    | src.processing.processor:_process_file_model_combination:177 - Added prefix to prompt: cinematic style shot of 
+2025-08-27 19:09:36 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added suffix to prompt: Shot on 35mm film.
+2025-08-27 19:09:36 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/3/3.5.0/3.5.1/3.5.1.txt: cinematic style shot of  A modern Japanese office ...
+2025-08-27 19:09:36 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 19:10:16 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 19:10:22 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/3/3.5.0/3.5.1/3.5.1_191016_nano-banana_unknownxunknown.png
+2025-08-27 19:10:22 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/3/3.5.0/3.5.1/3.5.1_191016_nano-banana_unknownxunknown.json
+2025-08-27 19:10:22 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 3.5.1_191016_nano-banana_unknownxunknown.png
+2025-08-27 19:10:22 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 3.6.1.txt
+2025-08-27 19:10:22 | INFO     | src.processing.processor:process_all:103 - Processing combination 31/69: 03.layer1_extracted/3/3.6.0/3.6.1/3.6.1.txt + nano-banana
+2025-08-27 19:10:22 | DEBUG    | src.processing.processor:_process_file_model_combination:177 - Added prefix to prompt: cinematic style shot of 
+2025-08-27 19:10:22 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added suffix to prompt: Shot on 35mm film.
+2025-08-27 19:10:22 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/3/3.6.0/3.6.1/3.6.1.txt: cinematic style shot of  A bright, orderly workspa...
+2025-08-27 19:10:22 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 19:11:18 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 19:11:20 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/3/3.6.0/3.6.1/3.6.1_191118_nano-banana_unknownxunknown.png
+2025-08-27 19:11:20 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/3/3.6.0/3.6.1/3.6.1_191118_nano-banana_unknownxunknown.json
+2025-08-27 19:11:20 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 3.6.1_191118_nano-banana_unknownxunknown.png
+2025-08-27 19:11:20 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 3.7.1.txt
+2025-08-27 19:11:20 | INFO     | src.processing.processor:process_all:103 - Processing combination 32/69: 03.layer1_extracted/3/3.7.0/3.7.1/3.7.1.txt + nano-banana
+2025-08-27 19:11:20 | DEBUG    | src.processing.processor:_process_file_model_combination:177 - Added prefix to prompt: cinematic style shot of 
+2025-08-27 19:11:20 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added suffix to prompt: Shot on 35mm film.
+2025-08-27 19:11:20 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/3/3.7.0/3.7.1/3.7.1.txt: cinematic style shot of  A neutral, clutter-free o...
+2025-08-27 19:11:20 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 19:12:04 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 19:12:07 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/3/3.7.0/3.7.1/3.7.1_191204_nano-banana_unknownxunknown.png
+2025-08-27 19:12:07 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/3/3.7.0/3.7.1/3.7.1_191204_nano-banana_unknownxunknown.json
+2025-08-27 19:12:07 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 3.7.1_191204_nano-banana_unknownxunknown.png
+2025-08-27 19:12:07 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 3.8.1.txt
+2025-08-27 19:12:07 | INFO     | src.processing.processor:process_all:103 - Processing combination 33/69: 03.layer1_extracted/3/3.8.0/3.8.1/3.8.1.txt + nano-banana
+2025-08-27 19:12:07 | DEBUG    | src.processing.processor:_process_file_model_combination:177 - Added prefix to prompt: cinematic style shot of 
+2025-08-27 19:12:07 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added suffix to prompt: Shot on 35mm film.
+2025-08-27 19:12:07 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/3/3.8.0/3.8.1/3.8.1.txt: cinematic style shot of  A clear, hopeful Japanese...
+2025-08-27 19:12:07 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 19:13:18 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 19:13:22 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/3/3.8.0/3.8.1/3.8.1_191318_nano-banana_unknownxunknown.png
+2025-08-27 19:13:22 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/3/3.8.0/3.8.1/3.8.1_191318_nano-banana_unknownxunknown.json
+2025-08-27 19:13:22 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 3.8.1_191318_nano-banana_unknownxunknown.png
+2025-08-27 19:13:22 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 3.9.1.txt
+2025-08-27 19:13:22 | INFO     | src.processing.processor:process_all:103 - Processing combination 34/69: 03.layer1_extracted/3/3.9.0/3.9.1/3.9.1.txt + nano-banana
+2025-08-27 19:13:22 | DEBUG    | src.processing.processor:_process_file_model_combination:177 - Added prefix to prompt: cinematic style shot of 
+2025-08-27 19:13:22 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added suffix to prompt: Shot on 35mm film.
+2025-08-27 19:13:22 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/3/3.9.0/3.9.1/3.9.1.txt: cinematic style shot of  A collaborative, clean ta...
+2025-08-27 19:13:22 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 19:14:09 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 19:14:12 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/3/3.9.0/3.9.1/3.9.1_191409_nano-banana_unknownxunknown.png
+2025-08-27 19:14:12 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/3/3.9.0/3.9.1/3.9.1_191409_nano-banana_unknownxunknown.json
+2025-08-27 19:14:12 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 3.9.1_191409_nano-banana_unknownxunknown.png
+2025-08-27 19:14:12 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 3.10.1.txt
+2025-08-27 19:14:12 | INFO     | src.processing.processor:process_all:103 - Processing combination 35/69: 03.layer1_extracted/3/3.10.0/3.10.1/3.10.1.txt + nano-banana
+2025-08-27 19:14:12 | DEBUG    | src.processing.processor:_process_file_model_combination:177 - Added prefix to prompt: cinematic style shot of 
+2025-08-27 19:14:12 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added suffix to prompt: Shot on 35mm film.
+2025-08-27 19:14:12 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/3/3.10.0/3.10.1/3.10.1.txt: cinematic style shot of  A welcoming, sunlight-fil...
+2025-08-27 19:14:12 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 19:14:53 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 19:14:57 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/3/3.10.0/3.10.1/3.10.1_191453_nano-banana_unknownxunknown.png
+2025-08-27 19:14:57 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/3/3.10.0/3.10.1/3.10.1_191453_nano-banana_unknownxunknown.json
+2025-08-27 19:14:57 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 3.10.1_191453_nano-banana_unknownxunknown.png
+2025-08-27 19:14:57 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 3.11.1.txt
+2025-08-27 19:14:57 | INFO     | src.processing.processor:process_all:103 - Processing combination 36/69: 03.layer1_extracted/3/3.11.0/3.11.1/3.11.1.txt + nano-banana
+2025-08-27 19:14:57 | DEBUG    | src.processing.processor:_process_file_model_combination:177 - Added prefix to prompt: cinematic style shot of 
+2025-08-27 19:14:57 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added suffix to prompt: Shot on 35mm film.
+2025-08-27 19:14:57 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/3/3.11.0/3.11.1/3.11.1.txt: cinematic style shot of  A modern Japanese office ...
+2025-08-27 19:14:57 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 19:15:36 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 19:15:39 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/3/3.11.0/3.11.1/3.11.1_191536_nano-banana_unknownxunknown.png
+2025-08-27 19:15:39 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/3/3.11.0/3.11.1/3.11.1_191536_nano-banana_unknownxunknown.json
+2025-08-27 19:15:39 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 3.11.1_191536_nano-banana_unknownxunknown.png
+2025-08-27 19:15:39 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 3.12.1.txt
+2025-08-27 19:15:39 | INFO     | src.processing.processor:process_all:103 - Processing combination 37/69: 03.layer1_extracted/3/3.12.0/3.12.1/3.12.1.txt + nano-banana
+2025-08-27 19:15:39 | DEBUG    | src.processing.processor:_process_file_model_combination:177 - Added prefix to prompt: cinematic style shot of 
+2025-08-27 19:15:39 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added suffix to prompt: Shot on 35mm film.
+2025-08-27 19:15:39 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/3/3.12.0/3.12.1/3.12.1.txt: cinematic style shot of  A cheerful, modern office...
+2025-08-27 19:15:39 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 19:16:13 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 19:16:16 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/3/3.12.0/3.12.1/3.12.1_191613_nano-banana_unknownxunknown.png
+2025-08-27 19:16:16 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/3/3.12.0/3.12.1/3.12.1_191613_nano-banana_unknownxunknown.json
+2025-08-27 19:16:16 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 3.12.1_191613_nano-banana_unknownxunknown.png
+2025-08-27 19:16:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 4.1.1.txt
+2025-08-27 19:16:16 | INFO     | src.processing.processor:process_all:103 - Processing combination 38/69: 03.layer1_extracted/4/4.1.0/4.1.1/4.1.1.txt + nano-banana
+2025-08-27 19:16:16 | DEBUG    | src.processing.processor:_process_file_model_combination:177 - Added prefix to prompt: cinematic style shot of 
+2025-08-27 19:16:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added suffix to prompt: Shot on 35mm film.
+2025-08-27 19:16:16 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/4/4.1.0/4.1.1/4.1.1.txt: cinematic style shot of  A realistic, well-lit Jap...
+2025-08-27 19:16:16 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 19:17:01 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 19:17:05 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/4/4.1.0/4.1.1/4.1.1_191701_nano-banana_unknownxunknown.png
+2025-08-27 19:17:05 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/4/4.1.0/4.1.1/4.1.1_191701_nano-banana_unknownxunknown.json
+2025-08-27 19:17:05 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 4.1.1_191701_nano-banana_unknownxunknown.png
+2025-08-27 19:17:05 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 4.2.1.txt
+2025-08-27 19:17:05 | INFO     | src.processing.processor:process_all:103 - Processing combination 39/69: 03.layer1_extracted/4/4.2.0/4.2.1/4.2.1.txt + nano-banana
+2025-08-27 19:17:05 | DEBUG    | src.processing.processor:_process_file_model_combination:177 - Added prefix to prompt: cinematic style shot of 
+2025-08-27 19:17:05 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added suffix to prompt: Shot on 35mm film.
+2025-08-27 19:17:05 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/4/4.2.0/4.2.1/4.2.1.txt: cinematic style shot of  A modern conference room ...
+2025-08-27 19:17:05 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 19:17:40 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 19:17:42 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/4/4.2.0/4.2.1/4.2.1_191740_nano-banana_unknownxunknown.png
+2025-08-27 19:17:42 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/4/4.2.0/4.2.1/4.2.1_191740_nano-banana_unknownxunknown.json
+2025-08-27 19:17:42 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 4.2.1_191740_nano-banana_unknownxunknown.png
+2025-08-27 19:17:42 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 4.3.1.txt
+2025-08-27 19:17:42 | INFO     | src.processing.processor:process_all:103 - Processing combination 40/69: 03.layer1_extracted/4/4.3.0/4.3.1/4.3.1.txt + nano-banana
+2025-08-27 19:17:42 | DEBUG    | src.processing.processor:_process_file_model_combination:177 - Added prefix to prompt: cinematic style shot of 
+2025-08-27 19:17:42 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added suffix to prompt: Shot on 35mm film.
+2025-08-27 19:17:42 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/4/4.3.0/4.3.1/4.3.1.txt: cinematic style shot of  A bright, modern meeting ...
+2025-08-27 19:17:42 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 19:18:26 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 19:18:29 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/4/4.3.0/4.3.1/4.3.1_191826_nano-banana_unknownxunknown.png
+2025-08-27 19:18:29 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/4/4.3.0/4.3.1/4.3.1_191826_nano-banana_unknownxunknown.json
+2025-08-27 19:18:29 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 4.3.1_191826_nano-banana_unknownxunknown.png
+2025-08-27 19:18:29 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 4.4.1.txt
+2025-08-27 19:18:29 | INFO     | src.processing.processor:process_all:103 - Processing combination 41/69: 03.layer1_extracted/4/4.4.0/4.4.1/4.4.1.txt + nano-banana
+2025-08-27 19:18:29 | DEBUG    | src.processing.processor:_process_file_model_combination:177 - Added prefix to prompt: cinematic style shot of 
+2025-08-27 19:18:29 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added suffix to prompt: Shot on 35mm film.
+2025-08-27 19:18:29 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/4/4.4.0/4.4.1/4.4.1.txt: cinematic style shot of  A boardroom environment w...
+2025-08-27 19:18:29 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 19:19:03 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 19:19:07 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/4/4.4.0/4.4.1/4.4.1_191903_nano-banana_unknownxunknown.png
+2025-08-27 19:19:07 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/4/4.4.0/4.4.1/4.4.1_191903_nano-banana_unknownxunknown.json
+2025-08-27 19:19:07 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 4.4.1_191903_nano-banana_unknownxunknown.png
+2025-08-27 19:19:07 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 4.5.1.txt
+2025-08-27 19:19:07 | INFO     | src.processing.processor:process_all:103 - Processing combination 42/69: 03.layer1_extracted/4/4.5.0/4.5.1/4.5.1.txt + nano-banana
+2025-08-27 19:19:07 | DEBUG    | src.processing.processor:_process_file_model_combination:177 - Added prefix to prompt: cinematic style shot of 
+2025-08-27 19:19:07 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added suffix to prompt: Shot on 35mm film.
+2025-08-27 19:19:07 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/4/4.5.0/4.5.1/4.5.1.txt: cinematic style shot of  A simple modern Japanese ...
+2025-08-27 19:19:07 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 19:19:43 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 19:19:46 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/4/4.5.0/4.5.1/4.5.1_191943_nano-banana_unknownxunknown.png
+2025-08-27 19:19:46 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/4/4.5.0/4.5.1/4.5.1_191943_nano-banana_unknownxunknown.json
+2025-08-27 19:19:46 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 4.5.1_191943_nano-banana_unknownxunknown.png
+2025-08-27 19:19:46 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 4.6.1.txt
+2025-08-27 19:19:46 | INFO     | src.processing.processor:process_all:103 - Processing combination 43/69: 03.layer1_extracted/4/4.6.0/4.6.1/4.6.1.txt + nano-banana
+2025-08-27 19:19:46 | DEBUG    | src.processing.processor:_process_file_model_combination:177 - Added prefix to prompt: cinematic style shot of 
+2025-08-27 19:19:46 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added suffix to prompt: Shot on 35mm film.
+2025-08-27 19:19:46 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/4/4.6.0/4.6.1/4.6.1.txt: cinematic style shot of  A softly lit Japanese wor...
+2025-08-27 19:19:46 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 19:20:33 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 19:20:37 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/4/4.6.0/4.6.1/4.6.1_192033_nano-banana_unknownxunknown.png
+2025-08-27 19:20:37 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/4/4.6.0/4.6.1/4.6.1_192033_nano-banana_unknownxunknown.json
+2025-08-27 19:20:37 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 4.6.1_192033_nano-banana_unknownxunknown.png
+2025-08-27 19:20:37 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 4.7.1.txt
+2025-08-27 19:20:37 | INFO     | src.processing.processor:process_all:103 - Processing combination 44/69: 03.layer1_extracted/4/4.7.0/4.7.1/4.7.1.txt + nano-banana
+2025-08-27 19:20:37 | DEBUG    | src.processing.processor:_process_file_model_combination:177 - Added prefix to prompt: cinematic style shot of 
+2025-08-27 19:20:37 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added suffix to prompt: Shot on 35mm film.
+2025-08-27 19:20:37 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/4/4.7.0/4.7.1/4.7.1.txt: cinematic style shot of  A modern open office with...
+2025-08-27 19:20:37 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 19:21:09 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 19:21:11 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/4/4.7.0/4.7.1/4.7.1_192109_nano-banana_unknownxunknown.png
+2025-08-27 19:21:11 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/4/4.7.0/4.7.1/4.7.1_192109_nano-banana_unknownxunknown.json
+2025-08-27 19:21:11 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 4.7.1_192109_nano-banana_unknownxunknown.png
+2025-08-27 19:21:11 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 4.8.1.txt
+2025-08-27 19:21:11 | INFO     | src.processing.processor:process_all:103 - Processing combination 45/69: 03.layer1_extracted/4/4.8.0/4.8.1/4.8.1.txt + nano-banana
+2025-08-27 19:21:11 | DEBUG    | src.processing.processor:_process_file_model_combination:177 - Added prefix to prompt: cinematic style shot of 
+2025-08-27 19:21:11 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added suffix to prompt: Shot on 35mm film.
+2025-08-27 19:21:11 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/4/4.8.0/4.8.1/4.8.1.txt: cinematic style shot of  A contemporary Japanese o...
+2025-08-27 19:21:11 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 19:21:59 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 19:22:02 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/4/4.8.0/4.8.1/4.8.1_192159_nano-banana_unknownxunknown.png
+2025-08-27 19:22:02 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/4/4.8.0/4.8.1/4.8.1_192159_nano-banana_unknownxunknown.json
+2025-08-27 19:22:02 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 4.8.1_192159_nano-banana_unknownxunknown.png
+2025-08-27 19:22:02 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 4.9.1.txt
+2025-08-27 19:22:02 | INFO     | src.processing.processor:process_all:103 - Processing combination 46/69: 03.layer1_extracted/4/4.9.0/4.9.1/4.9.1.txt + nano-banana
+2025-08-27 19:22:02 | DEBUG    | src.processing.processor:_process_file_model_combination:177 - Added prefix to prompt: cinematic style shot of 
+2025-08-27 19:22:02 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added suffix to prompt: Shot on 35mm film.
+2025-08-27 19:22:02 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/4/4.9.0/4.9.1/4.9.1.txt: cinematic style shot of  A supportive Japanese off...
+2025-08-27 19:22:02 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 19:22:53 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 19:22:57 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/4/4.9.0/4.9.1/4.9.1_192253_nano-banana_unknownxunknown.png
+2025-08-27 19:22:57 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/4/4.9.0/4.9.1/4.9.1_192253_nano-banana_unknownxunknown.json
+2025-08-27 19:22:57 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 4.9.1_192253_nano-banana_unknownxunknown.png
+2025-08-27 19:22:57 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 4.10.1.txt
+2025-08-27 19:22:57 | INFO     | src.processing.processor:process_all:103 - Processing combination 47/69: 03.layer1_extracted/4/4.10.0/4.10.1/4.10.1.txt + nano-banana
+2025-08-27 19:22:57 | DEBUG    | src.processing.processor:_process_file_model_combination:177 - Added prefix to prompt: cinematic style shot of 
+2025-08-27 19:22:57 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added suffix to prompt: Shot on 35mm film.
+2025-08-27 19:22:57 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/4/4.10.0/4.10.1/4.10.1.txt: cinematic style shot of  A modern boardroom, with ...
+2025-08-27 19:22:57 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 19:23:35 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 19:23:38 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/4/4.10.0/4.10.1/4.10.1_192335_nano-banana_unknownxunknown.png
+2025-08-27 19:23:38 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/4/4.10.0/4.10.1/4.10.1_192335_nano-banana_unknownxunknown.json
+2025-08-27 19:23:38 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 4.10.1_192335_nano-banana_unknownxunknown.png
+2025-08-27 19:23:38 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 4.11.1.txt
+2025-08-27 19:23:38 | INFO     | src.processing.processor:process_all:103 - Processing combination 48/69: 03.layer1_extracted/4/4.11.0/4.11.1/4.11.1.txt + nano-banana
+2025-08-27 19:23:38 | DEBUG    | src.processing.processor:_process_file_model_combination:177 - Added prefix to prompt: cinematic style shot of 
+2025-08-27 19:23:38 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added suffix to prompt: Shot on 35mm film.
+2025-08-27 19:23:38 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/4/4.11.0/4.11.1/4.11.1.txt: cinematic style shot of  A bright, inviting Japane...
+2025-08-27 19:23:38 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 19:24:26 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 19:24:29 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/4/4.11.0/4.11.1/4.11.1_192426_nano-banana_unknownxunknown.png
+2025-08-27 19:24:29 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/4/4.11.0/4.11.1/4.11.1_192426_nano-banana_unknownxunknown.json
+2025-08-27 19:24:29 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 4.11.1_192426_nano-banana_unknownxunknown.png
+2025-08-27 19:24:29 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 5.1.1.txt
+2025-08-27 19:24:29 | INFO     | src.processing.processor:process_all:103 - Processing combination 49/69: 03.layer1_extracted/5/5.1.0/5.1.1/5.1.1.txt + nano-banana
+2025-08-27 19:24:29 | DEBUG    | src.processing.processor:_process_file_model_combination:177 - Added prefix to prompt: cinematic style shot of 
+2025-08-27 19:24:29 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added suffix to prompt: Shot on 35mm film.
+2025-08-27 19:24:29 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/5/5.1.0/5.1.1/5.1.1.txt: cinematic style shot of  A realistic, well-lit Jap...
+2025-08-27 19:24:29 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 19:25:25 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 19:25:28 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/5/5.1.0/5.1.1/5.1.1_192525_nano-banana_unknownxunknown.png
+2025-08-27 19:25:28 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/5/5.1.0/5.1.1/5.1.1_192525_nano-banana_unknownxunknown.json
+2025-08-27 19:25:28 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 5.1.1_192525_nano-banana_unknownxunknown.png
+2025-08-27 19:25:28 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 5.2.1.txt
+2025-08-27 19:25:28 | INFO     | src.processing.processor:process_all:103 - Processing combination 50/69: 03.layer1_extracted/5/5.2.0/5.2.1/5.2.1.txt + nano-banana
+2025-08-27 19:25:28 | DEBUG    | src.processing.processor:_process_file_model_combination:177 - Added prefix to prompt: cinematic style shot of 
+2025-08-27 19:25:28 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added suffix to prompt: Shot on 35mm film.
+2025-08-27 19:25:28 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/5/5.2.0/5.2.1/5.2.1.txt: cinematic style shot of  A modern, bright office m...
+2025-08-27 19:25:28 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 19:26:07 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 19:26:11 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/5/5.2.0/5.2.1/5.2.1_192607_nano-banana_unknownxunknown.png
+2025-08-27 19:26:11 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/5/5.2.0/5.2.1/5.2.1_192607_nano-banana_unknownxunknown.json
+2025-08-27 19:26:11 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 5.2.1_192607_nano-banana_unknownxunknown.png
+2025-08-27 19:26:11 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 5.3.1.txt
+2025-08-27 19:26:11 | INFO     | src.processing.processor:process_all:103 - Processing combination 51/69: 03.layer1_extracted/5/5.3.0/5.3.1/5.3.1.txt + nano-banana
+2025-08-27 19:26:11 | DEBUG    | src.processing.processor:_process_file_model_combination:177 - Added prefix to prompt: cinematic style shot of 
+2025-08-27 19:26:11 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added suffix to prompt: Shot on 35mm film.
+2025-08-27 19:26:11 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/5/5.3.0/5.3.1/5.3.1.txt: cinematic style shot of  A close-up of two Asian p...
+2025-08-27 19:26:11 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 19:26:46 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 19:26:50 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/5/5.3.0/5.3.1/5.3.1_192646_nano-banana_unknownxunknown.png
+2025-08-27 19:26:50 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/5/5.3.0/5.3.1/5.3.1_192646_nano-banana_unknownxunknown.json
+2025-08-27 19:26:50 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 5.3.1_192646_nano-banana_unknownxunknown.png
+2025-08-27 19:26:50 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 5.4.1.txt
+2025-08-27 19:26:50 | INFO     | src.processing.processor:process_all:103 - Processing combination 52/69: 03.layer1_extracted/5/5.4.0/5.4.1/5.4.1.txt + nano-banana
+2025-08-27 19:26:50 | DEBUG    | src.processing.processor:_process_file_model_combination:177 - Added prefix to prompt: cinematic style shot of 
+2025-08-27 19:26:50 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added suffix to prompt: Shot on 35mm film.
+2025-08-27 19:26:50 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/5/5.4.0/5.4.1/5.4.1.txt: cinematic style shot of  An organized, realistic o...
+2025-08-27 19:26:50 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 19:27:30 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 19:27:33 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/5/5.4.0/5.4.1/5.4.1_192730_nano-banana_unknownxunknown.png
+2025-08-27 19:27:33 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/5/5.4.0/5.4.1/5.4.1_192730_nano-banana_unknownxunknown.json
+2025-08-27 19:27:33 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 5.4.1_192730_nano-banana_unknownxunknown.png
+2025-08-27 19:27:33 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 5.5.1.txt
+2025-08-27 19:27:33 | INFO     | src.processing.processor:process_all:103 - Processing combination 53/69: 03.layer1_extracted/5/5.5.0/5.5.1/5.5.1.txt + nano-banana
+2025-08-27 19:27:33 | DEBUG    | src.processing.processor:_process_file_model_combination:177 - Added prefix to prompt: cinematic style shot of 
+2025-08-27 19:27:33 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added suffix to prompt: Shot on 35mm film.
+2025-08-27 19:27:33 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/5/5.5.0/5.5.1/5.5.1.txt: cinematic style shot of  A bright, modern boardroo...
+2025-08-27 19:27:33 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 19:28:25 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 19:28:28 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/5/5.5.0/5.5.1/5.5.1_192825_nano-banana_unknownxunknown.png
+2025-08-27 19:28:28 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/5/5.5.0/5.5.1/5.5.1_192825_nano-banana_unknownxunknown.json
+2025-08-27 19:28:28 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 5.5.1_192825_nano-banana_unknownxunknown.png
+2025-08-27 19:28:28 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 5.6.1.txt
+2025-08-27 19:28:28 | INFO     | src.processing.processor:process_all:103 - Processing combination 54/69: 03.layer1_extracted/5/5.6.0/5.6.1/5.6.1.txt + nano-banana
+2025-08-27 19:28:28 | DEBUG    | src.processing.processor:_process_file_model_combination:177 - Added prefix to prompt: cinematic style shot of 
+2025-08-27 19:28:28 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added suffix to prompt: Shot on 35mm film.
+2025-08-27 19:28:28 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/5/5.6.0/5.6.1/5.6.1.txt: cinematic style shot of  A minimalist Japanese off...
+2025-08-27 19:28:28 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 19:29:11 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 19:29:13 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/5/5.6.0/5.6.1/5.6.1_192911_nano-banana_unknownxunknown.png
+2025-08-27 19:29:13 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/5/5.6.0/5.6.1/5.6.1_192911_nano-banana_unknownxunknown.json
+2025-08-27 19:29:13 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 5.6.1_192911_nano-banana_unknownxunknown.png
+2025-08-27 19:29:13 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 5.7.1.txt
+2025-08-27 19:29:13 | INFO     | src.processing.processor:process_all:103 - Processing combination 55/69: 03.layer1_extracted/5/5.7.0/5.7.1/5.7.1.txt + nano-banana
+2025-08-27 19:29:13 | DEBUG    | src.processing.processor:_process_file_model_combination:177 - Added prefix to prompt: cinematic style shot of 
+2025-08-27 19:29:13 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added suffix to prompt: Shot on 35mm film.
+2025-08-27 19:29:13 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/5/5.7.0/5.7.1/5.7.1.txt: cinematic style shot of  A clean conference space,...
+2025-08-27 19:29:13 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 19:29:55 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 19:29:57 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/5/5.7.0/5.7.1/5.7.1_192955_nano-banana_unknownxunknown.png
+2025-08-27 19:29:57 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/5/5.7.0/5.7.1/5.7.1_192955_nano-banana_unknownxunknown.json
+2025-08-27 19:29:57 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 5.7.1_192955_nano-banana_unknownxunknown.png
+2025-08-27 19:29:57 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 5.8.1.txt
+2025-08-27 19:29:57 | INFO     | src.processing.processor:process_all:103 - Processing combination 56/69: 03.layer1_extracted/5/5.8.0/5.8.1/5.8.1.txt + nano-banana
+2025-08-27 19:29:57 | DEBUG    | src.processing.processor:_process_file_model_combination:177 - Added prefix to prompt: cinematic style shot of 
+2025-08-27 19:29:57 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added suffix to prompt: Shot on 35mm film.
+2025-08-27 19:29:57 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/5/5.8.0/5.8.1/5.8.1.txt: cinematic style shot of  A bright, family-friendly...
+2025-08-27 19:29:57 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 19:30:39 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 19:30:43 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/5/5.8.0/5.8.1/5.8.1_193039_nano-banana_unknownxunknown.png
+2025-08-27 19:30:43 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/5/5.8.0/5.8.1/5.8.1_193039_nano-banana_unknownxunknown.json
+2025-08-27 19:30:43 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 5.8.1_193039_nano-banana_unknownxunknown.png
+2025-08-27 19:30:43 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 5.9.1.txt
+2025-08-27 19:30:43 | INFO     | src.processing.processor:process_all:103 - Processing combination 57/69: 03.layer1_extracted/5/5.9.0/5.9.1/5.9.1.txt + nano-banana
+2025-08-27 19:30:43 | DEBUG    | src.processing.processor:_process_file_model_combination:177 - Added prefix to prompt: cinematic style shot of 
+2025-08-27 19:30:43 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added suffix to prompt: Shot on 35mm film.
+2025-08-27 19:30:43 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/5/5.9.0/5.9.1/5.9.1.txt: cinematic style shot of  A modern office, two Asia...
+2025-08-27 19:30:43 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 19:31:15 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 19:31:19 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/5/5.9.0/5.9.1/5.9.1_193115_nano-banana_unknownxunknown.png
+2025-08-27 19:31:19 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/5/5.9.0/5.9.1/5.9.1_193115_nano-banana_unknownxunknown.json
+2025-08-27 19:31:19 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 5.9.1_193115_nano-banana_unknownxunknown.png
+2025-08-27 19:31:19 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 5.10.1.txt
+2025-08-27 19:31:19 | INFO     | src.processing.processor:process_all:103 - Processing combination 58/69: 03.layer1_extracted/5/5.10.0/5.10.1/5.10.1.txt + nano-banana
+2025-08-27 19:31:19 | DEBUG    | src.processing.processor:_process_file_model_combination:177 - Added prefix to prompt: cinematic style shot of 
+2025-08-27 19:31:19 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added suffix to prompt: Shot on 35mm film.
+2025-08-27 19:31:19 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/5/5.10.0/5.10.1/5.10.1.txt: cinematic style shot of  A collaborative workspace...
+2025-08-27 19:31:19 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 19:32:04 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 19:32:07 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/5/5.10.0/5.10.1/5.10.1_193204_nano-banana_unknownxunknown.png
+2025-08-27 19:32:07 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/5/5.10.0/5.10.1/5.10.1_193204_nano-banana_unknownxunknown.json
+2025-08-27 19:32:07 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 5.10.1_193204_nano-banana_unknownxunknown.png
+2025-08-27 19:32:07 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 6.1.1.txt
+2025-08-27 19:32:07 | INFO     | src.processing.processor:process_all:103 - Processing combination 59/69: 03.layer1_extracted/6/6.1.0/6.1.1/6.1.1.txt + nano-banana
+2025-08-27 19:32:07 | DEBUG    | src.processing.processor:_process_file_model_combination:177 - Added prefix to prompt: cinematic style shot of 
+2025-08-27 19:32:07 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added suffix to prompt: Shot on 35mm film.
+2025-08-27 19:32:07 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/6/6.1.0/6.1.1/6.1.1.txt: cinematic style shot of  A realistic, brightly-lit...
+2025-08-27 19:32:07 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 19:32:42 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 19:32:45 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/6/6.1.0/6.1.1/6.1.1_193242_nano-banana_unknownxunknown.png
+2025-08-27 19:32:45 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/6/6.1.0/6.1.1/6.1.1_193242_nano-banana_unknownxunknown.json
+2025-08-27 19:32:45 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 6.1.1_193242_nano-banana_unknownxunknown.png
+2025-08-27 19:32:45 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 6.2.1.txt
+2025-08-27 19:32:45 | INFO     | src.processing.processor:process_all:103 - Processing combination 60/69: 03.layer1_extracted/6/6.2.0/6.2.1/6.2.1.txt + nano-banana
+2025-08-27 19:32:45 | DEBUG    | src.processing.processor:_process_file_model_combination:177 - Added prefix to prompt: cinematic style shot of 
+2025-08-27 19:32:45 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added suffix to prompt: Shot on 35mm film.
+2025-08-27 19:32:45 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/6/6.2.0/6.2.1/6.2.1.txt: cinematic style shot of  An educational, clean off...
+2025-08-27 19:32:45 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 19:33:20 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 19:33:23 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/6/6.2.0/6.2.1/6.2.1_193320_nano-banana_unknownxunknown.png
+2025-08-27 19:33:23 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/6/6.2.0/6.2.1/6.2.1_193320_nano-banana_unknownxunknown.json
+2025-08-27 19:33:23 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 6.2.1_193320_nano-banana_unknownxunknown.png
+2025-08-27 19:33:23 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 6.3.1.txt
+2025-08-27 19:33:23 | INFO     | src.processing.processor:process_all:103 - Processing combination 61/69: 03.layer1_extracted/6/6.3.0/6.3.1/6.3.1.txt + nano-banana
+2025-08-27 19:33:23 | DEBUG    | src.processing.processor:_process_file_model_combination:177 - Added prefix to prompt: cinematic style shot of 
+2025-08-27 19:33:23 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added suffix to prompt: Shot on 35mm film.
+2025-08-27 19:33:23 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/6/6.3.0/6.3.1/6.3.1.txt: cinematic style shot of  A realistic, focused meet...
+2025-08-27 19:33:23 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 19:34:02 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 19:34:06 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/6/6.3.0/6.3.1/6.3.1_193402_nano-banana_unknownxunknown.png
+2025-08-27 19:34:06 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/6/6.3.0/6.3.1/6.3.1_193402_nano-banana_unknownxunknown.json
+2025-08-27 19:34:06 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 6.3.1_193402_nano-banana_unknownxunknown.png
+2025-08-27 19:34:06 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 6.4.1.txt
+2025-08-27 19:34:06 | INFO     | src.processing.processor:process_all:103 - Processing combination 62/69: 03.layer1_extracted/6/6.4.0/6.4.1/6.4.1.txt + nano-banana
+2025-08-27 19:34:06 | DEBUG    | src.processing.processor:_process_file_model_combination:177 - Added prefix to prompt: cinematic style shot of 
+2025-08-27 19:34:06 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added suffix to prompt: Shot on 35mm film.
+2025-08-27 19:34:06 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/6/6.4.0/6.4.1/6.4.1.txt: cinematic style shot of  A single, clean Japanese ...
+2025-08-27 19:34:06 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 19:34:47 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 19:34:53 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/6/6.4.0/6.4.1/6.4.1_193447_nano-banana_unknownxunknown.png
+2025-08-27 19:34:53 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/6/6.4.0/6.4.1/6.4.1_193447_nano-banana_unknownxunknown.json
+2025-08-27 19:34:53 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 6.4.1_193447_nano-banana_unknownxunknown.png
+2025-08-27 19:34:53 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 6.5.1.txt
+2025-08-27 19:34:53 | INFO     | src.processing.processor:process_all:103 - Processing combination 63/69: 03.layer1_extracted/6/6.5.0/6.5.1/6.5.1.txt + nano-banana
+2025-08-27 19:34:53 | DEBUG    | src.processing.processor:_process_file_model_combination:177 - Added prefix to prompt: cinematic style shot of 
+2025-08-27 19:34:53 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added suffix to prompt: Shot on 35mm film.
+2025-08-27 19:34:53 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/6/6.5.0/6.5.1/6.5.1.txt: cinematic style shot of  A well-lit, simple office...
+2025-08-27 19:34:53 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 19:35:34 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 19:35:38 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/6/6.5.0/6.5.1/6.5.1_193534_nano-banana_unknownxunknown.png
+2025-08-27 19:35:38 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/6/6.5.0/6.5.1/6.5.1_193534_nano-banana_unknownxunknown.json
+2025-08-27 19:35:38 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 6.5.1_193534_nano-banana_unknownxunknown.png
+2025-08-27 19:35:38 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 6.6.1.txt
+2025-08-27 19:35:38 | INFO     | src.processing.processor:process_all:103 - Processing combination 64/69: 03.layer1_extracted/6/6.6.0/6.6.1/6.6.1.txt + nano-banana
+2025-08-27 19:35:38 | DEBUG    | src.processing.processor:_process_file_model_combination:177 - Added prefix to prompt: cinematic style shot of 
+2025-08-27 19:35:38 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added suffix to prompt: Shot on 35mm film.
+2025-08-27 19:35:38 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/6/6.6.0/6.6.1/6.6.1.txt: cinematic style shot of  A realistic, neat workspa...
+2025-08-27 19:35:38 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 19:36:18 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 19:36:21 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/6/6.6.0/6.6.1/6.6.1_193618_nano-banana_unknownxunknown.png
+2025-08-27 19:36:21 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/6/6.6.0/6.6.1/6.6.1_193618_nano-banana_unknownxunknown.json
+2025-08-27 19:36:21 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 6.6.1_193618_nano-banana_unknownxunknown.png
+2025-08-27 19:36:21 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 6.7.1.txt
+2025-08-27 19:36:21 | INFO     | src.processing.processor:process_all:103 - Processing combination 65/69: 03.layer1_extracted/6/6.7.0/6.7.1/6.7.1.txt + nano-banana
+2025-08-27 19:36:21 | DEBUG    | src.processing.processor:_process_file_model_combination:177 - Added prefix to prompt: cinematic style shot of 
+2025-08-27 19:36:21 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added suffix to prompt: Shot on 35mm film.
+2025-08-27 19:36:21 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/6/6.7.0/6.7.1/6.7.1.txt: cinematic style shot of  A modern, bright office w...
+2025-08-27 19:36:21 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 19:37:08 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 19:37:10 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/6/6.7.0/6.7.1/6.7.1_193708_nano-banana_unknownxunknown.png
+2025-08-27 19:37:10 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/6/6.7.0/6.7.1/6.7.1_193708_nano-banana_unknownxunknown.json
+2025-08-27 19:37:10 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 6.7.1_193708_nano-banana_unknownxunknown.png
+2025-08-27 19:37:10 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 6.8.1.txt
+2025-08-27 19:37:10 | INFO     | src.processing.processor:process_all:103 - Processing combination 66/69: 03.layer1_extracted/6/6.8.0/6.8.1/6.8.1.txt + nano-banana
+2025-08-27 19:37:10 | DEBUG    | src.processing.processor:_process_file_model_combination:177 - Added prefix to prompt: cinematic style shot of 
+2025-08-27 19:37:10 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added suffix to prompt: Shot on 35mm film.
+2025-08-27 19:37:10 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/6/6.8.0/6.8.1/6.8.1.txt: cinematic style shot of  A realistic work setting ...
+2025-08-27 19:37:10 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 19:37:51 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 19:37:54 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/6/6.8.0/6.8.1/6.8.1_193751_nano-banana_unknownxunknown.png
+2025-08-27 19:37:54 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/6/6.8.0/6.8.1/6.8.1_193751_nano-banana_unknownxunknown.json
+2025-08-27 19:37:54 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 6.8.1_193751_nano-banana_unknownxunknown.png
+2025-08-27 19:37:54 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 6.9.1.txt
+2025-08-27 19:37:54 | INFO     | src.processing.processor:process_all:103 - Processing combination 67/69: 03.layer1_extracted/6/6.9.0/6.9.1/6.9.1.txt + nano-banana
+2025-08-27 19:37:54 | DEBUG    | src.processing.processor:_process_file_model_combination:177 - Added prefix to prompt: cinematic style shot of 
+2025-08-27 19:37:54 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added suffix to prompt: Shot on 35mm film.
+2025-08-27 19:37:54 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/6/6.9.0/6.9.1/6.9.1.txt: cinematic style shot of  A friendly, minimal Japan...
+2025-08-27 19:37:54 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 19:38:35 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 19:38:37 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/6/6.9.0/6.9.1/6.9.1_193835_nano-banana_unknownxunknown.png
+2025-08-27 19:38:37 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/6/6.9.0/6.9.1/6.9.1_193835_nano-banana_unknownxunknown.json
+2025-08-27 19:38:37 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 6.9.1_193835_nano-banana_unknownxunknown.png
+2025-08-27 19:38:37 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 6.10.1.txt
+2025-08-27 19:38:37 | INFO     | src.processing.processor:process_all:103 - Processing combination 68/69: 03.layer1_extracted/6/6.10.0/6.10.1/6.10.1.txt + nano-banana
+2025-08-27 19:38:37 | DEBUG    | src.processing.processor:_process_file_model_combination:177 - Added prefix to prompt: cinematic style shot of 
+2025-08-27 19:38:37 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added suffix to prompt: Shot on 35mm film.
+2025-08-27 19:38:37 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/6/6.10.0/6.10.1/6.10.1.txt: cinematic style shot of  A simple, modern desk vie...
+2025-08-27 19:38:37 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 19:39:31 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 19:39:34 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/6/6.10.0/6.10.1/6.10.1_193931_nano-banana_unknownxunknown.png
+2025-08-27 19:39:34 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/6/6.10.0/6.10.1/6.10.1_193931_nano-banana_unknownxunknown.json
+2025-08-27 19:39:34 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 6.10.1_193931_nano-banana_unknownxunknown.png
+2025-08-27 19:39:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 6.11.1.txt
+2025-08-27 19:39:34 | INFO     | src.processing.processor:process_all:103 - Processing combination 69/69: 03.layer1_extracted/6/6.11.0/6.11.1/6.11.1.txt + nano-banana
+2025-08-27 19:39:34 | DEBUG    | src.processing.processor:_process_file_model_combination:177 - Added prefix to prompt: cinematic style shot of 
+2025-08-27 19:39:34 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added suffix to prompt: Shot on 35mm film.
+2025-08-27 19:39:34 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/6/6.11.0/6.11.1/6.11.1.txt: cinematic style shot of  A well-lit and open Japan...
+2025-08-27 19:39:34 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 19:40:15 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 19:40:18 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/6/6.11.0/6.11.1/6.11.1_194015_nano-banana_unknownxunknown.png
+2025-08-27 19:40:18 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_184807/nano-banana/03.layer1_extracted/6/6.11.0/6.11.1/6.11.1_194015_nano-banana_unknownxunknown.json
+2025-08-27 19:40:18 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 6.11.1_194015_nano-banana_unknownxunknown.png
+2025-08-27 19:40:18 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 1.1.1.txt
+2025-08-27 19:40:18 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 1.2.1.txt
+2025-08-27 19:40:18 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 1.3.1.txt
+2025-08-27 19:40:18 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 1.4.1.txt
+2025-08-27 19:40:18 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 1.5.1.txt
+2025-08-27 19:40:18 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 1.6.1.txt
+2025-08-27 19:40:18 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 1.7.1.txt
+2025-08-27 19:40:18 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 1.8.1.txt
+2025-08-27 19:40:18 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 1.9.1.txt
+2025-08-27 19:40:18 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 1.10.1.txt
+2025-08-27 19:40:18 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 1.11.1.txt
+2025-08-27 19:40:18 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 1.12.1.txt
+2025-08-27 19:40:18 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 1.13.1.txt
+2025-08-27 19:40:18 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 1.14.1.txt
+2025-08-27 19:40:18 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 1.15.1.txt
+2025-08-27 19:40:18 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 2.1.1.txt
+2025-08-27 19:40:18 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 2.2.1.txt
+2025-08-27 19:40:18 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 2.3.1.txt
+2025-08-27 19:40:18 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 2.4.1.txt
+2025-08-27 19:40:18 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 2.5.1.txt
+2025-08-27 19:40:18 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 2.6.1.txt
+2025-08-27 19:40:18 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 2.7.1.txt
+2025-08-27 19:40:18 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 2.8.1.txt
+2025-08-27 19:40:18 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 2.9.1.txt
+2025-08-27 19:40:18 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 2.10.1.txt
+2025-08-27 19:40:18 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 3.1.1.txt
+2025-08-27 19:40:18 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 3.2.1.txt
+2025-08-27 19:40:18 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 3.3.1.txt
+2025-08-27 19:40:18 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 3.4.1.txt
+2025-08-27 19:40:18 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 3.5.1.txt
+2025-08-27 19:40:18 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 3.6.1.txt
+2025-08-27 19:40:18 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 3.7.1.txt
+2025-08-27 19:40:18 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 3.8.1.txt
+2025-08-27 19:40:18 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 3.9.1.txt
+2025-08-27 19:40:18 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 3.10.1.txt
+2025-08-27 19:40:18 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 3.11.1.txt
+2025-08-27 19:40:18 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 3.12.1.txt
+2025-08-27 19:40:18 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 4.1.1.txt
+2025-08-27 19:40:18 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 4.2.1.txt
+2025-08-27 19:40:18 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 4.3.1.txt
+2025-08-27 19:40:18 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 4.4.1.txt
+2025-08-27 19:40:18 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 4.5.1.txt
+2025-08-27 19:40:18 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 4.6.1.txt
+2025-08-27 19:40:18 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 4.7.1.txt
+2025-08-27 19:40:18 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 4.8.1.txt
+2025-08-27 19:40:18 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 4.9.1.txt
+2025-08-27 19:40:18 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 4.10.1.txt
+2025-08-27 19:40:18 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 4.11.1.txt
+2025-08-27 19:40:18 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 5.1.1.txt
+2025-08-27 19:40:18 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 5.2.1.txt
+2025-08-27 19:40:18 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 5.3.1.txt
+2025-08-27 19:40:18 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 5.4.1.txt
+2025-08-27 19:40:18 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 5.5.1.txt
+2025-08-27 19:40:18 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 5.6.1.txt
+2025-08-27 19:40:18 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 5.7.1.txt
+2025-08-27 19:40:18 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 5.8.1.txt
+2025-08-27 19:40:18 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 5.9.1.txt
+2025-08-27 19:40:18 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 5.10.1.txt
+2025-08-27 19:40:18 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 6.1.1.txt
+2025-08-27 19:40:18 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 6.2.1.txt
+2025-08-27 19:40:18 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 6.3.1.txt
+2025-08-27 19:40:18 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 6.4.1.txt
+2025-08-27 19:40:18 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 6.5.1.txt
+2025-08-27 19:40:18 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 6.6.1.txt
+2025-08-27 19:40:18 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 6.7.1.txt
+2025-08-27 19:40:18 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 6.8.1.txt
+2025-08-27 19:40:18 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 6.9.1.txt
+2025-08-27 19:40:18 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 6.10.1.txt
+2025-08-27 19:40:18 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 6.11.1.txt
+2025-08-27 19:40:18 | INFO     | src.output.writer:write_report:152 - Wrote report: USER-FILES/05.OUTPUT/250827_184807/COST.md
+2025-08-27 19:40:18 | INFO     | src.output.writer:write_report:152 - Wrote report: USER-FILES/05.OUTPUT/250827_184807/SUCCESS.md
+2025-08-27 19:40:18 | INFO     | src.output.writer:write_report:152 - Wrote report: USER-FILES/05.OUTPUT/250827_184807/FIX.md
+2025-08-27 19:40:18 | INFO     | src.output.reporter:save_reports:234 - FIX.md report generated with prompt fixes
+2025-08-27 19:40:18 | INFO     | src.output.reporter:save_reports:236 - Reports generated successfully
+2025-08-27 19:40:18 | SUCCESS  | __main__:main:201 - ✅ Completed successfully! Generated 69 images

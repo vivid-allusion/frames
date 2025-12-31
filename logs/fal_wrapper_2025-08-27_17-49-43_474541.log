@@ -1,0 +1,385 @@
+2025-08-27 17:49:43 | INFO     | src.utils.logging:setup_logging:39 - Logging configured (verbose=False, debug=False)
+2025-08-27 17:49:43 | INFO     | __main__:main:75 - Loading configuration...
+2025-08-27 17:49:43 | INFO     | src.config.loader:load_config:42 - Loaded configuration from USER-FILES/01.CONFIG/config.yaml
+2025-08-27 17:49:43 | INFO     | __main__:main:80 - Authenticating...
+2025-08-27 17:49:43 | DEBUG    | src.auth.env:get_fal_api_key_from_env:19 - Loaded environment from /Users/ruben/08_-_DEVELOPMENT/ISOF_IMAGE_WORKFLOW/00.fal-text->image-tool/.env
+2025-08-27 17:49:43 | INFO     | src.auth.env:get_fal_api_key_from_env:25 - Successfully retrieved FAL API key from environment
+2025-08-27 17:49:43 | INFO     | __main__:main:84 - Discovering inputs...
+2025-08-27 17:49:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/5/5.2.0/5.2.1/5.2.1.txt
+2025-08-27 17:49:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/5/5.8.0/5.8.1/5.8.1.txt
+2025-08-27 17:49:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/5/5.6.0/5.6.1/5.6.1.txt
+2025-08-27 17:49:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/5/5.1.0/5.1.1/5.1.1.txt
+2025-08-27 17:49:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/5/5.5.0/5.5.1/5.5.1.txt
+2025-08-27 17:49:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/5/5.10.0/5.10.1/5.10.1.txt
+2025-08-27 17:49:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/5/5.4.0/5.4.1/5.4.1.txt
+2025-08-27 17:49:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/5/5.9.0/5.9.1/5.9.1.txt
+2025-08-27 17:49:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/5/5.3.0/5.3.1/5.3.1.txt
+2025-08-27 17:49:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/5/5.7.0/5.7.1/5.7.1.txt
+2025-08-27 17:49:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/2/2.8.0/2.8.1/2.8.1.txt
+2025-08-27 17:49:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/2/2.2.0/2.2.1/2.2.1.txt
+2025-08-27 17:49:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/2/2.6.0/2.6.1/2.6.1.txt
+2025-08-27 17:49:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/2/2.1.0/2.1.1/2.1.1.txt
+2025-08-27 17:49:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/2/2.5.0/2.5.1/2.5.1.txt
+2025-08-27 17:49:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/2/2.4.0/2.4.1/2.4.1.txt
+2025-08-27 17:49:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/2/2.3.0/2.3.1/2.3.1.txt
+2025-08-27 17:49:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/2/2.9.0/2.9.1/2.9.1.txt
+2025-08-27 17:49:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/2/2.10.0/2.10.1/2.10.1.txt
+2025-08-27 17:49:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/2/2.7.0/2.7.1/2.7.1.txt
+2025-08-27 17:49:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/3/3.2.0/3.2.1/3.2.1.txt
+2025-08-27 17:49:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/3/3.8.0/3.8.1/3.8.1.txt
+2025-08-27 17:49:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/3/3.6.0/3.6.1/3.6.1.txt
+2025-08-27 17:49:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/3/3.11.0/3.11.1/3.11.1.txt
+2025-08-27 17:49:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/3/3.1.0/3.1.1/3.1.1.txt
+2025-08-27 17:49:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/3/3.5.0/3.5.1/3.5.1.txt
+2025-08-27 17:49:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/3/3.12.0/3.12.1/3.12.1.txt
+2025-08-27 17:49:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/3/3.4.0/3.4.1/3.4.1.txt
+2025-08-27 17:49:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/3/3.9.0/3.9.1/3.9.1.txt
+2025-08-27 17:49:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/3/3.3.0/3.3.1/3.3.1.txt
+2025-08-27 17:49:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/3/3.7.0/3.7.1/3.7.1.txt
+2025-08-27 17:49:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/3/3.10.0/3.10.1/3.10.1.txt
+2025-08-27 17:49:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/4/4.8.0/4.8.1/4.8.1.txt
+2025-08-27 17:49:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/4/4.2.0/4.2.1/4.2.1.txt
+2025-08-27 17:49:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/4/4.6.0/4.6.1/4.6.1.txt
+2025-08-27 17:49:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/4/4.11.0/4.11.1/4.11.1.txt
+2025-08-27 17:49:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/4/4.1.0/4.1.1/4.1.1.txt
+2025-08-27 17:49:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/4/4.5.0/4.5.1/4.5.1.txt
+2025-08-27 17:49:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/4/4.10.0/4.10.1/4.10.1.txt
+2025-08-27 17:49:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/4/4.4.0/4.4.1/4.4.1.txt
+2025-08-27 17:49:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/4/4.3.0/4.3.1/4.3.1.txt
+2025-08-27 17:49:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/4/4.9.0/4.9.1/4.9.1.txt
+2025-08-27 17:49:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/4/4.7.0/4.7.1/4.7.1.txt
+2025-08-27 17:49:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/1/1.6.0/1.6.1/1.6.1.txt
+2025-08-27 17:49:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/1/1.8.0/1.8.1/1.8.1.txt
+2025-08-27 17:49:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/1/1.2.0/1.2.1/1.2.1.txt
+2025-08-27 17:49:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/1/1.10.0/1.10.1/1.10.1.txt
+2025-08-27 17:49:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/1/1.14.0/1.14.1/1.14.1.txt
+2025-08-27 17:49:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/1/1.5.0/1.5.1/1.5.1.txt
+2025-08-27 17:49:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/1/1.1.0/1.1.1/1.1.1.txt
+2025-08-27 17:49:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/1/1.13.0/1.13.1/1.13.1.txt
+2025-08-27 17:49:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/1/1.4.0/1.4.1/1.4.1.txt
+2025-08-27 17:49:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/1/1.12.0/1.12.1/1.12.1.txt
+2025-08-27 17:49:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/1/1.7.0/1.7.1/1.7.1.txt
+2025-08-27 17:49:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/1/1.3.0/1.3.1/1.3.1.txt
+2025-08-27 17:49:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/1/1.9.0/1.9.1/1.9.1.txt
+2025-08-27 17:49:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/1/1.11.0/1.11.1/1.11.1.txt
+2025-08-27 17:49:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/1/1.15.0/1.15.1/1.15.1.txt
+2025-08-27 17:49:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/6/6.6.0/6.6.1/6.6.1.txt
+2025-08-27 17:49:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/6/6.2.0/6.2.1/6.2.1.txt
+2025-08-27 17:49:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/6/6.8.0/6.8.1/6.8.1.txt
+2025-08-27 17:49:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/6/6.10.0/6.10.1/6.10.1.txt
+2025-08-27 17:49:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/6/6.5.0/6.5.1/6.5.1.txt
+2025-08-27 17:49:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/6/6.1.0/6.1.1/6.1.1.txt
+2025-08-27 17:49:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/6/6.11.0/6.11.1/6.11.1.txt
+2025-08-27 17:49:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/6/6.4.0/6.4.1/6.4.1.txt
+2025-08-27 17:49:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/6/6.7.0/6.7.1/6.7.1.txt
+2025-08-27 17:49:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/6/6.9.0/6.9.1/6.9.1.txt
+2025-08-27 17:49:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 03.layer1_extracted/6/6.3.0/6.3.1/6.3.1.txt
+2025-08-27 17:49:43 | INFO     | src.processing.discovery:discover_prompt_files:45 - Discovered 69 prompt files
+2025-08-27 17:49:43 | DEBUG    | src.processing.discovery:discover_profiles:93 - Loaded profile: USER-FILES/03.PROFILES/gpt_image_2x3.yaml
+2025-08-27 17:49:43 | INFO     | src.processing.discovery:discover_profiles:97 - Loaded 1 profiles
+2025-08-27 17:49:43 | INFO     | src.processing.discovery:get_active_models:130 - Found profile: gpt_image_2x3
+2025-08-27 17:49:43 | INFO     | src.processing.discovery:get_active_models:135 - Total profiles to process: 1
+2025-08-27 17:49:43 | INFO     | src.config.validator:validate_all:26 - All configuration validation passed
+2025-08-27 17:49:43 | INFO     | __main__:main:104 - Output directory: USER-FILES/05.OUTPUT/250827_174943
+2025-08-27 17:49:43 | INFO     | __main__:main:166 - Starting matrix processing...
+2025-08-27 17:49:43 | INFO     | src.processing.processor:process_all:68 - Processing 69 combinations (69 files × 1 profiles)
+2025-08-27 17:49:43 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 1.1.1.txt
+2025-08-27 17:49:43 | INFO     | src.processing.processor:process_all:103 - Processing combination 1/69: 03.layer1_extracted/1/1.1.0/1.1.1/1.1.1.txt + gpt_image_2x3
+2025-08-27 17:49:43 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/1/1.1.0/1.1.1/1.1.1.txt: A realistic stock-style photo showing a well-lit, ...
+2025-08-27 17:49:43 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 17:50:53 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 17:50:56 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_174943/gpt_image_2x3/03.layer1_extracted/1/1.1.0/1.1.1/1.1.1_175053_gpt_image_2x3_1024x1536xauto.webp
+2025-08-27 17:50:56 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_174943/gpt_image_2x3/03.layer1_extracted/1/1.1.0/1.1.1/1.1.1_175053_gpt_image_2x3_1024x1536xauto.json
+2025-08-27 17:50:56 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 1.1.1_175053_gpt_image_2x3_1024x1536xauto.webp
+2025-08-27 17:50:56 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 1.2.1.txt
+2025-08-27 17:50:56 | INFO     | src.processing.processor:process_all:103 - Processing combination 2/69: 03.layer1_extracted/1/1.2.0/1.2.1/1.2.1.txt + gpt_image_2x3
+2025-08-27 17:50:56 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/1/1.2.0/1.2.1/1.2.1.txt: Realistic stock imagery of three Asian employees i...
+2025-08-27 17:50:56 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 17:52:21 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 17:52:25 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_174943/gpt_image_2x3/03.layer1_extracted/1/1.2.0/1.2.1/1.2.1_175221_gpt_image_2x3_1024x1536xauto.webp
+2025-08-27 17:52:25 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_174943/gpt_image_2x3/03.layer1_extracted/1/1.2.0/1.2.1/1.2.1_175221_gpt_image_2x3_1024x1536xauto.json
+2025-08-27 17:52:25 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 1.2.1_175221_gpt_image_2x3_1024x1536xauto.webp
+2025-08-27 17:52:25 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 1.3.1.txt
+2025-08-27 17:52:25 | INFO     | src.processing.processor:process_all:103 - Processing combination 3/69: 03.layer1_extracted/1/1.3.0/1.3.1/1.3.1.txt + gpt_image_2x3
+2025-08-27 17:52:25 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/1/1.3.0/1.3.1/1.3.1.txt: A realistic scene in a glass-walled Japanese meeti...
+2025-08-27 17:52:25 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 17:54:15 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 17:54:17 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_174943/gpt_image_2x3/03.layer1_extracted/1/1.3.0/1.3.1/1.3.1_175415_gpt_image_2x3_1024x1536xauto.webp
+2025-08-27 17:54:17 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_174943/gpt_image_2x3/03.layer1_extracted/1/1.3.0/1.3.1/1.3.1_175415_gpt_image_2x3_1024x1536xauto.json
+2025-08-27 17:54:17 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 1.3.1_175415_gpt_image_2x3_1024x1536xauto.webp
+2025-08-27 17:54:17 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 1.4.1.txt
+2025-08-27 17:54:17 | INFO     | src.processing.processor:process_all:103 - Processing combination 4/69: 03.layer1_extracted/1/1.4.0/1.4.1/1.4.1.txt + gpt_image_2x3
+2025-08-27 17:54:17 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/1/1.4.0/1.4.1/1.4.1.txt: A neat, realistic office setting with two Asian te...
+2025-08-27 17:54:17 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 17:55:50 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 17:55:52 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_174943/gpt_image_2x3/03.layer1_extracted/1/1.4.0/1.4.1/1.4.1_175550_gpt_image_2x3_1024x1536xauto.webp
+2025-08-27 17:55:52 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_174943/gpt_image_2x3/03.layer1_extracted/1/1.4.0/1.4.1/1.4.1_175550_gpt_image_2x3_1024x1536xauto.json
+2025-08-27 17:55:52 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 1.4.1_175550_gpt_image_2x3_1024x1536xauto.webp
+2025-08-27 17:55:52 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 1.5.1.txt
+2025-08-27 17:55:52 | INFO     | src.processing.processor:process_all:103 - Processing combination 5/69: 03.layer1_extracted/1/1.5.0/1.5.1/1.5.1.txt + gpt_image_2x3
+2025-08-27 17:55:52 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/1/1.5.0/1.5.1/1.5.1.txt: A realistic image of an Asian woman in business ca...
+2025-08-27 17:55:52 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 17:57:08 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 17:57:16 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_174943/gpt_image_2x3/03.layer1_extracted/1/1.5.0/1.5.1/1.5.1_175708_gpt_image_2x3_1024x1536xauto.webp
+2025-08-27 17:57:16 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_174943/gpt_image_2x3/03.layer1_extracted/1/1.5.0/1.5.1/1.5.1_175708_gpt_image_2x3_1024x1536xauto.json
+2025-08-27 17:57:16 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 1.5.1_175708_gpt_image_2x3_1024x1536xauto.webp
+2025-08-27 17:57:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 1.6.1.txt
+2025-08-27 17:57:16 | INFO     | src.processing.processor:process_all:103 - Processing combination 6/69: 03.layer1_extracted/1/1.6.0/1.6.1/1.6.1.txt + gpt_image_2x3
+2025-08-27 17:57:16 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/1/1.6.0/1.6.1/1.6.1.txt: An over-the-shoulder, realistic view of an Asian p...
+2025-08-27 17:57:16 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 17:58:28 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 17:58:31 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_174943/gpt_image_2x3/03.layer1_extracted/1/1.6.0/1.6.1/1.6.1_175828_gpt_image_2x3_1024x1536xauto.webp
+2025-08-27 17:58:31 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_174943/gpt_image_2x3/03.layer1_extracted/1/1.6.0/1.6.1/1.6.1_175828_gpt_image_2x3_1024x1536xauto.json
+2025-08-27 17:58:31 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 1.6.1_175828_gpt_image_2x3_1024x1536xauto.webp
+2025-08-27 17:58:31 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 1.7.1.txt
+2025-08-27 17:58:31 | INFO     | src.processing.processor:process_all:103 - Processing combination 7/69: 03.layer1_extracted/1/1.7.0/1.7.1/1.7.1.txt + gpt_image_2x3
+2025-08-27 17:58:31 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/1/1.7.0/1.7.1/1.7.1.txt: A realistic office scene with three Asian coworker...
+2025-08-27 17:58:31 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 18:00:02 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 18:00:05 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_174943/gpt_image_2x3/03.layer1_extracted/1/1.7.0/1.7.1/1.7.1_180002_gpt_image_2x3_1024x1536xauto.webp
+2025-08-27 18:00:05 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_174943/gpt_image_2x3/03.layer1_extracted/1/1.7.0/1.7.1/1.7.1_180002_gpt_image_2x3_1024x1536xauto.json
+2025-08-27 18:00:05 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 1.7.1_180002_gpt_image_2x3_1024x1536xauto.webp
+2025-08-27 18:00:05 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 1.8.1.txt
+2025-08-27 18:00:05 | INFO     | src.processing.processor:process_all:103 - Processing combination 8/69: 03.layer1_extracted/1/1.8.0/1.8.1/1.8.1.txt + gpt_image_2x3
+2025-08-27 18:00:05 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/1/1.8.0/1.8.1/1.8.1.txt: In a clean, modern office, an Asian manager explai...
+2025-08-27 18:00:05 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 18:01:36 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 18:01:38 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_174943/gpt_image_2x3/03.layer1_extracted/1/1.8.0/1.8.1/1.8.1_180136_gpt_image_2x3_1024x1536xauto.webp
+2025-08-27 18:01:38 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_174943/gpt_image_2x3/03.layer1_extracted/1/1.8.0/1.8.1/1.8.1_180136_gpt_image_2x3_1024x1536xauto.json
+2025-08-27 18:01:38 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 1.8.1_180136_gpt_image_2x3_1024x1536xauto.webp
+2025-08-27 18:01:38 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 1.9.1.txt
+2025-08-27 18:01:38 | INFO     | src.processing.processor:process_all:103 - Processing combination 9/69: 03.layer1_extracted/1/1.9.0/1.9.1/1.9.1.txt + gpt_image_2x3
+2025-08-27 18:01:38 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/1/1.9.0/1.9.1/1.9.1.txt: A polished boardroom with three Asian professional...
+2025-08-27 18:01:38 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 18:03:18 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 18:03:22 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_174943/gpt_image_2x3/03.layer1_extracted/1/1.9.0/1.9.1/1.9.1_180318_gpt_image_2x3_1024x1536xauto.webp
+2025-08-27 18:03:22 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_174943/gpt_image_2x3/03.layer1_extracted/1/1.9.0/1.9.1/1.9.1_180318_gpt_image_2x3_1024x1536xauto.json
+2025-08-27 18:03:22 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 1.9.1_180318_gpt_image_2x3_1024x1536xauto.webp
+2025-08-27 18:03:22 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 1.10.1.txt
+2025-08-27 18:03:22 | INFO     | src.processing.processor:process_all:103 - Processing combination 10/69: 03.layer1_extracted/1/1.10.0/1.10.1/1.10.1.txt + gpt_image_2x3
+2025-08-27 18:03:22 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/1/1.10.0/1.10.1/1.10.1.txt: Two Asian analysts in their 30s analyze a large, c...
+2025-08-27 18:03:22 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 18:04:31 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 18:04:33 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_174943/gpt_image_2x3/03.layer1_extracted/1/1.10.0/1.10.1/1.10.1_180431_gpt_image_2x3_1024x1536xauto.webp
+2025-08-27 18:04:33 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_174943/gpt_image_2x3/03.layer1_extracted/1/1.10.0/1.10.1/1.10.1_180431_gpt_image_2x3_1024x1536xauto.json
+2025-08-27 18:04:33 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 1.10.1_180431_gpt_image_2x3_1024x1536xauto.webp
+2025-08-27 18:04:33 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 1.11.1.txt
+2025-08-27 18:04:33 | INFO     | src.processing.processor:process_all:103 - Processing combination 11/69: 03.layer1_extracted/1/1.11.0/1.11.1/1.11.1.txt + gpt_image_2x3
+2025-08-27 18:04:33 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/1/1.11.0/1.11.1/1.11.1.txt: A close-up image of two Asian project leads at a t...
+2025-08-27 18:04:33 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 18:06:07 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 18:06:09 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_174943/gpt_image_2x3/03.layer1_extracted/1/1.11.0/1.11.1/1.11.1_180607_gpt_image_2x3_1024x1536xauto.webp
+2025-08-27 18:06:09 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_174943/gpt_image_2x3/03.layer1_extracted/1/1.11.0/1.11.1/1.11.1_180607_gpt_image_2x3_1024x1536xauto.json
+2025-08-27 18:06:09 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 1.11.1_180607_gpt_image_2x3_1024x1536xauto.webp
+2025-08-27 18:06:09 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 1.12.1.txt
+2025-08-27 18:06:09 | INFO     | src.processing.processor:process_all:103 - Processing combination 12/69: 03.layer1_extracted/1/1.12.0/1.12.1/1.12.1.txt + gpt_image_2x3
+2025-08-27 18:06:09 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/1/1.12.0/1.12.1/1.12.1.txt: A conference room setting where three Asian profes...
+2025-08-27 18:06:09 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 18:07:35 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 18:07:37 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_174943/gpt_image_2x3/03.layer1_extracted/1/1.12.0/1.12.1/1.12.1_180735_gpt_image_2x3_1024x1536xauto.webp
+2025-08-27 18:07:37 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_174943/gpt_image_2x3/03.layer1_extracted/1/1.12.0/1.12.1/1.12.1_180735_gpt_image_2x3_1024x1536xauto.json
+2025-08-27 18:07:37 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 1.12.1_180735_gpt_image_2x3_1024x1536xauto.webp
+2025-08-27 18:07:37 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 1.13.1.txt
+2025-08-27 18:07:37 | INFO     | src.processing.processor:process_all:103 - Processing combination 13/69: 03.layer1_extracted/1/1.13.0/1.13.1/1.13.1.txt + gpt_image_2x3
+2025-08-27 18:07:37 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/1/1.13.0/1.13.1/1.13.1.txt: A realistic meeting room with two Asian managers i...
+2025-08-27 18:07:37 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 18:08:48 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 18:08:52 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_174943/gpt_image_2x3/03.layer1_extracted/1/1.13.0/1.13.1/1.13.1_180848_gpt_image_2x3_1024x1536xauto.webp
+2025-08-27 18:08:52 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_174943/gpt_image_2x3/03.layer1_extracted/1/1.13.0/1.13.1/1.13.1_180848_gpt_image_2x3_1024x1536xauto.json
+2025-08-27 18:08:52 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 1.13.1_180848_gpt_image_2x3_1024x1536xauto.webp
+2025-08-27 18:08:52 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 1.14.1.txt
+2025-08-27 18:08:52 | INFO     | src.processing.processor:process_all:103 - Processing combination 14/69: 03.layer1_extracted/1/1.14.0/1.14.1/1.14.1.txt + gpt_image_2x3
+2025-08-27 18:08:52 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/1/1.14.0/1.14.1/1.14.1.txt: An overhead stock-style view of a desk with an ope...
+2025-08-27 18:08:52 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 18:10:13 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 18:10:16 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_174943/gpt_image_2x3/03.layer1_extracted/1/1.14.0/1.14.1/1.14.1_181013_gpt_image_2x3_1024x1536xauto.webp
+2025-08-27 18:10:16 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_174943/gpt_image_2x3/03.layer1_extracted/1/1.14.0/1.14.1/1.14.1_181013_gpt_image_2x3_1024x1536xauto.json
+2025-08-27 18:10:16 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 1.14.1_181013_gpt_image_2x3_1024x1536xauto.webp
+2025-08-27 18:10:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 1.15.1.txt
+2025-08-27 18:10:16 | INFO     | src.processing.processor:process_all:103 - Processing combination 15/69: 03.layer1_extracted/1/1.15.0/1.15.1/1.15.1.txt + gpt_image_2x3
+2025-08-27 18:10:16 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/1/1.15.0/1.15.1/1.15.1.txt: Wide shot of a joyful Asian project team of four, ...
+2025-08-27 18:10:16 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 18:11:35 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 18:11:37 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_174943/gpt_image_2x3/03.layer1_extracted/1/1.15.0/1.15.1/1.15.1_181135_gpt_image_2x3_1024x1536xauto.webp
+2025-08-27 18:11:37 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_174943/gpt_image_2x3/03.layer1_extracted/1/1.15.0/1.15.1/1.15.1_181135_gpt_image_2x3_1024x1536xauto.json
+2025-08-27 18:11:37 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 1.15.1_181135_gpt_image_2x3_1024x1536xauto.webp
+2025-08-27 18:11:37 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 2.1.1.txt
+2025-08-27 18:11:37 | INFO     | src.processing.processor:process_all:103 - Processing combination 16/69: 03.layer1_extracted/2/2.1.0/2.1.1/2.1.1.txt + gpt_image_2x3
+2025-08-27 18:11:37 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/2/2.1.0/2.1.1/2.1.1.txt: A realistic stock-style photo of a modern Japanese...
+2025-08-27 18:11:37 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 18:12:52 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 18:12:54 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_174943/gpt_image_2x3/03.layer1_extracted/2/2.1.0/2.1.1/2.1.1_181252_gpt_image_2x3_1024x1536xauto.webp
+2025-08-27 18:12:54 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_174943/gpt_image_2x3/03.layer1_extracted/2/2.1.0/2.1.1/2.1.1_181252_gpt_image_2x3_1024x1536xauto.json
+2025-08-27 18:12:54 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 2.1.1_181252_gpt_image_2x3_1024x1536xauto.webp
+2025-08-27 18:12:54 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 2.2.1.txt
+2025-08-27 18:12:54 | INFO     | src.processing.processor:process_all:103 - Processing combination 17/69: 03.layer1_extracted/2/2.2.0/2.2.1/2.2.1.txt + gpt_image_2x3
+2025-08-27 18:12:54 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/2/2.2.0/2.2.1/2.2.1.txt: A realistic, well-lit office with two Asian team m...
+2025-08-27 18:12:54 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 18:14:13 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 18:14:15 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_174943/gpt_image_2x3/03.layer1_extracted/2/2.2.0/2.2.1/2.2.1_181413_gpt_image_2x3_1024x1536xauto.webp
+2025-08-27 18:14:15 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_174943/gpt_image_2x3/03.layer1_extracted/2/2.2.0/2.2.1/2.2.1_181413_gpt_image_2x3_1024x1536xauto.json
+2025-08-27 18:14:15 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 2.2.1_181413_gpt_image_2x3_1024x1536xauto.webp
+2025-08-27 18:14:15 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 2.3.1.txt
+2025-08-27 18:14:15 | INFO     | src.processing.processor:process_all:103 - Processing combination 18/69: 03.layer1_extracted/2/2.3.0/2.3.1/2.3.1.txt + gpt_image_2x3
+2025-08-27 18:14:15 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/2/2.3.0/2.3.1/2.3.1.txt: A friendly, modern Japanese office setting with tw...
+2025-08-27 18:14:15 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 18:15:51 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 18:15:53 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_174943/gpt_image_2x3/03.layer1_extracted/2/2.3.0/2.3.1/2.3.1_181551_gpt_image_2x3_1024x1536xauto.webp
+2025-08-27 18:15:53 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_174943/gpt_image_2x3/03.layer1_extracted/2/2.3.0/2.3.1/2.3.1_181551_gpt_image_2x3_1024x1536xauto.json
+2025-08-27 18:15:53 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 2.3.1_181551_gpt_image_2x3_1024x1536xauto.webp
+2025-08-27 18:15:53 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 2.4.1.txt
+2025-08-27 18:15:53 | INFO     | src.processing.processor:process_all:103 - Processing combination 19/69: 03.layer1_extracted/2/2.4.0/2.4.1/2.4.1.txt + gpt_image_2x3
+2025-08-27 18:15:53 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/2/2.4.0/2.4.1/2.4.1.txt: A close-up shot of two Asian professionals’ hands ...
+2025-08-27 18:15:53 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 18:17:04 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 18:17:08 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_174943/gpt_image_2x3/03.layer1_extracted/2/2.4.0/2.4.1/2.4.1_181704_gpt_image_2x3_1024x1536xauto.webp
+2025-08-27 18:17:08 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_174943/gpt_image_2x3/03.layer1_extracted/2/2.4.0/2.4.1/2.4.1_181704_gpt_image_2x3_1024x1536xauto.json
+2025-08-27 18:17:08 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 2.4.1_181704_gpt_image_2x3_1024x1536xauto.webp
+2025-08-27 18:17:08 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 2.5.1.txt
+2025-08-27 18:17:08 | INFO     | src.processing.processor:process_all:103 - Processing combination 20/69: 03.layer1_extracted/2/2.5.0/2.5.1/2.5.1.txt + gpt_image_2x3
+2025-08-27 18:17:08 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/2/2.5.0/2.5.1/2.5.1.txt: A modern, organized Japanese workspace featuring t...
+2025-08-27 18:17:08 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 18:18:22 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 18:18:25 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_174943/gpt_image_2x3/03.layer1_extracted/2/2.5.0/2.5.1/2.5.1_181822_gpt_image_2x3_1024x1536xauto.webp
+2025-08-27 18:18:25 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_174943/gpt_image_2x3/03.layer1_extracted/2/2.5.0/2.5.1/2.5.1_181822_gpt_image_2x3_1024x1536xauto.json
+2025-08-27 18:18:25 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 2.5.1_181822_gpt_image_2x3_1024x1536xauto.webp
+2025-08-27 18:18:25 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 2.6.1.txt
+2025-08-27 18:18:25 | INFO     | src.processing.processor:process_all:103 - Processing combination 21/69: 03.layer1_extracted/2/2.6.0/2.6.1/2.6.1.txt + gpt_image_2x3
+2025-08-27 18:18:25 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/2/2.6.0/2.6.1/2.6.1.txt: A bright, minimalist office scene with three Asian...
+2025-08-27 18:18:25 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 18:20:00 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 18:20:03 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_174943/gpt_image_2x3/03.layer1_extracted/2/2.6.0/2.6.1/2.6.1_182000_gpt_image_2x3_1024x1536xauto.webp
+2025-08-27 18:20:03 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_174943/gpt_image_2x3/03.layer1_extracted/2/2.6.0/2.6.1/2.6.1_182000_gpt_image_2x3_1024x1536xauto.json
+2025-08-27 18:20:03 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 2.6.1_182000_gpt_image_2x3_1024x1536xauto.webp
+2025-08-27 18:20:03 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 2.7.1.txt
+2025-08-27 18:20:03 | INFO     | src.processing.processor:process_all:103 - Processing combination 22/69: 03.layer1_extracted/2/2.7.0/2.7.1/2.7.1.txt + gpt_image_2x3
+2025-08-27 18:20:03 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/2/2.7.0/2.7.1/2.7.1.txt: A modern desk with two Asian team members studying...
+2025-08-27 18:20:03 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 18:21:08 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 18:21:10 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_174943/gpt_image_2x3/03.layer1_extracted/2/2.7.0/2.7.1/2.7.1_182108_gpt_image_2x3_1024x1536xauto.webp
+2025-08-27 18:21:10 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_174943/gpt_image_2x3/03.layer1_extracted/2/2.7.0/2.7.1/2.7.1_182108_gpt_image_2x3_1024x1536xauto.json
+2025-08-27 18:21:10 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 2.7.1_182108_gpt_image_2x3_1024x1536xauto.webp
+2025-08-27 18:21:10 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 2.8.1.txt
+2025-08-27 18:21:10 | INFO     | src.processing.processor:process_all:103 - Processing combination 23/69: 03.layer1_extracted/2/2.8.0/2.8.1/2.8.1.txt + gpt_image_2x3
+2025-08-27 18:21:10 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/2/2.8.0/2.8.1/2.8.1.txt: A bright meeting room where two Asian project lead...
+2025-08-27 18:21:10 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 18:22:23 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 18:22:26 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_174943/gpt_image_2x3/03.layer1_extracted/2/2.8.0/2.8.1/2.8.1_182223_gpt_image_2x3_1024x1536xauto.webp
+2025-08-27 18:22:26 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_174943/gpt_image_2x3/03.layer1_extracted/2/2.8.0/2.8.1/2.8.1_182223_gpt_image_2x3_1024x1536xauto.json
+2025-08-27 18:22:26 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 2.8.1_182223_gpt_image_2x3_1024x1536xauto.webp
+2025-08-27 18:22:26 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 2.9.1.txt
+2025-08-27 18:22:26 | INFO     | src.processing.processor:process_all:103 - Processing combination 24/69: 03.layer1_extracted/2/2.9.0/2.9.1/2.9.1.txt + gpt_image_2x3
+2025-08-27 18:22:26 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/2/2.9.0/2.9.1/2.9.1.txt: Clean, modern office with an Asian professional sk...
+2025-08-27 18:22:26 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 18:24:44 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 18:24:47 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_174943/gpt_image_2x3/03.layer1_extracted/2/2.9.0/2.9.1/2.9.1_182444_gpt_image_2x3_1024x1536xauto.webp
+2025-08-27 18:24:47 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_174943/gpt_image_2x3/03.layer1_extracted/2/2.9.0/2.9.1/2.9.1_182444_gpt_image_2x3_1024x1536xauto.json
+2025-08-27 18:24:47 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 2.9.1_182444_gpt_image_2x3_1024x1536xauto.webp
+2025-08-27 18:24:47 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 2.10.1.txt
+2025-08-27 18:24:47 | INFO     | src.processing.processor:process_all:103 - Processing combination 25/69: 03.layer1_extracted/2/2.10.0/2.10.1/2.10.1.txt + gpt_image_2x3
+2025-08-27 18:24:47 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/2/2.10.0/2.10.1/2.10.1.txt: A realistic, wide office shot of three Asian team ...
+2025-08-27 18:24:47 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 18:26:02 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 18:26:04 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_174943/gpt_image_2x3/03.layer1_extracted/2/2.10.0/2.10.1/2.10.1_182602_gpt_image_2x3_1024x1536xauto.webp
+2025-08-27 18:26:04 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_174943/gpt_image_2x3/03.layer1_extracted/2/2.10.0/2.10.1/2.10.1_182602_gpt_image_2x3_1024x1536xauto.json
+2025-08-27 18:26:04 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 2.10.1_182602_gpt_image_2x3_1024x1536xauto.webp
+2025-08-27 18:26:04 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 3.1.1.txt
+2025-08-27 18:26:04 | INFO     | src.processing.processor:process_all:103 - Processing combination 26/69: 03.layer1_extracted/3/3.1.0/3.1.1/3.1.1.txt + gpt_image_2x3
+2025-08-27 18:26:04 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/3/3.1.0/3.1.1/3.1.1.txt: A warm, modern Japanese office environment with th...
+2025-08-27 18:26:04 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 18:27:34 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 18:27:36 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_174943/gpt_image_2x3/03.layer1_extracted/3/3.1.0/3.1.1/3.1.1_182734_gpt_image_2x3_1024x1536xauto.webp
+2025-08-27 18:27:36 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_174943/gpt_image_2x3/03.layer1_extracted/3/3.1.0/3.1.1/3.1.1_182734_gpt_image_2x3_1024x1536xauto.json
+2025-08-27 18:27:36 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 3.1.1_182734_gpt_image_2x3_1024x1536xauto.webp
+2025-08-27 18:27:36 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 3.2.1.txt
+2025-08-27 18:27:36 | INFO     | src.processing.processor:process_all:103 - Processing combination 27/69: 03.layer1_extracted/3/3.2.0/3.2.1/3.2.1.txt + gpt_image_2x3
+2025-08-27 18:27:36 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/3/3.2.0/3.2.1/3.2.1.txt: A realistic close-up of two Asian team leads in bu...
+2025-08-27 18:27:36 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 18:28:56 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 18:29:00 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_174943/gpt_image_2x3/03.layer1_extracted/3/3.2.0/3.2.1/3.2.1_182856_gpt_image_2x3_1024x1536xauto.webp
+2025-08-27 18:29:00 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_174943/gpt_image_2x3/03.layer1_extracted/3/3.2.0/3.2.1/3.2.1_182856_gpt_image_2x3_1024x1536xauto.json
+2025-08-27 18:29:00 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 3.2.1_182856_gpt_image_2x3_1024x1536xauto.webp
+2025-08-27 18:29:00 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 3.3.1.txt
+2025-08-27 18:29:00 | INFO     | src.processing.processor:process_all:103 - Processing combination 28/69: 03.layer1_extracted/3/3.3.0/3.3.1/3.3.1.txt + gpt_image_2x3
+2025-08-27 18:29:00 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/3/3.3.0/3.3.1/3.3.1.txt: A well-lit, contemporary office featuring two Asia...
+2025-08-27 18:29:00 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 18:30:14 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 18:30:17 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_174943/gpt_image_2x3/03.layer1_extracted/3/3.3.0/3.3.1/3.3.1_183014_gpt_image_2x3_1024x1536xauto.webp
+2025-08-27 18:30:17 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_174943/gpt_image_2x3/03.layer1_extracted/3/3.3.0/3.3.1/3.3.1_183014_gpt_image_2x3_1024x1536xauto.json
+2025-08-27 18:30:17 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 3.3.1_183014_gpt_image_2x3_1024x1536xauto.webp
+2025-08-27 18:30:17 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 3.4.1.txt
+2025-08-27 18:30:17 | INFO     | src.processing.processor:process_all:103 - Processing combination 29/69: 03.layer1_extracted/3/3.4.0/3.4.1/3.4.1.txt + gpt_image_2x3
+2025-08-27 18:30:17 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/3/3.4.0/3.4.1/3.4.1.txt: A realistic shot of two Asian coworkers in busines...
+2025-08-27 18:30:17 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 18:31:33 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 18:31:36 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_174943/gpt_image_2x3/03.layer1_extracted/3/3.4.0/3.4.1/3.4.1_183134_gpt_image_2x3_1024x1536xauto.webp
+2025-08-27 18:31:36 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_174943/gpt_image_2x3/03.layer1_extracted/3/3.4.0/3.4.1/3.4.1_183134_gpt_image_2x3_1024x1536xauto.json
+2025-08-27 18:31:36 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 3.4.1_183134_gpt_image_2x3_1024x1536xauto.webp
+2025-08-27 18:31:36 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 3.5.1.txt
+2025-08-27 18:31:36 | INFO     | src.processing.processor:process_all:103 - Processing combination 30/69: 03.layer1_extracted/3/3.5.0/3.5.1/3.5.1.txt + gpt_image_2x3
+2025-08-27 18:31:36 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/3/3.5.0/3.5.1/3.5.1.txt: A modern Japanese office close-up with two mid-car...
+2025-08-27 18:31:36 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 18:32:44 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 18:32:47 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_174943/gpt_image_2x3/03.layer1_extracted/3/3.5.0/3.5.1/3.5.1_183244_gpt_image_2x3_1024x1536xauto.webp
+2025-08-27 18:32:47 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_174943/gpt_image_2x3/03.layer1_extracted/3/3.5.0/3.5.1/3.5.1_183244_gpt_image_2x3_1024x1536xauto.json
+2025-08-27 18:32:47 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 3.5.1_183244_gpt_image_2x3_1024x1536xauto.webp
+2025-08-27 18:32:47 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 3.6.1.txt
+2025-08-27 18:32:47 | INFO     | src.processing.processor:process_all:103 - Processing combination 31/69: 03.layer1_extracted/3/3.6.0/3.6.1/3.6.1.txt + gpt_image_2x3
+2025-08-27 18:32:47 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/3/3.6.0/3.6.1/3.6.1.txt: A bright, orderly workspace with three Asian cowor...
+2025-08-27 18:32:47 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 18:34:01 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 18:34:03 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_174943/gpt_image_2x3/03.layer1_extracted/3/3.6.0/3.6.1/3.6.1_183401_gpt_image_2x3_1024x1536xauto.webp
+2025-08-27 18:34:03 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_174943/gpt_image_2x3/03.layer1_extracted/3/3.6.0/3.6.1/3.6.1_183401_gpt_image_2x3_1024x1536xauto.json
+2025-08-27 18:34:03 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 3.6.1_183401_gpt_image_2x3_1024x1536xauto.webp
+2025-08-27 18:34:03 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 3.7.1.txt
+2025-08-27 18:34:03 | INFO     | src.processing.processor:process_all:103 - Processing combination 32/69: 03.layer1_extracted/3/3.7.0/3.7.1/3.7.1.txt + gpt_image_2x3
+2025-08-27 18:34:03 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/3/3.7.0/3.7.1/3.7.1.txt: A neutral, clutter-free office area showing two As...
+2025-08-27 18:34:03 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 18:35:14 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 18:35:17 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_174943/gpt_image_2x3/03.layer1_extracted/3/3.7.0/3.7.1/3.7.1_183514_gpt_image_2x3_1024x1536xauto.webp
+2025-08-27 18:35:17 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_174943/gpt_image_2x3/03.layer1_extracted/3/3.7.0/3.7.1/3.7.1_183514_gpt_image_2x3_1024x1536xauto.json
+2025-08-27 18:35:17 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 3.7.1_183514_gpt_image_2x3_1024x1536xauto.webp
+2025-08-27 18:35:17 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 3.8.1.txt
+2025-08-27 18:35:17 | INFO     | src.processing.processor:process_all:103 - Processing combination 33/69: 03.layer1_extracted/3/3.8.0/3.8.1/3.8.1.txt + gpt_image_2x3
+2025-08-27 18:35:17 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/3/3.8.0/3.8.1/3.8.1.txt: A clear, hopeful Japanese office scene: three Asia...
+2025-08-27 18:35:17 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 18:36:23 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 18:36:27 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_174943/gpt_image_2x3/03.layer1_extracted/3/3.8.0/3.8.1/3.8.1_183623_gpt_image_2x3_1024x1536xauto.webp
+2025-08-27 18:36:27 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_174943/gpt_image_2x3/03.layer1_extracted/3/3.8.0/3.8.1/3.8.1_183623_gpt_image_2x3_1024x1536xauto.json
+2025-08-27 18:36:27 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 3.8.1_183623_gpt_image_2x3_1024x1536xauto.webp
+2025-08-27 18:36:27 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 3.9.1.txt
+2025-08-27 18:36:27 | INFO     | src.processing.processor:process_all:103 - Processing combination 34/69: 03.layer1_extracted/3/3.9.0/3.9.1/3.9.1.txt + gpt_image_2x3
+2025-08-27 18:36:27 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/3/3.9.0/3.9.1/3.9.1.txt: A collaborative, clean tabletop meeting shot with ...
+2025-08-27 18:36:27 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 18:37:41 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 18:37:44 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_174943/gpt_image_2x3/03.layer1_extracted/3/3.9.0/3.9.1/3.9.1_183741_gpt_image_2x3_1024x1536xauto.webp
+2025-08-27 18:37:44 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_174943/gpt_image_2x3/03.layer1_extracted/3/3.9.0/3.9.1/3.9.1_183741_gpt_image_2x3_1024x1536xauto.json
+2025-08-27 18:37:44 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 3.9.1_183741_gpt_image_2x3_1024x1536xauto.webp
+2025-08-27 18:37:44 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 3.10.1.txt
+2025-08-27 18:37:44 | INFO     | src.processing.processor:process_all:103 - Processing combination 35/69: 03.layer1_extracted/3/3.10.0/3.10.1/3.10.1.txt + gpt_image_2x3
+2025-08-27 18:37:44 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/3/3.10.0/3.10.1/3.10.1.txt: A welcoming, sunlight-filled conference room with ...
+2025-08-27 18:37:44 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 18:38:50 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 18:38:53 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_174943/gpt_image_2x3/03.layer1_extracted/3/3.10.0/3.10.1/3.10.1_183850_gpt_image_2x3_1024x1536xauto.webp
+2025-08-27 18:38:53 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_174943/gpt_image_2x3/03.layer1_extracted/3/3.10.0/3.10.1/3.10.1_183850_gpt_image_2x3_1024x1536xauto.json
+2025-08-27 18:38:53 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 3.10.1_183850_gpt_image_2x3_1024x1536xauto.webp
+2025-08-27 18:38:53 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 3.11.1.txt
+2025-08-27 18:38:53 | INFO     | src.processing.processor:process_all:103 - Processing combination 36/69: 03.layer1_extracted/3/3.11.0/3.11.1/3.11.1.txt + gpt_image_2x3
+2025-08-27 18:38:53 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/3/3.11.0/3.11.1/3.11.1.txt: A modern Japanese office setting with two Asian pr...
+2025-08-27 18:38:53 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 18:40:37 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 18:40:39 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_174943/gpt_image_2x3/03.layer1_extracted/3/3.11.0/3.11.1/3.11.1_184037_gpt_image_2x3_1024x1536xauto.webp
+2025-08-27 18:40:39 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_174943/gpt_image_2x3/03.layer1_extracted/3/3.11.0/3.11.1/3.11.1_184037_gpt_image_2x3_1024x1536xauto.json
+2025-08-27 18:40:39 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 3.11.1_184037_gpt_image_2x3_1024x1536xauto.webp
+2025-08-27 18:40:39 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 3.12.1.txt
+2025-08-27 18:40:39 | INFO     | src.processing.processor:process_all:103 - Processing combination 37/69: 03.layer1_extracted/3/3.12.0/3.12.1/3.12.1.txt + gpt_image_2x3
+2025-08-27 18:40:39 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/3/3.12.0/3.12.1/3.12.1.txt: A cheerful, modern office scene with three Asian c...
+2025-08-27 18:40:39 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-27 18:41:51 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-27 18:41:54 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250827_174943/gpt_image_2x3/03.layer1_extracted/3/3.12.0/3.12.1/3.12.1_184151_gpt_image_2x3_1024x1536xauto.webp
+2025-08-27 18:41:54 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250827_174943/gpt_image_2x3/03.layer1_extracted/3/3.12.0/3.12.1/3.12.1_184151_gpt_image_2x3_1024x1536xauto.json
+2025-08-27 18:41:54 | INFO     | src.processing.processor:_process_file_model_combination:230 - Saved image: 3.12.1_184151_gpt_image_2x3_1024x1536xauto.webp
+2025-08-27 18:41:54 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 4.1.1.txt
+2025-08-27 18:41:54 | INFO     | src.processing.processor:process_all:103 - Processing combination 38/69: 03.layer1_extracted/4/4.1.0/4.1.1/4.1.1.txt + gpt_image_2x3
+2025-08-27 18:41:54 | DEBUG    | src.processing.processor:_process_file_model_combination:183 - Processing 03.layer1_extracted/4/4.1.0/4.1.1/4.1.1.txt: A realistic, well-lit Japanese office scene with t...
+2025-08-27 18:41:54 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3

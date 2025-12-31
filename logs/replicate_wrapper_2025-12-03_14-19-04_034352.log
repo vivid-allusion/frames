@@ -1,0 +1,991 @@
+2025-12-03 14:19:04 | INFO     | src.utils.logging:setup_logging:39 - Logging configured (verbose=False, debug=False)
+2025-12-03 14:19:04 | INFO     | __main__:setup_environment:79 - Environment initialized
+2025-12-03 14:19:04 | INFO     | __main__:load_and_validate_config:84 - Loading configuration...
+2025-12-03 14:19:04 | INFO     | src.config.loader:load_config:42 - Loaded configuration from USER-FILES/01.CONFIG/config.yaml
+2025-12-03 14:19:04 | INFO     | __main__:authenticate_for_mode:273 - Authenticating with 1Password...
+2025-12-03 14:19:08 | DEBUG    | src.auth.session_manager:ensure_op_auth:39 - 1Password session is active
+2025-12-03 14:19:09 | DEBUG    | src.auth.session_manager:ensure_op_auth:39 - 1Password session is active
+2025-12-03 14:19:09 | DEBUG    | src.auth.auth:load_auth_config:28 - Using auth config: auth_bites.yaml
+2025-12-03 14:19:10 | DEBUG    | src.auth.auth:get_api_key:77 - Retrieved API key: r8_V...
+2025-12-03 14:19:10 | INFO     | __main__:discover_inputs_and_profiles:92 - Discovering inputs...
+2025-12-03 14:19:10 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: roles&responsibilities_of_a_server_with_prompts_022.txt
+2025-12-03 14:19:10 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: roles&responsibilities_of_a_server_with_prompts_023.txt
+2025-12-03 14:19:10 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: roles&responsibilities_of_a_server_with_prompts_009.txt
+2025-12-03 14:19:10 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: roles&responsibilities_of_a_server_with_prompts_021.txt
+2025-12-03 14:19:10 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: roles&responsibilities_of_a_server_with_prompts_020.txt
+2025-12-03 14:19:10 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: roles&responsibilities_of_a_server_with_prompts_008.txt
+2025-12-03 14:19:10 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: roles&responsibilities_of_a_server_with_prompts_018.txt
+2025-12-03 14:19:10 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: roles&responsibilities_of_a_server_with_prompts_019.txt
+2025-12-03 14:19:10 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: roles&responsibilities_of_a_server_with_prompts_003.txt
+2025-12-03 14:19:10 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: roles&responsibilities_of_a_server_with_prompts_017.txt
+2025-12-03 14:19:10 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: roles&responsibilities_of_a_server_with_prompts_016.txt
+2025-12-03 14:19:10 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: roles&responsibilities_of_a_server_with_prompts_002.txt
+2025-12-03 14:19:10 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: roles&responsibilities_of_a_server_with_prompts_014.txt
+2025-12-03 14:19:10 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: roles&responsibilities_of_a_server_with_prompts_001.txt
+2025-12-03 14:19:10 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: roles&responsibilities_of_a_server_with_prompts_015.txt
+2025-12-03 14:19:10 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: roles&responsibilities_of_a_server_with_prompts_011.txt
+2025-12-03 14:19:10 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: roles&responsibilities_of_a_server_with_prompts_005.txt
+2025-12-03 14:19:10 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: roles&responsibilities_of_a_server_with_prompts_004.txt
+2025-12-03 14:19:10 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: roles&responsibilities_of_a_server_with_prompts_010.txt
+2025-12-03 14:19:10 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: roles&responsibilities_of_a_server_with_prompts_006.txt
+2025-12-03 14:19:10 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: roles&responsibilities_of_a_server_with_prompts_012.txt
+2025-12-03 14:19:10 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: roles&responsibilities_of_a_server_with_prompts_013.txt
+2025-12-03 14:19:10 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: roles&responsibilities_of_a_server_with_prompts_007.txt
+2025-12-03 14:19:10 | INFO     | src.processing.discovery:discover_prompt_files:45 - Discovered 23 prompt files
+2025-12-03 14:19:10 | DEBUG    | src.processing.discovery:discover_profiles:93 - Loaded profile: USER-FILES/03.PROFILES/nano-banano-pro_2k_9x16_droply.yaml
+2025-12-03 14:19:10 | INFO     | src.processing.discovery:discover_profiles:97 - Loaded 1 profiles
+2025-12-03 14:19:10 | INFO     | src.processing.discovery:get_active_models:135 - Found profile: nano-banano-pro_2k_9x16_droply
+2025-12-03 14:19:10 | INFO     | src.processing.discovery:get_active_models:140 - Total profiles to process: 1
+2025-12-03 14:19:10 | INFO     | src.config.validator:validate_all:26 - All configuration validation passed
+2025-12-03 14:19:10 | INFO     | __main__:initialize_services:186 - Output directory: USER-FILES/05.OUTPUT/251203_141910_IMAGE
+2025-12-03 14:19:10 | INFO     | __main__:execute_processing:221 - Starting matrix processing...
+2025-12-03 14:19:10 | DEBUG    | src.processing.validator:validate_operational_requirements:23 - Profile 'nano-banano-pro_2k_9x16_droply' operational validation passed
+2025-12-03 14:19:10 | INFO     | src.processing.processor:process_all:60 - Processing 23 combinations (23 files × 1 profiles)
+2025-12-03 14:19:10 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_001.txt
+2025-12-03 14:19:10 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 1/23: roles&responsibilities_of_a_server_with_prompts_001.txt + nano-banano-pro_2k_9x16_droply
+2025-12-03 14:19:10 | DEBUG    | src.processing.processor:_process_single_combination:138 - Added image_input to params: ['https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png']
+2025-12-03 14:19:10 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Provided image shows branding of Droply uniforms, logo, drone, van and pickup box
+2025-12-03 14:19:10 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing roles&responsibilities_of_a_server_with_prompts_001.txt: England, wide shot in upscale restaurant dining ro...
+2025-12-03 14:19:10 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "output_format": "png",
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png"
+  ]
+}
+2025-12-03 14:19:10 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "output_format": "png",
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png"
+  ],
+  "prompt": "England, wide shot in upscale restaurant dining room of diverse guests at elegantly set tables, Asian female server in white shirt and black apron moving between tables with subtle smile, warm ambient lighting, shallow depth of field. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box"
+}
+2025-12-03 14:19:10 | DEBUG    | src.api.client:generate_image:89 - Original prompt: England, wide shot in upscale restaurant dining room of diverse guests at elegantly set tables, Asian female server in white shirt and black apron moving between tables with subtle smile, warm ambient lighting, shallow depth of field. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box
+2025-12-03 14:19:10 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: England, wide shot in upscale restaurant dining room of diverse guests at elegantly set tables, Asian female server in white shirt and black apron moving between tables with subtle smile, warm ambient lighting, shallow depth of field. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box
+2025-12-03 14:19:10 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'England, wide shot in upscale restaurant dining room of diverse guests at elegantly set tables, Asian female server in white shirt and black apron moving between tables with subtle smile, warm ambient lighting, shallow depth of field. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box'
+2025-12-03 14:19:10 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-03 14:19:10 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "output_format": "png",
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png"
+  ],
+  "prompt": "England, wide shot in upscale restaurant dining room of diverse guests at elegantly set tables, Asian female server in white shirt and black apron moving between tables with subtle smile, warm ambient lighting, shallow depth of field. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box"
+}
+2025-12-03 14:19:24 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-03 14:19:24 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-12-03 14:19:24 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-12-03 14:19:24 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-12-03 14:19:24 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-12-03 14:19:25 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251203_141910_IMAGE/roles&responsibilities_of_a_server_with_prompts_001_IMAGE_141924_nano-banano-pro_2k_9x16_droply.png
+2025-12-03 14:19:25 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251203_141910_IMAGE/roles&responsibilities_of_a_server_with_prompts_001_IMAGE_141924_nano-banano-pro_2k_9x16_droply.md
+2025-12-03 14:19:25 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251203_141910_IMAGE/roles&responsibilities_of_a_server_with_prompts_001_IMAGE_141924_nano-banano-pro_2k_9x16_droply.png
+2025-12-03 14:19:25 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_002.txt
+2025-12-03 14:19:25 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 2/23: roles&responsibilities_of_a_server_with_prompts_002.txt + nano-banano-pro_2k_9x16_droply
+2025-12-03 14:19:25 | DEBUG    | src.processing.processor:_process_single_combination:138 - Added image_input to params: ['https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png']
+2025-12-03 14:19:25 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Provided image shows branding of Droply uniforms, logo, drone, van and pickup box
+2025-12-03 14:19:25 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing roles&responsibilities_of_a_server_with_prompts_002.txt: England, medium shot in restaurant dining room of ...
+2025-12-03 14:19:25 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "output_format": "png",
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png"
+  ]
+}
+2025-12-03 14:19:25 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "output_format": "png",
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png"
+  ],
+  "prompt": "England, medium shot in restaurant dining room of White male server in his late 20s wearing white shirt, black trousers, and black apron, standing beside table with attentive posture, natural window lighting. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box"
+}
+2025-12-03 14:19:25 | DEBUG    | src.api.client:generate_image:89 - Original prompt: England, medium shot in restaurant dining room of White male server in his late 20s wearing white shirt, black trousers, and black apron, standing beside table with attentive posture, natural window lighting. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box
+2025-12-03 14:19:25 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: England, medium shot in restaurant dining room of White male server in his late 20s wearing white shirt, black trousers, and black apron, standing beside table with attentive posture, natural window lighting. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box
+2025-12-03 14:19:25 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'England, medium shot in restaurant dining room of White male server in his late 20s wearing white shirt, black trousers, and black apron, standing beside table with attentive posture, natural window lighting. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box'
+2025-12-03 14:19:25 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-03 14:19:25 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "output_format": "png",
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png"
+  ],
+  "prompt": "England, medium shot in restaurant dining room of White male server in his late 20s wearing white shirt, black trousers, and black apron, standing beside table with attentive posture, natural window lighting. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box"
+}
+2025-12-03 14:19:37 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-03 14:19:37 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-12-03 14:19:37 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-12-03 14:19:37 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-12-03 14:19:37 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-12-03 14:19:39 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251203_141910_IMAGE/roles&responsibilities_of_a_server_with_prompts_002_IMAGE_141937_nano-banano-pro_2k_9x16_droply.png
+2025-12-03 14:19:39 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251203_141910_IMAGE/roles&responsibilities_of_a_server_with_prompts_002_IMAGE_141937_nano-banano-pro_2k_9x16_droply.md
+2025-12-03 14:19:39 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251203_141910_IMAGE/roles&responsibilities_of_a_server_with_prompts_002_IMAGE_141937_nano-banano-pro_2k_9x16_droply.png
+2025-12-03 14:19:39 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_003.txt
+2025-12-03 14:19:39 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 3/23: roles&responsibilities_of_a_server_with_prompts_003.txt + nano-banano-pro_2k_9x16_droply
+2025-12-03 14:19:39 | DEBUG    | src.processing.processor:_process_single_combination:138 - Added image_input to params: ['https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png']
+2025-12-03 14:19:39 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Provided image shows branding of Droply uniforms, logo, drone, van and pickup box
+2025-12-03 14:19:39 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing roles&responsibilities_of_a_server_with_prompts_003.txt: England, close-up in restaurant dining room of Bla...
+2025-12-03 14:19:39 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "output_format": "png",
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png"
+  ]
+}
+2025-12-03 14:19:39 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "output_format": "png",
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png"
+  ],
+  "prompt": "England, close-up in restaurant dining room of Black female server\u2019s face in her early 30s wearing white shirt with focused and friendly expression, soft diffused lighting. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box"
+}
+2025-12-03 14:19:39 | DEBUG    | src.api.client:generate_image:89 - Original prompt: England, close-up in restaurant dining room of Black female server’s face in her early 30s wearing white shirt with focused and friendly expression, soft diffused lighting. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box
+2025-12-03 14:19:39 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: England, close-up in restaurant dining room of Black female server’s face in her early 30s wearing white shirt with focused and friendly expression, soft diffused lighting. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box
+2025-12-03 14:19:39 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'England, close-up in restaurant dining room of Black female server’s face in her early 30s wearing white shirt with focused and friendly expression, soft diffused lighting. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box'
+2025-12-03 14:19:39 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-03 14:19:39 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "output_format": "png",
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png"
+  ],
+  "prompt": "England, close-up in restaurant dining room of Black female server\u2019s face in her early 30s wearing white shirt with focused and friendly expression, soft diffused lighting. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box"
+}
+2025-12-03 14:19:48 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-03 14:19:48 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-12-03 14:19:48 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-12-03 14:19:48 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-12-03 14:19:48 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-12-03 14:19:49 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251203_141910_IMAGE/roles&responsibilities_of_a_server_with_prompts_003_IMAGE_141948_nano-banano-pro_2k_9x16_droply.png
+2025-12-03 14:19:49 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251203_141910_IMAGE/roles&responsibilities_of_a_server_with_prompts_003_IMAGE_141948_nano-banano-pro_2k_9x16_droply.md
+2025-12-03 14:19:49 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251203_141910_IMAGE/roles&responsibilities_of_a_server_with_prompts_003_IMAGE_141948_nano-banano-pro_2k_9x16_droply.png
+2025-12-03 14:19:49 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_004.txt
+2025-12-03 14:19:49 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 4/23: roles&responsibilities_of_a_server_with_prompts_004.txt + nano-banano-pro_2k_9x16_droply
+2025-12-03 14:19:49 | DEBUG    | src.processing.processor:_process_single_combination:138 - Added image_input to params: ['https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png']
+2025-12-03 14:19:49 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Provided image shows branding of Droply uniforms, logo, drone, van and pickup box
+2025-12-03 14:19:49 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing roles&responsibilities_of_a_server_with_prompts_004.txt: England, medium shot in restaurant entrance area o...
+2025-12-03 14:19:49 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "output_format": "png",
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png"
+  ]
+}
+2025-12-03 14:19:49 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "output_format": "png",
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png"
+  ],
+  "prompt": "England, medium shot in restaurant entrance area of Hispanic male server in mid-20s wearing white shirt, black apron, and bow tie, gesturing welcomingly toward guests with subtle smile, bright clean lighting. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box"
+}
+2025-12-03 14:19:49 | DEBUG    | src.api.client:generate_image:89 - Original prompt: England, medium shot in restaurant entrance area of Hispanic male server in mid-20s wearing white shirt, black apron, and bow tie, gesturing welcomingly toward guests with subtle smile, bright clean lighting. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box
+2025-12-03 14:19:49 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: England, medium shot in restaurant entrance area of Hispanic male server in mid-20s wearing white shirt, black apron, and bow tie, gesturing welcomingly toward guests with subtle smile, bright clean lighting. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box
+2025-12-03 14:19:49 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'England, medium shot in restaurant entrance area of Hispanic male server in mid-20s wearing white shirt, black apron, and bow tie, gesturing welcomingly toward guests with subtle smile, bright clean lighting. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box'
+2025-12-03 14:19:49 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-03 14:19:49 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "output_format": "png",
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png"
+  ],
+  "prompt": "England, medium shot in restaurant entrance area of Hispanic male server in mid-20s wearing white shirt, black apron, and bow tie, gesturing welcomingly toward guests with subtle smile, bright clean lighting. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box"
+}
+2025-12-03 14:20:01 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-03 14:20:01 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-12-03 14:20:01 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-12-03 14:20:01 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-12-03 14:20:01 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-12-03 14:20:02 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251203_141910_IMAGE/roles&responsibilities_of_a_server_with_prompts_004_IMAGE_142001_nano-banano-pro_2k_9x16_droply.png
+2025-12-03 14:20:02 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251203_141910_IMAGE/roles&responsibilities_of_a_server_with_prompts_004_IMAGE_142001_nano-banano-pro_2k_9x16_droply.md
+2025-12-03 14:20:02 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251203_141910_IMAGE/roles&responsibilities_of_a_server_with_prompts_004_IMAGE_142001_nano-banano-pro_2k_9x16_droply.png
+2025-12-03 14:20:02 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_005.txt
+2025-12-03 14:20:02 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 5/23: roles&responsibilities_of_a_server_with_prompts_005.txt + nano-banano-pro_2k_9x16_droply
+2025-12-03 14:20:02 | DEBUG    | src.processing.processor:_process_single_combination:138 - Added image_input to params: ['https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png']
+2025-12-03 14:20:02 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Provided image shows branding of Droply uniforms, logo, drone, van and pickup box
+2025-12-03 14:20:02 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing roles&responsibilities_of_a_server_with_prompts_005.txt: England, medium shot in restaurant dining room of ...
+2025-12-03 14:20:02 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "output_format": "png",
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png"
+  ]
+}
+2025-12-03 14:20:02 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "output_format": "png",
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png"
+  ],
+  "prompt": "England, medium shot in restaurant dining room of Mixed-race female server in her late 20s wearing white shirt and black apron, holding notepad while standing beside table with genuine smile, guests visible in background, natural lighting. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box"
+}
+2025-12-03 14:20:02 | DEBUG    | src.api.client:generate_image:89 - Original prompt: England, medium shot in restaurant dining room of Mixed-race female server in her late 20s wearing white shirt and black apron, holding notepad while standing beside table with genuine smile, guests visible in background, natural lighting. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box
+2025-12-03 14:20:02 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: England, medium shot in restaurant dining room of Mixed-race female server in her late 20s wearing white shirt and black apron, holding notepad while standing beside table with genuine smile, guests visible in background, natural lighting. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box
+2025-12-03 14:20:02 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'England, medium shot in restaurant dining room of Mixed-race female server in her late 20s wearing white shirt and black apron, holding notepad while standing beside table with genuine smile, guests visible in background, natural lighting. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box'
+2025-12-03 14:20:02 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-03 14:20:02 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "output_format": "png",
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png"
+  ],
+  "prompt": "England, medium shot in restaurant dining room of Mixed-race female server in her late 20s wearing white shirt and black apron, holding notepad while standing beside table with genuine smile, guests visible in background, natural lighting. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box"
+}
+2025-12-03 14:20:13 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-03 14:20:13 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-12-03 14:20:13 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-12-03 14:20:13 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-12-03 14:20:13 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-12-03 14:20:14 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251203_141910_IMAGE/roles&responsibilities_of_a_server_with_prompts_005_IMAGE_142013_nano-banano-pro_2k_9x16_droply.png
+2025-12-03 14:20:14 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251203_141910_IMAGE/roles&responsibilities_of_a_server_with_prompts_005_IMAGE_142013_nano-banano-pro_2k_9x16_droply.md
+2025-12-03 14:20:14 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251203_141910_IMAGE/roles&responsibilities_of_a_server_with_prompts_005_IMAGE_142013_nano-banano-pro_2k_9x16_droply.png
+2025-12-03 14:20:14 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_006.txt
+2025-12-03 14:20:14 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 6/23: roles&responsibilities_of_a_server_with_prompts_006.txt + nano-banano-pro_2k_9x16_droply
+2025-12-03 14:20:14 | DEBUG    | src.processing.processor:_process_single_combination:138 - Added image_input to params: ['https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png']
+2025-12-03 14:20:14 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Provided image shows branding of Droply uniforms, logo, drone, van and pickup box
+2025-12-03 14:20:14 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing roles&responsibilities_of_a_server_with_prompts_006.txt: England, close-up in restaurant dining room of Whi...
+2025-12-03 14:20:14 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "output_format": "png",
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png"
+  ]
+}
+2025-12-03 14:20:14 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "output_format": "png",
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png"
+  ],
+  "prompt": "England, close-up in restaurant dining room of White female server\u2019s hands in her early 30s holding pen and notepad, writing notes, soft diffused lighting, shallow depth of field. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box"
+}
+2025-12-03 14:20:14 | DEBUG    | src.api.client:generate_image:89 - Original prompt: England, close-up in restaurant dining room of White female server’s hands in her early 30s holding pen and notepad, writing notes, soft diffused lighting, shallow depth of field. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box
+2025-12-03 14:20:14 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: England, close-up in restaurant dining room of White female server’s hands in her early 30s holding pen and notepad, writing notes, soft diffused lighting, shallow depth of field. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box
+2025-12-03 14:20:14 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'England, close-up in restaurant dining room of White female server’s hands in her early 30s holding pen and notepad, writing notes, soft diffused lighting, shallow depth of field. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box'
+2025-12-03 14:20:14 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-03 14:20:14 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "output_format": "png",
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png"
+  ],
+  "prompt": "England, close-up in restaurant dining room of White female server\u2019s hands in her early 30s holding pen and notepad, writing notes, soft diffused lighting, shallow depth of field. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box"
+}
+2025-12-03 14:20:27 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-03 14:20:27 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-12-03 14:20:27 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-12-03 14:20:27 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-12-03 14:20:27 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-12-03 14:20:28 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251203_141910_IMAGE/roles&responsibilities_of_a_server_with_prompts_006_IMAGE_142027_nano-banano-pro_2k_9x16_droply.png
+2025-12-03 14:20:28 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251203_141910_IMAGE/roles&responsibilities_of_a_server_with_prompts_006_IMAGE_142027_nano-banano-pro_2k_9x16_droply.md
+2025-12-03 14:20:28 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251203_141910_IMAGE/roles&responsibilities_of_a_server_with_prompts_006_IMAGE_142027_nano-banano-pro_2k_9x16_droply.png
+2025-12-03 14:20:28 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_007.txt
+2025-12-03 14:20:28 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 7/23: roles&responsibilities_of_a_server_with_prompts_007.txt + nano-banano-pro_2k_9x16_droply
+2025-12-03 14:20:28 | DEBUG    | src.processing.processor:_process_single_combination:138 - Added image_input to params: ['https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png']
+2025-12-03 14:20:28 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Provided image shows branding of Droply uniforms, logo, drone, van and pickup box
+2025-12-03 14:20:28 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing roles&responsibilities_of_a_server_with_prompts_007.txt: England, close-up in restaurant dining room of Mid...
+2025-12-03 14:20:28 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "output_format": "png",
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png"
+  ]
+}
+2025-12-03 14:20:28 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "output_format": "png",
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png"
+  ],
+  "prompt": "England, close-up in restaurant dining room of Middle Eastern male server\u2019s face in his mid-30s looking down at notepad with concentrated expression, natural window lighting. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box"
+}
+2025-12-03 14:20:28 | DEBUG    | src.api.client:generate_image:89 - Original prompt: England, close-up in restaurant dining room of Middle Eastern male server’s face in his mid-30s looking down at notepad with concentrated expression, natural window lighting. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box
+2025-12-03 14:20:28 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: England, close-up in restaurant dining room of Middle Eastern male server’s face in his mid-30s looking down at notepad with concentrated expression, natural window lighting. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box
+2025-12-03 14:20:28 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'England, close-up in restaurant dining room of Middle Eastern male server’s face in his mid-30s looking down at notepad with concentrated expression, natural window lighting. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box'
+2025-12-03 14:20:28 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-03 14:20:28 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "output_format": "png",
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png"
+  ],
+  "prompt": "England, close-up in restaurant dining room of Middle Eastern male server\u2019s face in his mid-30s looking down at notepad with concentrated expression, natural window lighting. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box"
+}
+2025-12-03 14:20:40 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-03 14:20:40 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-12-03 14:20:40 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-12-03 14:20:40 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-12-03 14:20:40 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-12-03 14:20:42 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251203_141910_IMAGE/roles&responsibilities_of_a_server_with_prompts_007_IMAGE_142040_nano-banano-pro_2k_9x16_droply.png
+2025-12-03 14:20:42 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251203_141910_IMAGE/roles&responsibilities_of_a_server_with_prompts_007_IMAGE_142040_nano-banano-pro_2k_9x16_droply.md
+2025-12-03 14:20:42 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251203_141910_IMAGE/roles&responsibilities_of_a_server_with_prompts_007_IMAGE_142040_nano-banano-pro_2k_9x16_droply.png
+2025-12-03 14:20:42 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_008.txt
+2025-12-03 14:20:42 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 8/23: roles&responsibilities_of_a_server_with_prompts_008.txt + nano-banano-pro_2k_9x16_droply
+2025-12-03 14:20:42 | DEBUG    | src.processing.processor:_process_single_combination:138 - Added image_input to params: ['https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png']
+2025-12-03 14:20:42 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Provided image shows branding of Droply uniforms, logo, drone, van and pickup box
+2025-12-03 14:20:42 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing roles&responsibilities_of_a_server_with_prompts_008.txt: England, medium shot in restaurant dining room of ...
+2025-12-03 14:20:42 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "output_format": "png",
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png"
+  ]
+}
+2025-12-03 14:20:42 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "output_format": "png",
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png"
+  ],
+  "prompt": "England, medium shot in restaurant dining room of Asian male server in his late 20s wearing white shirt and black apron, carrying multiple plates with proper technique, balanced posture, bright clean lighting. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box"
+}
+2025-12-03 14:20:42 | DEBUG    | src.api.client:generate_image:89 - Original prompt: England, medium shot in restaurant dining room of Asian male server in his late 20s wearing white shirt and black apron, carrying multiple plates with proper technique, balanced posture, bright clean lighting. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box
+2025-12-03 14:20:42 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: England, medium shot in restaurant dining room of Asian male server in his late 20s wearing white shirt and black apron, carrying multiple plates with proper technique, balanced posture, bright clean lighting. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box
+2025-12-03 14:20:42 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'England, medium shot in restaurant dining room of Asian male server in his late 20s wearing white shirt and black apron, carrying multiple plates with proper technique, balanced posture, bright clean lighting. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box'
+2025-12-03 14:20:42 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-03 14:20:42 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "output_format": "png",
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png"
+  ],
+  "prompt": "England, medium shot in restaurant dining room of Asian male server in his late 20s wearing white shirt and black apron, carrying multiple plates with proper technique, balanced posture, bright clean lighting. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box"
+}
+2025-12-03 14:20:53 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-03 14:20:53 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-12-03 14:20:53 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-12-03 14:20:53 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-12-03 14:20:53 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-12-03 14:20:54 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251203_141910_IMAGE/roles&responsibilities_of_a_server_with_prompts_008_IMAGE_142053_nano-banano-pro_2k_9x16_droply.png
+2025-12-03 14:20:54 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251203_141910_IMAGE/roles&responsibilities_of_a_server_with_prompts_008_IMAGE_142053_nano-banano-pro_2k_9x16_droply.md
+2025-12-03 14:20:54 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251203_141910_IMAGE/roles&responsibilities_of_a_server_with_prompts_008_IMAGE_142053_nano-banano-pro_2k_9x16_droply.png
+2025-12-03 14:20:54 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_009.txt
+2025-12-03 14:20:54 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 9/23: roles&responsibilities_of_a_server_with_prompts_009.txt + nano-banano-pro_2k_9x16_droply
+2025-12-03 14:20:54 | DEBUG    | src.processing.processor:_process_single_combination:138 - Added image_input to params: ['https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png']
+2025-12-03 14:20:54 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Provided image shows branding of Droply uniforms, logo, drone, van and pickup box
+2025-12-03 14:20:54 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing roles&responsibilities_of_a_server_with_prompts_009.txt: England, close-up in restaurant dining room of Bla...
+2025-12-03 14:20:54 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "output_format": "png",
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png"
+  ]
+}
+2025-12-03 14:20:54 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "output_format": "png",
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png"
+  ],
+  "prompt": "England, close-up in restaurant dining room of Black female server\u2019s hands holding wine glasses by stems with proper grip technique, soft diffused lighting, shallow depth of field. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box"
+}
+2025-12-03 14:20:54 | DEBUG    | src.api.client:generate_image:89 - Original prompt: England, close-up in restaurant dining room of Black female server’s hands holding wine glasses by stems with proper grip technique, soft diffused lighting, shallow depth of field. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box
+2025-12-03 14:20:54 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: England, close-up in restaurant dining room of Black female server’s hands holding wine glasses by stems with proper grip technique, soft diffused lighting, shallow depth of field. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box
+2025-12-03 14:20:54 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'England, close-up in restaurant dining room of Black female server’s hands holding wine glasses by stems with proper grip technique, soft diffused lighting, shallow depth of field. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box'
+2025-12-03 14:20:54 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-03 14:20:54 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "output_format": "png",
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png"
+  ],
+  "prompt": "England, close-up in restaurant dining room of Black female server\u2019s hands holding wine glasses by stems with proper grip technique, soft diffused lighting, shallow depth of field. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box"
+}
+2025-12-03 14:21:05 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-03 14:21:05 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-12-03 14:21:05 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-12-03 14:21:05 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-12-03 14:21:05 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-12-03 14:21:07 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251203_141910_IMAGE/roles&responsibilities_of_a_server_with_prompts_009_IMAGE_142105_nano-banano-pro_2k_9x16_droply.png
+2025-12-03 14:21:07 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251203_141910_IMAGE/roles&responsibilities_of_a_server_with_prompts_009_IMAGE_142105_nano-banano-pro_2k_9x16_droply.md
+2025-12-03 14:21:07 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251203_141910_IMAGE/roles&responsibilities_of_a_server_with_prompts_009_IMAGE_142105_nano-banano-pro_2k_9x16_droply.png
+2025-12-03 14:21:07 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_010.txt
+2025-12-03 14:21:07 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 10/23: roles&responsibilities_of_a_server_with_prompts_010.txt + nano-banano-pro_2k_9x16_droply
+2025-12-03 14:21:07 | DEBUG    | src.processing.processor:_process_single_combination:138 - Added image_input to params: ['https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png']
+2025-12-03 14:21:07 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Provided image shows branding of Droply uniforms, logo, drone, van and pickup box
+2025-12-03 14:21:07 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing roles&responsibilities_of_a_server_with_prompts_010.txt: England, medium shot in restaurant dining room of ...
+2025-12-03 14:21:07 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "output_format": "png",
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png"
+  ]
+}
+2025-12-03 14:21:07 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "output_format": "png",
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png"
+  ],
+  "prompt": "England, medium shot in restaurant dining room of White male server in his early 30s wearing white shirt, black apron, and bow tie, gesturing toward menu while speaking with guests at table, natural lighting. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box"
+}
+2025-12-03 14:21:07 | DEBUG    | src.api.client:generate_image:89 - Original prompt: England, medium shot in restaurant dining room of White male server in his early 30s wearing white shirt, black apron, and bow tie, gesturing toward menu while speaking with guests at table, natural lighting. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box
+2025-12-03 14:21:07 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: England, medium shot in restaurant dining room of White male server in his early 30s wearing white shirt, black apron, and bow tie, gesturing toward menu while speaking with guests at table, natural lighting. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box
+2025-12-03 14:21:07 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'England, medium shot in restaurant dining room of White male server in his early 30s wearing white shirt, black apron, and bow tie, gesturing toward menu while speaking with guests at table, natural lighting. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box'
+2025-12-03 14:21:07 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-03 14:21:07 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "output_format": "png",
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png"
+  ],
+  "prompt": "England, medium shot in restaurant dining room of White male server in his early 30s wearing white shirt, black apron, and bow tie, gesturing toward menu while speaking with guests at table, natural lighting. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box"
+}
+2025-12-03 14:21:19 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-03 14:21:19 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-12-03 14:21:19 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-12-03 14:21:19 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-12-03 14:21:19 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-12-03 14:21:20 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251203_141910_IMAGE/roles&responsibilities_of_a_server_with_prompts_010_IMAGE_142119_nano-banano-pro_2k_9x16_droply.png
+2025-12-03 14:21:20 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251203_141910_IMAGE/roles&responsibilities_of_a_server_with_prompts_010_IMAGE_142119_nano-banano-pro_2k_9x16_droply.md
+2025-12-03 14:21:20 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251203_141910_IMAGE/roles&responsibilities_of_a_server_with_prompts_010_IMAGE_142119_nano-banano-pro_2k_9x16_droply.png
+2025-12-03 14:21:20 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_011.txt
+2025-12-03 14:21:20 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 11/23: roles&responsibilities_of_a_server_with_prompts_011.txt + nano-banano-pro_2k_9x16_droply
+2025-12-03 14:21:20 | DEBUG    | src.processing.processor:_process_single_combination:138 - Added image_input to params: ['https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png']
+2025-12-03 14:21:20 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Provided image shows branding of Droply uniforms, logo, drone, van and pickup box
+2025-12-03 14:21:20 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing roles&responsibilities_of_a_server_with_prompts_011.txt: England, medium shot in restaurant dining room of ...
+2025-12-03 14:21:20 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "output_format": "png",
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png"
+  ]
+}
+2025-12-03 14:21:20 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "output_format": "png",
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png"
+  ],
+  "prompt": "England, medium shot in restaurant dining room of Hispanic female server in her mid-20s wearing white shirt and black apron, leaning slightly forward with engaged expression while gesturing, warm ambient lighting. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box"
+}
+2025-12-03 14:21:20 | DEBUG    | src.api.client:generate_image:89 - Original prompt: England, medium shot in restaurant dining room of Hispanic female server in her mid-20s wearing white shirt and black apron, leaning slightly forward with engaged expression while gesturing, warm ambient lighting. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box
+2025-12-03 14:21:20 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: England, medium shot in restaurant dining room of Hispanic female server in her mid-20s wearing white shirt and black apron, leaning slightly forward with engaged expression while gesturing, warm ambient lighting. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box
+2025-12-03 14:21:20 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'England, medium shot in restaurant dining room of Hispanic female server in her mid-20s wearing white shirt and black apron, leaning slightly forward with engaged expression while gesturing, warm ambient lighting. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box'
+2025-12-03 14:21:20 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-03 14:21:20 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "output_format": "png",
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png"
+  ],
+  "prompt": "England, medium shot in restaurant dining room of Hispanic female server in her mid-20s wearing white shirt and black apron, leaning slightly forward with engaged expression while gesturing, warm ambient lighting. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box"
+}
+2025-12-03 14:21:31 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-03 14:21:31 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-12-03 14:21:31 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-12-03 14:21:31 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-12-03 14:21:31 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-12-03 14:21:32 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251203_141910_IMAGE/roles&responsibilities_of_a_server_with_prompts_011_IMAGE_142131_nano-banano-pro_2k_9x16_droply.png
+2025-12-03 14:21:32 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251203_141910_IMAGE/roles&responsibilities_of_a_server_with_prompts_011_IMAGE_142131_nano-banano-pro_2k_9x16_droply.md
+2025-12-03 14:21:32 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251203_141910_IMAGE/roles&responsibilities_of_a_server_with_prompts_011_IMAGE_142131_nano-banano-pro_2k_9x16_droply.png
+2025-12-03 14:21:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_012.txt
+2025-12-03 14:21:32 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 12/23: roles&responsibilities_of_a_server_with_prompts_012.txt + nano-banano-pro_2k_9x16_droply
+2025-12-03 14:21:32 | DEBUG    | src.processing.processor:_process_single_combination:138 - Added image_input to params: ['https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png']
+2025-12-03 14:21:32 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Provided image shows branding of Droply uniforms, logo, drone, van and pickup box
+2025-12-03 14:21:32 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing roles&responsibilities_of_a_server_with_prompts_012.txt: England, close-up in restaurant dining room of Mix...
+2025-12-03 14:21:32 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "output_format": "png",
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png"
+  ]
+}
+2025-12-03 14:21:32 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "output_format": "png",
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png"
+  ],
+  "prompt": "England, close-up in restaurant dining room of Mixed-race male server\u2019s hands in his late 20s pouring water from pitcher into glass with controlled pour technique, natural window lighting, shallow depth of field. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box"
+}
+2025-12-03 14:21:32 | DEBUG    | src.api.client:generate_image:89 - Original prompt: England, close-up in restaurant dining room of Mixed-race male server’s hands in his late 20s pouring water from pitcher into glass with controlled pour technique, natural window lighting, shallow depth of field. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box
+2025-12-03 14:21:32 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: England, close-up in restaurant dining room of Mixed-race male server’s hands in his late 20s pouring water from pitcher into glass with controlled pour technique, natural window lighting, shallow depth of field. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box
+2025-12-03 14:21:32 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'England, close-up in restaurant dining room of Mixed-race male server’s hands in his late 20s pouring water from pitcher into glass with controlled pour technique, natural window lighting, shallow depth of field. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box'
+2025-12-03 14:21:32 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-03 14:21:32 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "output_format": "png",
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png"
+  ],
+  "prompt": "England, close-up in restaurant dining room of Mixed-race male server\u2019s hands in his late 20s pouring water from pitcher into glass with controlled pour technique, natural window lighting, shallow depth of field. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box"
+}
+2025-12-03 14:21:43 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-03 14:21:43 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-12-03 14:21:43 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-12-03 14:21:43 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-12-03 14:21:43 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-12-03 14:21:43 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251203_141910_IMAGE/roles&responsibilities_of_a_server_with_prompts_012_IMAGE_142143_nano-banano-pro_2k_9x16_droply.png
+2025-12-03 14:21:43 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251203_141910_IMAGE/roles&responsibilities_of_a_server_with_prompts_012_IMAGE_142143_nano-banano-pro_2k_9x16_droply.md
+2025-12-03 14:21:43 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251203_141910_IMAGE/roles&responsibilities_of_a_server_with_prompts_012_IMAGE_142143_nano-banano-pro_2k_9x16_droply.png
+2025-12-03 14:21:43 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_013.txt
+2025-12-03 14:21:43 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 13/23: roles&responsibilities_of_a_server_with_prompts_013.txt + nano-banano-pro_2k_9x16_droply
+2025-12-03 14:21:43 | DEBUG    | src.processing.processor:_process_single_combination:138 - Added image_input to params: ['https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png']
+2025-12-03 14:21:43 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Provided image shows branding of Droply uniforms, logo, drone, van and pickup box
+2025-12-03 14:21:43 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing roles&responsibilities_of_a_server_with_prompts_013.txt: England, medium shot in restaurant dining room of ...
+2025-12-03 14:21:43 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "output_format": "png",
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png"
+  ]
+}
+2025-12-03 14:21:43 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "output_format": "png",
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png"
+  ],
+  "prompt": "England, medium shot in restaurant dining room of Asian female server in her early 30s wearing white shirt and black apron, efficiently stacking empty plates and gathering utensils from table, bright clean lighting. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box"
+}
+2025-12-03 14:21:43 | DEBUG    | src.api.client:generate_image:89 - Original prompt: England, medium shot in restaurant dining room of Asian female server in her early 30s wearing white shirt and black apron, efficiently stacking empty plates and gathering utensils from table, bright clean lighting. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box
+2025-12-03 14:21:43 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: England, medium shot in restaurant dining room of Asian female server in her early 30s wearing white shirt and black apron, efficiently stacking empty plates and gathering utensils from table, bright clean lighting. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box
+2025-12-03 14:21:43 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'England, medium shot in restaurant dining room of Asian female server in her early 30s wearing white shirt and black apron, efficiently stacking empty plates and gathering utensils from table, bright clean lighting. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box'
+2025-12-03 14:21:43 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-03 14:21:43 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "output_format": "png",
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png"
+  ],
+  "prompt": "England, medium shot in restaurant dining room of Asian female server in her early 30s wearing white shirt and black apron, efficiently stacking empty plates and gathering utensils from table, bright clean lighting. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box"
+}
+2025-12-03 14:21:55 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-03 14:21:55 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-12-03 14:21:55 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-12-03 14:21:55 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-12-03 14:21:55 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-12-03 14:21:55 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251203_141910_IMAGE/roles&responsibilities_of_a_server_with_prompts_013_IMAGE_142155_nano-banano-pro_2k_9x16_droply.png
+2025-12-03 14:21:55 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251203_141910_IMAGE/roles&responsibilities_of_a_server_with_prompts_013_IMAGE_142155_nano-banano-pro_2k_9x16_droply.md
+2025-12-03 14:21:55 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251203_141910_IMAGE/roles&responsibilities_of_a_server_with_prompts_013_IMAGE_142155_nano-banano-pro_2k_9x16_droply.png
+2025-12-03 14:21:55 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_014.txt
+2025-12-03 14:21:55 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 14/23: roles&responsibilities_of_a_server_with_prompts_014.txt + nano-banano-pro_2k_9x16_droply
+2025-12-03 14:21:55 | DEBUG    | src.processing.processor:_process_single_combination:138 - Added image_input to params: ['https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png']
+2025-12-03 14:21:55 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Provided image shows branding of Droply uniforms, logo, drone, van and pickup box
+2025-12-03 14:21:55 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing roles&responsibilities_of_a_server_with_prompts_014.txt: England, medium shot in restaurant dining room of ...
+2025-12-03 14:21:55 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "output_format": "png",
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png"
+  ]
+}
+2025-12-03 14:21:55 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "output_format": "png",
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png"
+  ],
+  "prompt": "England, medium shot in restaurant dining room of White female server in her late 20s wearing white shirt and black apron, holding card payment terminal with professional demeanor, soft diffused lighting. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box"
+}
+2025-12-03 14:21:55 | DEBUG    | src.api.client:generate_image:89 - Original prompt: England, medium shot in restaurant dining room of White female server in her late 20s wearing white shirt and black apron, holding card payment terminal with professional demeanor, soft diffused lighting. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box
+2025-12-03 14:21:55 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: England, medium shot in restaurant dining room of White female server in her late 20s wearing white shirt and black apron, holding card payment terminal with professional demeanor, soft diffused lighting. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box
+2025-12-03 14:21:55 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'England, medium shot in restaurant dining room of White female server in her late 20s wearing white shirt and black apron, holding card payment terminal with professional demeanor, soft diffused lighting. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box'
+2025-12-03 14:21:55 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-03 14:21:55 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "output_format": "png",
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png"
+  ],
+  "prompt": "England, medium shot in restaurant dining room of White female server in her late 20s wearing white shirt and black apron, holding card payment terminal with professional demeanor, soft diffused lighting. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box"
+}
+2025-12-03 14:22:07 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-03 14:22:07 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-12-03 14:22:07 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-12-03 14:22:07 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-12-03 14:22:07 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-12-03 14:22:08 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251203_141910_IMAGE/roles&responsibilities_of_a_server_with_prompts_014_IMAGE_142207_nano-banano-pro_2k_9x16_droply.png
+2025-12-03 14:22:08 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251203_141910_IMAGE/roles&responsibilities_of_a_server_with_prompts_014_IMAGE_142207_nano-banano-pro_2k_9x16_droply.md
+2025-12-03 14:22:08 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251203_141910_IMAGE/roles&responsibilities_of_a_server_with_prompts_014_IMAGE_142207_nano-banano-pro_2k_9x16_droply.png
+2025-12-03 14:22:08 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_015.txt
+2025-12-03 14:22:08 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 15/23: roles&responsibilities_of_a_server_with_prompts_015.txt + nano-banano-pro_2k_9x16_droply
+2025-12-03 14:22:08 | DEBUG    | src.processing.processor:_process_single_combination:138 - Added image_input to params: ['https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png']
+2025-12-03 14:22:08 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Provided image shows branding of Droply uniforms, logo, drone, van and pickup box
+2025-12-03 14:22:08 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing roles&responsibilities_of_a_server_with_prompts_015.txt: England, medium shot in restaurant bar area of Bla...
+2025-12-03 14:22:08 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "output_format": "png",
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png"
+  ]
+}
+2025-12-03 14:22:08 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "output_format": "png",
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png"
+  ],
+  "prompt": "England, medium shot in restaurant bar area of Black male server in his mid-30s wearing white shirt and black apron, standing at POS terminal with focused expression, fingers on touchscreen, bright LED lighting. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box"
+}
+2025-12-03 14:22:08 | DEBUG    | src.api.client:generate_image:89 - Original prompt: England, medium shot in restaurant bar area of Black male server in his mid-30s wearing white shirt and black apron, standing at POS terminal with focused expression, fingers on touchscreen, bright LED lighting. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box
+2025-12-03 14:22:08 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: England, medium shot in restaurant bar area of Black male server in his mid-30s wearing white shirt and black apron, standing at POS terminal with focused expression, fingers on touchscreen, bright LED lighting. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box
+2025-12-03 14:22:08 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'England, medium shot in restaurant bar area of Black male server in his mid-30s wearing white shirt and black apron, standing at POS terminal with focused expression, fingers on touchscreen, bright LED lighting. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box'
+2025-12-03 14:22:08 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-03 14:22:08 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "output_format": "png",
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png"
+  ],
+  "prompt": "England, medium shot in restaurant bar area of Black male server in his mid-30s wearing white shirt and black apron, standing at POS terminal with focused expression, fingers on touchscreen, bright LED lighting. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box"
+}
+2025-12-03 14:22:19 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-03 14:22:19 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-12-03 14:22:19 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-12-03 14:22:19 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-12-03 14:22:19 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-12-03 14:22:20 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251203_141910_IMAGE/roles&responsibilities_of_a_server_with_prompts_015_IMAGE_142219_nano-banano-pro_2k_9x16_droply.png
+2025-12-03 14:22:20 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251203_141910_IMAGE/roles&responsibilities_of_a_server_with_prompts_015_IMAGE_142219_nano-banano-pro_2k_9x16_droply.md
+2025-12-03 14:22:20 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251203_141910_IMAGE/roles&responsibilities_of_a_server_with_prompts_015_IMAGE_142219_nano-banano-pro_2k_9x16_droply.png
+2025-12-03 14:22:20 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_016.txt
+2025-12-03 14:22:20 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 16/23: roles&responsibilities_of_a_server_with_prompts_016.txt + nano-banano-pro_2k_9x16_droply
+2025-12-03 14:22:20 | DEBUG    | src.processing.processor:_process_single_combination:138 - Added image_input to params: ['https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png']
+2025-12-03 14:22:20 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Provided image shows branding of Droply uniforms, logo, drone, van and pickup box
+2025-12-03 14:22:20 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing roles&responsibilities_of_a_server_with_prompts_016.txt: England, wide shot in restaurant dining room of Mi...
+2025-12-03 14:22:20 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "output_format": "png",
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png"
+  ]
+}
+2025-12-03 14:22:20 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "output_format": "png",
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png"
+  ],
+  "prompt": "England, wide shot in restaurant dining room of Middle Eastern female server in her late 20s wearing white shirt and black apron, arranging place settings on table with careful placement, natural window lighting. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box"
+}
+2025-12-03 14:22:20 | DEBUG    | src.api.client:generate_image:89 - Original prompt: England, wide shot in restaurant dining room of Middle Eastern female server in her late 20s wearing white shirt and black apron, arranging place settings on table with careful placement, natural window lighting. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box
+2025-12-03 14:22:20 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: England, wide shot in restaurant dining room of Middle Eastern female server in her late 20s wearing white shirt and black apron, arranging place settings on table with careful placement, natural window lighting. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box
+2025-12-03 14:22:20 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'England, wide shot in restaurant dining room of Middle Eastern female server in her late 20s wearing white shirt and black apron, arranging place settings on table with careful placement, natural window lighting. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box'
+2025-12-03 14:22:20 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-03 14:22:20 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "output_format": "png",
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png"
+  ],
+  "prompt": "England, wide shot in restaurant dining room of Middle Eastern female server in her late 20s wearing white shirt and black apron, arranging place settings on table with careful placement, natural window lighting. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box"
+}
+2025-12-03 14:22:33 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-03 14:22:33 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-12-03 14:22:33 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-12-03 14:22:33 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-12-03 14:22:33 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-12-03 14:22:34 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251203_141910_IMAGE/roles&responsibilities_of_a_server_with_prompts_016_IMAGE_142233_nano-banano-pro_2k_9x16_droply.png
+2025-12-03 14:22:34 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251203_141910_IMAGE/roles&responsibilities_of_a_server_with_prompts_016_IMAGE_142233_nano-banano-pro_2k_9x16_droply.md
+2025-12-03 14:22:34 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251203_141910_IMAGE/roles&responsibilities_of_a_server_with_prompts_016_IMAGE_142233_nano-banano-pro_2k_9x16_droply.png
+2025-12-03 14:22:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_017.txt
+2025-12-03 14:22:34 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 17/23: roles&responsibilities_of_a_server_with_prompts_017.txt + nano-banano-pro_2k_9x16_droply
+2025-12-03 14:22:34 | DEBUG    | src.processing.processor:_process_single_combination:138 - Added image_input to params: ['https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png']
+2025-12-03 14:22:34 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Provided image shows branding of Droply uniforms, logo, drone, van and pickup box
+2025-12-03 14:22:34 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing roles&responsibilities_of_a_server_with_prompts_017.txt: England, medium shot in restaurant bar area of His...
+2025-12-03 14:22:34 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "output_format": "png",
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png"
+  ]
+}
+2025-12-03 14:22:34 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "output_format": "png",
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png"
+  ],
+  "prompt": "England, medium shot in restaurant bar area of Hispanic male server in his early 30s wearing white shirt and black apron, carrying stack of clean napkins and placing them in service station, bright clean lighting. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box"
+}
+2025-12-03 14:22:34 | DEBUG    | src.api.client:generate_image:89 - Original prompt: England, medium shot in restaurant bar area of Hispanic male server in his early 30s wearing white shirt and black apron, carrying stack of clean napkins and placing them in service station, bright clean lighting. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box
+2025-12-03 14:22:34 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: England, medium shot in restaurant bar area of Hispanic male server in his early 30s wearing white shirt and black apron, carrying stack of clean napkins and placing them in service station, bright clean lighting. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box
+2025-12-03 14:22:34 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'England, medium shot in restaurant bar area of Hispanic male server in his early 30s wearing white shirt and black apron, carrying stack of clean napkins and placing them in service station, bright clean lighting. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box'
+2025-12-03 14:22:34 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-03 14:22:34 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "output_format": "png",
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png"
+  ],
+  "prompt": "England, medium shot in restaurant bar area of Hispanic male server in his early 30s wearing white shirt and black apron, carrying stack of clean napkins and placing them in service station, bright clean lighting. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box"
+}
+2025-12-03 14:22:45 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-03 14:22:45 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-12-03 14:22:45 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-12-03 14:22:45 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-12-03 14:22:45 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-12-03 14:22:46 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251203_141910_IMAGE/roles&responsibilities_of_a_server_with_prompts_017_IMAGE_142245_nano-banano-pro_2k_9x16_droply.png
+2025-12-03 14:22:46 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251203_141910_IMAGE/roles&responsibilities_of_a_server_with_prompts_017_IMAGE_142245_nano-banano-pro_2k_9x16_droply.md
+2025-12-03 14:22:46 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251203_141910_IMAGE/roles&responsibilities_of_a_server_with_prompts_017_IMAGE_142245_nano-banano-pro_2k_9x16_droply.png
+2025-12-03 14:22:46 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_018.txt
+2025-12-03 14:22:46 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 18/23: roles&responsibilities_of_a_server_with_prompts_018.txt + nano-banano-pro_2k_9x16_droply
+2025-12-03 14:22:46 | DEBUG    | src.processing.processor:_process_single_combination:138 - Added image_input to params: ['https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png']
+2025-12-03 14:22:46 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Provided image shows branding of Droply uniforms, logo, drone, van and pickup box
+2025-12-03 14:22:46 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing roles&responsibilities_of_a_server_with_prompts_018.txt: England, medium shot in restaurant service station...
+2025-12-03 14:22:46 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "output_format": "png",
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png"
+  ]
+}
+2025-12-03 14:22:46 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "output_format": "png",
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png"
+  ],
+  "prompt": "England, medium shot in restaurant service station of two servers \u2014 White male and Asian female both in mid-20s wearing white shirts and black aprons \u2014 standing side by side with collaborative posture, natural lighting. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box"
+}
+2025-12-03 14:22:46 | DEBUG    | src.api.client:generate_image:89 - Original prompt: England, medium shot in restaurant service station of two servers — White male and Asian female both in mid-20s wearing white shirts and black aprons — standing side by side with collaborative posture, natural lighting. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box
+2025-12-03 14:22:46 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: England, medium shot in restaurant service station of two servers — White male and Asian female both in mid-20s wearing white shirts and black aprons — standing side by side with collaborative posture, natural lighting. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box
+2025-12-03 14:22:46 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'England, medium shot in restaurant service station of two servers — White male and Asian female both in mid-20s wearing white shirts and black aprons — standing side by side with collaborative posture, natural lighting. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box'
+2025-12-03 14:22:46 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-03 14:22:46 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "output_format": "png",
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png"
+  ],
+  "prompt": "England, medium shot in restaurant service station of two servers \u2014 White male and Asian female both in mid-20s wearing white shirts and black aprons \u2014 standing side by side with collaborative posture, natural lighting. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box"
+}
+2025-12-03 14:23:12 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-03 14:23:12 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-12-03 14:23:12 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-12-03 14:23:12 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-12-03 14:23:12 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-12-03 14:23:13 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251203_141910_IMAGE/roles&responsibilities_of_a_server_with_prompts_018_IMAGE_142312_nano-banano-pro_2k_9x16_droply.png
+2025-12-03 14:23:13 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251203_141910_IMAGE/roles&responsibilities_of_a_server_with_prompts_018_IMAGE_142312_nano-banano-pro_2k_9x16_droply.md
+2025-12-03 14:23:13 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251203_141910_IMAGE/roles&responsibilities_of_a_server_with_prompts_018_IMAGE_142312_nano-banano-pro_2k_9x16_droply.png
+2025-12-03 14:23:13 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_019.txt
+2025-12-03 14:23:13 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 19/23: roles&responsibilities_of_a_server_with_prompts_019.txt + nano-banano-pro_2k_9x16_droply
+2025-12-03 14:23:13 | DEBUG    | src.processing.processor:_process_single_combination:138 - Added image_input to params: ['https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png']
+2025-12-03 14:23:13 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Provided image shows branding of Droply uniforms, logo, drone, van and pickup box
+2025-12-03 14:23:13 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing roles&responsibilities_of_a_server_with_prompts_019.txt: England, medium shot in restaurant dining room of ...
+2025-12-03 14:23:13 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "output_format": "png",
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png"
+  ]
+}
+2025-12-03 14:23:13 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "output_format": "png",
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png"
+  ],
+  "prompt": "England, medium shot in restaurant dining room of Mixed-race female server in her late 20s wearing white shirt and black apron, helping Black male colleague carry multiple plates, both with focused expressions, soft diffused lighting. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box"
+}
+2025-12-03 14:23:13 | DEBUG    | src.api.client:generate_image:89 - Original prompt: England, medium shot in restaurant dining room of Mixed-race female server in her late 20s wearing white shirt and black apron, helping Black male colleague carry multiple plates, both with focused expressions, soft diffused lighting. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box
+2025-12-03 14:23:13 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: England, medium shot in restaurant dining room of Mixed-race female server in her late 20s wearing white shirt and black apron, helping Black male colleague carry multiple plates, both with focused expressions, soft diffused lighting. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box
+2025-12-03 14:23:13 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'England, medium shot in restaurant dining room of Mixed-race female server in her late 20s wearing white shirt and black apron, helping Black male colleague carry multiple plates, both with focused expressions, soft diffused lighting. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box'
+2025-12-03 14:23:13 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-03 14:23:13 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "output_format": "png",
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png"
+  ],
+  "prompt": "England, medium shot in restaurant dining room of Mixed-race female server in her late 20s wearing white shirt and black apron, helping Black male colleague carry multiple plates, both with focused expressions, soft diffused lighting. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box"
+}
+2025-12-03 14:23:24 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-03 14:23:24 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-12-03 14:23:24 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-12-03 14:23:24 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-12-03 14:23:24 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-12-03 14:23:25 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251203_141910_IMAGE/roles&responsibilities_of_a_server_with_prompts_019_IMAGE_142324_nano-banano-pro_2k_9x16_droply.png
+2025-12-03 14:23:25 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251203_141910_IMAGE/roles&responsibilities_of_a_server_with_prompts_019_IMAGE_142324_nano-banano-pro_2k_9x16_droply.md
+2025-12-03 14:23:25 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251203_141910_IMAGE/roles&responsibilities_of_a_server_with_prompts_019_IMAGE_142324_nano-banano-pro_2k_9x16_droply.png
+2025-12-03 14:23:25 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_020.txt
+2025-12-03 14:23:25 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 20/23: roles&responsibilities_of_a_server_with_prompts_020.txt + nano-banano-pro_2k_9x16_droply
+2025-12-03 14:23:25 | DEBUG    | src.processing.processor:_process_single_combination:138 - Added image_input to params: ['https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png']
+2025-12-03 14:23:25 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Provided image shows branding of Droply uniforms, logo, drone, van and pickup box
+2025-12-03 14:23:25 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing roles&responsibilities_of_a_server_with_prompts_020.txt: England, medium shot at restaurant kitchen pass wi...
+2025-12-03 14:23:25 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "output_format": "png",
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png"
+  ]
+}
+2025-12-03 14:23:25 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "output_format": "png",
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png"
+  ],
+  "prompt": "England, medium shot at restaurant kitchen pass window of White male server in his early 30s wearing white shirt and black apron, reaching for plates from pass window with attentive expression, bright LED lighting. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box"
+}
+2025-12-03 14:23:25 | DEBUG    | src.api.client:generate_image:89 - Original prompt: England, medium shot at restaurant kitchen pass window of White male server in his early 30s wearing white shirt and black apron, reaching for plates from pass window with attentive expression, bright LED lighting. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box
+2025-12-03 14:23:25 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: England, medium shot at restaurant kitchen pass window of White male server in his early 30s wearing white shirt and black apron, reaching for plates from pass window with attentive expression, bright LED lighting. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box
+2025-12-03 14:23:25 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'England, medium shot at restaurant kitchen pass window of White male server in his early 30s wearing white shirt and black apron, reaching for plates from pass window with attentive expression, bright LED lighting. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box'
+2025-12-03 14:23:25 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-03 14:23:25 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "output_format": "png",
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png"
+  ],
+  "prompt": "England, medium shot at restaurant kitchen pass window of White male server in his early 30s wearing white shirt and black apron, reaching for plates from pass window with attentive expression, bright LED lighting. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box"
+}
+2025-12-03 14:23:36 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-03 14:23:36 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-12-03 14:23:36 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-12-03 14:23:36 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-12-03 14:23:36 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-12-03 14:23:37 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251203_141910_IMAGE/roles&responsibilities_of_a_server_with_prompts_020_IMAGE_142336_nano-banano-pro_2k_9x16_droply.png
+2025-12-03 14:23:37 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251203_141910_IMAGE/roles&responsibilities_of_a_server_with_prompts_020_IMAGE_142336_nano-banano-pro_2k_9x16_droply.md
+2025-12-03 14:23:37 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251203_141910_IMAGE/roles&responsibilities_of_a_server_with_prompts_020_IMAGE_142336_nano-banano-pro_2k_9x16_droply.png
+2025-12-03 14:23:37 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_021.txt
+2025-12-03 14:23:37 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 21/23: roles&responsibilities_of_a_server_with_prompts_021.txt + nano-banano-pro_2k_9x16_droply
+2025-12-03 14:23:37 | DEBUG    | src.processing.processor:_process_single_combination:138 - Added image_input to params: ['https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png']
+2025-12-03 14:23:37 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Provided image shows branding of Droply uniforms, logo, drone, van and pickup box
+2025-12-03 14:23:37 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing roles&responsibilities_of_a_server_with_prompts_021.txt: England, full-length shot in restaurant dining roo...
+2025-12-03 14:23:37 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "output_format": "png",
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png"
+  ]
+}
+2025-12-03 14:23:37 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "output_format": "png",
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png"
+  ],
+  "prompt": "England, full-length shot in restaurant dining room of Hispanic female server in her mid-20s wearing crisp white shirt, pressed black trousers, black apron, and bow tie, standing with confident posture and subtle smile, natural window lighting, deep focus. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box"
+}
+2025-12-03 14:23:37 | DEBUG    | src.api.client:generate_image:89 - Original prompt: England, full-length shot in restaurant dining room of Hispanic female server in her mid-20s wearing crisp white shirt, pressed black trousers, black apron, and bow tie, standing with confident posture and subtle smile, natural window lighting, deep focus. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box
+2025-12-03 14:23:37 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: England, full-length shot in restaurant dining room of Hispanic female server in her mid-20s wearing crisp white shirt, pressed black trousers, black apron, and bow tie, standing with confident posture and subtle smile, natural window lighting, deep focus. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box
+2025-12-03 14:23:37 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'England, full-length shot in restaurant dining room of Hispanic female server in her mid-20s wearing crisp white shirt, pressed black trousers, black apron, and bow tie, standing with confident posture and subtle smile, natural window lighting, deep focus. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box'
+2025-12-03 14:23:37 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-03 14:23:37 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "output_format": "png",
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png"
+  ],
+  "prompt": "England, full-length shot in restaurant dining room of Hispanic female server in her mid-20s wearing crisp white shirt, pressed black trousers, black apron, and bow tie, standing with confident posture and subtle smile, natural window lighting, deep focus. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box"
+}
+2025-12-03 14:23:48 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-03 14:23:48 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-12-03 14:23:48 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-12-03 14:23:48 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-12-03 14:23:48 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-12-03 14:23:49 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251203_141910_IMAGE/roles&responsibilities_of_a_server_with_prompts_021_IMAGE_142348_nano-banano-pro_2k_9x16_droply.png
+2025-12-03 14:23:49 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251203_141910_IMAGE/roles&responsibilities_of_a_server_with_prompts_021_IMAGE_142348_nano-banano-pro_2k_9x16_droply.md
+2025-12-03 14:23:49 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251203_141910_IMAGE/roles&responsibilities_of_a_server_with_prompts_021_IMAGE_142348_nano-banano-pro_2k_9x16_droply.png
+2025-12-03 14:23:49 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_022.txt
+2025-12-03 14:23:49 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 22/23: roles&responsibilities_of_a_server_with_prompts_022.txt + nano-banano-pro_2k_9x16_droply
+2025-12-03 14:23:49 | DEBUG    | src.processing.processor:_process_single_combination:138 - Added image_input to params: ['https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png']
+2025-12-03 14:23:49 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Provided image shows branding of Droply uniforms, logo, drone, van and pickup box
+2025-12-03 14:23:49 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing roles&responsibilities_of_a_server_with_prompts_022.txt: England, medium shot in restaurant dining room of ...
+2025-12-03 14:23:49 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "output_format": "png",
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png"
+  ]
+}
+2025-12-03 14:23:49 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "output_format": "png",
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png"
+  ],
+  "prompt": "England, medium shot in restaurant dining room of Asian male server in his late 20s wearing white shirt and black apron, standing beside table with guests displaying satisfied expressions, warm ambient lighting. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box"
+}
+2025-12-03 14:23:49 | DEBUG    | src.api.client:generate_image:89 - Original prompt: England, medium shot in restaurant dining room of Asian male server in his late 20s wearing white shirt and black apron, standing beside table with guests displaying satisfied expressions, warm ambient lighting. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box
+2025-12-03 14:23:49 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: England, medium shot in restaurant dining room of Asian male server in his late 20s wearing white shirt and black apron, standing beside table with guests displaying satisfied expressions, warm ambient lighting. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box
+2025-12-03 14:23:49 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'England, medium shot in restaurant dining room of Asian male server in his late 20s wearing white shirt and black apron, standing beside table with guests displaying satisfied expressions, warm ambient lighting. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box'
+2025-12-03 14:23:49 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-03 14:23:49 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "output_format": "png",
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png"
+  ],
+  "prompt": "England, medium shot in restaurant dining room of Asian male server in his late 20s wearing white shirt and black apron, standing beside table with guests displaying satisfied expressions, warm ambient lighting. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box"
+}
+2025-12-03 14:24:02 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-03 14:24:02 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-12-03 14:24:02 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-12-03 14:24:02 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-12-03 14:24:02 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-12-03 14:24:03 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251203_141910_IMAGE/roles&responsibilities_of_a_server_with_prompts_022_IMAGE_142402_nano-banano-pro_2k_9x16_droply.png
+2025-12-03 14:24:03 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251203_141910_IMAGE/roles&responsibilities_of_a_server_with_prompts_022_IMAGE_142402_nano-banano-pro_2k_9x16_droply.md
+2025-12-03 14:24:03 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251203_141910_IMAGE/roles&responsibilities_of_a_server_with_prompts_022_IMAGE_142402_nano-banano-pro_2k_9x16_droply.png
+2025-12-03 14:24:03 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_023.txt
+2025-12-03 14:24:03 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 23/23: roles&responsibilities_of_a_server_with_prompts_023.txt + nano-banano-pro_2k_9x16_droply
+2025-12-03 14:24:03 | DEBUG    | src.processing.processor:_process_single_combination:138 - Added image_input to params: ['https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png']
+2025-12-03 14:24:03 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Provided image shows branding of Droply uniforms, logo, drone, van and pickup box
+2025-12-03 14:24:03 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing roles&responsibilities_of_a_server_with_prompts_023.txt: England, wide shot in restaurant dining room of di...
+2025-12-03 14:24:03 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "output_format": "png",
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png"
+  ]
+}
+2025-12-03 14:24:03 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "output_format": "png",
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png"
+  ],
+  "prompt": "England, wide shot in restaurant dining room of diverse guests at tables with Black female server in her early 30s wearing white shirt and black apron moving through dining room with subtle smile, creating welcoming environment, soft diffused lighting, shallow depth of field. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box"
+}
+2025-12-03 14:24:03 | DEBUG    | src.api.client:generate_image:89 - Original prompt: England, wide shot in restaurant dining room of diverse guests at tables with Black female server in her early 30s wearing white shirt and black apron moving through dining room with subtle smile, creating welcoming environment, soft diffused lighting, shallow depth of field. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box
+2025-12-03 14:24:03 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: England, wide shot in restaurant dining room of diverse guests at tables with Black female server in her early 30s wearing white shirt and black apron moving through dining room with subtle smile, creating welcoming environment, soft diffused lighting, shallow depth of field. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box
+2025-12-03 14:24:03 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'England, wide shot in restaurant dining room of diverse guests at tables with Black female server in her early 30s wearing white shirt and black apron moving through dining room with subtle smile, creating welcoming environment, soft diffused lighting, shallow depth of field. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box'
+2025-12-03 14:24:03 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-03 14:24:03 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "output_format": "png",
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/bites-client-ref/droply_montage.png"
+  ],
+  "prompt": "England, wide shot in restaurant dining room of diverse guests at tables with Black female server in her early 30s wearing white shirt and black apron moving through dining room with subtle smile, creating welcoming environment, soft diffused lighting, shallow depth of field. Provided image shows branding of Droply uniforms, logo, drone, van and pickup box"
+}
+2025-12-03 14:24:15 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-03 14:24:15 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-12-03 14:24:15 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-12-03 14:24:15 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-12-03 14:24:15 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-12-03 14:24:16 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251203_141910_IMAGE/roles&responsibilities_of_a_server_with_prompts_023_IMAGE_142415_nano-banano-pro_2k_9x16_droply.png
+2025-12-03 14:24:16 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251203_141910_IMAGE/roles&responsibilities_of_a_server_with_prompts_023_IMAGE_142415_nano-banano-pro_2k_9x16_droply.md
+2025-12-03 14:24:16 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251203_141910_IMAGE/roles&responsibilities_of_a_server_with_prompts_023_IMAGE_142415_nano-banano-pro_2k_9x16_droply.png
+2025-12-03 14:24:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_001.txt
+2025-12-03 14:24:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_002.txt
+2025-12-03 14:24:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_003.txt
+2025-12-03 14:24:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_004.txt
+2025-12-03 14:24:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_005.txt
+2025-12-03 14:24:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_006.txt
+2025-12-03 14:24:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_007.txt
+2025-12-03 14:24:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_008.txt
+2025-12-03 14:24:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_009.txt
+2025-12-03 14:24:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_010.txt
+2025-12-03 14:24:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_011.txt
+2025-12-03 14:24:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_012.txt
+2025-12-03 14:24:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_013.txt
+2025-12-03 14:24:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_014.txt
+2025-12-03 14:24:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_015.txt
+2025-12-03 14:24:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_016.txt
+2025-12-03 14:24:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_017.txt
+2025-12-03 14:24:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_018.txt
+2025-12-03 14:24:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_019.txt
+2025-12-03 14:24:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_020.txt
+2025-12-03 14:24:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_021.txt
+2025-12-03 14:24:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_022.txt
+2025-12-03 14:24:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_023.txt
+2025-12-03 14:24:16 | INFO     | src.output.writer:write_report:293 - Report saved: USER-FILES/05.OUTPUT/251203_141910_IMAGE/SUCCESS.md
+2025-12-03 14:24:16 | INFO     | src.output.writer:write_report:293 - Report saved: USER-FILES/05.OUTPUT/251203_141910_IMAGE/COST-REPORT.md
+2025-12-03 14:24:16 | INFO     | src.output.writer:write_report:293 - Report saved: USER-FILES/05.OUTPUT/251203_141910_IMAGE/PROFILES-WITH-FIXES.md
+2025-12-03 14:24:16 | INFO     | src.output.reporter:_save_success_reports:62 - Reports saved successfully
+2025-12-03 14:24:16 | SUCCESS  | __main__:generate_final_reports:264 - ✅ Completed successfully! Generated 23 images

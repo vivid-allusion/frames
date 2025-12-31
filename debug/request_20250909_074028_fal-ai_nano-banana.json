@@ -1,0 +1,8 @@
+{
+  "endpoint": "fal-ai/nano-banana",
+  "payload": {
+    "num_images": 1,
+    "prompt": "Aspect_ratio=\"16:9\" Group of 3 AWS employees (Hispanic woman 30s, White man 40s, Asian man 20s) all smiling, checking ID badges together, wearing complete PPE: long-sleeved shirts, utilitarian pants, gray safety gloves, ear protection muffs, and safety goggles, industrial facility entrance."
+  },
+  "timestamp": "20250909_074028"
+}

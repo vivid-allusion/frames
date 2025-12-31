@@ -1,0 +1,812 @@
+2025-09-09 07:43:16 | INFO     | src.utils.logging:setup_logging:39 - Logging configured (verbose=False, debug=False)
+2025-09-09 07:43:16 | INFO     | __main__:main:75 - Loading configuration...
+2025-09-09 07:43:16 | INFO     | src.config.loader:load_config:42 - Loaded configuration from USER-FILES/01.CONFIG/config.yaml
+2025-09-09 07:43:16 | INFO     | __main__:main:80 - Authenticating...
+2025-09-09 07:43:16 | DEBUG    | src.auth.env:get_fal_api_key_from_env:19 - Loaded environment from /Users/ruben/08_-_DEVELOPMENT/ISOF_IMAGE_WORKFLOW/00.fal_text-to-image_tool/.env
+2025-09-09 07:43:16 | INFO     | src.auth.env:get_fal_api_key_from_env:25 - Successfully retrieved FAL API key from environment
+2025-09-09 07:43:16 | INFO     | __main__:main:84 - Discovering inputs...
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: test_quotes/test1.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: test_quotes/test2.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/1/line_0026.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/1/line_0027.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/1/line_0019.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/1/line_0025.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/1/line_0024.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/1/line_0018.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/1/line_0020.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/1/line_0008.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/1/line_0009.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/1/line_0021.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/1/line_0023.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/1/line_0022.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/1/line_0013.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/1/line_0007.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/1/line_0006.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/1/line_0012.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/1/line_0004.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/1/line_0010.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/1/line_0011.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/1/line_0005.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/1/line_0001.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/1/line_0015.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/1/line_0014.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/1/line_0016.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/1/line_0002.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/1/line_0003.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/1/line_0017.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/4/line_0026.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/4/line_0027.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/4/line_0019.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/4/line_0025.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/4/line_0024.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/4/line_0018.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/4/line_0020.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/4/line_0008.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/4/line_0009.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/4/line_0021.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/4/line_0023.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/4/line_0022.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/4/line_0013.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/4/line_0007.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/4/line_0006.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/4/line_0012.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/4/line_0004.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/4/line_0010.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/4/line_0011.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/4/line_0005.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/4/line_0001.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/4/line_0015.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/4/line_0014.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/4/line_0016.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/4/line_0002.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/4/line_0003.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/4/line_0017.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/3/line_0026.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/3/line_0027.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/3/line_0019.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/3/line_0025.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/3/line_0024.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/3/line_0018.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/3/line_0020.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/3/line_0008.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/3/line_0009.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/3/line_0021.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/3/line_0023.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/3/line_0022.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/3/line_0013.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/3/line_0007.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/3/line_0006.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/3/line_0012.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/3/line_0004.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/3/line_0010.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/3/line_0011.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/3/line_0005.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/3/line_0001.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/3/line_0015.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/3/line_0029.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/3/line_0028.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/3/line_0014.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/3/line_0016.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/3/line_0002.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/3/line_0003.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/3/line_0017.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/2/line_0026.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/2/line_0027.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/2/line_0019.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/2/line_0025.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/2/line_0024.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/2/line_0018.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/2/line_0020.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/2/line_0008.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/2/line_0009.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/2/line_0021.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/2/line_0023.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/2/line_0022.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/2/line_0013.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/2/line_0007.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/2/line_0006.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/2/line_0012.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/2/line_0004.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/2/line_0010.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/2/line_0011.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/2/line_0005.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/2/line_0001.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/2/line_0015.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/2/line_0028.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/2/line_0014.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/2/line_0016.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/2/line_0002.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/2/line_0003.txt
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: incident commander_straight/2/line_0017.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:discover_prompt_files:45 - Discovered 113 prompt files
+2025-09-09 07:43:16 | DEBUG    | src.processing.discovery:discover_profiles:93 - Loaded profile: USER-FILES/03.PROFILES/nano-banano_16x9.yaml
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:discover_profiles:97 - Loaded 1 profiles
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:get_active_models:131 - Found profile: nano-banano_16x9
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:get_active_models:136 - Total profiles to process: 1
+2025-09-09 07:43:16 | INFO     | src.config.validator:validate_all:26 - All configuration validation passed
+2025-09-09 07:43:16 | INFO     | __main__:main:104 - Output directory: USER-FILES/05.OUTPUT/250909_074316
+2025-09-09 07:43:16 | INFO     | __main__:main:166 - Starting matrix processing...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:69 - Processing 113 combinations (113 files × 1 profiles)
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0001.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 1/113: incident commander_straight/1/line_0001.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/1/line_0001.txt: Aspect_ratio="16:9" "Clipart-style illustration of...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/1/line_0001.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0002.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 2/113: incident commander_straight/1/line_0002.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/1/line_0002.txt: Aspect_ratio="16:9" Group of 3 AWS employees (Hisp...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/1/line_0002.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0003.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 3/113: incident commander_straight/1/line_0003.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/1/line_0003.txt: Aspect_ratio="16:9" Clipart-style illustration of ...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/1/line_0003.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0004.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 4/113: incident commander_straight/1/line_0004.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/1/line_0004.txt: Aspect_ratio="16:9" Group of 3 AWS technicians (Mi...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/1/line_0004.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0005.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 5/113: incident commander_straight/1/line_0005.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/1/line_0005.txt: Aspect_ratio="16:9" "Clipart-style illustration of...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/1/line_0005.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0006.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 6/113: incident commander_straight/1/line_0006.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/1/line_0006.txt: Aspect_ratio="16:9" Dutch angle, off-centered fram...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/1/line_0006.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0007.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 7/113: incident commander_straight/1/line_0007.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/1/line_0007.txt: Aspect_ratio="16:9" Group of 1 site manager (Asian...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/1/line_0007.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0008.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 8/113: incident commander_straight/1/line_0008.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/1/line_0008.txt: Aspect_ratio="16:9" Group of 2 site managers (Blac...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/1/line_0008.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0009.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 9/113: incident commander_straight/1/line_0009.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/1/line_0009.txt: Aspect_ratio="16:9" Group of 4 operations team mem...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/1/line_0009.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0010.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 10/113: incident commander_straight/1/line_0010.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/1/line_0010.txt: Aspect_ratio="16:9" Clipart-style illustration of ...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/1/line_0010.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0011.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 11/113: incident commander_straight/1/line_0011.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/1/line_0011.txt: Aspect_ratio="16:9" Group of 2 incident commanders...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/1/line_0011.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0012.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 12/113: incident commander_straight/1/line_0012.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/1/line_0012.txt: Aspect_ratio="16:9" Group of 2 people: incident co...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/1/line_0012.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0013.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 13/113: incident commander_straight/1/line_0013.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/1/line_0013.txt: Aspect_ratio="16:9" Group of 2 incident commanders...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/1/line_0013.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0014.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 14/113: incident commander_straight/1/line_0014.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/1/line_0014.txt: Aspect_ratio="16:9" Group of 1 incident commander ...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/1/line_0014.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0015.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 15/113: incident commander_straight/1/line_0015.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/1/line_0015.txt: Aspect_ratio="16:9" Group of 2 diverse AWS technic...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/1/line_0015.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0016.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 16/113: incident commander_straight/1/line_0016.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/1/line_0016.txt: Aspect_ratio="16:9" Group of 2 people: incident co...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/1/line_0016.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0017.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 17/113: incident commander_straight/1/line_0017.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/1/line_0017.txt: Aspect_ratio="16:9" Group of 3 people: security of...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/1/line_0017.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0018.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 18/113: incident commander_straight/1/line_0018.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/1/line_0018.txt: Aspect_ratio="16:9" Clipart-style illustration of ...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/1/line_0018.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0019.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 19/113: incident commander_straight/1/line_0019.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/1/line_0019.txt: Aspect_ratio="16:9" Group of 3 people being led by...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/1/line_0019.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0020.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 20/113: incident commander_straight/1/line_0020.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/1/line_0020.txt: Aspect_ratio="16:9" "Clipart-style illustration of...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/1/line_0020.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0021.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 21/113: incident commander_straight/1/line_0021.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/1/line_0021.txt: Aspect_ratio="16:9" Group of 1 incident commander ...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/1/line_0021.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0022.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 22/113: incident commander_straight/1/line_0022.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/1/line_0022.txt: Aspect_ratio="16:9" Group of 2 incident commanders...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/1/line_0022.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0023.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 23/113: incident commander_straight/1/line_0023.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/1/line_0023.txt: Aspect_ratio="16:9" Group of 3 diverse personnel: ...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/1/line_0023.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0024.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 24/113: incident commander_straight/1/line_0024.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/1/line_0024.txt: Aspect_ratio="16:9" Clipart-style illustration of ...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/1/line_0024.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0025.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 25/113: incident commander_straight/1/line_0025.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/1/line_0025.txt: Aspect_ratio="16:9" Group of 2 confident incident ...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/1/line_0025.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0026.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 26/113: incident commander_straight/1/line_0026.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/1/line_0026.txt: Aspect_ratio="16:9" Group of 3 AWS technicians (Wh...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/1/line_0026.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0027.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 27/113: incident commander_straight/1/line_0027.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/1/line_0027.txt: Aspect_ratio="16:9" Clipart-style illustration of ...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/1/line_0027.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0001.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 28/113: incident commander_straight/2/line_0001.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/2/line_0001.txt: Aspect_ratio="16:9" Group of 1 incident commander ...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/2/line_0001.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0002.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 29/113: incident commander_straight/2/line_0002.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/2/line_0002.txt: Aspect_ratio="16:9" Group of 3 diverse team member...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/2/line_0002.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0003.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 30/113: incident commander_straight/2/line_0003.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/2/line_0003.txt: Aspect_ratio="16:9" Group of 2 incident commanders...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/2/line_0003.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0004.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 31/113: incident commander_straight/2/line_0004.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/2/line_0004.txt: Aspect_ratio="16:9" Clipart-style illustration of ...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/2/line_0004.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0005.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 32/113: incident commander_straight/2/line_0005.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/2/line_0005.txt: Aspect_ratio="16:9" Group of 3 people with inciden...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/2/line_0005.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0006.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 33/113: incident commander_straight/2/line_0006.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/2/line_0006.txt: Aspect_ratio="16:9" Group of 3: incident commander...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/2/line_0006.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0007.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 34/113: incident commander_straight/2/line_0007.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/2/line_0007.txt: Aspect_ratio="16:9" Group of 3 people reviewing ro...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/2/line_0007.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0008.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 35/113: incident commander_straight/2/line_0008.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/2/line_0008.txt: Aspect_ratio="16:9" Clipart-style illustration of ...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/2/line_0008.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0009.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 36/113: incident commander_straight/2/line_0009.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/2/line_0009.txt: Aspect_ratio="16:9" Group of 2: incident commander...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/2/line_0009.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0010.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 37/113: incident commander_straight/2/line_0010.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/2/line_0010.txt: Aspect_ratio="16:9" "Group of 2 incident commander...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/2/line_0010.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0011.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 38/113: incident commander_straight/2/line_0011.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/2/line_0011.txt: Aspect_ratio="16:9" Group of 2 incident commanders...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/2/line_0011.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0012.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 39/113: incident commander_straight/2/line_0012.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/2/line_0012.txt: Aspect_ratio="16:9" Clipart-style illustration of ...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/2/line_0012.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0013.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 40/113: incident commander_straight/2/line_0013.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/2/line_0013.txt: Aspect_ratio="16:9" Group of 3 people conducting d...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/2/line_0013.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0014.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 41/113: incident commander_straight/2/line_0014.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/2/line_0014.txt: Aspect_ratio="16:9" Clipart-style illustration of ...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/2/line_0014.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0015.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 42/113: incident commander_straight/2/line_0015.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/2/line_0015.txt: Aspect_ratio="16:9" Group of 3: incident commander...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/2/line_0015.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0016.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 43/113: incident commander_straight/2/line_0016.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/2/line_0016.txt: Aspect_ratio="16:9" Group of 3 people: incident co...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/2/line_0016.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0017.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 44/113: incident commander_straight/2/line_0017.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/2/line_0017.txt: Aspect_ratio="16:9" Group of 3 at assembly point: ...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/2/line_0017.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0018.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 45/113: incident commander_straight/2/line_0018.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/2/line_0018.txt: Aspect_ratio="16:9" Group of 3: incident commander...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/2/line_0018.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0019.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 46/113: incident commander_straight/2/line_0019.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/2/line_0019.txt: Aspect_ratio="16:9" "Clipart-style illustration of...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/2/line_0019.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0020.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 47/113: incident commander_straight/2/line_0020.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/2/line_0020.txt: Aspect_ratio="16:9" Group of 1 incident commander ...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/2/line_0020.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0021.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 48/113: incident commander_straight/2/line_0021.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/2/line_0021.txt: Aspect_ratio="16:9" Group of 2 in split scene: sam...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/2/line_0021.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0022.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 49/113: incident commander_straight/2/line_0022.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/2/line_0022.txt: Aspect_ratio="16:9" Group of 3 in conference room:...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/2/line_0022.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0023.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 50/113: incident commander_straight/2/line_0023.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/2/line_0023.txt: Aspect_ratio="16:9" Dutch angle, off-centered fram...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/2/line_0023.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0024.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 51/113: incident commander_straight/2/line_0024.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/2/line_0024.txt: Aspect_ratio="16:9" Group of 2: incident commander...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/2/line_0024.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0025.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 52/113: incident commander_straight/2/line_0025.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/2/line_0025.txt: Aspect_ratio="16:9" Three-panel sequence showing s...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/2/line_0025.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0026.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 53/113: incident commander_straight/2/line_0026.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/2/line_0026.txt: Aspect_ratio="16:9" Clipart-style illustration sho...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/2/line_0026.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0027.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 54/113: incident commander_straight/2/line_0027.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/2/line_0027.txt: Aspect_ratio="16:9" Group of 2 incident commanders...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/2/line_0027.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0028.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 55/113: incident commander_straight/2/line_0028.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/2/line_0028.txt: Aspect_ratio="16:9" Clipart-style illustration of ...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/2/line_0028.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0001.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 56/113: incident commander_straight/3/line_0001.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/3/line_0001.txt: Aspect_ratio="16:9" Every emergency response is st...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/3/line_0001.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0002.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 57/113: incident commander_straight/3/line_0002.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/3/line_0002.txt: Aspect_ratio="16:9" Prevention, response and recov...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/3/line_0002.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0003.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 58/113: incident commander_straight/3/line_0003.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/3/line_0003.txt: Aspect_ratio="16:9" Together they provide a framew...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/3/line_0003.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0004.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 59/113: incident commander_straight/3/line_0004.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/3/line_0004.txt: Aspect_ratio="16:9" Ensure effective action and re...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/3/line_0004.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0005.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 60/113: incident commander_straight/3/line_0005.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/3/line_0005.txt: Aspect_ratio="16:9" Prevention focuses on readines...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/3/line_0005.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0006.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 61/113: incident commander_straight/3/line_0006.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/3/line_0006.txt: Aspect_ratio="16:9" It includes measures	Dutch ang...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/3/line_0006.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0007.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 62/113: incident commander_straight/3/line_0007.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/3/line_0007.txt: Aspect_ratio="16:9" that reduce risks and prepare ...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/3/line_0007.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0008.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 63/113: incident commander_straight/3/line_0008.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/3/line_0008.txt: Aspect_ratio="16:9" Ensuring that people, systems ...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/3/line_0008.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0009.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 64/113: incident commander_straight/3/line_0009.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/3/line_0009.txt: Aspect_ratio="16:9" before an event occurs.	Group ...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/3/line_0009.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0010.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 65/113: incident commander_straight/3/line_0010.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/3/line_0010.txt: Aspect_ratio="16:9" Response is the second phase, ...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/3/line_0010.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0011.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 66/113: incident commander_straight/3/line_0011.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/3/line_0011.txt: Aspect_ratio="16:9" It involves activating the eme...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/3/line_0011.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0012.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 67/113: incident commander_straight/3/line_0012.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/3/line_0012.txt: Aspect_ratio="16:9" Directing personnel to safety,...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/3/line_0012.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0013.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 68/113: incident commander_straight/3/line_0013.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/3/line_0013.txt: Aspect_ratio="16:9" services, and ensuring that ev...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/3/line_0013.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0014.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 69/113: incident commander_straight/3/line_0014.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/3/line_0014.txt: Aspect_ratio="16:9" Decisive action here minimizes...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/3/line_0014.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0015.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 70/113: incident commander_straight/3/line_0015.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/3/line_0015.txt: Aspect_ratio="16:9" Recovery begins once the dange...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/3/line_0015.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0016.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 71/113: incident commander_straight/3/line_0016.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/3/line_0016.txt: Aspect_ratio="16:9" It centers on restoring operat...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/3/line_0016.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0017.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 72/113: incident commander_straight/3/line_0017.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/3/line_0017.txt: Aspect_ratio="16:9" and participating in reviews t...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/3/line_0017.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0018.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 73/113: incident commander_straight/3/line_0018.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/3/line_0018.txt: Aspect_ratio="16:9" Recovery helps the organizatio...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/3/line_0018.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0019.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 74/113: incident commander_straight/3/line_0019.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/3/line_0019.txt: Aspect_ratio="16:9" for the future.	Group of 3 in ...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/3/line_0019.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0020.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 75/113: incident commander_straight/3/line_0020.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/3/line_0020.txt: Aspect_ratio="16:9" Communication ties all three p...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/3/line_0020.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0021.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 76/113: incident commander_straight/3/line_0021.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/3/line_0021.txt: Aspect_ratio="16:9" It must be quick, accurate, an...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/3/line_0021.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0022.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 77/113: incident commander_straight/3/line_0022.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/3/line_0022.txt: Aspect_ratio="16:9" The AWS Safety Management Prog...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/3/line_0022.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0023.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 78/113: incident commander_straight/3/line_0023.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/3/line_0023.txt: Aspect_ratio="16:9" Commander, security and employ...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/3/line_0023.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0024.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 79/113: incident commander_straight/3/line_0024.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/3/line_0024.txt: Aspect_ratio="16:9" As incident commander, you set...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/3/line_0024.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0025.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 80/113: incident commander_straight/3/line_0025.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/3/line_0025.txt: Aspect_ratio="16:9" ensuring information flows to ...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/3/line_0025.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0026.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 81/113: incident commander_straight/3/line_0026.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/3/line_0026.txt: Aspect_ratio="16:9" Effective communication is the...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/3/line_0026.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0027.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 82/113: incident commander_straight/3/line_0027.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/3/line_0027.txt: Aspect_ratio="16:9" between confusion and a coordi...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/3/line_0027.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0028.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 83/113: incident commander_straight/3/line_0028.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/3/line_0028.txt: Aspect_ratio="16:9" Thank you.	Group of 3 emergenc...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/3/line_0028.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0029.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 84/113: incident commander_straight/3/line_0029.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/3/line_0029.txt: Aspect_ratio="16:9" Please answer the following qu...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/3/line_0029.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0001.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 85/113: incident commander_straight/4/line_0001.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/4/line_0001.txt: Aspect_ratio="16:9" Dutch angle, off-centered fram...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/4/line_0001.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0002.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 86/113: incident commander_straight/4/line_0002.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/4/line_0002.txt: Aspect_ratio="16:9" Clipart-style illustration of ...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/4/line_0002.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0003.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 87/113: incident commander_straight/4/line_0003.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/4/line_0003.txt: Aspect_ratio="16:9" Group of 3 diverse team member...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/4/line_0003.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0004.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 88/113: incident commander_straight/4/line_0004.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/4/line_0004.txt: Aspect_ratio="16:9" Group of 2 incident commanders...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/4/line_0004.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0005.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 89/113: incident commander_straight/4/line_0005.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/4/line_0005.txt: Aspect_ratio="16:9" Split view: 2 security officer...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/4/line_0005.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0006.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 90/113: incident commander_straight/4/line_0006.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/4/line_0006.txt: Aspect_ratio="16:9" Group of 3 security officers (...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/4/line_0006.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0007.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 91/113: incident commander_straight/4/line_0007.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/4/line_0007.txt: Aspect_ratio="16:9" "Dutch angle, off-centered fra...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/4/line_0007.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0008.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 92/113: incident commander_straight/4/line_0008.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/4/line_0008.txt: Aspect_ratio="16:9" "Group of 2 security officers ...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/4/line_0008.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0009.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 93/113: incident commander_straight/4/line_0009.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/4/line_0009.txt: Aspect_ratio="16:9" Group of 3: security officer (...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/4/line_0009.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0010.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 94/113: incident commander_straight/4/line_0010.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/4/line_0010.txt: Aspect_ratio="16:9" Group of 4: security officer (...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/4/line_0010.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0011.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 95/113: incident commander_straight/4/line_0011.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/4/line_0011.txt: Aspect_ratio="16:9" Dutch angle, off-centered fram...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/4/line_0011.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0012.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 96/113: incident commander_straight/4/line_0012.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/4/line_0012.txt: Aspect_ratio="16:9" Group of 2: security officer s...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/4/line_0012.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0013.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 97/113: incident commander_straight/4/line_0013.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/4/line_0013.txt: Aspect_ratio="16:9" Group of 5: 2 security officer...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/4/line_0013.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0014.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 98/113: incident commander_straight/4/line_0014.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/4/line_0014.txt: Aspect_ratio="16:9" Group of 3: security officer (...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/4/line_0014.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0015.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 99/113: incident commander_straight/4/line_0015.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/4/line_0015.txt: Aspect_ratio="16:9" Group of 3 in conference room:...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/4/line_0015.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0016.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 100/113: incident commander_straight/4/line_0016.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/4/line_0016.txt: Aspect_ratio="16:9" "Clipart-style illustration of...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/4/line_0016.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0017.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 101/113: incident commander_straight/4/line_0017.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/4/line_0017.txt: Aspect_ratio="16:9" Group of 3 AWS employees (Midd...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/4/line_0017.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0018.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 102/113: incident commander_straight/4/line_0018.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/4/line_0018.txt: Aspect_ratio="16:9" Group of 2: employee (Hispanic...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/4/line_0018.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0019.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 103/113: incident commander_straight/4/line_0019.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/4/line_0019.txt: Aspect_ratio="16:9" Three-panel sequence with same...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/4/line_0019.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0020.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 104/113: incident commander_straight/4/line_0020.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/4/line_0020.txt: Aspect_ratio="16:9" Group of 2 employees (Black ma...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/4/line_0020.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0021.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 105/113: incident commander_straight/4/line_0021.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/4/line_0021.txt: Aspect_ratio="16:9" Group of 1 AWS technician (Whi...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/4/line_0021.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0022.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 106/113: incident commander_straight/4/line_0022.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/4/line_0022.txt: Aspect_ratio="16:9" "Group of 4 employees (diverse...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/4/line_0022.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0023.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 107/113: incident commander_straight/4/line_0023.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/4/line_0023.txt: Aspect_ratio="16:9" Group of 3: 2 employees (Asian...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/4/line_0023.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0024.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 108/113: incident commander_straight/4/line_0024.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/4/line_0024.txt: Aspect_ratio="16:9" Clipart-style illustration sho...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/4/line_0024.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0025.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 109/113: incident commander_straight/4/line_0025.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/4/line_0025.txt: Aspect_ratio="16:9" Aerial view of coordinated eva...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/4/line_0025.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0026.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 110/113: incident commander_straight/4/line_0026.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/4/line_0026.txt: Aspect_ratio="16:9" Three-tier composition: comman...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/4/line_0026.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0027.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 111/113: incident commander_straight/4/line_0027.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing incident commander_straight/4/line_0027.txt: Aspect_ratio="16:9" Clipart-style illustration of ...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for incident commander_straight/4/line_0027.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from test1.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 112/113: test_quotes/test1.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing test_quotes/test1.txt: Aspect_ratio="16:9" A simple cat...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for test_quotes/test1.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from test2.txt
+2025-09-09 07:43:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 113/113: test_quotes/test2.txt + nano-banano_16x9
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: Aspect_ratio="16:9"
+2025-09-09 07:43:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing test_quotes/test2.txt: Aspect_ratio="16:9" "A cat with "special" powers"...
+2025-09-09 07:43:16 | INFO     | src.processing.processor:_process_file_model_combination:190 - [DRY RUN] Would generate image for test_quotes/test2.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0001.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0002.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0003.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0004.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0005.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0006.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0007.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0008.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0009.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0010.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0011.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0012.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0013.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0014.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0015.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0016.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0017.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0018.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0019.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0020.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0021.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0022.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0023.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0024.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0025.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0026.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0027.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0001.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0002.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0003.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0004.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0005.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0006.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0007.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0008.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0009.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0010.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0011.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0012.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0013.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0014.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0015.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0016.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0017.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0018.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0019.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0020.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0021.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0022.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0023.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0024.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0025.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0026.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0027.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0028.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0001.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0002.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0003.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0004.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0005.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0006.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0007.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0008.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0009.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0010.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0011.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0012.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0013.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0014.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0015.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0016.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0017.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0018.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0019.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0020.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0021.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0022.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0023.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0024.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0025.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0026.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0027.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0028.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0029.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0001.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0002.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0003.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0004.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0005.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0006.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0007.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0008.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0009.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0010.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0011.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0012.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0013.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0014.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0015.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0016.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0017.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0018.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0019.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0020.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0021.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0022.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0023.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0024.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0025.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0026.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0027.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from test1.txt
+2025-09-09 07:43:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from test2.txt
+2025-09-09 07:43:16 | INFO     | src.output.writer:write_report:166 - Wrote report: USER-FILES/05.OUTPUT/250909_074316/SUCCESS.md
+2025-09-09 07:43:16 | INFO     | src.output.writer:write_report:166 - Wrote report: USER-FILES/05.OUTPUT/250909_074316/FIX.md
+2025-09-09 07:43:16 | INFO     | src.output.reporter:save_reports:234 - FIX.md report generated with prompt fixes
+2025-09-09 07:43:16 | INFO     | src.output.reporter:save_reports:236 - Reports generated successfully
+2025-09-09 07:43:16 | SUCCESS  | __main__:main:201 - ✅ Completed successfully! Generated 0 images

@@ -1,0 +1,29 @@
+2025-09-24 17:21:16 | INFO     | src.utils.logging:setup_logging:39 - Logging configured (verbose=False, debug=False)
+2025-09-24 17:21:16 | INFO     | __main__:setup_environment:79 - Environment initialized
+2025-09-24 17:21:16 | INFO     | __main__:load_and_validate_config:84 - Loading configuration...
+2025-09-24 17:21:16 | INFO     | src.config.loader:load_config:42 - Loaded configuration from USER-FILES/01.CONFIG/config.yaml
+2025-09-24 17:21:16 | INFO     | __main__:authenticate_for_mode:273 - Authenticating with 1Password...
+2025-09-24 17:21:20 | DEBUG    | src.auth.session_manager:ensure_op_auth:39 - 1Password session is active
+2025-09-24 17:21:20 | INFO     | __main__:authenticate_for_mode:277 - Validating API key access (dry-run mode)...
+2025-09-24 17:21:22 | DEBUG    | src.auth.session_manager:ensure_op_auth:39 - 1Password session is active
+2025-09-24 17:21:23 | DEBUG    | src.auth.auth:get_api_key:70 - Retrieved API key: r8_V...
+2025-09-24 17:21:23 | SUCCESS  | __main__:authenticate_for_mode:279 - ✅ API key validated successfully
+2025-09-24 17:21:23 | INFO     | __main__:discover_inputs_and_profiles:92 - Discovering inputs...
+2025-09-24 17:21:23 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: line_0015.txt
+2025-09-24 17:21:23 | INFO     | src.processing.discovery:discover_prompt_files:45 - Discovered 1 prompt files
+2025-09-24 17:21:23 | DEBUG    | src.processing.discovery:discover_profiles:93 - Loaded profile: USER-FILES/03.PROFILES/nano-banano.yaml
+2025-09-24 17:21:23 | INFO     | src.processing.discovery:discover_profiles:97 - Loaded 1 profiles
+2025-09-24 17:21:23 | INFO     | src.processing.discovery:get_active_models:133 - Found profile: nano-banano
+2025-09-24 17:21:23 | INFO     | src.processing.discovery:get_active_models:138 - Total profiles to process: 1
+2025-09-24 17:21:23 | INFO     | src.config.validator:validate_all:26 - All configuration validation passed
+2025-09-24 17:21:23 | INFO     | __main__:initialize_services:186 - Output directory: USER-FILES/05.OUTPUT/250924_172123
+2025-09-24 17:21:23 | INFO     | __main__:execute_processing:221 - Starting matrix processing...
+2025-09-24 17:21:23 | INFO     | src.processing.processor:process_all:60 - Processing 1 combinations (1 files × 1 profiles)
+2025-09-24 17:21:23 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0015.txt
+2025-09-24 17:21:23 | INFO     | src.processing.processor:_process_single_combination:124 - Processing combination 1/1: line_0015.txt + nano-banano
+2025-09-24 17:21:23 | DEBUG    | src.processing.processor:_process_with_context:184 - Processing line_0015.txt: Group of 2 diverse AWS technicians (Asian man 20s,...
+2025-09-24 17:21:23 | INFO     | src.processing.processor:_process_with_context:187 - [DRY RUN] Would generate image for line_0015.txt
+2025-09-24 17:21:23 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from line_0015.txt
+2025-09-24 17:21:23 | INFO     | src.output.writer:write_report:266 - Report saved: USER-FILES/05.OUTPUT/250924_172123/SUCCESS.md
+2025-09-24 17:21:23 | INFO     | src.output.reporter:_save_success_reports:62 - Reports saved successfully
+2025-09-24 17:21:23 | SUCCESS  | __main__:generate_final_reports:264 - ✅ Completed successfully! Generated 0 images

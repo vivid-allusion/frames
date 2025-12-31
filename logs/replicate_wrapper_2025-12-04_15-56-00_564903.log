@@ -1,0 +1,265 @@
+2025-12-04 15:56:00 | INFO     | src.utils.logging:setup_logging:39 - Logging configured (verbose=False, debug=False)
+2025-12-04 15:56:00 | INFO     | __main__:setup_environment:79 - Environment initialized
+2025-12-04 15:56:00 | INFO     | __main__:load_and_validate_config:84 - Loading configuration...
+2025-12-04 15:56:00 | INFO     | src.config.loader:load_config:42 - Loaded configuration from USER-FILES/01.CONFIG/config.yaml
+2025-12-04 15:56:00 | INFO     | __main__:authenticate_for_mode:273 - Authenticating with 1Password...
+2025-12-04 15:56:05 | INFO     | src.auth.session_manager:ensure_op_auth:42 - 🔐 1Password authentication required...
+2025-12-04 15:56:05 | SUCCESS  | src.auth.session_manager:ensure_op_auth:68 - ✅ 1Password authentication successful
+2025-12-04 15:56:06 | DEBUG    | src.auth.session_manager:ensure_op_auth:39 - 1Password session is active
+2025-12-04 15:56:06 | DEBUG    | src.auth.auth:load_auth_config:28 - Using auth config: auth_bites.yaml
+2025-12-04 15:56:08 | DEBUG    | src.auth.auth:get_api_key:77 - Retrieved API key: r8_V...
+2025-12-04 15:56:08 | INFO     | __main__:discover_inputs_and_profiles:92 - Discovering inputs...
+2025-12-04 15:56:08 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: bite1_corruption_with_prompts_008.txt
+2025-12-04 15:56:08 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: bite1_corruption_with_prompts_005.txt
+2025-12-04 15:56:08 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: bite1_corruption_with_prompts_004.txt
+2025-12-04 15:56:08 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: bite1_corruption_with_prompts_006.txt
+2025-12-04 15:56:08 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: bite1_corruption_with_prompts_007.txt
+2025-12-04 15:56:08 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: bite1_corruption_with_prompts_003.txt
+2025-12-04 15:56:08 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: bite1_corruption_with_prompts_002.txt
+2025-12-04 15:56:08 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: bite1_corruption_with_prompts_001.txt
+2025-12-04 15:56:08 | INFO     | src.processing.discovery:discover_prompt_files:45 - Discovered 8 prompt files
+2025-12-04 15:56:08 | DEBUG    | src.processing.discovery:discover_profiles:93 - Loaded profile: USER-FILES/03.PROFILES/nano-banano_9x16.yaml
+2025-12-04 15:56:08 | INFO     | src.processing.discovery:discover_profiles:97 - Loaded 1 profiles
+2025-12-04 15:56:08 | INFO     | src.processing.discovery:get_active_models:135 - Found profile: nano-banano_9x16
+2025-12-04 15:56:08 | INFO     | src.processing.discovery:get_active_models:140 - Total profiles to process: 1
+2025-12-04 15:56:08 | INFO     | src.config.validator:validate_all:26 - All configuration validation passed
+2025-12-04 15:56:08 | INFO     | __main__:initialize_services:186 - Output directory: USER-FILES/05.OUTPUT/251204_155608_IMAGE
+2025-12-04 15:56:08 | INFO     | __main__:execute_processing:221 - Starting matrix processing...
+2025-12-04 15:56:08 | DEBUG    | src.processing.validator:validate_operational_requirements:23 - Profile 'nano-banano_9x16' operational validation passed
+2025-12-04 15:56:08 | INFO     | src.processing.processor:process_all:60 - Processing 8 combinations (8 files × 1 profiles)
+2025-12-04 15:56:08 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from bite1_corruption_with_prompts_001.txt
+2025-12-04 15:56:08 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 1/8: bite1_corruption_with_prompts_001.txt + nano-banano_9x16
+2025-12-04 15:56:08 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing bite1_corruption_with_prompts_001.txt: Medium shot in a modern Portuguese office of Portu...
+2025-12-04 15:56:08 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1
+}
+2025-12-04 15:56:08 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "prompt": "Medium shot in a modern Portuguese office of Portuguese female employee in her early 30s wearing company uniform, seated at desk with hands folded, displaying calm and reflective expression. Shallow depth of field, natural office lighting."
+}
+2025-12-04 15:56:08 | DEBUG    | src.api.client:generate_image:89 - Original prompt: Medium shot in a modern Portuguese office of Portuguese female employee in her early 30s wearing company uniform, seated at desk with hands folded, displaying calm and reflective expression. Shallow depth of field, natural office lighting.
+2025-12-04 15:56:08 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: Medium shot in a modern Portuguese office of Portuguese female employee in her early 30s wearing company uniform, seated at desk with hands folded, displaying calm and reflective expression. Shallow depth of field, natural office lighting.
+2025-12-04 15:56:08 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'Medium shot in a modern Portuguese office of Portuguese female employee in her early 30s wearing company uniform, seated at desk with hands folded, displaying calm and reflective expression. Shallow depth of field, natural office lighting.'
+2025-12-04 15:56:08 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-04 15:56:08 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "prompt": "Medium shot in a modern Portuguese office of Portuguese female employee in her early 30s wearing company uniform, seated at desk with hands folded, displaying calm and reflective expression. Shallow depth of field, natural office lighting."
+}
+2025-12-04 15:56:16 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-04 15:56:17 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251204_155608_IMAGE/bite1_corruption_with_prompts_001_IMAGE_155616_nano-banano_9x16.png
+2025-12-04 15:56:17 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251204_155608_IMAGE/bite1_corruption_with_prompts_001_IMAGE_155616_nano-banano_9x16.md
+2025-12-04 15:56:17 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251204_155608_IMAGE/bite1_corruption_with_prompts_001_IMAGE_155616_nano-banano_9x16.png
+2025-12-04 15:56:17 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from bite1_corruption_with_prompts_002.txt
+2025-12-04 15:56:17 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 2/8: bite1_corruption_with_prompts_002.txt + nano-banano_9x16
+2025-12-04 15:56:17 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing bite1_corruption_with_prompts_002.txt: Medium shot in a modern Portuguese office of Portu...
+2025-12-04 15:56:17 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1
+}
+2025-12-04 15:56:17 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "prompt": "Medium shot in a modern Portuguese office of Portuguese male HR manager in his 40s wearing professional business attire standing beside seated Portuguese female employee in her late 20s wearing company uniform, both displaying professional and reassuring expressions. Rule of thirds positioning."
+}
+2025-12-04 15:56:17 | DEBUG    | src.api.client:generate_image:89 - Original prompt: Medium shot in a modern Portuguese office of Portuguese male HR manager in his 40s wearing professional business attire standing beside seated Portuguese female employee in her late 20s wearing company uniform, both displaying professional and reassuring expressions. Rule of thirds positioning.
+2025-12-04 15:56:17 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: Medium shot in a modern Portuguese office of Portuguese male HR manager in his 40s wearing professional business attire standing beside seated Portuguese female employee in her late 20s wearing company uniform, both displaying professional and reassuring expressions. Rule of thirds positioning.
+2025-12-04 15:56:17 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'Medium shot in a modern Portuguese office of Portuguese male HR manager in his 40s wearing professional business attire standing beside seated Portuguese female employee in her late 20s wearing company uniform, both displaying professional and reassuring expressions. Rule of thirds positioning.'
+2025-12-04 15:56:17 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-04 15:56:17 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "prompt": "Medium shot in a modern Portuguese office of Portuguese male HR manager in his 40s wearing professional business attire standing beside seated Portuguese female employee in her late 20s wearing company uniform, both displaying professional and reassuring expressions. Rule of thirds positioning."
+}
+2025-12-04 15:56:24 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-04 15:56:25 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251204_155608_IMAGE/bite1_corruption_with_prompts_002_IMAGE_155624_nano-banano_9x16.png
+2025-12-04 15:56:25 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251204_155608_IMAGE/bite1_corruption_with_prompts_002_IMAGE_155624_nano-banano_9x16.md
+2025-12-04 15:56:25 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251204_155608_IMAGE/bite1_corruption_with_prompts_002_IMAGE_155624_nano-banano_9x16.png
+2025-12-04 15:56:25 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from bite1_corruption_with_prompts_003.txt
+2025-12-04 15:56:25 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 3/8: bite1_corruption_with_prompts_003.txt + nano-banano_9x16
+2025-12-04 15:56:25 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing bite1_corruption_with_prompts_003.txt: Close-up in a modern Portuguese office of Portugue...
+2025-12-04 15:56:25 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1
+}
+2025-12-04 15:56:25 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "prompt": "Close-up in a modern Portuguese office of Portuguese male employee's hands in his mid-30s wearing company uniform, typing on keyboard with focused posture. Shallow depth of field, hands and keyboard in sharp focus."
+}
+2025-12-04 15:56:25 | DEBUG    | src.api.client:generate_image:89 - Original prompt: Close-up in a modern Portuguese office of Portuguese male employee's hands in his mid-30s wearing company uniform, typing on keyboard with focused posture. Shallow depth of field, hands and keyboard in sharp focus.
+2025-12-04 15:56:25 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: Close-up in a modern Portuguese office of Portuguese male employee's hands in his mid-30s wearing company uniform, typing on keyboard with focused posture. Shallow depth of field, hands and keyboard in sharp focus.
+2025-12-04 15:56:25 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: "Close-up in a modern Portuguese office of Portuguese male employee's hands in his mid-30s wearing company uniform, typing on keyboard with focused posture. Shallow depth of field, hands and keyboard in sharp focus."
+2025-12-04 15:56:25 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-04 15:56:25 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "prompt": "Close-up in a modern Portuguese office of Portuguese male employee's hands in his mid-30s wearing company uniform, typing on keyboard with focused posture. Shallow depth of field, hands and keyboard in sharp focus."
+}
+2025-12-04 15:56:35 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-04 15:56:37 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251204_155608_IMAGE/bite1_corruption_with_prompts_003_IMAGE_155635_nano-banano_9x16.png
+2025-12-04 15:56:37 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251204_155608_IMAGE/bite1_corruption_with_prompts_003_IMAGE_155635_nano-banano_9x16.md
+2025-12-04 15:56:37 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251204_155608_IMAGE/bite1_corruption_with_prompts_003_IMAGE_155635_nano-banano_9x16.png
+2025-12-04 15:56:37 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from bite1_corruption_with_prompts_004.txt
+2025-12-04 15:56:37 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 4/8: bite1_corruption_with_prompts_004.txt + nano-banano_9x16
+2025-12-04 15:56:37 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing bite1_corruption_with_prompts_004.txt: Medium shot in a modern Portuguese office of Portu...
+2025-12-04 15:56:37 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1
+}
+2025-12-04 15:56:37 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "prompt": "Medium shot in a modern Portuguese office of Portuguese female employee in her late 30s wearing company uniform, seated at desk holding folder with documents, looking down at papers with focused expression. Natural office lighting, professional environment visible in background."
+}
+2025-12-04 15:56:37 | DEBUG    | src.api.client:generate_image:89 - Original prompt: Medium shot in a modern Portuguese office of Portuguese female employee in her late 30s wearing company uniform, seated at desk holding folder with documents, looking down at papers with focused expression. Natural office lighting, professional environment visible in background.
+2025-12-04 15:56:37 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: Medium shot in a modern Portuguese office of Portuguese female employee in her late 30s wearing company uniform, seated at desk holding folder with documents, looking down at papers with focused expression. Natural office lighting, professional environment visible in background.
+2025-12-04 15:56:37 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'Medium shot in a modern Portuguese office of Portuguese female employee in her late 30s wearing company uniform, seated at desk holding folder with documents, looking down at papers with focused expression. Natural office lighting, professional environment visible in background.'
+2025-12-04 15:56:37 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-04 15:56:37 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "prompt": "Medium shot in a modern Portuguese office of Portuguese female employee in her late 30s wearing company uniform, seated at desk holding folder with documents, looking down at papers with focused expression. Natural office lighting, professional environment visible in background."
+}
+2025-12-04 15:56:44 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-04 15:56:45 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251204_155608_IMAGE/bite1_corruption_with_prompts_004_IMAGE_155644_nano-banano_9x16.png
+2025-12-04 15:56:45 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251204_155608_IMAGE/bite1_corruption_with_prompts_004_IMAGE_155644_nano-banano_9x16.md
+2025-12-04 15:56:45 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251204_155608_IMAGE/bite1_corruption_with_prompts_004_IMAGE_155644_nano-banano_9x16.png
+2025-12-04 15:56:45 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from bite1_corruption_with_prompts_005.txt
+2025-12-04 15:56:45 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 5/8: bite1_corruption_with_prompts_005.txt + nano-banano_9x16
+2025-12-04 15:56:45 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing bite1_corruption_with_prompts_005.txt: Close-up in a modern Portuguese office of Portugue...
+2025-12-04 15:56:45 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1
+}
+2025-12-04 15:56:45 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "prompt": "Close-up in a modern Portuguese office of Portuguese male employee in his early 40s wearing company uniform, displaying calm and confident expression, steady eye contact with camera. Shallow depth of field, face in sharp focus."
+}
+2025-12-04 15:56:45 | DEBUG    | src.api.client:generate_image:89 - Original prompt: Close-up in a modern Portuguese office of Portuguese male employee in his early 40s wearing company uniform, displaying calm and confident expression, steady eye contact with camera. Shallow depth of field, face in sharp focus.
+2025-12-04 15:56:45 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: Close-up in a modern Portuguese office of Portuguese male employee in his early 40s wearing company uniform, displaying calm and confident expression, steady eye contact with camera. Shallow depth of field, face in sharp focus.
+2025-12-04 15:56:45 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'Close-up in a modern Portuguese office of Portuguese male employee in his early 40s wearing company uniform, displaying calm and confident expression, steady eye contact with camera. Shallow depth of field, face in sharp focus.'
+2025-12-04 15:56:45 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-04 15:56:45 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "prompt": "Close-up in a modern Portuguese office of Portuguese male employee in his early 40s wearing company uniform, displaying calm and confident expression, steady eye contact with camera. Shallow depth of field, face in sharp focus."
+}
+2025-12-04 15:56:52 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-04 15:56:53 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251204_155608_IMAGE/bite1_corruption_with_prompts_005_IMAGE_155652_nano-banano_9x16.png
+2025-12-04 15:56:53 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251204_155608_IMAGE/bite1_corruption_with_prompts_005_IMAGE_155652_nano-banano_9x16.md
+2025-12-04 15:56:53 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251204_155608_IMAGE/bite1_corruption_with_prompts_005_IMAGE_155652_nano-banano_9x16.png
+2025-12-04 15:56:53 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from bite1_corruption_with_prompts_006.txt
+2025-12-04 15:56:53 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 6/8: bite1_corruption_with_prompts_006.txt + nano-banano_9x16
+2025-12-04 15:56:53 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing bite1_corruption_with_prompts_006.txt: Wide shot in a modern Portuguese office of diverse...
+2025-12-04 15:56:53 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1
+}
+2025-12-04 15:56:53 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "prompt": "Wide shot in a modern Portuguese office of diverse group of employees\u2014Portuguese female in her 30s, Portuguese male in his 40s, and Portuguese male in his 20s, all wearing company uniform\u2014working at desks in open office environment, displaying collaborative and professional demeanor. Deep focus, well-lit corporate environment."
+}
+2025-12-04 15:56:53 | DEBUG    | src.api.client:generate_image:89 - Original prompt: Wide shot in a modern Portuguese office of diverse group of employees—Portuguese female in her 30s, Portuguese male in his 40s, and Portuguese male in his 20s, all wearing company uniform—working at desks in open office environment, displaying collaborative and professional demeanor. Deep focus, well-lit corporate environment.
+2025-12-04 15:56:53 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: Wide shot in a modern Portuguese office of diverse group of employees—Portuguese female in her 30s, Portuguese male in his 40s, and Portuguese male in his 20s, all wearing company uniform—working at desks in open office environment, displaying collaborative and professional demeanor. Deep focus, well-lit corporate environment.
+2025-12-04 15:56:53 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'Wide shot in a modern Portuguese office of diverse group of employees—Portuguese female in her 30s, Portuguese male in his 40s, and Portuguese male in his 20s, all wearing company uniform—working at desks in open office environment, displaying collaborative and professional demeanor. Deep focus, well-lit corporate environment.'
+2025-12-04 15:56:53 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-04 15:56:53 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "prompt": "Wide shot in a modern Portuguese office of diverse group of employees\u2014Portuguese female in her 30s, Portuguese male in his 40s, and Portuguese male in his 20s, all wearing company uniform\u2014working at desks in open office environment, displaying collaborative and professional demeanor. Deep focus, well-lit corporate environment."
+}
+2025-12-04 15:57:03 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-04 15:57:03 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251204_155608_IMAGE/bite1_corruption_with_prompts_006_IMAGE_155703_nano-banano_9x16.png
+2025-12-04 15:57:03 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251204_155608_IMAGE/bite1_corruption_with_prompts_006_IMAGE_155703_nano-banano_9x16.md
+2025-12-04 15:57:03 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251204_155608_IMAGE/bite1_corruption_with_prompts_006_IMAGE_155703_nano-banano_9x16.png
+2025-12-04 15:57:03 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from bite1_corruption_with_prompts_007.txt
+2025-12-04 15:57:03 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 7/8: bite1_corruption_with_prompts_007.txt + nano-banano_9x16
+2025-12-04 15:57:03 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing bite1_corruption_with_prompts_007.txt: Medium shot in a modern Portuguese office of two e...
+2025-12-04 15:57:03 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1
+}
+2025-12-04 15:57:03 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "prompt": "Medium shot in a modern Portuguese office of two employees\u2014Portuguese female in her late 20s and Portuguese male in his mid-30s, both wearing company uniform\u2014engaged in conversation, both displaying open body language with subtle smiles. Natural office lighting, professional environment."
+}
+2025-12-04 15:57:03 | DEBUG    | src.api.client:generate_image:89 - Original prompt: Medium shot in a modern Portuguese office of two employees—Portuguese female in her late 20s and Portuguese male in his mid-30s, both wearing company uniform—engaged in conversation, both displaying open body language with subtle smiles. Natural office lighting, professional environment.
+2025-12-04 15:57:03 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: Medium shot in a modern Portuguese office of two employees—Portuguese female in her late 20s and Portuguese male in his mid-30s, both wearing company uniform—engaged in conversation, both displaying open body language with subtle smiles. Natural office lighting, professional environment.
+2025-12-04 15:57:03 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'Medium shot in a modern Portuguese office of two employees—Portuguese female in her late 20s and Portuguese male in his mid-30s, both wearing company uniform—engaged in conversation, both displaying open body language with subtle smiles. Natural office lighting, professional environment.'
+2025-12-04 15:57:03 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-04 15:57:03 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "prompt": "Medium shot in a modern Portuguese office of two employees\u2014Portuguese female in her late 20s and Portuguese male in his mid-30s, both wearing company uniform\u2014engaged in conversation, both displaying open body language with subtle smiles. Natural office lighting, professional environment."
+}
+2025-12-04 15:57:12 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-04 15:57:13 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251204_155608_IMAGE/bite1_corruption_with_prompts_007_IMAGE_155712_nano-banano_9x16.png
+2025-12-04 15:57:13 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251204_155608_IMAGE/bite1_corruption_with_prompts_007_IMAGE_155712_nano-banano_9x16.md
+2025-12-04 15:57:13 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251204_155608_IMAGE/bite1_corruption_with_prompts_007_IMAGE_155712_nano-banano_9x16.png
+2025-12-04 15:57:13 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from bite1_corruption_with_prompts_008.txt
+2025-12-04 15:57:13 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 8/8: bite1_corruption_with_prompts_008.txt + nano-banano_9x16
+2025-12-04 15:57:13 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing bite1_corruption_with_prompts_008.txt: Wide shot in a modern Portuguese office of diverse...
+2025-12-04 15:57:13 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1
+}
+2025-12-04 15:57:13 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "prompt": "Wide shot in a modern Portuguese office of diverse team of five employees\u2014various ages, genders, and ethnicities, all wearing company uniform\u2014standing together in professional office setting, displaying confident and professional expressions. Deep focus, corporate environment with office furniture and windows visible."
+}
+2025-12-04 15:57:13 | DEBUG    | src.api.client:generate_image:89 - Original prompt: Wide shot in a modern Portuguese office of diverse team of five employees—various ages, genders, and ethnicities, all wearing company uniform—standing together in professional office setting, displaying confident and professional expressions. Deep focus, corporate environment with office furniture and windows visible.
+2025-12-04 15:57:13 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: Wide shot in a modern Portuguese office of diverse team of five employees—various ages, genders, and ethnicities, all wearing company uniform—standing together in professional office setting, displaying confident and professional expressions. Deep focus, corporate environment with office furniture and windows visible.
+2025-12-04 15:57:13 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'Wide shot in a modern Portuguese office of diverse team of five employees—various ages, genders, and ethnicities, all wearing company uniform—standing together in professional office setting, displaying confident and professional expressions. Deep focus, corporate environment with office furniture and windows visible.'
+2025-12-04 15:57:13 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-04 15:57:13 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "prompt": "Wide shot in a modern Portuguese office of diverse team of five employees\u2014various ages, genders, and ethnicities, all wearing company uniform\u2014standing together in professional office setting, displaying confident and professional expressions. Deep focus, corporate environment with office furniture and windows visible."
+}
+2025-12-04 15:57:20 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-04 15:57:22 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251204_155608_IMAGE/bite1_corruption_with_prompts_008_IMAGE_155720_nano-banano_9x16.png
+2025-12-04 15:57:22 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251204_155608_IMAGE/bite1_corruption_with_prompts_008_IMAGE_155720_nano-banano_9x16.md
+2025-12-04 15:57:22 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251204_155608_IMAGE/bite1_corruption_with_prompts_008_IMAGE_155720_nano-banano_9x16.png
+2025-12-04 15:57:22 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from bite1_corruption_with_prompts_001.txt
+2025-12-04 15:57:22 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from bite1_corruption_with_prompts_002.txt
+2025-12-04 15:57:22 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from bite1_corruption_with_prompts_003.txt
+2025-12-04 15:57:22 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from bite1_corruption_with_prompts_004.txt
+2025-12-04 15:57:22 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from bite1_corruption_with_prompts_005.txt
+2025-12-04 15:57:22 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from bite1_corruption_with_prompts_006.txt
+2025-12-04 15:57:22 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from bite1_corruption_with_prompts_007.txt
+2025-12-04 15:57:22 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from bite1_corruption_with_prompts_008.txt
+2025-12-04 15:57:22 | INFO     | src.output.writer:write_report:293 - Report saved: USER-FILES/05.OUTPUT/251204_155608_IMAGE/SUCCESS.md
+2025-12-04 15:57:22 | INFO     | src.output.writer:write_report:293 - Report saved: USER-FILES/05.OUTPUT/251204_155608_IMAGE/COST-REPORT.md
+2025-12-04 15:57:22 | INFO     | src.output.reporter:_save_success_reports:62 - Reports saved successfully
+2025-12-04 15:57:22 | SUCCESS  | __main__:generate_final_reports:264 - ✅ Completed successfully! Generated 8 images

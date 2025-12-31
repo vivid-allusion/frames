@@ -1,0 +1,1270 @@
+2025-09-04 12:10:54 | INFO     | src.utils.logging:setup_logging:39 - Logging configured (verbose=False, debug=False)
+2025-09-04 12:10:54 | INFO     | __main__:main:75 - Loading configuration...
+2025-09-04 12:10:54 | INFO     | src.config.loader:load_config:42 - Loaded configuration from USER-FILES/01.CONFIG/config.yaml
+2025-09-04 12:10:54 | INFO     | __main__:main:80 - Authenticating...
+2025-09-04 12:10:54 | DEBUG    | src.auth.env:get_fal_api_key_from_env:19 - Loaded environment from /Users/ruben/08_-_DEVELOPMENT/ISOF_IMAGE_WORKFLOW/00.fal-text->image-tool/.env
+2025-09-04 12:10:54 | INFO     | src.auth.env:get_fal_api_key_from_env:25 - Successfully retrieved FAL API key from environment
+2025-09-04 12:10:54 | INFO     | __main__:main:84 - Discovering inputs...
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 5/5.2.0/5.2.1/5.2.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 5/5.8.0/5.8.1/5.8.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 5/5.6.0/5.6.1/5.6.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 5/5.1.0/5.1.1/5.1.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 5/5.5.0/5.5.1/5.5.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 5/5.10.0/5.10.1/5.10.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 5/5.4.0/5.4.1/5.4.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 5/5.9.0/5.9.1/5.9.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 5/5.3.0/5.3.1/5.3.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 5/5.7.0/5.7.1/5.7.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 2/2.8.0/2.8.1/2.8.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 2/2.2.0/2.2.1/2.2.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 2/2.6.0/2.6.1/2.6.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 2/2.11.0/2.11.1/2.11.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 2/2.1.0/2.1.1/2.1.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 2/2.5.0/2.5.1/2.5.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 2/2.4.0/2.4.1/2.4.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 2/2.3.0/2.3.1/2.3.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 2/2.9.0/2.9.1/2.9.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 2/2.10.0/2.10.1/2.10.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 2/2.7.0/2.7.1/2.7.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 3/3.2.0/3.2.1/3.2.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 3/3.8.0/3.8.1/3.8.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 3/3.6.0/3.6.1/3.6.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 3/3.11.0/3.11.1/3.11.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 3/3.15.0/3.15.1/3.15.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 3/3.1.0/3.1.1/3.1.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 3/3.5.0/3.5.1/3.5.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 3/3.12.0/3.12.1/3.12.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 3/3.4.0/3.4.1/3.4.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 3/3.13.0/3.13.1/3.13.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 3/3.9.0/3.9.1/3.9.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 3/3.3.0/3.3.1/3.3.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 3/3.7.0/3.7.1/3.7.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 3/3.10.0/3.10.1/3.10.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 3/3.14.0/3.14.1/3.14.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 4/4.8.0/4.8.1/4.8.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 4/4.2.0/4.2.1/4.2.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 4/4.6.0/4.6.1/4.6.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 4/4.1.0/4.1.1/4.1.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 4/4.5.0/4.5.1/4.5.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 4/4.4.0/4.4.1/4.4.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 4/4.3.0/4.3.1/4.3.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 4/4.9.0/4.9.1/4.9.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 4/4.7.0/4.7.1/4.7.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 8/8.7.0/8.7.1/8.7.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 8/8.3.0/8.3.1/8.3.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 8/8.9.0/8.9.1/8.9.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 8/8.4.0/8.4.1/8.4.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 8/8.5.0/8.5.1/8.5.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 8/8.1.0/8.1.1/8.1.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 8/8.6.0/8.6.1/8.6.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 8/8.8.0/8.8.1/8.8.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 8/8.2.0/8.2.1/8.2.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 1/1.6.0/1.6.1/1.6.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 1/1.8.0/1.8.1/1.8.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 1/1.2.0/1.2.1/1.2.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 1/1.10.0/1.10.1/1.10.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 1/1.5.0/1.5.1/1.5.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 1/1.1.0/1.1.1/1.1.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 1/1.4.0/1.4.1/1.4.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 1/1.7.0/1.7.1/1.7.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 1/1.3.0/1.3.1/1.3.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 1/1.9.0/1.9.1/1.9.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 1/1.11.0/1.11.1/1.11.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 6/6.6.0/6.6.1/6.6.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 6/6.2.0/6.2.1/6.2.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 6/6.8.0/6.8.1/6.8.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 6/6.5.0/6.5.1/6.5.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 6/6.1.0/6.1.1/6.1.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 6/6.4.0/6.4.1/6.4.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 6/6.7.0/6.7.1/6.7.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 6/6.9.0/6.9.1/6.9.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 6/6.3.0/6.3.1/6.3.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 7/7.6.0/7.6.1/7.6.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 7/7.17.0/7.17.1/7.17.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 7/7.8.0/7.8.1/7.8.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 7/7.13.0/7.13.1/7.13.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 7/7.2.0/7.2.1/7.2.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 7/7.19.0/7.19.1/7.19.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 7/7.5.0/7.5.1/7.5.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 7/7.14.0/7.14.1/7.14.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 7/7.10.0/7.10.1/7.10.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 7/7.1.0/7.1.1/7.1.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 7/7.15.0/7.15.1/7.15.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 7/7.4.0/7.4.1/7.4.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 7/7.11.0/7.11.1/7.11.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 7/7.16.0/7.16.1/7.16.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 7/7.7.0/7.7.1/7.7.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 7/7.18.0/7.18.1/7.18.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 7/7.3.0/7.3.1/7.3.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 7/7.12.0/7.12.1/7.12.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 7/7.9.0/7.9.1/7.9.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 9/9.7.0/9.7.1/9.7.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 9/9.9.0/9.9.1/9.9.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 9/9.3.0/9.3.1/9.3.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 9/9.4.0/9.4.1/9.4.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 9/9.11.0/9.11.1/9.11.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 9/9.5.0/9.5.1/9.5.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 9/9.1.0/9.1.1/9.1.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 9/9.10.0/9.10.1/9.10.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 9/9.6.0/9.6.1/9.6.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 9/9.2.0/9.2.1/9.2.1.txt
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 9/9.8.0/9.8.1/9.8.1.txt
+2025-09-04 12:10:54 | INFO     | src.processing.discovery:discover_prompt_files:45 - Discovered 104 prompt files
+2025-09-04 12:10:54 | DEBUG    | src.processing.discovery:discover_profiles:93 - Loaded profile: USER-FILES/03.PROFILES/seedream_v3_1080p_vertical.yaml
+2025-09-04 12:10:54 | INFO     | src.processing.discovery:discover_profiles:97 - Loaded 1 profiles
+2025-09-04 12:10:54 | INFO     | src.processing.discovery:get_active_models:131 - Found profile: seedream_v3_1080p_vertical
+2025-09-04 12:10:54 | INFO     | src.processing.discovery:get_active_models:136 - Total profiles to process: 1
+2025-09-04 12:10:54 | INFO     | src.config.validator:validate_all:26 - All configuration validation passed
+2025-09-04 12:10:54 | INFO     | __main__:main:104 - Output directory: USER-FILES/05.OUTPUT/250904_121054
+2025-09-04 12:10:54 | INFO     | __main__:main:166 - Starting matrix processing...
+2025-09-04 12:10:54 | INFO     | src.processing.processor:process_all:69 - Processing 104 combinations (104 files × 1 profiles)
+2025-09-04 12:10:54 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 1.1.1.txt
+2025-09-04 12:10:54 | INFO     | src.processing.processor:process_all:105 - Processing combination 1/104: 1/1.1.0/1.1.1/1.1.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:10:54 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:10:54 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:10:54 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 1/1.1.0/1.1.1/1.1.1.txt: cinematic style shot of  A realistic, softly lit s...
+2025-09-04 12:10:54 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:11:12 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:11:15 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/1/1.1.0/1.1.1/1.1.1_121112_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:11:15 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/1/1.1.0/1.1.1/1.1.1_121112_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:11:15 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 1.1.1_121112_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:11:15 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 1.2.1.txt
+2025-09-04 12:11:15 | INFO     | src.processing.processor:process_all:105 - Processing combination 2/104: 1/1.2.0/1.2.1/1.2.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:11:15 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:11:15 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:11:15 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 1/1.2.0/1.2.1/1.2.1.txt: cinematic style shot of  A bright, serene staff lo...
+2025-09-04 12:11:15 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:11:32 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:11:34 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/1/1.2.0/1.2.1/1.2.1_121132_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:11:34 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/1/1.2.0/1.2.1/1.2.1_121132_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:11:34 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 1.2.1_121132_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:11:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 1.3.1.txt
+2025-09-04 12:11:34 | INFO     | src.processing.processor:process_all:105 - Processing combination 3/104: 1/1.3.0/1.3.1/1.3.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:11:34 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:11:34 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:11:34 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 1/1.3.0/1.3.1/1.3.1.txt: cinematic style shot of  A single, elegant lounge ...
+2025-09-04 12:11:34 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:11:52 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:11:55 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/1/1.3.0/1.3.1/1.3.1_121152_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:11:55 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/1/1.3.0/1.3.1/1.3.1_121152_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:11:55 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 1.3.1_121152_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:11:55 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 1.4.1.txt
+2025-09-04 12:11:55 | INFO     | src.processing.processor:process_all:105 - Processing combination 4/104: 1/1.4.0/1.4.1/1.4.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:11:55 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:11:55 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:11:55 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 1/1.4.0/1.4.1/1.4.1.txt: cinematic style shot of  A calm boutique setting s...
+2025-09-04 12:11:55 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:12:13 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:12:15 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/1/1.4.0/1.4.1/1.4.1_121213_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:12:15 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/1/1.4.0/1.4.1/1.4.1_121213_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:12:15 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 1.4.1_121213_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:12:15 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 1.5.1.txt
+2025-09-04 12:12:15 | INFO     | src.processing.processor:process_all:105 - Processing combination 5/104: 1/1.5.0/1.5.1/1.5.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:12:15 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:12:15 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:12:15 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 1/1.5.0/1.5.1/1.5.1.txt: cinematic style shot of  Two women, mid-30s, stand...
+2025-09-04 12:12:15 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:12:30 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:12:32 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/1/1.5.0/1.5.1/1.5.1_121230_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:12:32 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/1/1.5.0/1.5.1/1.5.1_121230_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:12:32 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 1.5.1_121230_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:12:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 1.6.1.txt
+2025-09-04 12:12:32 | INFO     | src.processing.processor:process_all:105 - Processing combination 6/104: 1/1.6.0/1.6.1/1.6.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:12:32 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:12:32 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:12:32 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 1/1.6.0/1.6.1/1.6.1.txt: cinematic style shot of  Boutique corridor with so...
+2025-09-04 12:12:32 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:12:43 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:12:46 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/1/1.6.0/1.6.1/1.6.1_121243_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:12:46 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/1/1.6.0/1.6.1/1.6.1_121243_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:12:46 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 1.6.1_121243_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:12:46 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 1.7.1.txt
+2025-09-04 12:12:46 | INFO     | src.processing.processor:process_all:105 - Processing combination 7/104: 1/1.7.0/1.7.1/1.7.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:12:46 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:12:46 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:12:46 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 1/1.7.0/1.7.1/1.7.1.txt: cinematic style shot of  A bright, clean R&D lab a...
+2025-09-04 12:12:46 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:13:02 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:13:05 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/1/1.7.0/1.7.1/1.7.1_121302_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:13:05 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/1/1.7.0/1.7.1/1.7.1_121302_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:13:05 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 1.7.1_121302_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:13:05 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 1.8.1.txt
+2025-09-04 12:13:05 | INFO     | src.processing.processor:process_all:105 - Processing combination 8/104: 1/1.8.0/1.8.1/1.8.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:13:05 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:13:05 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:13:05 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 1/1.8.0/1.8.1/1.8.1.txt: cinematic style shot of  A single pair of hands wi...
+2025-09-04 12:13:05 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:13:18 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:13:20 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/1/1.8.0/1.8.1/1.8.1_121318_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:13:20 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/1/1.8.0/1.8.1/1.8.1_121318_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:13:20 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 1.8.1_121318_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:13:20 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 1.9.1.txt
+2025-09-04 12:13:20 | INFO     | src.processing.processor:process_all:105 - Processing combination 9/104: 1/1.9.0/1.9.1/1.9.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:13:20 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:13:20 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:13:20 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 1/1.9.0/1.9.1/1.9.1.txt: cinematic style shot of  Three boutique staff memb...
+2025-09-04 12:13:20 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:13:34 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:13:36 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/1/1.9.0/1.9.1/1.9.1_121334_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:13:36 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/1/1.9.0/1.9.1/1.9.1_121334_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:13:36 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 1.9.1_121334_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:13:36 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 1.10.1.txt
+2025-09-04 12:13:36 | INFO     | src.processing.processor:process_all:105 - Processing combination 10/104: 1/1.10.0/1.10.1/1.10.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:13:36 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:13:36 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:13:36 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 1/1.10.0/1.10.1/1.10.1.txt: cinematic style shot of  A woman in her early 30s ...
+2025-09-04 12:13:36 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:13:50 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:13:52 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/1/1.10.0/1.10.1/1.10.1_121350_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:13:52 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/1/1.10.0/1.10.1/1.10.1_121350_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:13:52 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 1.10.1_121350_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:13:52 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 1.11.1.txt
+2025-09-04 12:13:52 | INFO     | src.processing.processor:process_all:105 - Processing combination 11/104: 1/1.11.0/1.11.1/1.11.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:13:52 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:13:52 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:13:52 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 1/1.11.0/1.11.1/1.11.1.txt: cinematic style shot of  Clear view of a boutique ...
+2025-09-04 12:13:52 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:14:13 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:14:15 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/1/1.11.0/1.11.1/1.11.1_121413_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:14:15 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/1/1.11.0/1.11.1/1.11.1_121413_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:14:15 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 1.11.1_121413_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:14:15 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 2.1.1.txt
+2025-09-04 12:14:15 | INFO     | src.processing.processor:process_all:105 - Processing combination 12/104: 2/2.1.0/2.1.1/2.1.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:14:15 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:14:15 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:14:15 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 2/2.1.0/2.1.1/2.1.1.txt: cinematic style shot of  A realistic, softly lit s...
+2025-09-04 12:14:15 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:14:31 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:14:33 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/2/2.1.0/2.1.1/2.1.1_121431_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:14:33 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/2/2.1.0/2.1.1/2.1.1_121431_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:14:33 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 2.1.1_121431_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:14:33 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 2.2.1.txt
+2025-09-04 12:14:33 | INFO     | src.processing.processor:process_all:105 - Processing combination 13/104: 2/2.2.0/2.2.1/2.2.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:14:33 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:14:33 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:14:33 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 2/2.2.0/2.2.1/2.2.1.txt: cinematic style shot of  A realistic interior of a...
+2025-09-04 12:14:33 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:14:50 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:14:53 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/2/2.2.0/2.2.1/2.2.1_121450_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:14:53 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/2/2.2.0/2.2.1/2.2.1_121450_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:14:53 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 2.2.1_121450_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:14:53 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 2.3.1.txt
+2025-09-04 12:14:53 | INFO     | src.processing.processor:process_all:105 - Processing combination 14/104: 2/2.3.0/2.3.1/2.3.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:14:53 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:14:53 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:14:53 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 2/2.3.0/2.3.1/2.3.1.txt: cinematic style shot of  A close-up, realistic ima...
+2025-09-04 12:14:53 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:15:08 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:15:10 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/2/2.3.0/2.3.1/2.3.1_121508_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:15:10 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/2/2.3.0/2.3.1/2.3.1_121508_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:15:10 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 2.3.1_121508_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:15:10 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 2.4.1.txt
+2025-09-04 12:15:10 | INFO     | src.processing.processor:process_all:105 - Processing combination 15/104: 2/2.4.0/2.4.1/2.4.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:15:10 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:15:10 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:15:10 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 2/2.4.0/2.4.1/2.4.1.txt: cinematic style shot of  A softly lit boutique wor...
+2025-09-04 12:15:10 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:15:25 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:15:27 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/2/2.4.0/2.4.1/2.4.1_121525_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:15:27 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/2/2.4.0/2.4.1/2.4.1_121525_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:15:27 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 2.4.1_121525_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:15:27 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 2.5.1.txt
+2025-09-04 12:15:27 | INFO     | src.processing.processor:process_all:105 - Processing combination 16/104: 2/2.5.0/2.5.1/2.5.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:15:27 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:15:27 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:15:27 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 2/2.5.0/2.5.1/2.5.1.txt: cinematic style shot of  A product display inside ...
+2025-09-04 12:15:27 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:15:46 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:15:48 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/2/2.5.0/2.5.1/2.5.1_121546_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:15:48 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/2/2.5.0/2.5.1/2.5.1_121546_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:15:48 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 2.5.1_121546_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:15:48 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 2.6.1.txt
+2025-09-04 12:15:48 | INFO     | src.processing.processor:process_all:105 - Processing combination 17/104: 2/2.6.0/2.6.1/2.6.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:15:48 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:15:48 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:15:48 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 2/2.6.0/2.6.1/2.6.1.txt: cinematic style shot of  A realistic boutique offi...
+2025-09-04 12:15:48 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:16:05 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:16:07 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/2/2.6.0/2.6.1/2.6.1_121605_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:16:07 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/2/2.6.0/2.6.1/2.6.1_121605_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:16:07 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 2.6.1_121605_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:16:07 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 2.7.1.txt
+2025-09-04 12:16:07 | INFO     | src.processing.processor:process_all:105 - Processing combination 18/104: 2/2.7.0/2.7.1/2.7.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:16:07 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:16:07 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:16:07 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 2/2.7.0/2.7.1/2.7.1.txt: cinematic style shot of  A realistic boutique shel...
+2025-09-04 12:16:07 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:16:23 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:16:26 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/2/2.7.0/2.7.1/2.7.1_121623_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:16:26 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/2/2.7.0/2.7.1/2.7.1_121623_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:16:26 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 2.7.1_121623_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:16:26 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 2.8.1.txt
+2025-09-04 12:16:26 | INFO     | src.processing.processor:process_all:105 - Processing combination 19/104: 2/2.8.0/2.8.1/2.8.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:16:26 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:16:26 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:16:26 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 2/2.8.0/2.8.1/2.8.1.txt: cinematic style shot of  A boutique-style meeting ...
+2025-09-04 12:16:26 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:16:36 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:16:38 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/2/2.8.0/2.8.1/2.8.1_121636_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:16:38 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/2/2.8.0/2.8.1/2.8.1_121636_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:16:38 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 2.8.1_121636_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:16:38 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 2.9.1.txt
+2025-09-04 12:16:38 | INFO     | src.processing.processor:process_all:105 - Processing combination 20/104: 2/2.9.0/2.9.1/2.9.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:16:38 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:16:38 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:16:38 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 2/2.9.0/2.9.1/2.9.1.txt: cinematic style shot of  A minimal, realistic marb...
+2025-09-04 12:16:38 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:16:52 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:16:54 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/2/2.9.0/2.9.1/2.9.1_121652_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:16:54 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/2/2.9.0/2.9.1/2.9.1_121652_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:16:54 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 2.9.1_121652_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:16:54 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 2.10.1.txt
+2025-09-04 12:16:54 | INFO     | src.processing.processor:process_all:105 - Processing combination 21/104: 2/2.10.0/2.10.1/2.10.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:16:54 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:16:54 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:16:54 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 2/2.10.0/2.10.1/2.10.1.txt: cinematic style shot of  A bright shelf in a bouti...
+2025-09-04 12:16:54 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:17:05 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:17:08 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/2/2.10.0/2.10.1/2.10.1_121705_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:17:08 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/2/2.10.0/2.10.1/2.10.1_121705_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:17:08 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 2.10.1_121705_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:17:08 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 2.11.1.txt
+2025-09-04 12:17:08 | INFO     | src.processing.processor:process_all:105 - Processing combination 22/104: 2/2.11.0/2.11.1/2.11.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:17:08 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:17:08 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:17:08 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 2/2.11.0/2.11.1/2.11.1.txt: cinematic style shot of  A realistic image of a bo...
+2025-09-04 12:17:08 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:17:22 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:17:24 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/2/2.11.0/2.11.1/2.11.1_121722_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:17:24 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/2/2.11.0/2.11.1/2.11.1_121722_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:17:24 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 2.11.1_121722_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:17:24 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 3.1.1.txt
+2025-09-04 12:17:24 | INFO     | src.processing.processor:process_all:105 - Processing combination 23/104: 3/3.1.0/3.1.1/3.1.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:17:24 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:17:24 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:17:24 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 3/3.1.0/3.1.1/3.1.1.txt: cinematic style shot of  A realistic, softly lit c...
+2025-09-04 12:17:24 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:17:37 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:17:40 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/3/3.1.0/3.1.1/3.1.1_121737_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:17:40 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/3/3.1.0/3.1.1/3.1.1_121737_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:17:40 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 3.1.1_121737_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:17:40 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 3.2.1.txt
+2025-09-04 12:17:40 | INFO     | src.processing.processor:process_all:105 - Processing combination 24/104: 3/3.2.0/3.2.1/3.2.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:17:40 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:17:40 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:17:40 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 3/3.2.0/3.2.1/3.2.1.txt: cinematic style shot of  A spa-style lounge bathed...
+2025-09-04 12:17:40 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:17:50 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:17:52 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/3/3.2.0/3.2.1/3.2.1_121750_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:17:52 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/3/3.2.0/3.2.1/3.2.1_121750_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:17:52 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 3.2.1_121750_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:17:52 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 3.3.1.txt
+2025-09-04 12:17:52 | INFO     | src.processing.processor:process_all:105 - Processing combination 25/104: 3/3.3.0/3.3.1/3.3.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:17:52 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:17:52 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:17:52 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 3/3.3.0/3.3.1/3.3.1.txt: cinematic style shot of  A realistic, sunlit bathr...
+2025-09-04 12:17:52 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:18:05 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:18:07 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/3/3.3.0/3.3.1/3.3.1_121805_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:18:07 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/3/3.3.0/3.3.1/3.3.1_121805_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:18:07 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 3.3.1_121805_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:18:07 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 3.4.1.txt
+2025-09-04 12:18:07 | INFO     | src.processing.processor:process_all:105 - Processing combination 26/104: 3/3.4.0/3.4.1/3.4.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:18:07 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:18:07 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:18:07 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 3/3.4.0/3.4.1/3.4.1.txt: cinematic style shot of  A spa boutique interior w...
+2025-09-04 12:18:07 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:18:28 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:18:30 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/3/3.4.0/3.4.1/3.4.1_121828_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:18:30 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/3/3.4.0/3.4.1/3.4.1_121828_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:18:30 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 3.4.1_121828_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:18:30 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 3.5.1.txt
+2025-09-04 12:18:30 | INFO     | src.processing.processor:process_all:105 - Processing combination 27/104: 3/3.5.0/3.5.1/3.5.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:18:30 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:18:30 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:18:30 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 3/3.5.0/3.5.1/3.5.1.txt: cinematic style shot of  A gentle close-up, realis...
+2025-09-04 12:18:30 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:18:45 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:18:47 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/3/3.5.0/3.5.1/3.5.1_121845_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:18:47 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/3/3.5.0/3.5.1/3.5.1_121845_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:18:47 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 3.5.1_121845_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:18:47 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 3.6.1.txt
+2025-09-04 12:18:47 | INFO     | src.processing.processor:process_all:105 - Processing combination 28/104: 3/3.6.0/3.6.1/3.6.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:18:47 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:18:47 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:18:47 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 3/3.6.0/3.6.1/3.6.1.txt: cinematic style shot of  A minimal, clean scene sh...
+2025-09-04 12:18:47 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:18:59 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:19:01 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/3/3.6.0/3.6.1/3.6.1_121859_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:19:01 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/3/3.6.0/3.6.1/3.6.1_121859_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:19:01 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 3.6.1_121859_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:19:01 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 3.7.1.txt
+2025-09-04 12:19:01 | INFO     | src.processing.processor:process_all:105 - Processing combination 29/104: 3/3.7.0/3.7.1/3.7.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:19:01 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:19:01 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:19:01 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 3/3.7.0/3.7.1/3.7.1.txt: cinematic style shot of  A realistic boutique corn...
+2025-09-04 12:19:01 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:19:14 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:19:16 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/3/3.7.0/3.7.1/3.7.1_121914_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:19:16 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/3/3.7.0/3.7.1/3.7.1_121914_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:19:16 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 3.7.1_121914_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:19:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 3.8.1.txt
+2025-09-04 12:19:16 | INFO     | src.processing.processor:process_all:105 - Processing combination 30/104: 3/3.8.0/3.8.1/3.8.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:19:16 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:19:16 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:19:16 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 3/3.8.0/3.8.1/3.8.1.txt: cinematic style shot of  A realistic boutique serv...
+2025-09-04 12:19:16 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:19:27 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:19:29 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/3/3.8.0/3.8.1/3.8.1_121927_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:19:29 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/3/3.8.0/3.8.1/3.8.1_121927_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:19:29 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 3.8.1_121927_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:19:29 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 3.9.1.txt
+2025-09-04 12:19:29 | INFO     | src.processing.processor:process_all:105 - Processing combination 31/104: 3/3.9.0/3.9.1/3.9.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:19:29 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:19:29 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:19:29 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 3/3.9.0/3.9.1/3.9.1.txt: cinematic style shot of  A single staff member at ...
+2025-09-04 12:19:29 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:19:45 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:19:47 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/3/3.9.0/3.9.1/3.9.1_121945_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:19:47 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/3/3.9.0/3.9.1/3.9.1_121945_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:19:47 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 3.9.1_121945_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:19:47 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 3.10.1.txt
+2025-09-04 12:19:47 | INFO     | src.processing.processor:process_all:105 - Processing combination 32/104: 3/3.10.0/3.10.1/3.10.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:19:47 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:19:47 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:19:47 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 3/3.10.0/3.10.1/3.10.1.txt: cinematic style shot of  Daylight workspace scene ...
+2025-09-04 12:19:47 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:20:02 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:20:05 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/3/3.10.0/3.10.1/3.10.1_122002_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:20:05 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/3/3.10.0/3.10.1/3.10.1_122002_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:20:05 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 3.10.1_122002_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:20:05 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 3.11.1.txt
+2025-09-04 12:20:05 | INFO     | src.processing.processor:process_all:105 - Processing combination 33/104: 3/3.11.0/3.11.1/3.11.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:20:05 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:20:05 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:20:05 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 3/3.11.0/3.11.1/3.11.1.txt: cinematic style shot of  A boutique work table wit...
+2025-09-04 12:20:05 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:20:19 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:20:21 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/3/3.11.0/3.11.1/3.11.1_122019_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:20:21 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/3/3.11.0/3.11.1/3.11.1_122019_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:20:21 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 3.11.1_122019_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:20:21 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 3.12.1.txt
+2025-09-04 12:20:21 | INFO     | src.processing.processor:process_all:105 - Processing combination 34/104: 3/3.12.0/3.12.1/3.12.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:20:21 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:20:21 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:20:21 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 3/3.12.0/3.12.1/3.12.1.txt: cinematic style shot of  A softly lit boutique ent...
+2025-09-04 12:20:21 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:20:37 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:20:39 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/3/3.12.0/3.12.1/3.12.1_122037_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:20:39 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/3/3.12.0/3.12.1/3.12.1_122037_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:20:39 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 3.12.1_122037_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:20:39 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 3.13.1.txt
+2025-09-04 12:20:39 | INFO     | src.processing.processor:process_all:105 - Processing combination 35/104: 3/3.13.0/3.13.1/3.13.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:20:39 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:20:39 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:20:39 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 3/3.13.0/3.13.1/3.13.1.txt: cinematic style shot of  A welcoming human resourc...
+2025-09-04 12:20:39 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:20:51 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:20:53 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/3/3.13.0/3.13.1/3.13.1_122051_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:20:53 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/3/3.13.0/3.13.1/3.13.1_122051_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:20:53 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 3.13.1_122051_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:20:53 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 3.14.1.txt
+2025-09-04 12:20:53 | INFO     | src.processing.processor:process_all:105 - Processing combination 36/104: 3/3.14.0/3.14.1/3.14.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:20:53 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:20:53 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:20:53 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 3/3.14.0/3.14.1/3.14.1.txt: cinematic style shot of  A heartfelt spa boutique ...
+2025-09-04 12:20:53 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:21:07 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:21:09 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/3/3.14.0/3.14.1/3.14.1_122107_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:21:09 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/3/3.14.0/3.14.1/3.14.1_122107_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:21:09 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 3.14.1_122107_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:21:09 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 3.15.1.txt
+2025-09-04 12:21:09 | INFO     | src.processing.processor:process_all:105 - Processing combination 37/104: 3/3.15.0/3.15.1/3.15.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:21:09 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:21:09 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:21:09 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 3/3.15.0/3.15.1/3.15.1.txt: cinematic style shot of  A realistic window scene ...
+2025-09-04 12:21:09 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:21:26 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:21:27 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/3/3.15.0/3.15.1/3.15.1_122126_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:21:27 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/3/3.15.0/3.15.1/3.15.1_122126_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:21:27 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 3.15.1_122126_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:21:27 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 4.1.1.txt
+2025-09-04 12:21:27 | INFO     | src.processing.processor:process_all:105 - Processing combination 38/104: 4/4.1.0/4.1.1/4.1.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:21:27 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:21:27 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:21:27 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 4/4.1.0/4.1.1/4.1.1.txt: cinematic style shot of  A realistic, softly lit S...
+2025-09-04 12:21:27 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:21:41 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:21:43 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/4/4.1.0/4.1.1/4.1.1_122141_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:21:43 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/4/4.1.0/4.1.1/4.1.1_122141_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:21:43 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 4.1.1_122141_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:21:43 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 4.2.1.txt
+2025-09-04 12:21:43 | INFO     | src.processing.processor:process_all:105 - Processing combination 39/104: 4/4.2.0/4.2.1/4.2.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:21:43 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:21:43 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:21:43 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 4/4.2.0/4.2.1/4.2.1.txt: cinematic style shot of  A tranquil, pastel-toned ...
+2025-09-04 12:21:43 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:22:08 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:22:11 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/4/4.2.0/4.2.1/4.2.1_122208_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:22:11 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/4/4.2.0/4.2.1/4.2.1_122208_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:22:11 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 4.2.1_122208_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:22:11 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 4.3.1.txt
+2025-09-04 12:22:11 | INFO     | src.processing.processor:process_all:105 - Processing combination 40/104: 4/4.3.0/4.3.1/4.3.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:22:11 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:22:11 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:22:11 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 4/4.3.0/4.3.1/4.3.1.txt: cinematic style shot of  A realistic boutique stor...
+2025-09-04 12:22:11 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:22:24 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:22:26 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/4/4.3.0/4.3.1/4.3.1_122224_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:22:26 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/4/4.3.0/4.3.1/4.3.1_122224_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:22:26 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 4.3.1_122224_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:22:26 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 4.4.1.txt
+2025-09-04 12:22:26 | INFO     | src.processing.processor:process_all:105 - Processing combination 41/104: 4/4.4.0/4.4.1/4.4.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:22:26 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:22:26 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:22:26 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 4/4.4.0/4.4.1/4.4.1.txt: cinematic style shot of  A refined boutique gift c...
+2025-09-04 12:22:26 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:22:38 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:22:40 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/4/4.4.0/4.4.1/4.4.1_122238_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:22:40 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/4/4.4.0/4.4.1/4.4.1_122238_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:22:40 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 4.4.1_122238_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:22:40 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 4.5.1.txt
+2025-09-04 12:22:40 | INFO     | src.processing.processor:process_all:105 - Processing combination 42/104: 4/4.5.0/4.5.1/4.5.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:22:40 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:22:40 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:22:40 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 4/4.5.0/4.5.1/4.5.1.txt: cinematic style shot of  A realistic close-up of h...
+2025-09-04 12:22:40 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:22:56 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:22:59 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/4/4.5.0/4.5.1/4.5.1_122256_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:22:59 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/4/4.5.0/4.5.1/4.5.1_122256_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:22:59 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 4.5.1_122256_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:22:59 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 4.6.1.txt
+2025-09-04 12:22:59 | INFO     | src.processing.processor:process_all:105 - Processing combination 43/104: 4/4.6.0/4.6.1/4.6.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:22:59 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:22:59 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:22:59 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 4/4.6.0/4.6.1/4.6.1.txt: cinematic style shot of  A welcoming spa-style bou...
+2025-09-04 12:22:59 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:23:15 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:23:17 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/4/4.6.0/4.6.1/4.6.1_122315_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:23:17 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/4/4.6.0/4.6.1/4.6.1_122315_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:23:17 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 4.6.1_122315_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:23:17 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 4.7.1.txt
+2025-09-04 12:23:17 | INFO     | src.processing.processor:process_all:105 - Processing combination 44/104: 4/4.7.0/4.7.1/4.7.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:23:17 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:23:17 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:23:17 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 4/4.7.0/4.7.1/4.7.1.txt: cinematic style shot of  A wide, softly lit SABON ...
+2025-09-04 12:23:17 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:23:32 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:23:35 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/4/4.7.0/4.7.1/4.7.1_122332_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:23:35 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/4/4.7.0/4.7.1/4.7.1_122332_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:23:35 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 4.7.1_122332_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:23:35 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 4.8.1.txt
+2025-09-04 12:23:35 | INFO     | src.processing.processor:process_all:105 - Processing combination 45/104: 4/4.8.0/4.8.1/4.8.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:23:35 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:23:35 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:23:35 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 4/4.8.0/4.8.1/4.8.1.txt: cinematic style shot of  A realistic, close-up mar...
+2025-09-04 12:23:35 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:23:48 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:23:51 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/4/4.8.0/4.8.1/4.8.1_122348_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:23:51 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/4/4.8.0/4.8.1/4.8.1_122348_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:23:51 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 4.8.1_122348_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:23:51 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 4.9.1.txt
+2025-09-04 12:23:51 | INFO     | src.processing.processor:process_all:105 - Processing combination 46/104: 4/4.9.0/4.9.1/4.9.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:23:51 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:23:51 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:23:51 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 4/4.9.0/4.9.1/4.9.1.txt: cinematic style shot of  A softly glowing SABON bo...
+2025-09-04 12:23:51 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:24:05 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:24:07 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/4/4.9.0/4.9.1/4.9.1_122405_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:24:07 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/4/4.9.0/4.9.1/4.9.1_122405_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:24:07 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 4.9.1_122405_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:24:07 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 5.1.1.txt
+2025-09-04 12:24:07 | INFO     | src.processing.processor:process_all:105 - Processing combination 47/104: 5/5.1.0/5.1.1/5.1.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:24:07 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:24:07 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:24:07 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 5/5.1.0/5.1.1/5.1.1.txt: cinematic style shot of  A realistic spa-inspired ...
+2025-09-04 12:24:07 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:24:22 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:24:26 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/5/5.1.0/5.1.1/5.1.1_122422_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:24:26 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/5/5.1.0/5.1.1/5.1.1_122422_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:24:26 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 5.1.1_122422_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:24:26 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 5.2.1.txt
+2025-09-04 12:24:26 | INFO     | src.processing.processor:process_all:105 - Processing combination 48/104: 5/5.2.0/5.2.1/5.2.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:24:26 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:24:26 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:24:26 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 5/5.2.0/5.2.1/5.2.1.txt: cinematic style shot of  A softly focused SABON me...
+2025-09-04 12:24:26 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:24:36 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:24:39 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/5/5.2.0/5.2.1/5.2.1_122437_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:24:39 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/5/5.2.0/5.2.1/5.2.1_122437_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:24:39 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 5.2.1_122437_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:24:39 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 5.3.1.txt
+2025-09-04 12:24:39 | INFO     | src.processing.processor:process_all:105 - Processing combination 49/104: 5/5.3.0/5.3.1/5.3.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:24:39 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:24:39 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:24:39 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 5/5.3.0/5.3.1/5.3.1.txt: cinematic style shot of  A modern, spa-inspired op...
+2025-09-04 12:24:39 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:24:52 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:24:54 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/5/5.3.0/5.3.1/5.3.1_122452_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:24:54 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/5/5.3.0/5.3.1/5.3.1_122452_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:24:54 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 5.3.1_122452_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:24:54 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 5.4.1.txt
+2025-09-04 12:24:54 | INFO     | src.processing.processor:process_all:105 - Processing combination 50/104: 5/5.4.0/5.4.1/5.4.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:24:54 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:24:54 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:24:54 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 5/5.4.0/5.4.1/5.4.1.txt: cinematic style shot of  A single creative staff m...
+2025-09-04 12:24:54 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:25:07 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:25:09 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/5/5.4.0/5.4.1/5.4.1_122507_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:25:09 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/5/5.4.0/5.4.1/5.4.1_122507_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:25:09 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 5.4.1_122507_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:25:09 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 5.5.1.txt
+2025-09-04 12:25:09 | INFO     | src.processing.processor:process_all:105 - Processing combination 51/104: 5/5.5.0/5.5.1/5.5.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:25:09 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:25:09 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:25:09 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 5/5.5.0/5.5.1/5.5.1.txt: cinematic style shot of  A SABON team desk with tw...
+2025-09-04 12:25:09 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:25:22 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:25:25 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/5/5.5.0/5.5.1/5.5.1_122522_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:25:25 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/5/5.5.0/5.5.1/5.5.1_122522_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:25:25 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 5.5.1_122522_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:25:25 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 5.6.1.txt
+2025-09-04 12:25:25 | INFO     | src.processing.processor:process_all:105 - Processing combination 52/104: 5/5.6.0/5.6.1/5.6.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:25:25 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:25:25 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:25:25 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 5/5.6.0/5.6.1/5.6.1.txt: cinematic style shot of  A lively boutique demo st...
+2025-09-04 12:25:25 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:25:41 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:25:44 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/5/5.6.0/5.6.1/5.6.1_122541_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:25:44 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/5/5.6.0/5.6.1/5.6.1_122541_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:25:44 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 5.6.1_122541_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:25:44 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 5.7.1.txt
+2025-09-04 12:25:44 | INFO     | src.processing.processor:process_all:105 - Processing combination 53/104: 5/5.7.0/5.7.1/5.7.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:25:44 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:25:44 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:25:44 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 5/5.7.0/5.7.1/5.7.1.txt: cinematic style shot of  A stylish boutique office...
+2025-09-04 12:25:44 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:26:03 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:26:06 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/5/5.7.0/5.7.1/5.7.1_122603_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:26:06 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/5/5.7.0/5.7.1/5.7.1_122603_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:26:06 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 5.7.1_122603_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:26:06 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 5.8.1.txt
+2025-09-04 12:26:06 | INFO     | src.processing.processor:process_all:105 - Processing combination 54/104: 5/5.8.0/5.8.1/5.8.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:26:06 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:26:06 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:26:06 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 5/5.8.0/5.8.1/5.8.1.txt: cinematic style shot of  A welcoming staff lounge ...
+2025-09-04 12:26:06 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:26:16 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:26:19 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/5/5.8.0/5.8.1/5.8.1_122616_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:26:19 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/5/5.8.0/5.8.1/5.8.1_122616_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:26:19 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 5.8.1_122616_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:26:19 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 5.9.1.txt
+2025-09-04 12:26:19 | INFO     | src.processing.processor:process_all:105 - Processing combination 55/104: 5/5.9.0/5.9.1/5.9.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:26:19 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:26:19 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:26:19 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 5/5.9.0/5.9.1/5.9.1.txt: cinematic style shot of  A quietly focused office ...
+2025-09-04 12:26:19 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:26:42 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:26:45 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/5/5.9.0/5.9.1/5.9.1_122642_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:26:45 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/5/5.9.0/5.9.1/5.9.1_122642_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:26:45 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 5.9.1_122642_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:26:45 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 5.10.1.txt
+2025-09-04 12:26:45 | INFO     | src.processing.processor:process_all:105 - Processing combination 56/104: 5/5.10.0/5.10.1/5.10.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:26:45 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:26:45 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:26:45 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 5/5.10.0/5.10.1/5.10.1.txt: cinematic style shot of  A beautifully lit boutiqu...
+2025-09-04 12:26:45 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:26:59 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:27:01 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/5/5.10.0/5.10.1/5.10.1_122659_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:27:01 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/5/5.10.0/5.10.1/5.10.1_122659_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:27:01 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 5.10.1_122659_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:27:01 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 6.1.1.txt
+2025-09-04 12:27:01 | INFO     | src.processing.processor:process_all:105 - Processing combination 57/104: 6/6.1.0/6.1.1/6.1.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:27:01 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:27:01 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:27:01 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 6/6.1.0/6.1.1/6.1.1.txt: cinematic style shot of  A realistic, softly lit b...
+2025-09-04 12:27:01 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:27:15 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:27:17 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/6/6.1.0/6.1.1/6.1.1_122715_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:27:17 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/6/6.1.0/6.1.1/6.1.1_122715_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:27:17 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 6.1.1_122715_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:27:17 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 6.2.1.txt
+2025-09-04 12:27:17 | INFO     | src.processing.processor:process_all:105 - Processing combination 58/104: 6/6.2.0/6.2.1/6.2.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:27:17 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:27:17 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:27:17 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 6/6.2.0/6.2.1/6.2.1.txt: cinematic style shot of  A calm, realistic boutiqu...
+2025-09-04 12:27:17 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:27:41 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:27:44 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/6/6.2.0/6.2.1/6.2.1_122741_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:27:44 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/6/6.2.0/6.2.1/6.2.1_122741_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:27:44 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 6.2.1_122741_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:27:44 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 6.3.1.txt
+2025-09-04 12:27:44 | INFO     | src.processing.processor:process_all:105 - Processing combination 59/104: 6/6.3.0/6.3.1/6.3.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:27:44 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:27:44 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:27:44 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 6/6.3.0/6.3.1/6.3.1.txt: cinematic style shot of  A softly lit SABON creati...
+2025-09-04 12:27:44 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:28:01 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:28:04 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/6/6.3.0/6.3.1/6.3.1_122801_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:28:04 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/6/6.3.0/6.3.1/6.3.1_122801_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:28:04 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 6.3.1_122801_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:28:04 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 6.4.1.txt
+2025-09-04 12:28:04 | INFO     | src.processing.processor:process_all:105 - Processing combination 60/104: 6/6.4.0/6.4.1/6.4.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:28:04 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:28:04 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:28:04 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 6/6.4.0/6.4.1/6.4.1.txt: cinematic style shot of  A boutique-style meeting ...
+2025-09-04 12:28:04 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:28:21 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:28:24 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/6/6.4.0/6.4.1/6.4.1_122821_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:28:24 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/6/6.4.0/6.4.1/6.4.1_122821_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:28:24 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 6.4.1_122821_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:28:24 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 6.5.1.txt
+2025-09-04 12:28:24 | INFO     | src.processing.processor:process_all:105 - Processing combination 61/104: 6/6.5.0/6.5.1/6.5.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:28:24 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:28:24 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:28:24 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 6/6.5.0/6.5.1/6.5.1.txt: cinematic style shot of  A single, elegant marble ...
+2025-09-04 12:28:24 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:28:39 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:28:41 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/6/6.5.0/6.5.1/6.5.1_122839_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:28:41 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/6/6.5.0/6.5.1/6.5.1_122839_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:28:41 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 6.5.1_122839_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:28:41 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 6.6.1.txt
+2025-09-04 12:28:41 | INFO     | src.processing.processor:process_all:105 - Processing combination 62/104: 6/6.6.0/6.6.1/6.6.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:28:41 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:28:41 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:28:41 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 6/6.6.0/6.6.1/6.6.1.txt: cinematic style shot of  A realistic, intimate SAB...
+2025-09-04 12:28:41 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:28:58 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:29:00 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/6/6.6.0/6.6.1/6.6.1_122858_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:29:00 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/6/6.6.0/6.6.1/6.6.1_122858_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:29:00 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 6.6.1_122858_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:29:00 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 6.7.1.txt
+2025-09-04 12:29:00 | INFO     | src.processing.processor:process_all:105 - Processing combination 63/104: 6/6.7.0/6.7.1/6.7.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:29:00 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:29:00 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:29:00 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 6/6.7.0/6.7.1/6.7.1.txt: cinematic style shot of  A close-up, realistic sho...
+2025-09-04 12:29:00 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:29:17 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:29:19 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/6/6.7.0/6.7.1/6.7.1_122917_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:29:19 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/6/6.7.0/6.7.1/6.7.1_122917_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:29:19 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 6.7.1_122917_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:29:19 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 6.8.1.txt
+2025-09-04 12:29:19 | INFO     | src.processing.processor:process_all:105 - Processing combination 64/104: 6/6.8.0/6.8.1/6.8.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:29:19 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:29:19 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:29:19 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 6/6.8.0/6.8.1/6.8.1.txt: cinematic style shot of  A modern SABON counter wi...
+2025-09-04 12:29:19 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:29:38 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:29:41 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/6/6.8.0/6.8.1/6.8.1_122938_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:29:41 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/6/6.8.0/6.8.1/6.8.1_122938_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:29:41 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 6.8.1_122938_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:29:41 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 6.9.1.txt
+2025-09-04 12:29:41 | INFO     | src.processing.processor:process_all:105 - Processing combination 65/104: 6/6.9.0/6.9.1/6.9.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:29:41 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:29:41 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:29:41 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 6/6.9.0/6.9.1/6.9.1.txt: cinematic style shot of  Golden hour at a spa-bout...
+2025-09-04 12:29:41 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:29:56 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:29:59 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/6/6.9.0/6.9.1/6.9.1_122956_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:29:59 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/6/6.9.0/6.9.1/6.9.1_122956_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:29:59 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 6.9.1_122956_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:29:59 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 7.1.1.txt
+2025-09-04 12:29:59 | INFO     | src.processing.processor:process_all:105 - Processing combination 66/104: 7/7.1.0/7.1.1/7.1.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:29:59 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:29:59 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:29:59 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 7/7.1.0/7.1.1/7.1.1.txt: cinematic style shot of  A realistic, sunlit bouti...
+2025-09-04 12:29:59 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:30:12 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:30:14 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/7/7.1.0/7.1.1/7.1.1_123012_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:30:14 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/7/7.1.0/7.1.1/7.1.1_123012_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:30:14 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 7.1.1_123012_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:30:14 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 7.2.1.txt
+2025-09-04 12:30:14 | INFO     | src.processing.processor:process_all:105 - Processing combination 67/104: 7/7.2.0/7.2.1/7.2.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:30:14 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:30:14 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:30:14 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 7/7.2.0/7.2.1/7.2.1.txt: cinematic style shot of  A realistic, softly lit m...
+2025-09-04 12:30:14 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:30:25 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:30:27 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/7/7.2.0/7.2.1/7.2.1_123025_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:30:27 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/7/7.2.0/7.2.1/7.2.1_123025_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:30:27 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 7.2.1_123025_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:30:27 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 7.3.1.txt
+2025-09-04 12:30:27 | INFO     | src.processing.processor:process_all:105 - Processing combination 68/104: 7/7.3.0/7.3.1/7.3.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:30:27 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:30:27 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:30:27 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 7/7.3.0/7.3.1/7.3.1.txt: cinematic style shot of  A SABON R&D workspace wit...
+2025-09-04 12:30:27 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:30:39 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:30:42 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/7/7.3.0/7.3.1/7.3.1_123039_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:30:42 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/7/7.3.0/7.3.1/7.3.1_123039_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:30:42 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 7.3.1_123039_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:30:42 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 7.4.1.txt
+2025-09-04 12:30:42 | INFO     | src.processing.processor:process_all:105 - Processing combination 69/104: 7/7.4.0/7.4.1/7.4.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:30:42 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:30:42 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:30:42 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 7/7.4.0/7.4.1/7.4.1.txt: cinematic style shot of  A close, realistic shot o...
+2025-09-04 12:30:42 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:32:47 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:32:49 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/7/7.4.0/7.4.1/7.4.1_123247_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:32:49 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/7/7.4.0/7.4.1/7.4.1_123247_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:32:49 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 7.4.1_123247_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:32:49 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 7.5.1.txt
+2025-09-04 12:32:49 | INFO     | src.processing.processor:process_all:105 - Processing combination 70/104: 7/7.5.0/7.5.1/7.5.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:32:49 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:32:49 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:32:49 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 7/7.5.0/7.5.1/7.5.1.txt: cinematic style shot of  A pastel marble counterto...
+2025-09-04 12:32:49 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:33:00 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:33:02 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/7/7.5.0/7.5.1/7.5.1_123300_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:33:02 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/7/7.5.0/7.5.1/7.5.1_123300_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:33:02 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 7.5.1_123300_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:33:02 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 7.6.1.txt
+2025-09-04 12:33:02 | INFO     | src.processing.processor:process_all:105 - Processing combination 71/104: 7/7.6.0/7.6.1/7.6.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:33:02 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:33:02 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:33:02 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 7/7.6.0/7.6.1/7.6.1.txt: cinematic style shot of  A SABON boutique recyclin...
+2025-09-04 12:33:02 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:33:15 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:33:17 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/7/7.6.0/7.6.1/7.6.1_123315_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:33:17 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/7/7.6.0/7.6.1/7.6.1_123315_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:33:17 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 7.6.1_123315_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:33:17 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 7.7.1.txt
+2025-09-04 12:33:17 | INFO     | src.processing.processor:process_all:105 - Processing combination 72/104: 7/7.7.0/7.7.1/7.7.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:33:17 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:33:17 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:33:17 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 7/7.7.0/7.7.1/7.7.1.txt: cinematic style shot of  A realistic spa boutique ...
+2025-09-04 12:33:17 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:33:34 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:33:37 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/7/7.7.0/7.7.1/7.7.1_123334_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:33:37 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/7/7.7.0/7.7.1/7.7.1_123334_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:33:37 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 7.7.1_123334_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:33:37 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 7.8.1.txt
+2025-09-04 12:33:37 | INFO     | src.processing.processor:process_all:105 - Processing combination 73/104: 7/7.8.0/7.8.1/7.8.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:33:37 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:33:37 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:33:37 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 7/7.8.0/7.8.1/7.8.1.txt: cinematic style shot of  A marble table in soft da...
+2025-09-04 12:33:37 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:33:52 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:33:55 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/7/7.8.0/7.8.1/7.8.1_123352_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:33:55 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/7/7.8.0/7.8.1/7.8.1_123352_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:33:55 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 7.8.1_123352_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:33:55 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 7.9.1.txt
+2025-09-04 12:33:55 | INFO     | src.processing.processor:process_all:105 - Processing combination 74/104: 7/7.9.0/7.9.1/7.9.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:33:55 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:33:55 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:33:55 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 7/7.9.0/7.9.1/7.9.1.txt: cinematic style shot of  A joyful, natural dayligh...
+2025-09-04 12:33:55 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:34:07 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:34:09 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/7/7.9.0/7.9.1/7.9.1_123407_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:34:09 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/7/7.9.0/7.9.1/7.9.1_123407_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:34:09 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 7.9.1_123407_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:34:09 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 7.10.1.txt
+2025-09-04 12:34:09 | INFO     | src.processing.processor:process_all:105 - Processing combination 75/104: 7/7.10.0/7.10.1/7.10.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:34:09 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:34:09 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:34:09 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 7/7.10.0/7.10.1/7.10.1.txt: cinematic style shot of  A spa-style boutique tabl...
+2025-09-04 12:34:09 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:34:21 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:34:23 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/7/7.10.0/7.10.1/7.10.1_123421_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:34:23 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/7/7.10.0/7.10.1/7.10.1_123421_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:34:23 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 7.10.1_123421_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:34:23 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 7.11.1.txt
+2025-09-04 12:34:23 | INFO     | src.processing.processor:process_all:105 - Processing combination 76/104: 7/7.11.0/7.11.1/7.11.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:34:23 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:34:23 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:34:23 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 7/7.11.0/7.11.1/7.11.1.txt: cinematic style shot of  A spa-inspired outdoor ga...
+2025-09-04 12:34:23 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:34:37 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:34:40 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/7/7.11.0/7.11.1/7.11.1_123437_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:34:40 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/7/7.11.0/7.11.1/7.11.1_123437_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:34:40 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 7.11.1_123437_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:34:40 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 7.12.1.txt
+2025-09-04 12:34:40 | INFO     | src.processing.processor:process_all:105 - Processing combination 77/104: 7/7.12.0/7.12.1/7.12.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:34:40 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:34:40 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:34:40 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 7/7.12.0/7.12.1/7.12.1.txt: cinematic style shot of  A minimal marble outdoor ...
+2025-09-04 12:34:40 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:34:56 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:34:58 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/7/7.12.0/7.12.1/7.12.1_123456_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:34:58 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/7/7.12.0/7.12.1/7.12.1_123456_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:34:58 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 7.12.1_123456_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:34:58 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 7.13.1.txt
+2025-09-04 12:34:58 | INFO     | src.processing.processor:process_all:105 - Processing combination 78/104: 7/7.13.0/7.13.1/7.13.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:34:58 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:34:58 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:34:58 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 7/7.13.0/7.13.1/7.13.1.txt: cinematic style shot of  A springtime garden court...
+2025-09-04 12:34:58 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:35:11 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:35:14 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/7/7.13.0/7.13.1/7.13.1_123511_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:35:14 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/7/7.13.0/7.13.1/7.13.1_123511_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:35:14 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 7.13.1_123511_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:35:14 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 7.14.1.txt
+2025-09-04 12:35:14 | INFO     | src.processing.processor:process_all:105 - Processing combination 79/104: 7/7.14.0/7.14.1/7.14.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:35:14 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:35:14 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:35:14 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 7/7.14.0/7.14.1/7.14.1.txt: cinematic style shot of  A gentle shot of the flow...
+2025-09-04 12:35:14 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:35:27 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:35:29 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/7/7.14.0/7.14.1/7.14.1_123527_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:35:29 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/7/7.14.0/7.14.1/7.14.1_123527_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:35:29 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 7.14.1_123527_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:35:29 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 7.15.1.txt
+2025-09-04 12:35:29 | INFO     | src.processing.processor:process_all:105 - Processing combination 80/104: 7/7.15.0/7.15.1/7.15.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:35:29 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:35:29 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:35:29 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 7/7.15.0/7.15.1/7.15.1.txt: cinematic style shot of  A tranquil garden path at...
+2025-09-04 12:35:29 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:35:44 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:35:46 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/7/7.15.0/7.15.1/7.15.1_123544_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:35:46 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/7/7.15.0/7.15.1/7.15.1_123544_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:35:46 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 7.15.1_123544_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:35:46 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 7.16.1.txt
+2025-09-04 12:35:46 | INFO     | src.processing.processor:process_all:105 - Processing combination 81/104: 7/7.16.0/7.16.1/7.16.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:35:46 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:35:46 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:35:46 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 7/7.16.0/7.16.1/7.16.1.txt: cinematic style shot of  A sunlit French garden sp...
+2025-09-04 12:35:46 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:36:00 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:36:01 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/7/7.16.0/7.16.1/7.16.1_123600_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:36:01 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/7/7.16.0/7.16.1/7.16.1_123600_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:36:01 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 7.16.1_123600_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:36:01 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 7.17.1.txt
+2025-09-04 12:36:01 | INFO     | src.processing.processor:process_all:105 - Processing combination 82/104: 7/7.17.0/7.17.1/7.17.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:36:01 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:36:01 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:36:01 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 7/7.17.0/7.17.1/7.17.1.txt: cinematic style shot of  A world map tabletop in p...
+2025-09-04 12:36:01 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:36:15 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:36:17 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/7/7.17.0/7.17.1/7.17.1_123615_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:36:17 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/7/7.17.0/7.17.1/7.17.1_123615_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:36:17 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 7.17.1_123615_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:36:17 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 7.18.1.txt
+2025-09-04 12:36:17 | INFO     | src.processing.processor:process_all:105 - Processing combination 83/104: 7/7.18.0/7.18.1/7.18.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:36:17 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:36:17 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:36:17 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 7/7.18.0/7.18.1/7.18.1.txt: cinematic style shot of  A softly focused boutique...
+2025-09-04 12:36:17 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:36:33 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:36:36 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/7/7.18.0/7.18.1/7.18.1_123633_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:36:36 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/7/7.18.0/7.18.1/7.18.1_123633_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:36:36 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 7.18.1_123633_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:36:36 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 7.19.1.txt
+2025-09-04 12:36:36 | INFO     | src.processing.processor:process_all:105 - Processing combination 84/104: 7/7.19.0/7.19.1/7.19.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:36:36 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:36:36 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:36:36 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 7/7.19.0/7.19.1/7.19.1.txt: cinematic style shot of  A close, realistic portra...
+2025-09-04 12:36:36 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:36:52 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:36:54 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/7/7.19.0/7.19.1/7.19.1_123652_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:36:54 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/7/7.19.0/7.19.1/7.19.1_123652_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:36:54 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 7.19.1_123652_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:36:54 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 8.1.1.txt
+2025-09-04 12:36:54 | INFO     | src.processing.processor:process_all:105 - Processing combination 85/104: 8/8.1.0/8.1.1/8.1.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:36:54 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:36:54 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:36:54 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 8/8.1.0/8.1.1/8.1.1.txt: cinematic style shot of  A realistic group portrai...
+2025-09-04 12:36:54 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:37:12 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:37:13 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/8/8.1.0/8.1.1/8.1.1_123712_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:37:13 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/8/8.1.0/8.1.1/8.1.1_123712_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:37:13 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 8.1.1_123712_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:37:13 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 8.2.1.txt
+2025-09-04 12:37:13 | INFO     | src.processing.processor:process_all:105 - Processing combination 86/104: 8/8.2.0/8.2.1/8.2.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:37:13 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:37:13 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:37:13 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 8/8.2.0/8.2.1/8.2.1.txt: cinematic style shot of  A softly lit SABON meetin...
+2025-09-04 12:37:13 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:37:29 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:37:31 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/8/8.2.0/8.2.1/8.2.1_123729_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:37:31 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/8/8.2.0/8.2.1/8.2.1_123729_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:37:31 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 8.2.1_123729_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:37:31 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 8.3.1.txt
+2025-09-04 12:37:31 | INFO     | src.processing.processor:process_all:105 - Processing combination 87/104: 8/8.3.0/8.3.1/8.3.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:37:31 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:37:31 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:37:31 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 8/8.3.0/8.3.1/8.3.1.txt: cinematic style shot of  A gentle, realistic bouti...
+2025-09-04 12:37:31 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:37:45 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:37:47 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/8/8.3.0/8.3.1/8.3.1_123745_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:37:47 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/8/8.3.0/8.3.1/8.3.1_123745_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:37:47 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 8.3.1_123745_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:37:47 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 8.4.1.txt
+2025-09-04 12:37:47 | INFO     | src.processing.processor:process_all:105 - Processing combination 88/104: 8/8.4.0/8.4.1/8.4.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:37:47 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:37:47 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:37:47 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 8/8.4.0/8.4.1/8.4.1.txt: cinematic style shot of  A realistic elegant SABON...
+2025-09-04 12:37:47 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:39:56 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:39:58 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/8/8.4.0/8.4.1/8.4.1_123956_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:39:58 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/8/8.4.0/8.4.1/8.4.1_123956_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:39:58 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 8.4.1_123956_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:39:58 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 8.5.1.txt
+2025-09-04 12:39:58 | INFO     | src.processing.processor:process_all:105 - Processing combination 89/104: 8/8.5.0/8.5.1/8.5.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:39:58 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:39:58 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:39:58 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 8/8.5.0/8.5.1/8.5.1.txt: cinematic style shot of  A modern boutique lounge ...
+2025-09-04 12:39:58 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:40:11 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:40:13 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/8/8.5.0/8.5.1/8.5.1_124011_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:40:13 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/8/8.5.0/8.5.1/8.5.1_124011_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:40:13 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 8.5.1_124011_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:40:13 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 8.6.1.txt
+2025-09-04 12:40:13 | INFO     | src.processing.processor:process_all:105 - Processing combination 90/104: 8/8.6.0/8.6.1/8.6.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:40:13 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:40:13 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:40:13 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 8/8.6.0/8.6.1/8.6.1.txt: cinematic style shot of  A softly lit SABON boutiq...
+2025-09-04 12:40:13 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:40:28 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:40:31 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/8/8.6.0/8.6.1/8.6.1_124028_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:40:31 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/8/8.6.0/8.6.1/8.6.1_124028_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:40:31 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 8.6.1_124028_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:40:31 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 8.7.1.txt
+2025-09-04 12:40:31 | INFO     | src.processing.processor:process_all:105 - Processing combination 91/104: 8/8.7.0/8.7.1/8.7.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:40:31 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:40:31 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:40:31 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 8/8.7.0/8.7.1/8.7.1.txt: cinematic style shot of  A SABON-supported garden ...
+2025-09-04 12:40:31 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:40:57 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:41:00 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/8/8.7.0/8.7.1/8.7.1_124057_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:41:00 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/8/8.7.0/8.7.1/8.7.1_124057_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:41:00 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 8.7.1_124057_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:41:00 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 8.8.1.txt
+2025-09-04 12:41:00 | INFO     | src.processing.processor:process_all:105 - Processing combination 92/104: 8/8.8.0/8.8.1/8.8.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:41:00 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:41:00 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:41:00 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 8/8.8.0/8.8.1/8.8.1.txt: cinematic style shot of  A boutique workspace with...
+2025-09-04 12:41:00 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:41:17 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:41:19 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/8/8.8.0/8.8.1/8.8.1_124117_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:41:19 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/8/8.8.0/8.8.1/8.8.1_124117_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:41:19 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 8.8.1_124117_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:41:19 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 8.9.1.txt
+2025-09-04 12:41:19 | INFO     | src.processing.processor:process_all:105 - Processing combination 93/104: 8/8.9.0/8.9.1/8.9.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:41:19 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:41:19 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:41:19 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 8/8.9.0/8.9.1/8.9.1.txt: cinematic style shot of  A softly glowing entry sc...
+2025-09-04 12:41:19 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:41:32 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:41:35 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/8/8.9.0/8.9.1/8.9.1_124132_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:41:35 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/8/8.9.0/8.9.1/8.9.1_124132_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:41:35 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 8.9.1_124132_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:41:35 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 9.1.1.txt
+2025-09-04 12:41:35 | INFO     | src.processing.processor:process_all:105 - Processing combination 94/104: 9/9.1.0/9.1.1/9.1.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:41:35 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:41:35 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:41:35 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 9/9.1.0/9.1.1/9.1.1.txt: cinematic style shot of  A realistic, softly sunli...
+2025-09-04 12:41:35 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:41:51 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:41:54 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/9/9.1.0/9.1.1/9.1.1_124151_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:41:54 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/9/9.1.0/9.1.1/9.1.1_124151_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:41:54 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 9.1.1_124151_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:41:54 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 9.2.1.txt
+2025-09-04 12:41:54 | INFO     | src.processing.processor:process_all:105 - Processing combination 95/104: 9/9.2.0/9.2.1/9.2.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:41:54 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:41:54 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:41:54 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 9/9.2.0/9.2.1/9.2.1.txt: cinematic style shot of  A realistic, inclusive ma...
+2025-09-04 12:41:54 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:42:09 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:42:12 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/9/9.2.0/9.2.1/9.2.1_124209_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:42:12 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/9/9.2.0/9.2.1/9.2.1_124209_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:42:12 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 9.2.1_124209_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:42:12 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 9.3.1.txt
+2025-09-04 12:42:12 | INFO     | src.processing.processor:process_all:105 - Processing combination 96/104: 9/9.3.0/9.3.1/9.3.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:42:12 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:42:12 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:42:12 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 9/9.3.0/9.3.1/9.3.1.txt: cinematic style shot of  A realistic spa lounge or...
+2025-09-04 12:42:12 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:42:21 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:42:23 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/9/9.3.0/9.3.1/9.3.1_124221_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:42:23 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/9/9.3.0/9.3.1/9.3.1_124221_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:42:23 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 9.3.1_124221_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:42:23 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 9.4.1.txt
+2025-09-04 12:42:23 | INFO     | src.processing.processor:process_all:105 - Processing combination 97/104: 9/9.4.0/9.4.1/9.4.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:42:23 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:42:23 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:42:23 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 9/9.4.0/9.4.1/9.4.1.txt: cinematic style shot of  A single realistic boutiq...
+2025-09-04 12:42:23 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:42:44 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:42:46 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/9/9.4.0/9.4.1/9.4.1_124244_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:42:46 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/9/9.4.0/9.4.1/9.4.1_124244_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:42:46 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 9.4.1_124244_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:42:46 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 9.5.1.txt
+2025-09-04 12:42:46 | INFO     | src.processing.processor:process_all:105 - Processing combination 98/104: 9/9.5.0/9.5.1/9.5.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:42:46 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:42:46 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:42:46 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 9/9.5.0/9.5.1/9.5.1.txt: cinematic style shot of  A realistic training corn...
+2025-09-04 12:42:46 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:44:47 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:44:49 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/9/9.5.0/9.5.1/9.5.1_124447_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:44:49 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/9/9.5.0/9.5.1/9.5.1_124447_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:44:49 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 9.5.1_124447_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:44:49 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 9.6.1.txt
+2025-09-04 12:44:49 | INFO     | src.processing.processor:process_all:105 - Processing combination 99/104: 9/9.6.0/9.6.1/9.6.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:44:49 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:44:49 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:44:49 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 9/9.6.0/9.6.1/9.6.1.txt: cinematic style shot of  A softly focused marble d...
+2025-09-04 12:44:49 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:45:05 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:45:08 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/9/9.6.0/9.6.1/9.6.1_124505_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:45:08 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/9/9.6.0/9.6.1/9.6.1_124505_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:45:08 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 9.6.1_124505_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:45:08 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 9.7.1.txt
+2025-09-04 12:45:08 | INFO     | src.processing.processor:process_all:105 - Processing combination 100/104: 9/9.7.0/9.7.1/9.7.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:45:08 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:45:08 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:45:08 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 9/9.7.0/9.7.1/9.7.1.txt: cinematic style shot of  A minimalist boutique cou...
+2025-09-04 12:45:08 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:45:22 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:45:24 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/9/9.7.0/9.7.1/9.7.1_124522_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:45:24 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/9/9.7.0/9.7.1/9.7.1_124522_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:45:24 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 9.7.1_124522_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:45:24 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 9.8.1.txt
+2025-09-04 12:45:24 | INFO     | src.processing.processor:process_all:105 - Processing combination 101/104: 9/9.8.0/9.8.1/9.8.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:45:24 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:45:24 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:45:24 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 9/9.8.0/9.8.1/9.8.1.txt: cinematic style shot of  A realistic boutique entr...
+2025-09-04 12:45:24 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:45:44 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:45:45 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/9/9.8.0/9.8.1/9.8.1_124544_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:45:45 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/9/9.8.0/9.8.1/9.8.1_124544_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:45:45 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 9.8.1_124544_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:45:45 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 9.9.1.txt
+2025-09-04 12:45:45 | INFO     | src.processing.processor:process_all:105 - Processing combination 102/104: 9/9.9.0/9.9.1/9.9.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:45:45 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:45:45 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:45:45 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 9/9.9.0/9.9.1/9.9.1.txt: cinematic style shot of  A softly lit desk with tw...
+2025-09-04 12:45:45 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:46:00 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:46:02 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/9/9.9.0/9.9.1/9.9.1_124600_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:46:02 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/9/9.9.0/9.9.1/9.9.1_124600_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:46:02 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 9.9.1_124600_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:46:02 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 9.10.1.txt
+2025-09-04 12:46:02 | INFO     | src.processing.processor:process_all:105 - Processing combination 103/104: 9/9.10.0/9.10.1/9.10.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:46:02 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:46:02 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:46:02 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 9/9.10.0/9.10.1/9.10.1.txt: cinematic style shot of  A genuine, candid group p...
+2025-09-04 12:46:02 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:46:12 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:46:15 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/9/9.10.0/9.10.1/9.10.1_124612_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:46:15 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/9/9.10.0/9.10.1/9.10.1_124612_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:46:15 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 9.10.1_124612_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:46:15 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 9.11.1.txt
+2025-09-04 12:46:15 | INFO     | src.processing.processor:process_all:105 - Processing combination 104/104: 9/9.11.0/9.11.1/9.11.1.txt + seedream_v3_1080p_vertical
+2025-09-04 12:46:15 | DEBUG    | src.processing.processor:_process_file_model_combination:181 - Added prefix to prompt: cinematic style shot of 
+2025-09-04 12:46:15 | DEBUG    | src.processing.processor:_process_file_model_combination:185 - Added suffix to prompt: Shot on 35mm film.
+2025-09-04 12:46:15 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 9/9.11.0/9.11.1/9.11.1.txt: cinematic style shot of  A realistic boutique entr...
+2025-09-04 12:46:15 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-09-04 12:46:29 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-09-04 12:46:32 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/9/9.11.0/9.11.1/9.11.1_124629_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:46:32 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250904_121054/seedream_v3_1080p_vertical/9/9.11.0/9.11.1/9.11.1_124629_seedream_v3_1080p_vertical_1080x1920.json
+2025-09-04 12:46:32 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 9.11.1_124629_seedream_v3_1080p_vertical_1080x1920.jpeg
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 1.1.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 1.2.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 1.3.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 1.4.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 1.5.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 1.6.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 1.7.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 1.8.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 1.9.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 1.10.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 1.11.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 2.1.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 2.2.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 2.3.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 2.4.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 2.5.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 2.6.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 2.7.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 2.8.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 2.9.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 2.10.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 2.11.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 3.1.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 3.2.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 3.3.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 3.4.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 3.5.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 3.6.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 3.7.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 3.8.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 3.9.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 3.10.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 3.11.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 3.12.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 3.13.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 3.14.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 3.15.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 4.1.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 4.2.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 4.3.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 4.4.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 4.5.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 4.6.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 4.7.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 4.8.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 4.9.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 5.1.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 5.2.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 5.3.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 5.4.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 5.5.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 5.6.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 5.7.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 5.8.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 5.9.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 5.10.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 6.1.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 6.2.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 6.3.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 6.4.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 6.5.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 6.6.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 6.7.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 6.8.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 6.9.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 7.1.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 7.2.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 7.3.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 7.4.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 7.5.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 7.6.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 7.7.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 7.8.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 7.9.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 7.10.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 7.11.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 7.12.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 7.13.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 7.14.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 7.15.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 7.16.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 7.17.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 7.18.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 7.19.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 8.1.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 8.2.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 8.3.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 8.4.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 8.5.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 8.6.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 8.7.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 8.8.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 8.9.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 9.1.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 9.2.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 9.3.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 9.4.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 9.5.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 9.6.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 9.7.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 9.8.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 9.9.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 9.10.1.txt
+2025-09-04 12:46:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 9.11.1.txt
+2025-09-04 12:46:32 | INFO     | src.output.writer:write_report:152 - Wrote report: USER-FILES/05.OUTPUT/250904_121054/COST.md
+2025-09-04 12:46:32 | INFO     | src.output.writer:write_report:152 - Wrote report: USER-FILES/05.OUTPUT/250904_121054/SUCCESS.md
+2025-09-04 12:46:32 | INFO     | src.output.writer:write_report:152 - Wrote report: USER-FILES/05.OUTPUT/250904_121054/FIX.md
+2025-09-04 12:46:32 | INFO     | src.output.reporter:save_reports:234 - FIX.md report generated with prompt fixes
+2025-09-04 12:46:32 | INFO     | src.output.reporter:save_reports:236 - Reports generated successfully
+2025-09-04 12:46:32 | SUCCESS  | __main__:main:201 - ✅ Completed successfully! Generated 104 images

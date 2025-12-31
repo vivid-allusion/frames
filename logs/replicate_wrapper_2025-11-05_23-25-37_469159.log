@@ -1,0 +1,865 @@
+2025-11-05 23:25:37 | INFO     | src.utils.logging:setup_logging:39 - Logging configured (verbose=False, debug=False)
+2025-11-05 23:25:37 | INFO     | __main__:setup_environment:79 - Environment initialized
+2025-11-05 23:25:37 | INFO     | __main__:load_and_validate_config:84 - Loading configuration...
+2025-11-05 23:25:37 | INFO     | src.config.loader:load_config:42 - Loaded configuration from USER-FILES/01.CONFIG/config.yaml
+2025-11-05 23:25:37 | INFO     | __main__:authenticate_for_mode:273 - Authenticating with 1Password...
+2025-11-05 23:25:41 | DEBUG    | src.auth.session_manager:ensure_op_auth:39 - 1Password session is active
+2025-11-05 23:25:42 | DEBUG    | src.auth.session_manager:ensure_op_auth:39 - 1Password session is active
+2025-11-05 23:25:42 | DEBUG    | src.auth.auth:load_auth_config:28 - Using auth config: auth_ruben.yaml
+2025-11-05 23:25:43 | DEBUG    | src.auth.auth:get_api_key:77 - Retrieved API key: r8_K...
+2025-11-05 23:25:43 | INFO     | __main__:discover_inputs_and_profiles:92 - Discovering inputs...
+2025-11-05 23:25:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: SweGuilds_009.txt
+2025-11-05 23:25:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: SweGuilds_008.txt
+2025-11-05 23:25:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: SweGuilds_020.txt
+2025-11-05 23:25:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: SweGuilds_018.txt
+2025-11-05 23:25:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: SweGuilds_019.txt
+2025-11-05 23:25:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: SweGuilds_014.txt
+2025-11-05 23:25:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: SweGuilds_015.txt
+2025-11-05 23:25:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: SweGuilds_001.txt
+2025-11-05 23:25:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: SweGuilds_017.txt
+2025-11-05 23:25:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: SweGuilds_003.txt
+2025-11-05 23:25:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: SweGuilds_002.txt
+2025-11-05 23:25:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: SweGuilds_016.txt
+2025-11-05 23:25:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: SweGuilds_012.txt
+2025-11-05 23:25:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: SweGuilds_006.txt
+2025-11-05 23:25:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: SweGuilds_007.txt
+2025-11-05 23:25:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: SweGuilds_013.txt
+2025-11-05 23:25:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: SweGuilds_005.txt
+2025-11-05 23:25:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: SweGuilds_011.txt
+2025-11-05 23:25:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: SweGuilds_010.txt
+2025-11-05 23:25:43 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: SweGuilds_004.txt
+2025-11-05 23:25:43 | INFO     | src.processing.discovery:discover_prompt_files:45 - Discovered 20 prompt files
+2025-11-05 23:25:43 | DEBUG    | src.processing.discovery:discover_profiles:93 - Loaded profile: USER-FILES/03.PROFILES/nano-banano16x9_deakins.yaml
+2025-11-05 23:25:43 | INFO     | src.processing.discovery:discover_profiles:97 - Loaded 1 profiles
+2025-11-05 23:25:43 | INFO     | src.processing.discovery:get_active_models:135 - Found profile: nano-banano16x9_deakins
+2025-11-05 23:25:43 | INFO     | src.processing.discovery:get_active_models:140 - Total profiles to process: 1
+2025-11-05 23:25:43 | INFO     | src.config.validator:validate_all:26 - All configuration validation passed
+2025-11-05 23:25:43 | INFO     | __main__:initialize_services:186 - Output directory: USER-FILES/05.OUTPUT/251105_232543_IMAGE
+2025-11-05 23:25:43 | INFO     | __main__:execute_processing:221 - Starting matrix processing...
+2025-11-05 23:25:43 | DEBUG    | src.processing.validator:validate_operational_requirements:23 - Profile 'nano-banano16x9_deakins' operational validation passed
+2025-11-05 23:25:43 | INFO     | src.processing.processor:process_all:60 - Processing 20 combinations (20 files × 1 profiles)
+2025-11-05 23:25:43 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from SweGuilds_001.txt
+2025-11-05 23:25:43 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 1/20: SweGuilds_001.txt + nano-banano16x9_deakins
+2025-11-05 23:25:43 | DEBUG    | src.processing.processor:_apply_prompt_fixes:204 - Added prefix to prompt: A cinematic scene from the 
+2025-11-05 23:25:43 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-05 23:25:43 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing SweGuilds_001.txt: A cinematic scene from the  Early 1800s Stockholm....
+2025-11-05 23:25:43 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-11-05 23:25:43 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  Early 1800s Stockholm. A Swedish silversmith with blonde hair and weathered hands carefully engraving intricate patterns onto a silver chalice at his wooden workbench. Sunlight streams through the workshop window illuminating silver tools and finished pieces on shelves. He wears a leather apron over simple wool clothing. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 23:25:43 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A cinematic scene from the  Early 1800s Stockholm. A Swedish silversmith with blonde hair and weathered hands carefully engraving intricate patterns onto a silver chalice at his wooden workbench. Sunlight streams through the workshop window illuminating silver tools and finished pieces on shelves. He wears a leather apron over simple wool clothing. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-05 23:25:43 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A cinematic scene from the  Early 1800s Stockholm. A Swedish silversmith with blonde hair and weathered hands carefully engraving intricate patterns onto a silver chalice at his wooden workbench. Sunlight streams through the workshop window illuminating silver tools and finished pieces on shelves. He wears a leather apron over simple wool clothing. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-05 23:25:43 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A cinematic scene from the  Early 1800s Stockholm. A Swedish silversmith with blonde hair and weathered hands carefully engraving intricate patterns onto a silver chalice at his wooden workbench. Sunlight streams through the workshop window illuminating silver tools and finished pieces on shelves. He wears a leather apron over simple wool clothing. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image'
+2025-11-05 23:25:43 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-11-05 23:25:43 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  Early 1800s Stockholm. A Swedish silversmith with blonde hair and weathered hands carefully engraving intricate patterns onto a silver chalice at his wooden workbench. Sunlight streams through the workshop window illuminating silver tools and finished pieces on shelves. He wears a leather apron over simple wool clothing. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 23:25:53 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-11-05 23:25:53 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-11-05 23:25:53 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-11-05 23:25:53 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-11-05 23:25:53 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-11-05 23:25:54 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251105_232543_IMAGE/SweGuilds_001_IMAGE_232553_nano-banano16x9_deakins.png
+2025-11-05 23:25:54 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251105_232543_IMAGE/SweGuilds_001_IMAGE_232553_nano-banano16x9_deakins.md
+2025-11-05 23:25:54 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251105_232543_IMAGE/SweGuilds_001_IMAGE_232553_nano-banano16x9_deakins.png
+2025-11-05 23:25:54 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from SweGuilds_002.txt
+2025-11-05 23:25:54 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 2/20: SweGuilds_002.txt + nano-banano16x9_deakins
+2025-11-05 23:25:54 | DEBUG    | src.processing.processor:_apply_prompt_fixes:204 - Added prefix to prompt: A cinematic scene from the 
+2025-11-05 23:25:54 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-05 23:25:54 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing SweGuilds_002.txt: A cinematic scene from the  Early 1800s Norrköping...
+2025-11-05 23:25:54 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-11-05 23:25:54 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  Early 1800s Norrk\u00f6ping. Three Swedish textile weavers - two women with fair hair in braids and one bearded man - working side by side at large wooden looms. Colorful threads stretch across the frames. Natural light from tall windows illuminates the floating dust and wool fibers in the air of the textile workshop. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 23:25:54 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A cinematic scene from the  Early 1800s Norrköping. Three Swedish textile weavers - two women with fair hair in braids and one bearded man - working side by side at large wooden looms. Colorful threads stretch across the frames. Natural light from tall windows illuminates the floating dust and wool fibers in the air of the textile workshop. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-05 23:25:54 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A cinematic scene from the  Early 1800s Norrköping. Three Swedish textile weavers - two women with fair hair in braids and one bearded man - working side by side at large wooden looms. Colorful threads stretch across the frames. Natural light from tall windows illuminates the floating dust and wool fibers in the air of the textile workshop. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-05 23:25:54 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A cinematic scene from the  Early 1800s Norrköping. Three Swedish textile weavers - two women with fair hair in braids and one bearded man - working side by side at large wooden looms. Colorful threads stretch across the frames. Natural light from tall windows illuminates the floating dust and wool fibers in the air of the textile workshop. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image'
+2025-11-05 23:25:54 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-11-05 23:25:54 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  Early 1800s Norrk\u00f6ping. Three Swedish textile weavers - two women with fair hair in braids and one bearded man - working side by side at large wooden looms. Colorful threads stretch across the frames. Natural light from tall windows illuminates the floating dust and wool fibers in the air of the textile workshop. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 23:26:02 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-11-05 23:26:02 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-11-05 23:26:02 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-11-05 23:26:02 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-11-05 23:26:02 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-11-05 23:26:03 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251105_232543_IMAGE/SweGuilds_002_IMAGE_232602_nano-banano16x9_deakins.png
+2025-11-05 23:26:03 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251105_232543_IMAGE/SweGuilds_002_IMAGE_232602_nano-banano16x9_deakins.md
+2025-11-05 23:26:03 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251105_232543_IMAGE/SweGuilds_002_IMAGE_232602_nano-banano16x9_deakins.png
+2025-11-05 23:26:03 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from SweGuilds_003.txt
+2025-11-05 23:26:03 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 3/20: SweGuilds_003.txt + nano-banano16x9_deakins
+2025-11-05 23:26:03 | DEBUG    | src.processing.processor:_apply_prompt_fixes:204 - Added prefix to prompt: A cinematic scene from the 
+2025-11-05 23:26:03 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-05 23:26:03 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing SweGuilds_003.txt: A cinematic scene from the  Early 1800s Stockholm....
+2025-11-05 23:26:03 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-11-05 23:26:03 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  Early 1800s Stockholm. A Swedish tailor with graying hair and round spectacles sits cross-legged on his work table, carefully hand-stitching the collar of a fine wool coat. Behind him, two young Swedish apprentices with light brown hair measure and cut fabric. Rolls of cloth in various colors line the walls of the cozy tailor shop. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 23:26:03 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A cinematic scene from the  Early 1800s Stockholm. A Swedish tailor with graying hair and round spectacles sits cross-legged on his work table, carefully hand-stitching the collar of a fine wool coat. Behind him, two young Swedish apprentices with light brown hair measure and cut fabric. Rolls of cloth in various colors line the walls of the cozy tailor shop. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-05 23:26:03 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A cinematic scene from the  Early 1800s Stockholm. A Swedish tailor with graying hair and round spectacles sits cross-legged on his work table, carefully hand-stitching the collar of a fine wool coat. Behind him, two young Swedish apprentices with light brown hair measure and cut fabric. Rolls of cloth in various colors line the walls of the cozy tailor shop. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-05 23:26:03 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A cinematic scene from the  Early 1800s Stockholm. A Swedish tailor with graying hair and round spectacles sits cross-legged on his work table, carefully hand-stitching the collar of a fine wool coat. Behind him, two young Swedish apprentices with light brown hair measure and cut fabric. Rolls of cloth in various colors line the walls of the cozy tailor shop. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image'
+2025-11-05 23:26:03 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-11-05 23:26:03 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  Early 1800s Stockholm. A Swedish tailor with graying hair and round spectacles sits cross-legged on his work table, carefully hand-stitching the collar of a fine wool coat. Behind him, two young Swedish apprentices with light brown hair measure and cut fabric. Rolls of cloth in various colors line the walls of the cozy tailor shop. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 23:26:12 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-11-05 23:26:12 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-11-05 23:26:12 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-11-05 23:26:12 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-11-05 23:26:12 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-11-05 23:26:13 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251105_232543_IMAGE/SweGuilds_003_IMAGE_232612_nano-banano16x9_deakins.png
+2025-11-05 23:26:13 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251105_232543_IMAGE/SweGuilds_003_IMAGE_232612_nano-banano16x9_deakins.md
+2025-11-05 23:26:13 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251105_232543_IMAGE/SweGuilds_003_IMAGE_232612_nano-banano16x9_deakins.png
+2025-11-05 23:26:13 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from SweGuilds_004.txt
+2025-11-05 23:26:13 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 4/20: SweGuilds_004.txt + nano-banano16x9_deakins
+2025-11-05 23:26:13 | DEBUG    | src.processing.processor:_apply_prompt_fixes:204 - Added prefix to prompt: A cinematic scene from the 
+2025-11-05 23:26:13 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-05 23:26:13 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing SweGuilds_004.txt: A cinematic scene from the  Early 1800s Gothenburg...
+2025-11-05 23:26:13 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-11-05 23:26:13 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  Early 1800s Gothenburg harbor. Four strong Swedish dockworkers with sun-weathered faces and rolled-up sleeves unload heavy wooden crates from a merchant ship. One has red-blonde hair, another dark blonde. They work together lifting cargo using ropes and their backs. The busy harbor stretches behind them with ships' masts visible against the sky. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 23:26:13 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A cinematic scene from the  Early 1800s Gothenburg harbor. Four strong Swedish dockworkers with sun-weathered faces and rolled-up sleeves unload heavy wooden crates from a merchant ship. One has red-blonde hair, another dark blonde. They work together lifting cargo using ropes and their backs. The busy harbor stretches behind them with ships' masts visible against the sky. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-05 23:26:13 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A cinematic scene from the  Early 1800s Gothenburg harbor. Four strong Swedish dockworkers with sun-weathered faces and rolled-up sleeves unload heavy wooden crates from a merchant ship. One has red-blonde hair, another dark blonde. They work together lifting cargo using ropes and their backs. The busy harbor stretches behind them with ships' masts visible against the sky. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-05 23:26:13 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: "A cinematic scene from the  Early 1800s Gothenburg harbor. Four strong Swedish dockworkers with sun-weathered faces and rolled-up sleeves unload heavy wooden crates from a merchant ship. One has red-blonde hair, another dark blonde. They work together lifting cargo using ropes and their backs. The busy harbor stretches behind them with ships' masts visible against the sky. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image"
+2025-11-05 23:26:13 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-11-05 23:26:13 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  Early 1800s Gothenburg harbor. Four strong Swedish dockworkers with sun-weathered faces and rolled-up sleeves unload heavy wooden crates from a merchant ship. One has red-blonde hair, another dark blonde. They work together lifting cargo using ropes and their backs. The busy harbor stretches behind them with ships' masts visible against the sky. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 23:26:24 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-11-05 23:26:24 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-11-05 23:26:24 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-11-05 23:26:24 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-11-05 23:26:24 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-11-05 23:26:25 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251105_232543_IMAGE/SweGuilds_004_IMAGE_232624_nano-banano16x9_deakins.png
+2025-11-05 23:26:25 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251105_232543_IMAGE/SweGuilds_004_IMAGE_232624_nano-banano16x9_deakins.md
+2025-11-05 23:26:25 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251105_232543_IMAGE/SweGuilds_004_IMAGE_232624_nano-banano16x9_deakins.png
+2025-11-05 23:26:25 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from SweGuilds_005.txt
+2025-11-05 23:26:25 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 5/20: SweGuilds_005.txt + nano-banano16x9_deakins
+2025-11-05 23:26:25 | DEBUG    | src.processing.processor:_apply_prompt_fixes:204 - Added prefix to prompt: A cinematic scene from the 
+2025-11-05 23:26:25 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-05 23:26:25 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing SweGuilds_005.txt: A cinematic scene from the  Early 1800s Stockholm....
+2025-11-05 23:26:25 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-11-05 23:26:25 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  Early 1800s Stockholm. A muscular Swedish blacksmith with rolled sleeves and a leather apron strikes glowing red-hot iron on his anvil, orange sparks flying. His face is lit by the forge fire. Behind him hang finished horseshoes, iron tools, and metal implements on the dark stone walls of his smithy. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 23:26:25 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A cinematic scene from the  Early 1800s Stockholm. A muscular Swedish blacksmith with rolled sleeves and a leather apron strikes glowing red-hot iron on his anvil, orange sparks flying. His face is lit by the forge fire. Behind him hang finished horseshoes, iron tools, and metal implements on the dark stone walls of his smithy. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-05 23:26:25 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A cinematic scene from the  Early 1800s Stockholm. A muscular Swedish blacksmith with rolled sleeves and a leather apron strikes glowing red-hot iron on his anvil, orange sparks flying. His face is lit by the forge fire. Behind him hang finished horseshoes, iron tools, and metal implements on the dark stone walls of his smithy. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-05 23:26:25 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A cinematic scene from the  Early 1800s Stockholm. A muscular Swedish blacksmith with rolled sleeves and a leather apron strikes glowing red-hot iron on his anvil, orange sparks flying. His face is lit by the forge fire. Behind him hang finished horseshoes, iron tools, and metal implements on the dark stone walls of his smithy. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image'
+2025-11-05 23:26:25 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-11-05 23:26:25 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  Early 1800s Stockholm. A muscular Swedish blacksmith with rolled sleeves and a leather apron strikes glowing red-hot iron on his anvil, orange sparks flying. His face is lit by the forge fire. Behind him hang finished horseshoes, iron tools, and metal implements on the dark stone walls of his smithy. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 23:26:34 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-11-05 23:26:34 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-11-05 23:26:34 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-11-05 23:26:34 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-11-05 23:26:34 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-11-05 23:26:35 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251105_232543_IMAGE/SweGuilds_005_IMAGE_232634_nano-banano16x9_deakins.png
+2025-11-05 23:26:35 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251105_232543_IMAGE/SweGuilds_005_IMAGE_232634_nano-banano16x9_deakins.md
+2025-11-05 23:26:35 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251105_232543_IMAGE/SweGuilds_005_IMAGE_232634_nano-banano16x9_deakins.png
+2025-11-05 23:26:35 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from SweGuilds_006.txt
+2025-11-05 23:26:35 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 6/20: SweGuilds_006.txt + nano-banano16x9_deakins
+2025-11-05 23:26:35 | DEBUG    | src.processing.processor:_apply_prompt_fixes:204 - Added prefix to prompt: A cinematic scene from the 
+2025-11-05 23:26:35 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-05 23:26:35 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing SweGuilds_006.txt: A cinematic scene from the  Early 1800s Malmö. Two...
+2025-11-05 23:26:35 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-11-05 23:26:35 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  Early 1800s Malm\u00f6. Two Swedish textile dyers with blonde hair work in an open courtyard, stirring large steaming vats of deep blue indigo dye with long wooden poles. Wet dyed cloth hangs on lines above them. Their hands and aprons are stained blue from their work. Steam rises in the crisp Swedish air. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 23:26:35 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A cinematic scene from the  Early 1800s Malmö. Two Swedish textile dyers with blonde hair work in an open courtyard, stirring large steaming vats of deep blue indigo dye with long wooden poles. Wet dyed cloth hangs on lines above them. Their hands and aprons are stained blue from their work. Steam rises in the crisp Swedish air. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-05 23:26:35 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A cinematic scene from the  Early 1800s Malmö. Two Swedish textile dyers with blonde hair work in an open courtyard, stirring large steaming vats of deep blue indigo dye with long wooden poles. Wet dyed cloth hangs on lines above them. Their hands and aprons are stained blue from their work. Steam rises in the crisp Swedish air. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-05 23:26:35 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A cinematic scene from the  Early 1800s Malmö. Two Swedish textile dyers with blonde hair work in an open courtyard, stirring large steaming vats of deep blue indigo dye with long wooden poles. Wet dyed cloth hangs on lines above them. Their hands and aprons are stained blue from their work. Steam rises in the crisp Swedish air. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image'
+2025-11-05 23:26:35 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-11-05 23:26:35 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  Early 1800s Malm\u00f6. Two Swedish textile dyers with blonde hair work in an open courtyard, stirring large steaming vats of deep blue indigo dye with long wooden poles. Wet dyed cloth hangs on lines above them. Their hands and aprons are stained blue from their work. Steam rises in the crisp Swedish air. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 23:26:44 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-11-05 23:26:44 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-11-05 23:26:44 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-11-05 23:26:44 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-11-05 23:26:44 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-11-05 23:26:45 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251105_232543_IMAGE/SweGuilds_006_IMAGE_232644_nano-banano16x9_deakins.png
+2025-11-05 23:26:45 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251105_232543_IMAGE/SweGuilds_006_IMAGE_232644_nano-banano16x9_deakins.md
+2025-11-05 23:26:45 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251105_232543_IMAGE/SweGuilds_006_IMAGE_232644_nano-banano16x9_deakins.png
+2025-11-05 23:26:45 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from SweGuilds_007.txt
+2025-11-05 23:26:45 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 7/20: SweGuilds_007.txt + nano-banano16x9_deakins
+2025-11-05 23:26:45 | DEBUG    | src.processing.processor:_apply_prompt_fixes:204 - Added prefix to prompt: A cinematic scene from the 
+2025-11-05 23:26:45 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-05 23:26:45 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing SweGuilds_007.txt: A cinematic scene from the  Early 1800s Stockholm....
+2025-11-05 23:26:45 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-11-05 23:26:45 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  Early 1800s Stockholm. A focused Swedish carpenter with light brown hair and strong forearms uses a small chisel to carve ornate floral details into a wooden chair leg clamped to his workbench. Wood shavings curl at his feet. Half-finished furniture pieces and hand tools fill his well-lit workshop. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 23:26:45 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A cinematic scene from the  Early 1800s Stockholm. A focused Swedish carpenter with light brown hair and strong forearms uses a small chisel to carve ornate floral details into a wooden chair leg clamped to his workbench. Wood shavings curl at his feet. Half-finished furniture pieces and hand tools fill his well-lit workshop. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-05 23:26:45 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A cinematic scene from the  Early 1800s Stockholm. A focused Swedish carpenter with light brown hair and strong forearms uses a small chisel to carve ornate floral details into a wooden chair leg clamped to his workbench. Wood shavings curl at his feet. Half-finished furniture pieces and hand tools fill his well-lit workshop. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-05 23:26:45 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A cinematic scene from the  Early 1800s Stockholm. A focused Swedish carpenter with light brown hair and strong forearms uses a small chisel to carve ornate floral details into a wooden chair leg clamped to his workbench. Wood shavings curl at his feet. Half-finished furniture pieces and hand tools fill his well-lit workshop. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image'
+2025-11-05 23:26:45 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-11-05 23:26:45 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  Early 1800s Stockholm. A focused Swedish carpenter with light brown hair and strong forearms uses a small chisel to carve ornate floral details into a wooden chair leg clamped to his workbench. Wood shavings curl at his feet. Half-finished furniture pieces and hand tools fill his well-lit workshop. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 23:26:54 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-11-05 23:26:54 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-11-05 23:26:54 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-11-05 23:26:54 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-11-05 23:26:54 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-11-05 23:26:55 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251105_232543_IMAGE/SweGuilds_007_IMAGE_232654_nano-banano16x9_deakins.png
+2025-11-05 23:26:55 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251105_232543_IMAGE/SweGuilds_007_IMAGE_232654_nano-banano16x9_deakins.md
+2025-11-05 23:26:55 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251105_232543_IMAGE/SweGuilds_007_IMAGE_232654_nano-banano16x9_deakins.png
+2025-11-05 23:26:55 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from SweGuilds_008.txt
+2025-11-05 23:26:55 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 8/20: SweGuilds_008.txt + nano-banano16x9_deakins
+2025-11-05 23:26:55 | DEBUG    | src.processing.processor:_apply_prompt_fixes:204 - Added prefix to prompt: A cinematic scene from the 
+2025-11-05 23:26:55 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-05 23:26:55 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing SweGuilds_008.txt: A cinematic scene from the  Early 1800s Stockholm....
+2025-11-05 23:26:55 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-11-05 23:26:55 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  Early 1800s Stockholm. Four Swedish master craftsmen - a carpenter, a blacksmith, a silversmith, and a tanner - sit around a large wooden table examining leather samples and metal tools. They are middle-aged Swedish men with weathered faces, discussing their work. Afternoon light comes through tall windows of the craftsmen's meeting hall. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 23:26:55 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A cinematic scene from the  Early 1800s Stockholm. Four Swedish master craftsmen - a carpenter, a blacksmith, a silversmith, and a tanner - sit around a large wooden table examining leather samples and metal tools. They are middle-aged Swedish men with weathered faces, discussing their work. Afternoon light comes through tall windows of the craftsmen's meeting hall. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-05 23:26:55 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A cinematic scene from the  Early 1800s Stockholm. Four Swedish master craftsmen - a carpenter, a blacksmith, a silversmith, and a tanner - sit around a large wooden table examining leather samples and metal tools. They are middle-aged Swedish men with weathered faces, discussing their work. Afternoon light comes through tall windows of the craftsmen's meeting hall. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-05 23:26:55 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: "A cinematic scene from the  Early 1800s Stockholm. Four Swedish master craftsmen - a carpenter, a blacksmith, a silversmith, and a tanner - sit around a large wooden table examining leather samples and metal tools. They are middle-aged Swedish men with weathered faces, discussing their work. Afternoon light comes through tall windows of the craftsmen's meeting hall. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image"
+2025-11-05 23:26:55 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-11-05 23:26:55 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  Early 1800s Stockholm. Four Swedish master craftsmen - a carpenter, a blacksmith, a silversmith, and a tanner - sit around a large wooden table examining leather samples and metal tools. They are middle-aged Swedish men with weathered faces, discussing their work. Afternoon light comes through tall windows of the craftsmen's meeting hall. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 23:27:03 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-11-05 23:27:03 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-11-05 23:27:03 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-11-05 23:27:03 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-11-05 23:27:03 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-11-05 23:27:04 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251105_232543_IMAGE/SweGuilds_008_IMAGE_232703_nano-banano16x9_deakins.png
+2025-11-05 23:27:04 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251105_232543_IMAGE/SweGuilds_008_IMAGE_232703_nano-banano16x9_deakins.md
+2025-11-05 23:27:04 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251105_232543_IMAGE/SweGuilds_008_IMAGE_232703_nano-banano16x9_deakins.png
+2025-11-05 23:27:04 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from SweGuilds_009.txt
+2025-11-05 23:27:04 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 9/20: SweGuilds_009.txt + nano-banano16x9_deakins
+2025-11-05 23:27:04 | DEBUG    | src.processing.processor:_apply_prompt_fixes:204 - Added prefix to prompt: A cinematic scene from the 
+2025-11-05 23:27:04 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-05 23:27:04 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing SweGuilds_009.txt: A cinematic scene from the  Early 1800s Uppsala. T...
+2025-11-05 23:27:04 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-11-05 23:27:04 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  Early 1800s Uppsala. Three young Swedish apprentice silversmiths with fair hair carefully polish ornate silver goblets and plates at a long workbench. Their older Swedish master, with gray-streaked blonde hair and wire spectacles, demonstrates the proper polishing technique. Shelves of finished silverware gleam in the background. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 23:27:04 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A cinematic scene from the  Early 1800s Uppsala. Three young Swedish apprentice silversmiths with fair hair carefully polish ornate silver goblets and plates at a long workbench. Their older Swedish master, with gray-streaked blonde hair and wire spectacles, demonstrates the proper polishing technique. Shelves of finished silverware gleam in the background. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-05 23:27:04 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A cinematic scene from the  Early 1800s Uppsala. Three young Swedish apprentice silversmiths with fair hair carefully polish ornate silver goblets and plates at a long workbench. Their older Swedish master, with gray-streaked blonde hair and wire spectacles, demonstrates the proper polishing technique. Shelves of finished silverware gleam in the background. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-05 23:27:04 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A cinematic scene from the  Early 1800s Uppsala. Three young Swedish apprentice silversmiths with fair hair carefully polish ornate silver goblets and plates at a long workbench. Their older Swedish master, with gray-streaked blonde hair and wire spectacles, demonstrates the proper polishing technique. Shelves of finished silverware gleam in the background. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image'
+2025-11-05 23:27:04 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-11-05 23:27:04 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  Early 1800s Uppsala. Three young Swedish apprentice silversmiths with fair hair carefully polish ornate silver goblets and plates at a long workbench. Their older Swedish master, with gray-streaked blonde hair and wire spectacles, demonstrates the proper polishing technique. Shelves of finished silverware gleam in the background. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 23:27:15 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-11-05 23:27:15 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-11-05 23:27:15 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-11-05 23:27:15 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-11-05 23:27:15 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-11-05 23:27:16 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251105_232543_IMAGE/SweGuilds_009_IMAGE_232715_nano-banano16x9_deakins.png
+2025-11-05 23:27:16 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251105_232543_IMAGE/SweGuilds_009_IMAGE_232715_nano-banano16x9_deakins.md
+2025-11-05 23:27:16 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251105_232543_IMAGE/SweGuilds_009_IMAGE_232715_nano-banano16x9_deakins.png
+2025-11-05 23:27:16 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from SweGuilds_010.txt
+2025-11-05 23:27:16 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 10/20: SweGuilds_010.txt + nano-banano16x9_deakins
+2025-11-05 23:27:16 | DEBUG    | src.processing.processor:_apply_prompt_fixes:204 - Added prefix to prompt: A cinematic scene from the 
+2025-11-05 23:27:16 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-05 23:27:16 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing SweGuilds_010.txt: A cinematic scene from the  Early 1800s Norrköping...
+2025-11-05 23:27:16 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-11-05 23:27:16 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  Early 1800s Norrk\u00f6ping. Four Swedish women with fair hair in traditional braids sit by large windows spinning wool on wooden spinning wheels. Golden afternoon light streams through the glass, illuminating floating wool fibers and dust in the air. Baskets of raw wool and spun thread sit at their feet in the textile workshop. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 23:27:16 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A cinematic scene from the  Early 1800s Norrköping. Four Swedish women with fair hair in traditional braids sit by large windows spinning wool on wooden spinning wheels. Golden afternoon light streams through the glass, illuminating floating wool fibers and dust in the air. Baskets of raw wool and spun thread sit at their feet in the textile workshop. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-05 23:27:16 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A cinematic scene from the  Early 1800s Norrköping. Four Swedish women with fair hair in traditional braids sit by large windows spinning wool on wooden spinning wheels. Golden afternoon light streams through the glass, illuminating floating wool fibers and dust in the air. Baskets of raw wool and spun thread sit at their feet in the textile workshop. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-05 23:27:16 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A cinematic scene from the  Early 1800s Norrköping. Four Swedish women with fair hair in traditional braids sit by large windows spinning wool on wooden spinning wheels. Golden afternoon light streams through the glass, illuminating floating wool fibers and dust in the air. Baskets of raw wool and spun thread sit at their feet in the textile workshop. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image'
+2025-11-05 23:27:16 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-11-05 23:27:16 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  Early 1800s Norrk\u00f6ping. Four Swedish women with fair hair in traditional braids sit by large windows spinning wool on wooden spinning wheels. Golden afternoon light streams through the glass, illuminating floating wool fibers and dust in the air. Baskets of raw wool and spun thread sit at their feet in the textile workshop. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 23:27:25 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-11-05 23:27:25 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-11-05 23:27:25 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-11-05 23:27:25 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-11-05 23:27:25 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-11-05 23:27:26 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251105_232543_IMAGE/SweGuilds_010_IMAGE_232725_nano-banano16x9_deakins.png
+2025-11-05 23:27:26 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251105_232543_IMAGE/SweGuilds_010_IMAGE_232725_nano-banano16x9_deakins.md
+2025-11-05 23:27:26 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251105_232543_IMAGE/SweGuilds_010_IMAGE_232725_nano-banano16x9_deakins.png
+2025-11-05 23:27:26 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from SweGuilds_011.txt
+2025-11-05 23:27:26 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 11/20: SweGuilds_011.txt + nano-banano16x9_deakins
+2025-11-05 23:27:26 | DEBUG    | src.processing.processor:_apply_prompt_fixes:204 - Added prefix to prompt: A cinematic scene from the 
+2025-11-05 23:27:26 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-05 23:27:26 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing SweGuilds_011.txt: A cinematic scene from the  Early 1800s Stockholm ...
+2025-11-05 23:27:26 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-11-05 23:27:26 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  Early 1800s Stockholm street. A Swedish fabric merchant with blonde hair and a wool coat stands beside his wooden cart loaded with colorful rolls of textile - reds, blues, and browns. He's displaying his wares to two Swedish women shoppers in long dresses who examine the cloth. Cobblestone street and timber-framed buildings behind them. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 23:27:26 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A cinematic scene from the  Early 1800s Stockholm street. A Swedish fabric merchant with blonde hair and a wool coat stands beside his wooden cart loaded with colorful rolls of textile - reds, blues, and browns. He's displaying his wares to two Swedish women shoppers in long dresses who examine the cloth. Cobblestone street and timber-framed buildings behind them. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-05 23:27:26 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A cinematic scene from the  Early 1800s Stockholm street. A Swedish fabric merchant with blonde hair and a wool coat stands beside his wooden cart loaded with colorful rolls of textile - reds, blues, and browns. He's displaying his wares to two Swedish women shoppers in long dresses who examine the cloth. Cobblestone street and timber-framed buildings behind them. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-05 23:27:26 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: "A cinematic scene from the  Early 1800s Stockholm street. A Swedish fabric merchant with blonde hair and a wool coat stands beside his wooden cart loaded with colorful rolls of textile - reds, blues, and browns. He's displaying his wares to two Swedish women shoppers in long dresses who examine the cloth. Cobblestone street and timber-framed buildings behind them. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image"
+2025-11-05 23:27:26 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-11-05 23:27:26 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  Early 1800s Stockholm street. A Swedish fabric merchant with blonde hair and a wool coat stands beside his wooden cart loaded with colorful rolls of textile - reds, blues, and browns. He's displaying his wares to two Swedish women shoppers in long dresses who examine the cloth. Cobblestone street and timber-framed buildings behind them. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 23:27:35 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-11-05 23:27:35 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-11-05 23:27:35 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-11-05 23:27:35 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-11-05 23:27:35 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-11-05 23:27:36 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251105_232543_IMAGE/SweGuilds_011_IMAGE_232735_nano-banano16x9_deakins.png
+2025-11-05 23:27:36 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251105_232543_IMAGE/SweGuilds_011_IMAGE_232735_nano-banano16x9_deakins.md
+2025-11-05 23:27:36 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251105_232543_IMAGE/SweGuilds_011_IMAGE_232735_nano-banano16x9_deakins.png
+2025-11-05 23:27:36 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from SweGuilds_012.txt
+2025-11-05 23:27:36 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 12/20: SweGuilds_012.txt + nano-banano16x9_deakins
+2025-11-05 23:27:36 | DEBUG    | src.processing.processor:_apply_prompt_fixes:204 - Added prefix to prompt: A cinematic scene from the 
+2025-11-05 23:27:36 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-05 23:27:36 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing SweGuilds_012.txt: A cinematic scene from the  Early 1800s Gothenburg...
+2025-11-05 23:27:36 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-11-05 23:27:36 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  Early 1800s Gothenburg shipyard. Five Swedish shipwrights with strong builds and weathered faces hammer wooden planks onto the curved hull of a merchant vessel. Wood shavings and sawdust fill the air, backlit by bright sunlight. The skeleton of the ship towers above them. More workers visible in the background constructing other vessels. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 23:27:36 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A cinematic scene from the  Early 1800s Gothenburg shipyard. Five Swedish shipwrights with strong builds and weathered faces hammer wooden planks onto the curved hull of a merchant vessel. Wood shavings and sawdust fill the air, backlit by bright sunlight. The skeleton of the ship towers above them. More workers visible in the background constructing other vessels. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-05 23:27:36 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A cinematic scene from the  Early 1800s Gothenburg shipyard. Five Swedish shipwrights with strong builds and weathered faces hammer wooden planks onto the curved hull of a merchant vessel. Wood shavings and sawdust fill the air, backlit by bright sunlight. The skeleton of the ship towers above them. More workers visible in the background constructing other vessels. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-05 23:27:36 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A cinematic scene from the  Early 1800s Gothenburg shipyard. Five Swedish shipwrights with strong builds and weathered faces hammer wooden planks onto the curved hull of a merchant vessel. Wood shavings and sawdust fill the air, backlit by bright sunlight. The skeleton of the ship towers above them. More workers visible in the background constructing other vessels. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image'
+2025-11-05 23:27:36 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-11-05 23:27:36 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  Early 1800s Gothenburg shipyard. Five Swedish shipwrights with strong builds and weathered faces hammer wooden planks onto the curved hull of a merchant vessel. Wood shavings and sawdust fill the air, backlit by bright sunlight. The skeleton of the ship towers above them. More workers visible in the background constructing other vessels. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 23:27:45 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-11-05 23:27:45 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-11-05 23:27:45 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-11-05 23:27:45 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-11-05 23:27:45 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-11-05 23:27:46 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251105_232543_IMAGE/SweGuilds_012_IMAGE_232745_nano-banano16x9_deakins.png
+2025-11-05 23:27:46 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251105_232543_IMAGE/SweGuilds_012_IMAGE_232745_nano-banano16x9_deakins.md
+2025-11-05 23:27:46 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251105_232543_IMAGE/SweGuilds_012_IMAGE_232745_nano-banano16x9_deakins.png
+2025-11-05 23:27:46 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from SweGuilds_013.txt
+2025-11-05 23:27:46 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 13/20: SweGuilds_013.txt + nano-banano16x9_deakins
+2025-11-05 23:27:46 | DEBUG    | src.processing.processor:_apply_prompt_fixes:204 - Added prefix to prompt: A cinematic scene from the 
+2025-11-05 23:27:46 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-05 23:27:46 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing SweGuilds_013.txt: A cinematic scene from the  Early 1800s Stockholm....
+2025-11-05 23:27:46 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-11-05 23:27:46 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  Early 1800s Stockholm. A Swedish baker with flour-dusted hands and apron pulls fresh loaves of rye bread from a large brick oven using a long wooden paddle. Golden-brown loaves cool on wooden racks. His young Swedish assistant with light hair shapes dough at a flour-covered table. Warm light fills the bakery. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 23:27:46 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A cinematic scene from the  Early 1800s Stockholm. A Swedish baker with flour-dusted hands and apron pulls fresh loaves of rye bread from a large brick oven using a long wooden paddle. Golden-brown loaves cool on wooden racks. His young Swedish assistant with light hair shapes dough at a flour-covered table. Warm light fills the bakery. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-05 23:27:46 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A cinematic scene from the  Early 1800s Stockholm. A Swedish baker with flour-dusted hands and apron pulls fresh loaves of rye bread from a large brick oven using a long wooden paddle. Golden-brown loaves cool on wooden racks. His young Swedish assistant with light hair shapes dough at a flour-covered table. Warm light fills the bakery. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-05 23:27:46 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A cinematic scene from the  Early 1800s Stockholm. A Swedish baker with flour-dusted hands and apron pulls fresh loaves of rye bread from a large brick oven using a long wooden paddle. Golden-brown loaves cool on wooden racks. His young Swedish assistant with light hair shapes dough at a flour-covered table. Warm light fills the bakery. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image'
+2025-11-05 23:27:46 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-11-05 23:27:46 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  Early 1800s Stockholm. A Swedish baker with flour-dusted hands and apron pulls fresh loaves of rye bread from a large brick oven using a long wooden paddle. Golden-brown loaves cool on wooden racks. His young Swedish assistant with light hair shapes dough at a flour-covered table. Warm light fills the bakery. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 23:27:57 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-11-05 23:27:57 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-11-05 23:27:57 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-11-05 23:27:57 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-11-05 23:27:57 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-11-05 23:27:58 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251105_232543_IMAGE/SweGuilds_013_IMAGE_232757_nano-banano16x9_deakins.png
+2025-11-05 23:27:58 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251105_232543_IMAGE/SweGuilds_013_IMAGE_232757_nano-banano16x9_deakins.md
+2025-11-05 23:27:58 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251105_232543_IMAGE/SweGuilds_013_IMAGE_232757_nano-banano16x9_deakins.png
+2025-11-05 23:27:58 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from SweGuilds_014.txt
+2025-11-05 23:27:58 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 14/20: SweGuilds_014.txt + nano-banano16x9_deakins
+2025-11-05 23:27:58 | DEBUG    | src.processing.processor:_apply_prompt_fixes:204 - Added prefix to prompt: A cinematic scene from the 
+2025-11-05 23:27:58 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-05 23:27:58 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing SweGuilds_014.txt: A cinematic scene from the  Early 1800s Norrköping...
+2025-11-05 23:27:58 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-11-05 23:27:58 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  Early 1800s Norrk\u00f6ping. Six Swedish textile workers - men and women with fair complexions and simple work clothes - hang long lengths of freshly dyed fabric on wooden drying racks in an open courtyard. The fabrics are vibrant blues, deep reds, and rich browns. The cloths billow gently in the breeze under an overcast Swedish sky. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 23:27:58 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A cinematic scene from the  Early 1800s Norrköping. Six Swedish textile workers - men and women with fair complexions and simple work clothes - hang long lengths of freshly dyed fabric on wooden drying racks in an open courtyard. The fabrics are vibrant blues, deep reds, and rich browns. The cloths billow gently in the breeze under an overcast Swedish sky. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-05 23:27:58 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A cinematic scene from the  Early 1800s Norrköping. Six Swedish textile workers - men and women with fair complexions and simple work clothes - hang long lengths of freshly dyed fabric on wooden drying racks in an open courtyard. The fabrics are vibrant blues, deep reds, and rich browns. The cloths billow gently in the breeze under an overcast Swedish sky. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-05 23:27:58 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A cinematic scene from the  Early 1800s Norrköping. Six Swedish textile workers - men and women with fair complexions and simple work clothes - hang long lengths of freshly dyed fabric on wooden drying racks in an open courtyard. The fabrics are vibrant blues, deep reds, and rich browns. The cloths billow gently in the breeze under an overcast Swedish sky. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image'
+2025-11-05 23:27:58 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-11-05 23:27:58 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  Early 1800s Norrk\u00f6ping. Six Swedish textile workers - men and women with fair complexions and simple work clothes - hang long lengths of freshly dyed fabric on wooden drying racks in an open courtyard. The fabrics are vibrant blues, deep reds, and rich browns. The cloths billow gently in the breeze under an overcast Swedish sky. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 23:28:08 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-11-05 23:28:08 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-11-05 23:28:08 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-11-05 23:28:08 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-11-05 23:28:08 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-11-05 23:28:10 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251105_232543_IMAGE/SweGuilds_014_IMAGE_232808_nano-banano16x9_deakins.png
+2025-11-05 23:28:10 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251105_232543_IMAGE/SweGuilds_014_IMAGE_232808_nano-banano16x9_deakins.md
+2025-11-05 23:28:10 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251105_232543_IMAGE/SweGuilds_014_IMAGE_232808_nano-banano16x9_deakins.png
+2025-11-05 23:28:10 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from SweGuilds_015.txt
+2025-11-05 23:28:10 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 15/20: SweGuilds_015.txt + nano-banano16x9_deakins
+2025-11-05 23:28:10 | DEBUG    | src.processing.processor:_apply_prompt_fixes:204 - Added prefix to prompt: A cinematic scene from the 
+2025-11-05 23:28:10 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-05 23:28:10 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing SweGuilds_015.txt: A cinematic scene from the  Early 1800s Stockholm....
+2025-11-05 23:28:10 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-11-05 23:28:10 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  Early 1800s Stockholm. A Swedish shoemaker with brown hair and a leather apron sits at his workbench carefully stitching a leather boot. His tools - awls, hammers, and cutting knives - are laid out precisely. Pairs of finished boots and shoes line the shelves behind him. Warm candlelight illuminates his concentrated work in the cozy shop. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 23:28:10 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A cinematic scene from the  Early 1800s Stockholm. A Swedish shoemaker with brown hair and a leather apron sits at his workbench carefully stitching a leather boot. His tools - awls, hammers, and cutting knives - are laid out precisely. Pairs of finished boots and shoes line the shelves behind him. Warm candlelight illuminates his concentrated work in the cozy shop. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-05 23:28:10 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A cinematic scene from the  Early 1800s Stockholm. A Swedish shoemaker with brown hair and a leather apron sits at his workbench carefully stitching a leather boot. His tools - awls, hammers, and cutting knives - are laid out precisely. Pairs of finished boots and shoes line the shelves behind him. Warm candlelight illuminates his concentrated work in the cozy shop. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-05 23:28:10 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A cinematic scene from the  Early 1800s Stockholm. A Swedish shoemaker with brown hair and a leather apron sits at his workbench carefully stitching a leather boot. His tools - awls, hammers, and cutting knives - are laid out precisely. Pairs of finished boots and shoes line the shelves behind him. Warm candlelight illuminates his concentrated work in the cozy shop. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image'
+2025-11-05 23:28:10 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-11-05 23:28:10 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  Early 1800s Stockholm. A Swedish shoemaker with brown hair and a leather apron sits at his workbench carefully stitching a leather boot. His tools - awls, hammers, and cutting knives - are laid out precisely. Pairs of finished boots and shoes line the shelves behind him. Warm candlelight illuminates his concentrated work in the cozy shop. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 23:28:23 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-11-05 23:28:23 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-11-05 23:28:23 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-11-05 23:28:23 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-11-05 23:28:23 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-11-05 23:28:24 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251105_232543_IMAGE/SweGuilds_015_IMAGE_232823_nano-banano16x9_deakins.png
+2025-11-05 23:28:24 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251105_232543_IMAGE/SweGuilds_015_IMAGE_232823_nano-banano16x9_deakins.md
+2025-11-05 23:28:24 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251105_232543_IMAGE/SweGuilds_015_IMAGE_232823_nano-banano16x9_deakins.png
+2025-11-05 23:28:24 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from SweGuilds_016.txt
+2025-11-05 23:28:24 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 16/20: SweGuilds_016.txt + nano-banano16x9_deakins
+2025-11-05 23:28:24 | DEBUG    | src.processing.processor:_apply_prompt_fixes:204 - Added prefix to prompt: A cinematic scene from the 
+2025-11-05 23:28:24 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-05 23:28:24 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing SweGuilds_016.txt: A cinematic scene from the  Early 1800s Malmö cons...
+2025-11-05 23:28:24 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-11-05 23:28:24 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  Early 1800s Malm\u00f6 construction site. Four Swedish stonemasons with muscular builds and weathered faces work together to hoist a large cut stone block using thick ropes and wooden scaffolding. They wear simple work clothes and caps. Behind them, the stone walls of a building under construction rise against the sky. Limestone dust coats their hands and clothes. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 23:28:24 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A cinematic scene from the  Early 1800s Malmö construction site. Four Swedish stonemasons with muscular builds and weathered faces work together to hoist a large cut stone block using thick ropes and wooden scaffolding. They wear simple work clothes and caps. Behind them, the stone walls of a building under construction rise against the sky. Limestone dust coats their hands and clothes. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-05 23:28:24 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A cinematic scene from the  Early 1800s Malmö construction site. Four Swedish stonemasons with muscular builds and weathered faces work together to hoist a large cut stone block using thick ropes and wooden scaffolding. They wear simple work clothes and caps. Behind them, the stone walls of a building under construction rise against the sky. Limestone dust coats their hands and clothes. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-05 23:28:24 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A cinematic scene from the  Early 1800s Malmö construction site. Four Swedish stonemasons with muscular builds and weathered faces work together to hoist a large cut stone block using thick ropes and wooden scaffolding. They wear simple work clothes and caps. Behind them, the stone walls of a building under construction rise against the sky. Limestone dust coats their hands and clothes. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image'
+2025-11-05 23:28:24 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-11-05 23:28:24 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  Early 1800s Malm\u00f6 construction site. Four Swedish stonemasons with muscular builds and weathered faces work together to hoist a large cut stone block using thick ropes and wooden scaffolding. They wear simple work clothes and caps. Behind them, the stone walls of a building under construction rise against the sky. Limestone dust coats their hands and clothes. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 23:28:35 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-11-05 23:28:35 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-11-05 23:28:35 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-11-05 23:28:35 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-11-05 23:28:35 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-11-05 23:28:36 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251105_232543_IMAGE/SweGuilds_016_IMAGE_232835_nano-banano16x9_deakins.png
+2025-11-05 23:28:36 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251105_232543_IMAGE/SweGuilds_016_IMAGE_232835_nano-banano16x9_deakins.md
+2025-11-05 23:28:36 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251105_232543_IMAGE/SweGuilds_016_IMAGE_232835_nano-banano16x9_deakins.png
+2025-11-05 23:28:36 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from SweGuilds_017.txt
+2025-11-05 23:28:36 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 17/20: SweGuilds_017.txt + nano-banano16x9_deakins
+2025-11-05 23:28:36 | DEBUG    | src.processing.processor:_apply_prompt_fixes:204 - Added prefix to prompt: A cinematic scene from the 
+2025-11-05 23:28:36 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-05 23:28:36 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing SweGuilds_017.txt: A cinematic scene from the  Early 1800s Stockholm....
+2025-11-05 23:28:36 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-11-05 23:28:36 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  Early 1800s Stockholm. A Swedish silversmith with careful hands uses delicate tweezers to hold a small silver piece over a controlled flame, soldering a fine jewelry clasp. His workbench is covered with tiny tools, silver wire, and gemstones. Magnifying glasses and half-finished rings and brooches surround him in his detailed work area. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 23:28:36 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A cinematic scene from the  Early 1800s Stockholm. A Swedish silversmith with careful hands uses delicate tweezers to hold a small silver piece over a controlled flame, soldering a fine jewelry clasp. His workbench is covered with tiny tools, silver wire, and gemstones. Magnifying glasses and half-finished rings and brooches surround him in his detailed work area. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-05 23:28:36 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A cinematic scene from the  Early 1800s Stockholm. A Swedish silversmith with careful hands uses delicate tweezers to hold a small silver piece over a controlled flame, soldering a fine jewelry clasp. His workbench is covered with tiny tools, silver wire, and gemstones. Magnifying glasses and half-finished rings and brooches surround him in his detailed work area. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-05 23:28:36 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A cinematic scene from the  Early 1800s Stockholm. A Swedish silversmith with careful hands uses delicate tweezers to hold a small silver piece over a controlled flame, soldering a fine jewelry clasp. His workbench is covered with tiny tools, silver wire, and gemstones. Magnifying glasses and half-finished rings and brooches surround him in his detailed work area. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image'
+2025-11-05 23:28:36 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-11-05 23:28:36 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  Early 1800s Stockholm. A Swedish silversmith with careful hands uses delicate tweezers to hold a small silver piece over a controlled flame, soldering a fine jewelry clasp. His workbench is covered with tiny tools, silver wire, and gemstones. Magnifying glasses and half-finished rings and brooches surround him in his detailed work area. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 23:28:45 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-11-05 23:28:45 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-11-05 23:28:45 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-11-05 23:28:45 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-11-05 23:28:45 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-11-05 23:28:46 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251105_232543_IMAGE/SweGuilds_017_IMAGE_232845_nano-banano16x9_deakins.png
+2025-11-05 23:28:46 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251105_232543_IMAGE/SweGuilds_017_IMAGE_232845_nano-banano16x9_deakins.md
+2025-11-05 23:28:46 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251105_232543_IMAGE/SweGuilds_017_IMAGE_232845_nano-banano16x9_deakins.png
+2025-11-05 23:28:46 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from SweGuilds_018.txt
+2025-11-05 23:28:46 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 18/20: SweGuilds_018.txt + nano-banano16x9_deakins
+2025-11-05 23:28:46 | DEBUG    | src.processing.processor:_apply_prompt_fixes:204 - Added prefix to prompt: A cinematic scene from the 
+2025-11-05 23:28:46 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-05 23:28:46 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing SweGuilds_018.txt: A cinematic scene from the  Early 1800s Gothenburg...
+2025-11-05 23:28:46 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-11-05 23:28:46 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  Early 1800s Gothenburg harbor. Three Swedish sailors with sun-tanned faces and rolled sleeves haul thick rope on the dock, pulling cargo nets loaded with goods from a merchant ship. Wooden barrels and crates are stacked on the pier. Their work clothes are worn and practical. Harbor activity and ship masts fill the background. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 23:28:46 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A cinematic scene from the  Early 1800s Gothenburg harbor. Three Swedish sailors with sun-tanned faces and rolled sleeves haul thick rope on the dock, pulling cargo nets loaded with goods from a merchant ship. Wooden barrels and crates are stacked on the pier. Their work clothes are worn and practical. Harbor activity and ship masts fill the background. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-05 23:28:46 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A cinematic scene from the  Early 1800s Gothenburg harbor. Three Swedish sailors with sun-tanned faces and rolled sleeves haul thick rope on the dock, pulling cargo nets loaded with goods from a merchant ship. Wooden barrels and crates are stacked on the pier. Their work clothes are worn and practical. Harbor activity and ship masts fill the background. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-05 23:28:46 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A cinematic scene from the  Early 1800s Gothenburg harbor. Three Swedish sailors with sun-tanned faces and rolled sleeves haul thick rope on the dock, pulling cargo nets loaded with goods from a merchant ship. Wooden barrels and crates are stacked on the pier. Their work clothes are worn and practical. Harbor activity and ship masts fill the background. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image'
+2025-11-05 23:28:46 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-11-05 23:28:46 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  Early 1800s Gothenburg harbor. Three Swedish sailors with sun-tanned faces and rolled sleeves haul thick rope on the dock, pulling cargo nets loaded with goods from a merchant ship. Wooden barrels and crates are stacked on the pier. Their work clothes are worn and practical. Harbor activity and ship masts fill the background. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 23:28:59 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-11-05 23:28:59 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-11-05 23:28:59 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-11-05 23:28:59 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-11-05 23:28:59 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-11-05 23:29:00 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251105_232543_IMAGE/SweGuilds_018_IMAGE_232859_nano-banano16x9_deakins.png
+2025-11-05 23:29:00 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251105_232543_IMAGE/SweGuilds_018_IMAGE_232859_nano-banano16x9_deakins.md
+2025-11-05 23:29:00 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251105_232543_IMAGE/SweGuilds_018_IMAGE_232859_nano-banano16x9_deakins.png
+2025-11-05 23:29:00 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from SweGuilds_019.txt
+2025-11-05 23:29:00 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 19/20: SweGuilds_019.txt + nano-banano16x9_deakins
+2025-11-05 23:29:00 | DEBUG    | src.processing.processor:_apply_prompt_fixes:204 - Added prefix to prompt: A cinematic scene from the 
+2025-11-05 23:29:00 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-05 23:29:00 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing SweGuilds_019.txt: A cinematic scene from the  Early 1800s Stockholm....
+2025-11-05 23:29:00 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-11-05 23:29:00 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  Early 1800s Stockholm. A Swedish bookbinder with wire spectacles and ink-stained fingers carefully sews pages into a leather cover using an awl and thick thread. His workshop table is covered with loose pages, leather hides in various colors, and binding tools. Stacks of bound books line the shelves behind him. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 23:29:00 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A cinematic scene from the  Early 1800s Stockholm. A Swedish bookbinder with wire spectacles and ink-stained fingers carefully sews pages into a leather cover using an awl and thick thread. His workshop table is covered with loose pages, leather hides in various colors, and binding tools. Stacks of bound books line the shelves behind him. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-05 23:29:00 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A cinematic scene from the  Early 1800s Stockholm. A Swedish bookbinder with wire spectacles and ink-stained fingers carefully sews pages into a leather cover using an awl and thick thread. His workshop table is covered with loose pages, leather hides in various colors, and binding tools. Stacks of bound books line the shelves behind him. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-05 23:29:00 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A cinematic scene from the  Early 1800s Stockholm. A Swedish bookbinder with wire spectacles and ink-stained fingers carefully sews pages into a leather cover using an awl and thick thread. His workshop table is covered with loose pages, leather hides in various colors, and binding tools. Stacks of bound books line the shelves behind him. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image'
+2025-11-05 23:29:00 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-11-05 23:29:00 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  Early 1800s Stockholm. A Swedish bookbinder with wire spectacles and ink-stained fingers carefully sews pages into a leather cover using an awl and thick thread. His workshop table is covered with loose pages, leather hides in various colors, and binding tools. Stacks of bound books line the shelves behind him. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 23:29:10 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-11-05 23:29:10 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-11-05 23:29:10 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-11-05 23:29:10 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-11-05 23:29:10 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-11-05 23:29:12 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251105_232543_IMAGE/SweGuilds_019_IMAGE_232910_nano-banano16x9_deakins.png
+2025-11-05 23:29:12 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251105_232543_IMAGE/SweGuilds_019_IMAGE_232910_nano-banano16x9_deakins.md
+2025-11-05 23:29:12 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251105_232543_IMAGE/SweGuilds_019_IMAGE_232910_nano-banano16x9_deakins.png
+2025-11-05 23:29:12 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from SweGuilds_020.txt
+2025-11-05 23:29:12 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 20/20: SweGuilds_020.txt + nano-banano16x9_deakins
+2025-11-05 23:29:12 | DEBUG    | src.processing.processor:_apply_prompt_fixes:204 - Added prefix to prompt: A cinematic scene from the 
+2025-11-05 23:29:12 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-05 23:29:12 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing SweGuilds_020.txt: A cinematic scene from the  Early 1800s Uppsala. A...
+2025-11-05 23:29:12 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-11-05 23:29:12 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  Early 1800s Uppsala. A Swedish potter with clay-covered hands shapes a large ceramic vessel on a foot-powered pottery wheel. The wheel spins as he carefully forms the wet clay. His workshop is filled with finished bowls, jugs, and plates drying on wooden shelves. Clay dust floats in the air around him as he concentrates on his craft. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 23:29:12 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A cinematic scene from the  Early 1800s Uppsala. A Swedish potter with clay-covered hands shapes a large ceramic vessel on a foot-powered pottery wheel. The wheel spins as he carefully forms the wet clay. His workshop is filled with finished bowls, jugs, and plates drying on wooden shelves. Clay dust floats in the air around him as he concentrates on his craft. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-05 23:29:12 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A cinematic scene from the  Early 1800s Uppsala. A Swedish potter with clay-covered hands shapes a large ceramic vessel on a foot-powered pottery wheel. The wheel spins as he carefully forms the wet clay. His workshop is filled with finished bowls, jugs, and plates drying on wooden shelves. Clay dust floats in the air around him as he concentrates on his craft. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image
+2025-11-05 23:29:12 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A cinematic scene from the  Early 1800s Uppsala. A Swedish potter with clay-covered hands shapes a large ceramic vessel on a foot-powered pottery wheel. The wheel spins as he carefully forms the wet clay. His workshop is filled with finished bowls, jugs, and plates drying on wooden shelves. Clay dust floats in the air around him as he concentrates on his craft. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image'
+2025-11-05 23:29:12 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-11-05 23:29:12 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  Early 1800s Uppsala. A Swedish potter with clay-covered hands shapes a large ceramic vessel on a foot-powered pottery wheel. The wheel spins as he carefully forms the wet clay. His workshop is filled with finished bowls, jugs, and plates drying on wooden shelves. Clay dust floats in the air around him as he concentrates on his craft. Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 23:29:20 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-11-05 23:29:20 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-11-05 23:29:20 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-11-05 23:29:20 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-11-05 23:29:20 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-11-05 23:29:21 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251105_232543_IMAGE/SweGuilds_020_IMAGE_232920_nano-banano16x9_deakins.png
+2025-11-05 23:29:21 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251105_232543_IMAGE/SweGuilds_020_IMAGE_232920_nano-banano16x9_deakins.md
+2025-11-05 23:29:21 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251105_232543_IMAGE/SweGuilds_020_IMAGE_232920_nano-banano16x9_deakins.png
+2025-11-05 23:29:21 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from SweGuilds_001.txt
+2025-11-05 23:29:21 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from SweGuilds_002.txt
+2025-11-05 23:29:21 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from SweGuilds_003.txt
+2025-11-05 23:29:21 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from SweGuilds_004.txt
+2025-11-05 23:29:21 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from SweGuilds_005.txt
+2025-11-05 23:29:21 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from SweGuilds_006.txt
+2025-11-05 23:29:21 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from SweGuilds_007.txt
+2025-11-05 23:29:21 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from SweGuilds_008.txt
+2025-11-05 23:29:21 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from SweGuilds_009.txt
+2025-11-05 23:29:21 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from SweGuilds_010.txt
+2025-11-05 23:29:21 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from SweGuilds_011.txt
+2025-11-05 23:29:21 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from SweGuilds_012.txt
+2025-11-05 23:29:21 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from SweGuilds_013.txt
+2025-11-05 23:29:21 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from SweGuilds_014.txt
+2025-11-05 23:29:21 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from SweGuilds_015.txt
+2025-11-05 23:29:21 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from SweGuilds_016.txt
+2025-11-05 23:29:21 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from SweGuilds_017.txt
+2025-11-05 23:29:21 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from SweGuilds_018.txt
+2025-11-05 23:29:21 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from SweGuilds_019.txt
+2025-11-05 23:29:21 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from SweGuilds_020.txt
+2025-11-05 23:29:21 | INFO     | src.output.writer:write_report:293 - Report saved: USER-FILES/05.OUTPUT/251105_232543_IMAGE/SUCCESS.md
+2025-11-05 23:29:21 | INFO     | src.output.writer:write_report:293 - Report saved: USER-FILES/05.OUTPUT/251105_232543_IMAGE/COST-REPORT.md
+2025-11-05 23:29:21 | INFO     | src.output.writer:write_report:293 - Report saved: USER-FILES/05.OUTPUT/251105_232543_IMAGE/PROFILES-WITH-FIXES.md
+2025-11-05 23:29:21 | INFO     | src.output.reporter:_save_success_reports:62 - Reports saved successfully
+2025-11-05 23:29:21 | SUCCESS  | __main__:generate_final_reports:264 - ✅ Completed successfully! Generated 20 images

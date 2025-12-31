@@ -1,0 +1,714 @@
+2025-12-03 14:36:15 | INFO     | src.utils.logging:setup_logging:39 - Logging configured (verbose=False, debug=False)
+2025-12-03 14:36:15 | INFO     | __main__:setup_environment:79 - Environment initialized
+2025-12-03 14:36:15 | INFO     | __main__:load_and_validate_config:84 - Loading configuration...
+2025-12-03 14:36:15 | INFO     | src.config.loader:load_config:42 - Loaded configuration from USER-FILES/01.CONFIG/config.yaml
+2025-12-03 14:36:15 | INFO     | __main__:authenticate_for_mode:273 - Authenticating with 1Password...
+2025-12-03 14:36:16 | DEBUG    | src.auth.session_manager:ensure_op_auth:39 - 1Password session is active
+2025-12-03 14:36:17 | DEBUG    | src.auth.session_manager:ensure_op_auth:39 - 1Password session is active
+2025-12-03 14:36:17 | DEBUG    | src.auth.auth:load_auth_config:28 - Using auth config: auth_bites.yaml
+2025-12-03 14:36:18 | DEBUG    | src.auth.auth:get_api_key:77 - Retrieved API key: r8_V...
+2025-12-03 14:36:18 | INFO     | __main__:discover_inputs_and_profiles:92 - Discovering inputs...
+2025-12-03 14:36:18 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: roles&responsibilities_of_a_server_with_prompts_022.txt
+2025-12-03 14:36:18 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: roles&responsibilities_of_a_server_with_prompts_023.txt
+2025-12-03 14:36:18 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: roles&responsibilities_of_a_server_with_prompts_009.txt
+2025-12-03 14:36:18 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: roles&responsibilities_of_a_server_with_prompts_021.txt
+2025-12-03 14:36:18 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: roles&responsibilities_of_a_server_with_prompts_020.txt
+2025-12-03 14:36:18 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: roles&responsibilities_of_a_server_with_prompts_008.txt
+2025-12-03 14:36:18 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: roles&responsibilities_of_a_server_with_prompts_018.txt
+2025-12-03 14:36:18 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: roles&responsibilities_of_a_server_with_prompts_019.txt
+2025-12-03 14:36:18 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: roles&responsibilities_of_a_server_with_prompts_003.txt
+2025-12-03 14:36:18 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: roles&responsibilities_of_a_server_with_prompts_017.txt
+2025-12-03 14:36:18 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: roles&responsibilities_of_a_server_with_prompts_016.txt
+2025-12-03 14:36:18 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: roles&responsibilities_of_a_server_with_prompts_002.txt
+2025-12-03 14:36:18 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: roles&responsibilities_of_a_server_with_prompts_014.txt
+2025-12-03 14:36:18 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: roles&responsibilities_of_a_server_with_prompts_001.txt
+2025-12-03 14:36:18 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: roles&responsibilities_of_a_server_with_prompts_015.txt
+2025-12-03 14:36:18 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: roles&responsibilities_of_a_server_with_prompts_011.txt
+2025-12-03 14:36:18 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: roles&responsibilities_of_a_server_with_prompts_005.txt
+2025-12-03 14:36:18 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: roles&responsibilities_of_a_server_with_prompts_004.txt
+2025-12-03 14:36:18 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: roles&responsibilities_of_a_server_with_prompts_010.txt
+2025-12-03 14:36:18 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: roles&responsibilities_of_a_server_with_prompts_006.txt
+2025-12-03 14:36:18 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: roles&responsibilities_of_a_server_with_prompts_012.txt
+2025-12-03 14:36:18 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: roles&responsibilities_of_a_server_with_prompts_013.txt
+2025-12-03 14:36:18 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: roles&responsibilities_of_a_server_with_prompts_007.txt
+2025-12-03 14:36:18 | INFO     | src.processing.discovery:discover_prompt_files:45 - Discovered 23 prompt files
+2025-12-03 14:36:18 | DEBUG    | src.processing.discovery:discover_profiles:93 - Loaded profile: USER-FILES/03.PROFILES/nano-banano-pro_2k_9x16_droply_1.yaml
+2025-12-03 14:36:18 | INFO     | src.processing.discovery:discover_profiles:97 - Loaded 1 profiles
+2025-12-03 14:36:18 | INFO     | src.processing.discovery:get_active_models:135 - Found profile: nano-banano-pro_2k_9x16_droply_1
+2025-12-03 14:36:18 | INFO     | src.processing.discovery:get_active_models:140 - Total profiles to process: 1
+2025-12-03 14:36:18 | INFO     | src.config.validator:validate_all:26 - All configuration validation passed
+2025-12-03 14:36:18 | INFO     | __main__:initialize_services:186 - Output directory: USER-FILES/05.OUTPUT/251203_143618_IMAGE
+2025-12-03 14:36:18 | INFO     | __main__:execute_processing:221 - Starting matrix processing...
+2025-12-03 14:36:18 | DEBUG    | src.processing.validator:validate_operational_requirements:23 - Profile 'nano-banano-pro_2k_9x16_droply_1' operational validation passed
+2025-12-03 14:36:18 | INFO     | src.processing.processor:process_all:60 - Processing 23 combinations (23 files × 1 profiles)
+2025-12-03 14:36:18 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_001.txt
+2025-12-03 14:36:18 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 1/23: roles&responsibilities_of_a_server_with_prompts_001.txt + nano-banano-pro_2k_9x16_droply_1
+2025-12-03 14:36:18 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing roles&responsibilities_of_a_server_with_prompts_001.txt: England, wide shot in upscale restaurant dining ro...
+2025-12-03 14:36:18 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1
+}
+2025-12-03 14:36:18 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "prompt": "England, wide shot in upscale restaurant dining room of diverse guests at elegantly set tables, Asian female server in white shirt and black apron moving between tables with subtle smile, warm ambient lighting, shallow depth of field."
+}
+2025-12-03 14:36:18 | DEBUG    | src.api.client:generate_image:89 - Original prompt: England, wide shot in upscale restaurant dining room of diverse guests at elegantly set tables, Asian female server in white shirt and black apron moving between tables with subtle smile, warm ambient lighting, shallow depth of field.
+2025-12-03 14:36:18 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: England, wide shot in upscale restaurant dining room of diverse guests at elegantly set tables, Asian female server in white shirt and black apron moving between tables with subtle smile, warm ambient lighting, shallow depth of field.
+2025-12-03 14:36:18 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'England, wide shot in upscale restaurant dining room of diverse guests at elegantly set tables, Asian female server in white shirt and black apron moving between tables with subtle smile, warm ambient lighting, shallow depth of field.'
+2025-12-03 14:36:18 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-03 14:36:18 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "prompt": "England, wide shot in upscale restaurant dining room of diverse guests at elegantly set tables, Asian female server in white shirt and black apron moving between tables with subtle smile, warm ambient lighting, shallow depth of field."
+}
+2025-12-03 14:36:27 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-03 14:36:28 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251203_143618_IMAGE/roles&responsibilities_of_a_server_with_prompts_001_IMAGE_143627_nano-banano-pro_2k_9x16_droply_1.png
+2025-12-03 14:36:28 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251203_143618_IMAGE/roles&responsibilities_of_a_server_with_prompts_001_IMAGE_143627_nano-banano-pro_2k_9x16_droply_1.md
+2025-12-03 14:36:28 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251203_143618_IMAGE/roles&responsibilities_of_a_server_with_prompts_001_IMAGE_143627_nano-banano-pro_2k_9x16_droply_1.png
+2025-12-03 14:36:28 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_002.txt
+2025-12-03 14:36:28 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 2/23: roles&responsibilities_of_a_server_with_prompts_002.txt + nano-banano-pro_2k_9x16_droply_1
+2025-12-03 14:36:28 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing roles&responsibilities_of_a_server_with_prompts_002.txt: England, medium shot in restaurant dining room of ...
+2025-12-03 14:36:28 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1
+}
+2025-12-03 14:36:28 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "prompt": "England, medium shot in restaurant dining room of White male server in his late 20s wearing white shirt, black trousers, and black apron, standing beside table with attentive posture, natural window lighting."
+}
+2025-12-03 14:36:28 | DEBUG    | src.api.client:generate_image:89 - Original prompt: England, medium shot in restaurant dining room of White male server in his late 20s wearing white shirt, black trousers, and black apron, standing beside table with attentive posture, natural window lighting.
+2025-12-03 14:36:28 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: England, medium shot in restaurant dining room of White male server in his late 20s wearing white shirt, black trousers, and black apron, standing beside table with attentive posture, natural window lighting.
+2025-12-03 14:36:28 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'England, medium shot in restaurant dining room of White male server in his late 20s wearing white shirt, black trousers, and black apron, standing beside table with attentive posture, natural window lighting.'
+2025-12-03 14:36:28 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-03 14:36:28 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "prompt": "England, medium shot in restaurant dining room of White male server in his late 20s wearing white shirt, black trousers, and black apron, standing beside table with attentive posture, natural window lighting."
+}
+2025-12-03 14:36:37 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-03 14:36:38 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251203_143618_IMAGE/roles&responsibilities_of_a_server_with_prompts_002_IMAGE_143637_nano-banano-pro_2k_9x16_droply_1.png
+2025-12-03 14:36:38 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251203_143618_IMAGE/roles&responsibilities_of_a_server_with_prompts_002_IMAGE_143637_nano-banano-pro_2k_9x16_droply_1.md
+2025-12-03 14:36:38 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251203_143618_IMAGE/roles&responsibilities_of_a_server_with_prompts_002_IMAGE_143637_nano-banano-pro_2k_9x16_droply_1.png
+2025-12-03 14:36:38 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_003.txt
+2025-12-03 14:36:38 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 3/23: roles&responsibilities_of_a_server_with_prompts_003.txt + nano-banano-pro_2k_9x16_droply_1
+2025-12-03 14:36:38 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing roles&responsibilities_of_a_server_with_prompts_003.txt: England, close-up in restaurant dining room of Bla...
+2025-12-03 14:36:38 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1
+}
+2025-12-03 14:36:38 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "prompt": "England, close-up in restaurant dining room of Black female server\u2019s face in her early 30s wearing white shirt with focused and friendly expression, soft diffused lighting."
+}
+2025-12-03 14:36:38 | DEBUG    | src.api.client:generate_image:89 - Original prompt: England, close-up in restaurant dining room of Black female server’s face in her early 30s wearing white shirt with focused and friendly expression, soft diffused lighting.
+2025-12-03 14:36:38 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: England, close-up in restaurant dining room of Black female server’s face in her early 30s wearing white shirt with focused and friendly expression, soft diffused lighting.
+2025-12-03 14:36:38 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'England, close-up in restaurant dining room of Black female server’s face in her early 30s wearing white shirt with focused and friendly expression, soft diffused lighting.'
+2025-12-03 14:36:38 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-03 14:36:38 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "prompt": "England, close-up in restaurant dining room of Black female server\u2019s face in her early 30s wearing white shirt with focused and friendly expression, soft diffused lighting."
+}
+2025-12-03 14:36:46 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-03 14:36:47 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251203_143618_IMAGE/roles&responsibilities_of_a_server_with_prompts_003_IMAGE_143646_nano-banano-pro_2k_9x16_droply_1.png
+2025-12-03 14:36:47 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251203_143618_IMAGE/roles&responsibilities_of_a_server_with_prompts_003_IMAGE_143646_nano-banano-pro_2k_9x16_droply_1.md
+2025-12-03 14:36:47 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251203_143618_IMAGE/roles&responsibilities_of_a_server_with_prompts_003_IMAGE_143646_nano-banano-pro_2k_9x16_droply_1.png
+2025-12-03 14:36:47 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_004.txt
+2025-12-03 14:36:47 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 4/23: roles&responsibilities_of_a_server_with_prompts_004.txt + nano-banano-pro_2k_9x16_droply_1
+2025-12-03 14:36:47 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing roles&responsibilities_of_a_server_with_prompts_004.txt: England, medium shot in restaurant entrance area o...
+2025-12-03 14:36:47 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1
+}
+2025-12-03 14:36:47 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "prompt": "England, medium shot in restaurant entrance area of Hispanic male server in mid-20s wearing white shirt, black apron, and bow tie, gesturing welcomingly toward guests with subtle smile, bright clean lighting."
+}
+2025-12-03 14:36:47 | DEBUG    | src.api.client:generate_image:89 - Original prompt: England, medium shot in restaurant entrance area of Hispanic male server in mid-20s wearing white shirt, black apron, and bow tie, gesturing welcomingly toward guests with subtle smile, bright clean lighting.
+2025-12-03 14:36:47 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: England, medium shot in restaurant entrance area of Hispanic male server in mid-20s wearing white shirt, black apron, and bow tie, gesturing welcomingly toward guests with subtle smile, bright clean lighting.
+2025-12-03 14:36:47 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'England, medium shot in restaurant entrance area of Hispanic male server in mid-20s wearing white shirt, black apron, and bow tie, gesturing welcomingly toward guests with subtle smile, bright clean lighting.'
+2025-12-03 14:36:47 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-03 14:36:47 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "prompt": "England, medium shot in restaurant entrance area of Hispanic male server in mid-20s wearing white shirt, black apron, and bow tie, gesturing welcomingly toward guests with subtle smile, bright clean lighting."
+}
+2025-12-03 14:36:55 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-03 14:36:56 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251203_143618_IMAGE/roles&responsibilities_of_a_server_with_prompts_004_IMAGE_143655_nano-banano-pro_2k_9x16_droply_1.png
+2025-12-03 14:36:56 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251203_143618_IMAGE/roles&responsibilities_of_a_server_with_prompts_004_IMAGE_143655_nano-banano-pro_2k_9x16_droply_1.md
+2025-12-03 14:36:56 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251203_143618_IMAGE/roles&responsibilities_of_a_server_with_prompts_004_IMAGE_143655_nano-banano-pro_2k_9x16_droply_1.png
+2025-12-03 14:36:56 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_005.txt
+2025-12-03 14:36:56 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 5/23: roles&responsibilities_of_a_server_with_prompts_005.txt + nano-banano-pro_2k_9x16_droply_1
+2025-12-03 14:36:56 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing roles&responsibilities_of_a_server_with_prompts_005.txt: England, medium shot in restaurant dining room of ...
+2025-12-03 14:36:56 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1
+}
+2025-12-03 14:36:56 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "prompt": "England, medium shot in restaurant dining room of Mixed-race female server in her late 20s wearing white shirt and black apron, holding notepad while standing beside table with genuine smile, guests visible in background, natural lighting."
+}
+2025-12-03 14:36:56 | DEBUG    | src.api.client:generate_image:89 - Original prompt: England, medium shot in restaurant dining room of Mixed-race female server in her late 20s wearing white shirt and black apron, holding notepad while standing beside table with genuine smile, guests visible in background, natural lighting.
+2025-12-03 14:36:56 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: England, medium shot in restaurant dining room of Mixed-race female server in her late 20s wearing white shirt and black apron, holding notepad while standing beside table with genuine smile, guests visible in background, natural lighting.
+2025-12-03 14:36:56 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'England, medium shot in restaurant dining room of Mixed-race female server in her late 20s wearing white shirt and black apron, holding notepad while standing beside table with genuine smile, guests visible in background, natural lighting.'
+2025-12-03 14:36:56 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-03 14:36:56 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "prompt": "England, medium shot in restaurant dining room of Mixed-race female server in her late 20s wearing white shirt and black apron, holding notepad while standing beside table with genuine smile, guests visible in background, natural lighting."
+}
+2025-12-03 14:37:03 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-03 14:37:05 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251203_143618_IMAGE/roles&responsibilities_of_a_server_with_prompts_005_IMAGE_143703_nano-banano-pro_2k_9x16_droply_1.png
+2025-12-03 14:37:05 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251203_143618_IMAGE/roles&responsibilities_of_a_server_with_prompts_005_IMAGE_143703_nano-banano-pro_2k_9x16_droply_1.md
+2025-12-03 14:37:05 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251203_143618_IMAGE/roles&responsibilities_of_a_server_with_prompts_005_IMAGE_143703_nano-banano-pro_2k_9x16_droply_1.png
+2025-12-03 14:37:05 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_006.txt
+2025-12-03 14:37:05 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 6/23: roles&responsibilities_of_a_server_with_prompts_006.txt + nano-banano-pro_2k_9x16_droply_1
+2025-12-03 14:37:05 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing roles&responsibilities_of_a_server_with_prompts_006.txt: England, close-up in restaurant dining room of Whi...
+2025-12-03 14:37:05 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1
+}
+2025-12-03 14:37:05 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "prompt": "England, close-up in restaurant dining room of White female server\u2019s hands in her early 30s holding pen and notepad, writing notes, soft diffused lighting, shallow depth of field."
+}
+2025-12-03 14:37:05 | DEBUG    | src.api.client:generate_image:89 - Original prompt: England, close-up in restaurant dining room of White female server’s hands in her early 30s holding pen and notepad, writing notes, soft diffused lighting, shallow depth of field.
+2025-12-03 14:37:05 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: England, close-up in restaurant dining room of White female server’s hands in her early 30s holding pen and notepad, writing notes, soft diffused lighting, shallow depth of field.
+2025-12-03 14:37:05 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'England, close-up in restaurant dining room of White female server’s hands in her early 30s holding pen and notepad, writing notes, soft diffused lighting, shallow depth of field.'
+2025-12-03 14:37:05 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-03 14:37:05 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "prompt": "England, close-up in restaurant dining room of White female server\u2019s hands in her early 30s holding pen and notepad, writing notes, soft diffused lighting, shallow depth of field."
+}
+2025-12-03 14:37:13 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-03 14:37:14 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251203_143618_IMAGE/roles&responsibilities_of_a_server_with_prompts_006_IMAGE_143713_nano-banano-pro_2k_9x16_droply_1.png
+2025-12-03 14:37:14 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251203_143618_IMAGE/roles&responsibilities_of_a_server_with_prompts_006_IMAGE_143713_nano-banano-pro_2k_9x16_droply_1.md
+2025-12-03 14:37:14 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251203_143618_IMAGE/roles&responsibilities_of_a_server_with_prompts_006_IMAGE_143713_nano-banano-pro_2k_9x16_droply_1.png
+2025-12-03 14:37:14 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_007.txt
+2025-12-03 14:37:14 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 7/23: roles&responsibilities_of_a_server_with_prompts_007.txt + nano-banano-pro_2k_9x16_droply_1
+2025-12-03 14:37:14 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing roles&responsibilities_of_a_server_with_prompts_007.txt: England, close-up in restaurant dining room of Mid...
+2025-12-03 14:37:14 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1
+}
+2025-12-03 14:37:14 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "prompt": "England, close-up in restaurant dining room of Middle Eastern male server\u2019s face in his mid-30s looking down at notepad with concentrated expression, natural window lighting."
+}
+2025-12-03 14:37:14 | DEBUG    | src.api.client:generate_image:89 - Original prompt: England, close-up in restaurant dining room of Middle Eastern male server’s face in his mid-30s looking down at notepad with concentrated expression, natural window lighting.
+2025-12-03 14:37:14 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: England, close-up in restaurant dining room of Middle Eastern male server’s face in his mid-30s looking down at notepad with concentrated expression, natural window lighting.
+2025-12-03 14:37:14 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'England, close-up in restaurant dining room of Middle Eastern male server’s face in his mid-30s looking down at notepad with concentrated expression, natural window lighting.'
+2025-12-03 14:37:14 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-03 14:37:14 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "prompt": "England, close-up in restaurant dining room of Middle Eastern male server\u2019s face in his mid-30s looking down at notepad with concentrated expression, natural window lighting."
+}
+2025-12-03 14:37:23 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-03 14:37:24 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251203_143618_IMAGE/roles&responsibilities_of_a_server_with_prompts_007_IMAGE_143723_nano-banano-pro_2k_9x16_droply_1.png
+2025-12-03 14:37:24 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251203_143618_IMAGE/roles&responsibilities_of_a_server_with_prompts_007_IMAGE_143723_nano-banano-pro_2k_9x16_droply_1.md
+2025-12-03 14:37:24 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251203_143618_IMAGE/roles&responsibilities_of_a_server_with_prompts_007_IMAGE_143723_nano-banano-pro_2k_9x16_droply_1.png
+2025-12-03 14:37:24 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_008.txt
+2025-12-03 14:37:24 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 8/23: roles&responsibilities_of_a_server_with_prompts_008.txt + nano-banano-pro_2k_9x16_droply_1
+2025-12-03 14:37:24 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing roles&responsibilities_of_a_server_with_prompts_008.txt: England, medium shot in restaurant dining room of ...
+2025-12-03 14:37:24 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1
+}
+2025-12-03 14:37:24 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "prompt": "England, medium shot in restaurant dining room of Asian male server in his late 20s wearing white shirt and black apron, carrying multiple plates with proper technique, balanced posture, bright clean lighting."
+}
+2025-12-03 14:37:24 | DEBUG    | src.api.client:generate_image:89 - Original prompt: England, medium shot in restaurant dining room of Asian male server in his late 20s wearing white shirt and black apron, carrying multiple plates with proper technique, balanced posture, bright clean lighting.
+2025-12-03 14:37:24 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: England, medium shot in restaurant dining room of Asian male server in his late 20s wearing white shirt and black apron, carrying multiple plates with proper technique, balanced posture, bright clean lighting.
+2025-12-03 14:37:24 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'England, medium shot in restaurant dining room of Asian male server in his late 20s wearing white shirt and black apron, carrying multiple plates with proper technique, balanced posture, bright clean lighting.'
+2025-12-03 14:37:24 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-03 14:37:24 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "prompt": "England, medium shot in restaurant dining room of Asian male server in his late 20s wearing white shirt and black apron, carrying multiple plates with proper technique, balanced posture, bright clean lighting."
+}
+2025-12-03 14:37:31 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-03 14:37:32 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251203_143618_IMAGE/roles&responsibilities_of_a_server_with_prompts_008_IMAGE_143731_nano-banano-pro_2k_9x16_droply_1.png
+2025-12-03 14:37:32 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251203_143618_IMAGE/roles&responsibilities_of_a_server_with_prompts_008_IMAGE_143731_nano-banano-pro_2k_9x16_droply_1.md
+2025-12-03 14:37:32 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251203_143618_IMAGE/roles&responsibilities_of_a_server_with_prompts_008_IMAGE_143731_nano-banano-pro_2k_9x16_droply_1.png
+2025-12-03 14:37:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_009.txt
+2025-12-03 14:37:32 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 9/23: roles&responsibilities_of_a_server_with_prompts_009.txt + nano-banano-pro_2k_9x16_droply_1
+2025-12-03 14:37:32 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing roles&responsibilities_of_a_server_with_prompts_009.txt: England, close-up in restaurant dining room of Bla...
+2025-12-03 14:37:32 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1
+}
+2025-12-03 14:37:32 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "prompt": "England, close-up in restaurant dining room of Black female server\u2019s hands holding wine glasses by stems with proper grip technique, soft diffused lighting, shallow depth of field."
+}
+2025-12-03 14:37:32 | DEBUG    | src.api.client:generate_image:89 - Original prompt: England, close-up in restaurant dining room of Black female server’s hands holding wine glasses by stems with proper grip technique, soft diffused lighting, shallow depth of field.
+2025-12-03 14:37:32 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: England, close-up in restaurant dining room of Black female server’s hands holding wine glasses by stems with proper grip technique, soft diffused lighting, shallow depth of field.
+2025-12-03 14:37:32 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'England, close-up in restaurant dining room of Black female server’s hands holding wine glasses by stems with proper grip technique, soft diffused lighting, shallow depth of field.'
+2025-12-03 14:37:32 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-03 14:37:32 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "prompt": "England, close-up in restaurant dining room of Black female server\u2019s hands holding wine glasses by stems with proper grip technique, soft diffused lighting, shallow depth of field."
+}
+2025-12-03 14:37:41 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-03 14:37:42 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251203_143618_IMAGE/roles&responsibilities_of_a_server_with_prompts_009_IMAGE_143741_nano-banano-pro_2k_9x16_droply_1.png
+2025-12-03 14:37:42 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251203_143618_IMAGE/roles&responsibilities_of_a_server_with_prompts_009_IMAGE_143741_nano-banano-pro_2k_9x16_droply_1.md
+2025-12-03 14:37:42 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251203_143618_IMAGE/roles&responsibilities_of_a_server_with_prompts_009_IMAGE_143741_nano-banano-pro_2k_9x16_droply_1.png
+2025-12-03 14:37:42 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_010.txt
+2025-12-03 14:37:42 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 10/23: roles&responsibilities_of_a_server_with_prompts_010.txt + nano-banano-pro_2k_9x16_droply_1
+2025-12-03 14:37:42 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing roles&responsibilities_of_a_server_with_prompts_010.txt: England, medium shot in restaurant dining room of ...
+2025-12-03 14:37:42 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1
+}
+2025-12-03 14:37:42 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "prompt": "England, medium shot in restaurant dining room of White male server in his early 30s wearing white shirt, black apron, and bow tie, gesturing toward menu while speaking with guests at table, natural lighting."
+}
+2025-12-03 14:37:42 | DEBUG    | src.api.client:generate_image:89 - Original prompt: England, medium shot in restaurant dining room of White male server in his early 30s wearing white shirt, black apron, and bow tie, gesturing toward menu while speaking with guests at table, natural lighting.
+2025-12-03 14:37:42 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: England, medium shot in restaurant dining room of White male server in his early 30s wearing white shirt, black apron, and bow tie, gesturing toward menu while speaking with guests at table, natural lighting.
+2025-12-03 14:37:42 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'England, medium shot in restaurant dining room of White male server in his early 30s wearing white shirt, black apron, and bow tie, gesturing toward menu while speaking with guests at table, natural lighting.'
+2025-12-03 14:37:42 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-03 14:37:42 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "prompt": "England, medium shot in restaurant dining room of White male server in his early 30s wearing white shirt, black apron, and bow tie, gesturing toward menu while speaking with guests at table, natural lighting."
+}
+2025-12-03 14:37:50 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-03 14:37:51 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251203_143618_IMAGE/roles&responsibilities_of_a_server_with_prompts_010_IMAGE_143750_nano-banano-pro_2k_9x16_droply_1.png
+2025-12-03 14:37:51 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251203_143618_IMAGE/roles&responsibilities_of_a_server_with_prompts_010_IMAGE_143750_nano-banano-pro_2k_9x16_droply_1.md
+2025-12-03 14:37:51 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251203_143618_IMAGE/roles&responsibilities_of_a_server_with_prompts_010_IMAGE_143750_nano-banano-pro_2k_9x16_droply_1.png
+2025-12-03 14:37:51 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_011.txt
+2025-12-03 14:37:51 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 11/23: roles&responsibilities_of_a_server_with_prompts_011.txt + nano-banano-pro_2k_9x16_droply_1
+2025-12-03 14:37:51 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing roles&responsibilities_of_a_server_with_prompts_011.txt: England, medium shot in restaurant dining room of ...
+2025-12-03 14:37:51 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1
+}
+2025-12-03 14:37:51 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "prompt": "England, medium shot in restaurant dining room of Hispanic female server in her mid-20s wearing white shirt and black apron, leaning slightly forward with engaged expression while gesturing, warm ambient lighting."
+}
+2025-12-03 14:37:51 | DEBUG    | src.api.client:generate_image:89 - Original prompt: England, medium shot in restaurant dining room of Hispanic female server in her mid-20s wearing white shirt and black apron, leaning slightly forward with engaged expression while gesturing, warm ambient lighting.
+2025-12-03 14:37:51 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: England, medium shot in restaurant dining room of Hispanic female server in her mid-20s wearing white shirt and black apron, leaning slightly forward with engaged expression while gesturing, warm ambient lighting.
+2025-12-03 14:37:51 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'England, medium shot in restaurant dining room of Hispanic female server in her mid-20s wearing white shirt and black apron, leaning slightly forward with engaged expression while gesturing, warm ambient lighting.'
+2025-12-03 14:37:51 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-03 14:37:51 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "prompt": "England, medium shot in restaurant dining room of Hispanic female server in her mid-20s wearing white shirt and black apron, leaning slightly forward with engaged expression while gesturing, warm ambient lighting."
+}
+2025-12-03 14:37:59 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-03 14:38:00 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251203_143618_IMAGE/roles&responsibilities_of_a_server_with_prompts_011_IMAGE_143759_nano-banano-pro_2k_9x16_droply_1.png
+2025-12-03 14:38:00 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251203_143618_IMAGE/roles&responsibilities_of_a_server_with_prompts_011_IMAGE_143759_nano-banano-pro_2k_9x16_droply_1.md
+2025-12-03 14:38:00 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251203_143618_IMAGE/roles&responsibilities_of_a_server_with_prompts_011_IMAGE_143759_nano-banano-pro_2k_9x16_droply_1.png
+2025-12-03 14:38:00 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_012.txt
+2025-12-03 14:38:00 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 12/23: roles&responsibilities_of_a_server_with_prompts_012.txt + nano-banano-pro_2k_9x16_droply_1
+2025-12-03 14:38:00 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing roles&responsibilities_of_a_server_with_prompts_012.txt: England, close-up in restaurant dining room of Mix...
+2025-12-03 14:38:00 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1
+}
+2025-12-03 14:38:00 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "prompt": "England, close-up in restaurant dining room of Mixed-race male server\u2019s hands in his late 20s pouring water from pitcher into glass with controlled pour technique, natural window lighting, shallow depth of field."
+}
+2025-12-03 14:38:00 | DEBUG    | src.api.client:generate_image:89 - Original prompt: England, close-up in restaurant dining room of Mixed-race male server’s hands in his late 20s pouring water from pitcher into glass with controlled pour technique, natural window lighting, shallow depth of field.
+2025-12-03 14:38:00 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: England, close-up in restaurant dining room of Mixed-race male server’s hands in his late 20s pouring water from pitcher into glass with controlled pour technique, natural window lighting, shallow depth of field.
+2025-12-03 14:38:00 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'England, close-up in restaurant dining room of Mixed-race male server’s hands in his late 20s pouring water from pitcher into glass with controlled pour technique, natural window lighting, shallow depth of field.'
+2025-12-03 14:38:00 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-03 14:38:00 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "prompt": "England, close-up in restaurant dining room of Mixed-race male server\u2019s hands in his late 20s pouring water from pitcher into glass with controlled pour technique, natural window lighting, shallow depth of field."
+}
+2025-12-03 14:38:08 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-03 14:38:09 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251203_143618_IMAGE/roles&responsibilities_of_a_server_with_prompts_012_IMAGE_143808_nano-banano-pro_2k_9x16_droply_1.png
+2025-12-03 14:38:09 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251203_143618_IMAGE/roles&responsibilities_of_a_server_with_prompts_012_IMAGE_143808_nano-banano-pro_2k_9x16_droply_1.md
+2025-12-03 14:38:09 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251203_143618_IMAGE/roles&responsibilities_of_a_server_with_prompts_012_IMAGE_143808_nano-banano-pro_2k_9x16_droply_1.png
+2025-12-03 14:38:09 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_013.txt
+2025-12-03 14:38:09 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 13/23: roles&responsibilities_of_a_server_with_prompts_013.txt + nano-banano-pro_2k_9x16_droply_1
+2025-12-03 14:38:09 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing roles&responsibilities_of_a_server_with_prompts_013.txt: England, medium shot in restaurant dining room of ...
+2025-12-03 14:38:09 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1
+}
+2025-12-03 14:38:09 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "prompt": "England, medium shot in restaurant dining room of Asian female server in her early 30s wearing white shirt and black apron, efficiently stacking empty plates and gathering utensils from table, bright clean lighting."
+}
+2025-12-03 14:38:09 | DEBUG    | src.api.client:generate_image:89 - Original prompt: England, medium shot in restaurant dining room of Asian female server in her early 30s wearing white shirt and black apron, efficiently stacking empty plates and gathering utensils from table, bright clean lighting.
+2025-12-03 14:38:09 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: England, medium shot in restaurant dining room of Asian female server in her early 30s wearing white shirt and black apron, efficiently stacking empty plates and gathering utensils from table, bright clean lighting.
+2025-12-03 14:38:09 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'England, medium shot in restaurant dining room of Asian female server in her early 30s wearing white shirt and black apron, efficiently stacking empty plates and gathering utensils from table, bright clean lighting.'
+2025-12-03 14:38:09 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-03 14:38:09 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "prompt": "England, medium shot in restaurant dining room of Asian female server in her early 30s wearing white shirt and black apron, efficiently stacking empty plates and gathering utensils from table, bright clean lighting."
+}
+2025-12-03 14:38:17 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-03 14:38:19 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251203_143618_IMAGE/roles&responsibilities_of_a_server_with_prompts_013_IMAGE_143817_nano-banano-pro_2k_9x16_droply_1.png
+2025-12-03 14:38:19 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251203_143618_IMAGE/roles&responsibilities_of_a_server_with_prompts_013_IMAGE_143817_nano-banano-pro_2k_9x16_droply_1.md
+2025-12-03 14:38:19 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251203_143618_IMAGE/roles&responsibilities_of_a_server_with_prompts_013_IMAGE_143817_nano-banano-pro_2k_9x16_droply_1.png
+2025-12-03 14:38:19 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_014.txt
+2025-12-03 14:38:19 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 14/23: roles&responsibilities_of_a_server_with_prompts_014.txt + nano-banano-pro_2k_9x16_droply_1
+2025-12-03 14:38:19 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing roles&responsibilities_of_a_server_with_prompts_014.txt: England, medium shot in restaurant dining room of ...
+2025-12-03 14:38:19 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1
+}
+2025-12-03 14:38:19 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "prompt": "England, medium shot in restaurant dining room of White female server in her late 20s wearing white shirt and black apron, holding card payment terminal with professional demeanor, soft diffused lighting."
+}
+2025-12-03 14:38:19 | DEBUG    | src.api.client:generate_image:89 - Original prompt: England, medium shot in restaurant dining room of White female server in her late 20s wearing white shirt and black apron, holding card payment terminal with professional demeanor, soft diffused lighting.
+2025-12-03 14:38:19 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: England, medium shot in restaurant dining room of White female server in her late 20s wearing white shirt and black apron, holding card payment terminal with professional demeanor, soft diffused lighting.
+2025-12-03 14:38:19 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'England, medium shot in restaurant dining room of White female server in her late 20s wearing white shirt and black apron, holding card payment terminal with professional demeanor, soft diffused lighting.'
+2025-12-03 14:38:19 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-03 14:38:19 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "prompt": "England, medium shot in restaurant dining room of White female server in her late 20s wearing white shirt and black apron, holding card payment terminal with professional demeanor, soft diffused lighting."
+}
+2025-12-03 14:38:28 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-03 14:38:28 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251203_143618_IMAGE/roles&responsibilities_of_a_server_with_prompts_014_IMAGE_143828_nano-banano-pro_2k_9x16_droply_1.png
+2025-12-03 14:38:28 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251203_143618_IMAGE/roles&responsibilities_of_a_server_with_prompts_014_IMAGE_143828_nano-banano-pro_2k_9x16_droply_1.md
+2025-12-03 14:38:28 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251203_143618_IMAGE/roles&responsibilities_of_a_server_with_prompts_014_IMAGE_143828_nano-banano-pro_2k_9x16_droply_1.png
+2025-12-03 14:38:28 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_015.txt
+2025-12-03 14:38:28 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 15/23: roles&responsibilities_of_a_server_with_prompts_015.txt + nano-banano-pro_2k_9x16_droply_1
+2025-12-03 14:38:28 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing roles&responsibilities_of_a_server_with_prompts_015.txt: England, medium shot in restaurant bar area of Bla...
+2025-12-03 14:38:28 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1
+}
+2025-12-03 14:38:28 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "prompt": "England, medium shot in restaurant bar area of Black male server in his mid-30s wearing white shirt and black apron, standing at POS terminal with focused expression, fingers on touchscreen, bright LED lighting."
+}
+2025-12-03 14:38:28 | DEBUG    | src.api.client:generate_image:89 - Original prompt: England, medium shot in restaurant bar area of Black male server in his mid-30s wearing white shirt and black apron, standing at POS terminal with focused expression, fingers on touchscreen, bright LED lighting.
+2025-12-03 14:38:28 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: England, medium shot in restaurant bar area of Black male server in his mid-30s wearing white shirt and black apron, standing at POS terminal with focused expression, fingers on touchscreen, bright LED lighting.
+2025-12-03 14:38:28 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'England, medium shot in restaurant bar area of Black male server in his mid-30s wearing white shirt and black apron, standing at POS terminal with focused expression, fingers on touchscreen, bright LED lighting.'
+2025-12-03 14:38:28 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-03 14:38:28 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "prompt": "England, medium shot in restaurant bar area of Black male server in his mid-30s wearing white shirt and black apron, standing at POS terminal with focused expression, fingers on touchscreen, bright LED lighting."
+}
+2025-12-03 14:38:39 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-03 14:38:40 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251203_143618_IMAGE/roles&responsibilities_of_a_server_with_prompts_015_IMAGE_143839_nano-banano-pro_2k_9x16_droply_1.png
+2025-12-03 14:38:40 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251203_143618_IMAGE/roles&responsibilities_of_a_server_with_prompts_015_IMAGE_143839_nano-banano-pro_2k_9x16_droply_1.md
+2025-12-03 14:38:40 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251203_143618_IMAGE/roles&responsibilities_of_a_server_with_prompts_015_IMAGE_143839_nano-banano-pro_2k_9x16_droply_1.png
+2025-12-03 14:38:40 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_016.txt
+2025-12-03 14:38:40 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 16/23: roles&responsibilities_of_a_server_with_prompts_016.txt + nano-banano-pro_2k_9x16_droply_1
+2025-12-03 14:38:40 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing roles&responsibilities_of_a_server_with_prompts_016.txt: England, wide shot in restaurant dining room of Mi...
+2025-12-03 14:38:40 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1
+}
+2025-12-03 14:38:40 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "prompt": "England, wide shot in restaurant dining room of Middle Eastern female server in her late 20s wearing white shirt and black apron, arranging place settings on table with careful placement, natural window lighting."
+}
+2025-12-03 14:38:40 | DEBUG    | src.api.client:generate_image:89 - Original prompt: England, wide shot in restaurant dining room of Middle Eastern female server in her late 20s wearing white shirt and black apron, arranging place settings on table with careful placement, natural window lighting.
+2025-12-03 14:38:40 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: England, wide shot in restaurant dining room of Middle Eastern female server in her late 20s wearing white shirt and black apron, arranging place settings on table with careful placement, natural window lighting.
+2025-12-03 14:38:40 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'England, wide shot in restaurant dining room of Middle Eastern female server in her late 20s wearing white shirt and black apron, arranging place settings on table with careful placement, natural window lighting.'
+2025-12-03 14:38:40 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-03 14:38:40 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "prompt": "England, wide shot in restaurant dining room of Middle Eastern female server in her late 20s wearing white shirt and black apron, arranging place settings on table with careful placement, natural window lighting."
+}
+2025-12-03 14:38:47 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-03 14:38:48 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251203_143618_IMAGE/roles&responsibilities_of_a_server_with_prompts_016_IMAGE_143847_nano-banano-pro_2k_9x16_droply_1.png
+2025-12-03 14:38:48 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251203_143618_IMAGE/roles&responsibilities_of_a_server_with_prompts_016_IMAGE_143847_nano-banano-pro_2k_9x16_droply_1.md
+2025-12-03 14:38:48 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251203_143618_IMAGE/roles&responsibilities_of_a_server_with_prompts_016_IMAGE_143847_nano-banano-pro_2k_9x16_droply_1.png
+2025-12-03 14:38:48 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_017.txt
+2025-12-03 14:38:48 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 17/23: roles&responsibilities_of_a_server_with_prompts_017.txt + nano-banano-pro_2k_9x16_droply_1
+2025-12-03 14:38:48 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing roles&responsibilities_of_a_server_with_prompts_017.txt: England, medium shot in restaurant bar area of His...
+2025-12-03 14:38:48 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1
+}
+2025-12-03 14:38:48 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "prompt": "England, medium shot in restaurant bar area of Hispanic male server in his early 30s wearing white shirt and black apron, carrying stack of clean napkins and placing them in service station, bright clean lighting."
+}
+2025-12-03 14:38:48 | DEBUG    | src.api.client:generate_image:89 - Original prompt: England, medium shot in restaurant bar area of Hispanic male server in his early 30s wearing white shirt and black apron, carrying stack of clean napkins and placing them in service station, bright clean lighting.
+2025-12-03 14:38:48 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: England, medium shot in restaurant bar area of Hispanic male server in his early 30s wearing white shirt and black apron, carrying stack of clean napkins and placing them in service station, bright clean lighting.
+2025-12-03 14:38:48 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'England, medium shot in restaurant bar area of Hispanic male server in his early 30s wearing white shirt and black apron, carrying stack of clean napkins and placing them in service station, bright clean lighting.'
+2025-12-03 14:38:48 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-03 14:38:48 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "prompt": "England, medium shot in restaurant bar area of Hispanic male server in his early 30s wearing white shirt and black apron, carrying stack of clean napkins and placing them in service station, bright clean lighting."
+}
+2025-12-03 14:38:56 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-03 14:38:57 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251203_143618_IMAGE/roles&responsibilities_of_a_server_with_prompts_017_IMAGE_143856_nano-banano-pro_2k_9x16_droply_1.png
+2025-12-03 14:38:57 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251203_143618_IMAGE/roles&responsibilities_of_a_server_with_prompts_017_IMAGE_143856_nano-banano-pro_2k_9x16_droply_1.md
+2025-12-03 14:38:57 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251203_143618_IMAGE/roles&responsibilities_of_a_server_with_prompts_017_IMAGE_143856_nano-banano-pro_2k_9x16_droply_1.png
+2025-12-03 14:38:57 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_018.txt
+2025-12-03 14:38:57 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 18/23: roles&responsibilities_of_a_server_with_prompts_018.txt + nano-banano-pro_2k_9x16_droply_1
+2025-12-03 14:38:57 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing roles&responsibilities_of_a_server_with_prompts_018.txt: England, medium shot in restaurant service station...
+2025-12-03 14:38:57 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1
+}
+2025-12-03 14:38:57 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "prompt": "England, medium shot in restaurant service station of two servers \u2014 White male and Asian female both in mid-20s wearing white shirts and black aprons \u2014 standing side by side with collaborative posture, natural lighting."
+}
+2025-12-03 14:38:57 | DEBUG    | src.api.client:generate_image:89 - Original prompt: England, medium shot in restaurant service station of two servers — White male and Asian female both in mid-20s wearing white shirts and black aprons — standing side by side with collaborative posture, natural lighting.
+2025-12-03 14:38:57 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: England, medium shot in restaurant service station of two servers — White male and Asian female both in mid-20s wearing white shirts and black aprons — standing side by side with collaborative posture, natural lighting.
+2025-12-03 14:38:57 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'England, medium shot in restaurant service station of two servers — White male and Asian female both in mid-20s wearing white shirts and black aprons — standing side by side with collaborative posture, natural lighting.'
+2025-12-03 14:38:57 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-03 14:38:57 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "prompt": "England, medium shot in restaurant service station of two servers \u2014 White male and Asian female both in mid-20s wearing white shirts and black aprons \u2014 standing side by side with collaborative posture, natural lighting."
+}
+2025-12-03 14:39:04 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-03 14:39:06 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251203_143618_IMAGE/roles&responsibilities_of_a_server_with_prompts_018_IMAGE_143904_nano-banano-pro_2k_9x16_droply_1.png
+2025-12-03 14:39:06 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251203_143618_IMAGE/roles&responsibilities_of_a_server_with_prompts_018_IMAGE_143904_nano-banano-pro_2k_9x16_droply_1.md
+2025-12-03 14:39:06 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251203_143618_IMAGE/roles&responsibilities_of_a_server_with_prompts_018_IMAGE_143904_nano-banano-pro_2k_9x16_droply_1.png
+2025-12-03 14:39:06 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_019.txt
+2025-12-03 14:39:06 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 19/23: roles&responsibilities_of_a_server_with_prompts_019.txt + nano-banano-pro_2k_9x16_droply_1
+2025-12-03 14:39:06 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing roles&responsibilities_of_a_server_with_prompts_019.txt: England, medium shot in restaurant dining room of ...
+2025-12-03 14:39:06 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1
+}
+2025-12-03 14:39:06 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "prompt": "England, medium shot in restaurant dining room of Mixed-race female server in her late 20s wearing white shirt and black apron, helping Black male colleague carry multiple plates, both with focused expressions, soft diffused lighting."
+}
+2025-12-03 14:39:06 | DEBUG    | src.api.client:generate_image:89 - Original prompt: England, medium shot in restaurant dining room of Mixed-race female server in her late 20s wearing white shirt and black apron, helping Black male colleague carry multiple plates, both with focused expressions, soft diffused lighting.
+2025-12-03 14:39:06 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: England, medium shot in restaurant dining room of Mixed-race female server in her late 20s wearing white shirt and black apron, helping Black male colleague carry multiple plates, both with focused expressions, soft diffused lighting.
+2025-12-03 14:39:06 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'England, medium shot in restaurant dining room of Mixed-race female server in her late 20s wearing white shirt and black apron, helping Black male colleague carry multiple plates, both with focused expressions, soft diffused lighting.'
+2025-12-03 14:39:06 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-03 14:39:06 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "prompt": "England, medium shot in restaurant dining room of Mixed-race female server in her late 20s wearing white shirt and black apron, helping Black male colleague carry multiple plates, both with focused expressions, soft diffused lighting."
+}
+2025-12-03 14:39:14 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-03 14:39:15 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251203_143618_IMAGE/roles&responsibilities_of_a_server_with_prompts_019_IMAGE_143914_nano-banano-pro_2k_9x16_droply_1.png
+2025-12-03 14:39:15 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251203_143618_IMAGE/roles&responsibilities_of_a_server_with_prompts_019_IMAGE_143914_nano-banano-pro_2k_9x16_droply_1.md
+2025-12-03 14:39:15 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251203_143618_IMAGE/roles&responsibilities_of_a_server_with_prompts_019_IMAGE_143914_nano-banano-pro_2k_9x16_droply_1.png
+2025-12-03 14:39:15 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_020.txt
+2025-12-03 14:39:15 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 20/23: roles&responsibilities_of_a_server_with_prompts_020.txt + nano-banano-pro_2k_9x16_droply_1
+2025-12-03 14:39:15 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing roles&responsibilities_of_a_server_with_prompts_020.txt: England, medium shot at restaurant kitchen pass wi...
+2025-12-03 14:39:15 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1
+}
+2025-12-03 14:39:15 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "prompt": "England, medium shot at restaurant kitchen pass window of White male server in his early 30s wearing white shirt and black apron, reaching for plates from pass window with attentive expression, bright LED lighting."
+}
+2025-12-03 14:39:15 | DEBUG    | src.api.client:generate_image:89 - Original prompt: England, medium shot at restaurant kitchen pass window of White male server in his early 30s wearing white shirt and black apron, reaching for plates from pass window with attentive expression, bright LED lighting.
+2025-12-03 14:39:15 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: England, medium shot at restaurant kitchen pass window of White male server in his early 30s wearing white shirt and black apron, reaching for plates from pass window with attentive expression, bright LED lighting.
+2025-12-03 14:39:15 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'England, medium shot at restaurant kitchen pass window of White male server in his early 30s wearing white shirt and black apron, reaching for plates from pass window with attentive expression, bright LED lighting.'
+2025-12-03 14:39:15 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-03 14:39:15 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "prompt": "England, medium shot at restaurant kitchen pass window of White male server in his early 30s wearing white shirt and black apron, reaching for plates from pass window with attentive expression, bright LED lighting."
+}
+2025-12-03 14:39:22 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-03 14:39:23 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251203_143618_IMAGE/roles&responsibilities_of_a_server_with_prompts_020_IMAGE_143922_nano-banano-pro_2k_9x16_droply_1.png
+2025-12-03 14:39:23 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251203_143618_IMAGE/roles&responsibilities_of_a_server_with_prompts_020_IMAGE_143922_nano-banano-pro_2k_9x16_droply_1.md
+2025-12-03 14:39:23 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251203_143618_IMAGE/roles&responsibilities_of_a_server_with_prompts_020_IMAGE_143922_nano-banano-pro_2k_9x16_droply_1.png
+2025-12-03 14:39:23 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_021.txt
+2025-12-03 14:39:23 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 21/23: roles&responsibilities_of_a_server_with_prompts_021.txt + nano-banano-pro_2k_9x16_droply_1
+2025-12-03 14:39:23 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing roles&responsibilities_of_a_server_with_prompts_021.txt: England, full-length shot in restaurant dining roo...
+2025-12-03 14:39:23 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1
+}
+2025-12-03 14:39:23 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "prompt": "England, full-length shot in restaurant dining room of Hispanic female server in her mid-20s wearing crisp white shirt, pressed black trousers, black apron, and bow tie, standing with confident posture and subtle smile, natural window lighting, deep focus."
+}
+2025-12-03 14:39:23 | DEBUG    | src.api.client:generate_image:89 - Original prompt: England, full-length shot in restaurant dining room of Hispanic female server in her mid-20s wearing crisp white shirt, pressed black trousers, black apron, and bow tie, standing with confident posture and subtle smile, natural window lighting, deep focus.
+2025-12-03 14:39:23 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: England, full-length shot in restaurant dining room of Hispanic female server in her mid-20s wearing crisp white shirt, pressed black trousers, black apron, and bow tie, standing with confident posture and subtle smile, natural window lighting, deep focus.
+2025-12-03 14:39:23 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'England, full-length shot in restaurant dining room of Hispanic female server in her mid-20s wearing crisp white shirt, pressed black trousers, black apron, and bow tie, standing with confident posture and subtle smile, natural window lighting, deep focus.'
+2025-12-03 14:39:23 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-03 14:39:23 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "prompt": "England, full-length shot in restaurant dining room of Hispanic female server in her mid-20s wearing crisp white shirt, pressed black trousers, black apron, and bow tie, standing with confident posture and subtle smile, natural window lighting, deep focus."
+}
+2025-12-03 14:39:32 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-03 14:39:33 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251203_143618_IMAGE/roles&responsibilities_of_a_server_with_prompts_021_IMAGE_143932_nano-banano-pro_2k_9x16_droply_1.png
+2025-12-03 14:39:33 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251203_143618_IMAGE/roles&responsibilities_of_a_server_with_prompts_021_IMAGE_143932_nano-banano-pro_2k_9x16_droply_1.md
+2025-12-03 14:39:33 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251203_143618_IMAGE/roles&responsibilities_of_a_server_with_prompts_021_IMAGE_143932_nano-banano-pro_2k_9x16_droply_1.png
+2025-12-03 14:39:33 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_022.txt
+2025-12-03 14:39:33 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 22/23: roles&responsibilities_of_a_server_with_prompts_022.txt + nano-banano-pro_2k_9x16_droply_1
+2025-12-03 14:39:33 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing roles&responsibilities_of_a_server_with_prompts_022.txt: England, medium shot in restaurant dining room of ...
+2025-12-03 14:39:33 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1
+}
+2025-12-03 14:39:33 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "prompt": "England, medium shot in restaurant dining room of Asian male server in his late 20s wearing white shirt and black apron, standing beside table with guests displaying satisfied expressions, warm ambient lighting."
+}
+2025-12-03 14:39:33 | DEBUG    | src.api.client:generate_image:89 - Original prompt: England, medium shot in restaurant dining room of Asian male server in his late 20s wearing white shirt and black apron, standing beside table with guests displaying satisfied expressions, warm ambient lighting.
+2025-12-03 14:39:33 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: England, medium shot in restaurant dining room of Asian male server in his late 20s wearing white shirt and black apron, standing beside table with guests displaying satisfied expressions, warm ambient lighting.
+2025-12-03 14:39:33 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'England, medium shot in restaurant dining room of Asian male server in his late 20s wearing white shirt and black apron, standing beside table with guests displaying satisfied expressions, warm ambient lighting.'
+2025-12-03 14:39:33 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-03 14:39:33 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "prompt": "England, medium shot in restaurant dining room of Asian male server in his late 20s wearing white shirt and black apron, standing beside table with guests displaying satisfied expressions, warm ambient lighting."
+}
+2025-12-03 14:39:41 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-03 14:39:42 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251203_143618_IMAGE/roles&responsibilities_of_a_server_with_prompts_022_IMAGE_143941_nano-banano-pro_2k_9x16_droply_1.png
+2025-12-03 14:39:42 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251203_143618_IMAGE/roles&responsibilities_of_a_server_with_prompts_022_IMAGE_143941_nano-banano-pro_2k_9x16_droply_1.md
+2025-12-03 14:39:42 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251203_143618_IMAGE/roles&responsibilities_of_a_server_with_prompts_022_IMAGE_143941_nano-banano-pro_2k_9x16_droply_1.png
+2025-12-03 14:39:42 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_023.txt
+2025-12-03 14:39:42 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 23/23: roles&responsibilities_of_a_server_with_prompts_023.txt + nano-banano-pro_2k_9x16_droply_1
+2025-12-03 14:39:42 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing roles&responsibilities_of_a_server_with_prompts_023.txt: England, wide shot in restaurant dining room of di...
+2025-12-03 14:39:42 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1
+}
+2025-12-03 14:39:42 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "prompt": "England, wide shot in restaurant dining room of diverse guests at tables with Black female server in her early 30s wearing white shirt and black apron moving through dining room with subtle smile, creating welcoming environment, soft diffused lighting, shallow depth of field."
+}
+2025-12-03 14:39:42 | DEBUG    | src.api.client:generate_image:89 - Original prompt: England, wide shot in restaurant dining room of diverse guests at tables with Black female server in her early 30s wearing white shirt and black apron moving through dining room with subtle smile, creating welcoming environment, soft diffused lighting, shallow depth of field.
+2025-12-03 14:39:42 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: England, wide shot in restaurant dining room of diverse guests at tables with Black female server in her early 30s wearing white shirt and black apron moving through dining room with subtle smile, creating welcoming environment, soft diffused lighting, shallow depth of field.
+2025-12-03 14:39:42 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'England, wide shot in restaurant dining room of diverse guests at tables with Black female server in her early 30s wearing white shirt and black apron moving through dining room with subtle smile, creating welcoming environment, soft diffused lighting, shallow depth of field.'
+2025-12-03 14:39:42 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-12-03 14:39:42 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "aspect_ratio": "9:16",
+  "output_format": "png",
+  "num_images": 1,
+  "prompt": "England, wide shot in restaurant dining room of diverse guests at tables with Black female server in her early 30s wearing white shirt and black apron moving through dining room with subtle smile, creating welcoming environment, soft diffused lighting, shallow depth of field."
+}
+2025-12-03 14:39:51 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-12-03 14:39:52 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251203_143618_IMAGE/roles&responsibilities_of_a_server_with_prompts_023_IMAGE_143951_nano-banano-pro_2k_9x16_droply_1.png
+2025-12-03 14:39:52 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251203_143618_IMAGE/roles&responsibilities_of_a_server_with_prompts_023_IMAGE_143951_nano-banano-pro_2k_9x16_droply_1.md
+2025-12-03 14:39:52 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251203_143618_IMAGE/roles&responsibilities_of_a_server_with_prompts_023_IMAGE_143951_nano-banano-pro_2k_9x16_droply_1.png
+2025-12-03 14:39:52 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_001.txt
+2025-12-03 14:39:52 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_002.txt
+2025-12-03 14:39:52 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_003.txt
+2025-12-03 14:39:52 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_004.txt
+2025-12-03 14:39:52 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_005.txt
+2025-12-03 14:39:52 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_006.txt
+2025-12-03 14:39:52 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_007.txt
+2025-12-03 14:39:52 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_008.txt
+2025-12-03 14:39:52 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_009.txt
+2025-12-03 14:39:52 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_010.txt
+2025-12-03 14:39:52 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_011.txt
+2025-12-03 14:39:52 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_012.txt
+2025-12-03 14:39:52 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_013.txt
+2025-12-03 14:39:52 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_014.txt
+2025-12-03 14:39:52 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_015.txt
+2025-12-03 14:39:52 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_016.txt
+2025-12-03 14:39:52 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_017.txt
+2025-12-03 14:39:52 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_018.txt
+2025-12-03 14:39:52 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_019.txt
+2025-12-03 14:39:52 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_020.txt
+2025-12-03 14:39:52 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_021.txt
+2025-12-03 14:39:52 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_022.txt
+2025-12-03 14:39:52 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from roles&responsibilities_of_a_server_with_prompts_023.txt
+2025-12-03 14:39:52 | INFO     | src.output.writer:write_report:293 - Report saved: USER-FILES/05.OUTPUT/251203_143618_IMAGE/SUCCESS.md
+2025-12-03 14:39:52 | INFO     | src.output.writer:write_report:293 - Report saved: USER-FILES/05.OUTPUT/251203_143618_IMAGE/COST-REPORT.md
+2025-12-03 14:39:52 | INFO     | src.output.reporter:_save_success_reports:62 - Reports saved successfully
+2025-12-03 14:39:52 | SUCCESS  | __main__:generate_final_reports:264 - ✅ Completed successfully! Generated 23 images

@@ -1,0 +1,1159 @@
+2025-11-05 21:30:53 | INFO     | src.utils.logging:setup_logging:39 - Logging configured (verbose=False, debug=False)
+2025-11-05 21:30:53 | INFO     | __main__:setup_environment:79 - Environment initialized
+2025-11-05 21:30:53 | INFO     | __main__:load_and_validate_config:84 - Loading configuration...
+2025-11-05 21:30:53 | INFO     | src.config.loader:load_config:42 - Loaded configuration from USER-FILES/01.CONFIG/config.yaml
+2025-11-05 21:30:53 | INFO     | __main__:authenticate_for_mode:273 - Authenticating with 1Password...
+2025-11-05 21:30:54 | DEBUG    | src.auth.session_manager:ensure_op_auth:39 - 1Password session is active
+2025-11-05 21:30:55 | DEBUG    | src.auth.session_manager:ensure_op_auth:39 - 1Password session is active
+2025-11-05 21:30:55 | DEBUG    | src.auth.auth:load_auth_config:28 - Using auth config: auth_ruben.yaml
+2025-11-05 21:30:56 | DEBUG    | src.auth.auth:get_api_key:77 - Retrieved API key: r8_K...
+2025-11-05 21:30:56 | INFO     | __main__:discover_inputs_and_profiles:92 - Discovering inputs...
+2025-11-05 21:30:56 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: modernism_007.txt
+2025-11-05 21:30:56 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: modernism_013.txt
+2025-11-05 21:30:56 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: modernism_012.txt
+2025-11-05 21:30:56 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: modernism_006.txt
+2025-11-05 21:30:56 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: modernism_010.txt
+2025-11-05 21:30:56 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: modernism_004.txt
+2025-11-05 21:30:56 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: modernism_005.txt
+2025-11-05 21:30:56 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: modernism_011.txt
+2025-11-05 21:30:56 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: modernism_015.txt
+2025-11-05 21:30:56 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: modernism_001.txt
+2025-11-05 21:30:56 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: modernism_014.txt
+2025-11-05 21:30:56 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: modernism_002.txt
+2025-11-05 21:30:56 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: modernism_016.txt
+2025-11-05 21:30:56 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: modernism_017.txt
+2025-11-05 21:30:56 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: modernism_003.txt
+2025-11-05 21:30:56 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: modernism_026.txt
+2025-11-05 21:30:56 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: modernism_027.txt
+2025-11-05 21:30:56 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: modernism_019.txt
+2025-11-05 21:30:56 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: modernism_025.txt
+2025-11-05 21:30:56 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: modernism_024.txt
+2025-11-05 21:30:56 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: modernism_018.txt
+2025-11-05 21:30:56 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: modernism_020.txt
+2025-11-05 21:30:56 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: modernism_008.txt
+2025-11-05 21:30:56 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: modernism_009.txt
+2025-11-05 21:30:56 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: modernism_021.txt
+2025-11-05 21:30:56 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: modernism_023.txt
+2025-11-05 21:30:56 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: modernism_022.txt
+2025-11-05 21:30:56 | INFO     | src.processing.discovery:discover_prompt_files:45 - Discovered 27 prompt files
+2025-11-05 21:30:56 | DEBUG    | src.processing.discovery:discover_profiles:93 - Loaded profile: USER-FILES/03.PROFILES/nano-banano16x9_deakins.yaml
+2025-11-05 21:30:56 | INFO     | src.processing.discovery:discover_profiles:97 - Loaded 1 profiles
+2025-11-05 21:30:56 | INFO     | src.processing.discovery:get_active_models:135 - Found profile: nano-banano16x9_deakins
+2025-11-05 21:30:56 | INFO     | src.processing.discovery:get_active_models:140 - Total profiles to process: 1
+2025-11-05 21:30:56 | INFO     | src.config.validator:validate_all:26 - All configuration validation passed
+2025-11-05 21:30:56 | INFO     | __main__:initialize_services:186 - Output directory: USER-FILES/05.OUTPUT/251105_213056_IMAGE
+2025-11-05 21:30:56 | INFO     | __main__:execute_processing:221 - Starting matrix processing...
+2025-11-05 21:30:56 | DEBUG    | src.processing.validator:validate_operational_requirements:23 - Profile 'nano-banano16x9_deakins' operational validation passed
+2025-11-05 21:30:56 | INFO     | src.processing.processor:process_all:60 - Processing 27 combinations (27 files × 1 profiles)
+2025-11-05 21:30:56 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from modernism_001.txt
+2025-11-05 21:30:56 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 1/27: modernism_001.txt + nano-banano16x9_deakins
+2025-11-05 21:30:56 | DEBUG    | src.processing.processor:_apply_prompt_fixes:204 - Added prefix to prompt: A cinematic scene from the 
+2025-11-05 21:30:56 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 21:30:56 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing modernism_001.txt: A cinematic scene from the  1910s Västerås, steam ...
+2025-11-05 21:30:56 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-11-05 21:30:56 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  1910s V\u00e4ster\u00e5s, steam locomotive crossing a bridge over frozen water. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 21:30:56 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A cinematic scene from the  1910s Västerås, steam locomotive crossing a bridge over frozen water. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 21:30:56 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A cinematic scene from the  1910s Västerås, steam locomotive crossing a bridge over frozen water. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 21:30:56 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A cinematic scene from the  1910s Västerås, steam locomotive crossing a bridge over frozen water. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image'
+2025-11-05 21:30:56 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-11-05 21:30:56 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  1910s V\u00e4ster\u00e5s, steam locomotive crossing a bridge over frozen water. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 21:31:07 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-11-05 21:31:07 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-11-05 21:31:07 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-11-05 21:31:07 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-11-05 21:31:07 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-11-05 21:31:08 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251105_213056_IMAGE/modernism_001_IMAGE_213107_nano-banano16x9_deakins.png
+2025-11-05 21:31:08 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251105_213056_IMAGE/modernism_001_IMAGE_213107_nano-banano16x9_deakins.md
+2025-11-05 21:31:08 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251105_213056_IMAGE/modernism_001_IMAGE_213107_nano-banano16x9_deakins.png
+2025-11-05 21:31:08 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from modernism_002.txt
+2025-11-05 21:31:08 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 2/27: modernism_002.txt + nano-banano16x9_deakins
+2025-11-05 21:31:08 | DEBUG    | src.processing.processor:_apply_prompt_fixes:204 - Added prefix to prompt: A cinematic scene from the 
+2025-11-05 21:31:08 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 21:31:08 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing modernism_002.txt: A cinematic scene from the  1910s Borås, workers o...
+2025-11-05 21:31:08 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-11-05 21:31:08 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  1910s Bor\u00e5s, workers operating large textile looms inside a crowded factory hall. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 21:31:08 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A cinematic scene from the  1910s Borås, workers operating large textile looms inside a crowded factory hall. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 21:31:08 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A cinematic scene from the  1910s Borås, workers operating large textile looms inside a crowded factory hall. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 21:31:08 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A cinematic scene from the  1910s Borås, workers operating large textile looms inside a crowded factory hall. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image'
+2025-11-05 21:31:08 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-11-05 21:31:08 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  1910s Bor\u00e5s, workers operating large textile looms inside a crowded factory hall. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 21:31:19 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-11-05 21:31:19 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-11-05 21:31:19 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-11-05 21:31:19 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-11-05 21:31:19 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-11-05 21:31:20 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251105_213056_IMAGE/modernism_002_IMAGE_213119_nano-banano16x9_deakins.png
+2025-11-05 21:31:20 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251105_213056_IMAGE/modernism_002_IMAGE_213119_nano-banano16x9_deakins.md
+2025-11-05 21:31:20 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251105_213056_IMAGE/modernism_002_IMAGE_213119_nano-banano16x9_deakins.png
+2025-11-05 21:31:20 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from modernism_003.txt
+2025-11-05 21:31:20 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 3/27: modernism_003.txt + nano-banano16x9_deakins
+2025-11-05 21:31:20 | DEBUG    | src.processing.processor:_apply_prompt_fixes:204 - Added prefix to prompt: A cinematic scene from the 
+2025-11-05 21:31:20 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 21:31:20 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing modernism_003.txt: A cinematic scene from the  1910s Sandviken, men p...
+2025-11-05 21:31:20 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-11-05 21:31:20 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  1910s Sandviken, men pouring molten steel at the Sandvikens Jernverk plant. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 21:31:20 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A cinematic scene from the  1910s Sandviken, men pouring molten steel at the Sandvikens Jernverk plant. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 21:31:20 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A cinematic scene from the  1910s Sandviken, men pouring molten steel at the Sandvikens Jernverk plant. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 21:31:20 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A cinematic scene from the  1910s Sandviken, men pouring molten steel at the Sandvikens Jernverk plant. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image'
+2025-11-05 21:31:20 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-11-05 21:31:20 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  1910s Sandviken, men pouring molten steel at the Sandvikens Jernverk plant. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 21:31:30 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-11-05 21:31:30 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-11-05 21:31:30 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-11-05 21:31:30 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-11-05 21:31:30 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-11-05 21:31:32 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251105_213056_IMAGE/modernism_003_IMAGE_213130_nano-banano16x9_deakins.png
+2025-11-05 21:31:32 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251105_213056_IMAGE/modernism_003_IMAGE_213130_nano-banano16x9_deakins.md
+2025-11-05 21:31:32 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251105_213056_IMAGE/modernism_003_IMAGE_213130_nano-banano16x9_deakins.png
+2025-11-05 21:31:32 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from modernism_004.txt
+2025-11-05 21:31:32 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 4/27: modernism_004.txt + nano-banano16x9_deakins
+2025-11-05 21:31:32 | DEBUG    | src.processing.processor:_apply_prompt_fixes:204 - Added prefix to prompt: A cinematic scene from the 
+2025-11-05 21:31:32 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 21:31:32 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing modernism_004.txt: A cinematic scene from the  1910s Kiruna, miners s...
+2025-11-05 21:31:32 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-11-05 21:31:32 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  1910s Kiruna, miners standing with tools and helmets outside the iron mine entrance. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 21:31:32 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A cinematic scene from the  1910s Kiruna, miners standing with tools and helmets outside the iron mine entrance. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 21:31:32 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A cinematic scene from the  1910s Kiruna, miners standing with tools and helmets outside the iron mine entrance. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 21:31:32 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A cinematic scene from the  1910s Kiruna, miners standing with tools and helmets outside the iron mine entrance. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image'
+2025-11-05 21:31:32 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-11-05 21:31:32 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  1910s Kiruna, miners standing with tools and helmets outside the iron mine entrance. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 21:31:43 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-11-05 21:31:43 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-11-05 21:31:43 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-11-05 21:31:43 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-11-05 21:31:43 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-11-05 21:31:45 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251105_213056_IMAGE/modernism_004_IMAGE_213143_nano-banano16x9_deakins.png
+2025-11-05 21:31:45 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251105_213056_IMAGE/modernism_004_IMAGE_213143_nano-banano16x9_deakins.md
+2025-11-05 21:31:45 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251105_213056_IMAGE/modernism_004_IMAGE_213143_nano-banano16x9_deakins.png
+2025-11-05 21:31:45 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from modernism_005.txt
+2025-11-05 21:31:45 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 5/27: modernism_005.txt + nano-banano16x9_deakins
+2025-11-05 21:31:45 | DEBUG    | src.processing.processor:_apply_prompt_fixes:204 - Added prefix to prompt: A cinematic scene from the 
+2025-11-05 21:31:45 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 21:31:45 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing modernism_005.txt: A cinematic scene from the  1910s Gothenburg, dock...
+2025-11-05 21:31:45 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-11-05 21:31:45 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  1910s Gothenburg, dockworkers loading wooden crates onto a steamship at the harbor. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 21:31:45 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A cinematic scene from the  1910s Gothenburg, dockworkers loading wooden crates onto a steamship at the harbor. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 21:31:45 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A cinematic scene from the  1910s Gothenburg, dockworkers loading wooden crates onto a steamship at the harbor. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 21:31:45 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A cinematic scene from the  1910s Gothenburg, dockworkers loading wooden crates onto a steamship at the harbor. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image'
+2025-11-05 21:31:45 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-11-05 21:31:45 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  1910s Gothenburg, dockworkers loading wooden crates onto a steamship at the harbor. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 21:31:55 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-11-05 21:31:55 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-11-05 21:31:55 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-11-05 21:31:55 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-11-05 21:31:55 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-11-05 21:31:56 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251105_213056_IMAGE/modernism_005_IMAGE_213155_nano-banano16x9_deakins.png
+2025-11-05 21:31:56 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251105_213056_IMAGE/modernism_005_IMAGE_213155_nano-banano16x9_deakins.md
+2025-11-05 21:31:56 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251105_213056_IMAGE/modernism_005_IMAGE_213155_nano-banano16x9_deakins.png
+2025-11-05 21:31:56 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from modernism_006.txt
+2025-11-05 21:31:56 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 6/27: modernism_006.txt + nano-banano16x9_deakins
+2025-11-05 21:31:56 | DEBUG    | src.processing.processor:_apply_prompt_fixes:204 - Added prefix to prompt: A cinematic scene from the 
+2025-11-05 21:31:56 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 21:31:56 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing modernism_006.txt: A cinematic scene from the  1920s Stockholm, rows ...
+2025-11-05 21:31:56 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-11-05 21:31:56 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  1920s Stockholm, rows of women operating telephones in a manual exchange office. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 21:31:56 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A cinematic scene from the  1920s Stockholm, rows of women operating telephones in a manual exchange office. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 21:31:56 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A cinematic scene from the  1920s Stockholm, rows of women operating telephones in a manual exchange office. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 21:31:56 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A cinematic scene from the  1920s Stockholm, rows of women operating telephones in a manual exchange office. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image'
+2025-11-05 21:31:56 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-11-05 21:31:56 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  1920s Stockholm, rows of women operating telephones in a manual exchange office. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 21:32:07 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-11-05 21:32:07 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-11-05 21:32:07 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-11-05 21:32:07 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-11-05 21:32:07 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-11-05 21:32:08 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251105_213056_IMAGE/modernism_006_IMAGE_213207_nano-banano16x9_deakins.png
+2025-11-05 21:32:08 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251105_213056_IMAGE/modernism_006_IMAGE_213207_nano-banano16x9_deakins.md
+2025-11-05 21:32:08 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251105_213056_IMAGE/modernism_006_IMAGE_213207_nano-banano16x9_deakins.png
+2025-11-05 21:32:08 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from modernism_007.txt
+2025-11-05 21:32:08 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 7/27: modernism_007.txt + nano-banano16x9_deakins
+2025-11-05 21:32:08 | DEBUG    | src.processing.processor:_apply_prompt_fixes:204 - Added prefix to prompt: A cinematic scene from the 
+2025-11-05 21:32:08 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 21:32:08 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing modernism_007.txt: A cinematic scene from the  1920s Stockholm, elect...
+2025-11-05 21:32:08 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-11-05 21:32:08 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  1920s Stockholm, electric trams moving down Drottninggatan lined with pedestrians. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 21:32:08 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A cinematic scene from the  1920s Stockholm, electric trams moving down Drottninggatan lined with pedestrians. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 21:32:08 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A cinematic scene from the  1920s Stockholm, electric trams moving down Drottninggatan lined with pedestrians. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 21:32:08 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A cinematic scene from the  1920s Stockholm, electric trams moving down Drottninggatan lined with pedestrians. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image'
+2025-11-05 21:32:08 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-11-05 21:32:08 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  1920s Stockholm, electric trams moving down Drottninggatan lined with pedestrians. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 21:32:17 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-11-05 21:32:17 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-11-05 21:32:17 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-11-05 21:32:17 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-11-05 21:32:17 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-11-05 21:32:18 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251105_213056_IMAGE/modernism_007_IMAGE_213217_nano-banano16x9_deakins.png
+2025-11-05 21:32:18 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251105_213056_IMAGE/modernism_007_IMAGE_213217_nano-banano16x9_deakins.md
+2025-11-05 21:32:18 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251105_213056_IMAGE/modernism_007_IMAGE_213217_nano-banano16x9_deakins.png
+2025-11-05 21:32:18 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from modernism_008.txt
+2025-11-05 21:32:18 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 8/27: modernism_008.txt + nano-banano16x9_deakins
+2025-11-05 21:32:18 | DEBUG    | src.processing.processor:_apply_prompt_fixes:204 - Added prefix to prompt: A cinematic scene from the 
+2025-11-05 21:32:18 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 21:32:18 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing modernism_008.txt: A cinematic scene from the  1920s Stockholm, Norrm...
+2025-11-05 21:32:18 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-11-05 21:32:18 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  1920s Stockholm, Norrmalmstorg square illuminated by electric streetlights at night. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 21:32:18 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A cinematic scene from the  1920s Stockholm, Norrmalmstorg square illuminated by electric streetlights at night. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 21:32:18 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A cinematic scene from the  1920s Stockholm, Norrmalmstorg square illuminated by electric streetlights at night. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 21:32:18 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A cinematic scene from the  1920s Stockholm, Norrmalmstorg square illuminated by electric streetlights at night. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image'
+2025-11-05 21:32:18 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-11-05 21:32:18 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  1920s Stockholm, Norrmalmstorg square illuminated by electric streetlights at night. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 21:32:28 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-11-05 21:32:28 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-11-05 21:32:28 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-11-05 21:32:28 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-11-05 21:32:28 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-11-05 21:32:30 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251105_213056_IMAGE/modernism_008_IMAGE_213228_nano-banano16x9_deakins.png
+2025-11-05 21:32:30 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251105_213056_IMAGE/modernism_008_IMAGE_213228_nano-banano16x9_deakins.md
+2025-11-05 21:32:30 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251105_213056_IMAGE/modernism_008_IMAGE_213228_nano-banano16x9_deakins.png
+2025-11-05 21:32:30 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from modernism_009.txt
+2025-11-05 21:32:30 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 9/27: modernism_009.txt + nano-banano16x9_deakins
+2025-11-05 21:32:30 | DEBUG    | src.processing.processor:_apply_prompt_fixes:204 - Added prefix to prompt: A cinematic scene from the 
+2025-11-05 21:32:30 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 21:32:30 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing modernism_009.txt: A cinematic scene from the  1920s Stockholm, const...
+2025-11-05 21:32:30 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-11-05 21:32:30 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  1920s Stockholm, construction workers building new apartment blocks in S\u00f6dermalm. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 21:32:30 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A cinematic scene from the  1920s Stockholm, construction workers building new apartment blocks in Södermalm. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 21:32:30 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A cinematic scene from the  1920s Stockholm, construction workers building new apartment blocks in Södermalm. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 21:32:30 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A cinematic scene from the  1920s Stockholm, construction workers building new apartment blocks in Södermalm. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image'
+2025-11-05 21:32:30 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-11-05 21:32:30 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  1920s Stockholm, construction workers building new apartment blocks in S\u00f6dermalm. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 21:32:41 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-11-05 21:32:41 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-11-05 21:32:41 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-11-05 21:32:41 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-11-05 21:32:41 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-11-05 21:32:42 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251105_213056_IMAGE/modernism_009_IMAGE_213241_nano-banano16x9_deakins.png
+2025-11-05 21:32:42 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251105_213056_IMAGE/modernism_009_IMAGE_213241_nano-banano16x9_deakins.md
+2025-11-05 21:32:42 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251105_213056_IMAGE/modernism_009_IMAGE_213241_nano-banano16x9_deakins.png
+2025-11-05 21:32:42 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from modernism_010.txt
+2025-11-05 21:32:42 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 10/27: modernism_010.txt + nano-banano16x9_deakins
+2025-11-05 21:32:42 | DEBUG    | src.processing.processor:_apply_prompt_fixes:204 - Added prefix to prompt: A cinematic scene from the 
+2025-11-05 21:32:42 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 21:32:42 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing modernism_010.txt: A cinematic scene from the  1920s Stockholm, women...
+2025-11-05 21:32:42 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-11-05 21:32:42 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  1920s Stockholm, women typing at desks in a modern office with electric lamps. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 21:32:42 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A cinematic scene from the  1920s Stockholm, women typing at desks in a modern office with electric lamps. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 21:32:42 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A cinematic scene from the  1920s Stockholm, women typing at desks in a modern office with electric lamps. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 21:32:42 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A cinematic scene from the  1920s Stockholm, women typing at desks in a modern office with electric lamps. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image'
+2025-11-05 21:32:42 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-11-05 21:32:42 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  1920s Stockholm, women typing at desks in a modern office with electric lamps. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 21:32:51 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-11-05 21:32:51 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-11-05 21:32:51 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-11-05 21:32:51 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-11-05 21:32:51 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-11-05 21:32:52 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251105_213056_IMAGE/modernism_010_IMAGE_213251_nano-banano16x9_deakins.png
+2025-11-05 21:32:52 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251105_213056_IMAGE/modernism_010_IMAGE_213251_nano-banano16x9_deakins.md
+2025-11-05 21:32:52 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251105_213056_IMAGE/modernism_010_IMAGE_213251_nano-banano16x9_deakins.png
+2025-11-05 21:32:52 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from modernism_011.txt
+2025-11-05 21:32:52 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 11/27: modernism_011.txt + nano-banano16x9_deakins
+2025-11-05 21:32:52 | DEBUG    | src.processing.processor:_apply_prompt_fixes:204 - Added prefix to prompt: A cinematic scene from the 
+2025-11-05 21:32:52 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 21:32:52 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing modernism_011.txt: A cinematic scene from the  1920s Stockholm, early...
+2025-11-05 21:32:52 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-11-05 21:32:52 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  1920s Stockholm, early automobiles passing horse-drawn carts on cobblestone streets. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 21:32:52 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A cinematic scene from the  1920s Stockholm, early automobiles passing horse-drawn carts on cobblestone streets. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 21:32:52 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A cinematic scene from the  1920s Stockholm, early automobiles passing horse-drawn carts on cobblestone streets. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 21:32:52 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A cinematic scene from the  1920s Stockholm, early automobiles passing horse-drawn carts on cobblestone streets. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image'
+2025-11-05 21:32:52 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-11-05 21:32:52 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  1920s Stockholm, early automobiles passing horse-drawn carts on cobblestone streets. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 21:33:01 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-11-05 21:33:01 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-11-05 21:33:01 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-11-05 21:33:01 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-11-05 21:33:01 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-11-05 21:33:02 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251105_213056_IMAGE/modernism_011_IMAGE_213301_nano-banano16x9_deakins.png
+2025-11-05 21:33:02 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251105_213056_IMAGE/modernism_011_IMAGE_213301_nano-banano16x9_deakins.md
+2025-11-05 21:33:02 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251105_213056_IMAGE/modernism_011_IMAGE_213301_nano-banano16x9_deakins.png
+2025-11-05 21:33:02 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from modernism_012.txt
+2025-11-05 21:33:02 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 12/27: modernism_012.txt + nano-banano16x9_deakins
+2025-11-05 21:33:02 | DEBUG    | src.processing.processor:_apply_prompt_fixes:204 - Added prefix to prompt: A cinematic scene from the 
+2025-11-05 21:33:02 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 21:33:02 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing modernism_012.txt: A cinematic scene from the  1920s Stockholm, audie...
+2025-11-05 21:33:02 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-11-05 21:33:02 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  1920s Stockholm, audience seated inside a cinema watching a silent film. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 21:33:02 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A cinematic scene from the  1920s Stockholm, audience seated inside a cinema watching a silent film. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 21:33:02 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A cinematic scene from the  1920s Stockholm, audience seated inside a cinema watching a silent film. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 21:33:02 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A cinematic scene from the  1920s Stockholm, audience seated inside a cinema watching a silent film. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image'
+2025-11-05 21:33:02 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-11-05 21:33:02 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  1920s Stockholm, audience seated inside a cinema watching a silent film. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 21:33:11 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-11-05 21:33:11 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-11-05 21:33:11 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-11-05 21:33:11 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-11-05 21:33:11 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-11-05 21:33:12 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251105_213056_IMAGE/modernism_012_IMAGE_213311_nano-banano16x9_deakins.png
+2025-11-05 21:33:12 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251105_213056_IMAGE/modernism_012_IMAGE_213311_nano-banano16x9_deakins.md
+2025-11-05 21:33:12 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251105_213056_IMAGE/modernism_012_IMAGE_213311_nano-banano16x9_deakins.png
+2025-11-05 21:33:12 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from modernism_013.txt
+2025-11-05 21:33:12 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 13/27: modernism_013.txt + nano-banano16x9_deakins
+2025-11-05 21:33:12 | DEBUG    | src.processing.processor:_apply_prompt_fixes:204 - Added prefix to prompt: A cinematic scene from the 
+2025-11-05 21:33:12 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 21:33:12 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing modernism_013.txt: A cinematic scene from the  1920s Stockholm, radio...
+2025-11-05 21:33:12 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-11-05 21:33:12 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  1920s Stockholm, radio technicians adjusting equipment in a broadcasting room. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 21:33:12 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A cinematic scene from the  1920s Stockholm, radio technicians adjusting equipment in a broadcasting room. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 21:33:12 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A cinematic scene from the  1920s Stockholm, radio technicians adjusting equipment in a broadcasting room. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 21:33:12 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A cinematic scene from the  1920s Stockholm, radio technicians adjusting equipment in a broadcasting room. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image'
+2025-11-05 21:33:12 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-11-05 21:33:12 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  1920s Stockholm, radio technicians adjusting equipment in a broadcasting room. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 21:33:23 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-11-05 21:33:23 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-11-05 21:33:23 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-11-05 21:33:23 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-11-05 21:33:23 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-11-05 21:33:23 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251105_213056_IMAGE/modernism_013_IMAGE_213323_nano-banano16x9_deakins.png
+2025-11-05 21:33:23 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251105_213056_IMAGE/modernism_013_IMAGE_213323_nano-banano16x9_deakins.md
+2025-11-05 21:33:23 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251105_213056_IMAGE/modernism_013_IMAGE_213323_nano-banano16x9_deakins.png
+2025-11-05 21:33:23 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from modernism_014.txt
+2025-11-05 21:33:23 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 14/27: modernism_014.txt + nano-banano16x9_deakins
+2025-11-05 21:33:23 | DEBUG    | src.processing.processor:_apply_prompt_fixes:204 - Added prefix to prompt: A cinematic scene from the 
+2025-11-05 21:33:23 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 21:33:23 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing modernism_014.txt: A cinematic scene from the  1920s Stockholm, peopl...
+2025-11-05 21:33:23 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-11-05 21:33:23 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  1920s Stockholm, people sitting at caf\u00e9 tables reading morning newspapers. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 21:33:23 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A cinematic scene from the  1920s Stockholm, people sitting at café tables reading morning newspapers. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 21:33:23 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A cinematic scene from the  1920s Stockholm, people sitting at café tables reading morning newspapers. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 21:33:23 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A cinematic scene from the  1920s Stockholm, people sitting at café tables reading morning newspapers. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image'
+2025-11-05 21:33:23 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-11-05 21:33:23 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  1920s Stockholm, people sitting at caf\u00e9 tables reading morning newspapers. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 21:33:32 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-11-05 21:33:32 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-11-05 21:33:32 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-11-05 21:33:32 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-11-05 21:33:32 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-11-05 21:33:33 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251105_213056_IMAGE/modernism_014_IMAGE_213332_nano-banano16x9_deakins.png
+2025-11-05 21:33:33 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251105_213056_IMAGE/modernism_014_IMAGE_213332_nano-banano16x9_deakins.md
+2025-11-05 21:33:33 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251105_213056_IMAGE/modernism_014_IMAGE_213332_nano-banano16x9_deakins.png
+2025-11-05 21:33:33 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from modernism_015.txt
+2025-11-05 21:33:33 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 15/27: modernism_015.txt + nano-banano16x9_deakins
+2025-11-05 21:33:33 | DEBUG    | src.processing.processor:_apply_prompt_fixes:204 - Added prefix to prompt: A cinematic scene from the 
+2025-11-05 21:33:33 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 21:33:33 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing modernism_015.txt: A cinematic scene from the  1910s Gothenburg, stea...
+2025-11-05 21:33:33 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-11-05 21:33:33 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  1910s Gothenburg, steamship departing the harbor with smoke rising from its funnel. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 21:33:33 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A cinematic scene from the  1910s Gothenburg, steamship departing the harbor with smoke rising from its funnel. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 21:33:33 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A cinematic scene from the  1910s Gothenburg, steamship departing the harbor with smoke rising from its funnel. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 21:33:33 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A cinematic scene from the  1910s Gothenburg, steamship departing the harbor with smoke rising from its funnel. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image'
+2025-11-05 21:33:33 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-11-05 21:33:33 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  1910s Gothenburg, steamship departing the harbor with smoke rising from its funnel. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 21:33:44 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-11-05 21:33:44 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-11-05 21:33:44 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-11-05 21:33:44 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-11-05 21:33:44 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-11-05 21:33:45 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251105_213056_IMAGE/modernism_015_IMAGE_213344_nano-banano16x9_deakins.png
+2025-11-05 21:33:45 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251105_213056_IMAGE/modernism_015_IMAGE_213344_nano-banano16x9_deakins.md
+2025-11-05 21:33:45 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251105_213056_IMAGE/modernism_015_IMAGE_213344_nano-banano16x9_deakins.png
+2025-11-05 21:33:45 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from modernism_016.txt
+2025-11-05 21:33:45 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 16/27: modernism_016.txt + nano-banano16x9_deakins
+2025-11-05 21:33:45 | DEBUG    | src.processing.processor:_apply_prompt_fixes:204 - Added prefix to prompt: A cinematic scene from the 
+2025-11-05 21:33:45 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 21:33:45 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing modernism_016.txt: A cinematic scene from the  1910s Uppsala, student...
+2025-11-05 21:33:45 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-11-05 21:33:45 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  1910s Uppsala, students and professors walking through the university courtyard. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 21:33:45 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A cinematic scene from the  1910s Uppsala, students and professors walking through the university courtyard. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 21:33:45 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A cinematic scene from the  1910s Uppsala, students and professors walking through the university courtyard. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 21:33:45 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A cinematic scene from the  1910s Uppsala, students and professors walking through the university courtyard. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image'
+2025-11-05 21:33:45 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-11-05 21:33:45 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  1910s Uppsala, students and professors walking through the university courtyard. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 21:33:56 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-11-05 21:33:56 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-11-05 21:33:56 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-11-05 21:33:56 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-11-05 21:33:56 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-11-05 21:33:57 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251105_213056_IMAGE/modernism_016_IMAGE_213356_nano-banano16x9_deakins.png
+2025-11-05 21:33:57 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251105_213056_IMAGE/modernism_016_IMAGE_213356_nano-banano16x9_deakins.md
+2025-11-05 21:33:57 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251105_213056_IMAGE/modernism_016_IMAGE_213356_nano-banano16x9_deakins.png
+2025-11-05 21:33:57 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from modernism_017.txt
+2025-11-05 21:33:57 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 17/27: modernism_017.txt + nano-banano16x9_deakins
+2025-11-05 21:33:57 | DEBUG    | src.processing.processor:_apply_prompt_fixes:204 - Added prefix to prompt: A cinematic scene from the 
+2025-11-05 21:33:57 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 21:33:57 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing modernism_017.txt: A cinematic scene from the  1920s Dalarna, power l...
+2025-11-05 21:33:57 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-11-05 21:33:57 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  1920s Dalarna, power lines running across rural fields and forested hills. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 21:33:57 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A cinematic scene from the  1920s Dalarna, power lines running across rural fields and forested hills. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 21:33:57 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A cinematic scene from the  1920s Dalarna, power lines running across rural fields and forested hills. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 21:33:57 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A cinematic scene from the  1920s Dalarna, power lines running across rural fields and forested hills. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image'
+2025-11-05 21:33:57 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-11-05 21:33:57 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  1920s Dalarna, power lines running across rural fields and forested hills. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 21:34:06 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-11-05 21:34:06 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-11-05 21:34:06 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-11-05 21:34:06 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-11-05 21:34:06 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-11-05 21:34:07 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251105_213056_IMAGE/modernism_017_IMAGE_213406_nano-banano16x9_deakins.png
+2025-11-05 21:34:07 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251105_213056_IMAGE/modernism_017_IMAGE_213406_nano-banano16x9_deakins.md
+2025-11-05 21:34:07 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251105_213056_IMAGE/modernism_017_IMAGE_213406_nano-banano16x9_deakins.png
+2025-11-05 21:34:07 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from modernism_018.txt
+2025-11-05 21:34:07 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 18/27: modernism_018.txt + nano-banano16x9_deakins
+2025-11-05 21:34:07 | DEBUG    | src.processing.processor:_apply_prompt_fixes:204 - Added prefix to prompt: A cinematic scene from the 
+2025-11-05 21:34:07 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 21:34:07 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing modernism_018.txt: A cinematic scene from the  1920s Skåne, farmers u...
+2025-11-05 21:34:07 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-11-05 21:34:07 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  1920s Sk\u00e5ne, farmers using an early tractor to plow open farmland. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 21:34:07 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A cinematic scene from the  1920s Skåne, farmers using an early tractor to plow open farmland. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 21:34:07 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A cinematic scene from the  1920s Skåne, farmers using an early tractor to plow open farmland. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 21:34:07 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A cinematic scene from the  1920s Skåne, farmers using an early tractor to plow open farmland. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image'
+2025-11-05 21:34:07 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-11-05 21:34:07 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  1920s Sk\u00e5ne, farmers using an early tractor to plow open farmland. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 21:34:17 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-11-05 21:34:17 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-11-05 21:34:17 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-11-05 21:34:17 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-11-05 21:34:17 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-11-05 21:34:18 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251105_213056_IMAGE/modernism_018_IMAGE_213417_nano-banano16x9_deakins.png
+2025-11-05 21:34:18 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251105_213056_IMAGE/modernism_018_IMAGE_213417_nano-banano16x9_deakins.md
+2025-11-05 21:34:18 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251105_213056_IMAGE/modernism_018_IMAGE_213417_nano-banano16x9_deakins.png
+2025-11-05 21:34:18 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from modernism_019.txt
+2025-11-05 21:34:18 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 19/27: modernism_019.txt + nano-banano16x9_deakins
+2025-11-05 21:34:18 | DEBUG    | src.processing.processor:_apply_prompt_fixes:204 - Added prefix to prompt: A cinematic scene from the 
+2025-11-05 21:34:18 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 21:34:18 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing modernism_019.txt: A cinematic scene from the  1920s Malmö, biplane p...
+2025-11-05 21:34:18 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-11-05 21:34:18 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  1920s Malm\u00f6, biplane parked at a small airfield surrounded by spectators. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 21:34:18 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A cinematic scene from the  1920s Malmö, biplane parked at a small airfield surrounded by spectators. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 21:34:18 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A cinematic scene from the  1920s Malmö, biplane parked at a small airfield surrounded by spectators. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 21:34:18 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A cinematic scene from the  1920s Malmö, biplane parked at a small airfield surrounded by spectators. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image'
+2025-11-05 21:34:18 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-11-05 21:34:18 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  1920s Malm\u00f6, biplane parked at a small airfield surrounded by spectators. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 21:34:27 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-11-05 21:34:27 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-11-05 21:34:27 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-11-05 21:34:27 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-11-05 21:34:27 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-11-05 21:34:29 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251105_213056_IMAGE/modernism_019_IMAGE_213427_nano-banano16x9_deakins.png
+2025-11-05 21:34:29 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251105_213056_IMAGE/modernism_019_IMAGE_213427_nano-banano16x9_deakins.md
+2025-11-05 21:34:29 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251105_213056_IMAGE/modernism_019_IMAGE_213427_nano-banano16x9_deakins.png
+2025-11-05 21:34:29 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from modernism_020.txt
+2025-11-05 21:34:29 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 20/27: modernism_020.txt + nano-banano16x9_deakins
+2025-11-05 21:34:29 | DEBUG    | src.processing.processor:_apply_prompt_fixes:204 - Added prefix to prompt: A cinematic scene from the 
+2025-11-05 21:34:29 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 21:34:29 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing modernism_020.txt: A cinematic scene from the  1920s Eskilstuna, fact...
+2025-11-05 21:34:29 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-11-05 21:34:29 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  1920s Eskilstuna, factory workers walking out through the industrial gate after a shift. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 21:34:29 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A cinematic scene from the  1920s Eskilstuna, factory workers walking out through the industrial gate after a shift. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 21:34:29 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A cinematic scene from the  1920s Eskilstuna, factory workers walking out through the industrial gate after a shift. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 21:34:29 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A cinematic scene from the  1920s Eskilstuna, factory workers walking out through the industrial gate after a shift. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image'
+2025-11-05 21:34:29 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-11-05 21:34:29 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  1920s Eskilstuna, factory workers walking out through the industrial gate after a shift. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 21:34:39 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-11-05 21:34:39 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-11-05 21:34:39 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-11-05 21:34:39 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-11-05 21:34:39 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-11-05 21:34:40 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251105_213056_IMAGE/modernism_020_IMAGE_213439_nano-banano16x9_deakins.png
+2025-11-05 21:34:40 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251105_213056_IMAGE/modernism_020_IMAGE_213439_nano-banano16x9_deakins.md
+2025-11-05 21:34:40 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251105_213056_IMAGE/modernism_020_IMAGE_213439_nano-banano16x9_deakins.png
+2025-11-05 21:34:40 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from modernism_021.txt
+2025-11-05 21:34:40 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 21/27: modernism_021.txt + nano-banano16x9_deakins
+2025-11-05 21:34:40 | DEBUG    | src.processing.processor:_apply_prompt_fixes:204 - Added prefix to prompt: A cinematic scene from the 
+2025-11-05 21:34:40 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 21:34:40 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing modernism_021.txt: A cinematic scene from the  1920s Malmö, airplanes...
+2025-11-05 21:34:40 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-11-05 21:34:40 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  1920s Malm\u00f6, airplanes circling a massive zeppelin drifting above the city skyline. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 21:34:40 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A cinematic scene from the  1920s Malmö, airplanes circling a massive zeppelin drifting above the city skyline. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 21:34:40 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A cinematic scene from the  1920s Malmö, airplanes circling a massive zeppelin drifting above the city skyline. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 21:34:40 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A cinematic scene from the  1920s Malmö, airplanes circling a massive zeppelin drifting above the city skyline. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image'
+2025-11-05 21:34:40 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-11-05 21:34:40 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  1920s Malm\u00f6, airplanes circling a massive zeppelin drifting above the city skyline. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 21:34:49 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-11-05 21:34:49 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-11-05 21:34:49 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-11-05 21:34:49 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-11-05 21:34:49 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-11-05 21:34:50 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251105_213056_IMAGE/modernism_021_IMAGE_213449_nano-banano16x9_deakins.png
+2025-11-05 21:34:50 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251105_213056_IMAGE/modernism_021_IMAGE_213449_nano-banano16x9_deakins.md
+2025-11-05 21:34:50 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251105_213056_IMAGE/modernism_021_IMAGE_213449_nano-banano16x9_deakins.png
+2025-11-05 21:34:50 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from modernism_022.txt
+2025-11-05 21:34:50 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 22/27: modernism_022.txt + nano-banano16x9_deakins
+2025-11-05 21:34:50 | DEBUG    | src.processing.processor:_apply_prompt_fixes:204 - Added prefix to prompt: A cinematic scene from the 
+2025-11-05 21:34:50 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 21:34:50 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing modernism_022.txt: A cinematic scene from the  1920s Stockholm, rows ...
+2025-11-05 21:34:50 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-11-05 21:34:50 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  1920s Stockholm, rows of wide-eyed teenagers sitting in a dark cinema, their faces softly illuminated by the flicker of the movie screen. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 21:34:50 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A cinematic scene from the  1920s Stockholm, rows of wide-eyed teenagers sitting in a dark cinema, their faces softly illuminated by the flicker of the movie screen. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 21:34:50 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A cinematic scene from the  1920s Stockholm, rows of wide-eyed teenagers sitting in a dark cinema, their faces softly illuminated by the flicker of the movie screen. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 21:34:50 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A cinematic scene from the  1920s Stockholm, rows of wide-eyed teenagers sitting in a dark cinema, their faces softly illuminated by the flicker of the movie screen. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image'
+2025-11-05 21:34:50 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-11-05 21:34:50 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  1920s Stockholm, rows of wide-eyed teenagers sitting in a dark cinema, their faces softly illuminated by the flicker of the movie screen. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 21:35:02 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-11-05 21:35:02 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-11-05 21:35:02 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-11-05 21:35:02 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-11-05 21:35:02 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-11-05 21:35:03 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251105_213056_IMAGE/modernism_022_IMAGE_213502_nano-banano16x9_deakins.png
+2025-11-05 21:35:03 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251105_213056_IMAGE/modernism_022_IMAGE_213502_nano-banano16x9_deakins.md
+2025-11-05 21:35:03 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251105_213056_IMAGE/modernism_022_IMAGE_213502_nano-banano16x9_deakins.png
+2025-11-05 21:35:03 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from modernism_023.txt
+2025-11-05 21:35:03 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 23/27: modernism_023.txt + nano-banano16x9_deakins
+2025-11-05 21:35:03 | DEBUG    | src.processing.processor:_apply_prompt_fixes:204 - Added prefix to prompt: A cinematic scene from the 
+2025-11-05 21:35:03 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 21:35:03 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing modernism_023.txt: A cinematic scene from the  1920s Stockholm, a tec...
+2025-11-05 21:35:03 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-11-05 21:35:03 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  1920s Stockholm, a technician hanging from a telephone pole repairing cables, with a sprawling connection station visible on a rooftop in the distance. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 21:35:03 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A cinematic scene from the  1920s Stockholm, a technician hanging from a telephone pole repairing cables, with a sprawling connection station visible on a rooftop in the distance. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 21:35:03 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A cinematic scene from the  1920s Stockholm, a technician hanging from a telephone pole repairing cables, with a sprawling connection station visible on a rooftop in the distance. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 21:35:03 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A cinematic scene from the  1920s Stockholm, a technician hanging from a telephone pole repairing cables, with a sprawling connection station visible on a rooftop in the distance. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image'
+2025-11-05 21:35:03 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-11-05 21:35:03 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  1920s Stockholm, a technician hanging from a telephone pole repairing cables, with a sprawling connection station visible on a rooftop in the distance. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 21:35:12 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-11-05 21:35:12 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-11-05 21:35:12 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-11-05 21:35:12 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-11-05 21:35:12 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-11-05 21:35:13 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251105_213056_IMAGE/modernism_023_IMAGE_213512_nano-banano16x9_deakins.png
+2025-11-05 21:35:13 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251105_213056_IMAGE/modernism_023_IMAGE_213512_nano-banano16x9_deakins.md
+2025-11-05 21:35:13 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251105_213056_IMAGE/modernism_023_IMAGE_213512_nano-banano16x9_deakins.png
+2025-11-05 21:35:13 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from modernism_024.txt
+2025-11-05 21:35:13 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 24/27: modernism_024.txt + nano-banano16x9_deakins
+2025-11-05 21:35:13 | DEBUG    | src.processing.processor:_apply_prompt_fixes:204 - Added prefix to prompt: A cinematic scene from the 
+2025-11-05 21:35:13 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 21:35:13 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing modernism_024.txt: A cinematic scene from the  1910s Värnamo, village...
+2025-11-05 21:35:13 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-11-05 21:35:13 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  1910s V\u00e4rnamo, villagers gathered around a parked cabriolet car in the town square, the driver sitting proudly behind the wheel. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 21:35:13 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A cinematic scene from the  1910s Värnamo, villagers gathered around a parked cabriolet car in the town square, the driver sitting proudly behind the wheel. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 21:35:13 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A cinematic scene from the  1910s Värnamo, villagers gathered around a parked cabriolet car in the town square, the driver sitting proudly behind the wheel. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 21:35:13 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A cinematic scene from the  1910s Värnamo, villagers gathered around a parked cabriolet car in the town square, the driver sitting proudly behind the wheel. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image'
+2025-11-05 21:35:13 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-11-05 21:35:13 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  1910s V\u00e4rnamo, villagers gathered around a parked cabriolet car in the town square, the driver sitting proudly behind the wheel. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 21:35:24 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-11-05 21:35:24 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-11-05 21:35:24 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-11-05 21:35:24 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-11-05 21:35:24 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-11-05 21:35:25 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251105_213056_IMAGE/modernism_024_IMAGE_213524_nano-banano16x9_deakins.png
+2025-11-05 21:35:25 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251105_213056_IMAGE/modernism_024_IMAGE_213524_nano-banano16x9_deakins.md
+2025-11-05 21:35:25 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251105_213056_IMAGE/modernism_024_IMAGE_213524_nano-banano16x9_deakins.png
+2025-11-05 21:35:25 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from modernism_025.txt
+2025-11-05 21:35:25 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 25/27: modernism_025.txt + nano-banano16x9_deakins
+2025-11-05 21:35:25 | DEBUG    | src.processing.processor:_apply_prompt_fixes:204 - Added prefix to prompt: A cinematic scene from the 
+2025-11-05 21:35:25 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 21:35:25 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing modernism_025.txt: A cinematic scene from the  1920s Stockholm, a wel...
+2025-11-05 21:35:25 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-11-05 21:35:25 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  1920s Stockholm, a welder fusing steel beams high above the ground at a large construction site, sparks scattering in the cold air. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 21:35:25 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A cinematic scene from the  1920s Stockholm, a welder fusing steel beams high above the ground at a large construction site, sparks scattering in the cold air. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 21:35:25 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A cinematic scene from the  1920s Stockholm, a welder fusing steel beams high above the ground at a large construction site, sparks scattering in the cold air. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 21:35:25 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A cinematic scene from the  1920s Stockholm, a welder fusing steel beams high above the ground at a large construction site, sparks scattering in the cold air. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image'
+2025-11-05 21:35:25 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-11-05 21:35:25 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  1920s Stockholm, a welder fusing steel beams high above the ground at a large construction site, sparks scattering in the cold air. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 21:35:34 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-11-05 21:35:34 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-11-05 21:35:34 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-11-05 21:35:34 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-11-05 21:35:34 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-11-05 21:35:35 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251105_213056_IMAGE/modernism_025_IMAGE_213534_nano-banano16x9_deakins.png
+2025-11-05 21:35:35 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251105_213056_IMAGE/modernism_025_IMAGE_213534_nano-banano16x9_deakins.md
+2025-11-05 21:35:35 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251105_213056_IMAGE/modernism_025_IMAGE_213534_nano-banano16x9_deakins.png
+2025-11-05 21:35:35 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from modernism_026.txt
+2025-11-05 21:35:35 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 26/27: modernism_026.txt + nano-banano16x9_deakins
+2025-11-05 21:35:35 | DEBUG    | src.processing.processor:_apply_prompt_fixes:204 - Added prefix to prompt: A cinematic scene from the 
+2025-11-05 21:35:35 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 21:35:35 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing modernism_026.txt: A cinematic scene from the  1920s Stockholm, a sec...
+2025-11-05 21:35:35 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-11-05 21:35:35 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  1920s Stockholm, a secretary in a large open office typing on a typewriter with a cigarette hanging from the corner of her mouth. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 21:35:35 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A cinematic scene from the  1920s Stockholm, a secretary in a large open office typing on a typewriter with a cigarette hanging from the corner of her mouth. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 21:35:35 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A cinematic scene from the  1920s Stockholm, a secretary in a large open office typing on a typewriter with a cigarette hanging from the corner of her mouth. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 21:35:35 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A cinematic scene from the  1920s Stockholm, a secretary in a large open office typing on a typewriter with a cigarette hanging from the corner of her mouth. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image'
+2025-11-05 21:35:35 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-11-05 21:35:35 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  1920s Stockholm, a secretary in a large open office typing on a typewriter with a cigarette hanging from the corner of her mouth. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 21:35:44 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-11-05 21:35:44 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-11-05 21:35:44 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-11-05 21:35:44 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-11-05 21:35:44 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-11-05 21:35:45 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251105_213056_IMAGE/modernism_026_IMAGE_213544_nano-banano16x9_deakins.png
+2025-11-05 21:35:45 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251105_213056_IMAGE/modernism_026_IMAGE_213544_nano-banano16x9_deakins.md
+2025-11-05 21:35:45 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251105_213056_IMAGE/modernism_026_IMAGE_213544_nano-banano16x9_deakins.png
+2025-11-05 21:35:45 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from modernism_027.txt
+2025-11-05 21:35:45 | INFO     | src.processing.processor:_process_single_combination:119 - Processing combination 27/27: modernism_027.txt + nano-banano16x9_deakins
+2025-11-05 21:35:45 | DEBUG    | src.processing.processor:_apply_prompt_fixes:204 - Added prefix to prompt: A cinematic scene from the 
+2025-11-05 21:35:45 | DEBUG    | src.processing.processor:_apply_prompt_fixes:208 - Added suffix to prompt: Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 21:35:45 | DEBUG    | src.processing.processor:_process_with_context:186 - Processing modernism_027.txt: A cinematic scene from the  1920s Stockholm, two e...
+2025-11-05 21:35:45 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png"
+}
+2025-11-05 21:35:45 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  1920s Stockholm, two electric streetcars passing each other on Drottninggatan as pedestrians cross between them. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 21:35:45 | DEBUG    | src.api.client:generate_image:89 - Original prompt: A cinematic scene from the  1920s Stockholm, two electric streetcars passing each other on Drottninggatan as pedestrians cross between them. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 21:35:45 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: A cinematic scene from the  1920s Stockholm, two electric streetcars passing each other on Drottninggatan as pedestrians cross between them. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image
+2025-11-05 21:35:45 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'A cinematic scene from the  1920s Stockholm, two electric streetcars passing each other on Drottninggatan as pedestrians cross between them. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image'
+2025-11-05 21:35:45 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2025-11-05 21:35:45 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "image_input": [
+    "https://f003.backblazeb2.com/file/aspect-ratio-reference/aspect_ratio_reference_16x9.png"
+  ],
+  "output_format": "png",
+  "prompt": "A cinematic scene from the  1920s Stockholm, two electric streetcars passing each other on Drottninggatan as pedestrians cross between them. Shot on 35mm film in the style of Roger Deakins. Make the aspect ratio of the generated image the same as provided image"
+}
+2025-11-05 21:35:57 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2025-11-05 21:35:57 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2025-11-05 21:35:57 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana
+2025-11-05 21:35:57 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2025-11-05 21:35:57 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2025-11-05 21:35:58 | INFO     | src.output.writer:_save_to_disk:192 - Saved valid image: USER-FILES/05.OUTPUT/251105_213056_IMAGE/modernism_027_IMAGE_213557_nano-banano16x9_deakins.png
+2025-11-05 21:35:58 | DEBUG    | src.output.writer:_save_payload:257 - Saved payload to USER-FILES/05.OUTPUT/251105_213056_IMAGE/modernism_027_IMAGE_213557_nano-banano16x9_deakins.md
+2025-11-05 21:35:58 | INFO     | src.processing.processor:_generate_and_save_image:248 - Saved image: USER-FILES/05.OUTPUT/251105_213056_IMAGE/modernism_027_IMAGE_213557_nano-banano16x9_deakins.png
+2025-11-05 21:35:58 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from modernism_001.txt
+2025-11-05 21:35:58 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from modernism_002.txt
+2025-11-05 21:35:58 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from modernism_003.txt
+2025-11-05 21:35:58 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from modernism_004.txt
+2025-11-05 21:35:58 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from modernism_005.txt
+2025-11-05 21:35:58 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from modernism_006.txt
+2025-11-05 21:35:58 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from modernism_007.txt
+2025-11-05 21:35:58 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from modernism_008.txt
+2025-11-05 21:35:58 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from modernism_009.txt
+2025-11-05 21:35:58 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from modernism_010.txt
+2025-11-05 21:35:58 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from modernism_011.txt
+2025-11-05 21:35:58 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from modernism_012.txt
+2025-11-05 21:35:58 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from modernism_013.txt
+2025-11-05 21:35:58 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from modernism_014.txt
+2025-11-05 21:35:58 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from modernism_015.txt
+2025-11-05 21:35:58 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from modernism_016.txt
+2025-11-05 21:35:58 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from modernism_017.txt
+2025-11-05 21:35:58 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from modernism_018.txt
+2025-11-05 21:35:58 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from modernism_019.txt
+2025-11-05 21:35:58 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from modernism_020.txt
+2025-11-05 21:35:58 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from modernism_021.txt
+2025-11-05 21:35:58 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from modernism_022.txt
+2025-11-05 21:35:58 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from modernism_023.txt
+2025-11-05 21:35:58 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from modernism_024.txt
+2025-11-05 21:35:58 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from modernism_025.txt
+2025-11-05 21:35:58 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from modernism_026.txt
+2025-11-05 21:35:58 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from modernism_027.txt
+2025-11-05 21:35:58 | INFO     | src.output.writer:write_report:293 - Report saved: USER-FILES/05.OUTPUT/251105_213056_IMAGE/SUCCESS.md
+2025-11-05 21:35:58 | INFO     | src.output.writer:write_report:293 - Report saved: USER-FILES/05.OUTPUT/251105_213056_IMAGE/COST-REPORT.md
+2025-11-05 21:35:58 | INFO     | src.output.writer:write_report:293 - Report saved: USER-FILES/05.OUTPUT/251105_213056_IMAGE/PROFILES-WITH-FIXES.md
+2025-11-05 21:35:58 | INFO     | src.output.reporter:_save_success_reports:62 - Reports saved successfully
+2025-11-05 21:35:58 | SUCCESS  | __main__:generate_final_reports:264 - ✅ Completed successfully! Generated 27 images

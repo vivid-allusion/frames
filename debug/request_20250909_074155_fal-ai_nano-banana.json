@@ -1,0 +1,8 @@
+{
+  "endpoint": "fal-ai/nano-banana",
+  "payload": {
+    "num_images": 1,
+    "prompt": "Aspect_ratio=\"16:9\" Group of 2 incident commanders (Middle Eastern woman 30s, White man 40s) both focused and professional, reviewing emergency checklists on clipboards, wearing long-sleeved shirts and utilitarian pants, industrial facility background."
+  },
+  "timestamp": "20250909_074155"
+}

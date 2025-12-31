@@ -1,0 +1,272 @@
+2025-08-31 09:01:59 | INFO     | src.utils.logging:setup_logging:39 - Logging configured (verbose=False, debug=False)
+2025-08-31 09:01:59 | INFO     | __main__:main:75 - Loading configuration...
+2025-08-31 09:01:59 | INFO     | src.config.loader:load_config:42 - Loaded configuration from USER-FILES/01.CONFIG/config.yaml
+2025-08-31 09:01:59 | INFO     | __main__:main:80 - Authenticating...
+2025-08-31 09:01:59 | DEBUG    | src.auth.env:get_fal_api_key_from_env:19 - Loaded environment from /Users/ruben/08_-_DEVELOPMENT/ISOF_IMAGE_WORKFLOW/00.fal-text->image-tool/.env
+2025-08-31 09:01:59 | INFO     | src.auth.env:get_fal_api_key_from_env:25 - Successfully retrieved FAL API key from environment
+2025-08-31 09:01:59 | INFO     | __main__:main:84 - Discovering inputs...
+2025-08-31 09:01:59 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 5/5.2.0/5.2.1/5.2.1.txt
+2025-08-31 09:01:59 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 5/5.8.0/5.8.1/5.8.1.txt
+2025-08-31 09:01:59 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 5/5.6.0/5.6.1/5.6.1.txt
+2025-08-31 09:01:59 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 5/5.1.0/5.1.1/5.1.1.txt
+2025-08-31 09:01:59 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 5/5.5.0/5.5.1/5.5.1.txt
+2025-08-31 09:01:59 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 5/5.10.0/5.10.1/5.10.1.txt
+2025-08-31 09:01:59 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 5/5.4.0/5.4.1/5.4.1.txt
+2025-08-31 09:01:59 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 5/5.9.0/5.9.1/5.9.1.txt
+2025-08-31 09:01:59 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 5/5.3.0/5.3.1/5.3.1.txt
+2025-08-31 09:01:59 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 5/5.7.0/5.7.1/5.7.1.txt
+2025-08-31 09:01:59 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 2/2.8.0/2.8.1/2.8.1.txt
+2025-08-31 09:01:59 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 2/2.2.0/2.2.1/2.2.1.txt
+2025-08-31 09:01:59 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 2/2.6.0/2.6.1/2.6.1.txt
+2025-08-31 09:01:59 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 2/2.1.0/2.1.1/2.1.1.txt
+2025-08-31 09:01:59 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 2/2.5.0/2.5.1/2.5.1.txt
+2025-08-31 09:01:59 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 2/2.4.0/2.4.1/2.4.1.txt
+2025-08-31 09:01:59 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 2/2.3.0/2.3.1/2.3.1.txt
+2025-08-31 09:01:59 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 2/2.9.0/2.9.1/2.9.1.txt
+2025-08-31 09:01:59 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 2/2.10.0/2.10.1/2.10.1.txt
+2025-08-31 09:01:59 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 2/2.7.0/2.7.1/2.7.1.txt
+2025-08-31 09:01:59 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 3/3.2.0/3.2.1/3.2.1.txt
+2025-08-31 09:01:59 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 3/3.8.0/3.8.1/3.8.1.txt
+2025-08-31 09:01:59 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 3/3.6.0/3.6.1/3.6.1.txt
+2025-08-31 09:01:59 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 3/3.11.0/3.11.1/3.11.1.txt
+2025-08-31 09:01:59 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 3/3.1.0/3.1.1/3.1.1.txt
+2025-08-31 09:01:59 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 3/3.5.0/3.5.1/3.5.1.txt
+2025-08-31 09:01:59 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 3/3.12.0/3.12.1/3.12.1.txt
+2025-08-31 09:01:59 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 3/3.4.0/3.4.1/3.4.1.txt
+2025-08-31 09:01:59 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 3/3.9.0/3.9.1/3.9.1.txt
+2025-08-31 09:01:59 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 3/3.3.0/3.3.1/3.3.1.txt
+2025-08-31 09:01:59 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 3/3.7.0/3.7.1/3.7.1.txt
+2025-08-31 09:01:59 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 3/3.10.0/3.10.1/3.10.1.txt
+2025-08-31 09:01:59 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 4/4.8.0/4.8.1/4.8.1.txt
+2025-08-31 09:01:59 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 4/4.2.0/4.2.1/4.2.1.txt
+2025-08-31 09:01:59 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 4/4.6.0/4.6.1/4.6.1.txt
+2025-08-31 09:01:59 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 4/4.11.0/4.11.1/4.11.1.txt
+2025-08-31 09:01:59 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 4/4.1.0/4.1.1/4.1.1.txt
+2025-08-31 09:01:59 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 4/4.5.0/4.5.1/4.5.1.txt
+2025-08-31 09:01:59 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 4/4.10.0/4.10.1/4.10.1.txt
+2025-08-31 09:01:59 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 4/4.4.0/4.4.1/4.4.1.txt
+2025-08-31 09:01:59 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 4/4.3.0/4.3.1/4.3.1.txt
+2025-08-31 09:01:59 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 4/4.9.0/4.9.1/4.9.1.txt
+2025-08-31 09:01:59 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 4/4.7.0/4.7.1/4.7.1.txt
+2025-08-31 09:01:59 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 6/6.6.0/6.6.1/6.6.1.txt
+2025-08-31 09:01:59 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 6/6.2.0/6.2.1/6.2.1.txt
+2025-08-31 09:01:59 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 6/6.8.0/6.8.1/6.8.1.txt
+2025-08-31 09:01:59 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 6/6.10.0/6.10.1/6.10.1.txt
+2025-08-31 09:01:59 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 6/6.5.0/6.5.1/6.5.1.txt
+2025-08-31 09:01:59 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 6/6.1.0/6.1.1/6.1.1.txt
+2025-08-31 09:01:59 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 6/6.11.0/6.11.1/6.11.1.txt
+2025-08-31 09:01:59 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 6/6.4.0/6.4.1/6.4.1.txt
+2025-08-31 09:01:59 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 6/6.7.0/6.7.1/6.7.1.txt
+2025-08-31 09:01:59 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 6/6.9.0/6.9.1/6.9.1.txt
+2025-08-31 09:01:59 | DEBUG    | src.processing.discovery:discover_prompt_files:40 - Found prompt file: 6/6.3.0/6.3.1/6.3.1.txt
+2025-08-31 09:01:59 | INFO     | src.processing.discovery:discover_prompt_files:45 - Discovered 54 prompt files
+2025-08-31 09:01:59 | DEBUG    | src.processing.discovery:discover_profiles:93 - Loaded profile: USER-FILES/03.PROFILES/Playground.yaml
+2025-08-31 09:01:59 | INFO     | src.processing.discovery:discover_profiles:97 - Loaded 1 profiles
+2025-08-31 09:01:59 | INFO     | src.processing.discovery:get_active_models:131 - Found profile: Playground
+2025-08-31 09:01:59 | INFO     | src.processing.discovery:get_active_models:136 - Total profiles to process: 1
+2025-08-31 09:01:59 | INFO     | src.config.validator:validate_all:26 - All configuration validation passed
+2025-08-31 09:01:59 | INFO     | __main__:main:104 - Output directory: USER-FILES/05.OUTPUT/250831_090159
+2025-08-31 09:01:59 | INFO     | __main__:main:166 - Starting matrix processing...
+2025-08-31 09:01:59 | INFO     | src.processing.processor:process_all:69 - Processing 54 combinations (54 files × 1 profiles)
+2025-08-31 09:01:59 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 2.1.1.txt
+2025-08-31 09:01:59 | INFO     | src.processing.processor:process_all:105 - Processing combination 1/54: 2/2.1.0/2.1.1/2.1.1.txt + Playground
+2025-08-31 09:01:59 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 2/2.1.0/2.1.1/2.1.1.txt: A realistic stock-style photo of a modern Japanese...
+2025-08-31 09:01:59 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-31 09:03:09 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-31 09:03:12 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250831_090159/Playground/2/2.1.0/2.1.1/2.1.1_090309_Playground_1024x1536xauto.webp
+2025-08-31 09:03:12 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250831_090159/Playground/2/2.1.0/2.1.1/2.1.1_090309_Playground_1024x1536xauto.json
+2025-08-31 09:03:12 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 2.1.1_090309_Playground_1024x1536xauto.webp
+2025-08-31 09:03:12 | INFO     | src.processing.processor:_process_file_model_combination:238 - Waiting 10 seconds before next request (profile setting)
+2025-08-31 09:03:22 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 2.2.1.txt
+2025-08-31 09:03:22 | INFO     | src.processing.processor:process_all:105 - Processing combination 2/54: 2/2.2.0/2.2.1/2.2.1.txt + Playground
+2025-08-31 09:03:22 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 2/2.2.0/2.2.1/2.2.1.txt: A realistic, well-lit office with two Asian team m...
+2025-08-31 09:03:22 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-31 09:04:23 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-31 09:04:25 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250831_090159/Playground/2/2.2.0/2.2.1/2.2.1_090423_Playground_1024x1536xauto.webp
+2025-08-31 09:04:25 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250831_090159/Playground/2/2.2.0/2.2.1/2.2.1_090423_Playground_1024x1536xauto.json
+2025-08-31 09:04:25 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 2.2.1_090423_Playground_1024x1536xauto.webp
+2025-08-31 09:04:25 | INFO     | src.processing.processor:_process_file_model_combination:238 - Waiting 10 seconds before next request (profile setting)
+2025-08-31 09:04:35 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 2.3.1.txt
+2025-08-31 09:04:35 | INFO     | src.processing.processor:process_all:105 - Processing combination 3/54: 2/2.3.0/2.3.1/2.3.1.txt + Playground
+2025-08-31 09:04:35 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 2/2.3.0/2.3.1/2.3.1.txt: A friendly, modern Japanese office setting with tw...
+2025-08-31 09:04:35 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-31 09:05:44 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-31 09:05:47 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250831_090159/Playground/2/2.3.0/2.3.1/2.3.1_090544_Playground_1024x1536xauto.webp
+2025-08-31 09:05:47 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250831_090159/Playground/2/2.3.0/2.3.1/2.3.1_090544_Playground_1024x1536xauto.json
+2025-08-31 09:05:47 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 2.3.1_090544_Playground_1024x1536xauto.webp
+2025-08-31 09:05:47 | INFO     | src.processing.processor:_process_file_model_combination:238 - Waiting 10 seconds before next request (profile setting)
+2025-08-31 09:05:57 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 2.4.1.txt
+2025-08-31 09:05:57 | INFO     | src.processing.processor:process_all:105 - Processing combination 4/54: 2/2.4.0/2.4.1/2.4.1.txt + Playground
+2025-08-31 09:05:57 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 2/2.4.0/2.4.1/2.4.1.txt: A close-up shot of two Asian professionals’ hands ...
+2025-08-31 09:05:57 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-31 09:07:05 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-31 09:07:08 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250831_090159/Playground/2/2.4.0/2.4.1/2.4.1_090705_Playground_1024x1536xauto.webp
+2025-08-31 09:07:08 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250831_090159/Playground/2/2.4.0/2.4.1/2.4.1_090705_Playground_1024x1536xauto.json
+2025-08-31 09:07:08 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 2.4.1_090705_Playground_1024x1536xauto.webp
+2025-08-31 09:07:08 | INFO     | src.processing.processor:_process_file_model_combination:238 - Waiting 10 seconds before next request (profile setting)
+2025-08-31 09:07:18 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 2.5.1.txt
+2025-08-31 09:07:18 | INFO     | src.processing.processor:process_all:105 - Processing combination 5/54: 2/2.5.0/2.5.1/2.5.1.txt + Playground
+2025-08-31 09:07:18 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 2/2.5.0/2.5.1/2.5.1.txt: A modern, organized Japanese workspace featuring t...
+2025-08-31 09:07:18 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-31 09:08:20 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-31 09:08:23 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250831_090159/Playground/2/2.5.0/2.5.1/2.5.1_090820_Playground_1024x1536xauto.webp
+2025-08-31 09:08:23 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250831_090159/Playground/2/2.5.0/2.5.1/2.5.1_090820_Playground_1024x1536xauto.json
+2025-08-31 09:08:23 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 2.5.1_090820_Playground_1024x1536xauto.webp
+2025-08-31 09:08:23 | INFO     | src.processing.processor:_process_file_model_combination:238 - Waiting 10 seconds before next request (profile setting)
+2025-08-31 09:08:33 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 2.6.1.txt
+2025-08-31 09:08:33 | INFO     | src.processing.processor:process_all:105 - Processing combination 6/54: 2/2.6.0/2.6.1/2.6.1.txt + Playground
+2025-08-31 09:08:33 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 2/2.6.0/2.6.1/2.6.1.txt: A bright, minimalist office scene with three Asian...
+2025-08-31 09:08:33 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-31 09:09:45 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-31 09:09:47 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250831_090159/Playground/2/2.6.0/2.6.1/2.6.1_090945_Playground_1024x1536xauto.webp
+2025-08-31 09:09:47 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250831_090159/Playground/2/2.6.0/2.6.1/2.6.1_090945_Playground_1024x1536xauto.json
+2025-08-31 09:09:47 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 2.6.1_090945_Playground_1024x1536xauto.webp
+2025-08-31 09:09:47 | INFO     | src.processing.processor:_process_file_model_combination:238 - Waiting 10 seconds before next request (profile setting)
+2025-08-31 09:09:57 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 2.7.1.txt
+2025-08-31 09:09:57 | INFO     | src.processing.processor:process_all:105 - Processing combination 7/54: 2/2.7.0/2.7.1/2.7.1.txt + Playground
+2025-08-31 09:09:57 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 2/2.7.0/2.7.1/2.7.1.txt: A modern desk with two Asian team members studying...
+2025-08-31 09:09:57 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-31 09:10:58 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-31 09:11:00 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250831_090159/Playground/2/2.7.0/2.7.1/2.7.1_091058_Playground_1024x1536xauto.webp
+2025-08-31 09:11:00 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250831_090159/Playground/2/2.7.0/2.7.1/2.7.1_091058_Playground_1024x1536xauto.json
+2025-08-31 09:11:00 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 2.7.1_091058_Playground_1024x1536xauto.webp
+2025-08-31 09:11:00 | INFO     | src.processing.processor:_process_file_model_combination:238 - Waiting 10 seconds before next request (profile setting)
+2025-08-31 09:11:10 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 2.8.1.txt
+2025-08-31 09:11:10 | INFO     | src.processing.processor:process_all:105 - Processing combination 8/54: 2/2.8.0/2.8.1/2.8.1.txt + Playground
+2025-08-31 09:11:10 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 2/2.8.0/2.8.1/2.8.1.txt: A bright meeting room where two Asian project lead...
+2025-08-31 09:11:10 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-31 09:12:15 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-31 09:12:18 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250831_090159/Playground/2/2.8.0/2.8.1/2.8.1_091215_Playground_1024x1536xauto.webp
+2025-08-31 09:12:18 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250831_090159/Playground/2/2.8.0/2.8.1/2.8.1_091215_Playground_1024x1536xauto.json
+2025-08-31 09:12:18 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 2.8.1_091215_Playground_1024x1536xauto.webp
+2025-08-31 09:12:18 | INFO     | src.processing.processor:_process_file_model_combination:238 - Waiting 10 seconds before next request (profile setting)
+2025-08-31 09:12:28 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 2.9.1.txt
+2025-08-31 09:12:28 | INFO     | src.processing.processor:process_all:105 - Processing combination 9/54: 2/2.9.0/2.9.1/2.9.1.txt + Playground
+2025-08-31 09:12:28 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 2/2.9.0/2.9.1/2.9.1.txt: Clean, modern office with an Asian professional sk...
+2025-08-31 09:12:28 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-31 09:13:38 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-31 09:13:40 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250831_090159/Playground/2/2.9.0/2.9.1/2.9.1_091338_Playground_1024x1536xauto.webp
+2025-08-31 09:13:40 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250831_090159/Playground/2/2.9.0/2.9.1/2.9.1_091338_Playground_1024x1536xauto.json
+2025-08-31 09:13:40 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 2.9.1_091338_Playground_1024x1536xauto.webp
+2025-08-31 09:13:40 | INFO     | src.processing.processor:_process_file_model_combination:238 - Waiting 10 seconds before next request (profile setting)
+2025-08-31 09:13:50 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 2.10.1.txt
+2025-08-31 09:13:50 | INFO     | src.processing.processor:process_all:105 - Processing combination 10/54: 2/2.10.0/2.10.1/2.10.1.txt + Playground
+2025-08-31 09:13:50 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 2/2.10.0/2.10.1/2.10.1.txt: A realistic, wide office shot of three Asian team ...
+2025-08-31 09:13:50 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-31 09:14:53 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-31 09:14:55 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250831_090159/Playground/2/2.10.0/2.10.1/2.10.1_091453_Playground_1024x1536xauto.webp
+2025-08-31 09:14:55 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250831_090159/Playground/2/2.10.0/2.10.1/2.10.1_091453_Playground_1024x1536xauto.json
+2025-08-31 09:14:55 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 2.10.1_091453_Playground_1024x1536xauto.webp
+2025-08-31 09:14:55 | INFO     | src.processing.processor:_process_file_model_combination:238 - Waiting 10 seconds before next request (profile setting)
+2025-08-31 09:15:05 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 3.1.1.txt
+2025-08-31 09:15:05 | INFO     | src.processing.processor:process_all:105 - Processing combination 11/54: 3/3.1.0/3.1.1/3.1.1.txt + Playground
+2025-08-31 09:15:05 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 3/3.1.0/3.1.1/3.1.1.txt: A warm, modern Japanese office environment with th...
+2025-08-31 09:15:05 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-31 09:16:17 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-31 09:16:24 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250831_090159/Playground/3/3.1.0/3.1.1/3.1.1_091617_Playground_1024x1536xauto.webp
+2025-08-31 09:16:24 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250831_090159/Playground/3/3.1.0/3.1.1/3.1.1_091617_Playground_1024x1536xauto.json
+2025-08-31 09:16:24 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 3.1.1_091617_Playground_1024x1536xauto.webp
+2025-08-31 09:16:24 | INFO     | src.processing.processor:_process_file_model_combination:238 - Waiting 10 seconds before next request (profile setting)
+2025-08-31 09:16:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 3.2.1.txt
+2025-08-31 09:16:34 | INFO     | src.processing.processor:process_all:105 - Processing combination 12/54: 3/3.2.0/3.2.1/3.2.1.txt + Playground
+2025-08-31 09:16:34 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 3/3.2.0/3.2.1/3.2.1.txt: A realistic close-up of two Asian team leads in bu...
+2025-08-31 09:16:34 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-31 09:17:39 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-31 09:17:42 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250831_090159/Playground/3/3.2.0/3.2.1/3.2.1_091739_Playground_1024x1536xauto.webp
+2025-08-31 09:17:42 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250831_090159/Playground/3/3.2.0/3.2.1/3.2.1_091739_Playground_1024x1536xauto.json
+2025-08-31 09:17:42 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 3.2.1_091739_Playground_1024x1536xauto.webp
+2025-08-31 09:17:42 | INFO     | src.processing.processor:_process_file_model_combination:238 - Waiting 10 seconds before next request (profile setting)
+2025-08-31 09:17:52 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 3.3.1.txt
+2025-08-31 09:17:52 | INFO     | src.processing.processor:process_all:105 - Processing combination 13/54: 3/3.3.0/3.3.1/3.3.1.txt + Playground
+2025-08-31 09:17:52 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 3/3.3.0/3.3.1/3.3.1.txt: A well-lit, contemporary office featuring two Asia...
+2025-08-31 09:17:52 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-31 09:19:05 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-31 09:19:08 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250831_090159/Playground/3/3.3.0/3.3.1/3.3.1_091905_Playground_1024x1536xauto.webp
+2025-08-31 09:19:08 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250831_090159/Playground/3/3.3.0/3.3.1/3.3.1_091905_Playground_1024x1536xauto.json
+2025-08-31 09:19:08 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 3.3.1_091905_Playground_1024x1536xauto.webp
+2025-08-31 09:19:08 | INFO     | src.processing.processor:_process_file_model_combination:238 - Waiting 10 seconds before next request (profile setting)
+2025-08-31 09:19:18 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 3.4.1.txt
+2025-08-31 09:19:18 | INFO     | src.processing.processor:process_all:105 - Processing combination 14/54: 3/3.4.0/3.4.1/3.4.1.txt + Playground
+2025-08-31 09:19:18 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 3/3.4.0/3.4.1/3.4.1.txt: A realistic shot of two Asian coworkers in busines...
+2025-08-31 09:19:18 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-31 09:20:29 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-31 09:20:32 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250831_090159/Playground/3/3.4.0/3.4.1/3.4.1_092029_Playground_1024x1536xauto.webp
+2025-08-31 09:20:32 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250831_090159/Playground/3/3.4.0/3.4.1/3.4.1_092029_Playground_1024x1536xauto.json
+2025-08-31 09:20:32 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 3.4.1_092029_Playground_1024x1536xauto.webp
+2025-08-31 09:20:32 | INFO     | src.processing.processor:_process_file_model_combination:238 - Waiting 10 seconds before next request (profile setting)
+2025-08-31 09:20:42 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 3.5.1.txt
+2025-08-31 09:20:42 | INFO     | src.processing.processor:process_all:105 - Processing combination 15/54: 3/3.5.0/3.5.1/3.5.1.txt + Playground
+2025-08-31 09:20:42 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 3/3.5.0/3.5.1/3.5.1.txt: A modern Japanese office close-up with two mid-car...
+2025-08-31 09:20:42 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-31 09:21:42 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-31 09:21:45 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250831_090159/Playground/3/3.5.0/3.5.1/3.5.1_092142_Playground_1024x1536xauto.webp
+2025-08-31 09:21:45 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250831_090159/Playground/3/3.5.0/3.5.1/3.5.1_092142_Playground_1024x1536xauto.json
+2025-08-31 09:21:45 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 3.5.1_092142_Playground_1024x1536xauto.webp
+2025-08-31 09:21:45 | INFO     | src.processing.processor:_process_file_model_combination:238 - Waiting 10 seconds before next request (profile setting)
+2025-08-31 09:21:55 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 3.6.1.txt
+2025-08-31 09:21:55 | INFO     | src.processing.processor:process_all:105 - Processing combination 16/54: 3/3.6.0/3.6.1/3.6.1.txt + Playground
+2025-08-31 09:21:55 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 3/3.6.0/3.6.1/3.6.1.txt: A bright, orderly workspace with three Asian cowor...
+2025-08-31 09:21:55 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-31 09:23:17 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-31 09:23:21 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250831_090159/Playground/3/3.6.0/3.6.1/3.6.1_092317_Playground_1024x1536xauto.webp
+2025-08-31 09:23:21 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250831_090159/Playground/3/3.6.0/3.6.1/3.6.1_092317_Playground_1024x1536xauto.json
+2025-08-31 09:23:21 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 3.6.1_092317_Playground_1024x1536xauto.webp
+2025-08-31 09:23:21 | INFO     | src.processing.processor:_process_file_model_combination:238 - Waiting 10 seconds before next request (profile setting)
+2025-08-31 09:23:31 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 3.7.1.txt
+2025-08-31 09:23:31 | INFO     | src.processing.processor:process_all:105 - Processing combination 17/54: 3/3.7.0/3.7.1/3.7.1.txt + Playground
+2025-08-31 09:23:31 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 3/3.7.0/3.7.1/3.7.1.txt: A neutral, clutter-free office area showing two As...
+2025-08-31 09:23:31 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-31 09:24:56 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-31 09:24:59 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250831_090159/Playground/3/3.7.0/3.7.1/3.7.1_092456_Playground_1024x1536xauto.webp
+2025-08-31 09:24:59 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250831_090159/Playground/3/3.7.0/3.7.1/3.7.1_092456_Playground_1024x1536xauto.json
+2025-08-31 09:24:59 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 3.7.1_092456_Playground_1024x1536xauto.webp
+2025-08-31 09:24:59 | INFO     | src.processing.processor:_process_file_model_combination:238 - Waiting 10 seconds before next request (profile setting)
+2025-08-31 09:25:09 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 3.8.1.txt
+2025-08-31 09:25:09 | INFO     | src.processing.processor:process_all:105 - Processing combination 18/54: 3/3.8.0/3.8.1/3.8.1.txt + Playground
+2025-08-31 09:25:09 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 3/3.8.0/3.8.1/3.8.1.txt: A clear, hopeful Japanese office scene: three Asia...
+2025-08-31 09:25:09 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-31 09:26:12 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-31 09:26:14 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250831_090159/Playground/3/3.8.0/3.8.1/3.8.1_092612_Playground_1024x1536xauto.webp
+2025-08-31 09:26:14 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250831_090159/Playground/3/3.8.0/3.8.1/3.8.1_092612_Playground_1024x1536xauto.json
+2025-08-31 09:26:14 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 3.8.1_092612_Playground_1024x1536xauto.webp
+2025-08-31 09:26:14 | INFO     | src.processing.processor:_process_file_model_combination:238 - Waiting 10 seconds before next request (profile setting)
+2025-08-31 09:26:24 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 3.9.1.txt
+2025-08-31 09:26:24 | INFO     | src.processing.processor:process_all:105 - Processing combination 19/54: 3/3.9.0/3.9.1/3.9.1.txt + Playground
+2025-08-31 09:26:24 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 3/3.9.0/3.9.1/3.9.1.txt: A collaborative, clean tabletop meeting shot with ...
+2025-08-31 09:26:24 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-31 09:27:25 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-31 09:27:28 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250831_090159/Playground/3/3.9.0/3.9.1/3.9.1_092725_Playground_1024x1536xauto.webp
+2025-08-31 09:27:28 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250831_090159/Playground/3/3.9.0/3.9.1/3.9.1_092725_Playground_1024x1536xauto.json
+2025-08-31 09:27:28 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 3.9.1_092725_Playground_1024x1536xauto.webp
+2025-08-31 09:27:28 | INFO     | src.processing.processor:_process_file_model_combination:238 - Waiting 10 seconds before next request (profile setting)
+2025-08-31 09:27:38 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 3.10.1.txt
+2025-08-31 09:27:38 | INFO     | src.processing.processor:process_all:105 - Processing combination 20/54: 3/3.10.0/3.10.1/3.10.1.txt + Playground
+2025-08-31 09:27:38 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 3/3.10.0/3.10.1/3.10.1.txt: A welcoming, sunlight-filled conference room with ...
+2025-08-31 09:27:38 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-31 09:28:57 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-31 09:29:00 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250831_090159/Playground/3/3.10.0/3.10.1/3.10.1_092857_Playground_1024x1536xauto.webp
+2025-08-31 09:29:00 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250831_090159/Playground/3/3.10.0/3.10.1/3.10.1_092857_Playground_1024x1536xauto.json
+2025-08-31 09:29:00 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 3.10.1_092857_Playground_1024x1536xauto.webp
+2025-08-31 09:29:00 | INFO     | src.processing.processor:_process_file_model_combination:238 - Waiting 10 seconds before next request (profile setting)
+2025-08-31 09:29:10 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 3.11.1.txt
+2025-08-31 09:29:10 | INFO     | src.processing.processor:process_all:105 - Processing combination 21/54: 3/3.11.0/3.11.1/3.11.1.txt + Playground
+2025-08-31 09:29:10 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 3/3.11.0/3.11.1/3.11.1.txt: A modern Japanese office setting with two Asian pr...
+2025-08-31 09:29:10 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-31 09:30:20 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-31 09:30:24 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250831_090159/Playground/3/3.11.0/3.11.1/3.11.1_093020_Playground_1024x1536xauto.webp
+2025-08-31 09:30:24 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250831_090159/Playground/3/3.11.0/3.11.1/3.11.1_093020_Playground_1024x1536xauto.json
+2025-08-31 09:30:24 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 3.11.1_093020_Playground_1024x1536xauto.webp
+2025-08-31 09:30:24 | INFO     | src.processing.processor:_process_file_model_combination:238 - Waiting 10 seconds before next request (profile setting)
+2025-08-31 09:30:34 | INFO     | src.processing.discovery:load_prompts:63 - Loaded prompt from 3.12.1.txt
+2025-08-31 09:30:34 | INFO     | src.processing.processor:process_all:105 - Processing combination 22/54: 3/3.12.0/3.12.1/3.12.1.txt + Playground
+2025-08-31 09:30:34 | DEBUG    | src.processing.processor:_process_file_model_combination:187 - Processing 3/3.12.0/3.12.1/3.12.1.txt: A cheerful, modern office scene with three Asian c...
+2025-08-31 09:30:34 | DEBUG    | src.api.client:_call_with_retry:114 - API call attempt 1/3
+2025-08-31 09:31:45 | DEBUG    | src.api.client:_call_with_retry:127 - API call successful
+2025-08-31 09:31:48 | INFO     | src.output.writer:save_image:119 - Saved valid image: USER-FILES/05.OUTPUT/250831_090159/Playground/3/3.12.0/3.12.1/3.12.1_093146_Playground_1024x1536xauto.webp
+2025-08-31 09:31:48 | DEBUG    | src.output.writer:save_image:135 - Saved API payload: USER-FILES/05.OUTPUT/250831_090159/Playground/3/3.12.0/3.12.1/3.12.1_093146_Playground_1024x1536xauto.json
+2025-08-31 09:31:48 | INFO     | src.processing.processor:_process_file_model_combination:234 - Saved image: 3.12.1_093146_Playground_1024x1536xauto.webp
+2025-08-31 09:31:48 | INFO     | src.processing.processor:_process_file_model_combination:238 - Waiting 10 seconds before next request (profile setting)
+2025-08-31 09:31:58 | ERROR    | __main__:main:211 - Fatal error: [Errno 2] No such file or directory: 'USER-FILES/04.INPUT/4/4.1.0/4.1.1/4.1.1.txt'
+2025-08-31 09:31:58 | INFO     | src.output.writer:write_report:152 - Wrote report: USER-FILES/05.OUTPUT/250831_090159/COST.md
+2025-08-31 09:31:58 | INFO     | src.output.writer:write_report:152 - Wrote report: USER-FILES/05.OUTPUT/250831_090159/FAILURE.md
+2025-08-31 09:31:58 | INFO     | src.output.reporter:save_reports:236 - Reports generated successfully

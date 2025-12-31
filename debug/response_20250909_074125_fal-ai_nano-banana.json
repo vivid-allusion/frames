@@ -1,0 +1,15 @@
+{
+  "endpoint": "fal-ai/nano-banana",
+  "response": {
+    "images": [
+      {
+        "url": "https://v3.fal.media/files/penguin/EKx-Jzk98_-JU6qB-inwy.jpeg",
+        "content_type": "image/jpeg",
+        "file_name": "output.jpeg",
+        "file_size": null
+      }
+    ],
+    "description": "Here is an image as per your request: "
+  },
+  "timestamp": "20250909_074125"
+}

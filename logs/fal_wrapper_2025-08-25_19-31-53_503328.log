@@ -1,0 +1,173 @@
+2025-08-25 19:31:53 | INFO     | src.utils.logging:setup_logging:39 - Logging configured (verbose=False, debug=False)
+2025-08-25 19:31:53 | INFO     | __main__:main:67 - Loading configuration...
+2025-08-25 19:31:53 | INFO     | src.config.loader:load_config:42 - Loaded configuration from USER-FILES/01.CONFIG/config.yaml
+2025-08-25 19:31:53 | INFO     | __main__:main:72 - Authenticating...
+2025-08-25 19:31:53 | DEBUG    | src.auth.env:get_fal_api_key_from_env:19 - Loaded environment from /Users/ruben/08_-_DEVELOPMENT/ISOF_IMAGE_WORKFLOW/00.fal-text->image-tool/.env
+2025-08-25 19:31:53 | INFO     | src.auth.env:get_fal_api_key_from_env:25 - Successfully retrieved FAL API key from environment
+2025-08-25 19:31:53 | INFO     | __main__:main:76 - Discovering inputs...
+2025-08-25 19:31:53 | DEBUG    | src.processing.discovery:discover_prompt_files:38 - Found prompt file: USER-FILES/04.INPUT/prompt166.txt
+2025-08-25 19:31:53 | DEBUG    | src.processing.discovery:discover_prompt_files:38 - Found prompt file: USER-FILES/04.INPUT/prompt172.txt
+2025-08-25 19:31:53 | DEBUG    | src.processing.discovery:discover_prompt_files:38 - Found prompt file: USER-FILES/04.INPUT/prompt173.txt
+2025-08-25 19:31:53 | DEBUG    | src.processing.discovery:discover_prompt_files:38 - Found prompt file: USER-FILES/04.INPUT/prompt167.txt
+2025-08-25 19:31:53 | DEBUG    | src.processing.discovery:discover_prompt_files:38 - Found prompt file: USER-FILES/04.INPUT/prompt159.txt
+2025-08-25 19:31:53 | DEBUG    | src.processing.discovery:discover_prompt_files:38 - Found prompt file: USER-FILES/04.INPUT/prompt171.txt
+2025-08-25 19:31:53 | DEBUG    | src.processing.discovery:discover_prompt_files:38 - Found prompt file: USER-FILES/04.INPUT/prompt165.txt
+2025-08-25 19:31:53 | DEBUG    | src.processing.discovery:discover_prompt_files:38 - Found prompt file: USER-FILES/04.INPUT/prompt164.txt
+2025-08-25 19:31:53 | DEBUG    | src.processing.discovery:discover_prompt_files:38 - Found prompt file: USER-FILES/04.INPUT/prompt170.txt
+2025-08-25 19:31:53 | DEBUG    | src.processing.discovery:discover_prompt_files:38 - Found prompt file: USER-FILES/04.INPUT/prompt158.txt
+2025-08-25 19:31:53 | DEBUG    | src.processing.discovery:discover_prompt_files:38 - Found prompt file: USER-FILES/04.INPUT/prompt174.txt
+2025-08-25 19:31:53 | DEBUG    | src.processing.discovery:discover_prompt_files:38 - Found prompt file: USER-FILES/04.INPUT/prompt160.txt
+2025-08-25 19:31:53 | DEBUG    | src.processing.discovery:discover_prompt_files:38 - Found prompt file: USER-FILES/04.INPUT/prompt148.txt
+2025-08-25 19:31:53 | DEBUG    | src.processing.discovery:discover_prompt_files:38 - Found prompt file: USER-FILES/04.INPUT/prompt149.txt
+2025-08-25 19:31:53 | DEBUG    | src.processing.discovery:discover_prompt_files:38 - Found prompt file: USER-FILES/04.INPUT/prompt161.txt
+2025-08-25 19:31:53 | DEBUG    | src.processing.discovery:discover_prompt_files:38 - Found prompt file: USER-FILES/04.INPUT/prompt175.txt
+2025-08-25 19:31:53 | DEBUG    | src.processing.discovery:discover_prompt_files:38 - Found prompt file: USER-FILES/04.INPUT/prompt163.txt
+2025-08-25 19:31:53 | DEBUG    | src.processing.discovery:discover_prompt_files:38 - Found prompt file: USER-FILES/04.INPUT/prompt177.txt
+2025-08-25 19:31:53 | DEBUG    | src.processing.discovery:discover_prompt_files:38 - Found prompt file: USER-FILES/04.INPUT/prompt188.txt
+2025-08-25 19:31:53 | DEBUG    | src.processing.discovery:discover_prompt_files:38 - Found prompt file: USER-FILES/04.INPUT/prompt189.txt
+2025-08-25 19:31:53 | DEBUG    | src.processing.discovery:discover_prompt_files:38 - Found prompt file: USER-FILES/04.INPUT/prompt176.txt
+2025-08-25 19:31:53 | DEBUG    | src.processing.discovery:discover_prompt_files:38 - Found prompt file: USER-FILES/04.INPUT/prompt162.txt
+2025-08-25 19:31:53 | DEBUG    | src.processing.discovery:discover_prompt_files:38 - Found prompt file: USER-FILES/04.INPUT/prompt139.txt
+2025-08-25 19:31:53 | DEBUG    | src.processing.discovery:discover_prompt_files:38 - Found prompt file: USER-FILES/04.INPUT/prompt111.txt
+2025-08-25 19:31:53 | DEBUG    | src.processing.discovery:discover_prompt_files:38 - Found prompt file: USER-FILES/04.INPUT/prompt110.txt
+2025-08-25 19:31:53 | DEBUG    | src.processing.discovery:discover_prompt_files:38 - Found prompt file: USER-FILES/04.INPUT/prompt138.txt
+2025-08-25 19:31:53 | DEBUG    | src.processing.discovery:discover_prompt_files:38 - Found prompt file: USER-FILES/04.INPUT/prompt112.txt
+2025-08-25 19:31:53 | DEBUG    | src.processing.discovery:discover_prompt_files:38 - Found prompt file: USER-FILES/04.INPUT/prompt113.txt
+2025-08-25 19:31:53 | DEBUG    | src.processing.discovery:discover_prompt_files:38 - Found prompt file: USER-FILES/04.INPUT/prompt117.txt
+2025-08-25 19:31:53 | DEBUG    | src.processing.discovery:discover_prompt_files:38 - Found prompt file: USER-FILES/04.INPUT/prompt116.txt
+2025-08-25 19:31:53 | DEBUG    | src.processing.discovery:discover_prompt_files:38 - Found prompt file: USER-FILES/04.INPUT/prompt114.txt
+2025-08-25 19:31:53 | DEBUG    | src.processing.discovery:discover_prompt_files:38 - Found prompt file: USER-FILES/04.INPUT/prompt128.txt
+2025-08-25 19:31:53 | DEBUG    | src.processing.discovery:discover_prompt_files:38 - Found prompt file: USER-FILES/04.INPUT/prompt129.txt
+2025-08-25 19:31:53 | DEBUG    | src.processing.discovery:discover_prompt_files:38 - Found prompt file: USER-FILES/04.INPUT/prompt115.txt
+2025-08-25 19:31:53 | DEBUG    | src.processing.discovery:discover_prompt_files:38 - Found prompt file: USER-FILES/04.INPUT/prompt118.txt
+2025-08-25 19:31:53 | DEBUG    | src.processing.discovery:discover_prompt_files:38 - Found prompt file: USER-FILES/04.INPUT/prompt124.txt
+2025-08-25 19:31:53 | DEBUG    | src.processing.discovery:discover_prompt_files:38 - Found prompt file: USER-FILES/04.INPUT/prompt130.txt
+2025-08-25 19:31:53 | DEBUG    | src.processing.discovery:discover_prompt_files:38 - Found prompt file: USER-FILES/04.INPUT/prompt131.txt
+2025-08-25 19:31:53 | DEBUG    | src.processing.discovery:discover_prompt_files:38 - Found prompt file: USER-FILES/04.INPUT/prompt125.txt
+2025-08-25 19:31:53 | DEBUG    | src.processing.discovery:discover_prompt_files:38 - Found prompt file: USER-FILES/04.INPUT/prompt119.txt
+2025-08-25 19:31:53 | DEBUG    | src.processing.discovery:discover_prompt_files:38 - Found prompt file: USER-FILES/04.INPUT/prompt133.txt
+2025-08-25 19:31:53 | DEBUG    | src.processing.discovery:discover_prompt_files:38 - Found prompt file: USER-FILES/04.INPUT/prompt127.txt
+2025-08-25 19:31:53 | DEBUG    | src.processing.discovery:discover_prompt_files:38 - Found prompt file: USER-FILES/04.INPUT/prompt126.txt
+2025-08-25 19:31:53 | DEBUG    | src.processing.discovery:discover_prompt_files:38 - Found prompt file: USER-FILES/04.INPUT/prompt132.txt
+2025-08-25 19:31:53 | DEBUG    | src.processing.discovery:discover_prompt_files:38 - Found prompt file: USER-FILES/04.INPUT/prompt136.txt
+2025-08-25 19:31:53 | DEBUG    | src.processing.discovery:discover_prompt_files:38 - Found prompt file: USER-FILES/04.INPUT/prompt122.txt
+2025-08-25 19:31:53 | DEBUG    | src.processing.discovery:discover_prompt_files:38 - Found prompt file: USER-FILES/04.INPUT/prompt123.txt
+2025-08-25 19:31:53 | DEBUG    | src.processing.discovery:discover_prompt_files:38 - Found prompt file: USER-FILES/04.INPUT/prompt137.txt
+2025-08-25 19:31:53 | DEBUG    | src.processing.discovery:discover_prompt_files:38 - Found prompt file: USER-FILES/04.INPUT/prompt121.txt
+2025-08-25 19:31:53 | DEBUG    | src.processing.discovery:discover_prompt_files:38 - Found prompt file: USER-FILES/04.INPUT/prompt135.txt
+2025-08-25 19:31:53 | DEBUG    | src.processing.discovery:discover_prompt_files:38 - Found prompt file: USER-FILES/04.INPUT/prompt134.txt
+2025-08-25 19:31:53 | DEBUG    | src.processing.discovery:discover_prompt_files:38 - Found prompt file: USER-FILES/04.INPUT/prompt120.txt
+2025-08-25 19:31:53 | DEBUG    | src.processing.discovery:discover_prompt_files:38 - Found prompt file: USER-FILES/04.INPUT/prompt147.txt
+2025-08-25 19:31:53 | DEBUG    | src.processing.discovery:discover_prompt_files:38 - Found prompt file: USER-FILES/04.INPUT/prompt153.txt
+2025-08-25 19:31:53 | DEBUG    | src.processing.discovery:discover_prompt_files:38 - Found prompt file: USER-FILES/04.INPUT/prompt184.txt
+2025-08-25 19:31:53 | DEBUG    | src.processing.discovery:discover_prompt_files:38 - Found prompt file: USER-FILES/04.INPUT/prompt190.txt
+2025-08-25 19:31:53 | DEBUG    | src.processing.discovery:discover_prompt_files:38 - Found prompt file: USER-FILES/04.INPUT/prompt191.txt
+2025-08-25 19:31:53 | DEBUG    | src.processing.discovery:discover_prompt_files:38 - Found prompt file: USER-FILES/04.INPUT/prompt185.txt
+2025-08-25 19:31:53 | DEBUG    | src.processing.discovery:discover_prompt_files:38 - Found prompt file: USER-FILES/04.INPUT/prompt152.txt
+2025-08-25 19:31:53 | DEBUG    | src.processing.discovery:discover_prompt_files:38 - Found prompt file: USER-FILES/04.INPUT/prompt146.txt
+2025-08-25 19:31:53 | DEBUG    | src.processing.discovery:discover_prompt_files:38 - Found prompt file: USER-FILES/04.INPUT/prompt178.txt
+2025-08-25 19:31:53 | DEBUG    | src.processing.discovery:discover_prompt_files:38 - Found prompt file: USER-FILES/04.INPUT/prompt150.txt
+2025-08-25 19:31:53 | DEBUG    | src.processing.discovery:discover_prompt_files:38 - Found prompt file: USER-FILES/04.INPUT/prompt144.txt
+2025-08-25 19:31:53 | DEBUG    | src.processing.discovery:discover_prompt_files:38 - Found prompt file: USER-FILES/04.INPUT/prompt187.txt
+2025-08-25 19:31:53 | DEBUG    | src.processing.discovery:discover_prompt_files:38 - Found prompt file: USER-FILES/04.INPUT/prompt186.txt
+2025-08-25 19:31:53 | DEBUG    | src.processing.discovery:discover_prompt_files:38 - Found prompt file: USER-FILES/04.INPUT/prompt192.txt
+2025-08-25 19:31:53 | DEBUG    | src.processing.discovery:discover_prompt_files:38 - Found prompt file: USER-FILES/04.INPUT/prompt145.txt
+2025-08-25 19:31:53 | DEBUG    | src.processing.discovery:discover_prompt_files:38 - Found prompt file: USER-FILES/04.INPUT/prompt151.txt
+2025-08-25 19:31:53 | DEBUG    | src.processing.discovery:discover_prompt_files:38 - Found prompt file: USER-FILES/04.INPUT/prompt179.txt
+2025-08-25 19:31:53 | DEBUG    | src.processing.discovery:discover_prompt_files:38 - Found prompt file: USER-FILES/04.INPUT/prompt155.txt
+2025-08-25 19:31:53 | DEBUG    | src.processing.discovery:discover_prompt_files:38 - Found prompt file: USER-FILES/04.INPUT/prompt141.txt
+2025-08-25 19:31:53 | DEBUG    | src.processing.discovery:discover_prompt_files:38 - Found prompt file: USER-FILES/04.INPUT/prompt169.txt
+2025-08-25 19:31:53 | DEBUG    | src.processing.discovery:discover_prompt_files:38 - Found prompt file: USER-FILES/04.INPUT/prompt182.txt
+2025-08-25 19:31:53 | DEBUG    | src.processing.discovery:discover_prompt_files:38 - Found prompt file: USER-FILES/04.INPUT/prompt183.txt
+2025-08-25 19:31:53 | DEBUG    | src.processing.discovery:discover_prompt_files:38 - Found prompt file: USER-FILES/04.INPUT/prompt168.txt
+2025-08-25 19:31:53 | DEBUG    | src.processing.discovery:discover_prompt_files:38 - Found prompt file: USER-FILES/04.INPUT/prompt140.txt
+2025-08-25 19:31:53 | DEBUG    | src.processing.discovery:discover_prompt_files:38 - Found prompt file: USER-FILES/04.INPUT/prompt154.txt
+2025-08-25 19:31:53 | DEBUG    | src.processing.discovery:discover_prompt_files:38 - Found prompt file: USER-FILES/04.INPUT/prompt142.txt
+2025-08-25 19:31:53 | DEBUG    | src.processing.discovery:discover_prompt_files:38 - Found prompt file: USER-FILES/04.INPUT/prompt156.txt
+2025-08-25 19:31:53 | DEBUG    | src.processing.discovery:discover_prompt_files:38 - Found prompt file: USER-FILES/04.INPUT/prompt181.txt
+2025-08-25 19:31:53 | DEBUG    | src.processing.discovery:discover_prompt_files:38 - Found prompt file: USER-FILES/04.INPUT/prompt180.txt
+2025-08-25 19:31:53 | DEBUG    | src.processing.discovery:discover_prompt_files:38 - Found prompt file: USER-FILES/04.INPUT/prompt157.txt
+2025-08-25 19:31:53 | DEBUG    | src.processing.discovery:discover_prompt_files:38 - Found prompt file: USER-FILES/04.INPUT/prompt143.txt
+2025-08-25 19:31:53 | INFO     | src.processing.discovery:discover_prompt_files:43 - Discovered 83 prompt files
+2025-08-25 19:31:53 | DEBUG    | src.processing.discovery:discover_profiles:92 - Loaded profile: USER-FILES/03.PROFILES/seedream_v3_480p.yaml
+2025-08-25 19:31:53 | INFO     | src.processing.discovery:discover_profiles:96 - Loaded 1 profiles
+2025-08-25 19:31:53 | INFO     | src.processing.discovery:get_active_models:127 - Found profile: seedream_v3_480p
+2025-08-25 19:31:53 | INFO     | src.processing.discovery:get_active_models:132 - Total profiles to process: 1
+2025-08-25 19:31:53 | INFO     | src.config.validator:validate_all:26 - All configuration validation passed
+2025-08-25 19:31:53 | INFO     | __main__:main:96 - Output directory: USER-FILES/05.OUTPUT/250825_193153
+2025-08-25 19:31:53 | INFO     | __main__:main:157 - Starting matrix processing...
+2025-08-25 19:31:53 | INFO     | src.processing.processor:process_all:65 - Processing 83 combinations (83 files × 1 profiles)
+2025-08-25 19:31:53 | DEBUG    | src.processing.discovery:load_prompts:63 - Loaded prompt from line 1: Early 1900s working class residence backyard exter...
+2025-08-25 19:31:53 | INFO     | src.processing.discovery:load_prompts:65 - Loaded 1 prompts from prompt110.txt
+2025-08-25 19:31:53 | INFO     | src.processing.processor:process_all:97 - Processing combination 1/83: prompt110.txt + seedream_v3_480p
+2025-08-25 19:31:53 | DEBUG    | src.processing.processor:_process_file_model_combination:154 - Processing line 1: Early 1900s working class residence backyard exter...
+2025-08-25 19:31:53 | DEBUG    | src.api.client:_call_with_retry:100 - API call attempt 1/3
+2025-08-25 19:32:00 | DEBUG    | src.api.client:_call_with_retry:113 - API call successful
+2025-08-25 19:32:02 | INFO     | src.output.writer:save_image:84 - Saved valid image: USER-FILES/05.OUTPUT/250825_193153/prompt110_X_seedream_v3_480p/001_193200__Line1_seedream_v3_480p_854x480.jpeg
+2025-08-25 19:32:02 | INFO     | src.processing.processor:_process_file_model_combination:185 - Saved image: 001_193200__Line1_seedream_v3_480p_854x480.jpeg
+2025-08-25 19:32:02 | DEBUG    | src.processing.discovery:load_prompts:63 - Loaded prompt from line 1: Early 1900s working class residence backyard exter...
+2025-08-25 19:32:02 | INFO     | src.processing.discovery:load_prompts:65 - Loaded 1 prompts from prompt111.txt
+2025-08-25 19:32:02 | INFO     | src.processing.processor:process_all:97 - Processing combination 2/83: prompt111.txt + seedream_v3_480p
+2025-08-25 19:32:02 | DEBUG    | src.processing.processor:_process_file_model_combination:154 - Processing line 1: Early 1900s working class residence backyard exter...
+2025-08-25 19:32:02 | DEBUG    | src.api.client:_call_with_retry:100 - API call attempt 1/3
+2025-08-25 19:32:08 | DEBUG    | src.api.client:_call_with_retry:113 - API call successful
+2025-08-25 19:32:11 | INFO     | src.output.writer:save_image:84 - Saved valid image: USER-FILES/05.OUTPUT/250825_193153/prompt111_X_seedream_v3_480p/002_193208__Line1_seedream_v3_480p_854x480.jpeg
+2025-08-25 19:32:11 | INFO     | src.processing.processor:_process_file_model_combination:185 - Saved image: 002_193208__Line1_seedream_v3_480p_854x480.jpeg
+2025-08-25 19:32:11 | DEBUG    | src.processing.discovery:load_prompts:63 - Loaded prompt from line 1: Early 1900s train station platform exterior, summe...
+2025-08-25 19:32:11 | INFO     | src.processing.discovery:load_prompts:65 - Loaded 1 prompts from prompt112.txt
+2025-08-25 19:32:11 | INFO     | src.processing.processor:process_all:97 - Processing combination 3/83: prompt112.txt + seedream_v3_480p
+2025-08-25 19:32:11 | DEBUG    | src.processing.processor:_process_file_model_combination:154 - Processing line 1: Early 1900s train station platform exterior, summe...
+2025-08-25 19:32:11 | DEBUG    | src.api.client:_call_with_retry:100 - API call attempt 1/3
+2025-08-25 19:32:17 | DEBUG    | src.api.client:_call_with_retry:113 - API call successful
+2025-08-25 19:32:20 | INFO     | src.output.writer:save_image:84 - Saved valid image: USER-FILES/05.OUTPUT/250825_193153/prompt112_X_seedream_v3_480p/003_193217__Line1_seedream_v3_480p_854x480.jpeg
+2025-08-25 19:32:20 | INFO     | src.processing.processor:_process_file_model_combination:185 - Saved image: 003_193217__Line1_seedream_v3_480p_854x480.jpeg
+2025-08-25 19:32:20 | DEBUG    | src.processing.discovery:load_prompts:63 - Loaded prompt from line 1: Early 1900s train station platform exterior, summe...
+2025-08-25 19:32:20 | INFO     | src.processing.discovery:load_prompts:65 - Loaded 1 prompts from prompt113.txt
+2025-08-25 19:32:20 | INFO     | src.processing.processor:process_all:97 - Processing combination 4/83: prompt113.txt + seedream_v3_480p
+2025-08-25 19:32:20 | DEBUG    | src.processing.processor:_process_file_model_combination:154 - Processing line 1: Early 1900s train station platform exterior, summe...
+2025-08-25 19:32:20 | DEBUG    | src.api.client:_call_with_retry:100 - API call attempt 1/3
+2025-08-25 19:32:26 | DEBUG    | src.api.client:_call_with_retry:113 - API call successful
+2025-08-25 19:32:27 | INFO     | src.output.writer:save_image:84 - Saved valid image: USER-FILES/05.OUTPUT/250825_193153/prompt113_X_seedream_v3_480p/004_193226__Line1_seedream_v3_480p_854x480.jpeg
+2025-08-25 19:32:27 | INFO     | src.processing.processor:_process_file_model_combination:185 - Saved image: 004_193226__Line1_seedream_v3_480p_854x480.jpeg
+2025-08-25 19:32:27 | DEBUG    | src.processing.discovery:load_prompts:63 - Loaded prompt from line 1: Early 1900s train station exterior, wide shot of p...
+2025-08-25 19:32:27 | INFO     | src.processing.discovery:load_prompts:65 - Loaded 1 prompts from prompt114.txt
+2025-08-25 19:32:27 | INFO     | src.processing.processor:process_all:97 - Processing combination 5/83: prompt114.txt + seedream_v3_480p
+2025-08-25 19:32:27 | DEBUG    | src.processing.processor:_process_file_model_combination:154 - Processing line 1: Early 1900s train station exterior, wide shot of p...
+2025-08-25 19:32:27 | DEBUG    | src.api.client:_call_with_retry:100 - API call attempt 1/3
+2025-08-25 19:32:34 | DEBUG    | src.api.client:_call_with_retry:113 - API call successful
+2025-08-25 19:32:35 | INFO     | src.output.writer:save_image:84 - Saved valid image: USER-FILES/05.OUTPUT/250825_193153/prompt114_X_seedream_v3_480p/005_193234__Line1_seedream_v3_480p_854x480.jpeg
+2025-08-25 19:32:35 | INFO     | src.processing.processor:_process_file_model_combination:185 - Saved image: 005_193234__Line1_seedream_v3_480p_854x480.jpeg
+2025-08-25 19:32:35 | DEBUG    | src.processing.discovery:load_prompts:63 - Loaded prompt from line 1: Early 1900s train station platform exterior, summe...
+2025-08-25 19:32:35 | INFO     | src.processing.discovery:load_prompts:65 - Loaded 1 prompts from prompt115.txt
+2025-08-25 19:32:35 | INFO     | src.processing.processor:process_all:97 - Processing combination 6/83: prompt115.txt + seedream_v3_480p
+2025-08-25 19:32:35 | DEBUG    | src.processing.processor:_process_file_model_combination:154 - Processing line 1: Early 1900s train station platform exterior, summe...
+2025-08-25 19:32:35 | DEBUG    | src.api.client:_call_with_retry:100 - API call attempt 1/3
+2025-08-25 19:32:41 | DEBUG    | src.api.client:_call_with_retry:113 - API call successful
+2025-08-25 19:32:44 | INFO     | src.output.writer:save_image:84 - Saved valid image: USER-FILES/05.OUTPUT/250825_193153/prompt115_X_seedream_v3_480p/006_193241__Line1_seedream_v3_480p_854x480.jpeg
+2025-08-25 19:32:44 | INFO     | src.processing.processor:_process_file_model_combination:185 - Saved image: 006_193241__Line1_seedream_v3_480p_854x480.jpeg
+2025-08-25 19:32:44 | DEBUG    | src.processing.discovery:load_prompts:63 - Loaded prompt from line 1: 1930s Nuremberg exterior at blue hour, medium wide...
+2025-08-25 19:32:44 | INFO     | src.processing.discovery:load_prompts:65 - Loaded 1 prompts from prompt116.txt
+2025-08-25 19:32:44 | INFO     | src.processing.processor:process_all:97 - Processing combination 7/83: prompt116.txt + seedream_v3_480p
+2025-08-25 19:32:44 | DEBUG    | src.processing.processor:_process_file_model_combination:154 - Processing line 1: 1930s Nuremberg exterior at blue hour, medium wide...
+2025-08-25 19:32:44 | DEBUG    | src.api.client:_call_with_retry:100 - API call attempt 1/3
+2025-08-25 19:32:49 | DEBUG    | src.api.client:_call_with_retry:113 - API call successful
+2025-08-25 19:32:51 | INFO     | src.output.writer:save_image:84 - Saved valid image: USER-FILES/05.OUTPUT/250825_193153/prompt116_X_seedream_v3_480p/007_193249__Line1_seedream_v3_480p_854x480.jpeg
+2025-08-25 19:32:51 | INFO     | src.processing.processor:_process_file_model_combination:185 - Saved image: 007_193249__Line1_seedream_v3_480p_854x480.jpeg
+2025-08-25 19:32:51 | DEBUG    | src.processing.discovery:load_prompts:63 - Loaded prompt from line 1: 1930s Stockholm exterior, Norrmalmstorg square on ...
+2025-08-25 19:32:51 | INFO     | src.processing.discovery:load_prompts:65 - Loaded 1 prompts from prompt117.txt
+2025-08-25 19:32:51 | INFO     | src.processing.processor:process_all:97 - Processing combination 8/83: prompt117.txt + seedream_v3_480p
+2025-08-25 19:32:51 | DEBUG    | src.processing.processor:_process_file_model_combination:154 - Processing line 1: 1930s Stockholm exterior, Norrmalmstorg square on ...
+2025-08-25 19:32:51 | DEBUG    | src.api.client:_call_with_retry:100 - API call attempt 1/3
+2025-08-25 19:32:52 | ERROR    | src.api.client:_call_with_retry:126 - Error on attempt 1: [{'loc': ['body', 'prompt'], 'msg': 'The content could not be processed because it contained material flagged by a content checker.', 'type': 'content_policy_violation', 'url': 'https://docs.fal.ai/errors#content_policy_violation', 'input': {'prompt': '1930s Stockholm exterior, Norrmalmstorg square on overcast fall day. Wide shot of small Nazi rally, twenty people gathered, two men holding red Nazi flags. Speaker on wooden box addressing crowd. Diffused daylight through light rain, wet cobblestones, autumn trees with yellow leaves, period clothing and architecture.', 'image_size': {'width': 854, 'height': 480}, 'guidance_scale': 2.5, 'num_images': 1, 'seed': None, 'enable_safety_checker': True}}]
+2025-08-25 19:32:52 | INFO     | src.api.client:_call_with_retry:130 - Retrying in 2s...
+2025-08-25 19:32:54 | DEBUG    | src.api.client:_call_with_retry:100 - API call attempt 2/3
+2025-08-25 19:32:56 | ERROR    | src.api.client:_call_with_retry:126 - Error on attempt 2: [{'loc': ['body', 'prompt'], 'msg': 'The content could not be processed because it contained material flagged by a content checker.', 'type': 'content_policy_violation', 'url': 'https://docs.fal.ai/errors#content_policy_violation', 'input': {'prompt': '1930s Stockholm exterior, Norrmalmstorg square on overcast fall day. Wide shot of small Nazi rally, twenty people gathered, two men holding red Nazi flags. Speaker on wooden box addressing crowd. Diffused daylight through light rain, wet cobblestones, autumn trees with yellow leaves, period clothing and architecture.', 'image_size': {'width': 854, 'height': 480}, 'guidance_scale': 2.5, 'num_images': 1, 'seed': None, 'enable_safety_checker': True}}]
+2025-08-25 19:32:56 | INFO     | src.api.client:_call_with_retry:130 - Retrying in 4s...
+2025-08-25 19:33:00 | DEBUG    | src.api.client:_call_with_retry:100 - API call attempt 3/3
+2025-08-25 19:33:01 | ERROR    | src.api.client:_call_with_retry:126 - Error on attempt 3: [{'loc': ['body', 'prompt'], 'msg': 'The content could not be processed because it contained material flagged by a content checker.', 'type': 'content_policy_violation', 'url': 'https://docs.fal.ai/errors#content_policy_violation', 'input': {'prompt': '1930s Stockholm exterior, Norrmalmstorg square on overcast fall day. Wide shot of small Nazi rally, twenty people gathered, two men holding red Nazi flags. Speaker on wooden box addressing crowd. Diffused daylight through light rain, wet cobblestones, autumn trees with yellow leaves, period clothing and architecture.', 'image_size': {'width': 854, 'height': 480}, 'guidance_scale': 2.5, 'num_images': 1, 'seed': None, 'enable_safety_checker': True}}]
+2025-08-25 19:33:01 | ERROR    | src.processing.processor:_process_file_model_combination:188 - Failed to generate image for line 1: [{'loc': ['body', 'prompt'], 'msg': 'The content could not be processed because it contained material flagged by a content checker.', 'type': 'content_policy_violation', 'url': 'https://docs.fal.ai/errors#content_policy_violation', 'input': {'prompt': '1930s Stockholm exterior, Norrmalmstorg square on overcast fall day. Wide shot of small Nazi rally, twenty people gathered, two men holding red Nazi flags. Speaker on wooden box addressing crowd. Diffused daylight through light rain, wet cobblestones, autumn trees with yellow leaves, period clothing and architecture.', 'image_size': {'width': 854, 'height': 480}, 'guidance_scale': 2.5, 'num_images': 1, 'seed': None, 'enable_safety_checker': True}}]
+2025-08-25 19:33:01 | ERROR    | src.processing.processor:process_all:119 - Failed processing prompt117.txt + seedream_v3_480p: [{'loc': ['body', 'prompt'], 'msg': 'The content could not be processed because it contained material flagged by a content checker.', 'type': 'content_policy_violation', 'url': 'https://docs.fal.ai/errors#content_policy_violation', 'input': {'prompt': '1930s Stockholm exterior, Norrmalmstorg square on overcast fall day. Wide shot of small Nazi rally, twenty people gathered, two men holding red Nazi flags. Speaker on wooden box addressing crowd. Diffused daylight through light rain, wet cobblestones, autumn trees with yellow leaves, period clothing and architecture.', 'image_size': {'width': 854, 'height': 480}, 'guidance_scale': 2.5, 'num_images': 1, 'seed': None, 'enable_safety_checker': True}}]
+2025-08-25 19:33:01 | ERROR    | __main__:main:192 - Fatal error: [{'loc': ['body', 'prompt'], 'msg': 'The content could not be processed because it contained material flagged by a content checker.', 'type': 'content_policy_violation', 'url': 'https://docs.fal.ai/errors#content_policy_violation', 'input': {'prompt': '1930s Stockholm exterior, Norrmalmstorg square on overcast fall day. Wide shot of small Nazi rally, twenty people gathered, two men holding red Nazi flags. Speaker on wooden box addressing crowd. Diffused daylight through light rain, wet cobblestones, autumn trees with yellow leaves, period clothing and architecture.', 'image_size': {'width': 854, 'height': 480}, 'guidance_scale': 2.5, 'num_images': 1, 'seed': None, 'enable_safety_checker': True}}]
+2025-08-25 19:33:01 | INFO     | src.output.writer:write_report:101 - Wrote report: USER-FILES/05.OUTPUT/250825_193153/COST.md
+2025-08-25 19:33:01 | INFO     | src.output.writer:write_report:101 - Wrote report: USER-FILES/05.OUTPUT/250825_193153/FAILURE.md
+2025-08-25 19:33:01 | INFO     | src.output.reporter:save_reports:197 - Reports generated successfully
