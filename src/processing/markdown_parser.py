@@ -3,7 +3,7 @@ Markdown parsing utilities for extracting image URLs and prompts.
 
 This module provides functions to parse markdown files and extract:
 - Image URLs from markdown image syntax ![alt](URL)
-- Text prompts from code blocks
+- Text prompts from TEXT SOURCE sections
 - Combined image input arrays for API payloads
 
 PRD Reference: Section 05.1, 06.2
@@ -47,10 +47,11 @@ def extract_image_url(markdown_content: str) -> str:
 
 def extract_prompt_text(markdown_content: str) -> str:
     """
-    Extract text content from first code block in markdown.
+    Extract text content from TEXT SOURCE section in markdown.
 
-    Searches for the first code block (triple backticks) and extracts the
-    text content. Ignores language identifier (can be 'text', 'python', or none).
+    Searches for the "**TEXT SOURCE:**" line and extracts all text
+    content that follows it. The text must be on the lines after the
+    TEXT SOURCE header.
 
     Args:
         markdown_content: Full markdown file content
@@ -59,26 +60,39 @@ def extract_prompt_text(markdown_content: str) -> str:
         Extracted prompt text (stripped of whitespace)
 
     Raises:
-        ValueError: If no code block found or code block is empty
+        ValueError: If no TEXT SOURCE section found or text is empty
 
     Example:
-        >>> content = "```text\\nA man carries bags.\\n```"
+        >>> content = "**TEXT SOURCE:** frame_0001.txt:\\n\\nA man carries bags.\\n"
         >>> extract_prompt_text(content)
         'A man carries bags.'
     """
-    # Pattern matches: ```optional-language\ncontent\n```
-    # [a-zA-Z]* allows optional language identifier
-    # (.*?) captures content non-greedily
-    # re.DOTALL makes . match newlines for multiline code blocks
-    pattern = r"```[a-zA-Z]*\n(.*?)\n```"
-    match = re.search(pattern, markdown_content, re.DOTALL)
+    # Split content into lines
+    lines = markdown_content.split("\n")
 
-    if not match:
-        raise ValueError("No code block found in markdown")
+    # Find the TEXT SOURCE line
+    text_source_idx = None
+    for i, line in enumerate(lines):
+        if "**TEXT SOURCE:**" in line:
+            text_source_idx = i
+            break
 
-    content = match.group(1).strip()
+    if text_source_idx is None:
+        raise ValueError("No TEXT SOURCE section found in markdown")
+
+    # Extract all lines after TEXT SOURCE (skipping empty lines immediately after)
+    text_lines = []
+    for line in lines[text_source_idx + 1 :]:
+        # Start collecting after we skip any initial empty lines
+        if not text_lines and not line.strip():
+            continue
+        text_lines.append(line)
+
+    # Join and strip the result
+    content = "\n".join(text_lines).strip()
+
     if not content:
-        raise ValueError("Empty code block in markdown")
+        raise ValueError("Empty text content after TEXT SOURCE in markdown")
 
     return content
 

@@ -26,12 +26,12 @@ class MarkdownImageNotFoundError(ValueError):
 
 
 class MarkdownPromptNotFoundError(ValueError):
-    """Raised when no code block found in markdown file."""
+    """Raised when no TEXT SOURCE section found in markdown file."""
 
     pass
 
 
 class EmptyPromptError(ValueError):
-    """Raised when code block in markdown is empty."""
+    """Raised when text content after TEXT SOURCE in markdown is empty."""
 
     pass

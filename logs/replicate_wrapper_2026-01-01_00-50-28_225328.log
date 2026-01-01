@@ -1,0 +1,22 @@
+2026-01-01 00:50:28 | INFO     | src.utils.logging:setup_logging:39 - Logging configured (verbose=False, debug=False)
+2026-01-01 00:50:28 | INFO     | __main__:setup_environment:79 - Environment initialized
+2026-01-01 00:50:28 | INFO     | __main__:load_and_validate_config:84 - Loading configuration...
+2026-01-01 00:50:28 | INFO     | src.config.loader:load_config:42 - Loaded configuration from USER-FILES/01.CONFIG/config.yaml
+2026-01-01 00:50:28 | INFO     | __main__:authenticate_for_mode:273 - Authenticating with 1Password...
+2026-01-01 00:50:31 | DEBUG    | src.auth.session_manager:ensure_op_auth:39 - 1Password session is active
+2026-01-01 00:50:32 | DEBUG    | src.auth.session_manager:ensure_op_auth:39 - 1Password session is active
+2026-01-01 00:50:32 | DEBUG    | src.auth.auth:load_auth_config:28 - Using auth config: auth_ruben.yaml
+2026-01-01 00:50:34 | DEBUG    | src.auth.auth:get_api_key:77 - Retrieved API key: r8_K...
+2026-01-01 00:50:34 | INFO     | __main__:discover_inputs_and_profiles:92 - Discovering inputs...
+2026-01-01 00:50:34 | DEBUG    | src.processing.discovery:discover_prompt_files:42 - Found markdown file: frame_0584.md
+2026-01-01 00:50:34 | DEBUG    | src.processing.discovery:discover_prompt_files:42 - Found markdown file: frame_0651.md
+2026-01-01 00:50:34 | DEBUG    | src.processing.discovery:discover_prompt_files:42 - Found markdown file: frame_1567.md
+2026-01-01 00:50:34 | DEBUG    | src.processing.discovery:discover_prompt_files:42 - Found markdown file: frame_1485.md
+2026-01-01 00:50:34 | DEBUG    | src.processing.discovery:discover_prompt_files:42 - Found markdown file: frame_0382.md
+2026-01-01 00:50:34 | DEBUG    | src.processing.discovery:discover_prompt_files:42 - Found markdown file: frame_1410.md
+2026-01-01 00:50:34 | DEBUG    | src.processing.discovery:discover_prompt_files:42 - Found markdown file: frame_1606.md
+2026-01-01 00:50:34 | DEBUG    | src.processing.discovery:discover_prompt_files:42 - Found markdown file: frame_1560.md
+2026-01-01 00:50:34 | DEBUG    | src.processing.discovery:discover_prompt_files:42 - Found markdown file: frame_0757.md
+2026-01-01 00:50:34 | DEBUG    | src.processing.discovery:discover_prompt_files:42 - Found markdown file: frame_0288.md
+2026-01-01 00:50:34 | INFO     | src.processing.discovery:discover_prompt_files:47 - Discovered 10 markdown files
+2026-01-01 00:50:34 | ERROR    | __main__:handle_error:294 - Fatal error: No YAML profiles found in USER-FILES/03.PROFILES

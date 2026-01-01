@@ -1,0 +1,28 @@
+2026-01-01 01:37:21 | INFO     | src.utils.logging:setup_logging:39 - Logging configured (verbose=False, debug=False)
+2026-01-01 01:37:21 | INFO     | __main__:setup_environment:79 - Environment initialized
+2026-01-01 01:37:21 | INFO     | __main__:load_and_validate_config:84 - Loading configuration...
+2026-01-01 01:37:21 | INFO     | src.config.loader:load_config:42 - Loaded configuration from USER-FILES/01.CONFIG/config.yaml
+2026-01-01 01:37:21 | INFO     | __main__:authenticate_for_mode:273 - Authenticating with 1Password...
+2026-01-01 01:37:25 | DEBUG    | src.auth.session_manager:ensure_op_auth:39 - 1Password session is active
+2026-01-01 01:37:26 | DEBUG    | src.auth.session_manager:ensure_op_auth:39 - 1Password session is active
+2026-01-01 01:37:26 | DEBUG    | src.auth.auth:load_auth_config:28 - Using auth config: auth_ruben.yaml
+2026-01-01 01:37:28 | DEBUG    | src.auth.auth:get_api_key:77 - Retrieved API key: r8_K...
+2026-01-01 01:37:28 | INFO     | __main__:discover_inputs_and_profiles:92 - Discovering inputs...
+2026-01-01 01:37:28 | DEBUG    | src.processing.discovery:discover_prompt_files:42 - Found markdown file: frame_1567.md
+2026-01-01 01:37:28 | DEBUG    | src.processing.discovery:discover_prompt_files:42 - Found markdown file: frame_1606.md
+2026-01-01 01:37:28 | DEBUG    | src.processing.discovery:discover_prompt_files:42 - Found markdown file: frame_1560.md
+2026-01-01 01:37:28 | INFO     | src.processing.discovery:discover_prompt_files:47 - Discovered 3 markdown files
+2026-01-01 01:37:28 | DEBUG    | src.processing.discovery:discover_profiles:98 - Loaded profile: USER-FILES/03.PROFILES/nano-banano-pro-2k_16x9_wbt_ari.yaml
+2026-01-01 01:37:28 | INFO     | src.processing.discovery:discover_profiles:102 - Loaded 1 profiles
+2026-01-01 01:37:28 | INFO     | src.processing.discovery:get_active_models:148 - Found profile: nano-banano-pro-2k_16x9_wbt_ari
+2026-01-01 01:37:28 | INFO     | src.processing.discovery:get_active_models:153 - Total profiles to process: 1
+2026-01-01 01:37:28 | INFO     | src.config.validator:validate_all:26 - All configuration validation passed
+2026-01-01 01:37:28 | INFO     | __main__:initialize_services:186 - Output directory: USER-FILES/05.OUTPUT/260101_013728_IMAGE
+2026-01-01 01:37:28 | INFO     | __main__:execute_processing:221 - Starting matrix processing...
+2026-01-01 01:37:28 | DEBUG    | src.processing.validator:validate_operational_requirements:30 - Profile 'nano-banano-pro-2k_16x9_wbt_ari' operational validation passed
+2026-01-01 01:37:28 | INFO     | src.processing.processor:process_all:66 - Processing 3 combinations (3 files × 1 profiles)
+2026-01-01 01:37:28 | DEBUG    | src.processing.processor:_process_single_combination:132 - Extracted image URL from markdown: https://f003.backblazeb2.com/file/wbt-bucket/ari_foldman/frame_1560.jpg
+2026-01-01 01:37:28 | ERROR    | src.processing.discovery:load_prompts:69 - Failed to extract prompt from frame_1560.md: Empty code block in markdown
+2026-01-01 01:37:28 | ERROR    | __main__:handle_error:294 - Fatal error: Empty code block in markdown
+2026-01-01 01:37:28 | INFO     | src.output.writer:write_report:306 - Report saved: USER-FILES/05.OUTPUT/260101_013728_IMAGE/FAILURE.md
+2026-01-01 01:37:28 | ERROR    | src.output.reporter:_save_failure_report:79 - Failure report saved
