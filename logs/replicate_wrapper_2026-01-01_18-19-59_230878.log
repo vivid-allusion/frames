@@ -1,0 +1,1440 @@
+2026-01-01 18:19:59 | INFO     | src.utils.logging:setup_logging:39 - Logging configured (verbose=False, debug=False)
+2026-01-01 18:19:59 | INFO     | __main__:setup_environment:79 - Environment initialized
+2026-01-01 18:19:59 | INFO     | __main__:load_and_validate_config:84 - Loading configuration...
+2026-01-01 18:19:59 | INFO     | src.config.loader:load_config:42 - Loaded configuration from USER-FILES/01.CONFIG/config.yaml
+2026-01-01 18:19:59 | INFO     | __main__:authenticate_for_mode:273 - Authenticating with 1Password...
+2026-01-01 18:20:00 | DEBUG    | src.auth.session_manager:ensure_op_auth:39 - 1Password session is active
+2026-01-01 18:20:01 | DEBUG    | src.auth.session_manager:ensure_op_auth:39 - 1Password session is active
+2026-01-01 18:20:01 | DEBUG    | src.auth.auth:load_auth_config:28 - Using auth config: auth_ruben.yaml
+2026-01-01 18:20:02 | DEBUG    | src.auth.auth:get_api_key:77 - Retrieved API key: r8_K...
+2026-01-01 18:20:02 | INFO     | __main__:discover_inputs_and_profiles:92 - Discovering inputs...
+2026-01-01 18:20:02 | DEBUG    | src.processing.discovery:discover_prompt_files:42 - Found markdown file: frame_2258.md
+2026-01-01 18:20:02 | DEBUG    | src.processing.discovery:discover_prompt_files:42 - Found markdown file: frame_1848.md
+2026-01-01 18:20:02 | DEBUG    | src.processing.discovery:discover_prompt_files:42 - Found markdown file: frame_0873.md
+2026-01-01 18:20:02 | DEBUG    | src.processing.discovery:discover_prompt_files:42 - Found markdown file: frame_1859.md
+2026-01-01 18:20:02 | DEBUG    | src.processing.discovery:discover_prompt_files:42 - Found markdown file: frame_0145.md
+2026-01-01 18:20:02 | DEBUG    | src.processing.discovery:discover_prompt_files:42 - Found markdown file: frame_2256.md
+2026-01-01 18:20:02 | DEBUG    | src.processing.discovery:discover_prompt_files:42 - Found markdown file: frame_1842.md
+2026-01-01 18:20:02 | DEBUG    | src.processing.discovery:discover_prompt_files:42 - Found markdown file: frame_1994.md
+2026-01-01 18:20:02 | DEBUG    | src.processing.discovery:discover_prompt_files:42 - Found markdown file: frame_2120.md
+2026-01-01 18:20:02 | DEBUG    | src.processing.discovery:discover_prompt_files:42 - Found markdown file: frame_2144.md
+2026-01-01 18:20:02 | DEBUG    | src.processing.discovery:discover_prompt_files:42 - Found markdown file: frame_1715.md
+2026-01-01 18:20:02 | DEBUG    | src.processing.discovery:discover_prompt_files:42 - Found markdown file: frame_2101.md
+2026-01-01 18:20:02 | DEBUG    | src.processing.discovery:discover_prompt_files:42 - Found markdown file: frame_0193.md
+2026-01-01 18:20:02 | DEBUG    | src.processing.discovery:discover_prompt_files:42 - Found markdown file: frame_2051.md
+2026-01-01 18:20:02 | DEBUG    | src.processing.discovery:discover_prompt_files:42 - Found markdown file: frame_1863.md
+2026-01-01 18:20:02 | DEBUG    | src.processing.discovery:discover_prompt_files:42 - Found markdown file: frame_0250.md
+2026-01-01 18:20:02 | DEBUG    | src.processing.discovery:discover_prompt_files:42 - Found markdown file: frame_2177.md
+2026-01-01 18:20:02 | DEBUG    | src.processing.discovery:discover_prompt_files:42 - Found markdown file: frame_1646.md
+2026-01-01 18:20:02 | DEBUG    | src.processing.discovery:discover_prompt_files:42 - Found markdown file: frame_1757.md
+2026-01-01 18:20:02 | DEBUG    | src.processing.discovery:discover_prompt_files:42 - Found markdown file: frame_1854.md
+2026-01-01 18:20:02 | DEBUG    | src.processing.discovery:discover_prompt_files:42 - Found markdown file: frame_1647.md
+2026-01-01 18:20:02 | DEBUG    | src.processing.discovery:discover_prompt_files:42 - Found markdown file: frame_1944.md
+2026-01-01 18:20:02 | DEBUG    | src.processing.discovery:discover_prompt_files:42 - Found markdown file: frame_1713.md
+2026-01-01 18:20:02 | DEBUG    | src.processing.discovery:discover_prompt_files:42 - Found markdown file: frame_0214.md
+2026-01-01 18:20:02 | DEBUG    | src.processing.discovery:discover_prompt_files:42 - Found markdown file: frame_2224.md
+2026-01-01 18:20:02 | DEBUG    | src.processing.discovery:discover_prompt_files:42 - Found markdown file: frame_1515.md
+2026-01-01 18:20:02 | DEBUG    | src.processing.discovery:discover_prompt_files:42 - Found markdown file: frame_1851.md
+2026-01-01 18:20:02 | DEBUG    | src.processing.discovery:discover_prompt_files:42 - Found markdown file: frame_0860.md
+2026-01-01 18:20:02 | DEBUG    | src.processing.discovery:discover_prompt_files:42 - Found markdown file: frame_1729.md
+2026-01-01 18:20:02 | INFO     | src.processing.discovery:discover_prompt_files:47 - Discovered 29 markdown files
+2026-01-01 18:20:02 | DEBUG    | src.processing.discovery:discover_profiles:98 - Loaded profile: USER-FILES/03.PROFILES/nano-banano-pro-2k_16x9_wbt_lebanon.yaml
+2026-01-01 18:20:02 | INFO     | src.processing.discovery:discover_profiles:102 - Loaded 1 profiles
+2026-01-01 18:20:02 | INFO     | src.processing.discovery:get_active_models:148 - Found profile: nano-banano-pro-2k_16x9_wbt_lebanon
+2026-01-01 18:20:02 | INFO     | src.processing.discovery:get_active_models:153 - Total profiles to process: 1
+2026-01-01 18:20:02 | INFO     | src.config.validator:validate_all:26 - All configuration validation passed
+2026-01-01 18:20:02 | INFO     | __main__:initialize_services:186 - Output directory: USER-FILES/05.OUTPUT/260101_182002_IMAGE
+2026-01-01 18:20:02 | INFO     | __main__:execute_processing:221 - Starting matrix processing...
+2026-01-01 18:20:02 | DEBUG    | src.processing.validator:validate_operational_requirements:30 - Profile 'nano-banano-pro-2k_16x9_wbt_lebanon' operational validation passed
+2026-01-01 18:20:02 | INFO     | src.processing.processor:process_all:66 - Processing 29 combinations (29 files × 1 profiles)
+2026-01-01 18:20:02 | DEBUG    | src.processing.processor:_process_single_combination:132 - Extracted image URL from markdown: https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_0145.jpg
+2026-01-01 18:20:02 | INFO     | src.processing.discovery:load_prompts:66 - Extracted prompt from frame_0145.md
+2026-01-01 18:20:02 | INFO     | src.processing.processor:_process_single_combination:141 - Processing combination 1/29: frame_0145.md + nano-banano-pro-2k_16x9_wbt_lebanon
+2026-01-01 18:20:02 | DEBUG    | src.processing.processor:_process_single_combination:163 - Built image_input array with 1 URL(s): ['https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_0145.jpg']
+2026-01-01 18:20:02 | DEBUG    | src.processing.processor:_apply_prompt_fixes:235 - Added prefix to prompt: Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts 
+2026-01-01 18:20:02 | DEBUG    | src.processing.processor:_apply_prompt_fixes:239 - Added suffix to prompt: The created image should look like it was shot on 35mm film by Roger Deakins.
+2026-01-01 18:20:02 | DEBUG    | src.processing.processor:_process_with_context:215 - Processing frame_0145.md: Create an exact, photorealistic version of the pro...
+2026-01-01 18:20:02 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "aspect_ratio": "16:9",
+  "output_format": "png",
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_0145.jpg"
+  ]
+}
+2026-01-01 18:20:02 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "aspect_ratio": "16:9",
+  "output_format": "png",
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_0145.jpg"
+  ],
+  "prompt": "Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  In this dream scene, yellow flares fall down over the facades of war torn 1980s Beirut beach at night. Men are bobbing in the water as they float in the still water. One man, only wearing wet underwear, wade through the water towards the city holding a IMI Galil riffle in his hand right hand. The created image should look like it was shot on 35mm film by Roger Deakins."
+}
+2026-01-01 18:20:02 | DEBUG    | src.api.client:generate_image:89 - Original prompt: Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  In this dream scene, yellow flares fall down over the facades of war torn 1980s Beirut beach at night. Men are bobbing in the water as they float in the still water. One man, only wearing wet underwear, wade through the water towards the city holding a IMI Galil riffle in his hand right hand. The created image should look like it was shot on 35mm film by Roger Deakins.
+2026-01-01 18:20:02 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  In this dream scene, yellow flares fall down over the facades of war torn 1980s Beirut beach at night. Men are bobbing in the water as they float in the still water. One man, only wearing wet underwear, wade through the water towards the city holding a IMI Galil riffle in his hand right hand. The created image should look like it was shot on 35mm film by Roger Deakins.
+2026-01-01 18:20:02 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  In this dream scene, yellow flares fall down over the facades of war torn 1980s Beirut beach at night. Men are bobbing in the water as they float in the still water. One man, only wearing wet underwear, wade through the water towards the city holding a IMI Galil riffle in his hand right hand. The created image should look like it was shot on 35mm film by Roger Deakins.'
+2026-01-01 18:20:02 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2026-01-01 18:20:02 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "aspect_ratio": "16:9",
+  "output_format": "png",
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_0145.jpg"
+  ],
+  "prompt": "Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  In this dream scene, yellow flares fall down over the facades of war torn 1980s Beirut beach at night. Men are bobbing in the water as they float in the still water. One man, only wearing wet underwear, wade through the water towards the city holding a IMI Galil riffle in his hand right hand. The created image should look like it was shot on 35mm film by Roger Deakins."
+}
+2026-01-01 18:20:39 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2026-01-01 18:20:39 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2026-01-01 18:20:39 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana-pro
+2026-01-01 18:20:39 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2026-01-01 18:20:39 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2026-01-01 18:20:40 | INFO     | src.output.writer:_save_to_disk:203 - Saved valid image: USER-FILES/05.OUTPUT/260101_182002_IMAGE/260101_182039_frame_0145.png
+2026-01-01 18:20:40 | DEBUG    | src.output.writer:_save_payload:270 - Saved payload to USER-FILES/05.OUTPUT/260101_182002_IMAGE/260101_182039_frame_0145.md
+2026-01-01 18:20:40 | INFO     | src.processing.processor:_generate_and_save_image:276 - Saved image: USER-FILES/05.OUTPUT/260101_182002_IMAGE/260101_182039_frame_0145.png
+2026-01-01 18:20:40 | INFO     | src.processing.processor:_process_with_context:226 - Waiting 1.0 seconds before next request
+2026-01-01 18:20:41 | DEBUG    | src.processing.processor:_process_single_combination:132 - Extracted image URL from markdown: https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_0193.jpg
+2026-01-01 18:20:41 | INFO     | src.processing.discovery:load_prompts:66 - Extracted prompt from frame_0193.md
+2026-01-01 18:20:41 | INFO     | src.processing.processor:_process_single_combination:141 - Processing combination 2/29: frame_0193.md + nano-banano-pro-2k_16x9_wbt_lebanon
+2026-01-01 18:20:41 | DEBUG    | src.processing.processor:_process_single_combination:163 - Built image_input array with 1 URL(s): ['https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_0193.jpg']
+2026-01-01 18:20:41 | DEBUG    | src.processing.processor:_apply_prompt_fixes:235 - Added prefix to prompt: Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts 
+2026-01-01 18:20:41 | DEBUG    | src.processing.processor:_apply_prompt_fixes:239 - Added suffix to prompt: The created image should look like it was shot on 35mm film by Roger Deakins.
+2026-01-01 18:20:41 | DEBUG    | src.processing.processor:_process_with_context:215 - Processing frame_0193.md: Create an exact, photorealistic version of the pro...
+2026-01-01 18:20:41 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "aspect_ratio": "16:9",
+  "output_format": "png",
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_0193.jpg"
+  ]
+}
+2026-01-01 18:20:41 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "aspect_ratio": "16:9",
+  "output_format": "png",
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_0193.jpg"
+  ],
+  "prompt": "Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  In this dream scene, the silhouette of Israeli men in only wearing wet underwear wade throught the water towards the beach. The man in the back carry a IMI Galil riffle. IN the back war torn Beirut behind them is illuminated by falling yellow flares. The created image should look like it was shot on 35mm film by Roger Deakins."
+}
+2026-01-01 18:20:41 | DEBUG    | src.api.client:generate_image:89 - Original prompt: Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  In this dream scene, the silhouette of Israeli men in only wearing wet underwear wade throught the water towards the beach. The man in the back carry a IMI Galil riffle. IN the back war torn Beirut behind them is illuminated by falling yellow flares. The created image should look like it was shot on 35mm film by Roger Deakins.
+2026-01-01 18:20:41 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  In this dream scene, the silhouette of Israeli men in only wearing wet underwear wade throught the water towards the beach. The man in the back carry a IMI Galil riffle. IN the back war torn Beirut behind them is illuminated by falling yellow flares. The created image should look like it was shot on 35mm film by Roger Deakins.
+2026-01-01 18:20:41 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  In this dream scene, the silhouette of Israeli men in only wearing wet underwear wade throught the water towards the beach. The man in the back carry a IMI Galil riffle. IN the back war torn Beirut behind them is illuminated by falling yellow flares. The created image should look like it was shot on 35mm film by Roger Deakins.'
+2026-01-01 18:20:41 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2026-01-01 18:20:41 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "aspect_ratio": "16:9",
+  "output_format": "png",
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_0193.jpg"
+  ],
+  "prompt": "Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  In this dream scene, the silhouette of Israeli men in only wearing wet underwear wade throught the water towards the beach. The man in the back carry a IMI Galil riffle. IN the back war torn Beirut behind them is illuminated by falling yellow flares. The created image should look like it was shot on 35mm film by Roger Deakins."
+}
+2026-01-01 18:21:11 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2026-01-01 18:21:11 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2026-01-01 18:21:11 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana-pro
+2026-01-01 18:21:11 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2026-01-01 18:21:11 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2026-01-01 18:21:12 | INFO     | src.output.writer:_save_to_disk:203 - Saved valid image: USER-FILES/05.OUTPUT/260101_182002_IMAGE/260101_182111_frame_0193.png
+2026-01-01 18:21:12 | DEBUG    | src.output.writer:_save_payload:270 - Saved payload to USER-FILES/05.OUTPUT/260101_182002_IMAGE/260101_182111_frame_0193.md
+2026-01-01 18:21:12 | INFO     | src.processing.processor:_generate_and_save_image:276 - Saved image: USER-FILES/05.OUTPUT/260101_182002_IMAGE/260101_182111_frame_0193.png
+2026-01-01 18:21:12 | INFO     | src.processing.processor:_process_with_context:226 - Waiting 1.0 seconds before next request
+2026-01-01 18:21:13 | DEBUG    | src.processing.processor:_process_single_combination:132 - Extracted image URL from markdown: https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_0214.jpg
+2026-01-01 18:21:13 | INFO     | src.processing.discovery:load_prompts:66 - Extracted prompt from frame_0214.md
+2026-01-01 18:21:13 | INFO     | src.processing.processor:_process_single_combination:141 - Processing combination 3/29: frame_0214.md + nano-banano-pro-2k_16x9_wbt_lebanon
+2026-01-01 18:21:13 | DEBUG    | src.processing.processor:_process_single_combination:163 - Built image_input array with 1 URL(s): ['https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_0214.jpg']
+2026-01-01 18:21:13 | DEBUG    | src.processing.processor:_apply_prompt_fixes:235 - Added prefix to prompt: Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts 
+2026-01-01 18:21:13 | DEBUG    | src.processing.processor:_apply_prompt_fixes:239 - Added suffix to prompt: The created image should look like it was shot on 35mm film by Roger Deakins.
+2026-01-01 18:21:13 | DEBUG    | src.processing.processor:_process_with_context:215 - Processing frame_0214.md: Create an exact, photorealistic version of the pro...
+2026-01-01 18:21:13 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "aspect_ratio": "16:9",
+  "output_format": "png",
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_0214.jpg"
+  ]
+}
+2026-01-01 18:21:13 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "aspect_ratio": "16:9",
+  "output_format": "png",
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_0214.jpg"
+  ],
+  "prompt": "Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  Three silhouetted Israeli soldiers are midst getting dressed as they stand on Beirut beach. On the ground are their uniforms and IMI Galil riffles. Behind them is the glaring search light. The created image should look like it was shot on 35mm film by Roger Deakins."
+}
+2026-01-01 18:21:13 | DEBUG    | src.api.client:generate_image:89 - Original prompt: Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  Three silhouetted Israeli soldiers are midst getting dressed as they stand on Beirut beach. On the ground are their uniforms and IMI Galil riffles. Behind them is the glaring search light. The created image should look like it was shot on 35mm film by Roger Deakins.
+2026-01-01 18:21:13 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  Three silhouetted Israeli soldiers are midst getting dressed as they stand on Beirut beach. On the ground are their uniforms and IMI Galil riffles. Behind them is the glaring search light. The created image should look like it was shot on 35mm film by Roger Deakins.
+2026-01-01 18:21:13 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  Three silhouetted Israeli soldiers are midst getting dressed as they stand on Beirut beach. On the ground are their uniforms and IMI Galil riffles. Behind them is the glaring search light. The created image should look like it was shot on 35mm film by Roger Deakins.'
+2026-01-01 18:21:13 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2026-01-01 18:21:13 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "aspect_ratio": "16:9",
+  "output_format": "png",
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_0214.jpg"
+  ],
+  "prompt": "Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  Three silhouetted Israeli soldiers are midst getting dressed as they stand on Beirut beach. On the ground are their uniforms and IMI Galil riffles. Behind them is the glaring search light. The created image should look like it was shot on 35mm film by Roger Deakins."
+}
+2026-01-01 18:21:56 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2026-01-01 18:21:56 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2026-01-01 18:21:56 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana-pro
+2026-01-01 18:21:56 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2026-01-01 18:21:56 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2026-01-01 18:21:58 | INFO     | src.output.writer:_save_to_disk:203 - Saved valid image: USER-FILES/05.OUTPUT/260101_182002_IMAGE/260101_182156_frame_0214.png
+2026-01-01 18:21:58 | DEBUG    | src.output.writer:_save_payload:270 - Saved payload to USER-FILES/05.OUTPUT/260101_182002_IMAGE/260101_182156_frame_0214.md
+2026-01-01 18:21:58 | INFO     | src.processing.processor:_generate_and_save_image:276 - Saved image: USER-FILES/05.OUTPUT/260101_182002_IMAGE/260101_182156_frame_0214.png
+2026-01-01 18:21:58 | INFO     | src.processing.processor:_process_with_context:226 - Waiting 1.0 seconds before next request
+2026-01-01 18:21:59 | DEBUG    | src.processing.processor:_process_single_combination:132 - Extracted image URL from markdown: https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_0250.jpg
+2026-01-01 18:21:59 | INFO     | src.processing.discovery:load_prompts:66 - Extracted prompt from frame_0250.md
+2026-01-01 18:21:59 | INFO     | src.processing.processor:_process_single_combination:141 - Processing combination 4/29: frame_0250.md + nano-banano-pro-2k_16x9_wbt_lebanon
+2026-01-01 18:21:59 | DEBUG    | src.processing.processor:_process_single_combination:163 - Built image_input array with 1 URL(s): ['https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_0250.jpg']
+2026-01-01 18:21:59 | DEBUG    | src.processing.processor:_apply_prompt_fixes:235 - Added prefix to prompt: Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts 
+2026-01-01 18:21:59 | DEBUG    | src.processing.processor:_apply_prompt_fixes:239 - Added suffix to prompt: The created image should look like it was shot on 35mm film by Roger Deakins.
+2026-01-01 18:21:59 | DEBUG    | src.processing.processor:_process_with_context:215 - Processing frame_0250.md: Create an exact, photorealistic version of the pro...
+2026-01-01 18:21:59 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "aspect_ratio": "16:9",
+  "output_format": "png",
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_0250.jpg"
+  ]
+}
+2026-01-01 18:21:59 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "aspect_ratio": "16:9",
+  "output_format": "png",
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_0250.jpg"
+  ],
+  "prompt": "Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  Three silhouetted Israeli soldiers get dressed on a Beirut beach. Their clothing and riffles on the ground. Behind them is the sun rising. The created image should look like it was shot on 35mm film by Roger Deakins."
+}
+2026-01-01 18:21:59 | DEBUG    | src.api.client:generate_image:89 - Original prompt: Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  Three silhouetted Israeli soldiers get dressed on a Beirut beach. Their clothing and riffles on the ground. Behind them is the sun rising. The created image should look like it was shot on 35mm film by Roger Deakins.
+2026-01-01 18:21:59 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  Three silhouetted Israeli soldiers get dressed on a Beirut beach. Their clothing and riffles on the ground. Behind them is the sun rising. The created image should look like it was shot on 35mm film by Roger Deakins.
+2026-01-01 18:21:59 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  Three silhouetted Israeli soldiers get dressed on a Beirut beach. Their clothing and riffles on the ground. Behind them is the sun rising. The created image should look like it was shot on 35mm film by Roger Deakins.'
+2026-01-01 18:21:59 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2026-01-01 18:21:59 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "aspect_ratio": "16:9",
+  "output_format": "png",
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_0250.jpg"
+  ],
+  "prompt": "Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  Three silhouetted Israeli soldiers get dressed on a Beirut beach. Their clothing and riffles on the ground. Behind them is the sun rising. The created image should look like it was shot on 35mm film by Roger Deakins."
+}
+2026-01-01 18:22:41 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2026-01-01 18:22:41 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2026-01-01 18:22:41 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana-pro
+2026-01-01 18:22:41 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2026-01-01 18:22:41 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2026-01-01 18:22:43 | INFO     | src.output.writer:_save_to_disk:203 - Saved valid image: USER-FILES/05.OUTPUT/260101_182002_IMAGE/260101_182241_frame_0250.png
+2026-01-01 18:22:43 | DEBUG    | src.output.writer:_save_payload:270 - Saved payload to USER-FILES/05.OUTPUT/260101_182002_IMAGE/260101_182241_frame_0250.md
+2026-01-01 18:22:43 | INFO     | src.processing.processor:_generate_and_save_image:276 - Saved image: USER-FILES/05.OUTPUT/260101_182002_IMAGE/260101_182241_frame_0250.png
+2026-01-01 18:22:43 | INFO     | src.processing.processor:_process_with_context:226 - Waiting 1.0 seconds before next request
+2026-01-01 18:22:44 | DEBUG    | src.processing.processor:_process_single_combination:132 - Extracted image URL from markdown: https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_0860.jpg
+2026-01-01 18:22:44 | INFO     | src.processing.discovery:load_prompts:66 - Extracted prompt from frame_0860.md
+2026-01-01 18:22:44 | INFO     | src.processing.processor:_process_single_combination:141 - Processing combination 5/29: frame_0860.md + nano-banano-pro-2k_16x9_wbt_lebanon
+2026-01-01 18:22:44 | DEBUG    | src.processing.processor:_process_single_combination:163 - Built image_input array with 1 URL(s): ['https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_0860.jpg']
+2026-01-01 18:22:44 | DEBUG    | src.processing.processor:_apply_prompt_fixes:235 - Added prefix to prompt: Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts 
+2026-01-01 18:22:44 | DEBUG    | src.processing.processor:_apply_prompt_fixes:239 - Added suffix to prompt: The created image should look like it was shot on 35mm film by Roger Deakins.
+2026-01-01 18:22:44 | DEBUG    | src.processing.processor:_process_with_context:215 - Processing frame_0860.md: Create an exact, photorealistic version of the pro...
+2026-01-01 18:22:44 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "aspect_ratio": "16:9",
+  "output_format": "png",
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_0860.jpg"
+  ]
+}
+2026-01-01 18:22:44 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "aspect_ratio": "16:9",
+  "output_format": "png",
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_0860.jpg"
+  ],
+  "prompt": "Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  Muslim woman rushing through Beirut streets in the earlty 1980s. Warm light at golden hour. The created image should look like it was shot on 35mm film by Roger Deakins."
+}
+2026-01-01 18:22:44 | DEBUG    | src.api.client:generate_image:89 - Original prompt: Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  Muslim woman rushing through Beirut streets in the earlty 1980s. Warm light at golden hour. The created image should look like it was shot on 35mm film by Roger Deakins.
+2026-01-01 18:22:44 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  Muslim woman rushing through Beirut streets in the earlty 1980s. Warm light at golden hour. The created image should look like it was shot on 35mm film by Roger Deakins.
+2026-01-01 18:22:44 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  Muslim woman rushing through Beirut streets in the earlty 1980s. Warm light at golden hour. The created image should look like it was shot on 35mm film by Roger Deakins.'
+2026-01-01 18:22:44 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2026-01-01 18:22:44 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "aspect_ratio": "16:9",
+  "output_format": "png",
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_0860.jpg"
+  ],
+  "prompt": "Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  Muslim woman rushing through Beirut streets in the earlty 1980s. Warm light at golden hour. The created image should look like it was shot on 35mm film by Roger Deakins."
+}
+2026-01-01 18:23:24 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2026-01-01 18:23:24 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2026-01-01 18:23:24 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana-pro
+2026-01-01 18:23:24 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2026-01-01 18:23:24 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2026-01-01 18:23:25 | INFO     | src.output.writer:_save_to_disk:203 - Saved valid image: USER-FILES/05.OUTPUT/260101_182002_IMAGE/260101_182324_frame_0860.png
+2026-01-01 18:23:25 | DEBUG    | src.output.writer:_save_payload:270 - Saved payload to USER-FILES/05.OUTPUT/260101_182002_IMAGE/260101_182324_frame_0860.md
+2026-01-01 18:23:25 | INFO     | src.processing.processor:_generate_and_save_image:276 - Saved image: USER-FILES/05.OUTPUT/260101_182002_IMAGE/260101_182324_frame_0860.png
+2026-01-01 18:23:25 | INFO     | src.processing.processor:_process_with_context:226 - Waiting 1.0 seconds before next request
+2026-01-01 18:23:26 | DEBUG    | src.processing.processor:_process_single_combination:132 - Extracted image URL from markdown: https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_0873.jpg
+2026-01-01 18:23:26 | INFO     | src.processing.discovery:load_prompts:66 - Extracted prompt from frame_0873.md
+2026-01-01 18:23:26 | INFO     | src.processing.processor:_process_single_combination:141 - Processing combination 6/29: frame_0873.md + nano-banano-pro-2k_16x9_wbt_lebanon
+2026-01-01 18:23:26 | DEBUG    | src.processing.processor:_process_single_combination:163 - Built image_input array with 1 URL(s): ['https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_0873.jpg']
+2026-01-01 18:23:26 | DEBUG    | src.processing.processor:_apply_prompt_fixes:235 - Added prefix to prompt: Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts 
+2026-01-01 18:23:26 | DEBUG    | src.processing.processor:_apply_prompt_fixes:239 - Added suffix to prompt: The created image should look like it was shot on 35mm film by Roger Deakins.
+2026-01-01 18:23:26 | DEBUG    | src.processing.processor:_process_with_context:215 - Processing frame_0873.md: Create an exact, photorealistic version of the pro...
+2026-01-01 18:23:26 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "aspect_ratio": "16:9",
+  "output_format": "png",
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_0873.jpg"
+  ]
+}
+2026-01-01 18:23:26 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "aspect_ratio": "16:9",
+  "output_format": "png",
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_0873.jpg"
+  ],
+  "prompt": "Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  The backs of Muslim women rushing down 1980s Beirut street. Warm light during golden hour. In the distance is a Israeli chechpoint. The created image should look like it was shot on 35mm film by Roger Deakins."
+}
+2026-01-01 18:23:26 | DEBUG    | src.api.client:generate_image:89 - Original prompt: Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  The backs of Muslim women rushing down 1980s Beirut street. Warm light during golden hour. In the distance is a Israeli chechpoint. The created image should look like it was shot on 35mm film by Roger Deakins.
+2026-01-01 18:23:26 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  The backs of Muslim women rushing down 1980s Beirut street. Warm light during golden hour. In the distance is a Israeli chechpoint. The created image should look like it was shot on 35mm film by Roger Deakins.
+2026-01-01 18:23:26 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  The backs of Muslim women rushing down 1980s Beirut street. Warm light during golden hour. In the distance is a Israeli chechpoint. The created image should look like it was shot on 35mm film by Roger Deakins.'
+2026-01-01 18:23:26 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2026-01-01 18:23:26 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "aspect_ratio": "16:9",
+  "output_format": "png",
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_0873.jpg"
+  ],
+  "prompt": "Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  The backs of Muslim women rushing down 1980s Beirut street. Warm light during golden hour. In the distance is a Israeli chechpoint. The created image should look like it was shot on 35mm film by Roger Deakins."
+}
+2026-01-01 18:23:59 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2026-01-01 18:23:59 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2026-01-01 18:23:59 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana-pro
+2026-01-01 18:23:59 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2026-01-01 18:23:59 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2026-01-01 18:24:01 | INFO     | src.output.writer:_save_to_disk:203 - Saved valid image: USER-FILES/05.OUTPUT/260101_182002_IMAGE/260101_182359_frame_0873.png
+2026-01-01 18:24:01 | DEBUG    | src.output.writer:_save_payload:270 - Saved payload to USER-FILES/05.OUTPUT/260101_182002_IMAGE/260101_182359_frame_0873.md
+2026-01-01 18:24:01 | INFO     | src.processing.processor:_generate_and_save_image:276 - Saved image: USER-FILES/05.OUTPUT/260101_182002_IMAGE/260101_182359_frame_0873.png
+2026-01-01 18:24:01 | INFO     | src.processing.processor:_process_with_context:226 - Waiting 1.0 seconds before next request
+2026-01-01 18:24:02 | DEBUG    | src.processing.processor:_process_single_combination:132 - Extracted image URL from markdown: https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_1515.jpg
+2026-01-01 18:24:02 | INFO     | src.processing.discovery:load_prompts:66 - Extracted prompt from frame_1515.md
+2026-01-01 18:24:02 | INFO     | src.processing.processor:_process_single_combination:141 - Processing combination 7/29: frame_1515.md + nano-banano-pro-2k_16x9_wbt_lebanon
+2026-01-01 18:24:02 | DEBUG    | src.processing.processor:_process_single_combination:163 - Built image_input array with 1 URL(s): ['https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_1515.jpg']
+2026-01-01 18:24:02 | DEBUG    | src.processing.processor:_apply_prompt_fixes:235 - Added prefix to prompt: Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts 
+2026-01-01 18:24:02 | DEBUG    | src.processing.processor:_apply_prompt_fixes:239 - Added suffix to prompt: The created image should look like it was shot on 35mm film by Roger Deakins.
+2026-01-01 18:24:02 | DEBUG    | src.processing.processor:_process_with_context:215 - Processing frame_1515.md: Create an exact, photorealistic version of the pro...
+2026-01-01 18:24:02 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "aspect_ratio": "16:9",
+  "output_format": "png",
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_1515.jpg"
+  ]
+}
+2026-01-01 18:24:02 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "aspect_ratio": "16:9",
+  "output_format": "png",
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_1515.jpg"
+  ],
+  "prompt": "Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  Corner of building cracking and crumbling as Israeli tank makes a turn and scrapes against the facade in narrow Beirut street. The created image should look like it was shot on 35mm film by Roger Deakins."
+}
+2026-01-01 18:24:02 | DEBUG    | src.api.client:generate_image:89 - Original prompt: Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  Corner of building cracking and crumbling as Israeli tank makes a turn and scrapes against the facade in narrow Beirut street. The created image should look like it was shot on 35mm film by Roger Deakins.
+2026-01-01 18:24:02 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  Corner of building cracking and crumbling as Israeli tank makes a turn and scrapes against the facade in narrow Beirut street. The created image should look like it was shot on 35mm film by Roger Deakins.
+2026-01-01 18:24:02 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  Corner of building cracking and crumbling as Israeli tank makes a turn and scrapes against the facade in narrow Beirut street. The created image should look like it was shot on 35mm film by Roger Deakins.'
+2026-01-01 18:24:02 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2026-01-01 18:24:02 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "aspect_ratio": "16:9",
+  "output_format": "png",
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_1515.jpg"
+  ],
+  "prompt": "Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  Corner of building cracking and crumbling as Israeli tank makes a turn and scrapes against the facade in narrow Beirut street. The created image should look like it was shot on 35mm film by Roger Deakins."
+}
+2026-01-01 18:24:52 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2026-01-01 18:24:52 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2026-01-01 18:24:52 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana-pro
+2026-01-01 18:24:52 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2026-01-01 18:24:52 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2026-01-01 18:24:54 | INFO     | src.output.writer:_save_to_disk:203 - Saved valid image: USER-FILES/05.OUTPUT/260101_182002_IMAGE/260101_182452_frame_1515.png
+2026-01-01 18:24:54 | DEBUG    | src.output.writer:_save_payload:270 - Saved payload to USER-FILES/05.OUTPUT/260101_182002_IMAGE/260101_182452_frame_1515.md
+2026-01-01 18:24:54 | INFO     | src.processing.processor:_generate_and_save_image:276 - Saved image: USER-FILES/05.OUTPUT/260101_182002_IMAGE/260101_182452_frame_1515.png
+2026-01-01 18:24:54 | INFO     | src.processing.processor:_process_with_context:226 - Waiting 1.0 seconds before next request
+2026-01-01 18:24:55 | DEBUG    | src.processing.processor:_process_single_combination:132 - Extracted image URL from markdown: https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_1646.jpg
+2026-01-01 18:24:55 | INFO     | src.processing.discovery:load_prompts:66 - Extracted prompt from frame_1646.md
+2026-01-01 18:24:55 | INFO     | src.processing.processor:_process_single_combination:141 - Processing combination 8/29: frame_1646.md + nano-banano-pro-2k_16x9_wbt_lebanon
+2026-01-01 18:24:55 | DEBUG    | src.processing.processor:_process_single_combination:163 - Built image_input array with 1 URL(s): ['https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_1646.jpg']
+2026-01-01 18:24:55 | DEBUG    | src.processing.processor:_apply_prompt_fixes:235 - Added prefix to prompt: Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts 
+2026-01-01 18:24:55 | DEBUG    | src.processing.processor:_apply_prompt_fixes:239 - Added suffix to prompt: The created image should look like it was shot on 35mm film by Roger Deakins.
+2026-01-01 18:24:55 | DEBUG    | src.processing.processor:_process_with_context:215 - Processing frame_1646.md: Create an exact, photorealistic version of the pro...
+2026-01-01 18:24:55 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "aspect_ratio": "16:9",
+  "output_format": "png",
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_1646.jpg"
+  ]
+}
+2026-01-01 18:24:55 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "aspect_ratio": "16:9",
+  "output_format": "png",
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_1646.jpg"
+  ],
+  "prompt": "Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  Two Israeli soldiers are gazing into the distance while sitting in a tanks open hatch. Behind them are building of the Lebanese fishing village. Behind the village is the sea. The created image should look like it was shot on 35mm film by Roger Deakins."
+}
+2026-01-01 18:24:55 | DEBUG    | src.api.client:generate_image:89 - Original prompt: Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  Two Israeli soldiers are gazing into the distance while sitting in a tanks open hatch. Behind them are building of the Lebanese fishing village. Behind the village is the sea. The created image should look like it was shot on 35mm film by Roger Deakins.
+2026-01-01 18:24:55 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  Two Israeli soldiers are gazing into the distance while sitting in a tanks open hatch. Behind them are building of the Lebanese fishing village. Behind the village is the sea. The created image should look like it was shot on 35mm film by Roger Deakins.
+2026-01-01 18:24:55 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  Two Israeli soldiers are gazing into the distance while sitting in a tanks open hatch. Behind them are building of the Lebanese fishing village. Behind the village is the sea. The created image should look like it was shot on 35mm film by Roger Deakins.'
+2026-01-01 18:24:55 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2026-01-01 18:24:55 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "aspect_ratio": "16:9",
+  "output_format": "png",
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_1646.jpg"
+  ],
+  "prompt": "Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  Two Israeli soldiers are gazing into the distance while sitting in a tanks open hatch. Behind them are building of the Lebanese fishing village. Behind the village is the sea. The created image should look like it was shot on 35mm film by Roger Deakins."
+}
+2026-01-01 18:25:27 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2026-01-01 18:25:27 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2026-01-01 18:25:27 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana-pro
+2026-01-01 18:25:27 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2026-01-01 18:25:27 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2026-01-01 18:25:28 | INFO     | src.output.writer:_save_to_disk:203 - Saved valid image: USER-FILES/05.OUTPUT/260101_182002_IMAGE/260101_182527_frame_1646.png
+2026-01-01 18:25:28 | DEBUG    | src.output.writer:_save_payload:270 - Saved payload to USER-FILES/05.OUTPUT/260101_182002_IMAGE/260101_182527_frame_1646.md
+2026-01-01 18:25:28 | INFO     | src.processing.processor:_generate_and_save_image:276 - Saved image: USER-FILES/05.OUTPUT/260101_182002_IMAGE/260101_182527_frame_1646.png
+2026-01-01 18:25:28 | INFO     | src.processing.processor:_process_with_context:226 - Waiting 1.0 seconds before next request
+2026-01-01 18:25:29 | DEBUG    | src.processing.processor:_process_single_combination:132 - Extracted image URL from markdown: https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_1647.jpg
+2026-01-01 18:25:29 | INFO     | src.processing.discovery:load_prompts:66 - Extracted prompt from frame_1647.md
+2026-01-01 18:25:29 | INFO     | src.processing.processor:_process_single_combination:141 - Processing combination 9/29: frame_1647.md + nano-banano-pro-2k_16x9_wbt_lebanon
+2026-01-01 18:25:29 | DEBUG    | src.processing.processor:_process_single_combination:163 - Built image_input array with 1 URL(s): ['https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_1647.jpg']
+2026-01-01 18:25:29 | DEBUG    | src.processing.processor:_apply_prompt_fixes:235 - Added prefix to prompt: Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts 
+2026-01-01 18:25:29 | DEBUG    | src.processing.processor:_apply_prompt_fixes:239 - Added suffix to prompt: The created image should look like it was shot on 35mm film by Roger Deakins.
+2026-01-01 18:25:29 | DEBUG    | src.processing.processor:_process_with_context:215 - Processing frame_1647.md: Create an exact, photorealistic version of the pro...
+2026-01-01 18:25:29 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "aspect_ratio": "16:9",
+  "output_format": "png",
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_1647.jpg"
+  ]
+}
+2026-01-01 18:25:29 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "aspect_ratio": "16:9",
+  "output_format": "png",
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_1647.jpg"
+  ],
+  "prompt": "Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  Two helmeted Israeli soldiers. We see the profile of the soldier to the left as he makes an involuntary jerk as he is hit by a projectile. Next to the hit soldier is the profile of his unknowing comrade soldier. The created image should look like it was shot on 35mm film by Roger Deakins."
+}
+2026-01-01 18:25:29 | DEBUG    | src.api.client:generate_image:89 - Original prompt: Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  Two helmeted Israeli soldiers. We see the profile of the soldier to the left as he makes an involuntary jerk as he is hit by a projectile. Next to the hit soldier is the profile of his unknowing comrade soldier. The created image should look like it was shot on 35mm film by Roger Deakins.
+2026-01-01 18:25:29 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  Two helmeted Israeli soldiers. We see the profile of the soldier to the left as he makes an involuntary jerk as he is hit by a projectile. Next to the hit soldier is the profile of his unknowing comrade soldier. The created image should look like it was shot on 35mm film by Roger Deakins.
+2026-01-01 18:25:29 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  Two helmeted Israeli soldiers. We see the profile of the soldier to the left as he makes an involuntary jerk as he is hit by a projectile. Next to the hit soldier is the profile of his unknowing comrade soldier. The created image should look like it was shot on 35mm film by Roger Deakins.'
+2026-01-01 18:25:29 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2026-01-01 18:25:29 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "aspect_ratio": "16:9",
+  "output_format": "png",
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_1647.jpg"
+  ],
+  "prompt": "Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  Two helmeted Israeli soldiers. We see the profile of the soldier to the left as he makes an involuntary jerk as he is hit by a projectile. Next to the hit soldier is the profile of his unknowing comrade soldier. The created image should look like it was shot on 35mm film by Roger Deakins."
+}
+2026-01-01 18:35:30 | WARNING  | src.api.client:_call_with_retry:179 - Rate limited, waiting 60s...
+2026-01-01 18:36:30 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 2/3
+2026-01-01 18:36:30 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "aspect_ratio": "16:9",
+  "output_format": "png",
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_1647.jpg"
+  ],
+  "prompt": "Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  Two helmeted Israeli soldiers. We see the profile of the soldier to the left as he makes an involuntary jerk as he is hit by a projectile. Next to the hit soldier is the profile of his unknowing comrade soldier. The created image should look like it was shot on 35mm film by Roger Deakins."
+}
+2026-01-01 18:37:15 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2026-01-01 18:37:15 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2026-01-01 18:37:15 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana-pro
+2026-01-01 18:37:15 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2026-01-01 18:37:15 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2026-01-01 18:37:16 | INFO     | src.output.writer:_save_to_disk:203 - Saved valid image: USER-FILES/05.OUTPUT/260101_182002_IMAGE/260101_183715_frame_1647.png
+2026-01-01 18:37:16 | DEBUG    | src.output.writer:_save_payload:270 - Saved payload to USER-FILES/05.OUTPUT/260101_182002_IMAGE/260101_183715_frame_1647.md
+2026-01-01 18:37:16 | INFO     | src.processing.processor:_generate_and_save_image:276 - Saved image: USER-FILES/05.OUTPUT/260101_182002_IMAGE/260101_183715_frame_1647.png
+2026-01-01 18:37:16 | INFO     | src.processing.processor:_process_with_context:226 - Waiting 1.0 seconds before next request
+2026-01-01 18:37:17 | DEBUG    | src.processing.processor:_process_single_combination:132 - Extracted image URL from markdown: https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_1713.jpg
+2026-01-01 18:37:17 | INFO     | src.processing.discovery:load_prompts:66 - Extracted prompt from frame_1713.md
+2026-01-01 18:37:17 | INFO     | src.processing.processor:_process_single_combination:141 - Processing combination 10/29: frame_1713.md + nano-banano-pro-2k_16x9_wbt_lebanon
+2026-01-01 18:37:17 | DEBUG    | src.processing.processor:_process_single_combination:163 - Built image_input array with 1 URL(s): ['https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_1713.jpg']
+2026-01-01 18:37:17 | DEBUG    | src.processing.processor:_apply_prompt_fixes:235 - Added prefix to prompt: Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts 
+2026-01-01 18:37:17 | DEBUG    | src.processing.processor:_apply_prompt_fixes:239 - Added suffix to prompt: The created image should look like it was shot on 35mm film by Roger Deakins.
+2026-01-01 18:37:17 | DEBUG    | src.processing.processor:_process_with_context:215 - Processing frame_1713.md: Create an exact, photorealistic version of the pro...
+2026-01-01 18:37:17 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "aspect_ratio": "16:9",
+  "output_format": "png",
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_1713.jpg"
+  ]
+}
+2026-01-01 18:37:17 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "aspect_ratio": "16:9",
+  "output_format": "png",
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_1713.jpg"
+  ],
+  "prompt": "Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  A Israeli Armored vehicles drive through Lebanese banana grove with the muzzle flashes of their mounted machine guns through the dense foliage. Blue and pink sky at twilight. The created image should look like it was shot on 35mm film by Roger Deakins."
+}
+2026-01-01 18:37:17 | DEBUG    | src.api.client:generate_image:89 - Original prompt: Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  A Israeli Armored vehicles drive through Lebanese banana grove with the muzzle flashes of their mounted machine guns through the dense foliage. Blue and pink sky at twilight. The created image should look like it was shot on 35mm film by Roger Deakins.
+2026-01-01 18:37:17 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  A Israeli Armored vehicles drive through Lebanese banana grove with the muzzle flashes of their mounted machine guns through the dense foliage. Blue and pink sky at twilight. The created image should look like it was shot on 35mm film by Roger Deakins.
+2026-01-01 18:37:17 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  A Israeli Armored vehicles drive through Lebanese banana grove with the muzzle flashes of their mounted machine guns through the dense foliage. Blue and pink sky at twilight. The created image should look like it was shot on 35mm film by Roger Deakins.'
+2026-01-01 18:37:17 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2026-01-01 18:37:17 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "aspect_ratio": "16:9",
+  "output_format": "png",
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_1713.jpg"
+  ],
+  "prompt": "Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  A Israeli Armored vehicles drive through Lebanese banana grove with the muzzle flashes of their mounted machine guns through the dense foliage. Blue and pink sky at twilight. The created image should look like it was shot on 35mm film by Roger Deakins."
+}
+2026-01-01 18:37:49 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2026-01-01 18:37:49 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2026-01-01 18:37:49 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana-pro
+2026-01-01 18:37:49 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2026-01-01 18:37:49 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2026-01-01 18:37:50 | INFO     | src.output.writer:_save_to_disk:203 - Saved valid image: USER-FILES/05.OUTPUT/260101_182002_IMAGE/260101_183749_frame_1713.png
+2026-01-01 18:37:50 | DEBUG    | src.output.writer:_save_payload:270 - Saved payload to USER-FILES/05.OUTPUT/260101_182002_IMAGE/260101_183749_frame_1713.md
+2026-01-01 18:37:50 | INFO     | src.processing.processor:_generate_and_save_image:276 - Saved image: USER-FILES/05.OUTPUT/260101_182002_IMAGE/260101_183749_frame_1713.png
+2026-01-01 18:37:50 | INFO     | src.processing.processor:_process_with_context:226 - Waiting 1.0 seconds before next request
+2026-01-01 18:37:51 | DEBUG    | src.processing.processor:_process_single_combination:132 - Extracted image URL from markdown: https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_1715.jpg
+2026-01-01 18:37:51 | INFO     | src.processing.discovery:load_prompts:66 - Extracted prompt from frame_1715.md
+2026-01-01 18:37:51 | INFO     | src.processing.processor:_process_single_combination:141 - Processing combination 11/29: frame_1715.md + nano-banano-pro-2k_16x9_wbt_lebanon
+2026-01-01 18:37:51 | DEBUG    | src.processing.processor:_process_single_combination:163 - Built image_input array with 1 URL(s): ['https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_1715.jpg']
+2026-01-01 18:37:51 | DEBUG    | src.processing.processor:_apply_prompt_fixes:235 - Added prefix to prompt: Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts 
+2026-01-01 18:37:51 | DEBUG    | src.processing.processor:_apply_prompt_fixes:239 - Added suffix to prompt: The created image should look like it was shot on 35mm film by Roger Deakins.
+2026-01-01 18:37:51 | DEBUG    | src.processing.processor:_process_with_context:215 - Processing frame_1715.md: Create an exact, photorealistic version of the pro...
+2026-01-01 18:37:51 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "aspect_ratio": "16:9",
+  "output_format": "png",
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_1715.jpg"
+  ]
+}
+2026-01-01 18:37:51 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "aspect_ratio": "16:9",
+  "output_format": "png",
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_1715.jpg"
+  ],
+  "prompt": "Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  An Israeli soldier aims a shoulder-fired rocket launcher at a white early 1980s car with an open driver door. Behind the car a civilian man is urinating. The created image should look like it was shot on 35mm film by Roger Deakins."
+}
+2026-01-01 18:37:51 | DEBUG    | src.api.client:generate_image:89 - Original prompt: Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  An Israeli soldier aims a shoulder-fired rocket launcher at a white early 1980s car with an open driver door. Behind the car a civilian man is urinating. The created image should look like it was shot on 35mm film by Roger Deakins.
+2026-01-01 18:37:51 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  An Israeli soldier aims a shoulder-fired rocket launcher at a white early 1980s car with an open driver door. Behind the car a civilian man is urinating. The created image should look like it was shot on 35mm film by Roger Deakins.
+2026-01-01 18:37:51 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  An Israeli soldier aims a shoulder-fired rocket launcher at a white early 1980s car with an open driver door. Behind the car a civilian man is urinating. The created image should look like it was shot on 35mm film by Roger Deakins.'
+2026-01-01 18:37:51 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2026-01-01 18:37:51 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "aspect_ratio": "16:9",
+  "output_format": "png",
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_1715.jpg"
+  ],
+  "prompt": "Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  An Israeli soldier aims a shoulder-fired rocket launcher at a white early 1980s car with an open driver door. Behind the car a civilian man is urinating. The created image should look like it was shot on 35mm film by Roger Deakins."
+}
+2026-01-01 18:38:30 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2026-01-01 18:38:30 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2026-01-01 18:38:30 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana-pro
+2026-01-01 18:38:30 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2026-01-01 18:38:30 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2026-01-01 18:38:31 | INFO     | src.output.writer:_save_to_disk:203 - Saved valid image: USER-FILES/05.OUTPUT/260101_182002_IMAGE/260101_183830_frame_1715.png
+2026-01-01 18:38:31 | DEBUG    | src.output.writer:_save_payload:270 - Saved payload to USER-FILES/05.OUTPUT/260101_182002_IMAGE/260101_183830_frame_1715.md
+2026-01-01 18:38:31 | INFO     | src.processing.processor:_generate_and_save_image:276 - Saved image: USER-FILES/05.OUTPUT/260101_182002_IMAGE/260101_183830_frame_1715.png
+2026-01-01 18:38:31 | INFO     | src.processing.processor:_process_with_context:226 - Waiting 1.0 seconds before next request
+2026-01-01 18:38:32 | DEBUG    | src.processing.processor:_process_single_combination:132 - Extracted image URL from markdown: https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_1729.jpg
+2026-01-01 18:38:32 | INFO     | src.processing.discovery:load_prompts:66 - Extracted prompt from frame_1729.md
+2026-01-01 18:38:32 | INFO     | src.processing.processor:_process_single_combination:141 - Processing combination 12/29: frame_1729.md + nano-banano-pro-2k_16x9_wbt_lebanon
+2026-01-01 18:38:32 | DEBUG    | src.processing.processor:_process_single_combination:163 - Built image_input array with 1 URL(s): ['https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_1729.jpg']
+2026-01-01 18:38:32 | DEBUG    | src.processing.processor:_apply_prompt_fixes:235 - Added prefix to prompt: Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts 
+2026-01-01 18:38:32 | DEBUG    | src.processing.processor:_apply_prompt_fixes:239 - Added suffix to prompt: The created image should look like it was shot on 35mm film by Roger Deakins.
+2026-01-01 18:38:32 | DEBUG    | src.processing.processor:_process_with_context:215 - Processing frame_1729.md: Create an exact, photorealistic version of the pro...
+2026-01-01 18:38:32 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "aspect_ratio": "16:9",
+  "output_format": "png",
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_1729.jpg"
+  ]
+}
+2026-01-01 18:38:32 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "aspect_ratio": "16:9",
+  "output_format": "png",
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_1729.jpg"
+  ],
+  "prompt": "Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  Moment after a soldier has fired shoulder-fired launcher and the rocket as hit a white early 1980s car, sending it up into the air. To the right a civilian in white top and black pants ducks for cover. The created image should look like it was shot on 35mm film by Roger Deakins."
+}
+2026-01-01 18:38:32 | DEBUG    | src.api.client:generate_image:89 - Original prompt: Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  Moment after a soldier has fired shoulder-fired launcher and the rocket as hit a white early 1980s car, sending it up into the air. To the right a civilian in white top and black pants ducks for cover. The created image should look like it was shot on 35mm film by Roger Deakins.
+2026-01-01 18:38:32 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  Moment after a soldier has fired shoulder-fired launcher and the rocket as hit a white early 1980s car, sending it up into the air. To the right a civilian in white top and black pants ducks for cover. The created image should look like it was shot on 35mm film by Roger Deakins.
+2026-01-01 18:38:32 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  Moment after a soldier has fired shoulder-fired launcher and the rocket as hit a white early 1980s car, sending it up into the air. To the right a civilian in white top and black pants ducks for cover. The created image should look like it was shot on 35mm film by Roger Deakins.'
+2026-01-01 18:38:32 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2026-01-01 18:38:32 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "aspect_ratio": "16:9",
+  "output_format": "png",
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_1729.jpg"
+  ],
+  "prompt": "Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  Moment after a soldier has fired shoulder-fired launcher and the rocket as hit a white early 1980s car, sending it up into the air. To the right a civilian in white top and black pants ducks for cover. The created image should look like it was shot on 35mm film by Roger Deakins."
+}
+2026-01-01 18:39:08 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2026-01-01 18:39:08 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2026-01-01 18:39:08 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana-pro
+2026-01-01 18:39:08 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2026-01-01 18:39:08 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2026-01-01 18:39:10 | INFO     | src.output.writer:_save_to_disk:203 - Saved valid image: USER-FILES/05.OUTPUT/260101_182002_IMAGE/260101_183908_frame_1729.png
+2026-01-01 18:39:10 | DEBUG    | src.output.writer:_save_payload:270 - Saved payload to USER-FILES/05.OUTPUT/260101_182002_IMAGE/260101_183908_frame_1729.md
+2026-01-01 18:39:10 | INFO     | src.processing.processor:_generate_and_save_image:276 - Saved image: USER-FILES/05.OUTPUT/260101_182002_IMAGE/260101_183908_frame_1729.png
+2026-01-01 18:39:10 | INFO     | src.processing.processor:_process_with_context:226 - Waiting 1.0 seconds before next request
+2026-01-01 18:39:11 | DEBUG    | src.processing.processor:_process_single_combination:132 - Extracted image URL from markdown: https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_1757.jpg
+2026-01-01 18:39:11 | INFO     | src.processing.discovery:load_prompts:66 - Extracted prompt from frame_1757.md
+2026-01-01 18:39:11 | INFO     | src.processing.processor:_process_single_combination:141 - Processing combination 13/29: frame_1757.md + nano-banano-pro-2k_16x9_wbt_lebanon
+2026-01-01 18:39:11 | DEBUG    | src.processing.processor:_process_single_combination:163 - Built image_input array with 1 URL(s): ['https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_1757.jpg']
+2026-01-01 18:39:11 | DEBUG    | src.processing.processor:_apply_prompt_fixes:235 - Added prefix to prompt: Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts 
+2026-01-01 18:39:11 | DEBUG    | src.processing.processor:_apply_prompt_fixes:239 - Added suffix to prompt: The created image should look like it was shot on 35mm film by Roger Deakins.
+2026-01-01 18:39:11 | DEBUG    | src.processing.processor:_process_with_context:215 - Processing frame_1757.md: Create an exact, photorealistic version of the pro...
+2026-01-01 18:39:11 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "aspect_ratio": "16:9",
+  "output_format": "png",
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_1757.jpg"
+  ]
+}
+2026-01-01 18:39:11 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "aspect_ratio": "16:9",
+  "output_format": "png",
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_1757.jpg"
+  ],
+  "prompt": "Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  A scene at night, Israeli soldiers in prone position fire at a vintage decrepit Mercedes car. The created image should look like it was shot on 35mm film by Roger Deakins."
+}
+2026-01-01 18:39:11 | DEBUG    | src.api.client:generate_image:89 - Original prompt: Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  A scene at night, Israeli soldiers in prone position fire at a vintage decrepit Mercedes car. The created image should look like it was shot on 35mm film by Roger Deakins.
+2026-01-01 18:39:11 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  A scene at night, Israeli soldiers in prone position fire at a vintage decrepit Mercedes car. The created image should look like it was shot on 35mm film by Roger Deakins.
+2026-01-01 18:39:11 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  A scene at night, Israeli soldiers in prone position fire at a vintage decrepit Mercedes car. The created image should look like it was shot on 35mm film by Roger Deakins.'
+2026-01-01 18:39:11 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2026-01-01 18:39:11 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "aspect_ratio": "16:9",
+  "output_format": "png",
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_1757.jpg"
+  ],
+  "prompt": "Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  A scene at night, Israeli soldiers in prone position fire at a vintage decrepit Mercedes car. The created image should look like it was shot on 35mm film by Roger Deakins."
+}
+2026-01-01 18:39:45 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2026-01-01 18:39:45 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2026-01-01 18:39:45 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana-pro
+2026-01-01 18:39:45 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2026-01-01 18:39:45 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2026-01-01 18:39:46 | INFO     | src.output.writer:_save_to_disk:203 - Saved valid image: USER-FILES/05.OUTPUT/260101_182002_IMAGE/260101_183945_frame_1757.png
+2026-01-01 18:39:46 | DEBUG    | src.output.writer:_save_payload:270 - Saved payload to USER-FILES/05.OUTPUT/260101_182002_IMAGE/260101_183945_frame_1757.md
+2026-01-01 18:39:46 | INFO     | src.processing.processor:_generate_and_save_image:276 - Saved image: USER-FILES/05.OUTPUT/260101_182002_IMAGE/260101_183945_frame_1757.png
+2026-01-01 18:39:46 | INFO     | src.processing.processor:_process_with_context:226 - Waiting 1.0 seconds before next request
+2026-01-01 18:39:47 | DEBUG    | src.processing.processor:_process_single_combination:132 - Extracted image URL from markdown: https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_1842.jpg
+2026-01-01 18:39:47 | INFO     | src.processing.discovery:load_prompts:66 - Extracted prompt from frame_1842.md
+2026-01-01 18:39:47 | INFO     | src.processing.processor:_process_single_combination:141 - Processing combination 14/29: frame_1842.md + nano-banano-pro-2k_16x9_wbt_lebanon
+2026-01-01 18:39:47 | DEBUG    | src.processing.processor:_process_single_combination:163 - Built image_input array with 1 URL(s): ['https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_1842.jpg']
+2026-01-01 18:39:47 | DEBUG    | src.processing.processor:_apply_prompt_fixes:235 - Added prefix to prompt: Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts 
+2026-01-01 18:39:47 | DEBUG    | src.processing.processor:_apply_prompt_fixes:239 - Added suffix to prompt: The created image should look like it was shot on 35mm film by Roger Deakins.
+2026-01-01 18:39:47 | DEBUG    | src.processing.processor:_process_with_context:215 - Processing frame_1842.md: Create an exact, photorealistic version of the pro...
+2026-01-01 18:39:47 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "aspect_ratio": "16:9",
+  "output_format": "png",
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_1842.jpg"
+  ]
+}
+2026-01-01 18:39:47 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "aspect_ratio": "16:9",
+  "output_format": "png",
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_1842.jpg"
+  ],
+  "prompt": "Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  A night scene, covered bodies lie strapped to stretchers in a row on concrete. The created image should look like it was shot on 35mm film by Roger Deakins."
+}
+2026-01-01 18:39:47 | DEBUG    | src.api.client:generate_image:89 - Original prompt: Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  A night scene, covered bodies lie strapped to stretchers in a row on concrete. The created image should look like it was shot on 35mm film by Roger Deakins.
+2026-01-01 18:39:47 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  A night scene, covered bodies lie strapped to stretchers in a row on concrete. The created image should look like it was shot on 35mm film by Roger Deakins.
+2026-01-01 18:39:47 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  A night scene, covered bodies lie strapped to stretchers in a row on concrete. The created image should look like it was shot on 35mm film by Roger Deakins.'
+2026-01-01 18:39:47 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2026-01-01 18:39:47 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "aspect_ratio": "16:9",
+  "output_format": "png",
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_1842.jpg"
+  ],
+  "prompt": "Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  A night scene, covered bodies lie strapped to stretchers in a row on concrete. The created image should look like it was shot on 35mm film by Roger Deakins."
+}
+2026-01-01 18:40:17 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2026-01-01 18:40:17 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2026-01-01 18:40:17 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana-pro
+2026-01-01 18:40:17 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2026-01-01 18:40:17 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2026-01-01 18:40:19 | INFO     | src.output.writer:_save_to_disk:203 - Saved valid image: USER-FILES/05.OUTPUT/260101_182002_IMAGE/260101_184017_frame_1842.png
+2026-01-01 18:40:19 | DEBUG    | src.output.writer:_save_payload:270 - Saved payload to USER-FILES/05.OUTPUT/260101_182002_IMAGE/260101_184017_frame_1842.md
+2026-01-01 18:40:19 | INFO     | src.processing.processor:_generate_and_save_image:276 - Saved image: USER-FILES/05.OUTPUT/260101_182002_IMAGE/260101_184017_frame_1842.png
+2026-01-01 18:40:19 | INFO     | src.processing.processor:_process_with_context:226 - Waiting 1.0 seconds before next request
+2026-01-01 18:40:20 | DEBUG    | src.processing.processor:_process_single_combination:132 - Extracted image URL from markdown: https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_1848.jpg
+2026-01-01 18:40:20 | INFO     | src.processing.discovery:load_prompts:66 - Extracted prompt from frame_1848.md
+2026-01-01 18:40:20 | INFO     | src.processing.processor:_process_single_combination:141 - Processing combination 15/29: frame_1848.md + nano-banano-pro-2k_16x9_wbt_lebanon
+2026-01-01 18:40:20 | DEBUG    | src.processing.processor:_process_single_combination:163 - Built image_input array with 1 URL(s): ['https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_1848.jpg']
+2026-01-01 18:40:20 | DEBUG    | src.processing.processor:_apply_prompt_fixes:235 - Added prefix to prompt: Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts 
+2026-01-01 18:40:20 | DEBUG    | src.processing.processor:_apply_prompt_fixes:239 - Added suffix to prompt: The created image should look like it was shot on 35mm film by Roger Deakins.
+2026-01-01 18:40:20 | DEBUG    | src.processing.processor:_process_with_context:215 - Processing frame_1848.md: Create an exact, photorealistic version of the pro...
+2026-01-01 18:40:20 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "aspect_ratio": "16:9",
+  "output_format": "png",
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_1848.jpg"
+  ]
+}
+2026-01-01 18:40:20 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "aspect_ratio": "16:9",
+  "output_format": "png",
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_1848.jpg"
+  ],
+  "prompt": "Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  A Israeli soldier carries injured companion through smoke and fire of Beirut carnage. The created image should look like it was shot on 35mm film by Roger Deakins."
+}
+2026-01-01 18:40:20 | DEBUG    | src.api.client:generate_image:89 - Original prompt: Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  A Israeli soldier carries injured companion through smoke and fire of Beirut carnage. The created image should look like it was shot on 35mm film by Roger Deakins.
+2026-01-01 18:40:20 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  A Israeli soldier carries injured companion through smoke and fire of Beirut carnage. The created image should look like it was shot on 35mm film by Roger Deakins.
+2026-01-01 18:40:20 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  A Israeli soldier carries injured companion through smoke and fire of Beirut carnage. The created image should look like it was shot on 35mm film by Roger Deakins.'
+2026-01-01 18:40:20 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2026-01-01 18:40:20 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "aspect_ratio": "16:9",
+  "output_format": "png",
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_1848.jpg"
+  ],
+  "prompt": "Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  A Israeli soldier carries injured companion through smoke and fire of Beirut carnage. The created image should look like it was shot on 35mm film by Roger Deakins."
+}
+2026-01-01 18:40:54 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2026-01-01 18:40:54 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2026-01-01 18:40:54 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana-pro
+2026-01-01 18:40:54 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2026-01-01 18:40:54 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2026-01-01 18:40:56 | INFO     | src.output.writer:_save_to_disk:203 - Saved valid image: USER-FILES/05.OUTPUT/260101_182002_IMAGE/260101_184054_frame_1848.png
+2026-01-01 18:40:56 | DEBUG    | src.output.writer:_save_payload:270 - Saved payload to USER-FILES/05.OUTPUT/260101_182002_IMAGE/260101_184054_frame_1848.md
+2026-01-01 18:40:56 | INFO     | src.processing.processor:_generate_and_save_image:276 - Saved image: USER-FILES/05.OUTPUT/260101_182002_IMAGE/260101_184054_frame_1848.png
+2026-01-01 18:40:56 | INFO     | src.processing.processor:_process_with_context:226 - Waiting 1.0 seconds before next request
+2026-01-01 18:40:57 | DEBUG    | src.processing.processor:_process_single_combination:132 - Extracted image URL from markdown: https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_1851.jpg
+2026-01-01 18:40:57 | INFO     | src.processing.discovery:load_prompts:66 - Extracted prompt from frame_1851.md
+2026-01-01 18:40:57 | INFO     | src.processing.processor:_process_single_combination:141 - Processing combination 16/29: frame_1851.md + nano-banano-pro-2k_16x9_wbt_lebanon
+2026-01-01 18:40:57 | DEBUG    | src.processing.processor:_process_single_combination:163 - Built image_input array with 1 URL(s): ['https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_1851.jpg']
+2026-01-01 18:40:57 | DEBUG    | src.processing.processor:_apply_prompt_fixes:235 - Added prefix to prompt: Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts 
+2026-01-01 18:40:57 | DEBUG    | src.processing.processor:_apply_prompt_fixes:239 - Added suffix to prompt: The created image should look like it was shot on 35mm film by Roger Deakins.
+2026-01-01 18:40:57 | DEBUG    | src.processing.processor:_process_with_context:215 - Processing frame_1851.md: Create an exact, photorealistic version of the pro...
+2026-01-01 18:40:57 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "aspect_ratio": "16:9",
+  "output_format": "png",
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_1851.jpg"
+  ]
+}
+2026-01-01 18:40:57 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "aspect_ratio": "16:9",
+  "output_format": "png",
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_1851.jpg"
+  ],
+  "prompt": "Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  A dead horse lies still on the dirt at twilight. The created image should look like it was shot on 35mm film by Roger Deakins."
+}
+2026-01-01 18:40:57 | DEBUG    | src.api.client:generate_image:89 - Original prompt: Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  A dead horse lies still on the dirt at twilight. The created image should look like it was shot on 35mm film by Roger Deakins.
+2026-01-01 18:40:57 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  A dead horse lies still on the dirt at twilight. The created image should look like it was shot on 35mm film by Roger Deakins.
+2026-01-01 18:40:57 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  A dead horse lies still on the dirt at twilight. The created image should look like it was shot on 35mm film by Roger Deakins.'
+2026-01-01 18:40:57 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2026-01-01 18:40:57 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "aspect_ratio": "16:9",
+  "output_format": "png",
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_1851.jpg"
+  ],
+  "prompt": "Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  A dead horse lies still on the dirt at twilight. The created image should look like it was shot on 35mm film by Roger Deakins."
+}
+2026-01-01 18:41:32 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2026-01-01 18:41:32 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2026-01-01 18:41:32 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana-pro
+2026-01-01 18:41:32 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2026-01-01 18:41:32 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2026-01-01 18:41:33 | INFO     | src.output.writer:_save_to_disk:203 - Saved valid image: USER-FILES/05.OUTPUT/260101_182002_IMAGE/260101_184132_frame_1851.png
+2026-01-01 18:41:33 | DEBUG    | src.output.writer:_save_payload:270 - Saved payload to USER-FILES/05.OUTPUT/260101_182002_IMAGE/260101_184132_frame_1851.md
+2026-01-01 18:41:33 | INFO     | src.processing.processor:_generate_and_save_image:276 - Saved image: USER-FILES/05.OUTPUT/260101_182002_IMAGE/260101_184132_frame_1851.png
+2026-01-01 18:41:33 | INFO     | src.processing.processor:_process_with_context:226 - Waiting 1.0 seconds before next request
+2026-01-01 18:41:34 | DEBUG    | src.processing.processor:_process_single_combination:132 - Extracted image URL from markdown: https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_1854.jpg
+2026-01-01 18:41:34 | INFO     | src.processing.discovery:load_prompts:66 - Extracted prompt from frame_1854.md
+2026-01-01 18:41:34 | INFO     | src.processing.processor:_process_single_combination:141 - Processing combination 17/29: frame_1854.md + nano-banano-pro-2k_16x9_wbt_lebanon
+2026-01-01 18:41:34 | DEBUG    | src.processing.processor:_process_single_combination:163 - Built image_input array with 1 URL(s): ['https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_1854.jpg']
+2026-01-01 18:41:34 | DEBUG    | src.processing.processor:_apply_prompt_fixes:235 - Added prefix to prompt: Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts 
+2026-01-01 18:41:34 | DEBUG    | src.processing.processor:_apply_prompt_fixes:239 - Added suffix to prompt: The created image should look like it was shot on 35mm film by Roger Deakins.
+2026-01-01 18:41:34 | DEBUG    | src.processing.processor:_process_with_context:215 - Processing frame_1854.md: Create an exact, photorealistic version of the pro...
+2026-01-01 18:41:34 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "aspect_ratio": "16:9",
+  "output_format": "png",
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_1854.jpg"
+  ]
+}
+2026-01-01 18:41:34 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "aspect_ratio": "16:9",
+  "output_format": "png",
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_1854.jpg"
+  ],
+  "prompt": "Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  Fighter jets flies over the ruins of early 1980s Beirut. A building explodes as it is hit by a gravity bomb. The created image should look like it was shot on 35mm film by Roger Deakins."
+}
+2026-01-01 18:41:34 | DEBUG    | src.api.client:generate_image:89 - Original prompt: Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  Fighter jets flies over the ruins of early 1980s Beirut. A building explodes as it is hit by a gravity bomb. The created image should look like it was shot on 35mm film by Roger Deakins.
+2026-01-01 18:41:34 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  Fighter jets flies over the ruins of early 1980s Beirut. A building explodes as it is hit by a gravity bomb. The created image should look like it was shot on 35mm film by Roger Deakins.
+2026-01-01 18:41:34 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  Fighter jets flies over the ruins of early 1980s Beirut. A building explodes as it is hit by a gravity bomb. The created image should look like it was shot on 35mm film by Roger Deakins.'
+2026-01-01 18:41:34 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2026-01-01 18:41:34 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "aspect_ratio": "16:9",
+  "output_format": "png",
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_1854.jpg"
+  ],
+  "prompt": "Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  Fighter jets flies over the ruins of early 1980s Beirut. A building explodes as it is hit by a gravity bomb. The created image should look like it was shot on 35mm film by Roger Deakins."
+}
+2026-01-01 18:42:04 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2026-01-01 18:42:04 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2026-01-01 18:42:04 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana-pro
+2026-01-01 18:42:04 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2026-01-01 18:42:04 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2026-01-01 18:42:05 | INFO     | src.output.writer:_save_to_disk:203 - Saved valid image: USER-FILES/05.OUTPUT/260101_182002_IMAGE/260101_184204_frame_1854.png
+2026-01-01 18:42:05 | DEBUG    | src.output.writer:_save_payload:270 - Saved payload to USER-FILES/05.OUTPUT/260101_182002_IMAGE/260101_184204_frame_1854.md
+2026-01-01 18:42:05 | INFO     | src.processing.processor:_generate_and_save_image:276 - Saved image: USER-FILES/05.OUTPUT/260101_182002_IMAGE/260101_184204_frame_1854.png
+2026-01-01 18:42:05 | INFO     | src.processing.processor:_process_with_context:226 - Waiting 1.0 seconds before next request
+2026-01-01 18:42:06 | DEBUG    | src.processing.processor:_process_single_combination:132 - Extracted image URL from markdown: https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_1859.jpg
+2026-01-01 18:42:06 | INFO     | src.processing.discovery:load_prompts:66 - Extracted prompt from frame_1859.md
+2026-01-01 18:42:06 | INFO     | src.processing.processor:_process_single_combination:141 - Processing combination 18/29: frame_1859.md + nano-banano-pro-2k_16x9_wbt_lebanon
+2026-01-01 18:42:06 | DEBUG    | src.processing.processor:_process_single_combination:163 - Built image_input array with 1 URL(s): ['https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_1859.jpg']
+2026-01-01 18:42:06 | DEBUG    | src.processing.processor:_apply_prompt_fixes:235 - Added prefix to prompt: Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts 
+2026-01-01 18:42:06 | DEBUG    | src.processing.processor:_apply_prompt_fixes:239 - Added suffix to prompt: The created image should look like it was shot on 35mm film by Roger Deakins.
+2026-01-01 18:42:06 | DEBUG    | src.processing.processor:_process_with_context:215 - Processing frame_1859.md: Create an exact, photorealistic version of the pro...
+2026-01-01 18:42:06 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "aspect_ratio": "16:9",
+  "output_format": "png",
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_1859.jpg"
+  ]
+}
+2026-01-01 18:42:06 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "aspect_ratio": "16:9",
+  "output_format": "png",
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_1859.jpg"
+  ],
+  "prompt": "Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  An Israeli cupola soldier aims a pintle-mounted machine gun. Behind him is Lebanese banana grove and farmland in the distance under pink and blue twilight. The created image should look like it was shot on 35mm film by Roger Deakins."
+}
+2026-01-01 18:42:06 | DEBUG    | src.api.client:generate_image:89 - Original prompt: Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  An Israeli cupola soldier aims a pintle-mounted machine gun. Behind him is Lebanese banana grove and farmland in the distance under pink and blue twilight. The created image should look like it was shot on 35mm film by Roger Deakins.
+2026-01-01 18:42:06 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  An Israeli cupola soldier aims a pintle-mounted machine gun. Behind him is Lebanese banana grove and farmland in the distance under pink and blue twilight. The created image should look like it was shot on 35mm film by Roger Deakins.
+2026-01-01 18:42:06 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  An Israeli cupola soldier aims a pintle-mounted machine gun. Behind him is Lebanese banana grove and farmland in the distance under pink and blue twilight. The created image should look like it was shot on 35mm film by Roger Deakins.'
+2026-01-01 18:42:06 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2026-01-01 18:42:06 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "aspect_ratio": "16:9",
+  "output_format": "png",
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_1859.jpg"
+  ],
+  "prompt": "Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  An Israeli cupola soldier aims a pintle-mounted machine gun. Behind him is Lebanese banana grove and farmland in the distance under pink and blue twilight. The created image should look like it was shot on 35mm film by Roger Deakins."
+}
+2026-01-01 18:42:46 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2026-01-01 18:42:46 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2026-01-01 18:42:46 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana-pro
+2026-01-01 18:42:46 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2026-01-01 18:42:46 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2026-01-01 18:42:47 | INFO     | src.output.writer:_save_to_disk:203 - Saved valid image: USER-FILES/05.OUTPUT/260101_182002_IMAGE/260101_184246_frame_1859.png
+2026-01-01 18:42:47 | DEBUG    | src.output.writer:_save_payload:270 - Saved payload to USER-FILES/05.OUTPUT/260101_182002_IMAGE/260101_184246_frame_1859.md
+2026-01-01 18:42:47 | INFO     | src.processing.processor:_generate_and_save_image:276 - Saved image: USER-FILES/05.OUTPUT/260101_182002_IMAGE/260101_184246_frame_1859.png
+2026-01-01 18:42:47 | INFO     | src.processing.processor:_process_with_context:226 - Waiting 1.0 seconds before next request
+2026-01-01 18:42:48 | DEBUG    | src.processing.processor:_process_single_combination:132 - Extracted image URL from markdown: https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_1863.jpg
+2026-01-01 18:42:48 | INFO     | src.processing.discovery:load_prompts:66 - Extracted prompt from frame_1863.md
+2026-01-01 18:42:48 | INFO     | src.processing.processor:_process_single_combination:141 - Processing combination 19/29: frame_1863.md + nano-banano-pro-2k_16x9_wbt_lebanon
+2026-01-01 18:42:48 | DEBUG    | src.processing.processor:_process_single_combination:163 - Built image_input array with 1 URL(s): ['https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_1863.jpg']
+2026-01-01 18:42:48 | DEBUG    | src.processing.processor:_apply_prompt_fixes:235 - Added prefix to prompt: Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts 
+2026-01-01 18:42:48 | DEBUG    | src.processing.processor:_apply_prompt_fixes:239 - Added suffix to prompt: The created image should look like it was shot on 35mm film by Roger Deakins.
+2026-01-01 18:42:48 | DEBUG    | src.processing.processor:_process_with_context:215 - Processing frame_1863.md: Create an exact, photorealistic version of the pro...
+2026-01-01 18:42:48 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "aspect_ratio": "16:9",
+  "output_format": "png",
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_1863.jpg"
+  ]
+}
+2026-01-01 18:42:48 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "aspect_ratio": "16:9",
+  "output_format": "png",
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_1863.jpg"
+  ],
+  "prompt": "Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  Flies crawl and buzz around the eye of a dead horse. In the eyeball of the dead horse, we see the reflection of the silhouette of a man. Twilight. The created image should look like it was shot on 35mm film by Roger Deakins."
+}
+2026-01-01 18:42:48 | DEBUG    | src.api.client:generate_image:89 - Original prompt: Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  Flies crawl and buzz around the eye of a dead horse. In the eyeball of the dead horse, we see the reflection of the silhouette of a man. Twilight. The created image should look like it was shot on 35mm film by Roger Deakins.
+2026-01-01 18:42:48 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  Flies crawl and buzz around the eye of a dead horse. In the eyeball of the dead horse, we see the reflection of the silhouette of a man. Twilight. The created image should look like it was shot on 35mm film by Roger Deakins.
+2026-01-01 18:42:48 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  Flies crawl and buzz around the eye of a dead horse. In the eyeball of the dead horse, we see the reflection of the silhouette of a man. Twilight. The created image should look like it was shot on 35mm film by Roger Deakins.'
+2026-01-01 18:42:48 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2026-01-01 18:42:48 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "aspect_ratio": "16:9",
+  "output_format": "png",
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_1863.jpg"
+  ],
+  "prompt": "Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  Flies crawl and buzz around the eye of a dead horse. In the eyeball of the dead horse, we see the reflection of the silhouette of a man. Twilight. The created image should look like it was shot on 35mm film by Roger Deakins."
+}
+2026-01-01 18:43:21 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2026-01-01 18:43:21 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2026-01-01 18:43:21 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana-pro
+2026-01-01 18:43:21 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2026-01-01 18:43:21 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2026-01-01 18:43:23 | INFO     | src.output.writer:_save_to_disk:203 - Saved valid image: USER-FILES/05.OUTPUT/260101_182002_IMAGE/260101_184321_frame_1863.png
+2026-01-01 18:43:23 | DEBUG    | src.output.writer:_save_payload:270 - Saved payload to USER-FILES/05.OUTPUT/260101_182002_IMAGE/260101_184321_frame_1863.md
+2026-01-01 18:43:23 | INFO     | src.processing.processor:_generate_and_save_image:276 - Saved image: USER-FILES/05.OUTPUT/260101_182002_IMAGE/260101_184321_frame_1863.png
+2026-01-01 18:43:23 | INFO     | src.processing.processor:_process_with_context:226 - Waiting 1.0 seconds before next request
+2026-01-01 18:43:24 | DEBUG    | src.processing.processor:_process_single_combination:132 - Extracted image URL from markdown: https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_1944.jpg
+2026-01-01 18:43:24 | INFO     | src.processing.discovery:load_prompts:66 - Extracted prompt from frame_1944.md
+2026-01-01 18:43:24 | INFO     | src.processing.processor:_process_single_combination:141 - Processing combination 20/29: frame_1944.md + nano-banano-pro-2k_16x9_wbt_lebanon
+2026-01-01 18:43:24 | DEBUG    | src.processing.processor:_process_single_combination:163 - Built image_input array with 1 URL(s): ['https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_1944.jpg']
+2026-01-01 18:43:24 | DEBUG    | src.processing.processor:_apply_prompt_fixes:235 - Added prefix to prompt: Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts 
+2026-01-01 18:43:24 | DEBUG    | src.processing.processor:_apply_prompt_fixes:239 - Added suffix to prompt: The created image should look like it was shot on 35mm film by Roger Deakins.
+2026-01-01 18:43:24 | DEBUG    | src.processing.processor:_process_with_context:215 - Processing frame_1944.md: Create an exact, photorealistic version of the pro...
+2026-01-01 18:43:24 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "aspect_ratio": "16:9",
+  "output_format": "png",
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_1944.jpg"
+  ]
+}
+2026-01-01 18:43:24 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "aspect_ratio": "16:9",
+  "output_format": "png",
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_1944.jpg"
+  ],
+  "prompt": "Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  A wounded Israeli soldier crawls forward with gear on his back. Behind him, another Israeli soldier walk upright. Behind them are Beirut buildings. In the distance, helicopters pass by. Golden light at twilight. The created image should look like it was shot on 35mm film by Roger Deakins."
+}
+2026-01-01 18:43:24 | DEBUG    | src.api.client:generate_image:89 - Original prompt: Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  A wounded Israeli soldier crawls forward with gear on his back. Behind him, another Israeli soldier walk upright. Behind them are Beirut buildings. In the distance, helicopters pass by. Golden light at twilight. The created image should look like it was shot on 35mm film by Roger Deakins.
+2026-01-01 18:43:24 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  A wounded Israeli soldier crawls forward with gear on his back. Behind him, another Israeli soldier walk upright. Behind them are Beirut buildings. In the distance, helicopters pass by. Golden light at twilight. The created image should look like it was shot on 35mm film by Roger Deakins.
+2026-01-01 18:43:24 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  A wounded Israeli soldier crawls forward with gear on his back. Behind him, another Israeli soldier walk upright. Behind them are Beirut buildings. In the distance, helicopters pass by. Golden light at twilight. The created image should look like it was shot on 35mm film by Roger Deakins.'
+2026-01-01 18:43:24 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2026-01-01 18:43:24 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "aspect_ratio": "16:9",
+  "output_format": "png",
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_1944.jpg"
+  ],
+  "prompt": "Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  A wounded Israeli soldier crawls forward with gear on his back. Behind him, another Israeli soldier walk upright. Behind them are Beirut buildings. In the distance, helicopters pass by. Golden light at twilight. The created image should look like it was shot on 35mm film by Roger Deakins."
+}
+2026-01-01 18:43:57 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2026-01-01 18:43:57 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2026-01-01 18:43:57 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana-pro
+2026-01-01 18:43:57 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2026-01-01 18:43:57 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2026-01-01 18:43:59 | INFO     | src.output.writer:_save_to_disk:203 - Saved valid image: USER-FILES/05.OUTPUT/260101_182002_IMAGE/260101_184357_frame_1944.png
+2026-01-01 18:43:59 | DEBUG    | src.output.writer:_save_payload:270 - Saved payload to USER-FILES/05.OUTPUT/260101_182002_IMAGE/260101_184357_frame_1944.md
+2026-01-01 18:43:59 | INFO     | src.processing.processor:_generate_and_save_image:276 - Saved image: USER-FILES/05.OUTPUT/260101_182002_IMAGE/260101_184357_frame_1944.png
+2026-01-01 18:43:59 | INFO     | src.processing.processor:_process_with_context:226 - Waiting 1.0 seconds before next request
+2026-01-01 18:44:00 | DEBUG    | src.processing.processor:_process_single_combination:132 - Extracted image URL from markdown: https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_1994.jpg
+2026-01-01 18:44:00 | INFO     | src.processing.discovery:load_prompts:66 - Extracted prompt from frame_1994.md
+2026-01-01 18:44:00 | INFO     | src.processing.processor:_process_single_combination:141 - Processing combination 21/29: frame_1994.md + nano-banano-pro-2k_16x9_wbt_lebanon
+2026-01-01 18:44:00 | DEBUG    | src.processing.processor:_process_single_combination:163 - Built image_input array with 1 URL(s): ['https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_1994.jpg']
+2026-01-01 18:44:00 | DEBUG    | src.processing.processor:_apply_prompt_fixes:235 - Added prefix to prompt: Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts 
+2026-01-01 18:44:00 | DEBUG    | src.processing.processor:_apply_prompt_fixes:239 - Added suffix to prompt: The created image should look like it was shot on 35mm film by Roger Deakins.
+2026-01-01 18:44:00 | DEBUG    | src.processing.processor:_process_with_context:215 - Processing frame_1994.md: Create an exact, photorealistic version of the pro...
+2026-01-01 18:44:00 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "aspect_ratio": "16:9",
+  "output_format": "png",
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_1994.jpg"
+  ]
+}
+2026-01-01 18:44:00 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "aspect_ratio": "16:9",
+  "output_format": "png",
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_1994.jpg"
+  ],
+  "prompt": "Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  A night scene with soldiers kneel and prepare illumination rounds at night. Behind them in the distance the flares fall down over Beirut. The created image should look like it was shot on 35mm film by Roger Deakins."
+}
+2026-01-01 18:44:00 | DEBUG    | src.api.client:generate_image:89 - Original prompt: Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  A night scene with soldiers kneel and prepare illumination rounds at night. Behind them in the distance the flares fall down over Beirut. The created image should look like it was shot on 35mm film by Roger Deakins.
+2026-01-01 18:44:00 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  A night scene with soldiers kneel and prepare illumination rounds at night. Behind them in the distance the flares fall down over Beirut. The created image should look like it was shot on 35mm film by Roger Deakins.
+2026-01-01 18:44:00 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  A night scene with soldiers kneel and prepare illumination rounds at night. Behind them in the distance the flares fall down over Beirut. The created image should look like it was shot on 35mm film by Roger Deakins.'
+2026-01-01 18:44:00 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2026-01-01 18:44:00 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "aspect_ratio": "16:9",
+  "output_format": "png",
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_1994.jpg"
+  ],
+  "prompt": "Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  A night scene with soldiers kneel and prepare illumination rounds at night. Behind them in the distance the flares fall down over Beirut. The created image should look like it was shot on 35mm film by Roger Deakins."
+}
+2026-01-01 18:44:35 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2026-01-01 18:44:35 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2026-01-01 18:44:35 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana-pro
+2026-01-01 18:44:35 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2026-01-01 18:44:35 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2026-01-01 18:44:37 | INFO     | src.output.writer:_save_to_disk:203 - Saved valid image: USER-FILES/05.OUTPUT/260101_182002_IMAGE/260101_184435_frame_1994.png
+2026-01-01 18:44:37 | DEBUG    | src.output.writer:_save_payload:270 - Saved payload to USER-FILES/05.OUTPUT/260101_182002_IMAGE/260101_184435_frame_1994.md
+2026-01-01 18:44:37 | INFO     | src.processing.processor:_generate_and_save_image:276 - Saved image: USER-FILES/05.OUTPUT/260101_182002_IMAGE/260101_184435_frame_1994.png
+2026-01-01 18:44:37 | INFO     | src.processing.processor:_process_with_context:226 - Waiting 1.0 seconds before next request
+2026-01-01 18:44:38 | DEBUG    | src.processing.processor:_process_single_combination:132 - Extracted image URL from markdown: https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_2051.jpg
+2026-01-01 18:44:38 | INFO     | src.processing.discovery:load_prompts:66 - Extracted prompt from frame_2051.md
+2026-01-01 18:44:38 | INFO     | src.processing.processor:_process_single_combination:141 - Processing combination 22/29: frame_2051.md + nano-banano-pro-2k_16x9_wbt_lebanon
+2026-01-01 18:44:38 | DEBUG    | src.processing.processor:_process_single_combination:163 - Built image_input array with 1 URL(s): ['https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_2051.jpg']
+2026-01-01 18:44:38 | DEBUG    | src.processing.processor:_apply_prompt_fixes:235 - Added prefix to prompt: Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts 
+2026-01-01 18:44:38 | DEBUG    | src.processing.processor:_apply_prompt_fixes:239 - Added suffix to prompt: The created image should look like it was shot on 35mm film by Roger Deakins.
+2026-01-01 18:44:38 | DEBUG    | src.processing.processor:_process_with_context:215 - Processing frame_2051.md: Create an exact, photorealistic version of the pro...
+2026-01-01 18:44:38 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "aspect_ratio": "16:9",
+  "output_format": "png",
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_2051.jpg"
+  ]
+}
+2026-01-01 18:44:38 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "aspect_ratio": "16:9",
+  "output_format": "png",
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_2051.jpg"
+  ],
+  "prompt": "Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  A night scene, to the left a soldier is carrying a wood crate with illumination rounds. Soldiers kneel and fire the flare mortars. In the distance, yellow flares fall over Beirut. The created image should look like it was shot on 35mm film by Roger Deakins."
+}
+2026-01-01 18:44:38 | DEBUG    | src.api.client:generate_image:89 - Original prompt: Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  A night scene, to the left a soldier is carrying a wood crate with illumination rounds. Soldiers kneel and fire the flare mortars. In the distance, yellow flares fall over Beirut. The created image should look like it was shot on 35mm film by Roger Deakins.
+2026-01-01 18:44:38 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  A night scene, to the left a soldier is carrying a wood crate with illumination rounds. Soldiers kneel and fire the flare mortars. In the distance, yellow flares fall over Beirut. The created image should look like it was shot on 35mm film by Roger Deakins.
+2026-01-01 18:44:38 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  A night scene, to the left a soldier is carrying a wood crate with illumination rounds. Soldiers kneel and fire the flare mortars. In the distance, yellow flares fall over Beirut. The created image should look like it was shot on 35mm film by Roger Deakins.'
+2026-01-01 18:44:38 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2026-01-01 18:44:38 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "aspect_ratio": "16:9",
+  "output_format": "png",
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_2051.jpg"
+  ],
+  "prompt": "Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  A night scene, to the left a soldier is carrying a wood crate with illumination rounds. Soldiers kneel and fire the flare mortars. In the distance, yellow flares fall over Beirut. The created image should look like it was shot on 35mm film by Roger Deakins."
+}
+2026-01-01 18:45:18 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2026-01-01 18:45:18 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2026-01-01 18:45:18 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana-pro
+2026-01-01 18:45:18 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2026-01-01 18:45:18 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2026-01-01 18:45:19 | INFO     | src.output.writer:_save_to_disk:203 - Saved valid image: USER-FILES/05.OUTPUT/260101_182002_IMAGE/260101_184518_frame_2051.png
+2026-01-01 18:45:19 | DEBUG    | src.output.writer:_save_payload:270 - Saved payload to USER-FILES/05.OUTPUT/260101_182002_IMAGE/260101_184518_frame_2051.md
+2026-01-01 18:45:19 | INFO     | src.processing.processor:_generate_and_save_image:276 - Saved image: USER-FILES/05.OUTPUT/260101_182002_IMAGE/260101_184518_frame_2051.png
+2026-01-01 18:45:19 | INFO     | src.processing.processor:_process_with_context:226 - Waiting 1.0 seconds before next request
+2026-01-01 18:45:20 | DEBUG    | src.processing.processor:_process_single_combination:132 - Extracted image URL from markdown: https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_2101.jpg
+2026-01-01 18:45:20 | INFO     | src.processing.discovery:load_prompts:66 - Extracted prompt from frame_2101.md
+2026-01-01 18:45:20 | INFO     | src.processing.processor:_process_single_combination:141 - Processing combination 23/29: frame_2101.md + nano-banano-pro-2k_16x9_wbt_lebanon
+2026-01-01 18:45:20 | DEBUG    | src.processing.processor:_process_single_combination:163 - Built image_input array with 1 URL(s): ['https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_2101.jpg']
+2026-01-01 18:45:20 | DEBUG    | src.processing.processor:_apply_prompt_fixes:235 - Added prefix to prompt: Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts 
+2026-01-01 18:45:20 | DEBUG    | src.processing.processor:_apply_prompt_fixes:239 - Added suffix to prompt: The created image should look like it was shot on 35mm film by Roger Deakins.
+2026-01-01 18:45:20 | DEBUG    | src.processing.processor:_process_with_context:215 - Processing frame_2101.md: Create an exact, photorealistic version of the pro...
+2026-01-01 18:45:20 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "aspect_ratio": "16:9",
+  "output_format": "png",
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_2101.jpg"
+  ]
+}
+2026-01-01 18:45:20 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "aspect_ratio": "16:9",
+  "output_format": "png",
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_2101.jpg"
+  ],
+  "prompt": "Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  Booted feet of a soldier as he walk across dusty ground with falling shells. The created image should look like it was shot on 35mm film by Roger Deakins."
+}
+2026-01-01 18:45:20 | DEBUG    | src.api.client:generate_image:89 - Original prompt: Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  Booted feet of a soldier as he walk across dusty ground with falling shells. The created image should look like it was shot on 35mm film by Roger Deakins.
+2026-01-01 18:45:20 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  Booted feet of a soldier as he walk across dusty ground with falling shells. The created image should look like it was shot on 35mm film by Roger Deakins.
+2026-01-01 18:45:20 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  Booted feet of a soldier as he walk across dusty ground with falling shells. The created image should look like it was shot on 35mm film by Roger Deakins.'
+2026-01-01 18:45:20 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2026-01-01 18:45:20 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "aspect_ratio": "16:9",
+  "output_format": "png",
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_2101.jpg"
+  ],
+  "prompt": "Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  Booted feet of a soldier as he walk across dusty ground with falling shells. The created image should look like it was shot on 35mm film by Roger Deakins."
+}
+2026-01-01 18:45:53 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2026-01-01 18:45:53 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2026-01-01 18:45:53 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana-pro
+2026-01-01 18:45:53 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2026-01-01 18:45:53 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2026-01-01 18:45:55 | INFO     | src.output.writer:_save_to_disk:203 - Saved valid image: USER-FILES/05.OUTPUT/260101_182002_IMAGE/260101_184553_frame_2101.png
+2026-01-01 18:45:55 | DEBUG    | src.output.writer:_save_payload:270 - Saved payload to USER-FILES/05.OUTPUT/260101_182002_IMAGE/260101_184553_frame_2101.md
+2026-01-01 18:45:55 | INFO     | src.processing.processor:_generate_and_save_image:276 - Saved image: USER-FILES/05.OUTPUT/260101_182002_IMAGE/260101_184553_frame_2101.png
+2026-01-01 18:45:55 | INFO     | src.processing.processor:_process_with_context:226 - Waiting 1.0 seconds before next request
+2026-01-01 18:45:56 | DEBUG    | src.processing.processor:_process_single_combination:132 - Extracted image URL from markdown: https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_2120.jpg
+2026-01-01 18:45:56 | INFO     | src.processing.discovery:load_prompts:66 - Extracted prompt from frame_2120.md
+2026-01-01 18:45:56 | INFO     | src.processing.processor:_process_single_combination:141 - Processing combination 24/29: frame_2120.md + nano-banano-pro-2k_16x9_wbt_lebanon
+2026-01-01 18:45:56 | DEBUG    | src.processing.processor:_process_single_combination:163 - Built image_input array with 1 URL(s): ['https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_2120.jpg']
+2026-01-01 18:45:56 | DEBUG    | src.processing.processor:_apply_prompt_fixes:235 - Added prefix to prompt: Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts 
+2026-01-01 18:45:56 | DEBUG    | src.processing.processor:_apply_prompt_fixes:239 - Added suffix to prompt: The created image should look like it was shot on 35mm film by Roger Deakins.
+2026-01-01 18:45:56 | DEBUG    | src.processing.processor:_process_with_context:215 - Processing frame_2120.md: Create an exact, photorealistic version of the pro...
+2026-01-01 18:45:56 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "aspect_ratio": "16:9",
+  "output_format": "png",
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_2120.jpg"
+  ]
+}
+2026-01-01 18:45:56 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "aspect_ratio": "16:9",
+  "output_format": "png",
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_2120.jpg"
+  ],
+  "prompt": "Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  Booted feet of an Israeli soldier side-stepping as bullet casings fall around feet. The created image should look like it was shot on 35mm film by Roger Deakins."
+}
+2026-01-01 18:45:56 | DEBUG    | src.api.client:generate_image:89 - Original prompt: Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  Booted feet of an Israeli soldier side-stepping as bullet casings fall around feet. The created image should look like it was shot on 35mm film by Roger Deakins.
+2026-01-01 18:45:56 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  Booted feet of an Israeli soldier side-stepping as bullet casings fall around feet. The created image should look like it was shot on 35mm film by Roger Deakins.
+2026-01-01 18:45:56 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  Booted feet of an Israeli soldier side-stepping as bullet casings fall around feet. The created image should look like it was shot on 35mm film by Roger Deakins.'
+2026-01-01 18:45:56 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2026-01-01 18:45:56 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "aspect_ratio": "16:9",
+  "output_format": "png",
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_2120.jpg"
+  ],
+  "prompt": "Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  Booted feet of an Israeli soldier side-stepping as bullet casings fall around feet. The created image should look like it was shot on 35mm film by Roger Deakins."
+}
+2026-01-01 18:46:26 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2026-01-01 18:46:26 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2026-01-01 18:46:26 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana-pro
+2026-01-01 18:46:26 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2026-01-01 18:46:26 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2026-01-01 18:46:27 | INFO     | src.output.writer:_save_to_disk:203 - Saved valid image: USER-FILES/05.OUTPUT/260101_182002_IMAGE/260101_184626_frame_2120.png
+2026-01-01 18:46:27 | DEBUG    | src.output.writer:_save_payload:270 - Saved payload to USER-FILES/05.OUTPUT/260101_182002_IMAGE/260101_184626_frame_2120.md
+2026-01-01 18:46:27 | INFO     | src.processing.processor:_generate_and_save_image:276 - Saved image: USER-FILES/05.OUTPUT/260101_182002_IMAGE/260101_184626_frame_2120.png
+2026-01-01 18:46:27 | INFO     | src.processing.processor:_process_with_context:226 - Waiting 1.0 seconds before next request
+2026-01-01 18:46:28 | DEBUG    | src.processing.processor:_process_single_combination:132 - Extracted image URL from markdown: https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_2144.jpg
+2026-01-01 18:46:28 | INFO     | src.processing.discovery:load_prompts:66 - Extracted prompt from frame_2144.md
+2026-01-01 18:46:28 | INFO     | src.processing.processor:_process_single_combination:141 - Processing combination 25/29: frame_2144.md + nano-banano-pro-2k_16x9_wbt_lebanon
+2026-01-01 18:46:28 | DEBUG    | src.processing.processor:_process_single_combination:163 - Built image_input array with 1 URL(s): ['https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_2144.jpg']
+2026-01-01 18:46:28 | DEBUG    | src.processing.processor:_apply_prompt_fixes:235 - Added prefix to prompt: Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts 
+2026-01-01 18:46:28 | DEBUG    | src.processing.processor:_apply_prompt_fixes:239 - Added suffix to prompt: The created image should look like it was shot on 35mm film by Roger Deakins.
+2026-01-01 18:46:28 | DEBUG    | src.processing.processor:_process_with_context:215 - Processing frame_2144.md: Create an exact, photorealistic version of the pro...
+2026-01-01 18:46:28 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "aspect_ratio": "16:9",
+  "output_format": "png",
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_2144.jpg"
+  ]
+}
+2026-01-01 18:46:28 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "aspect_ratio": "16:9",
+  "output_format": "png",
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_2144.jpg"
+  ],
+  "prompt": "Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  Israeli soldier fires a rifle in a dim urban setting. Shells cover the ground as he fires away. Behind him are the war torn Beirut building. The created image should look like it was shot on 35mm film by Roger Deakins."
+}
+2026-01-01 18:46:28 | DEBUG    | src.api.client:generate_image:89 - Original prompt: Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  Israeli soldier fires a rifle in a dim urban setting. Shells cover the ground as he fires away. Behind him are the war torn Beirut building. The created image should look like it was shot on 35mm film by Roger Deakins.
+2026-01-01 18:46:28 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  Israeli soldier fires a rifle in a dim urban setting. Shells cover the ground as he fires away. Behind him are the war torn Beirut building. The created image should look like it was shot on 35mm film by Roger Deakins.
+2026-01-01 18:46:28 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  Israeli soldier fires a rifle in a dim urban setting. Shells cover the ground as he fires away. Behind him are the war torn Beirut building. The created image should look like it was shot on 35mm film by Roger Deakins.'
+2026-01-01 18:46:28 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2026-01-01 18:46:28 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "aspect_ratio": "16:9",
+  "output_format": "png",
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_2144.jpg"
+  ],
+  "prompt": "Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  Israeli soldier fires a rifle in a dim urban setting. Shells cover the ground as he fires away. Behind him are the war torn Beirut building. The created image should look like it was shot on 35mm film by Roger Deakins."
+}
+2026-01-01 18:47:04 | DEBUG    | src.api.client:_call_with_retry:170 - API call successful
+2026-01-01 18:47:04 | WARNING  | src.api.client:generate_image:117 - API PARAMETER FILTERING DETECTED:
+2026-01-01 18:47:04 | WARNING  | src.api.client:generate_image:118 -   Model: google/nano-banana-pro
+2026-01-01 18:47:04 | WARNING  | src.api.client:generate_image:119 -   Filtered parameters: ['image_input']
+2026-01-01 18:47:04 | WARNING  | src.api.client:generate_image:120 -   This means the model doesn't support these parameters
+2026-01-01 18:47:05 | INFO     | src.output.writer:_save_to_disk:203 - Saved valid image: USER-FILES/05.OUTPUT/260101_182002_IMAGE/260101_184704_frame_2144.png
+2026-01-01 18:47:05 | DEBUG    | src.output.writer:_save_payload:270 - Saved payload to USER-FILES/05.OUTPUT/260101_182002_IMAGE/260101_184704_frame_2144.md
+2026-01-01 18:47:05 | INFO     | src.processing.processor:_generate_and_save_image:276 - Saved image: USER-FILES/05.OUTPUT/260101_182002_IMAGE/260101_184704_frame_2144.png
+2026-01-01 18:47:05 | INFO     | src.processing.processor:_process_with_context:226 - Waiting 1.0 seconds before next request
+2026-01-01 18:47:06 | DEBUG    | src.processing.processor:_process_single_combination:132 - Extracted image URL from markdown: https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_2177.jpg
+2026-01-01 18:47:06 | INFO     | src.processing.discovery:load_prompts:66 - Extracted prompt from frame_2177.md
+2026-01-01 18:47:06 | INFO     | src.processing.processor:_process_single_combination:141 - Processing combination 26/29: frame_2177.md + nano-banano-pro-2k_16x9_wbt_lebanon
+2026-01-01 18:47:06 | DEBUG    | src.processing.processor:_process_single_combination:163 - Built image_input array with 1 URL(s): ['https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_2177.jpg']
+2026-01-01 18:47:06 | DEBUG    | src.processing.processor:_apply_prompt_fixes:235 - Added prefix to prompt: Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts 
+2026-01-01 18:47:06 | DEBUG    | src.processing.processor:_apply_prompt_fixes:239 - Added suffix to prompt: The created image should look like it was shot on 35mm film by Roger Deakins.
+2026-01-01 18:47:06 | DEBUG    | src.processing.processor:_process_with_context:215 - Processing frame_2177.md: Create an exact, photorealistic version of the pro...
+2026-01-01 18:47:06 | DEBUG    | src.api.client:generate_image:85 - CRITICAL DEBUG - Received params: {
+  "num_images": 1,
+  "aspect_ratio": "16:9",
+  "output_format": "png",
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_2177.jpg"
+  ]
+}
+2026-01-01 18:47:06 | DEBUG    | src.api.client:generate_image:86 - CRITICAL DEBUG - Constructed payload: {
+  "num_images": 1,
+  "aspect_ratio": "16:9",
+  "output_format": "png",
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_2177.jpg"
+  ],
+  "prompt": "Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  An 11-year-old Lebanese boy aiming his a shoulder-fired launcher towards the camera. Behind him is an olive-tree grove. The created image should look like it was shot on 35mm film by Roger Deakins."
+}
+2026-01-01 18:47:06 | DEBUG    | src.api.client:generate_image:89 - Original prompt: Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  An 11-year-old Lebanese boy aiming his a shoulder-fired launcher towards the camera. Behind him is an olive-tree grove. The created image should look like it was shot on 35mm film by Roger Deakins.
+2026-01-01 18:47:06 | DEBUG    | src.api.client:generate_image:90 - Clean prompt being sent: Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  An 11-year-old Lebanese boy aiming his a shoulder-fired launcher towards the camera. Behind him is an olive-tree grove. The created image should look like it was shot on 35mm film by Roger Deakins.
+2026-01-01 18:47:06 | DEBUG    | src.api.client:generate_image:91 - Clean prompt repr: 'Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  An 11-year-old Lebanese boy aiming his a shoulder-fired launcher towards the camera. Behind him is an olive-tree grove. The created image should look like it was shot on 35mm film by Roger Deakins.'
+2026-01-01 18:47:06 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 1/3
+2026-01-01 18:47:06 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "aspect_ratio": "16:9",
+  "output_format": "png",
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_2177.jpg"
+  ],
+  "prompt": "Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  An 11-year-old Lebanese boy aiming his a shoulder-fired launcher towards the camera. Behind him is an olive-tree grove. The created image should look like it was shot on 35mm film by Roger Deakins."
+}
+2026-01-01 18:47:38 | ERROR    | src.api.client:_call_with_retry:184 - Error on attempt 1: The input or output was flagged as sensitive. Please try again with different inputs. (E005) (uIJ6l3ruRD)
+2026-01-01 18:47:38 | INFO     | src.api.client:_call_with_retry:188 - Retrying in 2s...
+2026-01-01 18:47:40 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 2/3
+2026-01-01 18:47:40 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "aspect_ratio": "16:9",
+  "output_format": "png",
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_2177.jpg"
+  ],
+  "prompt": "Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  An 11-year-old Lebanese boy aiming his a shoulder-fired launcher towards the camera. Behind him is an olive-tree grove. The created image should look like it was shot on 35mm film by Roger Deakins."
+}
+2026-01-01 18:48:20 | ERROR    | src.api.client:_call_with_retry:184 - Error on attempt 2: The input or output was flagged as sensitive. Please try again with different inputs. (E005) (uIJ6l3ruRD)
+2026-01-01 18:48:20 | INFO     | src.api.client:_call_with_retry:188 - Retrying in 4s...
+2026-01-01 18:48:24 | DEBUG    | src.api.client:_call_with_retry:152 - API call attempt 3/3
+2026-01-01 18:48:24 | DEBUG    | src.api.client:_call_with_retry:155 - CRITICAL DEBUG - Payload sent to replicate.run: {
+  "num_images": 1,
+  "aspect_ratio": "16:9",
+  "output_format": "png",
+  "resolution": "2K",
+  "safety_filter_level": "block_only_high",
+  "image_input": [
+    "https://f003.backblazeb2.com/file/wbt-bucket/generic_israel/frame_2177.jpg"
+  ],
+  "prompt": "Create an exact, photorealistic version of the provided drawing. The the drawing is suppose to depict scenes from the 1982 war in Lebanon. The drawing depicts  An 11-year-old Lebanese boy aiming his a shoulder-fired launcher towards the camera. Behind him is an olive-tree grove. The created image should look like it was shot on 35mm film by Roger Deakins."
+}
+2026-01-01 18:48:59 | ERROR    | src.api.client:_call_with_retry:184 - Error on attempt 3: The input or output was flagged as sensitive. Please try again with different inputs. (E005) (uIJ6l3ruRD)
+2026-01-01 18:48:59 | ERROR    | src.processing.processor:_generate_and_save_image:279 - Failed to generate image for frame_2177.md: The input or output was flagged as sensitive. Please try again with different inputs. (E005) (uIJ6l3ruRD)
+2026-01-01 18:48:59 | ERROR    | src.processing.processor:_process_single_combination:185 - Failed processing frame_2177.md + nano-banano-pro-2k_16x9_wbt_lebanon: The input or output was flagged as sensitive. Please try again with different inputs. (E005) (uIJ6l3ruRD)
+2026-01-01 18:48:59 | ERROR    | __main__:handle_error:294 - Fatal error: The input or output was flagged as sensitive. Please try again with different inputs. (E005) (uIJ6l3ruRD)
+2026-01-01 18:48:59 | INFO     | src.output.writer:write_report:306 - Report saved: USER-FILES/05.OUTPUT/260101_182002_IMAGE/FAILURE.md
+2026-01-01 18:48:59 | INFO     | src.output.writer:write_report:306 - Report saved: USER-FILES/05.OUTPUT/260101_182002_IMAGE/PARTIAL-COST-REPORT.md
+2026-01-01 18:48:59 | ERROR    | src.output.reporter:_save_failure_report:79 - Failure report saved

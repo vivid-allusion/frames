@@ -168,7 +168,7 @@ class OutputWriter:
         Returns:
             Full path for saving
         """
-        # Build filename: YYMMDD_HHMMSS_filename.png format (PRD Section 04.7)
+        # Build filename: filename-YYMMDD_HHMMSS.png format (PRD Section 04.7)
         # Get date prefix from output_dir (YYMMDD format)
         date_str = (
             context.output_dir.name
@@ -176,7 +176,7 @@ class OutputWriter:
             else datetime.now().strftime("%y%m%d")
         )
         filename = (
-            f"{date_str}_{context.timestamp}_{context.prompt_file_name}.{format_ext}"
+            f"{context.prompt_file_name}-{date_str}_{context.timestamp}.{format_ext}"
         )
 
         # Create nested directory structure if needed
