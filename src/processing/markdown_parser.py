@@ -2,9 +2,12 @@
 Markdown parsing utilities for extracting image URLs and prompts.
 
 This module provides functions to parse markdown files and extract:
-- Image URLs from markdown image syntax ![alt](URL)
-- Text prompts from TEXT SOURCE sections
-- Combined image input arrays for API payloads
+- Image URLs from line 2 (markdown ![alt](URL) or raw https:// URL)
+- Text prompts from line 1
+
+New format:
+    Line 1: Text prompt
+    Line 2: ![image](URL) or https://...
 
 PRD Reference: Section 05.1, 06.2
 """
@@ -15,10 +18,10 @@ from typing import Optional
 
 def extract_image_url(markdown_content: str) -> str:
     """
-    Extract first image URL from markdown ![image](URL) syntax.
+    Extract image URL from second line of markdown.
 
-    Searches for the first occurrence of markdown image syntax and extracts
-    the URL. Ignores all metadata lines and subsequent images.
+    Supports both markdown syntax ![alt](URL) and raw URLs.
+    Line 2 should contain the image reference.
 
     Args:
         markdown_content: Full markdown file content
@@ -27,31 +30,43 @@ def extract_image_url(markdown_content: str) -> str:
         Extracted image URL (https://...)
 
     Raises:
-        ValueError: If no image URL found in markdown
+        ValueError: If no image URL found
 
     Example:
-        >>> content = "![image](https://example.com/image.jpg)"
+        >>> content = "A man carries bags.\\n![image](https://example.com/image.jpg)"
         >>> extract_image_url(content)
         'https://example.com/image.jpg'
+        >>> content2 = "Prompt here\\nhttps://example.com/image.jpg"
+        >>> extract_image_url(content2)
+        'https://example.com/image.jpg'
     """
-    # Pattern matches: ![any-text](https://url or http://url)
-    # Non-greedy .*? for alt text, [^\)]+ for URL (everything except closing paren)
+    lines = markdown_content.split("\n")
+
+    if len(lines) < 2:
+        raise ValueError("No image URL found in markdown (need at least 2 lines)")
+
+    line2 = lines[1].strip()
+
+    # Try markdown image syntax first
     pattern = r"!\[.*?\]\((https?://[^\)]+)\)"
-    match = re.search(pattern, markdown_content)
+    match = re.search(pattern, line2)
 
-    if not match:
-        raise ValueError("No image URL found in markdown")
+    if match:
+        return match.group(1)
 
-    return match.group(1)
+    # Fall back to raw URL
+    if line2.startswith("http://") or line2.startswith("https://"):
+        return line2
+
+    raise ValueError("No image URL found in markdown")
 
 
 def extract_prompt_text(markdown_content: str) -> str:
     """
-    Extract text content from TEXT SOURCE section in markdown.
+    Extract text prompt from first line of markdown.
 
-    Searches for the "**TEXT SOURCE:**" line and extracts all text
-    content that follows it. The text must be on the lines after the
-    TEXT SOURCE header.
+    Takes only the first non-empty line as the prompt text.
+    The second line should contain the image URL.
 
     Args:
         markdown_content: Full markdown file content
@@ -60,41 +75,21 @@ def extract_prompt_text(markdown_content: str) -> str:
         Extracted prompt text (stripped of whitespace)
 
     Raises:
-        ValueError: If no TEXT SOURCE section found or text is empty
+        ValueError: If no prompt found or content is empty
 
     Example:
-        >>> content = "**TEXT SOURCE:** frame_0001.txt:\\n\\nA man carries bags.\\n"
+        >>> content = "A man carries bags.\\n![image](https://example.com/img.jpg)"
         >>> extract_prompt_text(content)
         'A man carries bags.'
     """
-    # Split content into lines
     lines = markdown_content.split("\n")
 
-    # Find the TEXT SOURCE line
-    text_source_idx = None
-    for i, line in enumerate(lines):
-        if "**TEXT SOURCE:**" in line:
-            text_source_idx = i
-            break
+    # Find first non-empty line
+    for line in lines:
+        if line.strip():
+            return line.strip()
 
-    if text_source_idx is None:
-        raise ValueError("No TEXT SOURCE section found in markdown")
-
-    # Extract all lines after TEXT SOURCE (skipping empty lines immediately after)
-    text_lines = []
-    for line in lines[text_source_idx + 1 :]:
-        # Start collecting after we skip any initial empty lines
-        if not text_lines and not line.strip():
-            continue
-        text_lines.append(line)
-
-    # Join and strip the result
-    content = "\n".join(text_lines).strip()
-
-    if not content:
-        raise ValueError("Empty text content after TEXT SOURCE in markdown")
-
-    return content
+    raise ValueError("No prompt text found in markdown")
 
 
 def build_image_input_array(

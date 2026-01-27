@@ -14,6 +14,13 @@ from .output.writer import OutputWriter
 from .output.reporter import Reporter
 from .utils.progress import create_progress_bar
 from .constants import TIMESTAMP_FORMAT
+from .utils.path_resolver import (
+    resolve_input_path,
+    resolve_output_base_path,
+    create_timestamped_output_path,
+    validate_single_custom_input_path,
+    validate_path_exists,
+)
 from datetime import datetime
 
 
@@ -23,7 +30,8 @@ def load_and_validate_config() -> Tuple[Dict[str, Any], ConfigLoader]:
     config_validator = ConfigValidator()
 
     config = config_loader.load_config()
-    config_validator.validate(config)
+    profiles = config_loader.load_profiles()
+    config_validator.validate_all(config, profiles)
 
     return config, config_loader
 
@@ -32,23 +40,24 @@ def discover_inputs_and_profiles(
     config: Dict[str, Any],
 ) -> Tuple[List[Tuple[Path, Path]], List[Dict[str, Any]]]:
     """Discover input files and active profiles with pre-flight validation."""
-    # Discover inputs
-    input_dir = Path(config["inputs"]["directory"])
-    output_dir = Path(config["outputs"]["directory"])
-    discovery = InputDiscovery(input_dir, output_dir)
+    config_loader = ConfigLoader()
+    active_models = config_loader.load_active_profiles()
+
+    profiles_dir = Path("USER-FILES/03.PROFILES")
+
+    input_path, project_name = resolve_input_path(config, active_models, profiles_dir)
+
+    validate_single_custom_input_path(active_models)
+
+    discovery = InputDiscovery(input_path, profiles_dir)
     prompt_files = discovery.discover_prompt_files()
 
     if not prompt_files:
         logger.error("No prompt files found in input directory")
         raise FileNotFoundError("No prompt files found")
 
-    # Pre-flight validation of markdown files
-    validator = GenericValidator()
-    validator.validate_markdown_files(prompt_files)
-
-    # Load active profiles
-    config_loader = ConfigLoader()
-    active_models = config_loader.load_active_profiles()
+    if project_name:
+        logger.info(f"Project: {project_name}")
 
     logger.info(
         f"Found {len(prompt_files)} prompt files and {len(active_models)} active profiles"
@@ -58,32 +67,28 @@ def discover_inputs_and_profiles(
 
 
 def initialize_services(
-    args, config: Dict[str, Any], config_loader: ConfigLoader, api_key: str
+    args,
+    config: Dict[str, Any],
+    config_loader: ConfigLoader,
+    api_key: str,
+    active_models: list[Dict[str, Any]],
 ) -> Tuple[OutputWriter, Reporter, ReplicateClient, MatrixProcessor]:
     """Initialize all required services."""
-    # Create timestamped output directory
-    timestamp = datetime.now().strftime(TIMESTAMP_FORMAT)
-    output_base_path = Path(config["outputs"]["directory"])
-    output_path = output_base_path / f"{timestamp}_IMAGE"
-    output_path.mkdir(parents=True, exist_ok=True)
+    output_base_path = resolve_output_base_path(config, active_models)
+    output_path = create_timestamped_output_path(output_base_path)
 
-    # Initialize services
     output_writer = OutputWriter(output_path, force_png=args.force_png)
     reporter = Reporter(output_writer)
 
-    # Initialize API client
     wrapper_config = config.get("wrapper", {})
-    queue_config = wrapper_config.get("queue", {})
 
     replicate_client = ReplicateClient(
         api_key=api_key,
         max_retries=wrapper_config.get("max_retries", 3),
-        polling_interval=queue_config.get("polling_interval", 0.5),
         max_wait_time=wrapper_config.get("max_wait_time", 600),
-        rate_limit_retry_delay=queue_config.get("rate_limit_retry_delay", 60),
+        rate_limit_retry_delay=wrapper_config.get("rate_limit_retry_delay", 60),
     )
 
-    # Initialize processor
     processor_config = ProcessorConfig(
         api_client=replicate_client,
         output_writer=output_writer,
@@ -144,7 +149,7 @@ def estimate_costs(
     report_content = f"# Cost Estimation Report\n\n"
     report_content += f"- Total combinations: {total_combinations}\n"
     report_content += f"- Estimated total cost: ${total_cost:.2f}\n"
-    output_writer.save_report(report_content, "cost_estimation")
+    output_writer.write_report(report_content, "cost_estimation.md")
 
     return 0
 
@@ -157,24 +162,19 @@ def generate_final_reports(
     success: bool,
 ) -> int:
     """Generate and save final processing reports."""
-    # Generate summary report
-    summary = reporter.generate_summary(
-        processed=processor.processed_count,
-        failed=processor.failed_count,
-        total_cost=processor.total_cost,
-    )
+    summary = {
+        "processed": processor.processed_count,
+        "failed": processor.failed_count,
+        "total_cost": processor.total_cost,
+        "total_prompts": len(prompt_files),
+        "total_models": len(active_models),
+    }
 
-    # Generate full report
-    report_content = reporter.generate_report(
-        prompt_files=prompt_files,
-        models=active_models,
-        processed=processor.processed_count,
-        failed=processor.failed_count,
-        total_cost=processor.total_cost,
+    reporter.save_reports(
+        success=success,
+        summary=summary,
+        profiles_with_fixes=None,  # Could extract if needed
     )
-
-    # Save reports
-    processor.output_writer.save_report(report_content, "processing_report")
 
     # Display summary
     logger.success(f"✅ Processing complete: {summary['processed']} images generated")

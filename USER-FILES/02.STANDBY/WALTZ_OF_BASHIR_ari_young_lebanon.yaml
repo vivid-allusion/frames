@@ -1,6 +1,13 @@
-# Replicate Profile 
+# Replicate Profile
 
-# Model endpoint (required)
+# Project configuration
+project: "WALTZ WITH BASHIR"
+
+paths:
+  input: "/Users/ruben/Nextcloud/01 - PROJECTS/251230_WBT/02_GENERATIONS/@INPUT(img-to-img)"
+  output: "/Users/ruben/Nextcloud/01 - PROJECTS/251230_WBT/02_GENERATIONS/"
+
+  # Model endpoint (required)
 endpoint: "google/nano-banana-pro"
 
 # Pricing information (optional, for cost tracking)

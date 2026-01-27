@@ -1,4 +1,5 @@
 """Simplified main entry point using refactored modules."""
+
 import sys
 from typing import Optional, List, Dict, Any
 from loguru import logger
@@ -12,17 +13,22 @@ from .orchestrator import (
     initialize_services,
     execute_processing,
     estimate_costs,
-    generate_final_reports
+    generate_final_reports,
 )
 from .utils.logging import setup_logging
 from .processing.processor import MatrixProcessor
 from .output.reporter import Reporter
 
 
-def setup_environment(args) -> None:
+def setup_environment(args) -> str | None:
     """Set up logging and environment."""
-    setup_logging(verbose=args.verbose if hasattr(args, 'verbose') else False, debug=args.debug)
-    logger.info("Environment initialized")
+    setup_logging(
+        verbose=args.verbose if hasattr(args, "verbose") else False, debug=args.debug
+    )
+    logger.info("=" * 60)
+    logger.info("Text-to-Image Generator v2.0.0")
+    logger.info("=" * 60)
+    return None
 
 
 def authenticate_for_mode(dry_run: bool) -> str:
@@ -45,7 +51,7 @@ def handle_error(
     args=None,
     reporter: Optional[Reporter] = None,
     processor: Optional[MatrixProcessor] = None,
-    active_models: Optional[List[Dict[str, Any]]] = None
+    active_models: Optional[List[Dict[str, Any]]] = None,
 ) -> None:
     """Handle and report errors."""
     logger.error(f"Fatal error: {e}")
@@ -53,12 +59,12 @@ def handle_error(
     # Try to save failure report
     if reporter and processor and active_models:
         try:
-            report = reporter.generate_failure_report(
-                error=str(e),
-                processed=processor.processed_count,
-                failed=processor.failed_count
-            )
-            processor.output_writer.save_report(report, "error_report")
+            summary = {
+                "processed": processor.processed_count,
+                "failed": processor.failed_count,
+                "total_cost": processor.total_cost,
+            }
+            reporter.save_reports(success=False, summary=summary, error_message=str(e))
         except Exception as report_error:
             logger.error(f"Could not save error report: {report_error}")
 
@@ -87,7 +93,7 @@ def main():
 
         # Initialize services
         output_writer, reporter, replicate_client, processor = initialize_services(
-            args, config, config_loader, api_key
+            args, config, config_loader, api_key, active_models
         )
 
         # Handle cost estimation mode

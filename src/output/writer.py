@@ -53,6 +53,11 @@ class OutputWriter:
         Returns:
             Saved filename
         """
+        print(f"💾 Starting image save process...")
+        print(f"📷 Image URL: {image_url}")
+        print(f"⏰ Timestamp: {timestamp}")
+        print(f"📁 Prompt file: {prompt_file_name}")
+        print(f"🤖 Model: {model_name}")
         # Create context for cleaner parameter passing
         context = ImageSaveContext(
             image_url=image_url,
@@ -65,10 +70,20 @@ class OutputWriter:
         )
 
         # Process image through pipeline
+        print(f"⬇️  Downloading image from: {context.image_url}")
         image_data = self._download_image(context.image_url)
+        print(f"✅ Downloaded {len(image_data)} bytes")
+
+        print(f"🔄 Processing image data...")
         img, format_ext = self._process_image(image_data)
+        print(f"✅ Image processed, format: {format_ext}")
+
         save_path = self._determine_save_path(context, format_ext)
+        print(f"📁 Save path: {save_path}")
+
+        print(f"💾 Saving to disk...")
         self._save_to_disk(img, save_path)
+        print(f"✅ Successfully saved image to: {save_path}")
 
         # Save payload if provided
         if context.payload:
@@ -89,8 +104,18 @@ class OutputWriter:
         Raises:
             requests.RequestException: If download fails
         """
+        print(f"🌐 Making HTTP request to: {image_url}")
+        print(f"⏰ Timeout: {DEFAULT_IMAGE_DOWNLOAD_TIMEOUT} seconds")
+
         response = requests.get(image_url, timeout=DEFAULT_IMAGE_DOWNLOAD_TIMEOUT)
+        print(f"📊 HTTP Status: {response.status_code}")
+        print(f"📦 Content-Type: {response.headers.get('content-type', 'unknown')}")
+
         response.raise_for_status()
+
+        content_length = len(response.content)
+        print(f"📐 Content length: {content_length} bytes")
+
         return response.content
 
     def _process_image(self, image_data: bytes) -> Tuple[Image.Image, str]:

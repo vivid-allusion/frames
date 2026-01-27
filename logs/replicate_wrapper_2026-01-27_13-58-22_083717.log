@@ -1,0 +1,6 @@
+2026-01-27 13:58:22 | INFO     | src.utils.logging:setup_logging:39 - Logging configured (verbose=False, debug=False)
+2026-01-27 13:58:22 | INFO     | __main__:setup_environment:28 - ============================================================
+2026-01-27 13:58:22 | INFO     | __main__:setup_environment:29 - Text-to-Image Generator v2.0.0
+2026-01-27 13:58:22 | INFO     | __main__:setup_environment:30 - ============================================================
+2026-01-27 13:58:22 | INFO     | src.config.loader:load_config:45 - Loaded configuration from USER-FILES/01.CONFIG/config.yaml
+2026-01-27 13:58:22 | ERROR    | __main__:handle_error:57 - Fatal error: No profiles found

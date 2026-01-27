@@ -34,8 +34,9 @@ class GenericValidator:
         Pre-flight validation of all markdown files before processing.
 
         Validates that each markdown file:
-        1. Contains a **TEXT SOURCE:** section
-        2. The text content after TEXT SOURCE is not empty
+        1. Has at least 2 lines
+        2. Line 1 contains non-empty prompt text
+        3. Line 2 contains a valid image URL (markdown syntax or raw https://)
 
         Args:
             prompt_files: List of tuples (absolute_path, relative_path)
@@ -82,41 +83,32 @@ class GenericValidator:
         except Exception as e:
             raise ValidationError(f"{rel_path}: Failed to read file - {e}")
 
-        # Check for TEXT SOURCE section presence
-        if "**TEXT SOURCE:**" not in content:
-            raise ValidationError(
-                f"{rel_path}: No TEXT SOURCE section found. Files must contain '**TEXT SOURCE:**' line"
-            )
-
-        # Extract text content after TEXT SOURCE
         lines = content.split("\n")
-        text_source_idx = -1
-        for i, line in enumerate(lines):
-            if "**TEXT SOURCE:**" in line:
-                text_source_idx = i
-                break
 
-        if text_source_idx == -1:
-            # Should never happen since we checked above, but for type safety
+        if len(lines) < 2:
             raise ValidationError(
-                f"{rel_path}: No TEXT SOURCE section found. Files must contain '**TEXT SOURCE:**' line"
+                f"{rel_path}: Invalid format. Need at least 2 lines (prompt + image URL)"
             )
 
-        # Extract content after TEXT SOURCE line
-        text_lines = []
-        for line in lines[text_source_idx + 1 :]:
-            # Skip initial empty lines
-            if not text_lines and not line.strip():
-                continue
-            text_lines.append(line)
-
-        text_content = "\n".join(text_lines).strip()
-
-        if not text_content:
+        line1 = lines[0].strip()
+        if not line1:
             raise ValidationError(
-                f"{rel_path}: Empty text content after TEXT SOURCE. Text must be provided after the TEXT SOURCE line"
+                f"{rel_path}: Line 1 is empty. First line must contain the prompt text"
+            )
+
+        line2 = lines[1].strip()
+        if not line2:
+            raise ValidationError(
+                f"{rel_path}: Line 2 is empty. Second line must contain the image URL"
+            )
+
+        # Check for valid URL (markdown syntax or raw)
+        url_pattern = r"(!\[.*?\]\()?https?://[^\s\)]+(\))?"
+        if not re.match(url_pattern, line2):
+            raise ValidationError(
+                f"{rel_path}: Line 2 does not contain a valid image URL. Use ![alt](https://...) or raw https:// URL"
             )
 
         logger.debug(
-            f"✓ {rel_path}: Valid (TEXT SOURCE with {len(text_content)} characters)"
+            f"✓ {rel_path}: Valid ({len(line1)} char prompt, image URL present)"
         )

@@ -1,0 +1,31 @@
+2026-01-27 13:59:29 | INFO     | src.utils.logging:setup_logging:39 - Logging configured (verbose=False, debug=False)
+2026-01-27 13:59:29 | INFO     | __main__:setup_environment:28 - ============================================================
+2026-01-27 13:59:29 | INFO     | __main__:setup_environment:29 - Text-to-Image Generator v2.0.0
+2026-01-27 13:59:29 | INFO     | __main__:setup_environment:30 - ============================================================
+2026-01-27 13:59:29 | INFO     | src.config.loader:load_config:45 - Loaded configuration from USER-FILES/01.CONFIG/config.yaml
+2026-01-27 13:59:29 | DEBUG    | src.processing.discovery:discover_profiles:98 - Loaded profile: USER-FILES/03.PROFILES/test_custom.yaml
+2026-01-27 13:59:29 | INFO     | src.processing.discovery:discover_profiles:102 - Loaded 1 profiles
+2026-01-27 13:59:29 | INFO     | src.config.validator:validate_all:25 - All configuration validation passed
+2026-01-27 13:59:29 | INFO     | __main__:authenticate_for_mode:36 - Authenticating with 1Password...
+2026-01-27 13:59:32 | DEBUG    | src.auth.session_manager:ensure_op_auth:39 - 1Password session is active
+2026-01-27 13:59:32 | INFO     | __main__:authenticate_for_mode:40 - Validating API key access (dry-run mode)...
+2026-01-27 13:59:33 | DEBUG    | src.auth.session_manager:ensure_op_auth:39 - 1Password session is active
+2026-01-27 13:59:33 | DEBUG    | src.auth.auth:load_auth_config:28 - Using auth config: auth_ruben.yaml
+2026-01-27 13:59:35 | DEBUG    | src.auth.auth:get_api_key:77 - Retrieved API key: r8_K...
+2026-01-27 13:59:35 | SUCCESS  | __main__:authenticate_for_mode:42 - ✅ API key validated successfully
+2026-01-27 13:59:35 | DEBUG    | src.processing.discovery:discover_profiles:98 - Loaded profile: USER-FILES/03.PROFILES/test_custom.yaml
+2026-01-27 13:59:35 | INFO     | src.processing.discovery:discover_profiles:102 - Loaded 1 profiles
+2026-01-27 13:59:35 | INFO     | src.processing.discovery:get_active_models:150 - Found profile: test_custom
+2026-01-27 13:59:35 | INFO     | src.processing.discovery:get_active_models:155 - Total profiles to process: 1
+2026-01-27 13:59:35 | INFO     | src.utils.path_resolver:resolve_input_path:40 - Using custom input path: /Users/ruben/Nextcloud/08-DEV/GENAI_IMG/img-to-img/USER-FILES/07.TEMP/test_custom_input
+2026-01-27 13:59:35 | DEBUG    | src.processing.discovery:discover_prompt_files:42 - Found markdown file: prompt.md
+2026-01-27 13:59:35 | INFO     | src.processing.discovery:discover_prompt_files:47 - Discovered 1 markdown files
+2026-01-27 13:59:35 | INFO     | src.orchestrator:discover_inputs_and_profiles:60 - Project: Test Project
+2026-01-27 13:59:35 | INFO     | src.orchestrator:discover_inputs_and_profiles:62 - Found 1 prompt files and 1 active profiles
+2026-01-27 13:59:35 | INFO     | src.utils.path_resolver:resolve_output_base_path:73 - Using custom output path: /Users/ruben/Nextcloud/08-DEV/GENAI_IMG/img-to-img/USER-FILES/07.TEMP/test_output
+2026-01-27 13:59:35 | INFO     | src.orchestrator:execute_processing:112 - Starting matrix processing...
+2026-01-27 13:59:35 | DEBUG    | src.processing.validator:validate_operational_requirements:30 - Profile 'test_custom' operational validation passed
+2026-01-27 13:59:35 | INFO     | src.processing.processor:process_all:67 - Processing 1 combinations (1 files × 1 profiles)
+2026-01-27 13:59:35 | ERROR    | src.processing.processor:_process_single_combination:135 - No image URL found in prompt.md
+2026-01-27 13:59:35 | ERROR    | __main__:handle_error:57 - Fatal error: No image URL found in markdown
+2026-01-27 13:59:35 | ERROR    | __main__:handle_error:69 - Could not save error report: 'Reporter' object has no attribute 'generate_failure_report'

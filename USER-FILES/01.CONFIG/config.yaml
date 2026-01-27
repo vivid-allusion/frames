@@ -20,5 +20,5 @@ output:
   create_metadata: true
 
 logging:
-  level: "INFO"
-  format: "simple"
+  level: "DEBUG"
+  format: "detailed"

@@ -5,7 +5,8 @@ from typing import Dict, List, Any, Optional, Tuple
 from datetime import datetime
 import time
 from loguru import logger
-from rich.progress import Progress
+
+# Progress handling moved to utils.progress
 from ..api.client import ReplicateClient
 from ..output.writer import OutputWriter
 from ..output.reporter import Reporter
@@ -46,7 +47,7 @@ class MatrixProcessor:
         self,
         prompt_files: List[Tuple[Path, Path]],
         active_models: List[Dict[str, Any]],
-        progress: Optional[Progress] = None,
+        progress: Optional[Any] = None,
     ) -> bool:
         """
         Process full matrix of files × models.
@@ -89,7 +90,7 @@ class MatrixProcessor:
 
         return success
 
-    def _init_progress(self, progress: Optional[Progress], total: int) -> Optional[int]:
+    def _init_progress(self, progress: Optional[Any], total: int) -> Optional[int]:
         """Initialize progress bar if available."""
         if progress:
             return progress.add_task("Processing matrix", total=total)

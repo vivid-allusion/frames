@@ -3,7 +3,7 @@
 # API Configuration
 DEFAULT_TIMEOUT = 120  # seconds
 DEFAULT_MAX_RETRIES = 3
-DEFAULT_MAX_WAIT_TIME = 600  # seconds
+DEFAULT_MAX_WAIT_TIME = 1200  # seconds
 DEFAULT_RATE_LIMIT_RETRY_DELAY = 60  # seconds
 
 # Image Processing

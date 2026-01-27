@@ -143,6 +143,8 @@ class InputDiscovery:
                     ),
                     "image_input": profile_data.get("image_input", ""),
                     "output_format": profile_data.get("output_format", ""),
+                    "project": profile_data.get("project", ""),
+                    "paths": profile_data.get("paths", {}),
                 }
             )
             logger.info(f"Found profile: {profile_name}")
