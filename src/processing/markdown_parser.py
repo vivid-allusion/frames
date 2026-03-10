@@ -18,10 +18,10 @@ from typing import Optional
 
 def extract_image_url(markdown_content: str) -> str:
     """
-    Extract image URL from second line of markdown.
+    Extract image URL from markdown content.
 
     Supports both markdown syntax ![alt](URL) and raw URLs.
-    Line 2 should contain the image reference.
+    Searches all lines for the first image URL found.
 
     Args:
         markdown_content: Full markdown file content
@@ -42,21 +42,18 @@ def extract_image_url(markdown_content: str) -> str:
     """
     lines = markdown_content.split("\n")
 
-    if len(lines) < 2:
-        raise ValueError("No image URL found in markdown (need at least 2 lines)")
-
-    line2 = lines[1].strip()
-
-    # Try markdown image syntax first
+    # Try markdown image syntax on any line
     pattern = r"!\[.*?\]\((https?://[^\)]+)\)"
-    match = re.search(pattern, line2)
 
-    if match:
-        return match.group(1)
+    for line in lines:
+        match = re.search(pattern, line)
+        if match:
+            return match.group(1)
 
-    # Fall back to raw URL
-    if line2.startswith("http://") or line2.startswith("https://"):
-        return line2
+        # Also check for raw URL on this line
+        stripped = line.strip()
+        if stripped.startswith("http://") or stripped.startswith("https://"):
+            return stripped
 
     raise ValueError("No image URL found in markdown")
 

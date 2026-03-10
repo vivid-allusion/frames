@@ -132,7 +132,7 @@ def main():
 
     # Step 4: Run the main module
     print()  # Blank line before script output
-    cmd = [str(python_exe), "-m", "src.main"] + sys.argv[1:]
+    cmd = [str(python_exe), "-m", "src.main_simple"] + sys.argv[1:]
 
     try:
         result = subprocess.run(cmd)
