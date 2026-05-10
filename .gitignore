@@ -32,6 +32,4 @@ Thumbs.db
 *.log
 .ruff_cache/
 .pytest_cache/
-250915_replicate
-250915 Replicate
-Reference files for the replicate python module
+
