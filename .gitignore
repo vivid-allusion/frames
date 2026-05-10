@@ -32,3 +32,4 @@ Thumbs.db
 *.log
 .ruff_cache/
 .pytest_cache/
+250915_replicate
