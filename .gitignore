@@ -27,3 +27,9 @@ USER-FILES/07.TEMP/
 # OS
 .DS_Store
 Thumbs.db
+*.pyc
+.claude/
+*.log
+.ruff_cache/
+.pytest_cache/
+USER-FILES/
