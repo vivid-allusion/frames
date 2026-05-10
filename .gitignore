@@ -32,4 +32,3 @@ Thumbs.db
 *.log
 .ruff_cache/
 .pytest_cache/
-USER-FILES/
