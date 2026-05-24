@@ -39,7 +39,7 @@ def resolve_input_path(
         input_path = Path(custom_input_path)
         logger.info(f"Using custom input path: {input_path}")
     else:
-        input_path = Path(config["inputs"]["directory"])
+        input_path = Path(config.get("inputs", {}).get("directory", USER_FILES_INPUT))
         logger.info(f"Using default input path: {input_path}")
 
     if not input_path.exists():
@@ -72,7 +72,7 @@ def resolve_output_base_path(
         output_base = Path(custom_output_path)
         logger.info(f"Using custom output path: {output_base}")
     else:
-        output_base = Path(config["outputs"]["directory"])
+        output_base = Path(config.get("outputs", {}).get("directory", USER_FILES_OUTPUT))
         logger.info(f"Using default output path: {output_base}")
 
     return output_base

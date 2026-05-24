@@ -29,22 +29,43 @@ def find_python_executable():
     return sys.executable  # Fallback to current Python
 
 
+def get_python_executable(venv_path):
+    """Get the Python executable path for the venv."""
+    if sys.platform == "win32":
+        python_exe = venv_path / "Scripts" / "python.exe"
+    else:
+        python_exe = venv_path / "bin" / "python"
+
+    return python_exe if python_exe.exists() else None
+
+
+def is_venv_valid(venv_path):
+    """Check if a venv has a working python executable."""
+    return get_python_executable(venv_path) is not None
+
+
 def find_or_create_venv():
-    """Find existing venv or create a new one."""
+    """Find existing valid venv or create/repair one."""
     script_dir = Path(__file__).parent
 
-    # Check for existing venvs (prioritize venv over venv_new)
     venv = script_dir / "venv"
     venv_new = script_dir / "venv_new"
 
-    if venv.exists():
+    # Check existing venvs for validity
+    if venv.exists() and is_venv_valid(venv):
         return venv
 
-    if venv_new.exists():
+    if venv_new.exists() and is_venv_valid(venv_new):
         return venv_new
 
-    # No venv found - create one with Python 3.12 if available
-    print("📦 No virtual environment found - creating one...")
+    # Venv exists but is broken - repair it
+    broken_venv = venv if venv.exists() else (venv_new if venv_new.exists() else None)
+    if broken_venv:
+        print(f"🔧 Broken virtual environment detected at {broken_venv} - repairing...")
+        shutil.rmtree(broken_venv)
+
+    # Create fresh venv
+    print("📦 Creating virtual environment...")
 
     python_exec = find_python_executable()
     print(f"Using Python: {python_exec}")
@@ -60,20 +81,6 @@ def find_or_create_venv():
         print(f"❌ Failed to create virtual environment: {e}")
         print(f"Error output: {e.stderr.decode()}")
         sys.exit(1)
-
-
-def get_python_executable(venv_path):
-    """Get the Python executable path for the venv."""
-    if sys.platform == "win32":
-        python_exe = venv_path / "Scripts" / "python.exe"
-    else:
-        python_exe = venv_path / "bin" / "python"
-
-    if not python_exe.exists():
-        print(f"❌ Error: Python executable not found at {python_exe}")
-        sys.exit(1)
-
-    return python_exe
 
 
 def install_dependencies(python_exe, requirements_file):
@@ -121,11 +128,14 @@ def main():
     script_dir = Path(__file__).parent
     requirements_file = script_dir / "requirements.txt"
 
-    # Step 1: Find or create virtual environment
+    # Step 1: Find or create/repair virtual environment
     venv_path = find_or_create_venv()
 
-    # Step 2: Get Python executable
+    # Step 2: Get Python executable (guaranteed valid after find_or_create_venv)
     python_exe = get_python_executable(venv_path)
+    if python_exe is None:
+        print(f"❌ Error: Virtual environment is invalid at {venv_path}")
+        sys.exit(1)
 
     # Step 3: Install/update dependencies
     install_dependencies(python_exe, requirements_file)
