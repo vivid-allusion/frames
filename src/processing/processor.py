@@ -19,7 +19,7 @@ from .context import (
 )
 from .validator import GenericValidator
 from ..exceptions import ValidationError
-from .markdown_parser import extract_image_url, build_image_input_array
+from .markdown_parser import extract_all_image_urls
 
 
 class MatrixProcessor:
@@ -127,12 +127,12 @@ class MatrixProcessor:
         with open(prompt_file, "r", encoding="utf-8") as f:
             markdown_content = f.read()
 
-        # Extract image URL from markdown
+        # Extract all image URLs from markdown (preserves order)
         try:
-            markdown_image_url = extract_image_url(markdown_content)
-            logger.debug(f"Extracted image URL from markdown: {markdown_image_url}")
+            image_urls = extract_all_image_urls(markdown_content)
+            logger.debug(f"Extracted {len(image_urls)} image URL(s) from markdown: {image_urls}")
         except ValueError as e:
-            logger.error(f"No image URL found in {prompt_file.name}")
+            logger.error(f"No image URLs found in {prompt_file.name}")
             raise
 
         # Load prompts (extracts from code block)
@@ -154,16 +154,7 @@ class MatrixProcessor:
 
         # Create processing context - merge image_input into parameters
         params = ctx.model_info.get("parameters", {}).copy()
-
-        # Build image_input array from markdown URL + optional profile URL
-        profile_image_url = ctx.model_info.get("image_input", "")
-        image_input_array = build_image_input_array(
-            markdown_image_url, profile_image_url
-        )
-        params["image_input"] = image_input_array
-        logger.debug(
-            f"Built image_input array with {len(image_input_array)} URL(s): {image_input_array}"
-        )
+        params["image_input"] = image_urls
 
         context = ProcessingContext(
             prompt_file=prompt_file,
