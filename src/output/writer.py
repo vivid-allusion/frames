@@ -38,26 +38,24 @@ class OutputWriter:
         Returns:
             Saved filename
         """
-        print(f"\U0001f4be Starting image save process...")
-        print(f"\U0001f4f7 Image URL: {context.image_url}")
-        print(f"\u23f0 Timestamp: {context.timestamp}")
-        print(f"\U0001f4c1 Prompt file: {context.prompt_file_name}")
-        print(f"\U0001f916 Model: {context.model_name}")
+        logger.info(f"Image URL: {context.image_url}")
+        logger.info(f"Timestamp: {context.timestamp}")
+        logger.info(f"Prompt file: {context.prompt_file_name}")
+        logger.info(f"Model: {context.model_name}")
 
-        print(f"\u2b07\ufe0f  Downloading image from: {context.image_url}")
+        logger.info(f"Downloading image from: {context.image_url}")
         image_data = self._download_image(context.image_url)
-        print(f"\u2705 Downloaded {len(image_data)} bytes")
+        logger.info(f"Downloaded {len(image_data)} bytes")
 
-        print(f"\U0001f504 Processing image data...")
+        logger.info(f"Processing image data...")
         img, format_ext = self._process_image(image_data)
-        print(f"\u2705 Image processed, format: {format_ext}")
+        logger.info(f"Image processed, format: {format_ext}")
 
         save_path = self._determine_save_path(context, format_ext)
-        print(f"\U0001f4c1 Save path: {save_path}")
+        logger.info(f"Save path: {save_path}")
 
-        print(f"\U0001f4be Saving to disk...")
         self._save_to_disk(img, save_path)
-        print(f"\u2705 Successfully saved image to: {save_path}")
+        logger.info(f"Successfully saved image to: {save_path}")
 
         if context.payload:
             self._save_payload(context, save_path)
@@ -77,17 +75,17 @@ class OutputWriter:
         Raises:
             requests.RequestException: If download fails
         """
-        print(f"🌐 Making HTTP request to: {image_url}")
-        print(f"⏰ Timeout: {DEFAULT_IMAGE_DOWNLOAD_TIMEOUT} seconds")
+        logger.debug(f"Making HTTP request to: {image_url}")
+        logger.debug(f"Timeout: {DEFAULT_IMAGE_DOWNLOAD_TIMEOUT} seconds")
 
         response = requests.get(image_url, timeout=DEFAULT_IMAGE_DOWNLOAD_TIMEOUT)
-        print(f"📊 HTTP Status: {response.status_code}")
-        print(f"📦 Content-Type: {response.headers.get('content-type', 'unknown')}")
+        logger.debug(f"HTTP Status: {response.status_code}")
+        logger.debug(f"Content-Type: {response.headers.get('content-type', 'unknown')}")
 
         response.raise_for_status()
 
         content_length = len(response.content)
-        print(f"📐 Content length: {content_length} bytes")
+        logger.debug(f"Content length: {content_length} bytes")
 
         return response.content
 

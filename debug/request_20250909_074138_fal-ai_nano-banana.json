@@ -1,8 +1,0 @@
-{
-  "endpoint": "fal-ai/nano-banana",
-  "payload": {
-    "num_images": 1,
-    "prompt": "Aspect_ratio=\"16:9\" Group of 4 operations team members (Mixed-race woman 20s, White man 30s, Black woman 40s, Hispanic man 20s) all smiling, one stepping forward showing leadership, wearing complete PPE: long-sleeved shirts, utilitarian pants, gray safety gloves, ear protection muffs, and safety goggles, industrial facility floor."
-  },
-  "timestamp": "20250909_074138"
-}

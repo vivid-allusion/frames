@@ -1,8 +1,0 @@
-{
-  "endpoint": "fal-ai/nano-banana",
-  "payload": {
-    "num_images": 1,
-    "prompt": "Aspect_ratio=\"16:9\" Group of 2 people: incident commander (Black man 20s) pointing at facility floor plan while 1 team member (Hispanic woman 30s) listens attentively, both smiling and engaged, wearing complete PPE: long-sleeved shirts, utilitarian pants, gray safety gloves, ear protection muffs, and safety goggles, emergency equipment visible."
-  },
-  "timestamp": "20250909_074214"
-}

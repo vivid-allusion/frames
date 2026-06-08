@@ -1,24 +1,13 @@
 wrapper:
   name: "Text-to-Image Generator"
   version: "2.0.0"
-
-tool:
-  name: "Text-to-Image Generator"
-  version: "2.0.0"
-
-processing:
-  max_workers: 1
-  batch_size: 10
-
-api:
   timeout: 120
   max_retries: 3
   max_wait_time: 600
+  rate_limit_retry_delay: 60
 
-output:
-  force_png: false
-  create_metadata: true
+inputs:
+  directory: "USER-FILES/04.INPUT"
 
-logging:
-  level: "DEBUG"
-  format: "detailed"
+outputs:
+  directory: "USER-FILES/05.OUTPUT"

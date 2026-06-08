@@ -49,7 +49,6 @@ def test_replicate():
             model_id=model_id,
             prompt=test_prompt,
             params=params,
-            debug=True
         )
         
         # Check response

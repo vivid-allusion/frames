@@ -12,35 +12,26 @@ def test_imports():
             DEFAULT_RATE_LIMIT_RETRY_DELAY,
             DEFAULT_IMAGE_DOWNLOAD_TIMEOUT,
             TIMESTAMP_FORMAT,
-            TIME_FORMAT,
-            DATETIME_FORMAT
         )
         print("✓ Constants imports successful")
         
         # Test that removed constants don't exist
-        try:
-            from src.constants import DEFAULT_CURRENCY_SYMBOL
-            print("✗ DEFAULT_CURRENCY_SYMBOL should have been removed")
-        except ImportError:
-            print("✓ DEFAULT_CURRENCY_SYMBOL correctly removed")
-            
-        try:
-            from src.constants import PROGRESS_UPDATE_INTERVAL
-            print("✗ PROGRESS_UPDATE_INTERVAL should have been removed")
-        except ImportError:
-            print("✓ PROGRESS_UPDATE_INTERVAL correctly removed")
-            
-        try:
-            from src.constants import MAX_FUNCTION_LINES
-            print("✗ MAX_FUNCTION_LINES should have been removed")
-        except ImportError:
-            print("✓ MAX_FUNCTION_LINES correctly removed")
-            
-        try:
-            from src.constants import MAX_FUNCTION_PARAMS
-            print("✗ MAX_FUNCTION_PARAMS should have been removed")
-        except ImportError:
-            print("✓ MAX_FUNCTION_PARAMS correctly removed")
+        for removed in (
+            "TIME_FORMAT",
+            "DATETIME_FORMAT",
+            "HTTP_OK",
+            "URL_VALIDATION_TIMEOUT",
+            "DEFAULT_CURRENCY_SYMBOL",
+            "PROGRESS_UPDATE_INTERVAL",
+            "MAX_FUNCTION_LINES",
+            "MAX_FUNCTION_PARAMS",
+        ):
+            try:
+                __import__("src.constants", fromlist=[removed])
+                getattr(__import__("src.constants"), removed)
+                print(f"✗ {removed} should have been removed")
+            except AttributeError:
+                print(f"✓ {removed} correctly removed")
         
         # Test config imports
         from src.config import ConfigLoader, ConfigValidator

@@ -1,8 +1,0 @@
-{
-  "endpoint": "fal-ai/nano-banana",
-  "payload": {
-    "num_images": 1,
-    "prompt": "Aspect_ratio=\"16:9\" Clipart-style illustration of a warning triangle containing PPE symbols (hard hat, safety goggles, ear muffs, gloves). The style is clean, minimal, and vector-based, with flat colors and simple outlines. Transparent background."
-  },
-  "timestamp": "20250909_074039"
-}

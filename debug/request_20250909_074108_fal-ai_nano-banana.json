@@ -1,8 +1,0 @@
-{
-  "endpoint": "fal-ai/nano-banana",
-  "payload": {
-    "num_images": 1,
-    "prompt": "Aspect_ratio=\"16:9\" Dutch angle, off-centered framing, Close-Up on arranged PPE equipment: gray safety gloves, ear protection muffs, safety goggles, steel-toe shoes, industrial fluorescent lighting above. Wide angle lens, hard flash, crushed whites, disposable camera, EXTREME shallow depth of field, a lot of bokeh, f/1.2."
-  },
-  "timestamp": "20250909_074108"
-}

@@ -62,7 +62,6 @@ def discover_inputs_and_profiles(
 def initialize_services(
     args,
     config: Dict[str, Any],
-    config_loader: ConfigLoader,
     api_key: str,
     profile: Dict[str, Any],
 ) -> Tuple[OutputWriter, Reporter, ReplicateClient, BatchProcessor]:

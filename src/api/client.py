@@ -3,7 +3,6 @@
 import os
 import time
 import json
-from pathlib import Path
 from typing import Dict, Any, Optional
 from loguru import logger
 import replicate
@@ -52,7 +51,7 @@ class ReplicateClient:
         os.environ["REPLICATE_API_TOKEN"] = self.api_key
 
     def generate_image(
-        self, model_id: str, prompt: str, params: Dict[str, Any], debug: bool = False
+        self, model_id: str, prompt: str, params: Dict[str, Any]
     ) -> Dict[str, Any]:
         """
         Generate an image using Replicate API with pure parameter pass-through.
@@ -61,7 +60,6 @@ class ReplicateClient:
             model_id: Replicate model identifier
             prompt: Text prompt
             params: All model parameters from profile (passed through unchanged)
-            debug: Save debug information
 
         Returns:
             API response dictionary
@@ -91,16 +89,12 @@ class ReplicateClient:
         logger.debug(f"Clean prompt being sent: {clean_prompt}")
         logger.debug(f"Clean prompt repr: {repr(clean_prompt)}")
 
-        # Save debug request if needed
-        if debug:
-            self._save_debug_request(model_id, payload)
-
-        result = self._call_with_retry(model_id, payload, debug)
+        result = self._call_with_retry(model_id, payload)
 
         return {"result": result, "payload": payload}
 
     def _call_with_retry(
-        self, model_id: str, payload: Dict[str, Any], debug: bool
+        self, model_id: str, payload: Dict[str, Any]
     ) -> Dict[str, Any]:
         """
         Call Replicate API with retry logic.
@@ -108,7 +102,6 @@ class ReplicateClient:
         Args:
             model_id: Model identifier
             payload: Request payload
-            debug: Save debug information
 
         Returns:
             API response dictionary
@@ -126,21 +119,17 @@ class ReplicateClient:
                 logger.debug(
                     f"CRITICAL DEBUG - Payload sent to replicate.run: {json.dumps(payload, indent=2)}"
                 )
-                print(f"🚀 Calling replicate.run('{model_id}', input=...)")
-                print(f"📋 Input keys: {list(payload.keys())}")
+                logger.debug(f"Calling replicate.run('{model_id}', input={{...}})")
+                logger.debug(f"Input keys: {list(payload.keys())}")
 
                 # Use replicate.run for synchronous execution
                 output = replicate.run(model_id, input=payload)
 
-                print(f"✅ replicate.run() completed successfully!")
-                print(f"📊 Output type: {type(output)}")
+                logger.debug(f"replicate.run() completed successfully!")
+                logger.debug(f"Output type: {type(output)}")
 
                 # Convert output to consistent format
                 result = self._format_output(output)
-
-                # Save debug response if needed
-                if debug:
-                    self._save_debug_response(model_id, result)
 
                 logger.debug("API call successful")
                 return result
@@ -197,39 +186,3 @@ class ReplicateClient:
         else:
             # Single URL or other format
             return {"images": [{"url": str(output)}]}
-
-    def _save_debug_request(self, model_id: str, payload: Dict[str, Any]) -> None:
-        """Save debug request to file."""
-        debug_dir = Path("debug")
-        debug_dir.mkdir(exist_ok=True)
-
-        timestamp = time.strftime("%Y%m%d_%H%M%S")
-        safe_model_id = model_id.replace("/", "_").replace(":", "_")
-        filename = debug_dir / f"request_{timestamp}_{safe_model_id}.json"
-
-        with open(filename, "w") as f:
-            json.dump(
-                {"model_id": model_id, "payload": payload, "timestamp": timestamp},
-                f,
-                indent=2,
-            )
-
-        logger.debug(f"Saved debug request to {filename}")
-
-    def _save_debug_response(self, model_id: str, response: Dict[str, Any]) -> None:
-        """Save debug response to file."""
-        debug_dir = Path("debug")
-        debug_dir.mkdir(exist_ok=True)
-
-        timestamp = time.strftime("%Y%m%d_%H%M%S")
-        safe_model_id = model_id.replace("/", "_").replace(":", "_")
-        filename = debug_dir / f"response_{timestamp}_{safe_model_id}.json"
-
-        with open(filename, "w") as f:
-            json.dump(
-                {"model_id": model_id, "response": response, "timestamp": timestamp},
-                f,
-                indent=2,
-            )
-
-        logger.debug(f"Saved debug response to {filename}")

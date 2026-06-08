@@ -82,7 +82,7 @@ def main():
 
     try:
         # Load configuration
-        config, config_loader = load_and_validate_config()
+        config, _ = load_and_validate_config()
 
         # Authenticate with 1Password
         api_key = authenticate_for_mode(args.dry_run)
@@ -92,7 +92,7 @@ def main():
 
         # Initialize services
         output_writer, reporter, replicate_client, processor = initialize_services(
-            args, config, config_loader, api_key, profile
+            args, config, api_key, profile
         )
 
         # Handle cost estimation mode

@@ -11,9 +11,3 @@ DEFAULT_IMAGE_DOWNLOAD_TIMEOUT = 30  # seconds
 
 # File System
 TIMESTAMP_FORMAT = "%y%m%d_%H%M%S"
-TIME_FORMAT = "%H%M%S"
-DATETIME_FORMAT = "%Y-%m-%d %H:%M:%S"
-
-# HTTP constants
-HTTP_OK = 200
-URL_VALIDATION_TIMEOUT = 5  # seconds

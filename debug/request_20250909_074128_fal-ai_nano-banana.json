@@ -1,8 +1,0 @@
-{
-  "endpoint": "fal-ai/nano-banana",
-  "payload": {
-    "num_images": 1,
-    "prompt": "Aspect_ratio=\"16:9\" Group of 2 site managers (Black man 30s, Hispanic woman 40s) all friendly and professional, standing together at AWS facility operations center, wearing complete PPE: long-sleeved shirts, utilitarian pants, gray safety gloves, ear protection muffs, and safety goggles, industrial walls visible."
-  },
-  "timestamp": "20250909_074128"
-}
