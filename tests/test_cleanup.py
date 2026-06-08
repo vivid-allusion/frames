@@ -47,8 +47,8 @@ def test_imports():
         print("✓ Config imports successful")
         
         # Test processor imports
-        from src.processing.processor import MatrixProcessor
-        print("✓ MatrixProcessor import successful")
+        from src.processing.processor import BatchProcessor
+        print("✓ BatchProcessor import successful")
         
         # Test reporter imports
         from src.output.reporter import Reporter

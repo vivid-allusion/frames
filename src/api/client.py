@@ -95,40 +95,13 @@ class ReplicateClient:
         if debug:
             self._save_debug_request(model_id, payload)
 
-        # Capture exact payload with timestamp BEFORE API call
-        from datetime import datetime
+        result = self._call_with_retry(model_id, payload, debug)
 
-        intended_payload = {
-            "model_id": model_id,
-            "timestamp": datetime.now().isoformat(),
-            "intended_request": payload.copy(),  # What we intended to send
-            "actual_request": None,  # Will be filled after API call
-            "api_filtering_detected": False,
-        }
-
-        # Sequential processing with payload tracking
-        result, actual_payload = self._call_with_retry(model_id, payload, debug)
-
-        # Update payload tracking with what was actually sent
-        intended_payload["actual_request"] = actual_payload
-        intended_payload["api_filtering_detected"] = self._detect_filtering(
-            payload, actual_payload
-        )
-
-        # Log filtering detection
-        if intended_payload["api_filtering_detected"]:
-            filtered_params = self._get_filtered_parameters(payload, actual_payload)
-            logger.warning(f"API PARAMETER FILTERING DETECTED:")
-            logger.warning(f"  Model: {model_id}")
-            logger.warning(f"  Filtered parameters: {filtered_params}")
-            logger.warning(f"  This means the model doesn't support these parameters")
-
-        # Return both result and complete payload information
-        return {"result": result, "payload": intended_payload}
+        return {"result": result, "payload": payload}
 
     def _call_with_retry(
         self, model_id: str, payload: Dict[str, Any], debug: bool
-    ) -> tuple[Dict[str, Any], Dict[str, Any]]:
+    ) -> Dict[str, Any]:
         """
         Call Replicate API with retry logic.
 
@@ -138,7 +111,7 @@ class ReplicateClient:
             debug: Save debug information
 
         Returns:
-            Tuple of (API response, actual payload sent)
+            API response dictionary
 
         Raises:
             Exception: After all retries exhausted
@@ -170,8 +143,7 @@ class ReplicateClient:
                     self._save_debug_response(model_id, result)
 
                 logger.debug("API call successful")
-                # Return both result and actual payload that was sent
-                return result, payload
+                return result
 
             except Exception as e:
                 last_error = e
@@ -261,51 +233,3 @@ class ReplicateClient:
             )
 
         logger.debug(f"Saved debug response to {filename}")
-
-    def _detect_filtering(
-        self, intended: Dict[str, Any], actual: Dict[str, Any]
-    ) -> bool:
-        """
-        Detect if API might filter parameters based on known model limitations.
-
-        Args:
-            intended: What we intended to send
-            actual: What was actually sent (currently same as intended)
-
-        Returns:
-            True if filtering likely occurred
-        """
-        # Known problematic parameters for common models
-        potentially_filtered = []
-
-        # Check for parameters that are commonly filtered
-        if "image_urls" in intended:
-            potentially_filtered.append("image_urls")
-        if "image_input" in intended:
-            potentially_filtered.append("image_input")
-
-        # For now, assume filtering occurred if we have potentially problematic parameters
-        return len(potentially_filtered) > 0
-
-    def _get_filtered_parameters(
-        self, intended: Dict[str, Any], actual: Dict[str, Any]
-    ) -> list:
-        """
-        Get list of parameters that were likely filtered out.
-
-        Args:
-            intended: What we intended to send
-            actual: What was actually sent
-
-        Returns:
-            List of potentially filtered parameter names
-        """
-        potentially_filtered = []
-
-        # Check for commonly filtered parameters
-        if "image_urls" in intended:
-            potentially_filtered.append("image_urls")
-        if "image_input" in intended:
-            potentially_filtered.append("image_input")
-
-        return potentially_filtered

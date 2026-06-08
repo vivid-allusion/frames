@@ -8,26 +8,23 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from src.processing.context import ProcessingContext
-from src.api.client import ReplicateClient
 
 def test_context_with_image_input():
-    """Test ProcessingContext includes image_input and output_format."""
+    """Test ProcessingContext stores image-related params in the params dict."""
     context = ProcessingContext(
         prompt_file=Path("test.txt"),
         relative_path=Path("test.txt"),
         prompts=["test prompt"],
         model_id="test/model",
-        params={"num_images": 1},
+        params={"num_images": 1, "image_input": "https://example.com/image.png", "output_format": "png"},
         pricing={"base_cost": 0.01},
         profile_name="test_profile",
         output_dir=Path("/tmp"),
-        image_input="https://example.com/image.png",
-        output_format="png"
     )
 
-    assert context.image_input == "https://example.com/image.png"
-    assert context.output_format == "png"
-    print("✅ ProcessingContext correctly stores image_input and output_format")
+    assert context.params.get("image_input") == "https://example.com/image.png"
+    assert context.params.get("output_format") == "png"
+    print("✅ ProcessingContext correctly stores image params in params dict")
 
 def test_payload_construction():
     """Test that API client correctly constructs payload with image_input."""

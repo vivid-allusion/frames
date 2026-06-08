@@ -1,7 +1,7 @@
 """Tests for model agnosticism implementation."""
 
 import unittest
-from unittest.mock import Mock, patch, MagicMock
+from unittest.mock import patch
 from pathlib import Path
 import sys
 

@@ -1,7 +1,6 @@
 """Progress visualization with alive-progress."""
 
 from alive_progress import alive_bar
-from typing import Optional, Any
 
 
 class AliveProgressWrapper:

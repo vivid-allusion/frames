@@ -3,7 +3,7 @@
 import sys
 import yaml
 from pathlib import Path
-from typing import Dict, Any, List
+from typing import Dict, Any
 from loguru import logger
 
 from ..processing.discovery import InputDiscovery
@@ -47,18 +47,6 @@ class ConfigLoader:
             return self.config
         except yaml.YAMLError as e:
             raise yaml.YAMLError(f"Invalid YAML in {config_path}: {e}")
-
-    def get_wrapper_config(self) -> Dict[str, Any]:
-        """Get wrapper-specific configuration."""
-        return self.config.get("wrapper", {})
-
-    def get_queue_config(self) -> Dict[str, Any]:
-        """Get queue management configuration."""
-        return self.config.get("queue", {})
-
-    def get_notifications_config(self) -> Dict[str, Any]:
-        """Get notifications configuration."""
-        return self.config.get("notifications", {})
 
     def load_profiles(self) -> Dict[str, Dict[str, Any]]:
         """

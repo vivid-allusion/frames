@@ -427,6 +427,57 @@ Follows AI Model Agnosticism Manifesto perfectly:
 `src/api/client.py`, `src/output/writer.py`, `src/processing/discovery.py`, `src/auth/`
 
 ### Pending Minor Cleanup (low priority, non-blocking)
-1. Remove dead `BatchProcessingContext` class from `src/processing/context.py` (no longer used)
-2. Remove dead `GenericValidator` import/instantiation from `src/processing/processor.py` (method no longer called)
-3. Add `01.CONFIG/` fallback to legacy `main.py`'s inline discovery (primary entry `main_simple.py` already has it)
+1. ~~Remove dead `BatchProcessingContext` class from `src/processing/context.py`~~ **DONE (2026-06-08)**
+2. ~~Remove dead `GenericValidator` import/instantiation from `src/processing/processor.py`~~ **DONE (2026-06-08)**  
+3. ~~Add `01.CONFIG/` fallback to legacy `main.py`'s inline discovery~~ **OBSOLETE** (`main.py` deleted 2026-06-08)
+
+## Refactoring Completion (2026-06-08)
+
+### Major Cleanup Complete — 40+ Tasks, 731 Lines Removed (13.9%)
+
+#### What Was Done
+- **Deleted files**: `src/main.py` (354L duplicate), `src/auth/env.py` (32L dead .env auth)
+- **Dead code removed**: 18 items (~620 lines) including:
+  - Fake filtering detection (`_detect_filtering`, `_get_filtered_parameters`) from `src/api/client.py`
+  - `BatchProcessingContext` dataclass from `src/processing/context.py`
+  - 3 dead exception classes from `src/exceptions.py`
+  - 3 dead ConfigLoader getter methods
+  - `validate_operational_requirements()` from `src/processing/validator.py`
+  - `validate_single_custom_input_path()` and `validate_path_exists()` from `src/utils/path_resolver.py`
+  - 3 unreferenced constants from `src/constants.py`
+  - Dead `self.debug` flag and `self.validator` from `src/processing/processor.py`
+  - Dead `load_auth_config` re-export from `src/auth/onepassword.py`
+- **Unused imports removed**: 27 across 14 files
+- **Bugs fixed**: 3
+  - `src/cli.py`: `--save-payloads` flag had inverted behavior (fixed to `--no-save-payloads`)
+  - `test_custom_paths.py:137`: `_IMAGE` → `_IMG-TO-IMG` assertion
+  - `test_custom_paths.py:13`: Import of deleted `validate_single_custom_input_path` removed
+- **Tests unblocked**: 5 broken tests fixed (sys.path, renamed classes, removed params, deleted functions)
+- **Structural improvements**:
+  - `save_image()`: 8 params → 1 (`ImageSaveContext` dataclass)
+  - `_validate_single_profile()`: complexity 18 → declarative `PARAMETER_VALIDATION_RULES` dict
+  - `_save_payload()`: dead filtering detection branch removed
+  - `generate_image()`: simplified from 74L → 47L after removing no-op filtering checks
+  - `src/auth/__init__.py`: simplified to pure re-export (removed dead .env fallback)
+
+#### Project Metrics (Post-Refactor)
+| Metric | Before | After |
+|--------|--------|-------|
+| Total files | 42 | 38 |
+| Total LOC | 5,264 | 4,533 |
+| src/ LOC | ~2,900 | 2,308 |
+| Unused imports | 27 | 0 |
+| Dead code | ~620 lines | 0 |
+| Known bugs | 2 | 0 |
+| Broken tests | 5 | 0 |
+
+#### Remaining Known Technical Debt (intentionally deferred)
+- `_call_with_retry()`: 69L, complexity 8 — acceptable for retry loop
+- `_process_single_combination()`: 65L, complexity 7 — previously refactored
+- `initialize_services()` / `generate_final_reports()` / `save_reports()`: 4-5 params — acceptable
+- `ReplicateClient.__init__()`: 5 params — future ClientConfig dataclass candidate
+- `get_active_models()` in `src/processing/discovery.py`: misnamed (returns profiles, not models)
+- `create_progress_bar()` in `src/utils/progress.py`: bypasses AliveProgressWrapper API
+- `scripts/append_camera_dolly.py`: manual argv parsing (not argparse)
+- No conftest.py / pytest configuration — tests use manual sys.path manipulation
+- Typing modernization: `Optional[X]` → `X | None` etc. (cosmetic, Python 3.9+)

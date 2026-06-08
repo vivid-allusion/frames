@@ -18,7 +18,7 @@ from datetime import datetime
 from pathlib import Path
 import argparse
 import sys
-from typing import Iterable, List, Tuple
+from typing import List, Tuple
 
 SENTENCE: str = " The camera dollies in slowly."
 

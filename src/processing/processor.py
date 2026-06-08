@@ -7,18 +7,14 @@ import time
 from loguru import logger
 
 # Progress handling moved to utils.progress
-from ..api.client import ReplicateClient
-from ..output.writer import OutputWriter
-from ..output.reporter import Reporter
 from .discovery import InputDiscovery
 from .context import (
     ProcessingContext,
     CombinationProcessingContext,
     ProcessorConfig,
 )
-from .validator import GenericValidator
-from ..exceptions import ValidationError
 from .markdown_parser import extract_all_image_urls
+from ..output.context import ImageSaveContext
 
 
 class BatchProcessor:
@@ -35,12 +31,10 @@ class BatchProcessor:
         self.output_writer = config.output_writer
         self.reporter = config.reporter
         self.dry_run = config.dry_run
-        self.debug = False  # Not in config, always False
         self.save_payloads = config.save_payloads
         self.total_cost = 0.0
         self.processed_count = 0
         self.failed_count = 0
-        self.validator = GenericValidator()
 
     def process_all(
         self,
@@ -213,7 +207,6 @@ class BatchProcessor:
                 model_id=context.model_id,
                 prompt=prompt,
                 params=context.params,  # All profile parameters passed through
-                debug=self.debug,
             )
 
             # Extract result and payload
@@ -223,7 +216,7 @@ class BatchProcessor:
             # Save image
             timestamp = datetime.now().strftime("%H%M%S")
 
-            filename = self.output_writer.save_image(
+            save_context = ImageSaveContext(
                 image_url=result["images"][0]["url"],
                 timestamp=timestamp,
                 prompt_file_name=context.prompt_file.stem,
@@ -232,6 +225,7 @@ class BatchProcessor:
                 relative_path=context.relative_path,
                 payload=payload if self.save_payloads else None,
             )
+            filename = self.output_writer.save_image(save_context)
 
             self.processed_count += 1
             self.total_cost += base_cost

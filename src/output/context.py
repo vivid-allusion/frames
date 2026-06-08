@@ -1,7 +1,7 @@
 """Output context dataclasses for encapsulating parameters."""
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Optional, Dict, Any, Union
+from typing import Optional, Dict, Any
 
 
 @dataclass

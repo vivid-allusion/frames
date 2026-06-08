@@ -4,7 +4,7 @@ import requests
 import re
 import json
 from pathlib import Path
-from typing import Any, Optional, Dict, Union, Tuple
+from typing import Tuple
 from datetime import datetime
 from PIL import Image
 from io import BytesIO
@@ -28,64 +28,37 @@ class OutputWriter:
         self.output_dir.mkdir(parents=True, exist_ok=True)
         self.force_png = force_png
 
-    def save_image(
-        self,
-        image_url: str,
-        timestamp: str,
-        prompt_file_name: str,
-        model_name: str,
-        output_dir: Optional[Path] = None,
-        relative_path: Optional[Path] = None,
-        payload: Optional[Dict[str, Any]] = None,
-    ) -> str:
+    def save_image(self, context: ImageSaveContext) -> str:
         """
-        Download, validate, and save image using context.
+        Download, validate, and save image using ImageSaveContext.
 
         Args:
-            image_url: URL of generated image
-            timestamp: Timestamp string (HHMMSS)
-            prompt_file_name: Name of source prompt file (without extension)
-            model_name: Model nickname
-            output_dir: Optional specific output directory
-            relative_path: Optional relative path from input directory
-            payload: Optional API payload to save as JSON
+            context: ImageSaveContext with all save parameters
 
         Returns:
             Saved filename
         """
-        print(f"💾 Starting image save process...")
-        print(f"📷 Image URL: {image_url}")
-        print(f"⏰ Timestamp: {timestamp}")
-        print(f"📁 Prompt file: {prompt_file_name}")
-        print(f"🤖 Model: {model_name}")
-        # Create context for cleaner parameter passing
-        context = ImageSaveContext(
-            image_url=image_url,
-            timestamp=timestamp,
-            prompt_file_name=prompt_file_name,
-            model_name=model_name,
-            output_dir=output_dir if output_dir else self.output_dir,
-            relative_path=relative_path,
-            payload=payload,
-        )
+        print(f"\U0001f4be Starting image save process...")
+        print(f"\U0001f4f7 Image URL: {context.image_url}")
+        print(f"\u23f0 Timestamp: {context.timestamp}")
+        print(f"\U0001f4c1 Prompt file: {context.prompt_file_name}")
+        print(f"\U0001f916 Model: {context.model_name}")
 
-        # Process image through pipeline
-        print(f"⬇️  Downloading image from: {context.image_url}")
+        print(f"\u2b07\ufe0f  Downloading image from: {context.image_url}")
         image_data = self._download_image(context.image_url)
-        print(f"✅ Downloaded {len(image_data)} bytes")
+        print(f"\u2705 Downloaded {len(image_data)} bytes")
 
-        print(f"🔄 Processing image data...")
+        print(f"\U0001f504 Processing image data...")
         img, format_ext = self._process_image(image_data)
-        print(f"✅ Image processed, format: {format_ext}")
+        print(f"\u2705 Image processed, format: {format_ext}")
 
         save_path = self._determine_save_path(context, format_ext)
-        print(f"📁 Save path: {save_path}")
+        print(f"\U0001f4c1 Save path: {save_path}")
 
-        print(f"💾 Saving to disk...")
+        print(f"\U0001f4be Saving to disk...")
         self._save_to_disk(img, save_path)
-        print(f"✅ Successfully saved image to: {save_path}")
+        print(f"\u2705 Successfully saved image to: {save_path}")
 
-        # Save payload if provided
         if context.payload:
             self._save_payload(context, save_path)
 
@@ -228,61 +201,16 @@ class OutputWriter:
         logger.info(f"Saved valid image: {save_path}")
 
     def _save_payload(self, context: ImageSaveContext, image_path: Path) -> None:
-        """
-        Save API payload as Markdown file.
-
-        Args:
-            context: ImageSaveContext with payload
-            image_path: Path where image was saved
-        """
         payload_path = image_path.with_suffix(".md")
 
-        # Check if payload has filtering information
-        payload_data = context.payload
-        has_filtering_info = (
-            isinstance(payload_data, dict) and "intended_request" in payload_data
-        )
-
-        if has_filtering_info:
-            # New format with filtering detection
-            intended = payload_data.get("intended_request", {})
-            actual = payload_data.get("actual_request", {})
-            filtering_detected = payload_data.get("api_filtering_detected", False)
-
-            markdown_content = f"""# API Payload Analysis
-
-## Image File
-`{image_path.name}`
-
-## Parameter Filtering Status
-{"⚠️ **API FILTERING DETECTED**" if filtering_detected else "✅ **No Filtering Detected**"}
-
-{f"The API likely filtered out unsupported parameters. See comparison below." if filtering_detected else "All intended parameters appear to be supported by the model."}
-
-## Intended Request (What We Tried to Send)
-```json
-{json.dumps(intended, indent=2, ensure_ascii=False)}
-```
-
-## Actual Request (What Was Actually Sent)
-```json
-{json.dumps(actual, indent=2, ensure_ascii=False)}
-```
-
-{f"## ⚠️ Potential Issues\n- Some parameters may not be supported by the `{payload_data.get('model_id', 'unknown')}` model\n- Check model documentation for supported parameters\n- Consider using a different model if image inputs are required\n" if filtering_detected else ""}
-## Timestamp
-Generated at: {context.timestamp}
-"""
-        else:
-            # Legacy format
-            markdown_content = f"""# API Payload
+        markdown_content = f"""# API Payload
 
 ## Image File
 `{image_path.name}`
 
 ## Request Details
 ```json
-{json.dumps(payload_data, indent=2, ensure_ascii=False)}
+{json.dumps(context.payload, indent=2, ensure_ascii=False)}
 ```
 
 ## Timestamp

@@ -14,7 +14,7 @@ def test_dry_run_with_image_input():
 
     # Run with dry-run to test validation without API calls
     cmd = [
-        sys.executable, "-m", "src.main",
+        sys.executable, "-m", "src.main_simple",
         "--dry-run",
         "--no-progress"
     ]
@@ -60,7 +60,7 @@ def test_missing_output_format():
         yaml_path.write_text(modified_content)
 
         # Run and expect failure
-        cmd = [sys.executable, "-m", "src.main", "--dry-run", "--no-progress"]
+        cmd = [sys.executable, "-m", "src.main_simple", "--dry-run", "--no-progress"]
         result = subprocess.run(cmd, capture_output=True, text=True, timeout=10)
 
         if result.returncode != 0:
@@ -94,7 +94,7 @@ def test_invalid_url():
         yaml_path.write_text(modified_content)
 
         # Run and expect failure
-        cmd = [sys.executable, "-m", "src.main", "--dry-run", "--no-progress"]
+        cmd = [sys.executable, "-m", "src.main_simple", "--dry-run", "--no-progress"]
         result = subprocess.run(cmd, capture_output=True, text=True, timeout=10)
 
         if result.returncode != 0:

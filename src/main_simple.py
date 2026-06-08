@@ -1,7 +1,7 @@
 """Simplified main entry point using refactored modules."""
 
 import sys
-from typing import Optional, List, Dict, Any
+from typing import Optional, Dict, Any
 from loguru import logger
 
 from .auth.onepassword import ensure_op_auth, get_api_key

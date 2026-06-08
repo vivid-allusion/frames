@@ -11,7 +11,6 @@ This script:
 Usage: python3 run.py [args]
 """
 
-import os
 import sys
 import subprocess
 import shutil

@@ -4,7 +4,6 @@ import os
 import subprocess
 import sys
 import shutil
-from typing import Optional
 from loguru import logger
 from ..exceptions import AuthenticationError
 

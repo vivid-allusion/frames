@@ -10,7 +10,6 @@ from src.utils.path_resolver import (
     resolve_input_path,
     resolve_output_base_path,
     create_timestamped_output_path,
-    validate_single_custom_input_path,
 )
 from src.config.validator import ConfigValidator
 
@@ -67,23 +66,6 @@ def test_userfiles_fallback():
     print("  [PASS] USER-FILES fallback")
 
 
-def test_single_custom_input_constraint():
-    """Test that only one custom input path is allowed."""
-    profiles = [
-        {"paths": {"input": "/path/1"}},
-        {"paths": {"input": "/path/2"}},
-    ]
-
-    try:
-        validate_single_custom_input_path(profiles)
-        print("  [FAIL] Should have raised ValueError")
-        return False
-    except ValueError as e:
-        assert "Multiple profiles" in str(e)
-        print("  [PASS] Single custom input constraint")
-        return True
-
-
 def test_profile_validation():
     """Test profile schema validation."""
     validator = ConfigValidator()
@@ -134,7 +116,7 @@ def test_timestamped_output_creation():
 
         expected_prefix = datetime.now().strftime(TIMESTAMP_FORMAT)
         assert output_path.name.startswith(expected_prefix)
-        assert "_IMAGE" in output_path.name
+        assert "_IMG-TO-IMG" in output_path.name
 
         print("  [PASS] Timestamped output creation")
 
@@ -162,15 +144,11 @@ def main():
         print(f"  [FAIL] {e}")
         all_passed = False
 
-    print("3. Single Custom Input Constraint")
-    if not test_single_custom_input_constraint():
-        all_passed = False
-
-    print("4. Profile Validation")
+    print("3. Profile Validation")
     if not test_profile_validation():
         all_passed = False
 
-    print("5. Timestamped Output Creation")
+    print("4. Timestamped Output Creation")
     try:
         test_timestamped_output_creation()
     except Exception as e:

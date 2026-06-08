@@ -6,7 +6,7 @@ from pathlib import Path
 from loguru import logger
 
 # Add src to path
-sys.path.insert(0, str(Path(__file__).parent))
+sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from src.api.client import ReplicateClient
 

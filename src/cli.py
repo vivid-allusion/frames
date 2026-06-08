@@ -39,10 +39,10 @@ def parse_args():
     )
 
     parser.add_argument(
-        "--save-payloads",
+        "--no-save-payloads",
         action="store_false",
         dest="save_payloads",
-        help="Save JSON payload for each request"
+        help="Disable saving JSON payloads for each request"
     )
 
     parser.set_defaults(save_payloads=True)

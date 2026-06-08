@@ -96,39 +96,3 @@ def create_timestamped_output_path(base_path: Path) -> Path:
     output_path.mkdir(parents=True, exist_ok=True)
 
     return output_path
-
-
-def validate_single_custom_input_path(profiles: list[Dict[str, Any]]) -> None:
-    """
-    Ensure only one profile has a custom input path.
-
-    Args:
-        profiles: List of active profile dicts
-
-    Raises:
-        ValueError: If multiple profiles have custom input paths
-    """
-    custom_paths = [
-        p["paths"]["input"] for p in profiles if p.get("paths", {}).get("input")
-    ]
-
-    if len(custom_paths) > 1:
-        raise ValueError(
-            f"Multiple profiles have custom input paths: {custom_paths}. "
-            "Only one custom input path is allowed."
-        )
-
-
-def validate_path_exists(path: Path, path_type: str) -> None:
-    """
-    Validate path exists with fail-fast behavior.
-
-    Args:
-        path: Path to validate
-        path_type: Descriptive name for error messages
-
-    Raises:
-        FileNotFoundError: If path doesn't exist
-    """
-    if not path.exists():
-        raise FileNotFoundError(f"{path_type} directory not found: {path}")

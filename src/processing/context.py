@@ -37,18 +37,6 @@ class CombinationProcessingContext:
 
 
 @dataclass
-class BatchProcessingContext:
-    """Context for processing a batch of models."""
-
-    prompt_files: List[Tuple[Path, Path]]
-    models: List[Dict[str, Any]]
-    output_dir: Path
-    progress: Optional[Any] = None
-    task_id: Optional[int] = None
-    start_combination: int = 1
-
-
-@dataclass
 class ProcessorConfig:
     """Configuration for BatchProcessor initialization."""
 
