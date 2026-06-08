@@ -16,7 +16,7 @@ from .orchestrator import (
     generate_final_reports,
 )
 from .utils.logging import setup_logging
-from .processing.processor import MatrixProcessor
+from .processing.processor import BatchProcessor
 from .output.reporter import Reporter
 
 
@@ -50,14 +50,13 @@ def handle_error(
     e: Exception,
     args=None,
     reporter: Optional[Reporter] = None,
-    processor: Optional[MatrixProcessor] = None,
-    active_models: Optional[List[Dict[str, Any]]] = None,
+    processor: Optional[BatchProcessor] = None,
+    profile: Optional[Dict[str, Any]] = None,
 ) -> None:
     """Handle and report errors."""
     logger.error(f"Fatal error: {e}")
 
-    # Try to save failure report
-    if reporter and processor and active_models:
+    if reporter and processor and profile:
         try:
             summary = {
                 "processed": processor.processed_count,
@@ -79,7 +78,7 @@ def main():
     # Initialize variables for error handling
     reporter = None
     processor = None
-    active_models = None
+    profile = None
 
     try:
         # Load configuration
@@ -89,23 +88,23 @@ def main():
         api_key = authenticate_for_mode(args.dry_run)
 
         # Discover inputs and profiles
-        prompt_files, active_models = discover_inputs_and_profiles(config)
+        prompt_files, profile = discover_inputs_and_profiles(config)
 
         # Initialize services
         output_writer, reporter, replicate_client, processor = initialize_services(
-            args, config, config_loader, api_key, active_models
+            args, config, config_loader, api_key, profile
         )
 
         # Handle cost estimation mode
         if args.cost_estimation:
-            return estimate_costs(prompt_files, active_models, output_writer)
+            return estimate_costs(prompt_files, profile, output_writer)
 
         # Execute main processing
-        success = execute_processing(args, processor, prompt_files, active_models)
+        success = execute_processing(args, processor, prompt_files, profile)
 
         # Generate final reports
         return generate_final_reports(
-            processor, reporter, prompt_files, active_models, success
+            processor, reporter, prompt_files, profile, success
         )
 
     except KeyboardInterrupt:
@@ -116,7 +115,7 @@ def main():
         logger.error(f"Error: {e}")
         return 1
     except Exception as e:
-        handle_error(e, args, reporter, processor, active_models)
+        handle_error(e, args, reporter, processor, profile)
         return 1
 
 

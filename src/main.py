@@ -10,7 +10,7 @@ from .auth.onepassword import ensure_op_auth, get_api_key
 from .config import ConfigLoader, ConfigValidator
 from .exceptions import AuthenticationError, ConfigurationError, ValidationError
 from .processing.discovery import InputDiscovery
-from .processing.processor import MatrixProcessor
+from .processing.processor import BatchProcessor
 from .processing.context import ProcessorConfig
 from .api.client import ReplicateClient
 from .output.writer import OutputWriter
@@ -87,8 +87,8 @@ def load_and_validate_config() -> Tuple[Dict[str, Any], ConfigLoader]:
     return config, config_loader
 
 
-def discover_inputs_and_profiles(config: Dict[str, Any]) -> Tuple[List[Tuple[Path, Path]], List[Dict[str, Any]]]:
-    """Discover input files and profile configurations."""
+def discover_inputs_and_profiles(config: Dict[str, Any]) -> Tuple[List[Tuple[Path, Path]], Dict[str, Any]]:
+    """Discover input files and exactly one active profile."""
     logger.info("Discovering inputs...")
     discovery = InputDiscovery(
         input_dir=Path("USER-FILES/04.INPUT"),
@@ -99,29 +99,36 @@ def discover_inputs_and_profiles(config: Dict[str, Any]) -> Tuple[List[Tuple[Pat
     profiles = discovery.discover_profiles()
     active_models = discovery.get_active_models(profiles)
     
+    if len(active_models) == 0:
+        logger.error("No valid profiles found")
+        sys.exit(1)
+    if len(active_models) > 1:
+        logger.error(f"Multiple profiles found ({len(active_models)}). Keep only ONE.")
+        sys.exit(1)
+    
     # Validate configuration
     validator = ConfigValidator()
     validator.validate_all(config, profiles)
     
-    return prompt_files, active_models
+    logger.info(f"Using profile: {active_models[0]['profile_name']}")
+    return prompt_files, active_models[0]
 
 
-def build_profiles_with_fixes(active_models: List[Dict[str, Any]]) -> List[Dict[str, str]]:
+def build_profiles_with_fixes(profile: Dict[str, Any]) -> List[Dict[str, str]]:
     """Build list of profiles that have prompt fixes."""
     profiles_with_fixes = []
-    for model_info in active_models:
-        if model_info.get('prompt_prefix') or model_info.get('prompt_suffix'):
-            profiles_with_fixes.append({
-                'profile_name': model_info['profile_name'],
-                'prompt_prefix': model_info.get('prompt_prefix', ''),
-                'prompt_suffix': model_info.get('prompt_suffix', '')
-            })
+    if profile.get('prompt_prefix') or profile.get('prompt_suffix'):
+        profiles_with_fixes.append({
+            'profile_name': profile['profile_name'],
+            'prompt_prefix': profile.get('prompt_prefix', ''),
+            'prompt_suffix': profile.get('prompt_suffix', '')
+        })
     return profiles_with_fixes
 
 
 def estimate_costs(
     prompt_files: List[Tuple[Path, Path]], 
-    active_models: List[Dict[str, Any]],
+    profile: Dict[str, Any],
     output_writer: OutputWriter
 ) -> int:
     """Calculate and save cost estimation."""
@@ -133,32 +140,22 @@ def estimate_costs(
     total_prompts = sum(
         len(discovery.load_prompts(f[0])) for f in prompt_files
     )
-    total_images = total_prompts * len(active_models)
-    total_cost = 0.0
-    
-    for model_info in active_models:
-        cost = model_info.get('pricing', {}).get('base_cost', 0.0)
-        total_cost += cost * total_prompts
+    total_cost = profile.get('pricing', {}).get('base_cost', 0.0) * total_prompts
+    profile_name = profile['profile_name']
     
     estimation = f"""# Cost Estimation
 
 ## Summary
 - **Prompt Files**: {len(prompt_files)}
-- **Active Profiles**: {len(active_models)}
+- **Profile**: {profile_name}
 - **Total Prompts**: {total_prompts}
-- **Total Images**: {total_images}
 - **Estimated Cost**: ${total_cost:.4f}
 
-## Profiles
-"""
-    for model_info in active_models:
-        cost = model_info.get('pricing', {}).get('base_cost', 0.0)
-        profile_name = model_info['profile_name']
-        description = model_info.get('description', '')
-        estimation += f"- **{profile_name}**: ${cost:.4f} per image"
-        if description:
-            estimation += f" - {description}"
-        estimation += "\n"
+## Profile
+- **{profile_name}**: ${profile.get('pricing', {}).get('base_cost', 0.0):.4f} per image"""
+    if profile.get('description'):
+        estimation += f" - {profile['description']}"
+    estimation += "\n"
     
     output_writer.write_report(estimation, "COST-ESTIMATION.md")
     logger.info(f"Cost estimation saved. Total: ${total_cost:.4f}")
@@ -170,11 +167,11 @@ def initialize_services(
     config: Dict[str, Any],
     config_loader: ConfigLoader,
     api_key: str
-) -> Tuple[OutputWriter, Reporter, ReplicateClient, MatrixProcessor]:
+) -> Tuple[OutputWriter, Reporter, ReplicateClient, BatchProcessor]:
     """Initialize all required services."""
     # Initialize output structure
     timestamp = datetime.now().strftime(TIMESTAMP_FORMAT)
-    output_dir = Path("USER-FILES/05.OUTPUT") / f"{timestamp}_IMAGE"
+    output_dir = Path("USER-FILES/05.OUTPUT") / f"{timestamp}_IMG-TO-IMG"
     
     # Get force_png setting (CLI flag overrides config)
     output_config = config.get('output', {})
@@ -206,41 +203,40 @@ def initialize_services(
         dry_run=args.dry_run,
         no_progress=args.no_progress
     )
-    processor = MatrixProcessor(processor_config)
+    processor = BatchProcessor(processor_config)
     
     return output_writer, reporter, replicate_client, processor
 
 
 def execute_processing(
     args,
-    processor: MatrixProcessor,
+    processor: BatchProcessor,
     prompt_files: List[Tuple[Path, Path]],
-    active_models: List[Dict[str, Any]]
+    profile: Dict[str, Any]
 ) -> bool:
     """Execute main processing logic."""
-    logger.info("Starting matrix processing...")
+    logger.info(f"Starting batch processing with profile '{profile['profile_name']}'...")
     
-    # Create progress bar if not disabled
     progress = None if args.no_progress else create_progress_bar()
     
     if progress:
         with progress:
             success = processor.process_all(
-                prompt_files, active_models, progress
+                prompt_files, profile, progress
             )
     else:
         success = processor.process_all(
-            prompt_files, active_models, None
+            prompt_files, profile, None
         )
     
     return success
 
 
 def generate_final_reports(
-    processor: MatrixProcessor,
+    processor: BatchProcessor,
     reporter: Reporter,
     prompt_files: List[Tuple[Path, Path]],
-    active_models: List[Dict[str, Any]],
+    profile: Dict[str, Any],
     success: bool
 ) -> int:
     """Generate and save final reports."""
@@ -253,18 +249,17 @@ def generate_final_reports(
     summary['total_prompts'] = sum(
         len(discovery.load_prompts(f[0])) for f in prompt_files
     )
-    summary['total_models'] = len(active_models)
+    summary['profile'] = profile['profile_name']
     
-    # Collect profiles with prompt fixes
-    profiles_with_fixes = build_profiles_with_fixes(active_models)
+    profiles_with_fixes = build_profiles_with_fixes(profile)
     
     reporter.save_reports(success, summary, profiles_with_fixes=profiles_with_fixes)
     
     if success:
-        logger.success(f"✅ Completed successfully! Generated {summary['processed']} images")
+        logger.success(f"Completed successfully! Generated {summary['processed']} images")
         return 0
     else:
-        logger.error(f"❌ Failed with {summary['failed']} errors")
+        logger.error(f"Failed with {summary['failed']} errors")
         return 1
 
 
@@ -287,18 +282,16 @@ def handle_error(
     e: Exception,
     args,
     reporter: Optional[Reporter] = None,
-    processor: Optional[MatrixProcessor] = None,
-    active_models: Optional[List[Dict[str, Any]]] = None
+    processor: Optional[BatchProcessor] = None,
+    profile: Optional[Dict[str, Any]] = None
 ) -> None:
     """Handle and report errors."""
     logger.error(f"Fatal error: {e}")
     
-    # Try to save failure report
     try:
         if reporter and processor:
             summary = processor.get_summary() if processor else {}
-            # Try to collect profiles with fixes if available
-            profiles_with_fixes = build_profiles_with_fixes(active_models) if active_models else []
+            profiles_with_fixes = build_profiles_with_fixes(profile) if profile else []
             reporter.save_reports(False, summary, str(e), profiles_with_fixes=profiles_with_fixes)
     except Exception:
         pass
@@ -317,7 +310,7 @@ def main():
     # Initialize variables for error handling
     reporter = None
     processor = None
-    active_models = None
+    profile = None
     
     try:
         # Load configuration
@@ -327,7 +320,7 @@ def main():
         api_key = authenticate_for_mode(args.dry_run)
         
         # Discover inputs and profiles
-        prompt_files, active_models = discover_inputs_and_profiles(config)
+        prompt_files, profile = discover_inputs_and_profiles(config)
         
         # Initialize services
         output_writer, reporter, replicate_client, processor = initialize_services(
@@ -336,25 +329,24 @@ def main():
         
         # Handle cost estimation mode
         if args.cost_estimation:
-            return estimate_costs(prompt_files, active_models, output_writer)
+            return estimate_costs(prompt_files, profile, output_writer)
         
         # Execute main processing
-        success = execute_processing(args, processor, prompt_files, active_models)
+        success = execute_processing(args, processor, prompt_files, profile)
         
         # Generate final reports
         return generate_final_reports(
-            processor, reporter, prompt_files, active_models, success
+            processor, reporter, prompt_files, profile, success
         )
             
     except KeyboardInterrupt:
         logger.warning("Interrupted by user")
         return 130
     except (AuthenticationError, ConfigurationError, ValidationError) as e:
-        # These are expected fail-fast errors - don't need full error handling
         logger.error(f"Error: {e}")
         return 1
     except Exception as e:
-        handle_error(e, args, reporter, processor, active_models)
+        handle_error(e, args, reporter, processor, profile)
         return 1
 
 

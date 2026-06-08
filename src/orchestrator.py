@@ -6,7 +6,7 @@ from loguru import logger
 
 from .config import ConfigLoader, ConfigValidator
 from .processing.discovery import InputDiscovery
-from .processing.processor import MatrixProcessor
+from .processing.processor import BatchProcessor
 from .processing.context import ProcessorConfig
 from .processing.validator import GenericValidator
 from .api.client import ReplicateClient
@@ -38,16 +38,14 @@ def load_and_validate_config() -> Tuple[Dict[str, Any], ConfigLoader]:
 
 def discover_inputs_and_profiles(
     config: Dict[str, Any],
-) -> Tuple[List[Tuple[Path, Path]], List[Dict[str, Any]]]:
-    """Discover input files and active profiles with pre-flight validation."""
+) -> Tuple[List[Tuple[Path, Path]], Dict[str, Any]]:
+    """Discover input files and exactly one active profile."""
     config_loader = ConfigLoader()
-    active_models = config_loader.load_active_profiles()
+    profile = config_loader.load_active_profile()
 
     profiles_dir = Path("USER-FILES/03.PROFILES")
 
-    input_path, project_name = resolve_input_path(config, active_models, profiles_dir)
-
-    validate_single_custom_input_path(active_models)
+    input_path, project_name = resolve_input_path(config, [profile], profiles_dir)
 
     discovery = InputDiscovery(input_path, profiles_dir)
     prompt_files = discovery.discover_prompt_files()
@@ -60,10 +58,10 @@ def discover_inputs_and_profiles(
         logger.info(f"Project: {project_name}")
 
     logger.info(
-        f"Found {len(prompt_files)} prompt files and {len(active_models)} active profiles"
+        f"Found {len(prompt_files)} prompt files, using profile '{profile['profile_name']}'"
     )
 
-    return prompt_files, active_models
+    return prompt_files, profile
 
 
 def initialize_services(
@@ -71,10 +69,10 @@ def initialize_services(
     config: Dict[str, Any],
     config_loader: ConfigLoader,
     api_key: str,
-    active_models: list[Dict[str, Any]],
-) -> Tuple[OutputWriter, Reporter, ReplicateClient, MatrixProcessor]:
+    profile: Dict[str, Any],
+) -> Tuple[OutputWriter, Reporter, ReplicateClient, BatchProcessor]:
     """Initialize all required services."""
-    output_base_path = resolve_output_base_path(config, active_models)
+    output_base_path = resolve_output_base_path(config, [profile])
     output_path = create_timestamped_output_path(output_base_path)
 
     output_writer = OutputWriter(output_path, force_png=args.force_png)
@@ -97,57 +95,50 @@ def initialize_services(
         dry_run=args.dry_run,
         no_progress=args.no_progress,
     )
-    processor = MatrixProcessor(processor_config)
+    processor = BatchProcessor(processor_config)
 
     return output_writer, reporter, replicate_client, processor
 
 
 def execute_processing(
     args,
-    processor: MatrixProcessor,
+    processor: BatchProcessor,
     prompt_files: List[Tuple[Path, Path]],
-    active_models: List[Dict[str, Any]],
+    profile: Dict[str, Any],
 ) -> bool:
     """Execute main processing logic."""
-    logger.info("Starting matrix processing...")
+    logger.info(f"Starting batch processing with profile '{profile['profile_name']}'...")
 
-    # Create progress bar if not disabled
     progress = None if args.no_progress else create_progress_bar()
 
     if progress:
         with progress:
-            success = processor.process_all(prompt_files, active_models, progress)
+            success = processor.process_all(prompt_files, profile, progress)
     else:
-        success = processor.process_all(prompt_files, active_models, None)
+        success = processor.process_all(prompt_files, profile, None)
 
     return success
 
 
 def estimate_costs(
     prompt_files: List[Tuple[Path, Path]],
-    active_models: List[Dict[str, Any]],
+    profile: Dict[str, Any],
     output_writer: OutputWriter,
 ) -> int:
     """Estimate processing costs without actual execution."""
-    total_combinations = len(prompt_files) * len(active_models)
-    total_cost = 0.0
+    total_files = len(prompt_files)
+    base_cost = profile.get("pricing", {}).get("base_cost", 0.0)
+    total_cost = base_cost * total_files
 
-    for model in active_models:
-        base_cost = model.get("pricing", {}).get("base_cost", 0.0)
-        combinations_per_model = len(prompt_files)
-        model_cost = base_cost * combinations_per_model
-        total_cost += model_cost
-
-        logger.info(
-            f"Profile '{model['profile_name']}': {combinations_per_model} files × ${base_cost:.3f} = ${model_cost:.2f}"
-        )
-
-    logger.info(f"\nTotal: {total_combinations} combinations")
+    logger.info(
+        f"Profile '{profile['profile_name']}': {total_files} files × ${base_cost:.3f} = ${total_cost:.2f}"
+    )
+    logger.info(f"\nTotal: {total_files} files")
     logger.info(f"Estimated cost: ${total_cost:.2f}")
 
-    # Save estimation report
     report_content = f"# Cost Estimation Report\n\n"
-    report_content += f"- Total combinations: {total_combinations}\n"
+    report_content += f"- Profile: {profile['profile_name']}\n"
+    report_content += f"- Total files: {total_files}\n"
     report_content += f"- Estimated total cost: ${total_cost:.2f}\n"
     output_writer.write_report(report_content, "cost_estimation.md")
 
@@ -155,10 +146,10 @@ def estimate_costs(
 
 
 def generate_final_reports(
-    processor: MatrixProcessor,
+    processor: BatchProcessor,
     reporter: Reporter,
     prompt_files: List[Tuple[Path, Path]],
-    active_models: List[Dict[str, Any]],
+    profile: Dict[str, Any],
     success: bool,
 ) -> int:
     """Generate and save final processing reports."""
@@ -167,22 +158,25 @@ def generate_final_reports(
         "failed": processor.failed_count,
         "total_cost": processor.total_cost,
         "total_prompts": len(prompt_files),
-        "total_models": len(active_models),
+        "profile": profile["profile_name"],
     }
 
-    reporter.save_reports(
-        success=success,
-        summary=summary,
-        profiles_with_fixes=None,  # Could extract if needed
-    )
+    profiles_with_fixes = []
+    if profile.get("prompt_prefix") or profile.get("prompt_suffix"):
+        profiles_with_fixes.append({
+            "profile_name": profile["profile_name"],
+            "prompt_prefix": profile.get("prompt_prefix", ""),
+            "prompt_suffix": profile.get("prompt_suffix", ""),
+        })
 
-    # Display summary
-    logger.success(f"✅ Processing complete: {summary['processed']} images generated")
-    logger.info(f"💰 Total cost: ${summary['total_cost']:.2f}")
+    reporter.save_reports(success=success, summary=summary, profiles_with_fixes=profiles_with_fixes if profiles_with_fixes else None)
+
+    logger.success(f"Processing complete: {summary['processed']} images generated")
+    logger.info(f"Total cost: ${summary['total_cost']:.2f}")
 
     if success:
-        logger.success("✅ All operations completed successfully")
+        logger.success("All operations completed successfully")
         return 0
     else:
-        logger.error(f"❌ Failed with {summary['failed']} errors")
+        logger.error(f"Failed with {summary['failed']} errors")
         return 1

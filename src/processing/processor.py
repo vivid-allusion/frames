@@ -1,4 +1,4 @@
-"""Main processing loop with matrix handling."""
+"""Single-profile batch processing loop."""
 
 from pathlib import Path
 from typing import Dict, List, Any, Optional, Tuple
@@ -14,7 +14,6 @@ from .discovery import InputDiscovery
 from .context import (
     ProcessingContext,
     CombinationProcessingContext,
-    BatchProcessingContext,
     ProcessorConfig,
 )
 from .validator import GenericValidator
@@ -22,12 +21,12 @@ from ..exceptions import ValidationError
 from .markdown_parser import extract_all_image_urls
 
 
-class MatrixProcessor:
-    """Process all combinations of markdown files × active models."""
+class BatchProcessor:
+    """Process all input files against a single profile."""
 
     def __init__(self, config: ProcessorConfig):
         """
-        Initialize matrix processor with configuration.
+        Initialize batch processor with configuration.
 
         Args:
             config: ProcessorConfig containing all initialization parameters
@@ -46,75 +45,47 @@ class MatrixProcessor:
     def process_all(
         self,
         prompt_files: List[Tuple[Path, Path]],
-        active_models: List[Dict[str, Any]],
+        profile: Dict[str, Any],
         progress: Optional[Any] = None,
     ) -> bool:
         """
-        Process full matrix of files × models.
+        Process all input files against a single profile.
 
         Args:
             prompt_files: List of tuples (absolute_path, relative_path)
-            active_models: List of model info dictionaries
+            profile: Single profile dictionary
             progress: Optional rich Progress bar
 
         Returns:
             True if all successful, False if any failures
         """
-        # Validate only operational requirements, not parameters
-        self.validator.validate_operational_requirements(active_models)
-
-        total_combinations = len(prompt_files) * len(active_models)
+        total_files = len(prompt_files)
         logger.info(
-            f"Processing {total_combinations} combinations "
-            f"({len(prompt_files)} files × {len(active_models)} profiles)"
+            f"Processing {total_files} files with profile '{profile['profile_name']}'"
         )
 
-        # Initialize progress tracking
-        task_id = self._init_progress(progress, total_combinations)
+        task_id = self._init_progress(progress, total_files)
 
         success = True
-        combination_num = 0
-
-        # Process each model
-        for model_info in active_models:
-            batch_ctx = BatchProcessingContext(
-                prompt_files=prompt_files,
-                models=[model_info],
+        for i, prompt_file_tuple in enumerate(prompt_files):
+            combo_ctx = CombinationProcessingContext(
+                model_info=profile,
+                prompt_file_tuple=prompt_file_tuple,
                 output_dir=self.output_writer.output_dir,
+                combination_num=i + 1,
+                total_combinations=total_files,
                 progress=progress,
                 task_id=task_id,
-                start_combination=combination_num + 1,
             )
-            success = self._process_model_batch(batch_ctx, success)
-            combination_num += len(prompt_files)
+            success = self._process_single_combination(combo_ctx, success)
 
         return success
 
     def _init_progress(self, progress: Optional[Any], total: int) -> Optional[int]:
         """Initialize progress bar if available."""
         if progress:
-            return progress.add_task("Processing matrix", total=total)
+            return progress.add_task("Processing batch", total=total)
         return None
-
-    def _process_model_batch(self, ctx: BatchProcessingContext, success: bool) -> bool:
-        """Process all files for a single model using batch context."""
-        model_info = ctx.models[0]  # Processing one model at a time
-
-        # Process each file for this model (no profile subfolder)
-        total_combinations = len(ctx.prompt_files) * len(ctx.models)
-        for i, prompt_file_tuple in enumerate(ctx.prompt_files):
-            combo_ctx = CombinationProcessingContext(
-                model_info=model_info,
-                prompt_file_tuple=prompt_file_tuple,
-                output_dir=self.output_writer.output_dir,  # Use dated folder directly
-                combination_num=ctx.start_combination + i,
-                total_combinations=total_combinations,
-                progress=ctx.progress,
-                task_id=ctx.task_id,
-            )
-            success = self._process_single_combination(combo_ctx, success)
-
-        return success
 
     def _process_single_combination(
         self, ctx: CombinationProcessingContext, success: bool

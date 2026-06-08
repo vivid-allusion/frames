@@ -395,3 +395,38 @@ Follows AI Model Agnosticism Manifesto perfectly:
 - No hardcoded model logic anywhere in codebase
 - All profile parameters passed to API unchanged
 - Any future parameter automatically supported
+
+## Single-Profile Processing (2025-06-08)
+
+### Feature Complete (100%)
+- **Matrix Pattern Removed**: `MatrixProcessor` → `BatchProcessor`. Tool now processes all inputs against exactly one profile per run.
+- **Class Rename**: `src/processing/processor.py` — `MatrixProcessor` → `BatchProcessor`. All "matrix" terminology purged from codebase.
+- **Entry Point**: `python3 run.py` still works — `run.py` calls `src.main_simple` → `src.orchestrator` → `BatchProcessor`.
+
+### Architectural Changes
+- **Single-profile discovery**: `ConfigLoader.load_active_profile()` (was `load_active_profiles()`) searches `03.PROFILES/` first, falls back to `01.CONFIG/`. Fails fast on 0 or >1 profiles via `sys.exit(1)`.
+- **Removed outer loop**: `BatchProcessor.process_all()` accepts a single `profile: Dict` instead of `active_models: List[Dict]`. No cartesian product.
+- **Dead method deleted**: `_process_model_batch()` removed — processing loop now inline in `process_all()`.
+- **Output dir naming**: `YYMMDD_HHMMSS_IMG-TO-IMG` (was `YYMMDD_HHMMSS_IMAGE`).
+- **Orchestrator**: All functions (`discover_inputs_and_profiles`, `initialize_services`, `execute_processing`, `estimate_costs`, `generate_final_reports`) updated for single `profile: Dict` parameter.
+- **Cost estimation**: N files × 1 profile (was N × M).
+
+### Files Touched
+| File | Change |
+|------|--------|
+| `src/config/loader.py` | `load_active_profiles()` → `load_active_profile()`, 01.CONFIG fallback |
+| `src/processing/processor.py` | Class rename + outer loop removal |
+| `src/processing/context.py` | Docstring only |
+| `src/orchestrator.py` | All function signatures updated |
+| `src/main_simple.py` | Import rename, `active_models` → `profile` |
+| `src/main.py` | Same changes (legacy duplicate) |
+| `src/utils/path_resolver.py` | `_IMAGE` → `_IMG-TO-IMG` |
+| `src/utils/progress.py` | Docstring only |
+
+### Untouched (verified)
+`src/api/client.py`, `src/output/writer.py`, `src/processing/discovery.py`, `src/auth/`
+
+### Pending Minor Cleanup (low priority, non-blocking)
+1. Remove dead `BatchProcessingContext` class from `src/processing/context.py` (no longer used)
+2. Remove dead `GenericValidator` import/instantiation from `src/processing/processor.py` (method no longer called)
+3. Add `01.CONFIG/` fallback to legacy `main.py`'s inline discovery (primary entry `main_simple.py` already has it)

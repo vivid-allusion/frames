@@ -50,7 +50,7 @@ class BatchProcessingContext:
 
 @dataclass
 class ProcessorConfig:
-    """Configuration for MatrixProcessor initialization."""
+    """Configuration for BatchProcessor initialization."""
 
     api_client: Any  # ReplicateClient
     output_writer: Any  # OutputWriter

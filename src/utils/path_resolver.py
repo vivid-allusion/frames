@@ -92,7 +92,7 @@ def create_timestamped_output_path(base_path: Path) -> Path:
     from src.constants import TIMESTAMP_FORMAT
 
     timestamp = datetime.now().strftime(TIMESTAMP_FORMAT)
-    output_path = base_path / f"{timestamp}_IMAGE"
+    output_path = base_path / f"{timestamp}_IMG-TO-IMG"
     output_path.mkdir(parents=True, exist_ok=True)
 
     return output_path

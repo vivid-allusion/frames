@@ -44,7 +44,7 @@ class AliveProgressWrapper:
 
 def create_progress_bar() -> AliveProgressWrapper:
     """
-    Create an alive-progress bar for matrix processing.
+    Create an alive-progress bar for batch processing.
 
     Returns:
         Configured AliveProgressWrapper instance

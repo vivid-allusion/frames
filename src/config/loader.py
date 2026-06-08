@@ -1,5 +1,6 @@
 """Configuration loading for Replicate wrapper."""
 
+import sys
 import yaml
 from pathlib import Path
 from typing import Dict, Any, List
@@ -70,14 +71,39 @@ class ConfigLoader:
         discovery = InputDiscovery(Path("USER-FILES/04.INPUT"), profiles_dir)
         return discovery.discover_profiles()
 
-    def load_active_profiles(self) -> List[Dict[str, Any]]:
+    def load_active_profile(self) -> Dict[str, Any]:
         """
-        Load and return active profiles using InputDiscovery.
+        Load exactly one active profile. Searches 03.PROFILES/ first,
+        falls back to 01.CONFIG/. Fails fast on 0 or >1 profiles.
 
         Returns:
-            List of profile dictionaries
+            Single profile dictionary
+
+        Raises:
+            SystemExit: If 0 or >1 profiles found
         """
         profiles_dir = Path("USER-FILES/03.PROFILES")
         discovery = InputDiscovery(Path("USER-FILES/04.INPUT"), profiles_dir)
-        profiles = discovery.discover_profiles()
-        return discovery.get_active_models(profiles)
+
+        try:
+            profiles = discovery.discover_profiles()
+        except ValueError:
+            logger.warning("No profiles found in 03.PROFILES/, trying 01.CONFIG/...")
+            profiles_dir = Path("USER-FILES/01.CONFIG")
+            discovery = InputDiscovery(Path("USER-FILES/04.INPUT"), profiles_dir)
+            profiles = discovery.discover_profiles()
+
+        active_models = discovery.get_active_models(profiles)
+
+        if len(active_models) == 0:
+            logger.error("No valid profiles found in 03.PROFILES/ or 01.CONFIG/")
+            sys.exit(1)
+
+        if len(active_models) > 1:
+            logger.error(
+                f"Multiple profiles found ({len(active_models)}). Keep only ONE."
+            )
+            sys.exit(1)
+
+        logger.info(f"Using profile: {active_models[0]['profile_name']}")
+        return active_models[0]
