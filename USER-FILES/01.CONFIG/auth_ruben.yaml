@@ -1,5 +1,0 @@
-# 1Password CLI Configuration for Replicate API Authentication
-
-onepassword:
-  item: "API Replicate Ruben" # The 1Password item name containing the API key
-  field: "Api Key" # The field name within the item that contains the API key
