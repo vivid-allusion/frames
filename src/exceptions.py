@@ -2,7 +2,7 @@
 
 
 class AuthenticationError(Exception):
-    """Raised when authentication with 1Password fails."""
+    """Raised when authentication fails."""
 
     pass
 

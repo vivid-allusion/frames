@@ -6,7 +6,7 @@ import json
 from typing import Dict, Any, Optional
 from loguru import logger
 import replicate
-from ..auth.onepassword import get_api_key
+from ..auth import get_api_key
 from ..constants import (
     DEFAULT_TIMEOUT,
     DEFAULT_MAX_RETRIES,
@@ -30,13 +30,13 @@ class ReplicateClient:
         Initialize Replicate client.
 
         Args:
-            api_key: Replicate API token (optional, will use 1Password if not provided)
+            api_key: Replicate API token (optional, will use env var if not provided)
             timeout: Request timeout in seconds
             max_retries: Number of retry attempts
             max_wait_time: Max time to wait for predictions
             rate_limit_retry_delay: Delay when rate limited
         """
-        # Use provided key or get from 1Password
+        # Use provided key or get from environment
         if api_key:
             self.api_key = api_key
         else:

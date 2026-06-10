@@ -4,7 +4,7 @@ import sys
 from typing import Optional, Dict, Any
 from loguru import logger
 
-from .auth.onepassword import ensure_op_auth, get_api_key
+from .auth import get_api_key
 from .exceptions import AuthenticationError, ConfigurationError, ValidationError
 from .cli import parse_args
 from .orchestrator import (
@@ -33,13 +33,12 @@ def setup_environment(args) -> str | None:
 
 def authenticate_for_mode(dry_run: bool) -> str:
     """Handle authentication based on execution mode."""
-    logger.info("Authenticating with 1Password...")
-    ensure_op_auth()
+    logger.info("Authenticating...")
 
     if dry_run:
         logger.info("Validating API key access (dry-run mode)...")
         api_key = get_api_key()
-        logger.success("✅ API key validated successfully")
+        logger.success("API key validated successfully")
     else:
         api_key = get_api_key()
 
@@ -84,7 +83,7 @@ def main():
         # Load configuration
         config, _ = load_and_validate_config()
 
-        # Authenticate with 1Password
+        # Authenticate with Replicate
         api_key = authenticate_for_mode(args.dry_run)
 
         # Discover inputs and profiles
