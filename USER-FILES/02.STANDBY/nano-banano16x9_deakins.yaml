@@ -19,5 +19,5 @@ parameters:
   output_format: "png"
 
 # Fixes
-prompt_prefix: 'A cinematic scene from'
-prompt_suffix: 'As if shot on 35mm film in the style of Roger Deakins. Diagonal room composition. Make the aspect ratio of the generated image the same as provided image'
+#prompt_prefix: 'A cinematic scene from'
+#prompt_suffix: 'As if shot on 35mm film with cinematic lighting. Diagonal room composition. Make the aspect ratio of the generated image the same as provided image'

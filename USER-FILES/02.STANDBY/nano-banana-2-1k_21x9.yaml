@@ -21,4 +21,4 @@ parameters:
 
 # Fixes
 #prompt_prefix: 'A moody, cinematic scene from the '
-#prompt_suffix: 'Handheld shot on 35mm film in the style of Roger Deakins. Diagonal room composition.'
+#prompt_suffix: 'Handheld shot on 35mm film with cinematic lighting. Diagonal room composition.'
