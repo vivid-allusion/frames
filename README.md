@@ -87,7 +87,7 @@ parameters:
 ## Directory Structure
 
 ```
-img-to-img/
+frames/
 ├── run.py                   # Convenience wrapper
 ├── src/
 │   ├── main_simple.py      # Entry point (recommended)
