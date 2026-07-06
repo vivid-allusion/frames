@@ -30,6 +30,12 @@ FATAL_KEYWORDS = [
     "unauthorized",
     "rate limit",
     "ratelimit",
+    "insufficient",
+    "funds",
+    "billing",
+    "payment",
+    "balance",
+    "quota",
 ]
 
 
@@ -159,6 +165,11 @@ class ReplicateClient:
                     time.sleep(self.rate_limit_retry_delay)
                     continue
 
+                error_str = str(e).lower()
+                for keyword in FATAL_KEYWORDS:
+                    if keyword in error_str:
+                        raise FatalAPIError(str(e)) from e
+
                 logger.error(f"Error on attempt {attempt}: {e}")
 
                 if attempt < self.max_retries:
@@ -179,7 +190,7 @@ class ReplicateClient:
         for keyword in RECOVERABLE_KEYWORDS:
             if keyword in error_str:
                 raise RecoverableAPIError(str(error)) from error
-        raise RecoverableAPIError(str(error)) from error
+        raise FatalAPIError(str(error)) from error
 
     def _format_output(self, output: Any) -> Dict[str, Any]:
         """
