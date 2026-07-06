@@ -255,3 +255,32 @@ Follows AI Model Agnosticism Manifesto perfectly:
 - Redundant `ensure_op_cli()` call — `get_api_key()` calls it, then `ensure_op_auth()` calls it again
 - `src/auth/onepassword.py` is a pure re-export (10L) — could inline into `src/auth/__init__.py`
 - `USER-FILES/03.PROFILES/` is empty — tool needs at least 1 profile to function
+
+## Error-to-Image Rendering (2026-07-06)
+
+### Feature Complete (100%)
+- API errors are classified as recoverable (model rejection: NSFW, content policy, etc.) or fatal (auth, network)
+- Recoverable errors render as red-text-on-black-background error images using PIL default font
+- Error images saved as `_ERROR.png` alongside successful outputs
+- Script continues processing after recoverable errors
+- Reports: `SUCCESS.md` (all clean), `PARTIAL_SUCCESS.md` (mixed), `FAILURE.md` (all failed)
+- Resolution sourced from profile YAML `parameters.width`/`parameters.height`, fallback 1024x1024
+
+### Files Touched
+| File | Change |
+|------|--------|
+| `src/output/error_image.py` | New: `generate_error_image()`, `get_image_resolution()` |
+| `src/exceptions.py` | Added `RecoverableAPIError`, `FatalAPIError` |
+| `src/api/client.py` | Added `_classify_and_raise()` with keyword matching |
+| `src/processing/processor.py` | Catch `RecoverableAPIError` → render error image → continue |
+| `src/output/writer.py` | Added `save_error_image()` method |
+| `src/output/reporter.py` | Added `PARTIAL_SUCCESS.md`, derive report type from counts |
+| `src/orchestrator.py` | Updated exit code logic for partial success |
+
+### Known Issues from Post-Feature Audit (2026-07-06)
+1. Error classification default is too permissive: unexpected errors (no keyword match) raised as `RecoverableAPIError` — could mask real infrastructure problems
+2. `FileNotFoundError` in `orchestrator.py:50` escapes the custom exception handler in `main_simple.py` — should use `ConfigurationError`
+3. `processor.py:105` instantiates `InputDiscovery` with dummy dir just to call `load_prompts()` — should be @staticmethod
+4. `reporter.py:162` references `total_models` key never populated in summary — legacy from multi-profile era
+5. `error_image.py:29` hardcodes `char_width = 8` — fragile PIL default font assumption
+6. `src/exceptions.py` has 5 unnecessary `pass` statements after class docstrings

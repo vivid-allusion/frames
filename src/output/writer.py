@@ -4,7 +4,7 @@ import requests
 import re
 import json
 from pathlib import Path
-from typing import Tuple
+from typing import Tuple, Optional
 from datetime import datetime
 from PIL import Image
 from io import BytesIO
@@ -242,6 +242,36 @@ Generated at: {context.timestamp}
         parts = [p.strip("_") for p in parts if p]
 
         return "/".join(parts)
+
+    def save_error_image(
+        self,
+        img: Image.Image,
+        prompt_file_stem: str,
+        relative_path: Optional[Path],
+        model_name: str,
+    ) -> str:
+        """Save a pre-rendered PIL error image with _ERROR suffix."""
+        timestamp = datetime.now().strftime("%H%M%S")
+        date_str = (
+            self.output_dir.name
+            if self.output_dir.name.isdigit()
+            and len(self.output_dir.name) >= 6
+            else datetime.now().strftime("%y%m%d")
+        )
+        filename = f"{prompt_file_stem}-{date_str}_{timestamp}_ERROR.png"
+
+        save_dir = self.output_dir
+        if relative_path:
+            parent_path = relative_path.parent
+            if parent_path != Path("."):
+                sanitized_path = self._sanitize_path(str(parent_path))
+                save_dir = save_dir / sanitized_path
+                save_dir.mkdir(parents=True, exist_ok=True)
+
+        save_path = save_dir / filename
+        img.save(save_path)
+        logger.info(f"Saved error image: {save_path}")
+        return str(save_path)
 
     def write_report(self, content: str, filename: str) -> None:
         """

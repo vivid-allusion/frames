@@ -163,13 +163,23 @@ def generate_final_reports(
             "prompt_suffix": profile.get("prompt_suffix", ""),
         })
 
-    reporter.save_reports(success=success, summary=summary, profiles_with_fixes=profiles_with_fixes if profiles_with_fixes else None)
+    reporter.save_reports(
+        success=summary["failed"] == 0,
+        summary=summary,
+        profiles_with_fixes=profiles_with_fixes if profiles_with_fixes else None,
+    )
 
-    logger.success(f"Processing complete: {summary['processed']} images generated")
+    logger.success(
+        f"Processing complete: {summary['processed']} images generated, "
+        f"{summary['failed']} errors"
+    )
     logger.info(f"Total cost: ${summary['total_cost']:.2f}")
 
-    if success:
-        logger.success("All operations completed successfully")
+    if summary["processed"] > 0:
+        if summary["failed"] > 0:
+            logger.warning(f"Some images failed — see PARTIAL_SUCCESS.md")
+        else:
+            logger.success("All operations completed successfully")
         return 0
     else:
         logger.error(f"Failed with {summary['failed']} errors")

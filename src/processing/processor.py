@@ -6,7 +6,6 @@ from datetime import datetime
 import time
 from loguru import logger
 
-# Progress handling moved to utils.progress
 from .discovery import InputDiscovery
 from .context import (
     ProcessingContext,
@@ -15,6 +14,8 @@ from .context import (
 )
 from .markdown_parser import extract_all_image_urls
 from ..output.context import ImageSaveContext
+from ..output.error_image import generate_error_image, get_image_resolution
+from ..exceptions import RecoverableAPIError, FatalAPIError
 
 
 class BatchProcessor:
@@ -138,11 +139,15 @@ class BatchProcessor:
         # Process with context
         try:
             self._process_with_context(context)
+        except RecoverableAPIError as e:
+            logger.error(f"Recoverable error for {relative_path} + {profile_name}: {e}")
+            self.failed_count += 1
+            success = False
+            self._render_and_save_error_image(context, str(e))
         except Exception as e:
             logger.error(f"Failed processing {relative_path} + {profile_name}: {e}")
             self.failed_count += 1
             success = False
-            # Fail-fast philosophy
             raise
 
         return success
@@ -201,41 +206,49 @@ class BatchProcessor:
         self, prompt: str, context: ProcessingContext, base_cost: float
     ) -> None:
         """Generate image and save to disk."""
-        try:
-            # Generate image with pure parameter pass-through
-            response = self.replicate_client.generate_image(
-                model_id=context.model_id,
-                prompt=prompt,
-                params=context.params,  # All profile parameters passed through
-            )
+        response = self.replicate_client.generate_image(
+            model_id=context.model_id,
+            prompt=prompt,
+            params=context.params,
+        )
 
-            # Extract result and payload
-            result = response["result"]
-            payload = response["payload"]
+        result = response["result"]
+        payload = response["payload"]
 
-            # Save image
-            timestamp = datetime.now().strftime("%H%M%S")
+        timestamp = datetime.now().strftime("%H%M%S")
 
-            save_context = ImageSaveContext(
-                image_url=result["images"][0]["url"],
-                timestamp=timestamp,
-                prompt_file_name=context.prompt_file.stem,
-                model_name=context.profile_name,
-                output_dir=context.output_dir,
-                relative_path=context.relative_path,
-                payload=payload if self.save_payloads else None,
-            )
-            filename = self.output_writer.save_image(save_context)
+        save_context = ImageSaveContext(
+            image_url=result["images"][0]["url"],
+            timestamp=timestamp,
+            prompt_file_name=context.prompt_file.stem,
+            model_name=context.profile_name,
+            output_dir=context.output_dir,
+            relative_path=context.relative_path,
+            payload=payload if self.save_payloads else None,
+        )
+        filename = self.output_writer.save_image(save_context)
 
-            self.processed_count += 1
-            self.total_cost += base_cost
+        self.processed_count += 1
+        self.total_cost += base_cost
 
-            logger.info(f"Saved image: {filename}")
+        logger.info(f"Saved image: {filename}")
 
-        except Exception as e:
-            logger.error(f"Failed to generate image for {context.relative_path}: {e}")
-            self.failed_count += 1
-            raise
+    def _render_and_save_error_image(
+        self, context: ProcessingContext, error_message: str
+    ) -> None:
+        """Render error as image and save alongside successful outputs."""
+        params = context.params
+        prompt = context.prompts[0] if context.prompts else ""
+
+        width, height = get_image_resolution(params)
+        error_img = generate_error_image(error_message, prompt, width, height)
+
+        self.output_writer.save_error_image(
+            error_img,
+            prompt_file_stem=context.prompt_file.stem,
+            relative_path=context.relative_path,
+            model_name=context.profile_name,
+        )
 
     def get_summary(self) -> Dict[str, Any]:
         """Get processing summary."""

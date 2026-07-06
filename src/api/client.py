@@ -13,6 +13,24 @@ from ..constants import (
     DEFAULT_MAX_WAIT_TIME,
     DEFAULT_RATE_LIMIT_RETRY_DELAY,
 )
+from ..exceptions import RecoverableAPIError, FatalAPIError
+
+
+RECOVERABLE_KEYWORDS = [
+    "nsfw",
+    "safety",
+    "content policy",
+    "violates",
+    "inappropriate",
+    "rejected",
+]
+
+FATAL_KEYWORDS = [
+    "authentication",
+    "unauthorized",
+    "rate limit",
+    "ratelimit",
+]
 
 
 class ReplicateClient:
@@ -115,20 +133,17 @@ class ReplicateClient:
             try:
                 logger.debug(f"API call attempt {attempt}/{self.max_retries}")
 
-                # Log the EXACT payload being sent to replicate.run
                 logger.debug(
                     f"CRITICAL DEBUG - Payload sent to replicate.run: {json.dumps(payload, indent=2)}"
                 )
                 logger.debug(f"Calling replicate.run('{model_id}', input={{...}})")
                 logger.debug(f"Input keys: {list(payload.keys())}")
 
-                # Use replicate.run for synchronous execution
                 output = replicate.run(model_id, input=payload)
 
                 logger.debug(f"replicate.run() completed successfully!")
                 logger.debug(f"Output type: {type(output)}")
 
-                # Convert output to consistent format
                 result = self._format_output(output)
 
                 logger.debug("API call successful")
@@ -137,7 +152,6 @@ class ReplicateClient:
             except Exception as e:
                 last_error = e
 
-                # Check if it's a rate limit error
                 if "429" in str(e) or "rate" in str(e).lower():
                     logger.warning(
                         f"Rate limited, waiting {self.rate_limit_retry_delay}s..."
@@ -145,18 +159,27 @@ class ReplicateClient:
                     time.sleep(self.rate_limit_retry_delay)
                     continue
 
-                # Other errors
                 logger.error(f"Error on attempt {attempt}: {e}")
 
                 if attempt < self.max_retries:
-                    wait_time = 2**attempt  # Exponential backoff
+                    wait_time = 2**attempt
                     logger.info(f"Retrying in {wait_time}s...")
                     time.sleep(wait_time)
                 else:
-                    raise
+                    self._classify_and_raise(last_error)
 
-        # All retries exhausted
-        raise Exception(f"Failed after {self.max_retries} attempts: {last_error}")
+        self._classify_and_raise(last_error)
+
+    def _classify_and_raise(self, error: Exception) -> None:
+        """Classify error as recoverable or fatal and raise appropriate exception."""
+        error_str = str(error).lower()
+        for keyword in FATAL_KEYWORDS:
+            if keyword in error_str:
+                raise FatalAPIError(str(error)) from error
+        for keyword in RECOVERABLE_KEYWORDS:
+            if keyword in error_str:
+                raise RecoverableAPIError(str(error)) from error
+        raise RecoverableAPIError(str(error)) from error
 
     def _format_output(self, output: Any) -> Dict[str, Any]:
         """
