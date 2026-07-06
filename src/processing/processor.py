@@ -144,11 +144,13 @@ class BatchProcessor:
             self.failed_count += 1
             success = False
             self._render_and_save_error_image(context, str(e))
+        except FatalAPIError:
+            raise
         except Exception as e:
-            logger.error(f"Failed processing {relative_path} + {profile_name}: {e}")
+            logger.error(f"Unexpected error for {relative_path} + {profile_name}: {e}")
             self.failed_count += 1
             success = False
-            raise
+            self._render_and_save_error_image(context, str(e))
 
         return success
 
@@ -238,7 +240,10 @@ class BatchProcessor:
     ) -> None:
         """Render error as image and save alongside successful outputs."""
         params = context.params
-        prompt = context.prompts[0] if context.prompts else ""
+        raw_prompt = context.prompts[0] if context.prompts else ""
+        prompt = self._apply_prompt_fixes(
+            raw_prompt, context.prompt_prefix, context.prompt_suffix
+        )
 
         width, height = get_image_resolution(params)
         error_img = generate_error_image(error_message, prompt, width, height)

@@ -23,6 +23,8 @@ RECOVERABLE_KEYWORDS = [
     "violates",
     "inappropriate",
     "rejected",
+    "flagged",
+    "sensitive",
 ]
 
 FATAL_KEYWORDS = [
