@@ -97,9 +97,9 @@ class BatchProcessor:
         try:
             image_urls = extract_all_image_urls(markdown_content)
             logger.debug(f"Extracted {len(image_urls)} image URL(s) from markdown: {image_urls}")
-        except ValueError as e:
-            logger.error(f"No image URLs found in {prompt_file.name}")
-            raise
+        except ValueError:
+            logger.debug(f"No image URLs found in {prompt_file.name} — treating as text-to-image")
+            image_urls = []
 
         # Load prompts (extracts from code block)
         discovery = InputDiscovery(prompt_file.parent, Path("dummy"))
