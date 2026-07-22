@@ -26,7 +26,7 @@ def setup_environment(args) -> str | None:
         verbose=args.verbose if hasattr(args, "verbose") else False, debug=args.debug
     )
     logger.info("=" * 60)
-    logger.info("Text-to-Image Generator v2.0.0")
+    logger.info("Vivid Allusion Frame Composer v2.0.0")
     logger.info("=" * 60)
     return None
 

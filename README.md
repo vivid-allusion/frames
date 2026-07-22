@@ -1,4 +1,4 @@
-# Vivid Allusion Frames
+# Vivid Allusion Frame Composer
 
 ## Purpose
 A **model-agnostic** Python wrapper for Replicate's image generation API that processes markdown prompt files in a batch fashion against a single active profile. Following the [AI Model Agnosticism Manifesto](USER-FILES/07.TEMP/ADD%20IMAGE%20REF/ai_model_agnosticism_manifesto.md), this tool supports any model through profiles only - no code changes required.
@@ -87,7 +87,7 @@ parameters:
 ## Directory Structure
 
 ```
-frames/
+frame-composer/
 ├── run.py                   # Convenience wrapper
 ├── src/
 │   ├── main_simple.py      # Entry point (recommended)

@@ -1,5 +1,5 @@
 wrapper:
-  name: "Text-to-Image Generator"
+  name: "Frame Composer"
   version: "2.0.0"
   timeout: 120
   max_retries: 3
